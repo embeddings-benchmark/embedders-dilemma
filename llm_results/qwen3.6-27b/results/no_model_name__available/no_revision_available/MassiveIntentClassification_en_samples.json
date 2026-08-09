@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "i need you to mark next monday",
+        "model_raw_output": "{\n\"reasoning\": \"The user's request 'i need you to mark next monday' implies creating an event, reminder, or note for a specific date. This action corresponds to setting or adding information to a calendar.\",\n\"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "let's play my most played song list",
+        "model_raw_output": "{\n    \"reasoning\": \"The user explicitly requests to 'play' a collection of songs ('most played song list'). This indicates a desire to start audio playback of music, which corresponds to the 'play_music' intent.\",\n    \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "disable alarm for three p. m.",
+        "model_raw_output": "{\n    \"reasoning\": \"The user wants to disable an alarm set for 3 PM. 'Disable' implies removing or turning off a scheduled alarm. Among the available intents, 'alarm_remove' is the best fit for canceling or disabling an existing alarm.\",\n    \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "cancel alarm",
+        "model_raw_output": "{\n    \"reasoning\": \"The user's utterance 'cancel alarm' indicates a desire to delete or stop an existing alarm. This directly matches the definition of the 'alarm_remove' intent.\",\n    \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "remind me about my schedule for the afternoon",
+        "model_raw_output": "{\n    \"reasoning\": \"The user is asking to be reminded of their schedule for a specific time (the afternoon). This implies checking a calendar for upcoming events or appointments.\",\n    \"output\": \"calendar_query\"\n}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

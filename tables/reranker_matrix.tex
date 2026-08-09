@@ -1,0 +1,29 @@
+% Retrieve-then-rerank matrix on BEIR + BRIGHT (auto-generated)
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{First stage} & \textbf{Pure} & \textbf{BGE-Gemma} & \textbf{Qwen3-RR-4B} & \textbf{Qwen3-RR-8B} & \textbf{Qwen3.6-27B$^\dagger$} & \textbf{Qwen3.6-35B$^\dagger$} \\
+\midrule
+\multicolumn{7}{l}{\emph{BRIGHT (reasoning)}} \\
+BM25 & 10.2 & 18.2 & 22.0 & 21.9 & \textbf{24.2} & 23.5 \\
+BGE-large & 15.9 & 18.9 & 22.7 & 21.5 & \textbf{27.6} & 26.1 \\
+GTE-MC-v1 & 15.9 & 19.2 & 23.9 & 23.0 & \textbf{28.8} & 27.9 \\
+Qwen3-E-8B & 22.3 & 20.6 & 26.4 & 24.6 & \textbf{35.1} & 33.6 \\
+\midrule
+\multicolumn{7}{l}{\emph{BEIR (semantic)}} \\
+BM25 & 39.8 & 50.5 & \textbf{53.2} & 52.5 & 52.1 & 51.1 \\
+BGE-large & 52.7 & 55.3 & \textbf{58.6} & 57.6 & 57.6 & 56.2 \\
+GTE-MC-v1 & 53.7 & 55.0 & \textbf{58.5} & 58.5 & 57.5 & 56.9 \\
+Qwen3-E-8B & \textbf{63.1} & 56.8 & 60.3 & 59.5 & 58.9 & 58.9 \\
+\bottomrule
+\end{tabular}
+}
+\caption{\textbf{Retrieve-then-rerank matrix.} Average nDCG@10 for first-stage retrievers
+crossed with cross-encoder and LLM listwise ($\dagger$) rerankers over 7 BRIGHT and 5 BEIR tasks. Bold = best per row.
+An LLM reranker improves Qwen3-E-8B on BRIGHT (22.3$\to$35.1); on BEIR, the embedding alone scores highest (63.1).}
+\label{tab:reranker_matrix}
+\end{table*}

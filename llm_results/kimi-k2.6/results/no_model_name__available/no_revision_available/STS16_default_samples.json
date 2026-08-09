@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "in the us , it will depend on the school .",
+    "sentence2": "it really depends on the school and the program .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the core meaning that an outcome is determined by the school. However, Sentence 1 restricts the context to the US and uses future tense ('will depend'), while Sentence 2 broadens the dependencies to include 'the program' and adds emphasis ('really'). These differences in scope, context, and tense create a meaningful but moderate semantic gap.\",\n  \"output\": 3.0\n}",
+    "reasoning": "Both sentences share the core meaning that an outcome is determined by the school. However, Sentence 1 restricts the context to the US and uses future tense ('will depend'), while Sentence 2 broadens the dependencies to include 'the program' and adds emphasis ('really'). These differences in scope, context, and tense create a meaningful but moderate semantic gap.",
+    "predicted_sim": 3.0,
+    "gold_score": 3.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "there 's also what the string is made of .",
+    "sentence2": "there is also a youtube-version of the film .",
+    "model_raw_output": "{\n  \"reasoning\": \"While both sentences share a superficial syntactic structure ('there is/there's also'), they are semantically unrelated. Sentence 1 concerns the material composition of a physical string, whereas Sentence 2 refers to a digital version of a film on YouTube. They share no topical overlap, entities, or meaningful concepts.\",\n  \"output\": 0.0\n}",
+    "reasoning": "While both sentences share a superficial syntactic structure ('there is/there's also'), they are semantically unrelated. Sentence 1 concerns the material composition of a physical string, whereas Sentence 2 refers to a digital version of a film on YouTube. They share no topical overlap, entities, or meaningful concepts.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "you also imply you may not be paid if they cannot place you with a client .",
+    "sentence2": "you can do it , but you might not be a professor .",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences share only superficial grammatical features (second person, modal verbs expressing uncertainty: 'may not'/'might not'). Semantically, they are entirely unrelated. Sentence 1 concerns conditional payment and employment placement with a client. Sentence 2 concerns the possibility of doing something without becoming a professor. There is no overlap in topic, propositional content, or intent.\",\n  \"output\": 0.1\n}",
+    "reasoning": "The two sentences share only superficial grammatical features (second person, modal verbs expressing uncertainty: 'may not'/'might not'). Semantically, they are entirely unrelated. Sentence 1 concerns conditional payment and employment placement with a client. Sentence 2 concerns the possibility of doing something without becoming a professor. There is no overlap in topic, propositional content, or intent.",
+    "predicted_sim": 0.1,
+    "gold_score": 0.0,
+    "abs_diff": 0.1
+  },
+  {
+    "sentence1": "you do not need to worry .",
+    "sentence2": "you don 't have to worry .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences reassure the listener that worrying is unnecessary. The phrases 'do not need to' and 'don't have to' are semantically equivalent expressions of absent necessity/obligation in this context, and the contraction 'don't' vs 'do not' is purely orthographic. There is no meaningful difference in intent, implication, or denotation.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences reassure the listener that worrying is unnecessary. The phrases 'do not need to' and 'don't have to' are semantically equivalent expressions of absent necessity/obligation in this context, and the contraction 'don't' vs 'do not' is purely orthographic. There is no meaningful difference in intent, implication, or denotation.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "you should do it .",
+    "sentence2": "you should do what it says .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences are advisory in nature, directed at 'you', and use the modal 'should do,' giving them a similar pragmatic force and surface structure. However, they differ substantially in their propositional content: Sentence 1 urges the performance of a specific action ('it'), whereas Sentence 2 urges compliance with instructions issued by some entity or text ('what it says'). While thematically related as exhortations to act, the objects of the advice are semantically distinct, making the meanings overlap only partially.\",\n  \"output\": 2.3\n}",
+    "reasoning": "Both sentences are advisory in nature, directed at 'you', and use the modal 'should do,' giving them a similar pragmatic force and surface structure. However, they differ substantially in their propositional content: Sentence 1 urges the performance of a specific action ('it'), whereas Sentence 2 urges compliance with instructions issued by some entity or text ('what it says'). While thematically related as exhortations to act, the objects of the advice are semantically distinct, making the meanings overlap only partially.",
+    "predicted_sim": 2.3,
+    "gold_score": 3.0,
+    "abs_diff": 0.7000000000000002
+  }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Schicke an den Motorrad-Chat eine Videonachricht",
+        "model_raw_output": "<think>The user said in German: \"Schicke an den Motorrad-Chat eine Videonachricht\" which translates to \"Send a video message to the motorcycle chat\"\n\nThis is clearly about sending a video message to a specific chat group called \"Motorrad-Chat\" (motorcycle chat).\n\nThis is a messaging intent - the user wants to send a video message (which is a multimedia message) to a specific chat. The domain is messaging.\n\nI need to respond with JSON containing:\n1. 'reasoning': explanation of why I classified it this way\n2. 'output': the domain name\n</think>{\n  \"reasoning\": \"The user wants to send a video message to a specific chat group called 'Motorrad-Chat' (motorcycle chat). This is a messaging action - sending multimedia content to a chat/conversation. The intent is clearly about messaging, specifically sending a video message to a contact or group.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "Rufe Loren an",
+        "model_raw_output": "<think>The user says \"Rufe Loren an\" which is German and translates to \"Call Loren\" in English. This is clearly a request to make a phone call to a contact named \"Loren\". \n\nThe intent domain here is \"calling\" as it's about making a phone call.\n\nLet me output the JSON with the required fields.\n</think>{\"reasoning\": \"The phrase 'Rufe Loren an' is German for 'Call Loren'. The user is clearly requesting to make a phone call to a contact named Loren. This falls under the 'calling' intent domain.\", \"output\": \"calling\"}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Stelle meinen Status als vielleicht ein f\u00fcr das zweite Event",
+        "model_raw_output": "<think>Let me analyze this German utterance: \"Stelle meinen Status als vielleicht ein f\u00fcr das zweite Event\"\n\nThis translates to: \"Set my status as perhaps on for the second event\"\n\nThe user is asking to set their status (presumably a calendar or availability status) for an event. This is clearly related to scheduling or calendar events.\n\nThe intent domain is about events/calendar management - setting a status for an event. This would fall under 'event' domain.\n\nKey indicators:\n- \"Status\" - status/availability\n- \"Event\" - specifically mentions event\n- Setting status for a specific event number\n\nThis is definitely an 'event' domain intent.\n</think>{\"reasoning\":\"The utterance 'Stelle meinen Status als vielleicht ein f\u00fcr das zweite Event' translates to 'Set my status as perhaps on for the second event'. The user is asking to set their availability/status for a specific event (the second event). This is clearly related to calendar/event management - specifically setting a status/availability for an event. The key domain indicators are 'Status' and 'Event', which point to event-related functionality.\",\"output\":\"event\"}",
+        "parsed_output": "event",
+        "ground_truth": "event",
+        "is_correct": true
+    },
+    {
+        "input_text": "Rufe Josiah \u00fcber WhatsApp an",
+        "model_raw_output": "<think>Let me analyze this task-oriented utterance: \"Rufe Josiah \u00fcber WhatsApp an\"\n\nThis is German and translates to \"Call Josiah via WhatsApp\" in English.\n\nThe user wants to make a call, specifically through WhatsApp (a messaging app). The primary intent is \"calling\" - making a phone call. The fact that it's through WhatsApp doesn't change the domain - it's still about making a call, just through a different platform/channel.\n\nLet me classify this:\n- The main action is \"call\" (anrufen)\n- The platform mentioned is WhatsApp\n- This falls under the 'calling' domain\n\nMy response should be:\n- 'reasoning': Explain why this is a calling intent\n- 'output': 'calling'\n</think>{\"reasoning\": \"The utterance 'Rufe Josiah \u00fcber WhatsApp an' (Call Josiah via WhatsApp) is a request to make a phone call. Although the specific platform mentioned is WhatsApp (a messaging application), the core action being requested is a phone call. The intent is clearly about initiating a call to a contact named Josiah, making this a 'calling' domain task.\", \"output\": \"calling\"}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Starte einen Timer f\u00fcr das Kalbsfleisch",
+        "model_raw_output": "<think>The user said in German: \"Starte einen Timer f\u00fcr das Kalbsfleisch\" which translates to \"Start a timer for the veal\" or \"Start a timer for the calf meat\". This is clearly a request to start a timer. The intent domain is \"timer\".\n\nI need to output JSON with fields 'reasoning' and 'output'.\n\n- Reasoning: The user asks to start a timer, which is a timer-related request.\n- Output: The intent domain is 'timer'.\n</think>{\"reasoning\":\"The user explicitly requests to start a timer for a specific item (the veal), which directly maps to the timer intent domain.\",\"output\":\"timer\"}",
+        "parsed_output": "timer",
+        "ground_truth": "timer",
+        "is_correct": true
+    }
+]

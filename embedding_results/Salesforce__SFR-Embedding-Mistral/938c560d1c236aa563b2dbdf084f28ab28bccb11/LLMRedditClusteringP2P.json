@@ -1,0 +1,28 @@
+{
+  "dataset_revision": "298518f04f9f2a5849282dd20e43672172428790",
+  "task_name": "LLMRedditClusteringP2P",
+  "mteb_version": "2.11.6",
+  "scores": {
+    "test": [
+      {
+        "v_measure": 0.765016,
+        "v_measure_std": 0.133413,
+        "v_measures": [
+          0.825073,
+          0.759649,
+          0.883438,
+          0.510603,
+          0.846319
+        ],
+        "main_score": 0.765016,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 26.593553066253662,
+  "kg_co2_emissions": null,
+  "date": 1774411634.108258
+}

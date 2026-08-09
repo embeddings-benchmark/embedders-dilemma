@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "in the us , it will depend on the school .",
+    "sentence2": "it really depends on the school and the program .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey that an outcome is not fixed and depends on the specific educational context. Sentence 1 specifies the geographic context of the US, whereas Sentence 2 adds 'the program' as an additional variable and uses the intensifier 'really'. They are semantically very close in their message about situational variability.\",\n  \"output\": 3.8\n}",
+    "reasoning": "Both sentences convey that an outcome is not fixed and depends on the specific educational context. Sentence 1 specifies the geographic context of the US, whereas Sentence 2 adds 'the program' as an additional variable and uses the intensifier 'really'. They are semantically very close in their message about situational variability.",
+    "predicted_sim": 3.8,
+    "gold_score": 3.0,
+    "abs_diff": 0.7999999999999998
+  },
+  {
+    "sentence1": "there 's also what the string is made of .",
+    "sentence2": "there is also a youtube-version of the film .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share a common introductory grammatical structure ('there is also'), but they describe completely different and unrelated subjects: the composition of a string versus the availability of a film on YouTube.\",\n  \"output\": 0.4\n}",
+    "reasoning": "Both sentences share a common introductory grammatical structure ('there is also'), but they describe completely different and unrelated subjects: the composition of a string versus the availability of a film on YouTube.",
+    "predicted_sim": 0.4,
+    "gold_score": 0.0,
+    "abs_diff": 0.4
+  },
+  {
+    "sentence1": "you also imply you may not be paid if they cannot place you with a client .",
+    "sentence2": "you can do it , but you might not be a professor .",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences are largely unrelated in meaning and context. Sentence 1 discusses the risk of not being paid in a consulting or agency-based employment scenario, while Sentence 2 discusses the possibility of performing an action without achieving the status of a professor. They share a very loose connection in that both describe conditional outcomes in a professional setting, but the semantic overlap is minimal.\",\n  \"output\": 0.8\n}",
+    "reasoning": "The two sentences are largely unrelated in meaning and context. Sentence 1 discusses the risk of not being paid in a consulting or agency-based employment scenario, while Sentence 2 discusses the possibility of performing an action without achieving the status of a professor. They share a very loose connection in that both describe conditional outcomes in a professional setting, but the semantic overlap is minimal.",
+    "predicted_sim": 0.8,
+    "gold_score": 0.0,
+    "abs_diff": 0.8
+  },
+  {
+    "sentence1": "you do not need to worry .",
+    "sentence2": "you don 't have to worry .",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences express the exact same sentiment using slightly different phrasing. 'Do not need to' and 'don't have to' are semantically equivalent in this context, and 'don't' is simply a contraction of 'do not'.\",\n  \"output\": 4.9\n}",
+    "reasoning": "The two sentences express the exact same sentiment using slightly different phrasing. 'Do not need to' and 'don't have to' are semantically equivalent in this context, and 'don't' is simply a contraction of 'do not'.",
+    "predicted_sim": 4.9,
+    "gold_score": 5.0,
+    "abs_diff": 0.09999999999999964
+  },
+  {
+    "sentence1": "you should do it .",
+    "sentence2": "you should do what it says .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences are directives or advice using the same syntactic structure ('you should do...'). Sentence 1 uses the generic pronoun 'it' to refer to an unspecified action, while Sentence 2 specifies that the action involves following instructions ('what it says'). While they share a common intent of recommending an action, Sentence 2 is more specific about the nature of that action.\",\n  \"output\": 3.2\n}",
+    "reasoning": "Both sentences are directives or advice using the same syntactic structure ('you should do...'). Sentence 1 uses the generic pronoun 'it' to refer to an unspecified action, while Sentence 2 specifies that the action involves following instructions ('what it says'). While they share a common intent of recommending an action, Sentence 2 is more specific about the nature of that action.",
+    "predicted_sim": 3.2,
+    "gold_score": 3.0,
+    "abs_diff": 0.20000000000000018
+  }
+]

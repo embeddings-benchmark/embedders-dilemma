@@ -1,0 +1,73 @@
+% Dataset overview (auto-generated from token_counts_per_task.csv + TASK_META)
+\begin{table}[h]
+\centering
+\small
+\setlength{\tabcolsep}{3pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llrcll}
+\toprule
+\textbf{Task} & \textbf{Lang.} & \textbf{N} & \textbf{Cls.} & \textbf{Metric} & \textbf{Source} \\
+\midrule
+\addlinespace[4pt]
+\multicolumn{6}{l}{\textit{Classification (8 tasks)}} \\
+\addlinespace[2pt]
+ImdbCls & en & 500 & 2 & Acc. & \citet{maas2011learning} \\
+Banking77Cls & en & 3k & 77 & Acc. & \citet{casanueva2020banking77} \\
+AmazonCounterfactualCls & en, de, ja & 809 & 2 & Acc. & \citet{oneill2021counterfactual} \\
+MTOPDomainCls & en, de, fr & 2k & 11 & Acc. & \citet{li2021mtop} \\
+MassiveIntentCls & en, de, fr, ja & 4k & 60 & Acc. & \citet{fitzgerald2022massive} \\
+MassiveScenarioCls & en, de, fr, ja & 3k & 18 & Acc. & \citet{fitzgerald2022massive} \\
+ToxicConversationsCls & en & 500 & 2 & Acc. & \citet{borkan2019nuanced} \\
+TweetSentimentCls & en & 500 & 3 & Acc. & \citet{muennighoff2023mteb} \\
+\addlinespace[4pt]
+\multicolumn{6}{l}{\textit{Semantic Textual Similarity (10 tasks)}} \\
+\addlinespace[2pt]
+STSBenchmark & en & 500 & -- & Spearman & \citet{cer2017semeval} \\
+SICK-R & en & 500 & -- & Spearman & \citet{marelli2014sick} \\
+STS12 & en & 500 & -- & Spearman & \citet{agirre2012semeval} \\
+STS13 & en & 500 & -- & Spearman & \citet{agirre2012semeval} \\
+STS14 & en & 500 & -- & Spearman & \citet{agirre2012semeval} \\
+STS15 & en & 500 & -- & Spearman & \citet{agirre2016semeval} \\
+STS16 & en & 500 & -- & Spearman & \citet{agirre2016semeval} \\
+BIOSSES & en & 100 & -- & Spearman & \citet{sougancioglu2017biosses} \\
+STS17 & en, de, es, fr & 1k & -- & Spearman & \citet{cer2017semeval} \\
+STS22v2 & en, de, es, fr, ru, zh & 2k & -- & Spearman & \citet{chen2022semeval} \\
+\addlinespace[4pt]
+\multicolumn{6}{l}{\textit{Clustering (9 tasks)}} \\
+\addlinespace[2pt]
+RedditClustP2P & en & 1k & -- & V-meas. & \citet{muennighoff2023mteb} \\
+TwentyNewsgroupsV2 & en & 1k & -- & V-meas. & \citet{muennighoff2023mteb} \\
+StackExchangeClustP2PV2 & en & 1k & -- & V-meas. & \citet{muennighoff2023mteb} \\
+StackExchangeClustV2 & en & 1k & -- & V-meas. & \citet{muennighoff2023mteb} \\
+ArxivClustP2P & en & 1k & -- & V-meas. & \citet{muennighoff2023mteb} \\
+ArxivClustS2S & en & 1k & -- & V-meas. & \citet{muennighoff2023mteb} \\
+BiorxivClustP2PV2 & en & 1k & -- & V-meas. & \citet{muennighoff2023mteb} \\
+MedrxivClustP2PV2 & en & 1k & -- & V-meas. & \citet{muennighoff2023mteb} \\
+MedrxivClustS2SV2 & en & 1k & -- & V-meas. & \citet{muennighoff2023mteb} \\
+\addlinespace[4pt]
+\multicolumn{6}{l}{\textit{Pair Classification (4 tasks)}} \\
+\addlinespace[2pt]
+SprintDuplicateQuestionsPC & en & 500 & 2 & Avg.~Prec. & \citet{shah2018adversarial} \\
+TwitterURLCorpusPC & en & 500 & 2 & Avg.~Prec. & \citet{lan2017continuously} \\
+LegalBenchPC & en & 500 & 2 & Avg.~Prec. & \citet{guha2023legalbench} \\
+RTE3PC & de, en, fr, it & 2k & 2 & Avg.~Prec. & \citet{giampiccolo2007third} \\
+\addlinespace[4pt]
+\multicolumn{6}{l}{\textit{Retrieval (6 tasks)}} \\
+\addlinespace[2pt]
+AILAStatutes & en & 50\,Q / 82\,C & -- & Recall@1 & \citet{enevoldsen2025mmtebmassivemultilingualtext} \\
+FQuADRetrieval & fr & 100\,Q / 269\,C & -- & Recall@1 & \citet{dhoffschmidt2020fquad} \\
+HC3FinanceRetrieval & en & 100\,Q / 415\,C & -- & Recall@1 & \citet{guo2023hc3} \\
+LegalBenchConsumerContractsQA & en & 100\,Q / 154\,C & -- & Recall@1 & \citet{guha2023legalbench} \\
+PublicHealthQA & en & 100\,Q / 172\,C & -- & Recall@1 & HF dataset \\
+TwitterHjerneRetrieval & da & 77\,Q / 262\,C & -- & Recall@1 & \citet{holm2024danoliterate} \\
+\bottomrule
+\end{tabular}
+}
+\caption{\textbf{\mteblm{} task suite (37 tasks).}
+N = held-out test samples (summed over languages for multilingual tasks);
+Q = queries, C = corpus documents.
+Multilingual tasks are evaluated per language and averaged. Held-out subsets
+(seed 42) derived from MTEB and MMTEB tasks \citep{muennighoff2023mteb,enevoldsen2025mmtebmassivemultilingualtext},
+hosted at \texttt{mteb/llm-eval-*}. Token counts: Table~\ref{tab:token_budget}.}
+\label{tab:datasets}
+\end{table}

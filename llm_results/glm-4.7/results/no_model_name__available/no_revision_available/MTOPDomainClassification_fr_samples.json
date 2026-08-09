@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "R\u00e9pondez par SMS \u00e0 la discussion sur la f\u00eate du futur mari\u00e9",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance explicitly instructs to reply 'par SMS' (by SMS) to a discussion. While the topic involves an event (a bachelor party), the primary action requested is sending a text message, which falls under the messaging domain.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "Je voudrais que tu, je voudrais envoyer un message vid\u00e9o \u00e0 Len sur Messagerie",
+        "model_raw_output": "{\n  \"reasoning\": \"The user explicitly requests to 'envoyer un message vid\u00e9o' (send a video message) to a contact named Len. Sending messages, whether text or video, falls under the messaging domain.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "J\u2019aimerais faire un appel vid\u00e9o avec Kennedy Gardner et Alejandro Potts sur WhatsApp",
+        "model_raw_output": "{\n  \"reasoning\": \"The user explicitly requests to make a video call ('faire un appel vid\u00e9o') with specific contacts, which falls under the domain of initiating communication by phone or video.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "appelle avec Sustainability",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance contains the French verb 'appelle' which translates to 'call', indicating a request to initiate a phone communication with a contact or entity named 'Sustainability'. This maps directly to the 'calling' domain.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Veuillez mettre l'appel en plein \u00e9cran",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance translates to 'Please put the call in full screen'. It explicitly mentions 'l'appel' (the call) and refers to an action performed on an ongoing call interface.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    }
+]

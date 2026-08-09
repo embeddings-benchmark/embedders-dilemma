@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "a little girl walks on a boardwalk with blue domes in the background .",
+    "sentence2": "a man going over a jump on his bike with a river in the background",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences describe completely different scenes with no overlap in meaning. Sentence 1 involves a 'little girl' performing a passive action ('walks') on a 'boardwalk' with architectural structures ('blue domes'). Sentence 2 involves a 'man' performing an active sport action ('going over a jump on his bike') with a natural feature ('river'). The subjects, actions, objects, and settings are all distinct.\",\n  \"output\": 0.1\n}",
+    "reasoning": "The two sentences describe completely different scenes with no overlap in meaning. Sentence 1 involves a 'little girl' performing a passive action ('walks') on a 'boardwalk' with architectural structures ('blue domes'). Sentence 2 involves a 'man' performing an active sport action ('going over a jump on his bike') with a natural feature ('river'). The subjects, actions, objects, and settings are all distinct.",
+    "predicted_sim": 0.1,
+    "gold_score": 0.0,
+    "abs_diff": 0.1
+  },
+  {
+    "sentence1": "terminal 1is connected to terminal 4",
+    "sentence2": "terminals 1 and 4 are connected",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe exactly the same state of affairs involving the same two entities, Terminal 1 and Terminal 4, being linked. Sentence 1 phrases it as a singular subject acting on an object ('terminal 1 is connected to terminal 4'), while Sentence 2 uses a compound subject with a passive construction ('terminals 1 and 4 are connected'). In standard English, 'connect' is symmetric when referring to physical or logical links, meaning the directionality implied by the first sentence does not alter the truth conditions or factual content compared to the second. The typo in the first sentence ('1is') does not affect the interpretation.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences describe exactly the same state of affairs involving the same two entities, Terminal 1 and Terminal 4, being linked. Sentence 1 phrases it as a singular subject acting on an object ('terminal 1 is connected to terminal 4'), while Sentence 2 uses a compound subject with a passive construction ('terminals 1 and 4 are connected'). In standard English, 'connect' is symmetric when referring to physical or logical links, meaning the directionality implied by the first sentence does not alter the truth conditions or factual content compared to the second. The typo in the first sentence ('1is') does not affect the interpretation.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "ask yourself what you look for in a friend too .",
+    "sentence2": "i went out & found new friends .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences contain the concept of 'friends,' which provides a loose topical connection. However, Sentence 1 is an imperative suggestion focused on introspection and defining criteria for friendship ('ask yourself what you look for'). Sentence 2 is a declarative statement describing a specific action of socializing and meeting people ('i went out & found new friends'). While one could argue that the action in Sentence 2 might follow the advice in Sentence 1, the meanings themselves are functionally unrelated in terms of semantic equivalence.\",\n  \"output\": 1.2\n}",
+    "reasoning": "Both sentences contain the concept of 'friends,' which provides a loose topical connection. However, Sentence 1 is an imperative suggestion focused on introspection and defining criteria for friendship ('ask yourself what you look for'). Sentence 2 is a declarative statement describing a specific action of socializing and meeting people ('i went out & found new friends'). While one could argue that the action in Sentence 2 might follow the advice in Sentence 1, the meanings themselves are functionally unrelated in terms of semantic equivalence.",
+    "predicted_sim": 1.2,
+    "gold_score": 1.6,
+    "abs_diff": 0.40000000000000013
+  },
+  {
+    "sentence1": "positive battery terminal is not separated by a gap from terminal 4",
+    "sentence2": "terminal 4 and the positive terminal are not separated by the gap",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the exact same spatial relationship between two specific entities: the positive battery terminal and terminal 4. They both state that there is no gap separating them. The minor differences are the inclusion of the word 'battery' in sentence 1, the use of the indefinite article 'a' in sentence 1 versus the definite article 'the' in sentence 2, and the reversal of the subject order. However, these differences do not change the core semantic meaning or the technical assertion being made.\",\n  \"output\": 4.8\n}",
+    "reasoning": "Both sentences convey the exact same spatial relationship between two specific entities: the positive battery terminal and terminal 4. They both state that there is no gap separating them. The minor differences are the inclusion of the word 'battery' in sentence 1, the use of the indefinite article 'a' in sentence 1 versus the definite article 'the' in sentence 2, and the reversal of the subject order. However, these differences do not change the core semantic meaning or the technical assertion being made.",
+    "predicted_sim": 4.8,
+    "gold_score": 5.0,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "police stop maldives presidential election",
+    "sentence2": "keita wins mali presidential election",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences belong to the general domain of politics and share the key phrase 'presidential election.' However, the specific events described are unrelated. Sentence 1 describes a disruption or halt to the voting process by authorities in the Maldives, whereas Sentence 2 describes the outcome where a candidate, Keita, achieved victory in Mali. The countries, the actors (police vs. Keita), and the actions (stop vs. wins) are completely different.\",\n  \"output\": 0.2\n}",
+    "reasoning": "Both sentences belong to the general domain of politics and share the key phrase 'presidential election.' However, the specific events described are unrelated. Sentence 1 describes a disruption or halt to the voting process by authorities in the Maldives, whereas Sentence 2 describes the outcome where a candidate, Keita, achieved victory in Mali. The countries, the actors (police vs. Keita), and the actions (stop vs. wins) are completely different.",
+    "predicted_sim": 0.2,
+    "gold_score": 1.2,
+    "abs_diff": 1.0
+  }
+]

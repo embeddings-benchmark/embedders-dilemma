@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "sie m\u00fcssen den n\u00e4chsten montag vormerken",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to note down or schedule something for next Monday ('n\u00e4chsten montag vormerken'), which indicates the creation or setting of a calendar entry.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "spiele meine am meisten gespielten song liste",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting to play a specific collection of songs (their most played song list), which falls under the category of music playback.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "schalte den wecker um f\u00fcnfzehn uhr ab",
+        "model_raw_output": "{\n  \"reasoning\": \"The user wants to turn off or cancel an alarm set for a specific time (15:00), which corresponds to the 'alarm_remove' intent.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "l\u00f6sche wecker",
+        "model_raw_output": "{\n  \"reasoning\": \"The user wants to delete or remove an alarm ('l\u00f6sche wecker'), which corresponds directly to the alarm_remove intent.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "erinnere mich an mein termin am nachmittag",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to be reminded about an appointment occurring in the afternoon. In the MASSIVE intent classification, requests to create reminders or schedule events are categorized under 'calendar_set'.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    }
+]

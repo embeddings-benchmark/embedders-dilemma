@@ -1,0 +1,37 @@
+{
+  "dataset_revision": "8733760a6f3e9ddb8bacaaf020906c2ba5a5e30b",
+  "task_name": "LLMHC3FinanceRetrieval",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "recall@1": 0.46,
+        "recall@2": 0.57,
+        "recall@3": 0.59,
+        "recall@5": 0.62,
+        "mrecall@1": 0.46,
+        "mrecall@2": 0.57,
+        "mrecall@3": 0.59,
+        "mrecall@5": 0.62,
+        "capped_recall@1": 0.46,
+        "main_score": 0.46,
+        "usage_stats": {
+          "input_tokens": 10001645,
+          "cached_tokens": 8941478,
+          "output_tokens": 11693,
+          "thinking_tokens": 0,
+          "total_tokens": 10013338,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 40.80571699142456,
+  "kg_co2_emissions": null
+}

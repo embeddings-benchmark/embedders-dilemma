@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "A person is on a baseball team.",
+    "sentence2": "A person is playing basketball on a team.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person belonging to a team, which is the core semantic element. However, they differ in two notable ways: the sport referenced (baseball vs. basketball) and the verb construction (simple membership 'is on' versus active involvement 'is playing ... on'). These differences diminish the overall similarity, leaving the shared concept of team membership as the main commonality, while the sport and activity details diverge enough to lower the similarity. Therefore, the sentences are moderately related but not close, warranting a similarity score around 2.5.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences describe a person belonging to a team, which is the core semantic element. However, they differ in two notable ways: the sport referenced (baseball vs. basketball) and the verb construction (simple membership 'is on' versus active involvement 'is playing ... on'). These differences diminish the overall similarity, leaving the shared concept of team membership as the main commonality, while the sport and activity details diverge enough to lower the similarity. Therefore, the sentences are moderately related but not close, warranting a similarity score around 2.5.",
+    "predicted_sim": 2.5,
+    "gold_score": 2.4,
+    "abs_diff": 0.10000000000000009
+  },
+  {
+    "sentence1": "Our current vehicles will be in museums when everyone has their own aircraft.",
+    "sentence2": "The car needs to some work",
+    "model_raw_output": "{\"reasoning\": \"Both sentences mention vehicles/cars, which creates a minimal topical connection. However, Sentence 1 discusses a futuristic scenario about cars becoming obsolete and displayed in museums once personal aircraft become widespread, expressing an aspirational vision about transportation. Sentence 2 is a simple, practical statement about a car requiring maintenance or repairs in the present. The topics, tenses, and meanings are fundamentally different - the only shared element is the mention of cars/vehicles.\", \"output\": 0.8}",
+    "reasoning": "Both sentences mention vehicles/cars, which creates a minimal topical connection. However, Sentence 1 discusses a futuristic scenario about cars becoming obsolete and displayed in museums once personal aircraft become widespread, expressing an aspirational vision about transportation. Sentence 2 is a simple, practical statement about a car requiring maintenance or repairs in the present. The topics, tenses, and meanings are fundamentally different - the only shared element is the mention of cars/vehicles.",
+    "predicted_sim": 0.8,
+    "gold_score": 0.2,
+    "abs_diff": 0.6000000000000001
+  },
+  {
+    "sentence1": "A woman supervisor is instructing the male workers.",
+    "sentence2": "A woman is working as a nurse.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences involve a woman and relate to work/profession, which provides some topical overlap. However, they describe completely different occupations (supervisor vs. nurse), different activities (instructing workers vs. working as a nurse), and different workplace dynamics. The only substantive similarity is that both involve a woman in a professional context.\",\n  \"output\": 1.5\n}",
+    "reasoning": "Both sentences involve a woman and relate to work/profession, which provides some topical overlap. However, they describe completely different occupations (supervisor vs. nurse), different activities (instructing workers vs. working as a nurse), and different workplace dynamics. The only substantive similarity is that both involve a woman in a professional context.",
+    "predicted_sim": 1.5,
+    "gold_score": 1.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "A bike is next to a couple women.",
+    "sentence2": "A child next to a bike.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the core elements of 'bike' and a spatial relationship ('next to'). However, they differ significantly in the subjects: Sentence 1 involves 'a couple women' (adults), while Sentence 2 involves 'a child'. The semantic overlap is moderate\u2014they share the bike and the spatial construction, but the people involved are different age groups. The similarity is more structural than substantive.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences share the core elements of 'bike' and a spatial relationship ('next to'). However, they differ significantly in the subjects: Sentence 1 involves 'a couple women' (adults), while Sentence 2 involves 'a child'. The semantic overlap is moderate\u2014they share the bike and the spatial construction, but the people involved are different age groups. The similarity is more structural than substantive.",
+    "predicted_sim": 2.5,
+    "gold_score": 2.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "The group is eating while taking in a breathtaking view.",
+    "sentence2": "A group of people take a look at an unusual tree.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the structural element of 'a group of people' engaging in a viewing activity. However, they differ significantly in context: Sentence 1 involves eating while observing a 'breathtaking view' (suggesting a scenic landscape), while Sentence 2 involves looking at a specific object 'an unusual tree.' The core similarity is limited to group activity and observation, but the subjects being observed are different (general scenic view vs. specific unusual tree), and the eating activity in Sentence 1 adds a distinguishing element. Overall semantic overlap is moderate at best.\",\n  \"output\": 2.0\n}",
+    "reasoning": "Both sentences share the structural element of 'a group of people' engaging in a viewing activity. However, they differ significantly in context: Sentence 1 involves eating while observing a 'breathtaking view' (suggesting a scenic landscape), while Sentence 2 involves looking at a specific object 'an unusual tree.' The core similarity is limited to group activity and observation, but the subjects being observed are different (general scenic view vs. specific unusual tree), and the eating activity in Sentence 1 adds a distinguishing element. Overall semantic overlap is moderate at best.",
+    "predicted_sim": 2.0,
+    "gold_score": 2.2,
+    "abs_diff": 0.20000000000000018
+  }
+]

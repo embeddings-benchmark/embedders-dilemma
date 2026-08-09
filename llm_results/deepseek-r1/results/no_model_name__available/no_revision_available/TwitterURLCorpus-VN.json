@@ -1,0 +1,36 @@
+{
+  "dataset_revision": "741fbe5cf43a594d8c37073d66baf8ab879281ce",
+  "task_name": "TwitterURLCorpus-VN",
+  "mteb_version": "2.3.0",
+  "scores": {
+    "test": [
+      {
+        "similarity_ap": 0.756436,
+        "similarity_accuracy": 0.796,
+        "similarity_f1": 0.778261,
+        "max_ap": 0.756436,
+        "max_accuracy": 0.796,
+        "max_f1": 0.778261,
+        "max_precision": 0.852381,
+        "max_recall": 0.716,
+        "usage_stats": {
+          "input_tokens": 44218,
+          "cached_tokens": 0,
+          "output_tokens": 268489,
+          "thinking_tokens": 252180,
+          "total_tokens": 312707,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.756436,
+        "hf_subset": "default",
+        "languages": [
+          "vie-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 861.3055319786072,
+  "kg_co2_emissions": null
+}

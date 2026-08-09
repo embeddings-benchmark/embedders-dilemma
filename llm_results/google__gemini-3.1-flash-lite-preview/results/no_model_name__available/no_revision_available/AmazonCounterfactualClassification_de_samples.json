@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Ich m&ouml;chte abschlie&szlig;end noch darauf hinweisen (auch wenn es viele bel&auml;cheln), Speichermedien nur &uuml;ber die &#34;Hardware sicher entfernen&#34;-Funktion vom System zu trennen.",
+        "model_raw_output": "{\n  \"reasoning\": \"The review provides a recommendation or advice regarding the use of storage media. It does not speculate about what would have happened if a different action were taken or describe a hypothetical scenario that contradicts the actual events.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Die G13 h\u00e4tte 5 Sterne verdient, wenn es von Logitech selbst einen brauchbaren Treiber f\u00fcr Linux geben w\u00fcrde.",
+        "model_raw_output": "{\n  \"reasoning\": \"The sentence uses a conditional structure ('h\u00e4tte... verdient, wenn...') to describe a hypothetical situation that did not occur (the user giving 5 stars) because a specific condition (Linux driver support) was not met.\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "H\u00e4tte miemals gedacht so leicht aufr\u00fcsten zu k\u00f6nnen.Freu mich schon auf das DCR 250 das ich bestellt habe.",
+        "model_raw_output": "{\n  \"reasoning\": \"The sentence 'H\u00e4tte niemals gedacht so leicht aufr\u00fcsten zu k\u00f6nnen' implies a reflection on a past expectation that was proven wrong by the actual event (the upgrade was easy). It expresses a condition of thought that did not align with reality, which is characteristic of a counterfactual sentiment.\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Die Anzeige wird nicht beeintr\u00e4chtigt, wohl aber gesch\u00fctzt.",
+        "model_raw_output": "{\n  \"reasoning\": \"The sentence describes the actual properties of the product (the display is not impaired but protected). It does not describe a hypothetical situation or an alternative outcome based on different conditions.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Das Produkt ist sicherlich gut und qualitativ hochwertig, aber hier fehlt jede Verh\u00e4ltnism\u00e4ssigkeit.",
+        "model_raw_output": "{\n  \"reasoning\": \"The sentence expresses an opinion about the quality and price of the product without proposing a hypothetical scenario or an alternative reality that would change the outcome. It is a direct statement of dissatisfaction regarding proportionality.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": false
+    }
+]

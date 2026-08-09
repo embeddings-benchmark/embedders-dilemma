@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "5. Children 5.1 We do not knowingly collect or solicit personal information from anyone under 14 years old or knowingly allow such persons to register. If You are under the age of 13 years, please do not attempt to access the Games or send any information about Yourself to Us including, without limitation, Your name, address, telephone number, or email address. No person under the age of 14 may provide any personal information to Us or the Games. In the event that We learn that We have collected personal information from anyone under the age of 13, We will delete that information as soon as practicable. If You believe that We might have any information from or about a child under the age of 14, please contact Us in writing.",
+    "sentence2": "The policy describes collection of the user's postal address by a party to the contract.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 is focused on children's privacy and explicitly states that the service does not knowingly collect personal information, including addresses, from children under 14. It instructs children not to send such information. This does not describe the actual collection of a user's postal address by a party to the contract, but rather the prohibition of collecting any information from minors. Therefore, Sentence 2 does not accurately describe Sentence 1.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 is focused on children's privacy and explicitly states that the service does not knowingly collect personal information, including addresses, from children under 14. It instructs children not to send such information. This does not describe the actual collection of a user's postal address by a party to the contract, but rather the prohibition of collecting any information from minors. Therefore, Sentence 2 does not accurately describe Sentence 1.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  },
+  {
+    "sentence1": "If we are aware that a child under 13 has provided us with personal identifiable Information, we will delete such information from our files.",
+    "sentence2": "will the personal info i share with this app to sign up be shared with other companies, etc?",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 discusses the policy regarding the collection and deletion of personal information from children under the age of 13. Sentence 2 is a user question asking whether their personal information will be shared with third parties or other companies. Because Sentence 1 does not address third-party data sharing, the two snippets do not form a matching pair.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 discusses the policy regarding the collection and deletion of personal information from children under the age of 13. Sentence 2 is a user question asking whether their personal information will be shared with third parties or other companies. Because Sentence 1 does not address third-party data sharing, the two snippets do not form a matching pair.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  },
+  {
+    "sentence1": "King Profile When you play our games, we will give you a unique identifier which we will associate with a King account known as a \"King Profile\". That King Profile will be specific to the King games played on an individual platform or device and will remain anonymous unless you choose to add your personal information to that King Profile. Others players in a game may be able to see your progress in the game and other information such as your game achievements, but no personally identifying information will be visible to other players. You can choose to add your personal information to your King Profile so that you can log in on multiple devices and synchronise your progress in our games across multiple devices on multiple platforms, and also so that you can play with your friends.",
+    "sentence2": "The policy describes collection of the user's unspecified identifiers by a party to the contract.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that the service provider (King) will generate and associate a 'unique identifier' with the user's account. This aligns with Sentence 2, which describes the collection or processing of the user's unspecified identifiers by a party to the contract, as the exact technical nature of the 'unique identifier' is not explicitly defined in this context.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that the service provider (King) will generate and associate a 'unique identifier' with the user's account. This aligns with Sentence 2, which describes the collection or processing of the user's unspecified identifiers by a party to the contract, as the exact technical nature of the 'unique identifier' is not explicitly defined in this context.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "We maintain technical, physical, and administrative security measures to protect the security of your personal information against loss, misuse, unauthorized access, disclosure, or alteration.",
+    "sentence2": "who will be able to see my information and/or the messages that i send?",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 discusses the technical, physical, and administrative security measures the company uses to protect personal information. Sentence 2 asks a specific question about who has access to view the user's information and messages. Because Sentence 1 does not explain who can see the information (e.g., third parties, affiliates, or other users), it does not directly answer the question in Sentence 2.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 discusses the technical, physical, and administrative security measures the company uses to protect personal information. Sentence 2 asks a specific question about who has access to view the user's information and messages. Because Sentence 1 does not explain who can see the information (e.g., third parties, affiliates, or other users), it does not directly answer the question in Sentence 2.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  },
+  {
+    "sentence1": "We and service providers acting on our behalf may use Log Files and tracking technologies to collect and analyze certain types of technical information, including Cookies, Flash Cookies, and Web Beacons.",
+    "sentence2": "does it read my contacts?",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 discusses the collection of technical information such as Log Files, Cookies, Flash Cookies, and Web Beacons. Sentence 2 asks a specific question about whether the service reads the user's contacts. Since Sentence 1 does not mention anything about contacts or address books, it does not answer the question in Sentence 2. Therefore, they do not form a matching pair.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 discusses the collection of technical information such as Log Files, Cookies, Flash Cookies, and Web Beacons. Sentence 2 asks a specific question about whether the service reads the user's contacts. Since Sentence 1 does not mention anything about contacts or address books, it does not answer the question in Sentence 2. Therefore, they do not form a matching pair.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  }
+]

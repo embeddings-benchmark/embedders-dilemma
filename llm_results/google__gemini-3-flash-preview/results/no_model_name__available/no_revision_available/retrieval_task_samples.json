@@ -1,0 +1,62 @@
+[
+  {
+    "query_id": "00003",
+    "query_text": "If there is a law preventing me from taking Google to court in California, can I take them to court somewhere else?",
+    "model_raw_output": "The document most relevant to your query is **ID 62**, which discusses Google's policies on settling disputes and governing law. Specifically, it states that if applicable local laws prevent a dispute from being resolved in a California court, the dispute can be filed in local courts.\n\nID: 62\nTITLE: Settling disputes, governing law and courts\n\nFinal Answer: [62]",
+    "parsed_ids": [
+      "P9K63LSFZH"
+    ],
+    "gold_ids": [
+      "P9K63LSFZH"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "00012",
+    "query_text": "If my main credit card doesnt work, can Amazon charge another card registered with my Amazon account?",
+    "model_raw_output": "ID: 5 | TITLE: YOUR ACCOUNT\n\nFinal Answer: [5]",
+    "parsed_ids": [
+      "22wjZRL9Oa"
+    ],
+    "gold_ids": [
+      "22wjZRL9Oa"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "00013",
+    "query_text": "In the event a given credit card or similar means of payment of a user cannot be successfully used, is it within Amazons rights to effect payment by another means of payment provided such means of payment is affiliated with such users Amazon account?",
+    "model_raw_output": "The document that most accurately answers the query is ID 5, which states: \"If there is a problem charging your selected payment method, we may charge any other valid payment method associated with your account.\"\n\nID: 5 | TITLE: YOUR ACCOUNT\n\nFinal Answer: [5]",
+    "parsed_ids": [
+      "22wjZRL9Oa"
+    ],
+    "gold_ids": [
+      "22wjZRL9Oa"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "00015",
+    "query_text": "Is Amazon entitled to sublicense user-generated content that has been provided to Amazon?",
+    "model_raw_output": "ID: 67 | TITLE: REVIEWS, COMMENTS, COMMUNICATIONS, AND OTHER CONTENT\n\nFinal Answer: [67]",
+    "parsed_ids": [
+      "QR6FEecAtp"
+    ],
+    "gold_ids": [
+      "QR6FEecAtp"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "00016",
+    "query_text": "Does Amazon sometimes give a refund even if a customer hasnt returned the item they purchased?",
+    "model_raw_output": "The document most relevant to the query is ID 31, which explicitly states that Amazon may, at its discretion, issue a refund without requiring the return of the item.\n\nID: 31\nTITLE: INTELLECTUAL PROPERTY COMPLAINTS\n\nFinal Answer: [31]",
+    "parsed_ids": [
+      "AwFv0Yg7NZ"
+    ],
+    "gold_ids": [
+      "AwFv0Yg7NZ"
+    ],
+    "is_correct": true
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "What is cache on my Apple iPad Pro and how can I clear my browser cache on it ?",
+    "sentence2": "Clear browser cache - Apple iPad Pro",
+    "model_raw_output": "{\n  \"reasoning\": \"Both questions focus on the same core action and device: clearing the browser cache on an Apple iPad Pro. While Sentence 1 also asks for a definition of 'cache', the primary intent and actionable requirement (the steps to clear the cache) are identical to Sentence 2. Therefore, they address the same user need.\",\n  \"output\": 1\n}",
+    "reasoning": "Both questions focus on the same core action and device: clearing the browser cache on an Apple iPad Pro. While Sentence 1 also asks for a definition of 'cache', the primary intent and actionable requirement (the steps to clear the cache) are identical to Sentence 2. Therefore, they address the same user need.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Troubleshooting guide for charging related issues on the HTC Bolt",
+    "sentence2": "Transfer files with your computer - Apple iPad mini 4",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 asks for help with charging problems on an HTC Bolt, while Sentence 2 asks how to transfer files using an Apple iPad mini 4. They address different devices and completely different tasks.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 asks for help with charging problems on an HTC Bolt, while Sentence 2 asks how to transfer files using an Apple iPad mini 4. They address different devices and completely different tasks.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Guide on conserving the Samsung Galaxy Note 4 battery life",
+    "sentence2": "Can I use my Apple Pencil to control my Apple iPad Pro ?",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 asks for tips on how to save battery life on a Samsung Galaxy Note 4. Sentence 2 asks about the functionality and compatibility of using an Apple Pencil with an iPad Pro. The devices, operating systems, and core topics (battery optimization vs. accessory control) are completely different.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 asks for tips on how to save battery life on a Samsung Galaxy Note 4. Sentence 2 asks about the functionality and compatibility of using an Apple Pencil with an iPad Pro. The devices, operating systems, and core topics (battery optimization vs. accessory control) are completely different.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Does my LG G4 have any special features ?",
+    "sentence2": "Does my LG G4 have any special features ?",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences are identical in wording and meaning, both asking about the special features of the LG G4.\",\n  \"output\": 1\n}",
+    "reasoning": "The two sentences are identical in wording and meaning, both asking about the special features of the LG G4.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "How can I pair bluetooth devices to my Samsung Galaxy S III with 4G LTE Prepaid ?",
+    "sentence2": "How do I change the phone ringtone and notification sound on my Apple iPhone 4s ?",
+    "model_raw_output": "{\n  \"reasoning\": \"The first question asks for instructions on pairing Bluetooth devices to a specific Samsung phone, while the second question asks how to change sound settings (ringtone and notification) on a specific Apple iPhone. The tasks and devices involved are completely different.\",\n  \"output\": 0\n}",
+    "reasoning": "The first question asks for instructions on pairing Bluetooth devices to a specific Samsung phone, while the second question asks how to change sound settings (ringtone and notification) on a specific Apple iPhone. The tasks and devices involved are completely different.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  }
+]

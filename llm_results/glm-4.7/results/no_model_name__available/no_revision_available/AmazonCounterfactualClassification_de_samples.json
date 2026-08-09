@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Ich m&ouml;chte abschlie&szlig;end noch darauf hinweisen (auch wenn es viele bel&auml;cheln), Speichermedien nur &uuml;ber die &#34;Hardware sicher entfernen&#34;-Funktion vom System zu trennen.",
+        "model_raw_output": "{\n  \"reasoning\": \"The review provides a direct recommendation or advice on how to properly disconnect storage media (using the 'safely remove hardware' function). It describes a normative action the user believes others should take, rather than speculating about alternative past events or hypothetical scenarios that did not occur. Therefore, it does not meet the definition of a counterfactual statement.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Die G13 h\u00e4tte 5 Sterne verdient, wenn es von Logitech selbst einen brauchbaren Treiber f\u00fcr Linux geben w\u00fcrde.",
+        "model_raw_output": "{\n  \"reasoning\": \"The review uses the conditional construction ('h\u00e4tte... verdient', 'wenn... geben w\u00fcrde') to describe a hypothetical situation that is contrary to reality. It states that the product would have received a higher rating 'if' a specific condition (a Linux driver from Logitech) were met, implying that in reality, this condition is not met and the rating is lower.\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "H\u00e4tte miemals gedacht so leicht aufr\u00fcsten zu k\u00f6nnen.Freu mich schon auf das DCR 250 das ich bestellt habe.",
+        "model_raw_output": "{\n  \"reasoning\": \"The reviewer states that they 'would never have thought it would be so easy to upgrade.' This is an idiomatic expression of surprise about the actual positive outcome (the upgrade was easy), not a hypothetical scenario where different conditions led the upgrade not to happen. Furthermore, the second sentence expresses a specific action taken (ordering a product) and anticipation for it, which are factual statements about reality.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": false
+    },
+    {
+        "input_text": "Die Anzeige wird nicht beeintr\u00e4chtigt, wohl aber gesch\u00fctzt.",
+        "model_raw_output": "{\n  \"reasoning\": \"The sentence makes a factual observation about the current state of the product (the display is not impaired and is protected). It does not describe a hypothetical situation, an event that did not happen, or a condition contrary to reality.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Das Produkt ist sicherlich gut und qualitativ hochwertig, aber hier fehlt jede Verh\u00e4ltnism\u00e4ssigkeit.",
+        "model_raw_output": "{\n  \"reasoning\": \"The review presents a subjective opinion about the product's actual quality and its value proposition (likely regarding the price-performance ratio), stating that 'proportionality' is missing. It describes the customer's direct experience with the product as it is, rather than proposing a hypothetical scenario or discussing what might have happened under different conditions.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": false
+    }
+]

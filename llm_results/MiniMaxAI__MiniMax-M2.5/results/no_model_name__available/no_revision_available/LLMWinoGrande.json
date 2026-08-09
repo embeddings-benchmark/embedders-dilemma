@@ -1,0 +1,37 @@
+{
+  "dataset_revision": "bc2a1e4c24771a6f3432578016cfb737732398fd",
+  "task_name": "LLMWinoGrande",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "recall@1": 0.47,
+        "recall@2": 0.58,
+        "recall@3": 0.58,
+        "recall@5": 0.58,
+        "mrecall@1": 0.47,
+        "mrecall@2": 0.58,
+        "mrecall@3": 0.58,
+        "mrecall@5": 0.58,
+        "capped_recall@1": 0.47,
+        "main_score": 0.47,
+        "usage_stats": {
+          "input_tokens": 17402752,
+          "output_tokens": 124602,
+          "total_tokens": 17527354,
+          "cached_tokens": 0,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 511.329740524292,
+  "kg_co2_emissions": null,
+  "date": 1774578004.380692
+}

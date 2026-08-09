@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Les 16 membres de l'OTAN et les 14 pays qui formaient le Pacte de Varsovie rival ont convenu qu'il y aurait beaucoup moins d'\u00e9quipements autoris\u00e9s dans la zone d'application en Europe que dans le trait\u00e9 initial.",
+    "sentence2": "L'OTAN compte 16 membres.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise explicitly mentions 'les 16 membres de l'OTAN', which directly states that NATO has 16 members. The hypothesis 'L'OTAN compte 16 membres' simply restates this fact, so it follows logically from the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise explicitly mentions 'les 16 membres de l'OTAN', which directly states that NATO has 16 members. The hypothesis 'L'OTAN compte 16 membres' simply restates this fact, so it follows logically from the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Le pr\u00e9sident de la R\u00e9publique italienne, Giorgio Napolitano, a demand\u00e9 aujourd'hui \u00e0 Romano Prodi de rester au poste de Premier ministre, mais Prodi devra passer un vote de confiance le plus rapidement possible.",
+    "sentence2": "Romano Prodi est le Premier ministre italien.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that President Giorgio Napolitano asked Romano Prodi to remain in the position of Prime Minister, which implies that Prodi currently holds that office. Therefore, the statement 'Romano Prodi est le Premier ministre italien' follows logically from the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise states that President Giorgio Napolitano asked Romano Prodi to remain in the position of Prime Minister, which implies that Prodi currently holds that office. Therefore, the statement 'Romano Prodi est le Premier ministre italien' follows logically from the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Le secr\u00e9taire g\u00e9n\u00e9ral de l'OTAN, Willy Claes, a d\u00e9clar\u00e9 aujourd'hui qu'il envisageait de d\u00e9missionner, apr\u00e8s qu'une commission parlementaire belge a d\u00e9cid\u00e9 ce matin de recommander \u00e0 la plus haute juridiction du pays de l'inculper dans le cadre d'un scandale de corruption dans le domaine de l'armement qui s'\u00e9largit.",
+    "sentence2": "Le secr\u00e9taire g\u00e9n\u00e9ral de l'OTAN Willy Claes a d\u00e9missionn\u00e9.",
+    "model_raw_output": "{\n  \"reasoning\": \"La phrase 1 indique que le secr\u00e9taire g\u00e9n\u00e9ral de l'OTAN, Willy Claes, a d\u00e9clar\u00e9 aujourd'hui qu'il envisageait de d\u00e9missionner. Elle ne \u0443\u0442\u0432\u0435\u0440\u0434\u0456t pas qu'il a effectivement d\u00e9missionn\u00e9 ; elledit seulement qu'il envisageait de le faire. La phrase 2 affirme qu'il a d\u00e9missionn\u00e9, ce qui est plus fort que ce que dit la phrase 1. Par cons\u00e9quent, la phrase 1 ne permet pas de d\u00e9duire logiquement la phrase 2. L'hypoth\u00e8se n'est donc pas s\u00e9mantiquement entail\u00e9e par la premise.\",\n  \"output\": 0\n}",
+    "reasoning": "La phrase 1 indique que le secr\u00e9taire g\u00e9n\u00e9ral de l'OTAN, Willy Claes, a d\u00e9clar\u00e9 aujourd'hui qu'il envisageait de d\u00e9missionner. Elle ne \u0443\u0442\u0432\u0435\u0440\u0434\u0456t pas qu'il a effectivement d\u00e9missionn\u00e9 ; elledit seulement qu'il envisageait de le faire. La phrase 2 affirme qu'il a d\u00e9missionn\u00e9, ce qui est plus fort que ce que dit la phrase 1. Par cons\u00e9quent, la phrase 1 ne permet pas de d\u00e9duire logiquement la phrase 2. L'hypoth\u00e8se n'est donc pas s\u00e9mantiquement entail\u00e9e par la premise.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Alvaro Uribe est le pr\u00e9sident de l'Espagne, un personnage int\u00e9ressant, qui, soit dit en passant, a vu son propre p\u00e8re abattu par une milice rebelle.",
+    "sentence2": "Felipe Gonz\u00e1lez est le pr\u00e9sident de l'Espagne.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that 'Alvaro Uribe est le pr\u00e9sident de l'Espagne' (Alvaro Uribe is the president of Spain). The hypothesis states that 'Felipe Gonz\u00e1lez est le pr\u00e9sident de l'Espagne' (Felipe Gonz\u00e1lez is the president of Spain). These two statements are contradictory - they claim that two different people are both the president of Spain. The premise provides no information supporting the claim that Felipe Gonz\u00e1lez is president; in fact, it implies the opposite by stating Alvaro Uribe holds that position. Therefore, the hypothesis is not semantically entailed by the premise.\",\n  \"output\": 0\n}",
+    "reasoning": "The premise states that 'Alvaro Uribe est le pr\u00e9sident de l'Espagne' (Alvaro Uribe is the president of Spain). The hypothesis states that 'Felipe Gonz\u00e1lez est le pr\u00e9sident de l'Espagne' (Felipe Gonz\u00e1lez is the president of Spain). These two statements are contradictory - they claim that two different people are both the president of Spain. The premise provides no information supporting the claim that Felipe Gonz\u00e1lez is president; in fact, it implies the opposite by stating Alvaro Uribe holds that position. Therefore, the hypothesis is not semantically entailed by the premise.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "\"Il n'y aura qu'un seul ouragan Andrew\", a-t-il d\u00e9clar\u00e9, faisant r\u00e9f\u00e9rence \u00e0 la temp\u00eate tropicale de cat\u00e9gorie 5 qui a frapp\u00e9 le sud de la Floride en 1992, causant 26,5 milliards de dollars de d\u00e9g\u00e2ts et tuant 26 personnes aux \u00c9tats-Unis et aux Bahamas.",
+    "sentence2": "Les temp\u00eates tropicales causent de graves dommages.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that a specific tropical storm (Hurricane Andrew) caused extensive damage (26.5\u202fbillion dollars and 26 deaths). The hypothesis, however, makes a universal claim that tropical storms in general cause severe damage. A single instance of a damaging tropical storm does not logically guarantee that all tropical storms cause severe damage; it only shows that at least one such storm did. Therefore the premise does not semantically entail the generic statement in the hypothesis.\",\n  \"output\": 0\n}",
+    "reasoning": "The premise states that a specific tropical storm (Hurricane Andrew) caused extensive damage (26.5\u202fbillion dollars and 26 deaths). The hypothesis, however, makes a universal claim that tropical storms in general cause severe damage. A single instance of a damaging tropical storm does not logically guarantee that all tropical storms cause severe damage; it only shows that at least one such storm did. Therefore the premise does not semantically entail the generic statement in the hypothesis.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  }
+]

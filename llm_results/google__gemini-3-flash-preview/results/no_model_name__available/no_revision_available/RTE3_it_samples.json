@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "In una mossa largamente vista come sorprendente, la Banca d'Inghilterra alz\u00f2 i tassi d'interesse inglesi dal 5% al 5,25%, il massimo in cinque anni.",
+    "sentence2": "I tassi d'interesse inglesi salirono dal 5% al 5,25%.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that the Bank of England raised interest rates from 5% to 5.25%. Sentence 2 states that the rates rose from 5% to 5.25%. Since the act of raising the rates directly implies that they rose, the hypothesis is semantically entailed by the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that the Bank of England raised interest rates from 5% to 5.25%. Sentence 2 states that the rates rose from 5% to 5.25%. Since the act of raising the rates directly implies that they rose, the hypothesis is semantically entailed by the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Ieri \u00e8 emerso che il Ministro della Difesa ha respinto una richiesta dall'Argentina di autorizzare un rifornimento limitato di parti di ricambio prodotte dal Regno Unito per la marina argentina, cominciato durante la Guerra del Golfo.",
+    "sentence2": "Il Ministro della Difesa del Regno Unito ha respinto una richiesta di rifornimenti dell'Argentina.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that the Minister of Defense rejected a request from Argentina for a supply of spare parts produced in the UK. The hypothesis simplifies this by stating that the UK Minister of Defense rejected a supply request from Argentina. Given that the parts were UK-produced and the context implies the authority over their distribution, it is semantically entailed.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise states that the Minister of Defense rejected a request from Argentina for a supply of spare parts produced in the UK. The hypothesis simplifies this by stating that the UK Minister of Defense rejected a supply request from Argentina. Given that the parts were UK-produced and the context implies the authority over their distribution, it is semantically entailed.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "In novembre, l'unit\u00e0 organizz\u00f2 un'esposizione di falsi al V&A per mettere in luce la crescente diffusione e sofisticazione del crimine d'arte.",
+    "sentence2": "Il crimine d'arte \u00e8 in aumento.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise mentions that an exhibition was organized to highlight the 'crescente diffusione' (growing spread) of art crime. The word 'crescente' (growing/increasing) directly supports the hypothesis that art crime is 'in aumento' (on the rise/increasing).\",\n  \"output\": 1\n}",
+    "reasoning": "The premise mentions that an exhibition was organized to highlight the 'crescente diffusione' (growing spread) of art crime. The word 'crescente' (growing/increasing) directly supports the hypothesis that art crime is 'in aumento' (on the rise/increasing).",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Belknap fu accusato da un voto unanime della Camera dei Rappresentanti di aver presumibilmente ricevuto denaro in cambio di assegnazioni di posti di lavoro.",
+    "sentence2": "Belknap fu accusato di aver ricevuto denaro in cambio di assegnazioni di posti di lavoro.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 specifies that Belknap was accused by a unanimous vote of the House of Representatives of receiving money for job assignments. Sentence 2 states that he was accused of receiving money for job assignments. Since Sentence 1 provides a specific instance of this accusation occurring, the truth of Sentence 2 is logically derived from Sentence 1.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 specifies that Belknap was accused by a unanimous vote of the House of Representatives of receiving money for job assignments. Sentence 2 states that he was accused of receiving money for job assignments. Since Sentence 1 provides a specific instance of this accusation occurring, the truth of Sentence 2 is logically derived from Sentence 1.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "I robot sono stati usati nei lavori di assemblaggio finale delle automobili e per pittura a spruzzo e i fornitori sperano di essere capaci di sviluppare questi mercati adesso che la tecnologia \u00e8 stata provata.",
+    "sentence2": "I robot sono usati in lavori di assemblaggio.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that robots have been used in final car assembly jobs ('lavori di assemblaggio finale delle automobili'). This specific instance of use directly supports the more general claim in the hypothesis that robots are used in assembly jobs ('lavori di assemblaggio').\",\n  \"output\": 1\n}",
+    "reasoning": "The premise states that robots have been used in final car assembly jobs ('lavori di assemblaggio finale delle automobili'). This specific instance of use directly supports the more general claim in the hypothesis that robots are used in assembly jobs ('lavori di assemblaggio').",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  }
+]

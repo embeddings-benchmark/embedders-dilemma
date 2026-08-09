@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "a little girl walks on a boardwalk with blue domes in the background .",
+    "sentence2": "a man going over a jump on his bike with a river in the background",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences describe completely unrelated scenes. Sentence 1 involves a little girl walking on a boardwalk with blue domes in the background, while Sentence 2 involves a man performing a bike jump with a river in the background. They share no overlapping entities, actions, or settings, and differ in subject (girl vs. man), activity (walking vs. biking/jumping), and environment (boardwalk with domes vs. jump with river). The only vague parallel is the syntactic structure '[someone] [doing something] with [something] in the background,' but semantically they are nearly entirely distinct.\",\n  \"output\": 0.1\n}",
+    "reasoning": "The two sentences describe completely unrelated scenes. Sentence 1 involves a little girl walking on a boardwalk with blue domes in the background, while Sentence 2 involves a man performing a bike jump with a river in the background. They share no overlapping entities, actions, or settings, and differ in subject (girl vs. man), activity (walking vs. biking/jumping), and environment (boardwalk with domes vs. jump with river). The only vague parallel is the syntactic structure '[someone] [doing something] with [something] in the background,' but semantically they are nearly entirely distinct.",
+    "predicted_sim": 0.1,
+    "gold_score": 0.0,
+    "abs_diff": 0.1
+  },
+  {
+    "sentence1": "terminal 1is connected to terminal 4",
+    "sentence2": "terminals 1 and 4 are connected",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the exact same underlying relationship: terminal 1 and terminal 4 share a symmetrical connection. Sentence 1 uses a singular SVO structure ('terminal 1 is connected to terminal 4'), while Sentence 2 uses a compound plural subject ('terminals 1 and 4 are connected'). Despite minor syntactic variation and the missing space in Sentence 1, there is no difference in propositional meaning, implication, or truth conditions between the two statements.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey the exact same underlying relationship: terminal 1 and terminal 4 share a symmetrical connection. Sentence 1 uses a singular SVO structure ('terminal 1 is connected to terminal 4'), while Sentence 2 uses a compound plural subject ('terminals 1 and 4 are connected'). Despite minor syntactic variation and the missing space in Sentence 1, there is no difference in propositional meaning, implication, or truth conditions between the two statements.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "ask yourself what you look for in a friend too .",
+    "sentence2": "i went out & found new friends .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences relate to the broad topic of friendship, but they differ substantially in meaning, intent, and action. Sentence 1 is an imperative encouraging self-reflection on the qualities one seeks in a friend. Sentence 2 is a declarative statement describing the past action of going out and acquiring new friends. They share lexical overlap ('friend(s)'), but their semantic propositions\u2014introspection about criteria versus the execution of making friends\u2014are largely distinct.\",\n  \"output\": 1.2\n}",
+    "reasoning": "Both sentences relate to the broad topic of friendship, but they differ substantially in meaning, intent, and action. Sentence 1 is an imperative encouraging self-reflection on the qualities one seeks in a friend. Sentence 2 is a declarative statement describing the past action of going out and acquiring new friends. They share lexical overlap ('friend(s)'), but their semantic propositions\u2014introspection about criteria versus the execution of making friends\u2014are largely distinct.",
+    "predicted_sim": 1.2,
+    "gold_score": 1.6,
+    "abs_diff": 0.40000000000000013
+  },
+  {
+    "sentence1": "positive battery terminal is not separated by a gap from terminal 4",
+    "sentence2": "terminal 4 and the positive terminal are not separated by the gap",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences express the exact same proposition: that terminal 4 and the positive battery terminal are adjacent or connected without an intervening gap. The differences are purely superficial: Sentence 1 says 'positive battery terminal' while Sentence 2 shortens it to 'positive terminal' (clearly coreferential in this context); Sentence 1 uses the indefinite 'a gap' while Sentence 2 uses the definite 'the gap' (semantically equivalent under negation here); and Sentence 1 uses an asymmetrical frame ('X is not separated from Y') whereas Sentence 2 uses a symmetrical conjunction ('X and Y are not separated'). Because spatial separation is a mutual relation, the syntactic rearrangement does not change the meaning. The entities involved and the negated relationship are identical.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences express the exact same proposition: that terminal 4 and the positive battery terminal are adjacent or connected without an intervening gap. The differences are purely superficial: Sentence 1 says 'positive battery terminal' while Sentence 2 shortens it to 'positive terminal' (clearly coreferential in this context); Sentence 1 uses the indefinite 'a gap' while Sentence 2 uses the definite 'the gap' (semantically equivalent under negation here); and Sentence 1 uses an asymmetrical frame ('X is not separated from Y') whereas Sentence 2 uses a symmetrical conjunction ('X and Y are not separated'). Because spatial separation is a mutual relation, the syntactic rearrangement does not change the meaning. The entities involved and the negated relationship are identical.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "police stop maldives presidential election",
+    "sentence2": "keita wins mali presidential election",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences concern presidential elections in a specific country and share a similar news-headline structure, which provides minimal topical overlap. However, they describe fundamentally different events in different nations: one involves police stopping an election in the Maldives, while the other involves Keita winning an election in Mali. The actions (stop vs. win), subjects (police vs. Keita), and locations (Maldives vs. Mali) are entirely distinct, and the outcomes are effectively opposites. The semantic overlap is therefore low.\",\n  \"output\": 0.8\n}",
+    "reasoning": "Both sentences concern presidential elections in a specific country and share a similar news-headline structure, which provides minimal topical overlap. However, they describe fundamentally different events in different nations: one involves police stopping an election in the Maldives, while the other involves Keita winning an election in Mali. The actions (stop vs. win), subjects (police vs. Keita), and locations (Maldives vs. Mali) are entirely distinct, and the outcomes are effectively opposites. The semantic overlap is therefore low.",
+    "predicted_sim": 0.8,
+    "gold_score": 1.2,
+    "abs_diff": 0.3999999999999999
+  }
+]

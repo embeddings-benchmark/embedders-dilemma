@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "sie m\u00fcssen den n\u00e4chsten montag vormerken",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'sie m\u00fcssen den n\u00e4chsten montag vormerken' (you must note down/mark next Monday) is an instruction to reserve or mark a specific upcoming date. While it could broadly relate to making a note, referencing a specific day of the week ('den n\u00e4chsten Montag') strongly indicates scheduling or creating a calendar entry rather than setting an alarm, querying the date, or adding a generic list item. Among the available intents, this maps most naturally to creating or adding a calendar event/reminder.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "spiele meine am meisten gespielten song liste",
+        "model_raw_output": "{\n  \"reasoning\": \"The German utterance 'spiele meine am meisten gespielten song liste' translates to 'play my most played songs list/playlist'. This is a direct request to begin playback of a user's music collection/playlist. Among the available intents, 'play_music' is the most appropriate category for requests to play songs, playlists, or music collections. The intent is not querying music information (music_query), managing settings (music_settings), or other play types like audiobooks/podcasts/radio.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "schalte den wecker um f\u00fcnfzehn uhr ab",
+        "model_raw_output": "{\n  \"reasoning\": \"The German utterance 'schalte den wecker um f\u00fcnfzehn uhr ab' translates to 'turn off the alarm at 3 PM'. The user intends to cancel or deactivate an existing alarm, which maps to the alarm_remove intent.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "l\u00f6sche wecker",
+        "model_raw_output": "{\n  \"reasoning\": \"The German utterance 'l\u00f6sche wecker' translates to 'delete alarm' or 'remove alarm' in English. The verb 'l\u00f6sche' means to delete/remove, and 'wecker' means alarm. This clearly indicates the user wants to remove an existing alarm.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "erinnere mich an mein termin am nachmittag",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is saying 'remind me of my appointment in the afternoon' in German. This is an imperative request to create a reminder or notification for an existing appointment. Since there is no separate reminder intent, this maps to setting an alarm/reminder in the MASSIVE taxonomy. It is not querying the calendar (calendar_query) because the user is not asking what the appointment is; they are asking the system to prompt them about it later.\",\n  \"output\": \"alarm_set\"\n}",
+        "parsed_output": "alarm_set",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

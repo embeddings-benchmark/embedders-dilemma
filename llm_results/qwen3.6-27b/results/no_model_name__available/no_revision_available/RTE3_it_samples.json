@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "In una mossa largamente vista come sorprendente, la Banca d'Inghilterra alz\u00f2 i tassi d'interesse inglesi dal 5% al 5,25%, il massimo in cinque anni.",
+    "sentence2": "I tassi d'interesse inglesi salirono dal 5% al 5,25%.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise explicitly states that the Bank of England raised English interest rates from 5% to 5.25%. The hypothesis simply restates this exact factual claim, omitting only the additional contextual details (the move being surprising, the highest in five years, and the actor responsible). Since all information in the hypothesis is directly contained within and fully supported by the premise, the hypothesis is semantically entailed.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise explicitly states that the Bank of England raised English interest rates from 5% to 5.25%. The hypothesis simply restates this exact factual claim, omitting only the additional contextual details (the move being surprising, the highest in five years, and the actor responsible). Since all information in the hypothesis is directly contained within and fully supported by the premise, the hypothesis is semantically entailed.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Ieri \u00e8 emerso che il Ministro della Difesa ha respinto una richiesta dall'Argentina di autorizzare un rifornimento limitato di parti di ricambio prodotte dal Regno Unito per la marina argentina, cominciato durante la Guerra del Golfo.",
+    "sentence2": "Il Ministro della Difesa del Regno Unito ha respinto una richiesta di rifornimenti dell'Argentina.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that the Defense Minister rejected Argentina's request to authorize a limited supply of spare parts produced by the United Kingdom. Although the premise does not explicitly name the minister's country, the context of authorizing the export/supply of parts 'prodotte dal Regno Unito' (produced by the UK) logically entails that the official in question is the UK Defense Minister. The hypothesis accurately captures this by stating that the UK Defense Minister rejected a supply request from Argentina. The core event, actors, and relationship align perfectly, making the hypothesis semantically entailed by the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise states that the Defense Minister rejected Argentina's request to authorize a limited supply of spare parts produced by the United Kingdom. Although the premise does not explicitly name the minister's country, the context of authorizing the export/supply of parts 'prodotte dal Regno Unito' (produced by the UK) logically entails that the official in question is the UK Defense Minister. The hypothesis accurately captures this by stating that the UK Defense Minister rejected a supply request from Argentina. The core event, actors, and relationship align perfectly, making the hypothesis semantically entailed by the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "In novembre, l'unit\u00e0 organizz\u00f2 un'esposizione di falsi al V&A per mettere in luce la crescente diffusione e sofisticazione del crimine d'arte.",
+    "sentence2": "Il crimine d'arte \u00e8 in aumento.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise explicitly states that the exhibition was organized to highlight the 'crescente diffusione' (growing spread) of art crime. This phrase directly implies that art crime is increasing, which is exactly what the hypothesis claims ('Il crimine d'arte \u00e8 in aumento'). Therefore, the hypothesis is semantically entailed by the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise explicitly states that the exhibition was organized to highlight the 'crescente diffusione' (growing spread) of art crime. This phrase directly implies that art crime is increasing, which is exactly what the hypothesis claims ('Il crimine d'arte \u00e8 in aumento'). Therefore, the hypothesis is semantically entailed by the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Belknap fu accusato da un voto unanime della Camera dei Rappresentanti di aver presumibilmente ricevuto denaro in cambio di assegnazioni di posti di lavoro.",
+    "sentence2": "Belknap fu accusato di aver ricevuto denaro in cambio di assegnazioni di posti di lavoro.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that Belknap was accused by a unanimous vote of the House of Representatives of presumably receiving money in exchange for job appointments. The hypothesis simplifies this by stating only that he was accused of receiving money for job appointments, omitting the specific voting body and the adverb 'presumibilmente' (presumably/allegedly). Since both sentences center on the same core event (the accusation of bribery), and the premise explicitly confirms that such an accusation was made, the truth of the premise guarantees the truth of the more general hypothesis. In semantic entailment tasks, removing non-essential modifiers or contextual details does not break the entailment relationship.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise states that Belknap was accused by a unanimous vote of the House of Representatives of presumably receiving money in exchange for job appointments. The hypothesis simplifies this by stating only that he was accused of receiving money for job appointments, omitting the specific voting body and the adverb 'presumibilmente' (presumably/allegedly). Since both sentences center on the same core event (the accusation of bribery), and the premise explicitly confirms that such an accusation was made, the truth of the premise guarantees the truth of the more general hypothesis. In semantic entailment tasks, removing non-essential modifiers or contextual details does not break the entailment relationship.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "I robot sono stati usati nei lavori di assemblaggio finale delle automobili e per pittura a spruzzo e i fornitori sperano di essere capaci di sviluppare questi mercati adesso che la tecnologia \u00e8 stata provata.",
+    "sentence2": "I robot sono usati in lavori di assemblaggio.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise explicitly states that robots have been used in 'lavori di assemblaggio finale delle automobili' (final assembly work of cars). Since final assembly work is a specific type of assembly work, the premise directly supports the more general claim in the hypothesis that robots are used in assembly work. The minor difference in tense (past vs. present) does not undermine the core factual relationship, making the hypothesis semantically entailed by the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise explicitly states that robots have been used in 'lavori di assemblaggio finale delle automobili' (final assembly work of cars). Since final assembly work is a specific type of assembly work, the premise directly supports the more general claim in the hypothesis that robots are used in assembly work. The minor difference in tense (past vs. present) does not undermine the core factual relationship, making the hypothesis semantically entailed by the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  }
+]

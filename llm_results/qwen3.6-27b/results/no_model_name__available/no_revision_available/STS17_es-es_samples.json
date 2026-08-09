@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Un perro est\u00e1 con un juguete.",
+    "sentence2": "Un perro tiene un juguete.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the exact same core scenario: a dog and a toy. The only difference is the relational phrase: 'est\u00e1 con' (is with) implies proximity or accompaniment, while 'tiene' (has) implies possession or holding. In practical contexts, especially when describing pets and toys, these nuances are typically interchangeable and convey nearly identical situations. The difference is subtle and does not change the fundamental meaning, justifying a very high similarity score.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences describe the exact same core scenario: a dog and a toy. The only difference is the relational phrase: 'est\u00e1 con' (is with) implies proximity or accompaniment, while 'tiene' (has) implies possession or holding. In practical contexts, especially when describing pets and toys, these nuances are typically interchangeable and convey nearly identical situations. The difference is subtle and does not change the fundamental meaning, justifying a very high similarity score.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.8,
+    "abs_diff": 0.2999999999999998
+  },
+  {
+    "sentence1": "Los ni\u00f1os acarician un conejito.",
+    "sentence2": "Los ni\u00f1os acarician un perro.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the exact same subject ('Los ni\u00f1os') and verb ('acarician'), describing the identical core action of children affectionately petting an animal. The only difference is the specific animal being interacted with: a rabbit ('conejito') versus a dog ('perro'). While the overall scenario, context, and structure are highly similar, the change in the key entity alters the factual content, meaning they are not fully equivalent. This warrants a moderate-to-high similarity score.\",\n  \"output\": 3.5\n}",
+    "reasoning": "Both sentences share the exact same subject ('Los ni\u00f1os') and verb ('acarician'), describing the identical core action of children affectionately petting an animal. The only difference is the specific animal being interacted with: a rabbit ('conejito') versus a dog ('perro'). While the overall scenario, context, and structure are highly similar, the change in the key entity alters the factual content, meaning they are not fully equivalent. This warrants a moderate-to-high similarity score.",
+    "predicted_sim": 3.5,
+    "gold_score": 2.2,
+    "abs_diff": 1.2999999999999998
+  },
+  {
+    "sentence1": "La gente cocina en la parrilla.",
+    "sentence2": "Los peatones miran con asombro mientras dos personas cocinan pechuga en una parrilla.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the exact same core event: people cooking on a grill. However, Sentence 2 adds substantial specific details that Sentence 1 omits, including the exact number of cooks (two), the specific food item (chicken breast), and a secondary contextual layer (pedestrians watching in amazement). Because Sentence 1 acts as a broad generalization of the more detailed scene in Sentence 2, they are closely related but not fully equivalent in meaning, placing them in the 'roughly equivalent with missing/extra important details' range.\",\n  \"output\": 3.0\n}",
+    "reasoning": "Both sentences share the exact same core event: people cooking on a grill. However, Sentence 2 adds substantial specific details that Sentence 1 omits, including the exact number of cooks (two), the specific food item (chicken breast), and a secondary contextual layer (pedestrians watching in amazement). Because Sentence 1 acts as a broad generalization of the more detailed scene in Sentence 2, they are closely related but not fully equivalent in meaning, placing them in the 'roughly equivalent with missing/extra important details' range.",
+    "predicted_sim": 3.0,
+    "gold_score": 0.8,
+    "abs_diff": 2.2
+  },
+  {
+    "sentence1": "El hombre construye un peque\u00f1o castillo de arena",
+    "sentence2": "Una muchacha est\u00e1 construyendo un castillo de arena.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the same core action (building a sandcastle) and share the same object type. However, they differ significantly in the subject ('El hombre' vs. 'Una muchacha'), which changes the main participant of the event. Additionally, Sentence 1 includes an extra descriptive detail ('peque\u00f1o') that is absent in Sentence 2. While the event structure and action are identical, the subject mismatch and missing adjective place the similarity in the mid-range.\",\n  \"output\": 2.8\n}",
+    "reasoning": "Both sentences describe the same core action (building a sandcastle) and share the same object type. However, they differ significantly in the subject ('El hombre' vs. 'Una muchacha'), which changes the main participant of the event. Additionally, Sentence 1 includes an extra descriptive detail ('peque\u00f1o') that is absent in Sentence 2. While the event structure and action are identical, the subject mismatch and missing adjective place the similarity in the mid-range.",
+    "predicted_sim": 2.8,
+    "gold_score": 2.2,
+    "abs_diff": 0.5999999999999996
+  },
+  {
+    "sentence1": "Un hombre est\u00e1 corriendo detr\u00e1s de un trineo tirado por cuatro perros.",
+    "sentence2": "Un hombre siendo tirado en un trineo por perros.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the same core entities (a man, a sled, and dogs pulling it) and a similar general theme. However, they directly contradict each other regarding the man's position and action: Sentence 1 states he is running behind the sled, while Sentence 2 states he is on the sled being pulled. This fundamental difference in spatial relationship and role significantly changes the described scenario, resulting in a low similarity score despite the overlapping context and vocabulary.\",\n  \"output\": 1.5\n}",
+    "reasoning": "Both sentences share the same core entities (a man, a sled, and dogs pulling it) and a similar general theme. However, they directly contradict each other regarding the man's position and action: Sentence 1 states he is running behind the sled, while Sentence 2 states he is on the sled being pulled. This fundamental difference in spatial relationship and role significantly changes the described scenario, resulting in a low similarity score despite the overlapping context and vocabulary.",
+    "predicted_sim": 1.5,
+    "gold_score": 3.6,
+    "abs_diff": 2.1
+  }
+]

@@ -1,0 +1,23 @@
+% Statistical significance (paired bootstrap) (auto-generated)
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Comparison} & \textbf{$\Delta$} & \textbf{95\% CI} & \textbf{$p$} & \textbf{Sig.} \\
+\midrule
+\multicolumn{5}{l}{\emph{Overall (Gemini 3.1 Pro vs.\ Octen-8B, \mteblm)}} \\
+\quad All tasks & +0.3 & [$-$2.4, +3.1] & 0.85 & No \\
+\midrule
+\multicolumn{5}{l}{\emph{Per category (Gemini 3.1 Pro vs.\ best embedding)}} \\
+\quad Retrieval & +8.5 & [+0.2, +16.8] & $<$0.05 & Yes \\
+\quad Clustering & $-$0.2 & [$-$5.6, +5.1] & 0.96 & No \\
+\quad STS & $-$0.3 & [$-$2.2, +1.8] & 0.75 & No \\
+\quad Pair Classification & $-$3.9 & [$-$13.6, +5.9] & 0.50 & No \\
+\quad Classification & $-$5.6 & [$-$9.2, $-$2.4] & $<$0.01 & Yes \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Statistical significance.} Paired bootstrap test (10{,}000 resamples, seed 42).
+$\Delta$ = Gemini 3.1 Pro $-$ best embedding; significance at $\alpha$\,=\,0.05. Pair classification uses Pro for consistency, although Flash scores higher.}
+\label{tab:significance}
+\end{table}

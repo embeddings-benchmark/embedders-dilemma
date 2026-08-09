@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "in the us , it will depend on the school .",
+    "sentence2": "it really depends on the school and the program .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey that the outcome in question is contingent upon the 'school.' Sentence 1 specifies a geographic context ('in the US'), while Sentence 2 introduces an additional factor ('the program'). Despite these minor additions, the core meaning\u2014that variability depends on the educational institution\u2014is strongly aligned. The differences are notable but do not fundamentally change the primary message, warranting a high but not perfect similarity score.\",\n  \"output\": 3.8\n}",
+    "reasoning": "Both sentences convey that the outcome in question is contingent upon the 'school.' Sentence 1 specifies a geographic context ('in the US'), while Sentence 2 introduces an additional factor ('the program'). Despite these minor additions, the core meaning\u2014that variability depends on the educational institution\u2014is strongly aligned. The differences are notable but do not fundamentally change the primary message, warranting a high but not perfect similarity score.",
+    "predicted_sim": 3.8,
+    "gold_score": 3.0,
+    "abs_diff": 0.7999999999999998
+  },
+  {
+    "sentence1": "there 's also what the string is made of .",
+    "sentence2": "there is also a youtube-version of the film .",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences share a similar syntactic opening ('there is also') but discuss entirely unrelated topics. Sentence 1 refers to the physical material composition of a string, while Sentence 2 refers to a digital release format (YouTube version) of a film. There is no meaningful overlap in entities, context, or core meaning, making them semantically unrelated.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The two sentences share a similar syntactic opening ('there is also') but discuss entirely unrelated topics. Sentence 1 refers to the physical material composition of a string, while Sentence 2 refers to a digital release format (YouTube version) of a film. There is no meaningful overlap in entities, context, or core meaning, making them semantically unrelated.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "you also imply you may not be paid if they cannot place you with a client .",
+    "sentence2": "you can do it , but you might not be a professor .",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences discuss entirely different concepts with no semantic overlap. Sentence 1 concerns conditional payment based on client placement, while Sentence 2 addresses the possibility of doing something and the uncertainty of becoming a professor. There is no shared meaning, context, or topic between them.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The two sentences discuss entirely different concepts with no semantic overlap. Sentence 1 concerns conditional payment based on client placement, while Sentence 2 addresses the possibility of doing something and the uncertainty of becoming a professor. There is no shared meaning, context, or topic between them.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "you do not need to worry .",
+    "sentence2": "you don 't have to worry .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the exact same meaning: reassuring the listener that there is no need to worry. The phrases 'do not need to' and 'don't have to' are functionally equivalent in this negative context, expressing a lack of necessity or obligation. The only differences are purely orthographic/stylistic (full form vs. contraction, spacing), which do not affect the semantic content. Therefore, the sentences are identical in meaning.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey the exact same meaning: reassuring the listener that there is no need to worry. The phrases 'do not need to' and 'don't have to' are functionally equivalent in this negative context, expressing a lack of necessity or obligation. The only differences are purely orthographic/stylistic (full form vs. contraction, spacing), which do not affect the semantic content. Therefore, the sentences are identical in meaning.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "you should do it .",
+    "sentence2": "you should do what it says .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same pragmatic advice to take action, sharing identical subject, modal verb, and overall intent. The key difference lies in the object: 'it' implies performing a specific, context-dependent task, while 'what it says' explicitly refers to following instructions or text. This minor distinction in the target of the action prevents a perfect equivalence, but the core meaning and communicative purpose are highly aligned.\",\n  \"output\": 3.8\n}",
+    "reasoning": "Both sentences convey the same pragmatic advice to take action, sharing identical subject, modal verb, and overall intent. The key difference lies in the object: 'it' implies performing a specific, context-dependent task, while 'what it says' explicitly refers to following instructions or text. This minor distinction in the target of the action prevents a perfect equivalence, but the core meaning and communicative purpose are highly aligned.",
+    "predicted_sim": 3.8,
+    "gold_score": 3.0,
+    "abs_diff": 0.7999999999999998
+  }
+]

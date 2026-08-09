@@ -1,0 +1,30 @@
+{
+  "dataset_revision": "6283e03ad9bd28cb1ed3d3a472d08a0e9df58fc1",
+  "task_name": "STS15",
+  "mteb_version": "2.3.0",
+  "scores": {
+    "test": [
+      {
+        "cosine_spearman": 0.89853,
+        "cosine_pearson": 0.869836,
+        "usage_stats": {
+          "input_tokens": 47636,
+          "cached_tokens": 0,
+          "output_tokens": 353565,
+          "thinking_tokens": 337987,
+          "total_tokens": 401201,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.89853,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 1137.9747240543365,
+  "kg_co2_emissions": null
+}

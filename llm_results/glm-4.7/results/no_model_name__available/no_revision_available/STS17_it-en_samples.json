@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Una persona fa parte di una squadra di baseball.",
+    "sentence2": "A person is playing basketball on a team.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 translates to 'A person is part of a baseball team.' Sentence 2 states 'A person is playing basketball on a team.' Both sentences share the broad context of a person belonging to a sports team. However, the specific sports mentioned are mutually exclusive (baseball vs. basketball) in this context, meaning the sentences describe different scenarios despite the similar structure.\",\n  \"output\": 1.8\n}",
+    "reasoning": "Sentence 1 translates to 'A person is part of a baseball team.' Sentence 2 states 'A person is playing basketball on a team.' Both sentences share the broad context of a person belonging to a sports team. However, the specific sports mentioned are mutually exclusive (baseball vs. basketball) in this context, meaning the sentences describe different scenarios despite the similar structure.",
+    "predicted_sim": 1.8,
+    "gold_score": 2.4,
+    "abs_diff": 0.5999999999999999
+  },
+  {
+    "sentence1": "I nostri veicoli attuali saranno nei musei quando ognuno avr\u00e0 il proprio aereo.",
+    "sentence2": "The car needs to some work",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 is in Italian and translates to a futuristic prediction that current ground vehicles will become obsolete exhibits when personal air travel is common. Sentence 2 is a practical statement in English about a specific car requiring maintenance. Although both sentences loosely relate to the domain of transportation, their core meanings, contexts, and intents are entirely distinct and share no semantic overlap.\",\n  \"output\": 0.1\n}",
+    "reasoning": "Sentence 1 is in Italian and translates to a futuristic prediction that current ground vehicles will become obsolete exhibits when personal air travel is common. Sentence 2 is a practical statement in English about a specific car requiring maintenance. Although both sentences loosely relate to the domain of transportation, their core meanings, contexts, and intents are entirely distinct and share no semantic overlap.",
+    "predicted_sim": 0.1,
+    "gold_score": 0.2,
+    "abs_diff": 0.1
+  },
+  {
+    "sentence1": "Una donna supervisore sta istruendo i lavoratori di sesso maschile.",
+    "sentence2": "A woman is working as a nurse.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 describes a female supervisor instructing or training male workers. Sentence 2 describes a woman working in the specific role of a nurse. While both sentences mention a woman working, the specific roles (supervisor vs. nurse), actions (instructing vs. nursing), and contexts are completely different and unrelated.\",\n  \"output\": 0.2\n}",
+    "reasoning": "Sentence 1 describes a female supervisor instructing or training male workers. Sentence 2 describes a woman working in the specific role of a nurse. While both sentences mention a woman working, the specific roles (supervisor vs. nurse), actions (instructing vs. nursing), and contexts are completely different and unrelated.",
+    "predicted_sim": 0.2,
+    "gold_score": 1.0,
+    "abs_diff": 0.8
+  },
+  {
+    "sentence1": "Una bici \u00e8 accanto a una coppia di donne.",
+    "sentence2": "A child next to a bike.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a scene involving a bicycle positioned next to a person or group of people. The spatial relationship ('next to'/'accanto a') and the object ('bike'/'bici') are identical. However, the specific subjects differ significantly: Sentence 1 refers to 'a couple of women' (adults), while Sentence 2 refers to 'a child'. While the context is similar, the different entities make the meanings mutually exclusive and not semantically equivalent.\",\n  \"output\": 1.8\n}",
+    "reasoning": "Both sentences describe a scene involving a bicycle positioned next to a person or group of people. The spatial relationship ('next to'/'accanto a') and the object ('bike'/'bici') are identical. However, the specific subjects differ significantly: Sentence 1 refers to 'a couple of women' (adults), while Sentence 2 refers to 'a child'. While the context is similar, the different entities make the meanings mutually exclusive and not semantically equivalent.",
+    "predicted_sim": 1.8,
+    "gold_score": 2.0,
+    "abs_diff": 0.19999999999999996
+  },
+  {
+    "sentence1": "Il gruppo sta mangiando ammirando una vista mozzafiato.",
+    "sentence2": "A group of people take a look at an unusual tree.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 translates from Italian to 'The group is eating while admiring a breathtaking view.' Sentence 2 describes 'A group of people [who] take a look at an unusual tree.' While both sentences share a subject (a group of people), the actions and objects differ significantly. Sentence 1 involves eating and enjoying a general landscape (a view), whereas Sentence 2 focuses specifically on examining a single object (an unusual tree) with no mention of eating. The core activities and the objects of attention are not the same.\",\n  \"output\": 1.2\n}",
+    "reasoning": "Sentence 1 translates from Italian to 'The group is eating while admiring a breathtaking view.' Sentence 2 describes 'A group of people [who] take a look at an unusual tree.' While both sentences share a subject (a group of people), the actions and objects differ significantly. Sentence 1 involves eating and enjoying a general landscape (a view), whereas Sentence 2 focuses specifically on examining a single object (an unusual tree) with no mention of eating. The core activities and the objects of attention are not the same.",
+    "predicted_sim": 1.2,
+    "gold_score": 2.2,
+    "abs_diff": 1.0000000000000002
+  }
+]

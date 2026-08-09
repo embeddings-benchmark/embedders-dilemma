@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "It has recently been shown that Craf is essential for Kras G12D-induced NSCLC.",
+    "sentence2": " It has recently become evident that Craf is essential for the onset of Kras-driven non-small cell lung cancer.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey that Craf is essential for Kras-driven NSCLC. The second sentence uses slightly broader terms (onset of Kras-driven non-small cell lung cancer) compared to the specific mutation (Kras G12D-induced NSCLC), but the core meaning is highly similar.\",\n  \"output\": 3.6\n}",
+    "reasoning": "Both sentences convey that Craf is essential for Kras-driven NSCLC. The second sentence uses slightly broader terms (onset of Kras-driven non-small cell lung cancer) compared to the specific mutation (Kras G12D-induced NSCLC), but the core meaning is highly similar.",
+    "predicted_sim": 3.6,
+    "gold_score": 4.0,
+    "abs_diff": 0.3999999999999999
+  },
+  {
+    "sentence1": "The Bcl-2 inhibitor ABT-737 induces regression of solid tumors  and its derivatives are in the early clinical phase as cancer therapeutics; however, it targets Bcl-2, Bcl-XL, and Bcl-w, but not Mcl-1, which induces resistance against apoptotic cell death triggered by ABT-737.",
+    "sentence2": "Recently, it has been reported that ABT-737 is not cytotoxic to all tumors cells, and that chemoresistance to ABT-737 is dependent on appreciable levels of Mcl-1 expression, the one Bcl-2 family member it does not effectively inhibit.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the mechanism of resistance to the Bcl-2 inhibitor ABT-737, specifically highlighting that its inability to inhibit Mcl-1 leads to resistance to apoptotic cell death in certain tumor cells. The content is nearly identical, differing only in sentence structure and phrasing.\",\n  \"output\": 3.8\n}",
+    "reasoning": "Both sentences describe the mechanism of resistance to the Bcl-2 inhibitor ABT-737, specifically highlighting that its inability to inhibit Mcl-1 leads to resistance to apoptotic cell death in certain tumor cells. The content is nearly identical, differing only in sentence structure and phrasing.",
+    "predicted_sim": 3.8,
+    "gold_score": 3.0,
+    "abs_diff": 0.7999999999999998
+  },
+  {
+    "sentence1": "Previous studies demonstrated that the decrease level of 5 hmC in tumors was due to the reduced expression of TET1/2/3 and IDH2 genes or tumor derived IDH1 and IDH2 mutations.",
+    "sentence2": "In addition, genetic and functional studies suggest that neomorphic IDH mutations contribute to myeloid transformation, at least in part, by inhibiting TET enzymatic function.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences discuss the relationship between IDH mutations, TET enzymes, and 5hmC levels. While the first sentence focuses on the mechanisms causing decreased 5hmC in tumors (specifically mentioning TET/IDH expression and mutations), the second sentence focuses on the functional impact of IDH mutations on TET activity in the context of myeloid transformation. They share core biological components but describe different (though related) aspects of the regulatory pathway.\",\n  \"output\": 2.8\n}",
+    "reasoning": "Both sentences discuss the relationship between IDH mutations, TET enzymes, and 5hmC levels. While the first sentence focuses on the mechanisms causing decreased 5hmC in tumors (specifically mentioning TET/IDH expression and mutations), the second sentence focuses on the functional impact of IDH mutations on TET activity in the context of myeloid transformation. They share core biological components but describe different (though related) aspects of the regulatory pathway.",
+    "predicted_sim": 2.8,
+    "gold_score": 2.2,
+    "abs_diff": 0.5999999999999996
+  },
+  {
+    "sentence1": "More recently, IDH mutations and resultant 2-hydroxyglutarate (2HG) production in leukemia cells were reported to induce global DNA hypermethylation through impaired TET2 catalytic function.",
+    "sentence2": "It has also been recently reported that mutations of the isocitrate dehydrogenase genes IDH1 and IDH2 can lead to the aberrant production of 2-hydroxyglutarate (2-HG), a metabolite that inhibits TET2 enzymatic activity, resulting in a hypermethylated promoter phenotype in acute myeloid leukemia (AML) tumors carrying IDH1/2 mutations.",
+    "model_raw_output": "{\"reasoning\": \"Both sentences describe the same biological mechanism: IDH mutations lead to 2-HG production, which inhibits TET2 and causes DNA hypermethylation in leukemia. The second sentence is more specific about the genes (IDH1/2) and the condition (AML), but the core clinical and molecular concepts are highly overlapping.\", \"output\": 3.8}",
+    "reasoning": "Both sentences describe the same biological mechanism: IDH mutations lead to 2-HG production, which inhibits TET2 and causes DNA hypermethylation in leukemia. The second sentence is more specific about the genes (IDH1/2) and the condition (AML), but the core clinical and molecular concepts are highly overlapping.",
+    "predicted_sim": 3.8,
+    "gold_score": 3.2,
+    "abs_diff": 0.5999999999999996
+  },
+  {
+    "sentence1": "Recent in vitro studies using shRNA-based approaches have suggested a role for TET2 in regulating myeloid differentiation and in regulating stem/progenitor cell proliferation.",
+    "sentence2": "Two recent studies used RNAi-mediated Tet2 knock-down in vitro to suggest that TET2 depletion led to impaired hematopoietic differentiation and to preferential myeloid commitment.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences discuss the same topic: in vitro studies investigating TET2 function via RNA interference. However, they describe the specific outcomes of these studies differently. Sentence 1 focuses on TET2 regulating differentiation and proliferation, while Sentence 2 claims TET2 depletion impairs differentiation and biases myeloid commitment. While they address the same experimental context, the specific biological conclusions stated differ in detail.\",\n  \"output\": 3.2\n}",
+    "reasoning": "Both sentences discuss the same topic: in vitro studies investigating TET2 function via RNA interference. However, they describe the specific outcomes of these studies differently. Sentence 1 focuses on TET2 regulating differentiation and proliferation, while Sentence 2 claims TET2 depletion impairs differentiation and biases myeloid commitment. While they address the same experimental context, the specific biological conclusions stated differ in detail.",
+    "predicted_sim": 3.2,
+    "gold_score": 3.2,
+    "abs_diff": 0.0
+  }
+]

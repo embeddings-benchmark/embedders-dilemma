@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Un perro est\u00e1 con un juguete.",
+    "sentence2": "Un perro tiene un juguete.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a dog interacting with a toy. Sentence 1 says the dog is 'with' a toy, while Sentence 2 says the dog 'has' a toy. The meanings are highly similar, conveying essentially the same situation with only a slight variation in the verb used.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences describe a dog interacting with a toy. Sentence 1 says the dog is 'with' a toy, while Sentence 2 says the dog 'has' a toy. The meanings are highly similar, conveying essentially the same situation with only a slight variation in the verb used.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.8,
+    "abs_diff": 0.2999999999999998
+  },
+  {
+    "sentence1": "Los ni\u00f1os acarician un conejito.",
+    "sentence2": "Los ni\u00f1os acarician un perro.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe children petting an animal. The only difference is the type of animal being petted (a bunny in the first sentence versus a dog in the second).\",\n  \"output\": 3.5\n}",
+    "reasoning": "Both sentences describe children petting an animal. The only difference is the type of animal being petted (a bunny in the first sentence versus a dog in the second).",
+    "predicted_sim": 3.5,
+    "gold_score": 2.2,
+    "abs_diff": 1.2999999999999998
+  },
+  {
+    "sentence1": "La gente cocina en la parrilla.",
+    "sentence2": "Los peatones miran con asombro mientras dos personas cocinan pechuga en una parrilla.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the core action of people cooking on a grill. However, Sentence 2 includes significant additional details that Sentence 1 lacks, such as the pedestrians watching in amazement, the specific number of people cooking, and the type of meat being cooked.\",\n  \"output\": 2.7\n}",
+    "reasoning": "Both sentences describe the core action of people cooking on a grill. However, Sentence 2 includes significant additional details that Sentence 1 lacks, such as the pedestrians watching in amazement, the specific number of people cooking, and the type of meat being cooked.",
+    "predicted_sim": 2.7,
+    "gold_score": 0.8,
+    "abs_diff": 1.9000000000000001
+  },
+  {
+    "sentence1": "El hombre construye un peque\u00f1o castillo de arena",
+    "sentence2": "Una muchacha est\u00e1 construyendo un castillo de arena.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the action of building a sandcastle, but they differ significantly in the subject performing the action (a man vs. a girl) and a minor detail about the sandcastle (small vs. unspecified size).\",\n  \"output\": 2.7\n}",
+    "reasoning": "Both sentences describe the action of building a sandcastle, but they differ significantly in the subject performing the action (a man vs. a girl) and a minor detail about the sandcastle (small vs. unspecified size).",
+    "predicted_sim": 2.7,
+    "gold_score": 2.2,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "Un hombre est\u00e1 corriendo detr\u00e1s de un trineo tirado por cuatro perros.",
+    "sentence2": "Un hombre siendo tirado en un trineo por perros.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a scenario involving a man, dogs, and a sled. However, the man's action and position are entirely different. In the first sentence, he is running behind the sled, whereas in the second, he is sitting in the sled being pulled by the dogs. Because of this major difference in the core action, they are not equivalent, though they share significant details.\",\n  \"output\": 2.6\n}",
+    "reasoning": "Both sentences describe a scenario involving a man, dogs, and a sled. However, the man's action and position are entirely different. In the first sentence, he is running behind the sled, whereas in the second, he is sitting in the sled being pulled by the dogs. Because of this major difference in the core action, they are not equivalent, though they share significant details.",
+    "predicted_sim": 2.6,
+    "gold_score": 3.6,
+    "abs_diff": 1.0
+  }
+]

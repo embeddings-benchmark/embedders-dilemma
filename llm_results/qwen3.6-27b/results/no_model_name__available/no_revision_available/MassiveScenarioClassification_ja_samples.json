@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "\u30d4\u30f3\u30af\u304c\u3044\u3044",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance '\u30d4\u30f3\u30af\u304c\u3044\u3044' (I like pink / Pink is good) expresses a specific color preference. In conversational AI and dialogue systems, stating a preference like this is typically part of a product selection, filtering, or suggestion flow. Among the provided scenarios, this aligns best with 'recommendation', as it indicates a user preference that would directly guide item or service suggestions. While it could be classified as 'general' due to the lack of explicit domain context, preference-based statements are standardly mapped to recommendation intents in structured scenario taxonomies.\",\n  \"output\": \"recommendation\"\n}",
+        "parsed_output": "recommendation",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "\u50d5\u306e\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u660e\u308b\u3055\u3092\u8868\u793a\u3057\u305f\u307e\u3048",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to display/check the current screen brightness of their device. This involves direct interaction with device hardware and system settings. Among the provided scenarios, 'iot' is the most appropriate category as it typically encompasses device control, smart interactions, and hardware setting management.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2\u306e\u6642\u9593\u306f",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the current time in Australia, which is a direct query about time and time zones. This aligns with the 'datetime' scenario.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u5348\u524d\u4e03\u6642\u306e\u30a2\u30e9\u30fc\u30e0\u3092\u30ad\u30e3\u30f3\u30bb\u30eb",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance explicitly requests to cancel an alarm set for 7 AM ('\u5348\u524d\u4e03\u6642\u306e\u30a2\u30e9\u30fc\u30e0\u3092\u30ad\u30e3\u30f3\u30bb\u30eb'). This directly involves managing alarm settings, which aligns perfectly with the 'alarm' scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u3069\u3093\u306a\u30a2\u30e9\u30fc\u30e0\u3092\u8a2d\u5b9a\u3057\u305f\u304b",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to check or recall previously set alarms ('\u3069\u3093\u306a\u30a2\u30e9\u30fc\u30e0\u3092\u8a2d\u5b9a\u3057\u305f\u304b' translates to 'What alarm did I set?'). This directly involves querying alarm settings, which clearly aligns with the 'alarm' scenario from the provided list.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

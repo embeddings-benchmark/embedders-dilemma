@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "What is cache on my Apple iPad Pro and how can I clear my browser cache on it ?",
+    "sentence2": "Clear browser cache - Apple iPad Pro",
+    "model_raw_output": "{\n  \"reasoning\": \"Both questions are primarily asking for instructions on how to clear the browser cache on an Apple iPad Pro. While the first sentence includes a secondary question about defining cache, the core intent and the main actionable information sought are identical to the second sentence.\",\n  \"output\": 1\n}",
+    "reasoning": "Both questions are primarily asking for instructions on how to clear the browser cache on an Apple iPad Pro. While the first sentence includes a secondary question about defining cache, the core intent and the main actionable information sought are identical to the second sentence.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Troubleshooting guide for charging related issues on the HTC Bolt",
+    "sentence2": "Transfer files with your computer - Apple iPad mini 4",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences refer to completely different devices and technical issues. Sentence 1 is about troubleshooting charging problems on an HTC Bolt smartphone, while Sentence 2 is about transferring files on an Apple iPad mini 4 tablet. They do not ask for the same information.\",\n  \"output\": 0\n}",
+    "reasoning": "The two sentences refer to completely different devices and technical issues. Sentence 1 is about troubleshooting charging problems on an HTC Bolt smartphone, while Sentence 2 is about transferring files on an Apple iPad mini 4 tablet. They do not ask for the same information.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Guide on conserving the Samsung Galaxy Note 4 battery life",
+    "sentence2": "Can I use my Apple Pencil to control my Apple iPad Pro ?",
+    "model_raw_output": "{\n  \"reasoning\": \"The first sentence asks for tips on conserving battery life for a Samsung Galaxy Note 4, while the second asks about the compatibility and usage of an Apple Pencil with an iPad Pro. They involve completely different brands, devices, and topics, so they are not asking for the same information.\",\n  \"output\": 0\n}",
+    "reasoning": "The first sentence asks for tips on conserving battery life for a Samsung Galaxy Note 4, while the second asks about the compatibility and usage of an Apple Pencil with an iPad Pro. They involve completely different brands, devices, and topics, so they are not asking for the same information.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Does my LG G4 have any special features ?",
+    "sentence2": "Does my LG G4 have any special features ?",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences are character-for-character identical, meaning they are asking for the exact same information.\",\n  \"output\": 1\n}",
+    "reasoning": "The two sentences are character-for-character identical, meaning they are asking for the exact same information.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "How can I pair bluetooth devices to my Samsung Galaxy S III with 4G LTE Prepaid ?",
+    "sentence2": "How do I change the phone ringtone and notification sound on my Apple iPhone 4s ?",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences inquire about completely different tasks on different devices. Sentence 1 asks how to pair Bluetooth devices on a Samsung Galaxy S III, while Sentence 2 asks how to change ringtones and notification sounds on an Apple iPhone 4s. They are seeking unrelated information and are not duplicates.\",\n  \"output\": 0\n}",
+    "reasoning": "The two sentences inquire about completely different tasks on different devices. Sentence 1 asks how to pair Bluetooth devices on a Samsung Galaxy S III, while Sentence 2 asks how to change ringtones and notification sounds on an Apple iPhone 4s. They are seeking unrelated information and are not duplicates.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "a little girl walks on a boardwalk with blue domes in the background .",
+    "sentence2": "a man going over a jump on his bike with a river in the background",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a single person performing an action in an outdoor setting with a specific background element. However, the subjects (a little girl vs. a man), the actions (walking vs. jumping a bike), and the environments (boardwalk with blue domes vs. a river) are entirely distinct.\",\n  \"output\": 0.4\n}",
+    "reasoning": "Both sentences describe a single person performing an action in an outdoor setting with a specific background element. However, the subjects (a little girl vs. a man), the actions (walking vs. jumping a bike), and the environments (boardwalk with blue domes vs. a river) are entirely distinct.",
+    "predicted_sim": 0.4,
+    "gold_score": 0.0,
+    "abs_diff": 0.4
+  },
+  {
+    "sentence1": "terminal 1is connected to terminal 4",
+    "sentence2": "terminals 1 and 4 are connected",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the exact same logical relationship between terminal 1 and terminal 4. Sentence 1 has a minor typographical error ('1is' instead of '1 is'), but the semantic meaning remains identical to Sentence 2.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey the exact same logical relationship between terminal 1 and terminal 4. Sentence 1 has a minor typographical error ('1is' instead of '1 is'), but the semantic meaning remains identical to Sentence 2.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "ask yourself what you look for in a friend too .",
+    "sentence2": "i went out & found new friends .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences are related to the topic of friendship. However, the first sentence is introspective advice regarding the criteria for choosing a friend, while the second sentence is a narrative statement about the action of making new friends. There is a thematic connection but no direct semantic equivalence.\",\n  \"output\": 1.2\n}",
+    "reasoning": "Both sentences are related to the topic of friendship. However, the first sentence is introspective advice regarding the criteria for choosing a friend, while the second sentence is a narrative statement about the action of making new friends. There is a thematic connection but no direct semantic equivalence.",
+    "predicted_sim": 1.2,
+    "gold_score": 1.6,
+    "abs_diff": 0.40000000000000013
+  },
+  {
+    "sentence1": "positive battery terminal is not separated by a gap from terminal 4",
+    "sentence2": "terminal 4 and the positive terminal are not separated by the gap",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same physical configuration: that there is no space separating the positive battery terminal from terminal 4. The differences are purely stylistic and grammatical, such as the change from 'a gap' to 'the gap' and the slight rearrangement of the subject and object. The semantic meaning remains identical.\",\n  \"output\": 4.9\n}",
+    "reasoning": "Both sentences convey the same physical configuration: that there is no space separating the positive battery terminal from terminal 4. The differences are purely stylistic and grammatical, such as the change from 'a gap' to 'the gap' and the slight rearrangement of the subject and object. The semantic meaning remains identical.",
+    "predicted_sim": 4.9,
+    "gold_score": 5.0,
+    "abs_diff": 0.09999999999999964
+  },
+  {
+    "sentence1": "police stop maldives presidential election",
+    "sentence2": "keita wins mali presidential election",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences are news headlines concerning a presidential election, providing a shared thematic context. However, they describe completely different events in different countries: one involves police intervention in the Maldives, while the other reports a victory in Mali.\",\n  \"output\": 1.4\n}",
+    "reasoning": "Both sentences are news headlines concerning a presidential election, providing a shared thematic context. However, they describe completely different events in different countries: one involves police intervention in the Maldives, while the other reports a victory in Mali.",
+    "predicted_sim": 1.4,
+    "gold_score": 1.2,
+    "abs_diff": 0.19999999999999996
+  }
+]

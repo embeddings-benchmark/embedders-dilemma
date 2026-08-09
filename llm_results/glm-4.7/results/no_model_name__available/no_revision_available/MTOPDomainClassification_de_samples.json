@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Schicke an den Motorrad-Chat eine Videonachricht",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'Schicke an den Motorrad-Chat eine Videonachricht' translates to 'Send a video message to the motorcycle chat'. This indicates an intent to communicate or send media to a specific group or individual, which falls under the messaging domain.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "Rufe Loren an",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance is German for 'Call Loren'. It explicitly uses the command 'anrufen' (to call) directed towards a specific person.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Stelle meinen Status als vielleicht ein f\u00fcr das zweite Event",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance translates to 'Set my status as maybe for the second event'. The user is explicitly referencing an 'event' and asking to change their attendance status (RSVP) for it, which fits the 'event' domain perfectly.\",\n  \"output\": \"event\"\n}",
+        "parsed_output": "event",
+        "ground_truth": "event",
+        "is_correct": true
+    },
+    {
+        "input_text": "Rufe Josiah \u00fcber WhatsApp an",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'Rufe Josiah \u00fcber WhatsApp an' translates to 'Call Josiah via WhatsApp'. The key verb 'anrufen' means 'to call'. Although the medium is a messaging app (WhatsApp), the specific action requested is a voice or video call, which fits the 'calling' domain rather than 'messaging'.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Starte einen Timer f\u00fcr das Kalbsfleisch",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance explicitly contains the command 'Starte einen Timer' (start a timer) targeting a specific item ('Kalbsfleisch'). While related to cooking, the immediate action requested is to set a countdown, which directly maps to the 'timer' domain rather than 'recipes' or 'reminder'.\",\n  \"output\": \"timer\"\n}",
+        "parsed_output": "timer",
+        "ground_truth": "timer",
+        "is_correct": true
+    }
+]

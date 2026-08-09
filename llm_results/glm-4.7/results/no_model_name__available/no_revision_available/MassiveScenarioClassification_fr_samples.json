@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "le rose est tout ce dont nous avons besoin",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'le rose est tout ce dont nous avons besoin' translates to 'Pink is all we need'. This is a declarative sentence expressing an opinion or a statement, rather than a specific command to control a device (iot), play media (music/music), or perform a functional task like checking the weather or managing a calendar. It best fits the 'general' category, which typically handles open-ended conversational statements, chit-chat, and non-functional expressions.\",\n  \"output\": \"general\"\n}",
+        "parsed_output": "general",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "je veux le statut sur la luminosit\u00e9 de mon \u00e9cran",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the status of their screen brightness. This relates to a general device setting or system query, rather than a specific domain like media (music), environment (weather), or external smart home devices (iot). Therefore, it falls under the 'general' category.\",\n  \"output\": \"general\"\n}",
+        "parsed_output": "general",
+        "ground_truth": "general",
+        "is_correct": true
+    },
+    {
+        "input_text": "quelle heure est-il en australie",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the current time in Australia ('quelle heure est-il' translates to 'what time is it'). Queries regarding time, date, or time zones fall under the datetime category.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "annuler mon alarme de sept heures du matin",
+        "model_raw_output": "{\n  \"reasoning\": \"The user explicitly requests to cancel an alarm set for 7 AM ('annuler mon alarme'). This directly corresponds to the management of alarms.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "quelles alarmes j'ai r\u00e9gl\u00e9es",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'quelles alarmes j'ai r\u00e9gl\u00e9es' translates to 'which alarms did I set' or 'what alarms do I have set'. This is a direct request to check, list, or query the existing alarms configured by the user. Therefore, it falls under the alarm scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

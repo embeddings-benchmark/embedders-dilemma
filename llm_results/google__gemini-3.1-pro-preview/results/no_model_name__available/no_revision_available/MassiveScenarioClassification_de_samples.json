@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "wir brauchen rosa",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'wir brauchen rosa' (we need pink) implies adding an item ('rosa' / pink) to a shopping list or note-taking application.\",\n  \"output\": \"lists\"\n}",
+        "parsed_output": "lists",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "wie ist die einstellung f\u00fcr die helligkeit an meinem bildschirm",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking about the brightness setting on their screen, which involves controlling or checking the state of a device. This falls under the IoT (Internet of Things) or device control scenario.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "wie sp\u00e4t ist es in schweden",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the current time in Sweden ('wie sp\u00e4t ist es in schweden'), which falls under the datetime scenario.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "l\u00f6sche meinen wecker f\u00fcr sieben uhr",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to delete/cancel an alarm ('wecker') set for 7 o'clock, which directly corresponds to the 'alarm' scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "welche wecker habe ich gestellt",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking about the alarms they have set ('welche wecker habe ich gestellt' translates to 'which alarms have I set'). This falls under the 'alarm' scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

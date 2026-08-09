@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "The male, who is dark skinned, is standing on one hand in front of a yellow building",
+    "sentence2": "A black man is break dancing on the pavement",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a dark-skinned male engaged in a handstand-like physical activity. Sentence 1 specifies 'standing on one hand in front of a yellow building,' while Sentence 2 describes 'break dancing on the pavement.' The core action is related (a one-handed handstand is a common breakdancing move), and the subject's ethnicity is similarly referenced ('dark skinned' vs. 'black man'). However, the context differs (building vs. pavement, general posture vs. specific dance style), so the meanings are not identical but are moderately to highly related.\",\n  \"output\": 3.8\n}",
+    "reasoning": "Both sentences describe a dark-skinned male engaged in a handstand-like physical activity. Sentence 1 specifies 'standing on one hand in front of a yellow building,' while Sentence 2 describes 'break dancing on the pavement.' The core action is related (a one-handed handstand is a common breakdancing move), and the subject's ethnicity is similarly referenced ('dark skinned' vs. 'black man'). However, the context differs (building vs. pavement, general posture vs. specific dance style), so the meanings are not identical but are moderately to highly related.",
+    "predicted_sim": 3.8,
+    "gold_score": 2.7,
+    "abs_diff": 1.0999999999999996
+  },
+  {
+    "sentence1": "A girl in blue is sliding down a green slide",
+    "sentence2": "A boy in blue are sliding down a green slide",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe someone in blue sliding down a green slide. The only difference is 'girl' vs 'boy' and the verb agreement ('is' vs 'are'). The core event and setting are nearly identical, so the semantic relatedness is very high, but not exactly identical due to the different subject.\",\n  \"output\": 4.8\n}",
+    "reasoning": "Both sentences describe someone in blue sliding down a green slide. The only difference is 'girl' vs 'boy' and the verb agreement ('is' vs 'are'). The core event and setting are nearly identical, so the semantic relatedness is very high, but not exactly identical due to the different subject.",
+    "predicted_sim": 4.8,
+    "gold_score": 3.4,
+    "abs_diff": 1.4
+  },
+  {
+    "sentence1": "The cheerleaders are parading and wearing uniforms which are black, pink and white",
+    "sentence2": "The cheerleaders are parading and wearing black, pink and white uniforms",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same meaning: cheerleaders are parading while wearing uniforms in black, pink, and white. The only difference is the word order, which does not change the semantic content.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey the same meaning: cheerleaders are parading while wearing uniforms in black, pink, and white. The only difference is the word order, which does not change the semantic content.",
+    "predicted_sim": 5.0,
+    "gold_score": 4.8,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "A man is emptying a container made of plastic",
+    "sentence2": "A man is filling a container made of plastic",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences are almost identical in structure and mention the same subject ('a man') and object ('a container made of plastic'), but the verbs 'emptying' and 'filling' are antonyms, indicating opposite actions. This opposition means the meanings are not similar; they are contrary, so the semantic relatedness is low.\",\n  \"output\": 2.0\n}",
+    "reasoning": "The two sentences are almost identical in structure and mention the same subject ('a man') and object ('a container made of plastic'), but the verbs 'emptying' and 'filling' are antonyms, indicating opposite actions. This opposition means the meanings are not similar; they are contrary, so the semantic relatedness is low.",
+    "predicted_sim": 2.0,
+    "gold_score": 3.4,
+    "abs_diff": 1.4
+  },
+  {
+    "sentence1": "A few people are dancing",
+    "sentence2": "A group of people are dancing",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe people dancing, but 'a few' and 'a group' are not identical in meaning. 'A few' typically implies a small number, while 'a group' could be larger or unspecified. The activity and general context are the same, so the relatedness is high but not perfect.\",\n  \"output\": 4.0\n}",
+    "reasoning": "Both sentences describe people dancing, but 'a few' and 'a group' are not identical in meaning. 'A few' typically implies a small number, while 'a group' could be larger or unspecified. The activity and general context are the same, so the relatedness is high but not perfect.",
+    "predicted_sim": 4.0,
+    "gold_score": 4.5,
+    "abs_diff": 0.5
+  }
+]

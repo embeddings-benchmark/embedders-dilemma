@@ -1,0 +1,19 @@
+% Ablation: few-shot classification (5 in-context examples)
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Task} & \textbf{Classes} & \textbf{Zero-shot} & \textbf{5-shot} & \textbf{$\Delta$} & \textbf{Best Emb.} \\
+\midrule
+IMDB & 2 & \textbf{0.976} & 0.974 & $-$0.002 & \textbf{0.976} \\
+ToxicConversations & 2 & \textbf{0.900} & 0.838 & $-$0.062 & 0.810 \\
+TweetSentiment & 3 & 0.700 & 0.682 & $-$0.018 & \textbf{0.710} \\
+Banking77 & 77 & 0.831 & 0.165 & $-$0.666 & \textbf{0.960} \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Few-shot classification ablation} (Flash, 5 in-context examples vs.\ zero-shot).
+\textbf{Bold} = best score per task across all methods.
+Five-shot prompting matches zero-shot performance on the 2--3 class tasks and lowers Banking77 performance, where the prompt contains five examples for 77 labels.}
+\label{tab:ablation_fewshot}
+\end{table}

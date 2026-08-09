@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "i need you to mark next monday",
+        "model_raw_output": "{\n  \"reasoning\": \"The user wants to 'mark next monday', which implies adding a reminder or an event to their calendar. This action falls under the 'calendar_set' intent, as it involves creating a new calendar entry for a specific date.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "let's play my most played song list",
+        "model_raw_output": "{\n  \"reasoning\": \"The user wants to start playback of a specific playlist of songs ('my most played song list'). This action falls under the category of playing music content.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "disable alarm for three p. m.",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'disable alarm for three p. m.' involves the keyword 'disable' in relation to an 'alarm'. This indicates the user wants to cancel or remove a previously set alarm. Based on the intent list, the action of disabling or cancelling an alarm maps to the 'alarm_remove' intent.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "cancel alarm",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'cancel alarm' indicates a desire to stop or remove an existing alarm. Looking at the provided list of intents, 'alarm_remove' is the specific category for canceling or deleting alarms.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "remind me about my schedule for the afternoon",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to be informed about their 'schedule' for a specific time ('afternoon'). This maps to the 'calendar_query' intent because the request is to retrieve information about calendar events, rather than creating (calendar_set) or deleting (calendar_remove) them.\",\n  \"output\": \"calendar_query\"\n}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

@@ -1,0 +1,17 @@
+{
+  "input_tokens": 1768812,
+  "cached_tokens": 0,
+  "output_tokens": 772971,
+  "thinking_tokens": 445732,
+  "total_tokens": 2541783,
+  "cost": 0.0,
+  "n_queries": 100,
+  "n_llm_calls": 100,
+  "n_failed": 0,
+  "wall_time_s": 504.19,
+  "model": "qwen3.6-27b",
+  "top_k": 100,
+  "max_doc_chars": 800,
+  "first_stage": "Qwen/Qwen3-Embedding-8B",
+  "task": "NFCorpus"
+}

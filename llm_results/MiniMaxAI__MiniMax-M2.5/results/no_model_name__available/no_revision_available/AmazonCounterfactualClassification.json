@@ -1,0 +1,129 @@
+{
+  "dataset_revision": "8df4b672d55146368ad9d82a498ac0f16b8f177f",
+  "task_name": "AmazonCounterfactualClassification",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.808955,
+            "f1": 0.751576,
+            "f1_weighted": 0.829626,
+            "precision": 0.73022,
+            "precision_weighted": 0.897628,
+            "recall": 0.86403,
+            "recall_weighted": 0.808955,
+            "ap": 0.458569,
+            "ap_weighted": 0.458569
+          }
+        ],
+        "accuracy": 0.808955,
+        "f1": 0.751576,
+        "f1_weighted": 0.829626,
+        "precision": 0.73022,
+        "precision_weighted": 0.897628,
+        "recall": 0.86403,
+        "recall_weighted": 0.808955,
+        "ap": 0.458569,
+        "ap_weighted": 0.458569,
+        "main_score": 0.808955,
+        "input_tokens": 77913,
+        "output_tokens": 329096,
+        "total_tokens": 407009,
+        "cost": 0.0,
+        "usage_stats": {
+          "input_tokens": 77913,
+          "output_tokens": 329096,
+          "total_tokens": 407009,
+          "cost": 0.0
+        },
+        "hf_subset": "en",
+        "languages": [
+          "eng-Latn"
+        ]
+      },
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.827214,
+            "f1": 0.807844,
+            "f1_weighted": 0.832221,
+            "precision": 0.79662,
+            "precision_weighted": 0.848545,
+            "recall": 0.833411,
+            "recall_weighted": 0.827214,
+            "ap": 0.885275,
+            "ap_weighted": 0.885275
+          }
+        ],
+        "accuracy": 0.827214,
+        "f1": 0.807844,
+        "f1_weighted": 0.832221,
+        "precision": 0.79662,
+        "precision_weighted": 0.848545,
+        "recall": 0.833411,
+        "recall_weighted": 0.827214,
+        "ap": 0.885275,
+        "ap_weighted": 0.885275,
+        "main_score": 0.827214,
+        "input_tokens": 77913,
+        "output_tokens": 329096,
+        "total_tokens": 407009,
+        "cost": 0.0,
+        "usage_stats": {
+          "input_tokens": 77913,
+          "output_tokens": 329096,
+          "total_tokens": 407009,
+          "cost": 0.0
+        },
+        "hf_subset": "de",
+        "languages": [
+          "deu-Latn"
+        ]
+      },
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.909091,
+            "f1": 0.870588,
+            "f1_weighted": 0.915508,
+            "precision": 0.833333,
+            "precision_weighted": 0.939394,
+            "recall": 0.944444,
+            "recall_weighted": 0.909091,
+            "ap": 0.666667,
+            "ap_weighted": 0.666667
+          }
+        ],
+        "accuracy": 0.909091,
+        "f1": 0.870588,
+        "f1_weighted": 0.915508,
+        "precision": 0.833333,
+        "precision_weighted": 0.939394,
+        "recall": 0.944444,
+        "recall_weighted": 0.909091,
+        "ap": 0.666667,
+        "ap_weighted": 0.666667,
+        "main_score": 0.909091,
+        "input_tokens": 77913,
+        "output_tokens": 329096,
+        "total_tokens": 407009,
+        "cost": 0.0,
+        "usage_stats": {
+          "input_tokens": 77913,
+          "output_tokens": 329096,
+          "total_tokens": 407009,
+          "cost": 0.0
+        },
+        "hf_subset": "ja",
+        "languages": [
+          "jpn-Jpan"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 1176.9710822105408,
+  "kg_co2_emissions": null,
+  "date": 1774509590.887649
+}

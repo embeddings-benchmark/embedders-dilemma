@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Der Vorstand des Distrikts f\u00fcr Wasserverwaltung von South Florida muss m\u00f6glicherweise schon im n\u00e4chsten Monat \u00fcber den Kauf der Gemeinde entscheiden, die 8 1/2-Square-Mile Area genannt wird, gleich \u00f6stlich des Everglades-Nationalparks.",
+    "sentence2": "Der Everglades-Nationalpark befindet sich in Florida.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise mentions the 'South Florida Water Management District' (Distrikts f\u00fcr Wasserverwaltung von South Florida) and a community located just east of the 'Everglades National Park'. The specific mention of the district being in South Florida strongly implies that the Everglades National Park, which is adjacent to the area under the district's consideration, is located in the state of Florida.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise mentions the 'South Florida Water Management District' (Distrikts f\u00fcr Wasserverwaltung von South Florida) and a community located just east of the 'Everglades National Park'. The specific mention of the district being in South Florida strongly implies that the Everglades National Park, which is adjacent to the area under the district's consideration, is located in the state of Florida.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Der Pr\u00e4sident der Italienischen Republik, Giorgio Napolitano, hat Romano Prodi heute darum gebeten, als Ministerpr\u00e4sident zu bleiben, doch Prodi muss sich sobald wie m\u00f6glich einem Misstrauensvotum unterziehen.",
+    "sentence2": "Romano Prodi ist der italienische Ministerpr\u00e4sident.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that the President of Italy asked Romano Prodi to 'remain' as Prime Minister. This implies that Romano Prodi currently holds the position of Italian Prime Minister. Therefore, Sentence 2 follows logically from the premise provided in Sentence 1.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that the President of Italy asked Romano Prodi to 'remain' as Prime Minister. This implies that Romano Prodi currently holds the position of Italian Prime Minister. Therefore, Sentence 2 follows logically from the premise provided in Sentence 1.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "NATO-Generalsekret\u00e4r Willy Claes sagte heute, dass er einen R\u00fccktritt erw\u00e4ge, nachdem eine belgische Parlamentskommission an diesem Morgen beschlossen hat, zu empfehlen, dass er vom h\u00f6chsten Gericht des Landes in einem wachsenden Waffenkorruptionsskandal angeklagt wird.",
+    "sentence2": "NATO-Generalsekret\u00e4r Willy Claes ist zur\u00fcckgetreten.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that NATO Secretary-General Willy Claes is considering resigning ('einen R\u00fccktritt erw\u00e4ge'), which is a potential future action or an ongoing deliberation. Sentence 2 states that he has already resigned ('ist zur\u00fcckgetreten'). Considering a resignation does not semantically entail that the resignation has actually taken place.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 states that NATO Secretary-General Willy Claes is considering resigning ('einen R\u00fccktritt erw\u00e4ge'), which is a potential future action or an ongoing deliberation. Sentence 2 states that he has already resigned ('ist zur\u00fcckgetreten'). Considering a resignation does not semantically entail that the resignation has actually taken place.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Alvaro Uribe ist der Pr\u00e4sident Spaniens, ein interessanter Charakter, dessen Vater \u00fcbrigens von Rebellenmilizen erschossen wurde.",
+    "sentence2": "Felipe Gonz\u00e1lez ist der Pr\u00e4sident Spaniens.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 identifies Alvaro Uribe as the President of Spain, while Sentence 2 identifies Felipe Gonz\u00e1lez as the President of Spain. Since these are different individuals, the premise stating that Uribe is the president does not support or entail the claim that Gonz\u00e1lez is the president.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 identifies Alvaro Uribe as the President of Spain, while Sentence 2 identifies Felipe Gonz\u00e1lez as the President of Spain. Since these are different individuals, the premise stating that Uribe is the president does not support or entail the claim that Gonz\u00e1lez is the president.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "\"Es wird nur einen Hurrikan Andrew geben\", sagte er mit Bezug auf den Tropensturm der Kategorie 5, der im Jahre 1992 in S\u00fcdflorida einschlug, 26,5 Milliarden Dollar Schaden verursachte und in den Vereinigten Staaten und den Bahamas 26 Menschen t\u00f6tete.",
+    "sentence2": "Tropenst\u00fcrme verursachen schwere Sch\u00e4den.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise provides a specific example of a Category 5 tropical storm (Hurricane Andrew) that caused 26.5 billion dollars in damage and killed 26 people. This specific instance of a tropical storm causing massive destruction directly supports the general statement that tropical storms cause heavy damage.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise provides a specific example of a Category 5 tropical storm (Hurricane Andrew) that caused 26.5 billion dollars in damage and killed 26 people. This specific instance of a tropical storm causing massive destruction directly supports the general statement that tropical storms cause heavy damage.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  }
+]

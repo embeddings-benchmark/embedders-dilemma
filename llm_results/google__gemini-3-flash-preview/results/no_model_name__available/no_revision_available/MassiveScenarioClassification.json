@@ -1,0 +1,168 @@
+{
+  "dataset_revision": "ba1521289b080d967f820b289dd285f22fb968a8",
+  "task_name": "MassiveScenarioClassification",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.75875,
+            "f1": 0.76577,
+            "f1_weighted": 0.742555,
+            "precision": 0.783491,
+            "precision_weighted": 0.830118,
+            "recall": 0.821045,
+            "recall_weighted": 0.75875,
+            "ap": null,
+            "ap_weighted": null
+          }
+        ],
+        "accuracy": 0.75875,
+        "f1": 0.76577,
+        "f1_weighted": 0.742555,
+        "precision": 0.783491,
+        "precision_weighted": 0.830118,
+        "recall": 0.821045,
+        "recall_weighted": 0.75875,
+        "ap": NaN,
+        "ap_weighted": NaN,
+        "main_score": 0.75875,
+        "input_tokens": 223222,
+        "output_tokens": 152980,
+        "total_tokens": 1618712,
+        "cost": 0.0,
+        "usage_stats": {
+          "input_tokens": 223222,
+          "output_tokens": 152980,
+          "total_tokens": 1618712,
+          "cost": 0.0
+        },
+        "hf_subset": "en",
+        "languages": [
+          "eng-Latn"
+        ]
+      },
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.7625,
+            "f1": 0.771986,
+            "f1_weighted": 0.745581,
+            "precision": 0.792128,
+            "precision_weighted": 0.841704,
+            "recall": 0.825871,
+            "recall_weighted": 0.7625,
+            "ap": null,
+            "ap_weighted": null
+          }
+        ],
+        "accuracy": 0.7625,
+        "f1": 0.771986,
+        "f1_weighted": 0.745581,
+        "precision": 0.792128,
+        "precision_weighted": 0.841704,
+        "recall": 0.825871,
+        "recall_weighted": 0.7625,
+        "ap": NaN,
+        "ap_weighted": NaN,
+        "main_score": 0.7625,
+        "input_tokens": 223222,
+        "output_tokens": 152980,
+        "total_tokens": 1618712,
+        "cost": 0.0,
+        "usage_stats": {
+          "input_tokens": 223222,
+          "output_tokens": 152980,
+          "total_tokens": 1618712,
+          "cost": 0.0
+        },
+        "hf_subset": "de",
+        "languages": [
+          "deu-Latn"
+        ]
+      },
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.75375,
+            "f1": 0.757762,
+            "f1_weighted": 0.736218,
+            "precision": 0.782846,
+            "precision_weighted": 0.834366,
+            "recall": 0.809689,
+            "recall_weighted": 0.75375,
+            "ap": null,
+            "ap_weighted": null
+          }
+        ],
+        "accuracy": 0.75375,
+        "f1": 0.757762,
+        "f1_weighted": 0.736218,
+        "precision": 0.782846,
+        "precision_weighted": 0.834366,
+        "recall": 0.809689,
+        "recall_weighted": 0.75375,
+        "ap": NaN,
+        "ap_weighted": NaN,
+        "main_score": 0.75375,
+        "input_tokens": 223222,
+        "output_tokens": 152980,
+        "total_tokens": 1618712,
+        "cost": 0.0,
+        "usage_stats": {
+          "input_tokens": 223222,
+          "output_tokens": 152980,
+          "total_tokens": 1618712,
+          "cost": 0.0
+        },
+        "hf_subset": "fr",
+        "languages": [
+          "fra-Latn"
+        ]
+      },
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.755,
+            "f1": 0.764934,
+            "f1_weighted": 0.742617,
+            "precision": 0.786315,
+            "precision_weighted": 0.836491,
+            "recall": 0.817076,
+            "recall_weighted": 0.755,
+            "ap": null,
+            "ap_weighted": null
+          }
+        ],
+        "accuracy": 0.755,
+        "f1": 0.764934,
+        "f1_weighted": 0.742617,
+        "precision": 0.786315,
+        "precision_weighted": 0.836491,
+        "recall": 0.817076,
+        "recall_weighted": 0.755,
+        "ap": NaN,
+        "ap_weighted": NaN,
+        "main_score": 0.755,
+        "input_tokens": 223222,
+        "output_tokens": 152980,
+        "total_tokens": 1618712,
+        "cost": 0.0,
+        "usage_stats": {
+          "input_tokens": 223222,
+          "output_tokens": 152980,
+          "total_tokens": 1618712,
+          "cost": 0.0
+        },
+        "hf_subset": "ja",
+        "languages": [
+          "jpn-Jpan"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 1203.472698688507,
+  "kg_co2_emissions": null,
+  "date": 1774078846.470112
+}

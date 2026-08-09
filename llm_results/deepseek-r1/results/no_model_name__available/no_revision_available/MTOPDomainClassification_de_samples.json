@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Schicke an den Motorrad-Chat eine Videonachricht",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting to send a video message to a specific chat ('Motorrad-Chat'). The core action involves sending a message, which falls under the 'messaging' domain. While the message is a video, the primary intent is communication via a messaging platform.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "Rufe Loren an",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'Rufe Loren an' is German for 'Call Loren'. The action here is initiating a phone call, which directly aligns with the 'calling' intent domain. Other domains like 'messaging' or 'reminder' do not fit the context of making a call.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Stelle meinen Status als vielleicht ein f\u00fcr das zweite Event",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting to set their status related to an event, specifically mentioning 'zweite Event' (second event). Setting a status is typically associated with messaging platforms where users update their availability or current activity. While the context involves an event, the core action (status update) aligns with the 'messaging' domain.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "event",
+        "is_correct": false
+    },
+    {
+        "input_text": "Rufe Josiah \u00fcber WhatsApp an",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting to call Josiah via WhatsApp. The primary action here is making a call, even though it specifies using a messaging platform (WhatsApp). The intent is to initiate a voice communication, which falls under the 'calling' domain.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Starte einen Timer f\u00fcr das Kalbsfleisch",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's request to 'Starte einen Timer f\u00fcr das Kalbsfleisch' translates to starting a timer specifically for cooking veal, which directly relates to tracking a duration for a task. The action focuses on initiating a countdown (timer) rather than setting an alarm for a specific time or another intent category.\",\n  \"output\": \"timer\"\n}",
+        "parsed_output": "timer",
+        "ground_truth": "timer",
+        "is_correct": true
+    }
+]

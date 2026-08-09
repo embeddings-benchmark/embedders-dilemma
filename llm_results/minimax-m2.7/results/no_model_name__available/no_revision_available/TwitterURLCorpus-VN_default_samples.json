@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "How massive DDoS attacks are undermining the Internet ",
+    "sentence2": "Friday's #DDoSAttack & gt ; #IoT said to be medium . How can we reduce vulnerability of these devices ? ",
+    "model_raw_output": "{\n  \"reasoning\": \"While both sentences mention DDoS attacks, they convey different messages. Sentence 1 makes a general statement about massive DDoS attacks undermining the Internet. Sentence 2 reports on a specific DDoS attack from Friday involving IoT devices, describes it as 'medium' severity, and asks a question about reducing vulnerability. The focus, tone, and specific content differ significantly.\",\n  \"output\": 0\n}",
+    "reasoning": "While both sentences mention DDoS attacks, they convey different messages. Sentence 1 makes a general statement about massive DDoS attacks undermining the Internet. Sentence 2 reports on a specific DDoS attack from Friday involving IoT devices, describes it as 'medium' severity, and asks a question about reducing vulnerability. The focus, tone, and specific content differ significantly.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Welcome to the #APTop25 , @TroyTrojansFB ! Troy ranked for 1st time in school history . ",
+    "sentence2": "AP POLL ALERT Top 25 Shakeup rise ; #Michigan , #Clemson , #Washington fall ; #USC returns . ",
+    "model_raw_output": "{\"reasoning\": \"Sentence 1 is specifically welcoming the Troy Trojans football team to the AP Top 25 for the first time in their school history. Sentence 2 is a general AP poll alert about changes involving Michigan, Clemson, Washington, and USC. While both tweets relate to the AP Top 25 rankings, they discuss entirely different teams and events. Troy is not mentioned in Sentence 2, and the teams mentioned in Sentence 2 (Michigan, Clemson, Washington, USC) are not mentioned in Sentence 1. These tweets convey different messages.\", \"output\": 0}",
+    "reasoning": "Sentence 1 is specifically welcoming the Troy Trojans football team to the AP Top 25 for the first time in their school history. Sentence 2 is a general AP poll alert about changes involving Michigan, Clemson, Washington, and USC. While both tweets relate to the AP Top 25 rankings, they discuss entirely different teams and events. Troy is not mentioned in Sentence 2, and the teams mentioned in Sentence 2 (Michigan, Clemson, Washington, USC) are not mentioned in Sentence 1. These tweets convey different messages.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Samsung to ask all carrier and retail partners to stop Galaxy Note7 sales , exchanges following more reports of fires ",
+    "sentence2": "Samsung Will Ask All Global Partners to Stop Sales and Exchanges of Galaxy Note7 While Further Investigation Takes Place",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core message: Samsung requesting partners to halt sales and exchanges of the Galaxy Note7. Key similarities include the actor (Samsung), the action (asking to stop), the subject (Galaxy Note7 sales/exchanges), and the partner scope (carrier/retail/global). The slight differences in wording ('following more reports of fires' vs 'while further investigation takes place') represent equivalent contextual information about the safety concerns prompting the action. The sentences are paraphrases of each other.\",\n  \"output\": 1\n}",
+    "reasoning": "Both sentences convey the same core message: Samsung requesting partners to halt sales and exchanges of the Galaxy Note7. Key similarities include the actor (Samsung), the action (asking to stop), the subject (Galaxy Note7 sales/exchanges), and the partner scope (carrier/retail/global). The slight differences in wording ('following more reports of fires' vs 'while further investigation takes place') represent equivalent contextual information about the safety concerns prompting the action. The sentences are paraphrases of each other.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Melania Trump rejects womens claims that her husband groped them ",
+    "sentence2": "Politics|\\'They\\'re Lies\\': Melania Trump Rejects Women\\'s Claims That Husband Groped ",
+    "model_raw_output": "{\"reasoning\": \"Both sentences convey the same core message about Melania Trump rejecting claims made by women that her husband (Donald Trump) groped them. The key elements are identical: (1) Melania Trump, (2) rejecting/rejects claims, (3) from women, (4) about her husband, (5) regarding groping. Sentence 2 adds the direct quote 'They're Lies' and the context tag 'Politics', but the essential information and meaning are the same in both sentences.\", \"output\": 1}",
+    "reasoning": "Both sentences convey the same core message about Melania Trump rejecting claims made by women that her husband (Donald Trump) groped them. The key elements are identical: (1) Melania Trump, (2) rejecting/rejects claims, (3) from women, (4) about her husband, (5) regarding groping. Sentence 2 adds the direct quote 'They're Lies' and the context tag 'Politics', but the essential information and meaning are the same in both sentences.",
+    "predicted_label": 1,
+    "gold_label": 0,
+    "is_correct": false
+  },
+  {
+    "sentence1": "Pokmon Go players took 26% more steps than before using the app , a new study finds ",
+    "sentence2": "The fitness app dream result Pokemon Go could add 2.83 million years to users ' lives ",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that Pok\u00e9mon\u202fGo players took 26\u202f% more steps after using the app, based on a new study. Sentence 2 claims that the app could add 2.83\u202fmillion years to users' lives, framing the benefit in terms of lifespan rather than step count. While both sentences discuss positive health impacts of Pok\u00e9mon\u202fGo, they convey different specific claims (increased steps vs. added life years) and are not simply rephrasings of one another. Therefore they are not paraphrases.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 states that Pok\u00e9mon\u202fGo players took 26\u202f% more steps after using the app, based on a new study. Sentence 2 claims that the app could add 2.83\u202fmillion years to users' lives, framing the benefit in terms of lifespan rather than step count. While both sentences discuss positive health impacts of Pok\u00e9mon\u202fGo, they convey different specific claims (increased steps vs. added life years) and are not simply rephrasings of one another. Therefore they are not paraphrases.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Un perro est\u00e1 con un juguete.",
+    "sentence2": "Un perro tiene un juguete.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a dog and a toy, and in many contexts they imply the same real-world situation. However, 'est\u00e1 con' (is with) emphasizes presence, proximity, or active interaction, while 'tiene' (has) emphasizes possession. A dog could be with a toy without owning it, or own a toy without being currently with it. The core semantic overlap is high but the specific relationship differs slightly, making them very close paraphrases but not fully equivalent.\",\n  \"output\": 3.8\n}",
+    "reasoning": "Both sentences describe a dog and a toy, and in many contexts they imply the same real-world situation. However, 'est\u00e1 con' (is with) emphasizes presence, proximity, or active interaction, while 'tiene' (has) emphasizes possession. A dog could be with a toy without owning it, or own a toy without being currently with it. The core semantic overlap is high but the specific relationship differs slightly, making them very close paraphrases but not fully equivalent.",
+    "predicted_sim": 3.8,
+    "gold_score": 4.8,
+    "abs_diff": 1.0
+  },
+  {
+    "sentence1": "Los ni\u00f1os acarician un conejito.",
+    "sentence2": "Los ni\u00f1os acarician un perro.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share identical syntactic structure, subject ('Los ni\u00f1os'), and verb ('acarician'). They describe the same general action (children petting an animal). The only difference is the direct object: 'conejito' (bunny/diminutive of rabbit) versus 'perro' (dog). While both are common domestic pets and the overall scene is highly similar, the specific animal being petted is semantically distinct, changing the core meaning of what is being described. This is more than a trivial variation but far from unrelated.\",\n  \"output\": 3.5\n}",
+    "reasoning": "Both sentences share identical syntactic structure, subject ('Los ni\u00f1os'), and verb ('acarician'). They describe the same general action (children petting an animal). The only difference is the direct object: 'conejito' (bunny/diminutive of rabbit) versus 'perro' (dog). While both are common domestic pets and the overall scene is highly similar, the specific animal being petted is semantically distinct, changing the core meaning of what is being described. This is more than a trivial variation but far from unrelated.",
+    "predicted_sim": 3.5,
+    "gold_score": 2.2,
+    "abs_diff": 1.2999999999999998
+  },
+  {
+    "sentence1": "La gente cocina en la parrilla.",
+    "sentence2": "Los peatones miran con asombro mientras dos personas cocinan pechuga en una parrilla.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the core activity of cooking on a grill and involve human agents. However, Sentence 1 is a simple, general statement ('People cook on the grill'), while Sentence 2 adds substantial framing that changes the overall scenario: specific observers (pedestrians) reacting with amazement, a specific number of cooks (two), and a specific food (chicken breast). These additional elements introduce a completely new event structure (a spectacle being watched) that is absent from Sentence 1, reducing the semantic overlap considerably despite the shared core action.\",\n  \"output\": 2.2\n}",
+    "reasoning": "Both sentences share the core activity of cooking on a grill and involve human agents. However, Sentence 1 is a simple, general statement ('People cook on the grill'), while Sentence 2 adds substantial framing that changes the overall scenario: specific observers (pedestrians) reacting with amazement, a specific number of cooks (two), and a specific food (chicken breast). These additional elements introduce a completely new event structure (a spectacle being watched) that is absent from Sentence 1, reducing the semantic overlap considerably despite the shared core action.",
+    "predicted_sim": 2.2,
+    "gold_score": 0.8,
+    "abs_diff": 1.4000000000000001
+  },
+  {
+    "sentence1": "El hombre construye un peque\u00f1o castillo de arena",
+    "sentence2": "Una muchacha est\u00e1 construyendo un castillo de arena.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the same core activity of building a sand castle. However, they differ in the subject ('el hombre' vs. 'una muchacha'), tense/aspect ('construye' simple present vs. 'est\u00e1 construyendo' present progressive), and Sentence 1 includes the modifier 'peque\u00f1o' while Sentence 2 does not. These differences are meaningful but do not change the overall scene significantly.\",\n  \"output\": 3.8\n}",
+    "reasoning": "Both sentences describe the same core activity of building a sand castle. However, they differ in the subject ('el hombre' vs. 'una muchacha'), tense/aspect ('construye' simple present vs. 'est\u00e1 construyendo' present progressive), and Sentence 1 includes the modifier 'peque\u00f1o' while Sentence 2 does not. These differences are meaningful but do not change the overall scene significantly.",
+    "predicted_sim": 3.8,
+    "gold_score": 2.2,
+    "abs_diff": 1.5999999999999996
+  },
+  {
+    "sentence1": "Un hombre est\u00e1 corriendo detr\u00e1s de un trineo tirado por cuatro perros.",
+    "sentence2": "Un hombre siendo tirado en un trineo por perros.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the same general domain and core entities: a man, a sled, and dogs pulling it. However, they differ fundamentally in the man's spatial relationship and action relative to the sled. Sentence 1 describes the man running *behind* the sled (implying he is not on it), whereas Sentence 2 describes the man *being pulled in* the sled (implying he is a passenger). Additionally, Sentence 1 specifies four dogs while Sentence 2 leaves the number unspecified. These differences in the man's role and position represent a significant semantic divergence despite the shared scenario.\",\n  \"output\": 2.0\n}",
+    "reasoning": "Both sentences share the same general domain and core entities: a man, a sled, and dogs pulling it. However, they differ fundamentally in the man's spatial relationship and action relative to the sled. Sentence 1 describes the man running *behind* the sled (implying he is not on it), whereas Sentence 2 describes the man *being pulled in* the sled (implying he is a passenger). Additionally, Sentence 1 specifies four dogs while Sentence 2 leaves the number unspecified. These differences in the man's role and position represent a significant semantic divergence despite the shared scenario.",
+    "predicted_sim": 2.0,
+    "gold_score": 3.6,
+    "abs_diff": 1.6
+  }
+]

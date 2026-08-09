@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Una persona fa parte di una squadra di baseball.",
+    "sentence2": "A person is playing basketball on a team.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person associated with a team sport, sharing the core elements of 'person,' 'team,' and 'sport.' However, they differ in the specific sport (baseball vs. basketball) and the nature of involvement (being part of/membership vs. actively playing). These are significant semantic differences in the predicate and entity types, though they belong to the same general semantic domain.\",\n  \"output\": 1.8\n}",
+    "reasoning": "Both sentences describe a person associated with a team sport, sharing the core elements of 'person,' 'team,' and 'sport.' However, they differ in the specific sport (baseball vs. basketball) and the nature of involvement (being part of/membership vs. actively playing). These are significant semantic differences in the predicate and entity types, though they belong to the same general semantic domain.",
+    "predicted_sim": 1.8,
+    "gold_score": 2.4,
+    "abs_diff": 0.5999999999999999
+  },
+  {
+    "sentence1": "I nostri veicoli attuali saranno nei musei quando ognuno avr\u00e0 il proprio aereo.",
+    "sentence2": "The car needs to some work",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 discusses a futuristic scenario where current vehicles become obsolete and end up in museums once personal aircraft become commonplace. Sentence 2 states that a specific car requires repairs or maintenance. The two sentences share no topical, contextual, or meaningful overlap; the only faint connection is that both loosely reference automobiles/vehicles, but their messages, scopes, and implications are entirely unrelated.\",\n  \"output\": 0.0\n}",
+    "reasoning": "Sentence 1 discusses a futuristic scenario where current vehicles become obsolete and end up in museums once personal aircraft become commonplace. Sentence 2 states that a specific car requires repairs or maintenance. The two sentences share no topical, contextual, or meaningful overlap; the only faint connection is that both loosely reference automobiles/vehicles, but their messages, scopes, and implications are entirely unrelated.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.2,
+    "abs_diff": 0.2
+  },
+  {
+    "sentence1": "Una donna supervisore sta istruendo i lavoratori di sesso maschile.",
+    "sentence2": "A woman is working as a nurse.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences mention a woman in a professional context, which provides a minimal semantic overlap. However, the specific roles (supervisor/instructor versus nurse), actions (instructing male workers versus working as a nurse), and settings are entirely unrelated. Aside from the shared subject gender, the meanings diverge completely.\",\n  \"output\": 0.5\n}",
+    "reasoning": "Both sentences mention a woman in a professional context, which provides a minimal semantic overlap. However, the specific roles (supervisor/instructor versus nurse), actions (instructing male workers versus working as a nurse), and settings are entirely unrelated. Aside from the shared subject gender, the meanings diverge completely.",
+    "predicted_sim": 0.5,
+    "gold_score": 1.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "Una bici \u00e8 accanto a una coppia di donne.",
+    "sentence2": "A child next to a bike.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a spatial relationship involving a bike and a human subject using the concept of being 'next to' something. However, the core entities differ significantly: Sentence 1 refers to a plural subject ('a couple of women'), while Sentence 2 refers to a singular 'child'. Additionally, the grammatical roles are inverted (the bike is the subject in Sentence 1, whereas the child is the subject in Sentence 2). The shared words 'bike' and the spatial relation provide some semantic overlap, but the described scenes and participants are meaningfully different.\",\n  \"output\": 1.5\n}",
+    "reasoning": "Both sentences describe a spatial relationship involving a bike and a human subject using the concept of being 'next to' something. However, the core entities differ significantly: Sentence 1 refers to a plural subject ('a couple of women'), while Sentence 2 refers to a singular 'child'. Additionally, the grammatical roles are inverted (the bike is the subject in Sentence 1, whereas the child is the subject in Sentence 2). The shared words 'bike' and the spatial relation provide some semantic overlap, but the described scenes and participants are meaningfully different.",
+    "predicted_sim": 1.5,
+    "gold_score": 2.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "Il gruppo sta mangiando ammirando una vista mozzafiato.",
+    "sentence2": "A group of people take a look at an unusual tree.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the general framework of a group of people visually observing something. However, the overlap is limited: Sentence 1 describes people eating while admiring a broad, breathtaking landscape view, whereas Sentence 2 describes people looking at a specific, unusual tree. The specific activities (eating is absent in S2), the nature of the visual focus (scenic vista vs. singular object), and the implied contexts differ substantially, making the meanings only loosely related.\",\n  \"output\": 1.2\n}",
+    "reasoning": "Both sentences share the general framework of a group of people visually observing something. However, the overlap is limited: Sentence 1 describes people eating while admiring a broad, breathtaking landscape view, whereas Sentence 2 describes people looking at a specific, unusual tree. The specific activities (eating is absent in S2), the nature of the visual focus (scenic vista vs. singular object), and the implied contexts differ substantially, making the meanings only loosely related.",
+    "predicted_sim": 1.2,
+    "gold_score": 2.2,
+    "abs_diff": 1.0000000000000002
+  }
+]

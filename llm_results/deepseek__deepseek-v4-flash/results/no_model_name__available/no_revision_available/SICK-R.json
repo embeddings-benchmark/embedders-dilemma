@@ -1,0 +1,30 @@
+{
+  "dataset_revision": "82eb9939fa177ddd94d5ddf4668e011d7446c1da7",
+  "task_name": "SICK-R",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "cosine_spearman": 0.752805,
+        "cosine_pearson": 0.73304,
+        "usage_stats": {
+          "input_tokens": 45670,
+          "cached_tokens": 2891,
+          "output_tokens": 124719,
+          "thinking_tokens": 76776,
+          "total_tokens": 170389,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.752805,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 244.6722800731659,
+  "kg_co2_emissions": null
+}

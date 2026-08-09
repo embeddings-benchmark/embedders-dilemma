@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Quintus prophesied that they would be martyrs one day but not that day.",
+        "model_raw_output": "{\n  \"reasoning\": \"The sentence reports a past event (a prophecy made by Quintus) and details the content of that prediction. It does not propose a scenario that is contrary to reality (a 'what if'), nor does it speculate on what might have occurred under different circumstances. Therefore, it is a simple narrative statement.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Would be great to have on my tablet instead of carrying the book.",
+        "model_raw_output": "{\n  \"reasoning\": \"The statement describes a hypothetical scenario where the content is available on a tablet. Since the reality is that the customer is carrying the physical book, the phrase 'Would be great to have' refers to a preferred outcome that has not happened but could occur under different conditions (if the product were digital). This fits the definition of a counterfactual expression.\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": false
+    },
+    {
+        "input_text": "I just wish it would come with a plastic pole instead of metal as I just know it will eventually rust!",
+        "model_raw_output": "{\n  \"reasoning\": \"The reviewer uses the phrase 'I just wish' to express a desire for a hypothetical scenario (the item coming with a plastic pole) that contradicts the actual reality (the item came with a metal pole). Since the statement imagines a different condition than what actually exists, it classifies as counterfactual.\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "It only utilizes one side and the insert doesn't have a window for an ID.",
+        "model_raw_output": "{\n  \"reasoning\": \"The review makes direct factual observations about the product's current features (or lack thereof), stating that it uses only one side and lacks a specific component. It does not propose a hypothetical scenario, express what might have happened under different conditions, or use conditional language to imagine an alternative reality.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "I also wished the colorful print material in the front would go all the way around to the back side of the dress too.",
+        "model_raw_output": "{\n  \"reasoning\": \"The sentence expresses a desire for the product to be different than it actually is (i.e., the print covering the back as well as the front). It describes a hypothetical state of the product that does not exist, which fits the definition of a counterfactual statement.\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": true
+    }
+]

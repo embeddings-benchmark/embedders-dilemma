@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "A person is on a baseball team.",
+    "sentence2": "Eine Person spielt in einem Team Basketball.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person participating in a team sport, sharing the same structure and context. However, they specify different sports: Sentence 1 mentions 'baseball,' while Sentence 2 (translated from German) mentions 'basketball.' This difference in the specific activity results in distinct meanings, despite the shared semantic frame.\",\n  \"output\": 1.0\n}",
+    "reasoning": "Both sentences describe a person participating in a team sport, sharing the same structure and context. However, they specify different sports: Sentence 1 mentions 'baseball,' while Sentence 2 (translated from German) mentions 'basketball.' This difference in the specific activity results in distinct meanings, despite the shared semantic frame.",
+    "predicted_sim": 1.0,
+    "gold_score": 2.4,
+    "abs_diff": 1.4
+  },
+  {
+    "sentence1": "Our current vehicles will be in museums when everyone has their own aircraft.",
+    "sentence2": "Das Auto muss etwas in Stand gesetzt werden",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 predicts a future where current ground vehicles become obsolete due to the widespread adoption of personal aircraft. Sentence 2 (in German) translates to 'The car needs to be repaired a little bit.' The only connection is that both sentences refer to automobiles, but their meanings\u2014futuristic obsolescence versus immediate maintenance\u2014are completely different.\",\n  \"output\": 0.1\n}",
+    "reasoning": "Sentence 1 predicts a future where current ground vehicles become obsolete due to the widespread adoption of personal aircraft. Sentence 2 (in German) translates to 'The car needs to be repaired a little bit.' The only connection is that both sentences refer to automobiles, but their meanings\u2014futuristic obsolescence versus immediate maintenance\u2014are completely different.",
+    "predicted_sim": 0.1,
+    "gold_score": 0.2,
+    "abs_diff": 0.1
+  },
+  {
+    "sentence1": "A woman supervisor is instructing the male workers.",
+    "sentence2": "Eine Frau arbeitet als Krankenpflegerin.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 describes a woman acting as a supervisor giving instructions to male workers in English. Sentence 2, written in German, states that a woman works as a nurse. While both sentences share the subject of a woman in a work context, the roles (supervisor vs. nurse), the actions (instructing vs. working), and the specific settings are entirely different. The overlap is minimal, restricted only to the concept of a female agent in a general employment scenario.\",\n  \"output\": 0.2\n}",
+    "reasoning": "Sentence 1 describes a woman acting as a supervisor giving instructions to male workers in English. Sentence 2, written in German, states that a woman works as a nurse. While both sentences share the subject of a woman in a work context, the roles (supervisor vs. nurse), the actions (instructing vs. working), and the specific settings are entirely different. The overlap is minimal, restricted only to the concept of a female agent in a general employment scenario.",
+    "predicted_sim": 0.2,
+    "gold_score": 1.0,
+    "abs_diff": 0.8
+  },
+  {
+    "sentence1": "A bike is next to a couple women.",
+    "sentence2": "Ein Kind neben einem Fahrrad.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 describes a bicycle located near multiple women. Sentence 2 translates from German to 'A child next to a bicycle.' While both sentences share the presence of a bicycle and the spatial relationship of being next to something, the entities involved differ significantly (women vs. a child). Therefore, the semantic overlap is minimal, limited to the object and the preposition.\",\n  \"output\": 1.2\n}",
+    "reasoning": "Sentence 1 describes a bicycle located near multiple women. Sentence 2 translates from German to 'A child next to a bicycle.' While both sentences share the presence of a bicycle and the spatial relationship of being next to something, the entities involved differ significantly (women vs. a child). Therefore, the semantic overlap is minimal, limited to the object and the preposition.",
+    "predicted_sim": 1.2,
+    "gold_score": 2.0,
+    "abs_diff": 0.8
+  },
+  {
+    "sentence1": "The group is eating while taking in a breathtaking view.",
+    "sentence2": "Eine Gruppe sieht einen ungew\u00f6hnlichen Baum an.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 describes a group eating while enjoying a general view. Sentence 2 translates to 'A group is looking at an unusual tree.' While both sentences feature 'a group' and describe a visual observation, the activities are different: Sentence 1 combines eating with looking at scenery, whereas Sentence 2 focuses specifically on examining a single tree. The core events (a meal vs. inspecting a botanical curiosity) are distinct.\",\n  \"output\": 1.3\n}",
+    "reasoning": "Sentence 1 describes a group eating while enjoying a general view. Sentence 2 translates to 'A group is looking at an unusual tree.' While both sentences feature 'a group' and describe a visual observation, the activities are different: Sentence 1 combines eating with looking at scenery, whereas Sentence 2 focuses specifically on examining a single tree. The core events (a meal vs. inspecting a botanical curiosity) are distinct.",
+    "predicted_sim": 1.3,
+    "gold_score": 2.2,
+    "abs_diff": 0.9000000000000001
+  }
+]

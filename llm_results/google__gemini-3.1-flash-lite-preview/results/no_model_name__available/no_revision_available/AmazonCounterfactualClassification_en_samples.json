@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Quintus prophesied that they would be martyrs one day but not that day.",
+        "model_raw_output": "{\"reasoning\": \"The sentence describes a prophecy about a future state that did not occur on the day mentioned, implying a hypothetical alternative outcome that was avoided. It uses modal expressions to contrast what was prophesied for 'one day' versus 'that day'.\", \"output\": \"counterfactual\"}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": false
+    },
+    {
+        "input_text": "Would be great to have on my tablet instead of carrying the book.",
+        "model_raw_output": "{\n  \"reasoning\": \"The sentence uses 'would be' to express a hypothetical or desired state that is currently not the case because the user is carrying the physical book instead of using a tablet, meeting the criteria for a counterfactual statement.\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": false
+    },
+    {
+        "input_text": "I just wish it would come with a plastic pole instead of metal as I just know it will eventually rust!",
+        "model_raw_output": "{\n  \"reasoning\": \"The user expresses a hypothetical scenario using 'I wish it would' and predicts a future outcome based on a condition that is currently not met (a plastic pole instead of a metal one).\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "It only utilizes one side and the insert doesn't have a window for an ID.",
+        "model_raw_output": "{\"reasoning\": \"The statement describes factual features of the product and its limitations as it currently exists. It does not mention a hypothetical scenario or a condition that did not happen.\", \"output\": \"not-counterfactual\"}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "I also wished the colorful print material in the front would go all the way around to the back side of the dress too.",
+        "model_raw_output": "{\n  \"reasoning\": \"The sentence expresses a desire for a feature that is not present in the current product ('would go all the way around'), describing a hypothetical condition that differs from the actual state of the item.\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": true
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "le rose est tout ce dont nous avons besoin",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'le rose est tout ce dont nous avons besoin' (pink is all we need) is a general statement or a phrase that does not trigger a specific functional command like setting an alarm, playing music, or controlling a device. It falls under the 'general' category.\",\n  \"output\": \"general\"\n}",
+        "parsed_output": "general",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "je veux le statut sur la luminosit\u00e9 de mon \u00e9cran",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the status of a device parameter (screen brightness), which falls under device control and monitoring, typically categorized as IoT.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "quelle heure est-il en australie",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the current time in a specific geographic location (Australia), which corresponds to the 'datetime' scenario.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "annuler mon alarme de sept heures du matin",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting to cancel a specific alarm set for 7:00 AM, which directly relates to the management of alarms.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "quelles alarmes j'ai r\u00e9gl\u00e9es",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for information about their currently set alarms.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

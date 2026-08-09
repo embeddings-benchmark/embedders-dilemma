@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "le rose est tout ce dont nous avons besoin",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'le rose est tout ce dont nous avons besoin' translates roughly to 'Pink is all we need' or 'The rose is all we need.' It is a broad, declarative statement expressing an opinion without any clear intent tied to a specific functional domain like setting alarms, querying weather, playing media, managing calendars, or making reservations. Therefore, it falls under the catch-all category.\",\n  \"output\": \"general\"\n}",
+        "parsed_output": "general",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "je veux le statut sur la luminosit\u00e9 de mon \u00e9cran",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting the current status of their screen's brightness ('luminosit\u00e9 de mon \u00e9cran'). This involves querying a device setting or smart device property, which falls under device control and status checking.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "quelle heure est-il en australie",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'quelle heure est-il en australie' translates to 'what time is it in Australia'. The user is asking for the current time in a specific location/timezone. Queries asking for the current time, date, or timezone-related time information fall under the datetime scenario.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "annuler mon alarme de sept heures du matin",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'annuler mon alarme de sept heures du matin' translates to 'cancel my alarm for seven in the morning'. The key words are 'annuler' (cancel) and 'alarme' (alarm), which directly indicate the user wants to cancel or delete an existing alarm. This clearly falls under the alarm scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "quelles alarmes j'ai r\u00e9gl\u00e9es",
+        "model_raw_output": "{\n  \"reasoning\": \"L'utilisateur demande quelles alarmes sont actuellement r\u00e9gl\u00e9es ou activ\u00e9es sur son appareil. Cette requ\u00eate concerne directement la gestion et la consultation des alarmes.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

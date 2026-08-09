@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "R\u00e9pondez par SMS \u00e0 la discussion sur la f\u00eate du futur mari\u00e9",
+        "model_raw_output": "{\n  \"reasoning\": \"The user wants to respond to a message thread using SMS, which falls under the messaging domain.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "Je voudrais que tu, je voudrais envoyer un message vid\u00e9o \u00e0 Len sur Messagerie",
+        "model_raw_output": "{\n  \"reasoning\": \"The user wants to send a video message to a contact named Len via a messaging service, which falls directly under the messaging domain.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "J\u2019aimerais faire un appel vid\u00e9o avec Kennedy Gardner et Alejandro Potts sur WhatsApp",
+        "model_raw_output": "{\n  \"reasoning\": \"The user expresses a desire to initiate a video call with specific individuals using WhatsApp, which falls under the 'calling' domain.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "appelle avec Sustainability",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is using the French verb 'appelle', which means 'call', indicating an intent to initiate a phone or voice call with a contact named 'Sustainability'.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Veuillez mettre l'appel en plein \u00e9cran",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'Veuillez mettre l'appel en plein \u00e9cran' refers specifically to a call ('l'appel') and an action related to its interface. This falls under the 'calling' domain.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    }
+]

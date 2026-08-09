@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "A person is on a baseball team.",
+    "sentence2": "Eine Person spielt in einem Team Basketball.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person who is part of a sports team. Sentence 1 specifies a baseball team, while Sentence 2 specifies a basketball team. The core meaning\u2014'a person is a member of a team'\u2014is identical, but the sport differs, making the overall meaning not completely identical. This high overlap in structure and semantics, with only the sport type varying, suggests a very strong similarity that falls just short of perfect identity. Therefore, the similarity is rated around 4.0.\",\n  \"output\": 4.0\n}",
+    "reasoning": "Both sentences describe a person who is part of a sports team. Sentence 1 specifies a baseball team, while Sentence 2 specifies a basketball team. The core meaning\u2014'a person is a member of a team'\u2014is identical, but the sport differs, making the overall meaning not completely identical. This high overlap in structure and semantics, with only the sport type varying, suggests a very strong similarity that falls just short of perfect identity. Therefore, the similarity is rated around 4.0.",
+    "predicted_sim": 4.0,
+    "gold_score": 2.4,
+    "abs_diff": 1.6
+  },
+  {
+    "sentence1": "Our current vehicles will be in museums when everyone has their own aircraft.",
+    "sentence2": "Das Auto muss etwas in Stand gesetzt werden",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences mention 'cars/vehicles' as a shared topic, which provides minimal topical connection. However, the semantic content differs significantly: Sentence 1 is a futuristic statement about current vehicles becoming obsolete museum pieces when personal aircraft become widespread, discussing technological evolution. Sentence 2 is a present-tense German sentence about a car needing repair or maintenance. The timeframes, contexts, and full meanings are completely unrelated despite sharing a general domain (transportation).\",\n  \"output\": 0.5\n}",
+    "reasoning": "Both sentences mention 'cars/vehicles' as a shared topic, which provides minimal topical connection. However, the semantic content differs significantly: Sentence 1 is a futuristic statement about current vehicles becoming obsolete museum pieces when personal aircraft become widespread, discussing technological evolution. Sentence 2 is a present-tense German sentence about a car needing repair or maintenance. The timeframes, contexts, and full meanings are completely unrelated despite sharing a general domain (transportation).",
+    "predicted_sim": 0.5,
+    "gold_score": 0.2,
+    "abs_diff": 0.3
+  },
+  {
+    "sentence1": "A woman supervisor is instructing the male workers.",
+    "sentence2": "Eine Frau arbeitet als Krankenpflegerin.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a woman in a professional role, but the specific content differs significantly. Sentence 1 describes a woman in a supervisory position giving instructions to male workers, while Sentence 2 describes a woman working as a nurse. The roles (supervisor vs. nurse), the setting, and the activities described are completely different. The only shared element is the general theme of a woman performing professional work. The specific meanings, context, and implications diverge substantially.\",\n  \"output\": 0.5\n}",
+    "reasoning": "Both sentences describe a woman in a professional role, but the specific content differs significantly. Sentence 1 describes a woman in a supervisory position giving instructions to male workers, while Sentence 2 describes a woman working as a nurse. The roles (supervisor vs. nurse), the setting, and the activities described are completely different. The only shared element is the general theme of a woman performing professional work. The specific meanings, context, and implications diverge substantially.",
+    "predicted_sim": 0.5,
+    "gold_score": 1.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "A bike is next to a couple women.",
+    "sentence2": "Ein Kind neben einem Fahrrad.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe spatial proximity involving a bicycle ('bike' vs 'Fahrrad' are identical). However, the entities in those spatial relationships are completely different: Sentence 1 involves women (couple women) positioned near a bike, while Sentence 2 involves a child (Kind) positioned near a bicycle. The subjects and objects are entirely distinct, making the overall meanings quite different. Only the shared concept of a bicycle and the 'next to' spatial relationship provide minimal overlap.\",\n  \"output\": 1.5\n}",
+    "reasoning": "Both sentences describe spatial proximity involving a bicycle ('bike' vs 'Fahrrad' are identical). However, the entities in those spatial relationships are completely different: Sentence 1 involves women (couple women) positioned near a bike, while Sentence 2 involves a child (Kind) positioned near a bicycle. The subjects and objects are entirely distinct, making the overall meanings quite different. Only the shared concept of a bicycle and the 'next to' spatial relationship provide minimal overlap.",
+    "predicted_sim": 1.5,
+    "gold_score": 2.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "The group is eating while taking in a breathtaking view.",
+    "sentence2": "Eine Gruppe sieht einen ungew\u00f6hnlichen Baum an.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the semantic element of a group of people engaged in some form of observation. However, the specific contexts differ significantly. Sentence 1 describes a group eating while simultaneously enjoying a scenic, beautiful view. Sentence 2 describes a group specifically looking at an unusual tree. The shared concept of 'group observing something' is the primary overlap, but the activities (eating vs. looking), the objects of observation (view vs. tree), and the descriptive nature (breathtaking vs. unusual) create meaningful distinctions. The similarity is above zero but well below identical.\",\n  \"output\": 2.0\n}",
+    "reasoning": "Both sentences share the semantic element of a group of people engaged in some form of observation. However, the specific contexts differ significantly. Sentence 1 describes a group eating while simultaneously enjoying a scenic, beautiful view. Sentence 2 describes a group specifically looking at an unusual tree. The shared concept of 'group observing something' is the primary overlap, but the activities (eating vs. looking), the objects of observation (view vs. tree), and the descriptive nature (breathtaking vs. unusual) create meaningful distinctions. The similarity is above zero but well below identical.",
+    "predicted_sim": 2.0,
+    "gold_score": 2.2,
+    "abs_diff": 0.20000000000000018
+  }
+]

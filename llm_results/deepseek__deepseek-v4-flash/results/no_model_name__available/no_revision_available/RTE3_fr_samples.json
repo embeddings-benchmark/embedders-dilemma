@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Les 16 membres de l'OTAN et les 14 pays qui formaient le Pacte de Varsovie rival ont convenu qu'il y aurait beaucoup moins d'\u00e9quipements autoris\u00e9s dans la zone d'application en Europe que dans le trait\u00e9 initial.",
+    "sentence2": "L'OTAN compte 16 membres.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that 'Les 16 membres de l'OTAN...' which directly indicates that NATO has 16 members. Sentence 2 claims 'L'OTAN compte 16 membres' (NATO has 16 members). This is explicitly stated in Sentence 1, so the meaning of the hypothesis is directly supported by the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that 'Les 16 membres de l'OTAN...' which directly indicates that NATO has 16 members. Sentence 2 claims 'L'OTAN compte 16 membres' (NATO has 16 members). This is explicitly stated in Sentence 1, so the meaning of the hypothesis is directly supported by the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Le pr\u00e9sident de la R\u00e9publique italienne, Giorgio Napolitano, a demand\u00e9 aujourd'hui \u00e0 Romano Prodi de rester au poste de Premier ministre, mais Prodi devra passer un vote de confiance le plus rapidement possible.",
+    "sentence2": "Romano Prodi est le Premier ministre italien.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that the President of Italy asked Romano Prodi to remain in the position of Prime Minister, which implies that Prodi currently holds that position. Additionally, the mention of a vote of confidence further confirms his role as Prime Minister. Therefore, the hypothesis that Romano Prodi is the Italian Prime Minister follows logically from the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise states that the President of Italy asked Romano Prodi to remain in the position of Prime Minister, which implies that Prodi currently holds that position. Additionally, the mention of a vote of confidence further confirms his role as Prime Minister. Therefore, the hypothesis that Romano Prodi is the Italian Prime Minister follows logically from the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Le secr\u00e9taire g\u00e9n\u00e9ral de l'OTAN, Willy Claes, a d\u00e9clar\u00e9 aujourd'hui qu'il envisageait de d\u00e9missionner, apr\u00e8s qu'une commission parlementaire belge a d\u00e9cid\u00e9 ce matin de recommander \u00e0 la plus haute juridiction du pays de l'inculper dans le cadre d'un scandale de corruption dans le domaine de l'armement qui s'\u00e9largit.",
+    "sentence2": "Le secr\u00e9taire g\u00e9n\u00e9ral de l'OTAN Willy Claes a d\u00e9missionn\u00e9.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that Willy Claes declared he was considering resigning (envisageait de d\u00e9missionner), not that he actually resigned. Sentence 2 asserts that he resigned, which is a stronger claim not directly supported by the premise. Therefore, the hypothesis is not semantically entailed.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 states that Willy Claes declared he was considering resigning (envisageait de d\u00e9missionner), not that he actually resigned. Sentence 2 asserts that he resigned, which is a stronger claim not directly supported by the premise. Therefore, the hypothesis is not semantically entailed.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Alvaro Uribe est le pr\u00e9sident de l'Espagne, un personnage int\u00e9ressant, qui, soit dit en passant, a vu son propre p\u00e8re abattu par une milice rebelle.",
+    "sentence2": "Felipe Gonz\u00e1lez est le pr\u00e9sident de l'Espagne.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that 'Alvaro Uribe is the president of Spain', which is factually incorrect (Alvaro Uribe is a former president of Colombia, not Spain). The hypothesis states that 'Felipe Gonz\u00e1lez is the president of Spain'. Since the premise does not mention Felipe Gonz\u00e1lez at all, and the information about the president of Spain in the premise is false and not about Felipe Gonz\u00e1lez, the hypothesis is not semantically entailed by the premise.\",\n  \"output\": 0\n}",
+    "reasoning": "The premise states that 'Alvaro Uribe is the president of Spain', which is factually incorrect (Alvaro Uribe is a former president of Colombia, not Spain). The hypothesis states that 'Felipe Gonz\u00e1lez is the president of Spain'. Since the premise does not mention Felipe Gonz\u00e1lez at all, and the information about the president of Spain in the premise is false and not about Felipe Gonz\u00e1lez, the hypothesis is not semantically entailed by the premise.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "\"Il n'y aura qu'un seul ouragan Andrew\", a-t-il d\u00e9clar\u00e9, faisant r\u00e9f\u00e9rence \u00e0 la temp\u00eate tropicale de cat\u00e9gorie 5 qui a frapp\u00e9 le sud de la Floride en 1992, causant 26,5 milliards de dollars de d\u00e9g\u00e2ts et tuant 26 personnes aux \u00c9tats-Unis et aux Bahamas.",
+    "sentence2": "Les temp\u00eates tropicales causent de graves dommages.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise describes a specific hurricane (Andrew) that caused severe damage, but it does not state that all tropical storms cause serious damage. The hypothesis is a general claim that is not logically guaranteed by the premise, as there could be tropical storms that do not cause serious damage. Therefore, the hypothesis is not semantically entailed.\",\n  \"output\": 0\n}",
+    "reasoning": "The premise describes a specific hurricane (Andrew) that caused severe damage, but it does not state that all tropical storms cause serious damage. The hypothesis is a general claim that is not logically guaranteed by the premise, as there could be tropical storms that do not cause serious damage. Therefore, the hypothesis is not semantically entailed.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  }
+]

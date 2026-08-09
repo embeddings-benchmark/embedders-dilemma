@@ -1,0 +1,37 @@
+{
+  "dataset_revision": "3ce50711e47553e7c9f47b53819ccd64cd0f5b9b",
+  "task_name": "ArxivClusteringP2P",
+  "mteb_version": "2.3.0",
+  "scores": {
+    "test": [
+      {
+        "v_measures": [
+          0.556024,
+          0.286188,
+          0.550917,
+          0.718358,
+          0.31495
+        ],
+        "v_measure": 0.485287,
+        "v_measure_std": 0.162658,
+        "usage_stats": {
+          "input_tokens": 237928,
+          "cached_tokens": 0,
+          "output_tokens": 87818,
+          "thinking_tokens": 54176,
+          "total_tokens": 325746,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.485287,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 2327.4991149902344,
+  "kg_co2_emissions": null
+}

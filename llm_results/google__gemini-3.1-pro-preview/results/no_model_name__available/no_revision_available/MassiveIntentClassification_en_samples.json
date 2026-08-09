@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "i need you to mark next monday",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'i need you to mark next monday' implies a request to create a calendar event, reminder, or marking on the date of next Monday. This falls under the 'calendar_set' intent.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "let's play my most played song list",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'let's play my most played song list' is asking the system to start playing a specific playlist of songs, which falls under the 'play_music' intent.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "disable alarm for three p. m.",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'disable alarm for three p. m.' clearly indicates a request to turn off or remove an existing alarm set for 3:00 PM. This corresponds to the 'alarm_remove' intent.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "cancel alarm",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'cancel alarm' is a direct command to remove or cancel a previously set alarm. This aligns perfectly with the 'alarm_remove' intent.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "remind me about my schedule for the afternoon",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to be reminded about their schedule for the afternoon, which involves checking or querying their calendar events.\",\n  \"output\": \"calendar_query\"\n}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "The male, who is dark skinned, is standing on one hand in front of a yellow building",
+    "sentence2": "A black man is break dancing on the pavement",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a dark-skinned/black male performing a physical activity in an outdoor, likely urban, setting. 'Standing on one hand' is a specific pose highly characteristic of 'break dancing', creating a strong semantic link between the actions. The location details ('in front of a yellow building' vs 'on the pavement') are compatible and likely refer to the same scene, just emphasizing different visual elements. While the phrasing and level of specificity differ, the core subject, action, and context align closely, indicating they are mostly equivalent descriptions of the same event.\",\n  \"output\": 4.0\n}",
+    "reasoning": "Both sentences describe a dark-skinned/black male performing a physical activity in an outdoor, likely urban, setting. 'Standing on one hand' is a specific pose highly characteristic of 'break dancing', creating a strong semantic link between the actions. The location details ('in front of a yellow building' vs 'on the pavement') are compatible and likely refer to the same scene, just emphasizing different visual elements. While the phrasing and level of specificity differ, the core subject, action, and context align closely, indicating they are mostly equivalent descriptions of the same event.",
+    "predicted_sim": 4.0,
+    "gold_score": 2.7,
+    "abs_diff": 1.2999999999999998
+  },
+  {
+    "sentence1": "A girl in blue is sliding down a green slide",
+    "sentence2": "A boy in blue are sliding down a green slide",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the exact same scene, action, clothing color, and slide color. The only meaningful semantic difference is the gender of the subject ('girl' vs. 'boy'). Sentence 2 also contains a minor grammatical subject-verb agreement error ('are' instead of 'is'), which does not change the intended meaning. Because the core imagery and event are nearly identical with only a single minor detail altered, the sentences are highly related but not perfectly equivalent.\",\n  \"output\": 4.0\n}",
+    "reasoning": "Both sentences describe the exact same scene, action, clothing color, and slide color. The only meaningful semantic difference is the gender of the subject ('girl' vs. 'boy'). Sentence 2 also contains a minor grammatical subject-verb agreement error ('are' instead of 'is'), which does not change the intended meaning. Because the core imagery and event are nearly identical with only a single minor detail altered, the sentences are highly related but not perfectly equivalent.",
+    "predicted_sim": 4.0,
+    "gold_score": 3.4,
+    "abs_diff": 0.6000000000000001
+  },
+  {
+    "sentence1": "The cheerleaders are parading and wearing uniforms which are black, pink and white",
+    "sentence2": "The cheerleaders are parading and wearing black, pink and white uniforms",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey exactly the same information and describe the identical scenario. The only difference is syntactic: Sentence 1 uses a relative clause ('uniforms which are...') to specify the colors, while Sentence 2 places the color adjectives directly before the noun ('black, pink and white uniforms'). This grammatical variation does not alter the semantic content in any way, making the two sentences completely equivalent in meaning.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey exactly the same information and describe the identical scenario. The only difference is syntactic: Sentence 1 uses a relative clause ('uniforms which are...') to specify the colors, while Sentence 2 places the color adjectives directly before the noun ('black, pink and white uniforms'). This grammatical variation does not alter the semantic content in any way, making the two sentences completely equivalent in meaning.",
+    "predicted_sim": 5.0,
+    "gold_score": 4.8,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "A man is emptying a container made of plastic",
+    "sentence2": "A man is filling a container made of plastic",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share identical subjects ('A man') and objects ('a container made of plastic'), and follow the exact same syntactic structure. However, the core verbs ('emptying' vs. 'filling') are direct antonyms, describing opposite physical actions. While the lexical overlap and contextual scenario are very high, the contradictory main predicate fundamentally changes the event being described, resulting in a moderate relatedness score.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences share identical subjects ('A man') and objects ('a container made of plastic'), and follow the exact same syntactic structure. However, the core verbs ('emptying' vs. 'filling') are direct antonyms, describing opposite physical actions. While the lexical overlap and contextual scenario are very high, the contradictory main predicate fundamentally changes the event being described, resulting in a moderate relatedness score.",
+    "predicted_sim": 2.5,
+    "gold_score": 3.4,
+    "abs_diff": 0.8999999999999999
+  },
+  {
+    "sentence1": "A few people are dancing",
+    "sentence2": "A group of people are dancing",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the exact same core action (people dancing) involving multiple individuals. The only difference lies in the subject phrasing: 'a few' emphasizes a small, indefinite number, while 'a group' emphasizes the individuals being gathered together. In everyday usage, these phrases are nearly interchangeable for describing the same scene, resulting in very high semantic overlap. The slight numerical and connotative distinction prevents a perfect 5.0 score, but the meanings are highly aligned.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences describe the exact same core action (people dancing) involving multiple individuals. The only difference lies in the subject phrasing: 'a few' emphasizes a small, indefinite number, while 'a group' emphasizes the individuals being gathered together. In everyday usage, these phrases are nearly interchangeable for describing the same scene, resulting in very high semantic overlap. The slight numerical and connotative distinction prevents a perfect 5.0 score, but the meanings are highly aligned.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.5,
+    "abs_diff": 0.0
+  }
+]

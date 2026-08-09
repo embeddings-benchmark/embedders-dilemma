@@ -1,0 +1,27 @@
+{
+  "dataset_revision": "82eb9939fa177ddd94d5ddf4668e011d7446c1da",
+  "task_name": "LLMSICKR",
+  "mteb_version": "2.11.6",
+  "scores": {
+    "test": [
+      {
+        "pearson": 0.922466,
+        "spearman": 0.903682,
+        "cosine_pearson": 0.922466,
+        "cosine_spearman": 0.903682,
+        "manhattan_pearson": 0.891445,
+        "manhattan_spearman": 0.902031,
+        "euclidean_pearson": 0.893612,
+        "euclidean_spearman": 0.903628,
+        "main_score": 0.903682,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 10.985055446624756,
+  "kg_co2_emissions": null,
+  "date": 1774404350.201594
+}

@@ -1,0 +1,17 @@
+{
+  "input_tokens": 1740629,
+  "cached_tokens": 0,
+  "output_tokens": 717151,
+  "thinking_tokens": 396955,
+  "total_tokens": 2457780,
+  "cost": 0.0,
+  "n_queries": 100,
+  "n_llm_calls": 100,
+  "n_failed": 0,
+  "wall_time_s": 523.65,
+  "model": "qwen3.6-35b-a3b",
+  "top_k": 100,
+  "max_doc_chars": 800,
+  "first_stage": "lightonai/GTE-ModernColBERT-v1",
+  "task": "SciFact"
+}

@@ -1,0 +1,31 @@
+{
+    "task": "MedrxivClusteringS2S",
+    "model_raw_output_preview": "{\"assignments\":[12,0,11,6,1,0,25,0,13,10,0,9,12,8,3,25,18,0,15,11,18,26,3,6,1,3,0,1,13,9,8,20,9,11,10,5,0,20,16,25,7,8,2,2,21,11,10,3,2,10,9,13,27,22,2,2,1,9,2,4,5,3,6,4,4,4,16,2,2,23,24,15,0,27,2,17,9,2,0,7,11,9,24,14,9,0,19,10,3,22,13,3,8,18,9,24,11,2,6,25,10,0,1,1,6,18,2,0,4,4,18,11,27,1,0,7,11,8,19,12,1,2,4,9,12,27,11,1,2,13,3,8,11,2,4,4,27,10,16,4,7,8,2,11,8,19,17,0,0,1,7,0,0,3,16,2,9,11,4,9,5,23,5,4,13,27,25,19,24,4,27,27,20,12,6,22,4,12,7,5,0,11,26,11,22,0,10,17,10,6,2,6,22,11,0,0]}",
+    "samples": [
+        {
+            "input_text": "Assessing the (Un)Trustworthiness of Saliency Maps for Localizing Abnormalities in Medical Imaging",
+            "predicted_cluster": 12,
+            "gold_cluster": "radiology and imaging"
+        },
+        {
+            "input_text": "Evidence of SARS-Cov-2-specific memory B cells six months after vaccination with BNT162b2 mRNA vaccine",
+            "predicted_cluster": 0,
+            "gold_cluster": "infectious diseases"
+        },
+        {
+            "input_text": "The risk of drug resistance during long-acting antimicrobial therapy",
+            "predicted_cluster": 11,
+            "gold_cluster": "pharmacology and therapeutics"
+        },
+        {
+            "input_text": "Clinical utility of Corona Virus Disease-19 serum IgG, IgM, and neutralizing antibodies and inflammatory markers",
+            "predicted_cluster": 6,
+            "gold_cluster": "infectious diseases"
+        },
+        {
+            "input_text": "Predominance of antibody-resistant SARS-CoV-2 variants in vaccine breakthrough cases from the San Francisco Bay Area, California",
+            "predicted_cluster": 1,
+            "gold_cluster": "infectious diseases"
+        }
+    ]
+}

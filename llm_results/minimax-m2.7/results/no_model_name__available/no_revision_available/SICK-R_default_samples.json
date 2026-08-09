@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "The male, who is dark skinned, is standing on one hand in front of a yellow building",
+    "sentence2": "A black man is break dancing on the pavement",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a dark-skinned/black male performing a physical activity. The shared elements are: (1) the subject is a dark-skinned male, (2) both involve physical body positioning that requires balance/strength. However, the actions differ significantly - 'standing on one hand' is a static balance position, while 'break dancing' is a dynamic dance activity. The locations also differ (yellow building vs. pavement). While there is some thematic overlap in the athletic/balance aspect, the sentences describe different specific actions in different settings.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences describe a dark-skinned/black male performing a physical activity. The shared elements are: (1) the subject is a dark-skinned male, (2) both involve physical body positioning that requires balance/strength. However, the actions differ significantly - 'standing on one hand' is a static balance position, while 'break dancing' is a dynamic dance activity. The locations also differ (yellow building vs. pavement). While there is some thematic overlap in the athletic/balance aspect, the sentences describe different specific actions in different settings.",
+    "predicted_sim": 2.5,
+    "gold_score": 2.7,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "A girl in blue is sliding down a green slide",
+    "sentence2": "A boy in blue are sliding down a green slide",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the same action (sliding down a green slide) with the same characteristic (wearing blue clothing). The core scenario is identical - someone in blue sliding down a green slide. The only meaningful semantic difference is the gender of the subject (girl vs boy). However, gender is a significant semantic distinction even if the broader context is similar. There is also a grammatical error in sentence 2 ('are' instead of 'is'), but that doesn't affect semantic meaning. The sentences share most elements (action, object, clothing color) but differ in one key attribute of the subject.\",\n  \"output\": 3.5\n}",
+    "reasoning": "Both sentences describe the same action (sliding down a green slide) with the same characteristic (wearing blue clothing). The core scenario is identical - someone in blue sliding down a green slide. The only meaningful semantic difference is the gender of the subject (girl vs boy). However, gender is a significant semantic distinction even if the broader context is similar. There is also a grammatical error in sentence 2 ('are' instead of 'is'), but that doesn't affect semantic meaning. The sentences share most elements (action, object, clothing color) but differ in one key attribute of the subject.",
+    "predicted_sim": 3.5,
+    "gold_score": 3.4,
+    "abs_diff": 0.10000000000000009
+  },
+  {
+    "sentence1": "The cheerleaders are parading and wearing uniforms which are black, pink and white",
+    "sentence2": "The cheerleaders are parading and wearing black, pink and white uniforms",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey exactly the same information: cheerleaders are parading while wearing uniforms, and those uniforms are black, pink, and white. The only difference is syntactic - Sentence 1 uses a relative clause 'which are' while Sentence 2 places the color adjectives directly before 'uniforms'. Semantically, both sentences are equivalent and express the identical meaning.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey exactly the same information: cheerleaders are parading while wearing uniforms, and those uniforms are black, pink, and white. The only difference is syntactic - Sentence 1 uses a relative clause 'which are' while Sentence 2 places the color adjectives directly before 'uniforms'. Semantically, both sentences are equivalent and express the identical meaning.",
+    "predicted_sim": 5.0,
+    "gold_score": 4.8,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "A man is emptying a container made of plastic",
+    "sentence2": "A man is filling a container made of plastic",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share identical grammatical structure, subjects ('A man'), and objects ('a container made of plastic'). The only difference is the action verb: 'emptying' (removing contents) vs 'filling' (adding contents). These are semantically opposite but directly related actions in the context of container manipulation. The high overlap in participants and objects makes them semantically connected, while the opposite nature of the actions prevents a higher score.\",\n  \"output\": 3.5\n}",
+    "reasoning": "Both sentences share identical grammatical structure, subjects ('A man'), and objects ('a container made of plastic'). The only difference is the action verb: 'emptying' (removing contents) vs 'filling' (adding contents). These are semantically opposite but directly related actions in the context of container manipulation. The high overlap in participants and objects makes them semantically connected, while the opposite nature of the actions prevents a higher score.",
+    "predicted_sim": 3.5,
+    "gold_score": 3.4,
+    "abs_diff": 0.10000000000000009
+  },
+  {
+    "sentence1": "A few people are dancing",
+    "sentence2": "A group of people are dancing",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe people engaged in the same activity (dancing). The only difference is the quantifier used: 'a few' vs 'a group of'. While these quantifiers have slightly different connotations regarding size ('a few' typically implies a smaller number than 'a group'), both convey the same core meaning that multiple people are dancing together. The sentences are nearly synonymous in semantic content.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences describe people engaged in the same activity (dancing). The only difference is the quantifier used: 'a few' vs 'a group of'. While these quantifiers have slightly different connotations regarding size ('a few' typically implies a smaller number than 'a group'), both convey the same core meaning that multiple people are dancing together. The sentences are nearly synonymous in semantic content.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.5,
+    "abs_diff": 0.0
+  }
+]

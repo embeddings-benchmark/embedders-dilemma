@@ -1,0 +1,17 @@
+{
+  "input_tokens": 1484628,
+  "cached_tokens": 0,
+  "output_tokens": 836986,
+  "thinking_tokens": 501532,
+  "total_tokens": 2321614,
+  "cost": 0.0,
+  "n_queries": 100,
+  "n_llm_calls": 100,
+  "n_failed": 0,
+  "wall_time_s": 525.05,
+  "model": "qwen3.6-35b-a3b",
+  "top_k": 100,
+  "max_doc_chars": 800,
+  "first_stage": "bm25s",
+  "task": "FiQA2018"
+}

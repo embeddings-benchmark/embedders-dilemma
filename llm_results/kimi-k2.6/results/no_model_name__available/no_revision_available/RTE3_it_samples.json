@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "In una mossa largamente vista come sorprendente, la Banca d'Inghilterra alz\u00f2 i tassi d'interesse inglesi dal 5% al 5,25%, il massimo in cinque anni.",
+    "sentence2": "I tassi d'interesse inglesi salirono dal 5% al 5,25%.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that the Bank of England raised English interest rates from 5% to 5.25%. Sentence 2 states that English interest rates rose from 5% to 5.25%. If the Bank of England raised the rates, it necessarily follows that the rates rose. The numerical values (5% to 5.25%) match exactly. Sentence 2 simply omits the agent and additional context (the move being surprising and the rate being the highest in five years), but the core factual claim is fully supported by Sentence 1.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that the Bank of England raised English interest rates from 5% to 5.25%. Sentence 2 states that English interest rates rose from 5% to 5.25%. If the Bank of England raised the rates, it necessarily follows that the rates rose. The numerical values (5% to 5.25%) match exactly. Sentence 2 simply omits the agent and additional context (the move being surprising and the rate being the highest in five years), but the core factual claim is fully supported by Sentence 1.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Ieri \u00e8 emerso che il Ministro della Difesa ha respinto una richiesta dall'Argentina di autorizzare un rifornimento limitato di parti di ricambio prodotte dal Regno Unito per la marina argentina, cominciato durante la Guerra del Golfo.",
+    "sentence2": "Il Ministro della Difesa del Regno Unito ha respinto una richiesta di rifornimenti dell'Argentina.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that a Minister of Defense rejected an Argentine request to authorize a limited supply of UK-produced spare parts. Since the authorization concerns goods produced by the United Kingdom, the minister must logically be the UK Minister of Defense. Sentence 2 generalizes this event by stating that the UK Minister of Defense rejected an Argentine request for supplies. The hypothesis drops details (limited, spare parts, UK-produced, Argentine navy, Gulf War) and generalizes 'rifornimento limitato di parti di ricambio' to 'rifornimenti', but the core meaning\u2014that the UK Defense Minister rejected an Argentine supply request\u2014follows necessarily from the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that a Minister of Defense rejected an Argentine request to authorize a limited supply of UK-produced spare parts. Since the authorization concerns goods produced by the United Kingdom, the minister must logically be the UK Minister of Defense. Sentence 2 generalizes this event by stating that the UK Minister of Defense rejected an Argentine request for supplies. The hypothesis drops details (limited, spare parts, UK-produced, Argentine navy, Gulf War) and generalizes 'rifornimento limitato di parti di ricambio' to 'rifornimenti', but the core meaning\u2014that the UK Defense Minister rejected an Argentine supply request\u2014follows necessarily from the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "In novembre, l'unit\u00e0 organizz\u00f2 un'esposizione di falsi al V&A per mettere in luce la crescente diffusione e sofisticazione del crimine d'arte.",
+    "sentence2": "Il crimine d'arte \u00e8 in aumento.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that the exhibition was organized to highlight 'la crescente diffusione... del crimine d'arte' (the growing spread/increasing diffusion of art crime). The phrase 'crescente diffusione' explicitly conveys that art crime is increasing or becoming more widespread. Therefore, Sentence 2 ('Il crimine d'arte \u00e8 in aumento' / 'Art crime is increasing') is directly supported by and follows from the meaning of Sentence 1.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that the exhibition was organized to highlight 'la crescente diffusione... del crimine d'arte' (the growing spread/increasing diffusion of art crime). The phrase 'crescente diffusione' explicitly conveys that art crime is increasing or becoming more widespread. Therefore, Sentence 2 ('Il crimine d'arte \u00e8 in aumento' / 'Art crime is increasing') is directly supported by and follows from the meaning of Sentence 1.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Belknap fu accusato da un voto unanime della Camera dei Rappresentanti di aver presumibilmente ricevuto denaro in cambio di assegnazioni di posti di lavoro.",
+    "sentence2": "Belknap fu accusato di aver ricevuto denaro in cambio di assegnazioni di posti di lavoro.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that Belknap was accused by the House of Representatives, via a unanimous vote, of having presumably received money in exchange for job assignments. Sentence 2 removes the detail about who made the accusation and the adverb 'presumably', but it retains the core claim that Belknap was accused of receiving money for job assignments. If the premise is true, the hypothesis must also be true: being accused of having 'presumably' done something entails being accused of that thing, since the accusation is still directed at the underlying act. Thus, the meaning of Sentence 2 follows from Sentence 1.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that Belknap was accused by the House of Representatives, via a unanimous vote, of having presumably received money in exchange for job assignments. Sentence 2 removes the detail about who made the accusation and the adverb 'presumably', but it retains the core claim that Belknap was accused of receiving money for job assignments. If the premise is true, the hypothesis must also be true: being accused of having 'presumably' done something entails being accused of that thing, since the accusation is still directed at the underlying act. Thus, the meaning of Sentence 2 follows from Sentence 1.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "I robot sono stati usati nei lavori di assemblaggio finale delle automobili e per pittura a spruzzo e i fornitori sperano di essere capaci di sviluppare questi mercati adesso che la tecnologia \u00e8 stata provata.",
+    "sentence2": "I robot sono usati in lavori di assemblaggio.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that robots have been used in final car assembly and spray painting. Final car assembly is a specific kind of assembly work, so the premise establishes that robots have been utilized in at least one type of assembly task. Although Sentence 1 uses the present perfect (sono stati usati) while Sentence 2 uses the present (sono usati), the context\u2014\u2018now that the technology has been proven\u2019 and suppliers hoping to expand these markets\u2014treats the use as an established, ongoing application. Therefore, the general claim in Sentence 2 follows from the more specific statement in Sentence 1.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that robots have been used in final car assembly and spray painting. Final car assembly is a specific kind of assembly work, so the premise establishes that robots have been utilized in at least one type of assembly task. Although Sentence 1 uses the present perfect (sono stati usati) while Sentence 2 uses the present (sono usati), the context\u2014\u2018now that the technology has been proven\u2019 and suppliers hoping to expand these markets\u2014treats the use as an established, ongoing application. Therefore, the general claim in Sentence 2 follows from the more specific statement in Sentence 1.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  }
+]

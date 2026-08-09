@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Schicke an den Motorrad-Chat eine Videonachricht",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance explicitly requests to send a video message to a specific chat group ('Motorrad-Chat'). Keywords like 'Schicke' (send) and 'Nachricht' (message) directly indicate a communication action handled by messaging applications.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "Rufe Loren an",
+        "model_raw_output": "{\n  \"reasoning\": \"The German utterance 'Rufe Loren an' translates to 'Call Loren,' which explicitly requests initiating a phone call to a specific contact. This directly aligns with the 'calling' domain among the provided options.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Stelle meinen Status als vielleicht ein f\u00fcr das zweite Event",
+        "model_raw_output": "{\n  \"reasoning\": \"The German utterance translates to 'Set my status to maybe for the second event', which indicates the user wants to update their RSVP or availability for a specific calendar invitation. This action directly relates to managing event responses, aligning with the 'event' domain.\",\n  \"output\": \"event\"\n}",
+        "parsed_output": "event",
+        "ground_truth": "event",
+        "is_correct": true
+    },
+    {
+        "input_text": "Rufe Josiah \u00fcber WhatsApp an",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance explicitly requests to initiate a call ('Rufe ... an') to a specific person ('Josiah') via WhatsApp. Despite WhatsApp being a messaging platform, the primary action verb is 'call', which directly aligns with the 'calling' domain in task-oriented dialogue classification.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Starte einen Timer f\u00fcr das Kalbsfleisch",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance explicitly commands 'Starte einen Timer' (start a timer). Although it mentions 'Kalbsfleisch' (veal) as the contextual purpose, the core action and system function being invoked is a countdown timer, which directly corresponds to the 'timer' domain.\",\n  \"output\": \"timer\"\n}",
+        "parsed_output": "timer",
+        "ground_truth": "timer",
+        "is_correct": true
+    }
+]

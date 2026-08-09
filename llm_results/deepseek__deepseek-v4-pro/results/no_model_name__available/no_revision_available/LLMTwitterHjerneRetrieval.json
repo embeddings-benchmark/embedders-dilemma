@@ -1,0 +1,37 @@
+{
+  "dataset_revision": "31f9b918c30ef94e15a168cb95ca4ebf291396eb",
+  "task_name": "LLMTwitterHjerneRetrieval",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "recall@1": 0.334416,
+        "recall@2": 0.558658,
+        "recall@3": 0.679654,
+        "recall@5": 0.755195,
+        "mrecall@1": 0.987013,
+        "mrecall@2": 0.753247,
+        "mrecall@3": 0.623377,
+        "mrecall@5": 0.545455,
+        "capped_recall@1": 0.987013,
+        "main_score": 0.334416,
+        "usage_stats": {
+          "input_tokens": 1192653,
+          "cached_tokens": 876928,
+          "output_tokens": 114117,
+          "thinking_tokens": 104963,
+          "total_tokens": 1306770,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "hf_subset": "default",
+        "languages": [
+          "dan-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 264.5884110927582,
+  "kg_co2_emissions": null
+}

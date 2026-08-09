@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "sie m\u00fcssen den n\u00e4chsten montag vormerken",
+        "model_raw_output": "{\n  \"reasoning\": \"The German utterance 'sie m\u00fcssen den n\u00e4chsten montag vormerken' translates to 'you must note down/schedule next Monday'. The verb 'vormerken' (to note down, pencil in, or schedule) in combination with a specific date ('den n\u00e4chsten Montag') indicates the user wants to create a calendar entry or schedule something for that day. Among the available intents, 'calendar_set' is the best match for adding or setting a calendar-related entry.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "spiele meine am meisten gespielten song liste",
+        "model_raw_output": "{\n  \"reasoning\": \"The German utterance 'spiele meine am meisten gespielten song liste' translates to 'play my most played song list/playlist'. The user is explicitly requesting to start playback of a music collection, which maps directly to the play_music intent.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "schalte den wecker um f\u00fcnfzehn uhr ab",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'schalte den wecker um f\u00fcnfzehn uhr ab' translates to 'turn off the alarm at 3 PM/15:00'. The key action is canceling or removing an existing alarm, indicated by 'schalte ... ab' (turn off) and 'Wecker' (alarm). This matches the alarm_remove intent.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "l\u00f6sche wecker",
+        "model_raw_output": "{\n  \"reasoning\": \"The German utterance 'l\u00f6sche wecker' translates to 'delete alarm' in English. The user wants to remove or delete an existing alarm, which directly matches the alarm_remove intent.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "erinnere mich an mein termin am nachmittag",
+        "model_raw_output": "{\n  \"reasoning\": \"The user says 'erinnere mich an mein termin am nachmittag' (remind me of my appointment in the afternoon). This is an imperative request to set a reminder/notification about an existing appointment for the afternoon. Since there is no separate 'reminder' intent in the MASSIVE schema, requests to be reminded of something are mapped to alarm_set. The user is not asking to query details (calendar_query), create a new calendar event (calendar_set), or asking about existing alarms (alarm_query).\",\n  \"output\": \"alarm_set\"\n}",
+        "parsed_output": "alarm_set",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

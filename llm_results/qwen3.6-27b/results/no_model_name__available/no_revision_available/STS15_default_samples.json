@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "a little girl walks on a boardwalk with blue domes in the background .",
+    "sentence2": "a man going over a jump on his bike with a river in the background",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences describe entirely different scenes with no meaningful semantic overlap. Sentence 1 features a little girl walking on a boardwalk with blue domes in the background, while Sentence 2 depicts a man performing a bike jump with a river in the background. The subjects, actions, locations, and background elements are completely distinct. They only share a superficial syntactic structure (a person performing an action with a noted background), but their actual meaning is unrelated.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The two sentences describe entirely different scenes with no meaningful semantic overlap. Sentence 1 features a little girl walking on a boardwalk with blue domes in the background, while Sentence 2 depicts a man performing a bike jump with a river in the background. The subjects, actions, locations, and background elements are completely distinct. They only share a superficial syntactic structure (a person performing an action with a noted background), but their actual meaning is unrelated.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "terminal 1is connected to terminal 4",
+    "sentence2": "terminals 1 and 4 are connected",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the exact same information: a connection exists between terminal 1 and terminal 4. The slight difference in phrasing ('is connected to' versus 'are connected') and the minor typo in the first sentence ('1is') do not alter the core meaning or the relationship described. In technical and general contexts, they are functionally and semantically equivalent.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey the exact same information: a connection exists between terminal 1 and terminal 4. The slight difference in phrasing ('is connected to' versus 'are connected') and the minor typo in the first sentence ('1is') do not alter the core meaning or the relationship described. In technical and general contexts, they are functionally and semantically equivalent.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "ask yourself what you look for in a friend too .",
+    "sentence2": "i went out & found new friends .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences relate to the general theme of friendship, but they convey entirely different meanings and intents. Sentence 1 is a reflective prompt advising someone to consider the qualities they seek in a friend. Sentence 2 is a personal narrative describing a past action of going out and successfully making new friends. While they share a topical link and the word 'friend', their semantic content, temporal focus, and purpose are unrelated.\",\n  \"output\": 1.0\n}",
+    "reasoning": "Both sentences relate to the general theme of friendship, but they convey entirely different meanings and intents. Sentence 1 is a reflective prompt advising someone to consider the qualities they seek in a friend. Sentence 2 is a personal narrative describing a past action of going out and successfully making new friends. While they share a topical link and the word 'friend', their semantic content, temporal focus, and purpose are unrelated.",
+    "predicted_sim": 1.0,
+    "gold_score": 1.6,
+    "abs_diff": 0.6000000000000001
+  },
+  {
+    "sentence1": "positive battery terminal is not separated by a gap from terminal 4",
+    "sentence2": "terminal 4 and the positive terminal are not separated by the gap",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the exact same technical relationship: the positive battery terminal and terminal 4 are not separated by a gap. The differences are limited to syntactic rearrangement and minor lexical variations ('a gap' vs 'the gap', and the omission of the word 'battery'), which do not alter the core proposition or technical meaning. Therefore, the sentences are semantically equivalent.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey the exact same technical relationship: the positive battery terminal and terminal 4 are not separated by a gap. The differences are limited to syntactic rearrangement and minor lexical variations ('a gap' vs 'the gap', and the omission of the word 'battery'), which do not alter the core proposition or technical meaning. Therefore, the sentences are semantically equivalent.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "police stop maldives presidential election",
+    "sentence2": "keita wins mali presidential election",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the general topic of a 'presidential election,' but they describe entirely different real-world events. Sentence 1 refers to law enforcement interrupting/canceling an election in the Maldives, while Sentence 2 reports that a specific candidate (Keita) won an election in Mali. The countries, key actors, and outcomes (stopped vs. won) are completely different, resulting in only superficial keyword overlap and highly divergent core meanings.\",\n  \"output\": 0.5\n}",
+    "reasoning": "Both sentences share the general topic of a 'presidential election,' but they describe entirely different real-world events. Sentence 1 refers to law enforcement interrupting/canceling an election in the Maldives, while Sentence 2 reports that a specific candidate (Keita) won an election in Mali. The countries, key actors, and outcomes (stopped vs. won) are completely different, resulting in only superficial keyword overlap and highly divergent core meanings.",
+    "predicted_sim": 0.5,
+    "gold_score": 1.2,
+    "abs_diff": 0.7
+  }
+]

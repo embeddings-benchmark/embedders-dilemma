@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "wir brauchen rosa",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'wir brauchen rosa' (we need pink) is a very short and ambiguous German phrase. It could relate to many scenarios like adding an item to a shopping list, requesting a smart light color change, or just a general statement. However, without clear context indicating a specific domain (like explicit mention of a device, song, food, etc.), this appears to be a general statement or request without clear domain-specific intent.\",\n  \"output\": \"general\"\n}",
+        "parsed_output": "general",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "wie ist die einstellung f\u00fcr die helligkeit an meinem bildschirm",
+        "model_raw_output": "{\n  \"reasoning\": \"Der Nutzer fragt nach den Einstellungen f\u00fcr die Bildschirmhelligkeit. Dies bezieht sich auf die Anpassung von Ger\u00e4teeinstellungen, insbesondere Display-Einstellungen, was typischerweise unter IoT (Smart-Home-Ger\u00e4tekontrolle) oder allgemeine Ger\u00e4teeinstellungen f\u00e4llt. Der Nutzer m\u00f6chte wissen, wie er die Helligkeit an seinem Bildschirm einstellen kann.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "wie sp\u00e4t ist es in schweden",
+        "model_raw_output": "{\"reasoning\": \"The user is asking about the current time in Sweden ('wie sp\u00e4t ist es in schweden' means 'what time is it in Sweden'). This is a direct datetime query asking for the current time in a specific location, which falls under the datetime scenario.\", \"output\": {\"scenario\": \"datetime\"}}",
+        "parsed_output": "PARSE_FAILURE",
+        "ground_truth": "datetime",
+        "is_correct": false
+    },
+    {
+        "input_text": "l\u00f6sche meinen wecker f\u00fcr sieben uhr",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is speaking German and explicitly requests to delete an alarm ('l\u00f6sche meinen Wecker') that is set for seven o'clock ('f\u00fcr sieben Uhr'). This is a clear alarm management command.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "welche wecker habe ich gestellt",
+        "model_raw_output": "{\n  \"reasoning\": \"Der Nutzer fragt auf Deutsch nach seinen gestellten Weckern. Dies ist eine direkte Anfrage bez\u00fcglich Alarmfunktionen auf seinem Ger\u00e4t.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

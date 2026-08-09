@@ -1,0 +1,37 @@
+{
+  "dataset_revision": "a2acf12d293ea934823ca26752a05c5bfab24dff",
+  "task_name": "LLMAILAStatutes",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "recall@1": 0.134,
+        "recall@2": 0.163,
+        "recall@3": 0.172,
+        "recall@5": 0.176,
+        "mrecall@1": 0.56,
+        "mrecall@2": 0.04,
+        "mrecall@3": 0.0,
+        "mrecall@5": 0.0,
+        "capped_recall@1": 0.56,
+        "main_score": 0.134,
+        "usage_stats": {
+          "input_tokens": 1925741,
+          "cached_tokens": 720809,
+          "output_tokens": 58781,
+          "thinking_tokens": 57255,
+          "total_tokens": 1984522,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 108.99374079704285,
+  "kg_co2_emissions": null
+}

@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "i need you to mark next monday",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to 'mark next Monday,' which implies setting an event or reminder on their calendar for that specific date. The intent involves scheduling an event, aligning with 'calendar_set' rather than querying or removing an existing event.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "let's play my most played song list",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting to play a playlist of their most played songs. The action involves initiating playback of music, which directly relates to the 'play_music' intent. While the phrase 'most played song list' could imply a query (e.g., music_query), the primary action here is playing music rather than retrieving information.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "disable alarm for three p. m.",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting to disable an alarm set for a specific time (3 p.m.), which directly relates to removing an existing alarm. The appropriate intent is 'alarm_remove' as it involves canceling or deleting a pre-set alarm.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "cancel alarm",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's utterance 'cancel alarm' indicates a desire to remove or deactivate an existing alarm. Among the intents, 'alarm_remove' directly corresponds to canceling or removing an alarm, distinguishing it from 'alarm_query' (which would involve checking alarm details) or 'alarm_set' (which involves creating an alarm).\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "remind me about my schedule for the afternoon",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to be reminded about their schedule for the afternoon, which involves checking their calendar for planned events. The intent is to query existing calendar entries, not to set, remove, or modify them. The keyword 'schedule' directly relates to calendar activities.\",\n  \"output\": \"calendar_query\"\n}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

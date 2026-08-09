@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Schicke an den Motorrad-Chat eine Videonachricht",
+        "model_raw_output": "{\"reasoning\": \"The user wants to send a video message to a specific chat group, which falls under the messaging domain.\", \"output\": \"messaging\"}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "Rufe Loren an",
+        "model_raw_output": "{\"reasoning\": \"The user is requesting to initiate a phone call to a specific contact named Loren.\", \"output\": \"calling\"}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Stelle meinen Status als vielleicht ein f\u00fcr das zweite Event",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is attempting to modify their attendance status for an event, which falls under the event management domain.\",\n  \"output\": \"event\"\n}",
+        "parsed_output": "event",
+        "ground_truth": "event",
+        "is_correct": true
+    },
+    {
+        "input_text": "Rufe Josiah \u00fcber WhatsApp an",
+        "model_raw_output": "{\"reasoning\": \"The user is explicitly asking to make a phone call using a specific application, which falls under the 'calling' intent.\", \"output\": \"calling\"}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Starte einen Timer f\u00fcr das Kalbsfleisch",
+        "model_raw_output": "{\"reasoning\": \"The user is explicitly requesting to start a timer for cooking, which directly aligns with the 'timer' intent domain.\", \"output\": \"timer\"}",
+        "parsed_output": "timer",
+        "ground_truth": "timer",
+        "is_correct": true
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "R\u00e9pondez par SMS \u00e0 la discussion sur la f\u00eate du futur mari\u00e9",
+        "model_raw_output": "<think>The user is asking me to respond to a SMS about a bachelor party (f\u00eate du futur mari\u00e9 = bachelor party/farewell party for the groom).\n\nThis is a messaging task - the user wants to send an SMS reply to a discussion about a bachelor party. The domain is clearly 'messaging'.\n\nLet me output the classification in the required JSON format.\n</think>{\n  \"reasoning\": \"The utterance mentions 'SMS' (Short Message Service) and responding to a discussion about a bachelor party ('f\u00eate du futur mari\u00e9'). This is clearly a messaging-related task where the user wants to send a text message reply.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "Je voudrais que tu, je voudrais envoyer un message vid\u00e9o \u00e0 Len sur Messagerie",
+        "model_raw_output": "<think>The user is speaking French and wants to send a video message to \"Len\" using \"Messagerie\" (which means \"Messaging\" in French).\n\nLet me analyze:\n- \"envoyer un message vid\u00e9o\" = \"send a video message\"\n- \"\u00e0 Len\" = \"to Len\"\n- \"sur Messagerie\" = \"on Messaging\"\n\nThis is clearly about sending a video message, which falls under the messaging domain. The user wants to send a video message through a messaging app.\n\nThe intent domain should be 'messaging'.\n</think>{\"reasoning\":\"The user wants to send a video message to 'Len' using 'Messagerie' (messaging). The key phrases are 'envoyer un message vid\u00e9o' (send a video message) and 'sur Messagerie' (on Messaging), which clearly indicate a messaging-related task.\", \"output\":\"messaging\"}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "J\u2019aimerais faire un appel vid\u00e9o avec Kennedy Gardner et Alejandro Potts sur WhatsApp",
+        "model_raw_output": "<think>The user wants to make a video call with Kennedy Gardner and Alejandro Potts on WhatsApp.\n\nThis is clearly about making a video call, which is a \"calling\" functionality. The utterance is about making a video call (which is a type of calling).\n\nThe intent domain should be \"calling\".\n</think>{\"reasoning\":\"The user explicitly states they want to make a 'appel vid\u00e9o' (video call) with specific people using WhatsApp. This is clearly a calling-related intent, specifically video calling.\", \"output\": \"calling\"}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "appelle avec Sustainability",
+        "model_raw_output": "<think>The user said \"appelle avec Sustainability\" which is French. Let me analyze this:\n\n- \"appelle\" means \"call\" in French\n- \"avec\" means \"with\"\n- \"Sustainability\" appears to be a name - possibly a contact name\n\nSo the utterance is asking to call someone named \"Sustainability\". This is clearly a calling intent.\n\nThe domain should be \"calling\".\n</think>{\"reasoning\": \"The utterance 'appelle avec Sustainability' is in French, where 'appelle' means 'call' and 'avec' means 'with'. The user is requesting to make a phone call to a contact named 'Sustainability'. This falls under the calling intent domain.\", \"output\": \"calling\"}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Veuillez mettre l'appel en plein \u00e9cran",
+        "model_raw_output": "<think>The user is asking to put the call in full screen mode. This is about a phone/video call interface - they want to make the call display take up the full screen.\n\nThis falls under the \"calling\" domain since it's related to managing a phone call.\n\nLet me construct the JSON response:\n- reasoning: The user wants to display the current call in full screen mode, which is a call-related action\n- output: \"calling\"\n</think>{\"reasoning\":\"The user is asking to display the current phone call in full screen mode, which is a call management action related to the visual interface of an active call.\",\"output\":\"calling\"}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "It has recently been shown that Craf is essential for Kras G12D-induced NSCLC.",
+    "sentence2": " It has recently become evident that Craf is essential for the onset of Kras-driven non-small cell lung cancer.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences state that Craf is essential for the development of Kras-driven non-small cell lung cancer (NSCLC). Sentence 1 specifies the particular mutation (Kras G12D), whereas Sentence 2 is slightly broader ('Kras-driven') and specifies 'the onset of' the cancer. Despite these minor differences in phrasing and specificity, the core semantic meaning is highly equivalent.\",\n  \"output\": 3.8\n}",
+    "reasoning": "Both sentences state that Craf is essential for the development of Kras-driven non-small cell lung cancer (NSCLC). Sentence 1 specifies the particular mutation (Kras G12D), whereas Sentence 2 is slightly broader ('Kras-driven') and specifies 'the onset of' the cancer. Despite these minor differences in phrasing and specificity, the core semantic meaning is highly equivalent.",
+    "predicted_sim": 3.8,
+    "gold_score": 4.0,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "The Bcl-2 inhibitor ABT-737 induces regression of solid tumors  and its derivatives are in the early clinical phase as cancer therapeutics; however, it targets Bcl-2, Bcl-XL, and Bcl-w, but not Mcl-1, which induces resistance against apoptotic cell death triggered by ABT-737.",
+    "sentence2": "Recently, it has been reported that ABT-737 is not cytotoxic to all tumors cells, and that chemoresistance to ABT-737 is dependent on appreciable levels of Mcl-1 expression, the one Bcl-2 family member it does not effectively inhibit.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences discuss the Bcl-2 inhibitor ABT-737 and explain that its inability to inhibit Mcl-1 leads to resistance against its anti-tumor/apoptotic effects. While Sentence 1 includes additional details about ABT-737 derivatives in clinical phases and its targeting of specific other Bcl-2 family members, the core message about Mcl-1 mediating resistance to ABT-737 is identical.\",\n  \"output\": 3.6\n}",
+    "reasoning": "Both sentences discuss the Bcl-2 inhibitor ABT-737 and explain that its inability to inhibit Mcl-1 leads to resistance against its anti-tumor/apoptotic effects. While Sentence 1 includes additional details about ABT-737 derivatives in clinical phases and its targeting of specific other Bcl-2 family members, the core message about Mcl-1 mediating resistance to ABT-737 is identical.",
+    "predicted_sim": 3.6,
+    "gold_score": 3.0,
+    "abs_diff": 0.6000000000000001
+  },
+  {
+    "sentence1": "Previous studies demonstrated that the decrease level of 5 hmC in tumors was due to the reduced expression of TET1/2/3 and IDH2 genes or tumor derived IDH1 and IDH2 mutations.",
+    "sentence2": "In addition, genetic and functional studies suggest that neomorphic IDH mutations contribute to myeloid transformation, at least in part, by inhibiting TET enzymatic function.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences discuss the relationship between IDH mutations and TET enzymes in the context of cancer or malignant transformation. Sentence 1 focuses on the decrease of 5hmC levels caused by IDH mutations or reduced TET expression, while Sentence 2 explains that IDH mutations cause myeloid transformation by inhibiting TET enzymatic function. They are highly related in subject matter (part of the same biological mechanism) but emphasize different specific outcomes (5hmC levels vs. myeloid transformation), making them moderately similar.\",\n  \"output\": 2.2\n}",
+    "reasoning": "Both sentences discuss the relationship between IDH mutations and TET enzymes in the context of cancer or malignant transformation. Sentence 1 focuses on the decrease of 5hmC levels caused by IDH mutations or reduced TET expression, while Sentence 2 explains that IDH mutations cause myeloid transformation by inhibiting TET enzymatic function. They are highly related in subject matter (part of the same biological mechanism) but emphasize different specific outcomes (5hmC levels vs. myeloid transformation), making them moderately similar.",
+    "predicted_sim": 2.2,
+    "gold_score": 2.2,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "More recently, IDH mutations and resultant 2-hydroxyglutarate (2HG) production in leukemia cells were reported to induce global DNA hypermethylation through impaired TET2 catalytic function.",
+    "sentence2": "It has also been recently reported that mutations of the isocitrate dehydrogenase genes IDH1 and IDH2 can lead to the aberrant production of 2-hydroxyglutarate (2-HG), a metabolite that inhibits TET2 enzymatic activity, resulting in a hypermethylated promoter phenotype in acute myeloid leukemia (AML) tumors carrying IDH1/2 mutations.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the exact same biochemical pathway: mutations in IDH genes lead to the production of 2-hydroxyglutarate (2-HG), which in turn inhibits or impairs TET2 enzymatic/catalytic activity, resulting in DNA hypermethylation in leukemia cells. Sentence 2 provides slightly more specific details (naming IDH1/2 and acute myeloid leukemia), but the core semantic meaning is fundamentally equivalent.\",\n  \"output\": 3.8\n}",
+    "reasoning": "Both sentences describe the exact same biochemical pathway: mutations in IDH genes lead to the production of 2-hydroxyglutarate (2-HG), which in turn inhibits or impairs TET2 enzymatic/catalytic activity, resulting in DNA hypermethylation in leukemia cells. Sentence 2 provides slightly more specific details (naming IDH1/2 and acute myeloid leukemia), but the core semantic meaning is fundamentally equivalent.",
+    "predicted_sim": 3.8,
+    "gold_score": 3.2,
+    "abs_diff": 0.5999999999999996
+  },
+  {
+    "sentence1": "Recent in vitro studies using shRNA-based approaches have suggested a role for TET2 in regulating myeloid differentiation and in regulating stem/progenitor cell proliferation.",
+    "sentence2": "Two recent studies used RNAi-mediated Tet2 knock-down in vitro to suggest that TET2 depletion led to impaired hematopoietic differentiation and to preferential myeloid commitment.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe recent in vitro studies using RNA interference (shRNA or RNAi) to knock down TET2. They both conclude that this depletion affects hematopoietic/myeloid differentiation and cell commitment/proliferation. While the specific outcomes are phrased slightly differently, the core scientific context and findings are highly similar.\",\n  \"output\": 3.6\n}",
+    "reasoning": "Both sentences describe recent in vitro studies using RNA interference (shRNA or RNAi) to knock down TET2. They both conclude that this depletion affects hematopoietic/myeloid differentiation and cell commitment/proliferation. While the specific outcomes are phrased slightly differently, the core scientific context and findings are highly similar.",
+    "predicted_sim": 3.6,
+    "gold_score": 3.2,
+    "abs_diff": 0.3999999999999999
+  }
+]

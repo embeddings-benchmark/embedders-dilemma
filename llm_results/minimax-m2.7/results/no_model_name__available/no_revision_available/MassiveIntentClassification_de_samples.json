@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "sie m\u00fcssen den n\u00e4chsten montag vormerken",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is speaking German and requests to 'mark the next Monday' in their calendar. This is a request to add a calendar event/appointment. The phrase 'vormerken' directly relates to scheduling or setting a calendar entry. This matches the 'calendar_set' intent.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "spiele meine am meisten gespielten song liste",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is speaking German and says 'spiele meine am meisten gespielten song liste' which translates to 'play my most played song list'. The user wants to play a music playlist containing their most frequently played songs. This clearly maps to the 'play_music' intent.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "schalte den wecker um f\u00fcnfzehn uhr ab",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is speaking German. 'schalte den wecker um f\u00fcnfzehn uhr ab' translates to 'turn off the alarm at 3 PM'. The user wants to remove/disable an existing alarm set for 15:00 (3 PM). This clearly matches the 'alarm_remove' intent.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "l\u00f6sche wecker",
+        "model_raw_output": "{\n  \"reasoning\": \"The user said 'l\u00f6sche wecker' in German, which translates to 'delete alarm' or 'remove alarm'. This clearly maps to the alarm_remove intent, as the user wants to delete/remove an existing alarm.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "erinnere mich an mein termin am nachmittag",
+        "model_raw_output": "{\"reasoning\": \"The user is speaking German and says 'erinnere mich an mein Termin am nachmittag' which means 'remind me about my appointment in the afternoon.' This is a request to set a reminder for an afternoon appointment. The most fitting intent from the MASSIVE list is 'alarm_set' as it covers setting reminders/alerts for events like appointments.\", \"output\": \"alarm_set\"}",
+        "parsed_output": "alarm_set",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

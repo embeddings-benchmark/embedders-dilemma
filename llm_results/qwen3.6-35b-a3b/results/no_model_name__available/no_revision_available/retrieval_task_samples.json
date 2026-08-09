@@ -1,0 +1,66 @@
+[
+  {
+    "query_id": "00003",
+    "query_text": "How to manage household finances (income & expenses) [duplicate]",
+    "model_raw_output": "Final Answer: [3, 38, 120, 216, 352]",
+    "parsed_ids": [
+      "000000003",
+      "000000038",
+      "000000120",
+      "000000216",
+      "000000352"
+    ],
+    "gold_ids": [
+      "000000003"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "00012",
+    "query_text": "Moving a personal business to a LLC accounting in California",
+    "model_raw_output": "Final Answer: [193]",
+    "parsed_ids": [
+      "000000193"
+    ],
+    "gold_ids": [
+      "000000012"
+    ],
+    "is_correct": false
+  },
+  {
+    "query_id": "00013",
+    "query_text": "What is the preferred way to finance home improvements when preparing to sell your house?",
+    "model_raw_output": "Final Answer: [340]",
+    "parsed_ids": [
+      "000000340"
+    ],
+    "gold_ids": [
+      "000000013"
+    ],
+    "is_correct": false
+  },
+  {
+    "query_id": "00015",
+    "query_text": "Selling an app, sharing income, how does it work tax-wise?",
+    "model_raw_output": "Final Answer: [104]",
+    "parsed_ids": [
+      "000000104"
+    ],
+    "gold_ids": [
+      "000000015"
+    ],
+    "is_correct": false
+  },
+  {
+    "query_id": "00016",
+    "query_text": "Which is the better strategy for buying stocks monthly?",
+    "model_raw_output": "Final Answer: [146]",
+    "parsed_ids": [
+      "000000146"
+    ],
+    "gold_ids": [
+      "000000016"
+    ],
+    "is_correct": false
+  }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "le rose est tout ce dont nous avons besoin",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'le rose est tout ce dont nous avons besoin' translates to 'The rose is all we need.' This phrase could be a reference to the famous song 'La Vie en Rose,' which is associated with roses. The mention of 'rose' in a poetic or lyrical context aligns with the 'music' scenario, as it may indicate a request to play or interact with music related to this theme.\",\n  \"output\": \"music\"\n}",
+        "parsed_output": "music",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "je veux le statut sur la luminosit\u00e9 de mon \u00e9cran",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking about the status of their screen brightness, which relates to controlling or checking the settings of a device (in this case, the screen). This falls under the 'iot' (Internet of Things) scenario, which involves interaction with smart devices or device settings.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "quelle heure est-il en australie",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the current time in a specific location (Australia). This falls under the 'datetime' scenario, which involves queries related to time, dates, and time zones.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "annuler mon alarme de sept heures du matin",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting to cancel an alarm set for 7 a.m. The action directly involves modifying an alarm, which falls under managing alarms.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "quelles alarmes j'ai r\u00e9gl\u00e9es",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking about the alarms they have set, which directly relates to managing or checking existing alarms. The key term 'alarmes' (alarms) indicates this falls under the 'alarm' scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

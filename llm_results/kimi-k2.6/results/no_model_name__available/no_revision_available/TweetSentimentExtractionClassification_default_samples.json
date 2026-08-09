@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Last session of the day  http://twitpic.com/67ezh",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet is a factual statement about the timing of an event ('Last session of the day') and contains no explicit positive or negative emotional language. Without access to the content of the linked image, the text alone conveys a neutral sentiment.\",\n  \"output\": \"neutral\"\n}",
+        "parsed_output": "neutral",
+        "ground_truth": "neutral",
+        "is_correct": true
+    },
+    {
+        "input_text": "I THINK EVERYONE HATES ME ON HERE   lol",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet contains explicitly negative language ('EVERYONE HATES ME'), which on its own would suggest a negative sentiment. However, the trailing 'lol' and the hyperbolic, all-caps phrasing are strong indicators of self-deprecating humor or exaggerated social media banter rather than a genuine expression of distress. The laughter framing neutralizes the negative content, making the overall tone performative and emotionally flat rather than sincerely negative.\",\n  \"output\": \"neutral\"\n}",
+        "parsed_output": "neutral",
+        "ground_truth": "negative",
+        "is_correct": false
+    },
+    {
+        "input_text": " .. and you`re on twitter! Did the tavern bore you that much?",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet employs a sarcastic, rhetorical question ('Did the tavern bore you that much?') that mocks the recipient for being on Twitter rather than engaging at the tavern/social setting. The ellipsis at the beginning and the challenging tone imply mild criticism or judgmental teasing, which leans toward a negative sentiment.\",\n  \"output\": \"negative\"\n}",
+        "parsed_output": "negative",
+        "ground_truth": "neutral",
+        "is_correct": false
+    },
+    {
+        "input_text": " guess that depends on if you want to be on the jury",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet is a conditional statement that presents a matter-of-fact observation without expressing strong positive or negative emotion. It does not contain praise, criticism, excitement, or anger, making it largely neutral in sentiment.\",\n  \"output\": \"neutral\"\n}",
+        "parsed_output": "neutral",
+        "ground_truth": "neutral",
+        "is_correct": true
+    },
+    {
+        "input_text": "resorted to eating Mickey Ds ALONE.",
+        "model_raw_output": "{\n  \"reasoning\": \"The phrase 'resorted to' implies the person felt they had no better option and settled for an undesirable choice. The word 'ALONE' in all caps emphasizes solitude and likely loneliness. Together, these elements convey a sense of disappointment, lowliness, or social isolation, indicating a negative sentiment.\",\n  \"output\": \"negative\"\n}",
+        "parsed_output": "negative",
+        "ground_truth": "neutral",
+        "is_correct": false
+    }
+]

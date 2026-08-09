@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "in the us , it will depend on the school .",
+    "sentence2": "it really depends on the school and the program .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core idea that the outcome depends on the specific institution. The second sentence adds 'and the program,' which slightly expands the scope but maintains high semantic overlap.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences convey the same core idea that the outcome depends on the specific institution. The second sentence adds 'and the program,' which slightly expands the scope but maintains high semantic overlap.",
+    "predicted_sim": 4.2,
+    "gold_score": 3.0,
+    "abs_diff": 1.2000000000000002
+  },
+  {
+    "sentence1": "there 's also what the string is made of .",
+    "sentence2": "there is also a youtube-version of the film .",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences share only the introductory phrase 'there is also'. The content of the first sentence relates to materials, while the second relates to media formats. They are completely unrelated in topic.\",\n  \"output\": 0.2\n}",
+    "reasoning": "The two sentences share only the introductory phrase 'there is also'. The content of the first sentence relates to materials, while the second relates to media formats. They are completely unrelated in topic.",
+    "predicted_sim": 0.2,
+    "gold_score": 0.0,
+    "abs_diff": 0.2
+  },
+  {
+    "sentence1": "you also imply you may not be paid if they cannot place you with a client .",
+    "sentence2": "you can do it , but you might not be a professor .",
+    "model_raw_output": "{\"reasoning\": \"The two sentences share almost no common topic, subject matter, or context. The first sentence discusses compensation models in recruitment or staffing, while the second discusses career limitations or academic paths. There is no semantic overlap.\", \"output\": 0.0}",
+    "reasoning": "The two sentences share almost no common topic, subject matter, or context. The first sentence discusses compensation models in recruitment or staffing, while the second discusses career limitations or academic paths. There is no semantic overlap.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "you do not need to worry .",
+    "sentence2": "you don 't have to worry .",
+    "model_raw_output": "{\"reasoning\": \"Both sentences convey the exact same meaning and intent, with the only difference being the use of a contraction ('don't') versus the full form ('do not').\", \"output\": 5.0}",
+    "reasoning": "Both sentences convey the exact same meaning and intent, with the only difference being the use of a contraction ('don't') versus the full form ('do not').",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "you should do it .",
+    "sentence2": "you should do what it says .",
+    "model_raw_output": "{\"reasoning\": \"The sentences share the core imperative structure 'you should do', but the first sentence refers to an object 'it' without context, whereas the second specifies the object as 'what it says', adding a layer of instruction or source that is not explicitly present in the first. They are related but not identical in meaning.\", \"output\": 3.2}",
+    "reasoning": "The sentences share the core imperative structure 'you should do', but the first sentence refers to an object 'it' without context, whereas the second specifies the object as 'what it says', adding a layer of instruction or source that is not explicitly present in the first. They are related but not identical in meaning.",
+    "predicted_sim": 3.2,
+    "gold_score": 3.0,
+    "abs_diff": 0.20000000000000018
+  }
+]

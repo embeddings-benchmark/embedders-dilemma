@@ -1,0 +1,31 @@
+{
+    "task": "ArxivClusteringS2S",
+    "model_raw_output_preview": "We have a task: cluster arXiv paper titles by research area, assigning each document to exactly one of 11 clusters (0-10). We have 200 documents (Doc 0-199). The aim is to assign them to clusters such that same topic are in same cluster. So we need to produce a mapping from each doc to a cluster ID.\n\nWe have 11 clusters, but we don't have definitions of clusters. We need to infer likely topics: The papers range over many fields: physics (condensed matter, high energy, quantum, astrophysics, cosmology), mathematics (algebra, geometry, analysis, topology, graph theory, number theory), computer science (machine learning, deep reinforcement learning, computer vision, NLP, algorithms, data mining). So we have to cluster them accordingly.\n\nWe need to decide which cluster assignments are best. The problem likely expects us to infer 11 topics among these papers and assign cluster IDs accordingly.\n\nWe need to produce a minified JSON object with assignments: a list of 200 integers between 0 and 10 inclusive.\n\nWe need to decide the clustering scheme: We can define 11 clusters based on research area: maybe categories like:\n\n0: Machine Learning / AI / Data Science / Computer Vision\n1: Condensed Matter Physics (experimental & theory)\n2: High Energy Physics / Particle Physics / QCD / SUSY\n3: Astrophysics / Cosmology\n4: Mathematics: Algebra / Number Theory / Geometry / Topology\n5: Quantum Information / Quantum Computing\n6: Statistical Physics / Phase Transitions / Nonlinear Dynamics\n7: Nuclear Physics / Heavy Ion Collisions\n8: Applied Mathematics / Numerical Methods / Algorithms\n9: Miscellaneous: Electronics, Optics, etc.\n10: Interdisciplinary / Miscellaneous\n\nBut we need exactly 11 clusters. We need to assign each document to a cluster. Let's define categories:\n\nWe must examine each title.\n\nList of titles:\n\n0: Pattern formation in a two-dimensional two-species diffusion model with anisotropic nonlinear diffusivities: a lattice approach\n- likely statistical physics / computational physics, maybe cluster 6 (Statistical physics, phase transitions).\n\n1: Lax operator algebras and gradings on semi-simple Lie algebras\n- mathematics: algebra, representation theory, cluster 4.\n\n2: CityFlow: A Multi-Agent Reinforcement Learning Environment for Large Scale City Traffic Scenario\n- AI/RL, cluster 0.\n\n3: Magnetic properties of Gd_{1-x}Pr_xBa_2Cu_3O_{7-y} single crystals\n- condensed matter magnetism, cluster 1.\n\n4: Class-specific image denoising using importance sampling\n- computer vision, machine learning, cluster 0.\n\n5: Influence of aperiodic modulations on first-order transitions: numerical study of the two-dimensional Potts model\n- statistical physics, cluster 6.\n\n6: NeuralExplorer: State Space Exploration of Closed Loop Control Systems Using Neural Networks\n- AI/control, cluster 0.\n\n7: Lopsided Galaxies, Weak Interactions and Boosting the Star Formation Rate\n- astrophysics/galaxies, cluster 3.\n\n8: Gravitational anomalies, entanglement entropy, and flat-space holography\n- high energy theoretical physics, gravitational anomalies/holography, cluster 2 maybe (or also theoretical physics). Let's assign cluster 2.\n\n9: The mechanism of RNA base fraying: molecular dynamics simulations analyzed with core-set Markov state models\n- computational biology / biophysics, cluster maybe 6? or 1? Could be cluster 6 (statistical physics applied to biomolecules) or cluster 1 (condensed matter). But we can assign to 6.\n\n10: Performance Analysis based on Density Evolution on Fault Erasure Belief Propagation Decoder\n- coding theory / communications, could be cluster 8 (algorithms). Or cluster 0? Let's assign cluster 8.\n\n11: C*-algebras associated with algebraic correspondences on the Riemann sphere\n- mathematics (functional analysis), cluster 4.\n\n12: Transverse-momentum resummation for the signal-background interference in the H->\u03b3\u03b3 channel at the LHC\n- high-energy physics (LHC, QCD), cluster 2.\n\n13: Resolving the p^+ = 0 Ambiguity in a Homogeneous Electric Background\n- maybe quantum physics, ambiguous. Might be high energy theoretical, cluster 2.\n\n14: The equivariant simplicial de Rham complex and the classifying space of a semi-direct product group\n- mathematics: algebraic topology, cluster 4.\n\n15: A UV-to-NIR Study of Molecular Gas in the Dust Cavity Around RY Lupi\n- astrophysics (circumstellar disks), cluster 3.\n\n16: Products of open manifolds with R\n- mathematics: topology/manifolds, cluster 4.\n\n17: Spin- and orbital-Hall effect in cyclic group symmetric metasurface\n- condensed matter physics (spintronics), cluster 1.\n\n18: Like-for-like bibliometric substitutes for peer review: advantages and limits of indicators calculated from the ep index\n- bibliometrics, perhaps cluster 0? Could be social sciences. Might assign cluster 0.\n\n19: A short proof of the equivalence of any Reidemeister oriented move 3\n- mathematics: knot theory, cluster 4.\n\n20: Markov evolutions and hierarchical equations in the continuum: II. Multicomponent systems\n- mathematical phys",
+    "samples": [
+        {
+            "input_text": "Pattern formation in a two-dimensional two-species diffusion model with\n  anisotropic nonlinear diffusivities: a lattice approach",
+            "predicted_cluster": 6,
+            "gold_cluster": "stat"
+        },
+        {
+            "input_text": "Lax operator algebras and gradings on semi-simple Lie algebras",
+            "predicted_cluster": 4,
+            "gold_cluster": "math"
+        },
+        {
+            "input_text": "CityFlow: A Multi-Agent Reinforcement Learning Environment for Large\n  Scale City Traffic Scenario",
+            "predicted_cluster": 0,
+            "gold_cluster": "cs"
+        },
+        {
+            "input_text": "Magnetic properties of Gd_{1-x}Pr_xBa_2Cu_3O_{7-y} single crystals",
+            "predicted_cluster": 1,
+            "gold_cluster": "cond-mat"
+        },
+        {
+            "input_text": "Class-specific image denoising using importance sampling",
+            "predicted_cluster": 0,
+            "gold_cluster": "cs"
+        }
+    ]
+}

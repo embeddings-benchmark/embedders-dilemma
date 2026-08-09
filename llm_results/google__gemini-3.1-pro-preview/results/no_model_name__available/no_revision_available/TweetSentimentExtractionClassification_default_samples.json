@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Last session of the day  http://twitpic.com/67ezh",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet is a simple factual statement about attending the last session of the day, accompanied by a picture link. It lacks any emotional language, opinion, or clear sentiment indicators.\",\n  \"output\": \"neutral\"\n}",
+        "parsed_output": "neutral",
+        "ground_truth": "neutral",
+        "is_correct": true
+    },
+    {
+        "input_text": "I THINK EVERYONE HATES ME ON HERE   lol",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet expresses feelings of alienation and being disliked ('EVERYONE HATES ME'), which inherently conveys negative emotions. While 'lol' is used to add a self-deprecating or humorous tone to downplay the severity, the core sentiment remains negative.\",\n  \"output\": \"negative\"\n}",
+        "parsed_output": "negative",
+        "ground_truth": "negative",
+        "is_correct": true
+    },
+    {
+        "input_text": " .. and you`re on twitter! Did the tavern bore you that much?",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet is a playful, conversational question directed at someone using Twitter instead of enjoying a tavern. While it includes the word 'bore', it is used as part of friendly banter rather than expressing genuine negativity or sadness. The overall emotional tone lacks strong positive or negative sentiment, making it neutral.\",\n  \"output\": \"neutral\"\n}",
+        "parsed_output": "neutral",
+        "ground_truth": "neutral",
+        "is_correct": true
+    },
+    {
+        "input_text": " guess that depends on if you want to be on the jury",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet is a simple conditional statement about someone's desire to serve on a jury. It lacks any emotionally charged words, opinions, or clear positive or negative undertones, making the overall sentiment neutral.\",\n  \"output\": \"neutral\"\n}",
+        "parsed_output": "neutral",
+        "ground_truth": "neutral",
+        "is_correct": true
+    },
+    {
+        "input_text": "resorted to eating Mickey Ds ALONE.",
+        "model_raw_output": "{\n  \"reasoning\": \"The use of the phrase 'resorted to' indicates reluctance and suggests the action was a last, undesirable option. Additionally, capitalizing 'ALONE' emphasizes feelings of isolation or sadness. Together, these elements convey a negative sentiment.\",\n  \"output\": \"negative\"\n}",
+        "parsed_output": "negative",
+        "ground_truth": "neutral",
+        "is_correct": false
+    }
+]

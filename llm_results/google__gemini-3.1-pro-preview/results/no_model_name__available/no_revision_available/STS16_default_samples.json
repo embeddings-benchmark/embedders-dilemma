@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "in the us , it will depend on the school .",
+    "sentence2": "it really depends on the school and the program .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences express the idea that a certain outcome or situation varies depending on the educational institution. However, Sentence 1 specifies the geographic context ('in the us'), while Sentence 2 adds another factor to the dependency ('and the program'). Because they share the core meaning but diverge on specific details, they are highly similar but not completely equivalent.\",\n  \"output\": 3.6\n}",
+    "reasoning": "Both sentences express the idea that a certain outcome or situation varies depending on the educational institution. However, Sentence 1 specifies the geographic context ('in the us'), while Sentence 2 adds another factor to the dependency ('and the program'). Because they share the core meaning but diverge on specific details, they are highly similar but not completely equivalent.",
+    "predicted_sim": 3.6,
+    "gold_score": 3.0,
+    "abs_diff": 0.6000000000000001
+  },
+  {
+    "sentence1": "there 's also what the string is made of .",
+    "sentence2": "there is also a youtube-version of the film .",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences share some common structure and functional words ('there is also'), but their semantic meanings and topics are completely unrelated. Sentence 1 is about the material a string is made of, while Sentence 2 is about a YouTube version of a film.\",\n  \"output\": 0.2\n}",
+    "reasoning": "The two sentences share some common structure and functional words ('there is also'), but their semantic meanings and topics are completely unrelated. Sentence 1 is about the material a string is made of, while Sentence 2 is about a YouTube version of a film.",
+    "predicted_sim": 0.2,
+    "gold_score": 0.0,
+    "abs_diff": 0.2
+  },
+  {
+    "sentence1": "you also imply you may not be paid if they cannot place you with a client .",
+    "sentence2": "you can do it , but you might not be a professor .",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences discuss entirely different situations. Sentence 1 is about the possibility of not getting paid due to a lack of client placement, typically in a contracting context. Sentence 2 is about the ability to do something despite potentially not becoming a professor. There is no semantic overlap.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The two sentences discuss entirely different situations. Sentence 1 is about the possibility of not getting paid due to a lack of client placement, typically in a contracting context. Sentence 2 is about the ability to do something despite potentially not becoming a professor. There is no semantic overlap.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "you do not need to worry .",
+    "sentence2": "you don 't have to worry .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey exactly the same meaning. 'Do not need to' and 'don't have to' are synonymous phrases in this context, expressing the absence of necessity or obligation to worry.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey exactly the same meaning. 'Do not need to' and 'don't have to' are synonymous phrases in this context, expressing the absence of necessity or obligation to worry.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "you should do it .",
+    "sentence2": "you should do what it says .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences provide advice or an imperative to perform an action ('you should do'). However, they differ significantly in the object of that action. In Sentence 1, 'it' refers directly to the action to be performed. In Sentence 2, 'it' refers to a source of information or instructions, and the action is to follow those instructions. While related in tone and general topic, their precise meanings are distinct.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences provide advice or an imperative to perform an action ('you should do'). However, they differ significantly in the object of that action. In Sentence 1, 'it' refers directly to the action to be performed. In Sentence 2, 'it' refers to a source of information or instructions, and the action is to follow those instructions. While related in tone and general topic, their precise meanings are distinct.",
+    "predicted_sim": 2.5,
+    "gold_score": 3.0,
+    "abs_diff": 0.5
+  }
+]

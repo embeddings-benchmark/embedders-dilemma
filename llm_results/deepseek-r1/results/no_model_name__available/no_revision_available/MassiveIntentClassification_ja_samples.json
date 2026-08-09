@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "\u6b21\u306e\u6708\u66dc\u306b\u5370\u3092\u3064\u3051\u308b",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to mark the next Monday, which implies setting a reminder or event on a specific date. This aligns with the 'calendar_set' intent, which involves scheduling events on a calendar.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u79c1\u304c\u6700\u3082\u518d\u751f\u3057\u305f\u66f2\u30ea\u30b9\u30c8\u3092\u518d\u751f\u3057\u3066\u304f\u3060\u3055\u3044",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting to play a list of their most played songs. The key action here is 'play' and the target is 'most played songs list,' which falls under playing music. Among the intents, 'play_music' directly addresses the action of initiating music playback, even if it involves a specific playlist based on user history.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u5348\u5f8c\u4e09\u6642\u306e\u30a2\u30e9\u30fc\u30e0\u3092\u7121\u52b9\u306b\u3059\u308b",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's utterance translates to 'Disable the 3 PM alarm.' The action involves removing an existing alarm, which aligns with the 'alarm_remove' intent in the MASSIVE list.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u30a2\u30e9\u30fc\u30e0\u3092\u30ad\u30e3\u30f3\u30bb\u30eb",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's input '\u30a2\u30e9\u30fc\u30e0\u3092\u30ad\u30e3\u30f3\u30bb\u30eb' translates to 'Cancel the alarm' in English, which directly corresponds to the intent of removing an existing alarm. The appropriate intent from the list is 'alarm_remove' as it involves deleting or stopping a set alarm.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u5348\u5f8c\u306e\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u3092\u30ea\u30de\u30a4\u30f3\u30c9\u3057\u3066",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to be reminded of their afternoon schedule, which involves checking their calendar for upcoming events. The appropriate intent here is 'calendar_query' as it pertains to querying calendar entries.\",\n  \"output\": \"calendar_query\"\n}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

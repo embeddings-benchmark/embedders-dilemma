@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "in the us , it will depend on the school .",
+    "sentence2": "it really depends on the school and the program .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the core meaning that something depends on the school, but Sentence 2 adds specificity by including 'the program' and the intensifier 'really'. The first sentence also specifies a location ('in the us'), which is absent in Sentence 2. The overlap is strong but not identical, resulting in a high similarity score with a slight deduction for the differences in detail and emphasis.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences share the core meaning that something depends on the school, but Sentence 2 adds specificity by including 'the program' and the intensifier 'really'. The first sentence also specifies a location ('in the us'), which is absent in Sentence 2. The overlap is strong but not identical, resulting in a high similarity score with a slight deduction for the differences in detail and emphasis.",
+    "predicted_sim": 4.5,
+    "gold_score": 3.0,
+    "abs_diff": 1.5
+  },
+  {
+    "sentence1": "there 's also what the string is made of .",
+    "sentence2": "there is also a youtube-version of the film .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the introductory phrase 'there is also', but the subjects are completely different: one discusses the material composition of a string, while the other mentions a YouTube version of a film. The meaning is unrelated except for the structural similarity. Therefore, the semantic similarity is very low.\",\n  \"output\": 0.8\n}",
+    "reasoning": "Both sentences share the introductory phrase 'there is also', but the subjects are completely different: one discusses the material composition of a string, while the other mentions a YouTube version of a film. The meaning is unrelated except for the structural similarity. Therefore, the semantic similarity is very low.",
+    "predicted_sim": 0.8,
+    "gold_score": 0.0,
+    "abs_diff": 0.8
+  },
+  {
+    "sentence1": "you also imply you may not be paid if they cannot place you with a client .",
+    "sentence2": "you can do it , but you might not be a professor .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences discuss a possibility of not achieving a certain outcome (not being paid vs. not being a professor), but the contexts are completely different: one is about employment placement and pay, the other about academic career progression. The shared structure ('you ... may not be ...') is superficial, with no semantic overlap in subject matter.\",\n  \"output\": 0. underlying disparity\n}",
+    "reasoning": "",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "you do not need to worry .",
+    "sentence2": "you don 't have to worry .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core meaning: there is no reason for the listener to be worried. The phrases 'do not need to' and 'don't have to' are semantically equivalent in this context, expressing absence of necessity or obligation. The only differences are minor syntactic variations (contraction in 'don't' vs. 'do not', and 'need' vs. 'have to'), which do not alter the overall meaning. Therefore, the sentences are virtually identical in meaning.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey the same core meaning: there is no reason for the listener to be worried. The phrases 'do not need to' and 'don't have to' are semantically equivalent in this context, expressing absence of necessity or obligation. The only differences are minor syntactic variations (contraction in 'don't' vs. 'do not', and 'need' vs. 'have to'), which do not alter the overall meaning. Therefore, the sentences are virtually identical in meaning.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "you should do it .",
+    "sentence2": "you should do what it says .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the core structure 'you should do', but Sentence 2 adds 'what it says', specifying the action more concretely. Sentence 1 leaves the action implied or general, while Sentence 2 refers to following instructions. The meaning overlaps significantly but is not identical; the difference narrows the similarity to a high degree.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences share the core structure 'you should do', but Sentence 2 adds 'what it says', specifying the action more concretely. Sentence 1 leaves the action implied or general, while Sentence 2 refers to following instructions. The meaning overlaps significantly but is not identical; the difference narrows the similarity to a high degree.",
+    "predicted_sim": 4.2,
+    "gold_score": 3.0,
+    "abs_diff": 1.2000000000000002
+  }
+]

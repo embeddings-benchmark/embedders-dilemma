@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "le rose est tout ce dont nous avons besoin",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is making a poetic or philosophical statement that does not map to any specific functional intent or action-oriented scenario, thus it falls under general conversation.\",\n  \"output\": \"general\"\n}",
+        "parsed_output": "general",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "je veux le statut sur la luminosit\u00e9 de mon \u00e9cran",
+        "model_raw_output": "{\"reasoning\": \"The user is asking about the status of a device setting (screen brightness), which falls under Internet of Things control.\", \"output\": \"iot\"}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "quelle heure est-il en australie",
+        "model_raw_output": "{\"reasoning\": \"The user is asking for the current time in a specific location (Australia), which falls under the datetime category.\", \"output\": \"datetime\"}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "annuler mon alarme de sept heures du matin",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to cancel a previously set alarm, which directly corresponds to the alarm management scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "quelles alarmes j'ai r\u00e9gl\u00e9es",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to view their currently set alarms.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

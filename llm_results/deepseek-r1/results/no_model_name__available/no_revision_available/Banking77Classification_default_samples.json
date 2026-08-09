@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "How do I locate my card?",
+        "model_raw_output": "{\"reasoning\": \"The user is asking how to locate their card, which implies they are trying to track its delivery status or confirm when it will arrive. The most relevant category is 'card_arrival', which deals with inquiries about the receipt or status of a card's delivery.\", \"output\": \"card_arrival\"}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "I still have not received my new card, I ordered over a week ago.",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is reporting that they have not received their new card after ordering it more than a week ago. This directly relates to the timing and receipt of a physical card, which falls under the 'card_arrival' category. Other categories like 'card_delivery_estimate' focus on delivery timelines, while 'order_physical_card' pertains to the ordering process itself, not the non-receipt.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "I ordered a card but it has not arrived. Help please!",
+        "model_raw_output": "{\n  \"reasoning\": \"The user mentions that they ordered a card but it has not arrived. The category 'card_arrival' directly addresses issues related to the non-receipt of a card after ordering it, making it the most appropriate intent.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "Is there a way to know when my card will arrive?",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking about knowing when their card will arrive. The relevant category here is 'card_arrival', which directly addresses inquiries related to the arrival status of a card.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "My card has not arrived yet.",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is stating that their card has not arrived yet. The relevant category here is 'card_arrival', which deals with issues related to the non-receipt or delays in receiving a physical or virtual card.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    }
+]

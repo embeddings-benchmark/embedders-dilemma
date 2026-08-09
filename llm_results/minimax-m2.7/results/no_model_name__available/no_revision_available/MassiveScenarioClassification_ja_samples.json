@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "\u30d4\u30f3\u30af\u304c\u3044\u3044",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is making a simple statement in Japanese '\u30d4\u30f3\u30af\u304c\u3044\u3044' meaning 'Pink is good' or 'I like pink.' This is a general opinion/preference statement without any specific request or actionable intent. There's no command related to alarms, music, calendar, email, weather, or any other system functionality. It's a casual conversational statement expressing a color preference.\",\n  \"output\": \"general\"\n}",
+        "parsed_output": "general",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "\u50d5\u306e\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u660e\u308b\u3055\u3092\u8868\u793a\u3057\u305f\u307e\u3048",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the current screen brightness value, which is a system status query about their device. This does not fall under any specific domain like alarm, music, weather, etc., and is not a pure factual knowledge question, so it fits the catch\u2011all 'general' scenario.\",\n  \"output\": \"general\"\n}",
+        "parsed_output": "general",
+        "ground_truth": "general",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2\u306e\u6642\u9593\u306f",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking '\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2\u306e\u6642\u9593' which means 'What time is it in Australia?'. This is a direct question about the current time in a specific location, which falls under the datetime scenario.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u5348\u524d\u4e03\u6642\u306e\u30a2\u30e9\u30fc\u30e0\u3092\u30ad\u30e3\u30f3\u30bb\u30eb",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting to cancel an alarm that was set for 7 AM. This is clearly a request to modify/delete an existing alarm setting, which falls under the 'alarm' scenario category.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u3069\u3093\u306a\u30a2\u30e9\u30fc\u30e0\u3092\u8a2d\u5b9a\u3057\u305f\u304b",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking about what alarms have been set. This is a direct query about alarm settings/status, which falls under the 'alarm' scenario. The Japanese phrase '\u3069\u3093\u306a\u30a2\u30e9\u30fc\u30e0\u3092\u8a2d\u5b9a\u3057\u305f\u304b' specifically asks about the type or details of alarms that are configured.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

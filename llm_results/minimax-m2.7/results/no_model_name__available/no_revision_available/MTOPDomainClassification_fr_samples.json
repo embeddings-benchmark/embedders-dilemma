@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "R\u00e9pondez par SMS \u00e0 la discussion sur la f\u00eate du futur mari\u00e9",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance explicitly mentions sending an SMS ('R\u00e9pondez par SMS') to a group chat discussion ('\u00e0 la discussion') about a bachelor party ('f\u00eate du futur mari\u00e9'). The primary action is composing and sending a text message, which falls under the messaging domain.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "Je voudrais que tu, je voudrais envoyer un message vid\u00e9o \u00e0 Len sur Messagerie",
+        "model_raw_output": "{\n  \"reasoning\": \"The user explicitly states they want to send a video message ('envoyer un message vid\u00e9o') to a contact named 'Len' using 'Messagerie' (Messaging). This directly involves composing and sending a message through a messaging platform, which falls under the messaging domain.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "J\u2019aimerais faire un appel vid\u00e9o avec Kennedy Gardner et Alejandro Potts sur WhatsApp",
+        "model_raw_output": "{\n  \"reasoning\": \"The user expresses the desire to make a video call with specific contacts (Kennedy Gardner and Alejandro Potts) using WhatsApp. The core intent is about initiating a call, specifically a video call. While the platform (WhatsApp) is specified, the fundamental action being requested is a 'calling' action. This falls under the 'calling' domain as it involves telecommunications with specific contacts.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "appelle avec Sustainability",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'appelle avec Sustainability' is French for 'call with Sustainability'. The keyword 'appelle' (call) indicates an intent to make a phone call to a contact or entity named 'Sustainability'. This is a calling task.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Veuillez mettre l'appel en plein \u00e9cran",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance mentions 'appel' (call) and requests to change its display mode to fullscreen. This is a request to control the interface of a calling application, which falls under the 'calling' intent domain.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    }
+]

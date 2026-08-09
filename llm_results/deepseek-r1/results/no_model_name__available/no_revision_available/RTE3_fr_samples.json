@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Les 16 membres de l'OTAN et les 14 pays qui formaient le Pacte de Varsovie rival ont convenu qu'il y aurait beaucoup moins d'\u00e9quipements autoris\u00e9s dans la zone d'application en Europe que dans le trait\u00e9 initial.",
+    "sentence2": "L'OTAN compte 16 membres.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 explicitly states 'Les 16 membres de l'OTAN' (The 16 members of NATO), which directly supports the hypothesis in Sentence 2 ('L'OTAN compte 16 membres' / NATO has 16 members). The rest of Sentence 1 discusses unrelated details about the Warsaw Pact and equipment limits, but the specific numerical claim about NATO membership is clearly and explicitly stated. Therefore, the hypothesis is entailed by the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 explicitly states 'Les 16 membres de l'OTAN' (The 16 members of NATO), which directly supports the hypothesis in Sentence 2 ('L'OTAN compte 16 membres' / NATO has 16 members). The rest of Sentence 1 discusses unrelated details about the Warsaw Pact and equipment limits, but the specific numerical claim about NATO membership is clearly and explicitly stated. Therefore, the hypothesis is entailed by the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Le pr\u00e9sident de la R\u00e9publique italienne, Giorgio Napolitano, a demand\u00e9 aujourd'hui \u00e0 Romano Prodi de rester au poste de Premier ministre, mais Prodi devra passer un vote de confiance le plus rapidement possible.",
+    "sentence2": "Romano Prodi est le Premier ministre italien.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that Romano Prodi was asked to 'rester' (remain/stay) as Prime Minister, implying he currently holds the position. The requirement for a confidence vote does not negate his current role but confirms it is subject to parliamentary approval. Thus, Sentence 2 ('Romano Prodi is the Italian Prime Minister') is directly supported by the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that Romano Prodi was asked to 'rester' (remain/stay) as Prime Minister, implying he currently holds the position. The requirement for a confidence vote does not negate his current role but confirms it is subject to parliamentary approval. Thus, Sentence 2 ('Romano Prodi is the Italian Prime Minister') is directly supported by the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Le secr\u00e9taire g\u00e9n\u00e9ral de l'OTAN, Willy Claes, a d\u00e9clar\u00e9 aujourd'hui qu'il envisageait de d\u00e9missionner, apr\u00e8s qu'une commission parlementaire belge a d\u00e9cid\u00e9 ce matin de recommander \u00e0 la plus haute juridiction du pays de l'inculper dans le cadre d'un scandale de corruption dans le domaine de l'armement qui s'\u00e9largit.",
+    "sentence2": "Le secr\u00e9taire g\u00e9n\u00e9ral de l'OTAN Willy Claes a d\u00e9missionn\u00e9.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that Willy Claes is *considering* resigning (\\\"envisageait de d\u00e9missionner\\\") after a parliamentary committee recommended legal action. Sentence 2 asserts that he *did resign* (\\\"a d\u00e9missionn\u00e9\\\"). Since considering resignation does not logically guarantee the action itself (he might change his mind or face alternative outcomes), the hypothesis (Sentence 2) is not strictly entailed by the premise (Sentence 1).\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 states that Willy Claes is *considering* resigning (\"envisageait de d\u00e9missionner\") after a parliamentary committee recommended legal action. Sentence 2 asserts that he *did resign* (\"a d\u00e9missionn\u00e9\"). Since considering resignation does not logically guarantee the action itself (he might change his mind or face alternative outcomes), the hypothesis (Sentence 2) is not strictly entailed by the premise (Sentence 1).",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Alvaro Uribe est le pr\u00e9sident de l'Espagne, un personnage int\u00e9ressant, qui, soit dit en passant, a vu son propre p\u00e8re abattu par une milice rebelle.",
+    "sentence2": "Felipe Gonz\u00e1lez est le pr\u00e9sident de l'Espagne.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that Alvaro Uribe is the president of Spain. Sentence 2 claims Felipe Gonz\u00e1lez is the president of Spain. Since the presidency can only be held by one person at a time, these two statements contradict each other. Therefore, the premise (Sentence 1) does not semantically entail the hypothesis (Sentence 2).\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 states that Alvaro Uribe is the president of Spain. Sentence 2 claims Felipe Gonz\u00e1lez is the president of Spain. Since the presidency can only be held by one person at a time, these two statements contradict each other. Therefore, the premise (Sentence 1) does not semantically entail the hypothesis (Sentence 2).",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "\"Il n'y aura qu'un seul ouragan Andrew\", a-t-il d\u00e9clar\u00e9, faisant r\u00e9f\u00e9rence \u00e0 la temp\u00eate tropicale de cat\u00e9gorie 5 qui a frapp\u00e9 le sud de la Floride en 1992, causant 26,5 milliards de dollars de d\u00e9g\u00e2ts et tuant 26 personnes aux \u00c9tats-Unis et aux Bahamas.",
+    "sentence2": "Les temp\u00eates tropicales causent de graves dommages.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 describes a specific instance of Hurricane Andrew, a Category 5 tropical storm that caused significant damage and fatalities. Sentence 2 makes a general claim that tropical storms cause serious damage. While Hurricane Andrew exemplifies this, the premise (a single case) does not universally prove the hypothesis (a general rule). Existential examples (specific instances) do not entail universal statements (all instances). Thus, the hypothesis is not logically necessitated by the premise.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 describes a specific instance of Hurricane Andrew, a Category 5 tropical storm that caused significant damage and fatalities. Sentence 2 makes a general claim that tropical storms cause serious damage. While Hurricane Andrew exemplifies this, the premise (a single case) does not universally prove the hypothesis (a general rule). Existential examples (specific instances) do not entail universal statements (all instances). Thus, the hypothesis is not logically necessitated by the premise.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  }
+]

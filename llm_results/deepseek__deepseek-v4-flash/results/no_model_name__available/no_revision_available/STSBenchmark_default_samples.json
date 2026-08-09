@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Two men are dancing together.",
+    "sentence2": "A woman opens a closet.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 describes two men engaging in a dance, which is a collaborative physical activity. Sentence 2 describes a woman performing a different action involving a closet. There is no overlap in subjects (men vs. woman), actions (dancing vs. opening), or objects (nothing vs. closet). The contexts are completely different, so they are semantically unrelated.\",\n  \"output\": 0.0\n}",
+    "reasoning": "Sentence 1 describes two men engaging in a dance, which is a collaborative physical activity. Sentence 2 describes a woman performing a different action involving a closet. There is no overlap in subjects (men vs. woman), actions (dancing vs. opening), or objects (nothing vs. closet). The contexts are completely different, so they are semantically unrelated.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "It depends on what you want to do next, and where you want to do it.",
+    "sentence2": "It depends on what you want to achieve.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences start with 'It depends on what you want' but diverge in the specifics: the first adds 'to do next, and where you want to do it' (actions and location), while the second uses 'to achieve' (a broader goal). They share the core idea of dependence on personal desires but differ in focus, making them moderately similar.\",\n  \"output\": 3.0\n}",
+    "reasoning": "Both sentences start with 'It depends on what you want' but diverge in the specifics: the first adds 'to do next, and where you want to do it' (actions and location), while the second uses 'to achieve' (a broader goal). They share the core idea of dependence on personal desires but differ in focus, making them moderately similar.",
+    "predicted_sim": 3.0,
+    "gold_score": 3.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "You may have to experiment and find what you like.",
+    "sentence2": "You have to find out what works for you.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the idea of discovering what is suitable or preferable for oneself through some process. Sentence 1 explicitly mentions experimentation, while sentence 2 implies a process of discovering what works. The core meaning is highly similar: both advise finding a personal preference or effective method. Minor difference in explicit mention of experimentation slightly reduces the score from a perfect 5.0.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences convey the idea of discovering what is suitable or preferable for oneself through some process. Sentence 1 explicitly mentions experimentation, while sentence 2 implies a process of discovering what works. The core meaning is highly similar: both advise finding a personal preference or effective method. Minor difference in explicit mention of experimentation slightly reduces the score from a perfect 5.0.",
+    "predicted_sim": 4.5,
+    "gold_score": 5.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "Some 95 million Americans -- half of all households -- invest in mutual funds.",
+    "sentence2": "About half of all U.S. households have money in mutual funds.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey that approximately half of U.S. households have money invested in mutual funds. Sentence 1 specifies '95 million Americans' as a numerical approximation of this half, while Sentence 2 uses 'about half of all U.S. households.' The difference in phrasing ('invest' vs. 'have money') is negligible in context. The core meaning is nearly identical, with only minor variations in wording and specificity. Therefore, the semantic similarity is very high, close to identical.\",\n  \"output\": 4.9\n}",
+    "reasoning": "Both sentences convey that approximately half of U.S. households have money invested in mutual funds. Sentence 1 specifies '95 million Americans' as a numerical approximation of this half, while Sentence 2 uses 'about half of all U.S. households.' The difference in phrasing ('invest' vs. 'have money') is negligible in context. The core meaning is nearly identical, with only minor variations in wording and specificity. Therefore, the semantic similarity is very high, close to identical.",
+    "predicted_sim": 4.9,
+    "gold_score": 4.2,
+    "abs_diff": 0.7000000000000002
+  },
+  {
+    "sentence1": "Someone is slicing a onion.",
+    "sentence2": "Someone is carrying a fish.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person performing an action on an object, but the actions ('slicing' vs 'carrying') and the objects ('onion' vs 'fish') are completely different with no semantic overlap. There is no shared context or implied similarity beyond the generic structure. Therefore, the semantic similarity is very low.\",\n  \"output\": 0.3\n}",
+    "reasoning": "Both sentences describe a person performing an action on an object, but the actions ('slicing' vs 'carrying') and the objects ('onion' vs 'fish') are completely different with no semantic overlap. There is no shared context or implied similarity beyond the generic structure. Therefore, the semantic similarity is very low.",
+    "predicted_sim": 0.3,
+    "gold_score": 0.75,
+    "abs_diff": 0.45
+  }
+]

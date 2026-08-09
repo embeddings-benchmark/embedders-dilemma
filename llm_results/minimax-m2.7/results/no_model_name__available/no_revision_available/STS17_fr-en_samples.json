@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Une personne fait partie d'une \u00e9quipe de baseball.",
+    "sentence2": "A person is playing basketball on a team.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person being associated with a sports team and share the general topic of team sports. However, they differ in the specific sport (baseball vs basketball), the type of involvement (being part of a team vs playing on a team), and the verb tense/aspect. While they share thematic overlap (person + team + sports context), the core semantic elements differ enough to warrant a moderate similarity score.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences describe a person being associated with a sports team and share the general topic of team sports. However, they differ in the specific sport (baseball vs basketball), the type of involvement (being part of a team vs playing on a team), and the verb tense/aspect. While they share thematic overlap (person + team + sports context), the core semantic elements differ enough to warrant a moderate similarity score.",
+    "predicted_sim": 2.5,
+    "gold_score": 2.4,
+    "abs_diff": 0.10000000000000009
+  },
+  {
+    "sentence1": "Nos v\u00e9hicules actuels seront dans les mus\u00e9es lorsque chacun aura son propre avion.",
+    "sentence2": "The car needs to some work",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 (French) discusses a futuristic scenario where current vehicles will become museum pieces once everyone has personal airplanes. Sentence 2 (English) is a simple statement about a car needing repairs. These sentences are completely unrelated in topic, context, and meaning - one is a speculative comment about transportation evolution while the other is about vehicle maintenance. They share no semantic similarity.\",\n  \"output\": 0.0\n}",
+    "reasoning": "Sentence 1 (French) discusses a futuristic scenario where current vehicles will become museum pieces once everyone has personal airplanes. Sentence 2 (English) is a simple statement about a car needing repairs. These sentences are completely unrelated in topic, context, and meaning - one is a speculative comment about transportation evolution while the other is about vehicle maintenance. They share no semantic similarity.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.2,
+    "abs_diff": 0.2
+  },
+  {
+    "sentence1": "Une superviseure instruit les travailleurs masculins.",
+    "sentence2": "A woman is working as a nurse.",
+    "model_raw_output": "{\"reasoning\": \"The two sentences share only one minimal element: the mention of a woman. However, the professions are completely different (supervisor vs nurse), the activities are different (instructing workers vs working as a nurse), and the contexts differ substantially. The only semantic overlap is gender, making the overall meaning quite dissimilar.\", \"output\": 1.0}",
+    "reasoning": "The two sentences share only one minimal element: the mention of a woman. However, the professions are completely different (supervisor vs nurse), the activities are different (instructing workers vs working as a nurse), and the contexts differ substantially. The only semantic overlap is gender, making the overall meaning quite dissimilar.",
+    "predicted_sim": 1.0,
+    "gold_score": 1.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "Un v\u00e9lo est \u00e0 c\u00f4t\u00e9 d'un couple de femmes.",
+    "sentence2": "A child next to a bike.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share two key semantic elements: (1) the presence of a bike, and (2) a spatial relationship meaning 'next to' or 'beside.' However, the entities that the bike is positioned next to are completely different: Sentence 1 involves 'a couple of women' while Sentence 2 involves 'a child.' This means about half of the semantic content overlaps (the bike and spatial relationship), but the context and subjects are entirely distinct. The similarity is moderate rather than high or low.\",\n  \"output\": 2.0\n}",
+    "reasoning": "Both sentences share two key semantic elements: (1) the presence of a bike, and (2) a spatial relationship meaning 'next to' or 'beside.' However, the entities that the bike is positioned next to are completely different: Sentence 1 involves 'a couple of women' while Sentence 2 involves 'a child.' This means about half of the semantic content overlaps (the bike and spatial relationship), but the context and subjects are entirely distinct. The similarity is moderate rather than high or low.",
+    "predicted_sim": 2.0,
+    "gold_score": 2.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "Le groupe mange tout en profitant d'une vue \u00e0 couper le souffle.",
+    "sentence2": "A group of people take a look at an unusual tree.",
+    "model_raw_output": "{\n  \"reasoning\": \"The sentences share only one semantic element: both mention a 'group' of people. However, the core meanings are fundamentally different. Sentence 1 describes a group eating while enjoying a breathtaking view, with the primary actions being eating and appreciating scenery. Sentence 2 describes a group looking at a specific object (an unusual tree). The activities, contexts, and purposes are completely unrelated beyond the shared 'group' subject.\",\n  \"output\": 1.0\n}",
+    "reasoning": "The sentences share only one semantic element: both mention a 'group' of people. However, the core meanings are fundamentally different. Sentence 1 describes a group eating while enjoying a breathtaking view, with the primary actions being eating and appreciating scenery. Sentence 2 describes a group looking at a specific object (an unusual tree). The activities, contexts, and purposes are completely unrelated beyond the shared 'group' subject.",
+    "predicted_sim": 1.0,
+    "gold_score": 2.2,
+    "abs_diff": 1.2000000000000002
+  }
+]

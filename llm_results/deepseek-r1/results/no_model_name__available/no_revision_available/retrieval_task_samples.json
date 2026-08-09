@@ -1,0 +1,75 @@
+[
+  {
+    "query_id": "00003",
+    "query_text": "How to manage household finances (income & expenses) [duplicate]",
+    "model_raw_output": "The most relevant documents to answer \"How to manage household finances (income & expenses)\" are:\n\n**ID 3 | TITLE**: Managing Couples' Finances with Allowances and Accounting  \n**ID 38 | TITLE**: Three Savings Categories and Flexible Budgeting Rules  \n**ID 120 | TITLE**: Budgeting Framework for Fixed/Variable Expenses and Savings  \n**ID 216 | TITLE**: Simplified Cash Expense Tracking for Budgeting  \n**ID 352 | TITLE**: Debt Repayment, Savings, and Investment Strategy  \n\n**Final Answer**: [3, 38, 120, 216, 352]  \n\n*(Key relevance: These documents address budgeting systems, expense tracking, savings allocation, and debt management strategies for households.)*",
+    "parsed_ids": [
+      "000000003",
+      "000000038",
+      "000000120",
+      "000000216",
+      "000000352"
+    ],
+    "gold_ids": [
+      "000000003"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "00012",
+    "query_text": "Moving a personal business to a LLC accounting in California",
+    "model_raw_output": "**Relevant Documents:**  \n- **ID: 379 | TITLE: S-Corp vs LLC Tax Implications in California**  \n- **ID: 193 | TITLE: California LLC Tax Liability and Dissolution**  \n- **ID: 231 | TITLE: Freelance Business Taxes and Accounting Setup**  \n\n**Final Answer:**  \n[379, 193, 231]  \n\n**Explanation:**  \n- **ID 379** directly addresses tax implications and legal distinctions between S-Corps and LLCs in California, including state-specific fees and risks.  \n- **ID 193** covers California LLC requirements, annual taxes ($800 fee), and dissolution processes.  \n- **ID 231** discusses accounting practices for freelancers transitioning to formal business structures (e.g., LLCs), including tax forms and compliance.  \n\nThese documents collectively address California LLC formation, tax obligations, and accounting considerations.",
+    "parsed_ids": [
+      "000000379",
+      "000000193",
+      "000000231"
+    ],
+    "gold_ids": [
+      "000000012"
+    ],
+    "is_correct": false
+  },
+  {
+    "query_id": "00013",
+    "query_text": "What is the preferred way to finance home improvements when preparing to sell your house?",
+    "model_raw_output": "The most relevant document for answering the query about financing home improvements when preparing to sell a house is:\n\n**ID: 314 | TITLE: Many renovations do NOT pay for themselves in increased sales price...**  \nThis document explicitly advises against assuming renovations will increase home value proportionally and recommends focusing on cost-effective improvements (e.g., paint, staging) rather than expensive loans.\n\n---\n\n### Final Answer:  \n[314]  \n\n*(Supporting IDs: 340, 85, 128)*",
+    "parsed_ids": [
+      "000000314"
+    ],
+    "gold_ids": [
+      "000000013"
+    ],
+    "is_correct": false
+  },
+  {
+    "query_id": "00015",
+    "query_text": "Selling an app, sharing income, how does it work tax-wise?",
+    "model_raw_output": "**Relevant Documents:**  \n- **ID: 15 | TITLE:** Organizing a 50/50 business split with legal and tax considerations  \n- **ID: 104 | TITLE:** Tax implications for freelance income and contractor payments  \n- **ID: 231 | TITLE:** Tax guidance for self-employed individuals and LLCs  \n- **ID: 291 | TITLE:** Reporting self-employed income and tax obligations  \n\n**Final Answer:**  \n[15, 104, 231, 291]  \n\n**Reasoning:**  \n- **Document 15** addresses partnership structures, profit-sharing, and tax preparation costs, directly relevant to splitting app income.  \n- **Document 104** discusses issuing 1099 forms for contractors, critical for reporting shared income.  \n- **Document 231** clarifies tax obligations for self-employed individuals and LLCs, applicable to app developers.  \n- **Document 291** explains taxable income calculations for sole proprietors, essential for understanding net profits from app sales.  \n\nThese documents collectively cover tax structures, income reporting, and partnership dynamics for app-related income sharing.",
+    "parsed_ids": [
+      "000000015",
+      "000000050",
+      "000000104",
+      "000000231",
+      "000000291"
+    ],
+    "gold_ids": [
+      "000000015"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "00016",
+    "query_text": "Which is the better strategy for buying stocks monthly?",
+    "model_raw_output": "**Relevant Documents:**  \n- **ID: 146 | TITLE:** Aggressive vs. Conservative Investment Strategies  \n- **ID: 220 | TITLE:** Passive Investing with Index Funds and ETFs  \n- **ID: 262 | TITLE:** Long-Term Buy-and-Hold vs. Dollar-Cost Averaging  \n- **ID: 270 | TITLE:** Passive Index Funds for Long-Term Growth  \n\n**Final Answer:**  \n[146, 220, 262, 270]  \n\n**Explanation:**  \n- **ID 146** discusses aggressive vs. conservative strategies, emphasizing systematic monthly investments and diversification.  \n- **ID 220** advocates for passive investing via index funds/ETFs, ideal for regular monthly purchases.  \n- **ID 262** highlights dollar-cost averaging (buying fixed amounts monthly) as a disciplined approach to mitigate market volatility.  \n- **ID 270** reinforces passive strategies with low-cost index funds, aligning with monthly investing to compound gains over decades.  \n\nThese documents collectively endorse **passive investing through index funds/ETFs with dollar-cost averaging** as the optimal strategy for monthly stock purchases.",
+    "parsed_ids": [
+      "000000146",
+      "000000220",
+      "000000262",
+      "000000270"
+    ],
+    "gold_ids": [
+      "000000016"
+    ],
+    "is_correct": false
+  }
+]

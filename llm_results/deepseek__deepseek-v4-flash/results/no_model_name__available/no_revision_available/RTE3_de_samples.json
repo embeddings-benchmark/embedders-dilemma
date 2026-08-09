@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Der Vorstand des Distrikts f\u00fcr Wasserverwaltung von South Florida muss m\u00f6glicherweise schon im n\u00e4chsten Monat \u00fcber den Kauf der Gemeinde entscheiden, die 8 1/2-Square-Mile Area genannt wird, gleich \u00f6stlich des Everglades-Nationalparks.",
+    "sentence2": "Der Everglades-Nationalpark befindet sich in Florida.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise mentions 'South Florida Water Management District' and describes an area east of the 'Everglades National Park.' South Florida is a region within the state of Florida, so the park is implicitly located in Florida. Thus, the hypothesis 'The Everglades National Park is located in Florida' follows logically from the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise mentions 'South Florida Water Management District' and describes an area east of the 'Everglades National Park.' South Florida is a region within the state of Florida, so the park is implicitly located in Florida. Thus, the hypothesis 'The Everglades National Park is located in Florida' follows logically from the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Der Pr\u00e4sident der Italienischen Republik, Giorgio Napolitano, hat Romano Prodi heute darum gebeten, als Ministerpr\u00e4sident zu bleiben, doch Prodi muss sich sobald wie m\u00f6glich einem Misstrauensvotum unterziehen.",
+    "sentence2": "Romano Prodi ist der italienische Ministerpr\u00e4sident.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that the President asked Romano Prodi to stay as Ministerpr\u00e4sident (Prime Minister). This implies that Prodi currently holds or is being asked to continue in the role of Prime Minister. The hypothesis directly states that Prodi is the Italian Prime Minister, which is supported by the premise. Therefore, the hypothesis is semantically entailed.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise states that the President asked Romano Prodi to stay as Ministerpr\u00e4sident (Prime Minister). This implies that Prodi currently holds or is being asked to continue in the role of Prime Minister. The hypothesis directly states that Prodi is the Italian Prime Minister, which is supported by the premise. Therefore, the hypothesis is semantically entailed.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "NATO-Generalsekret\u00e4r Willy Claes sagte heute, dass er einen R\u00fccktritt erw\u00e4ge, nachdem eine belgische Parlamentskommission an diesem Morgen beschlossen hat, zu empfehlen, dass er vom h\u00f6chsten Gericht des Landes in einem wachsenden Waffenkorruptionsskandal angeklagt wird.",
+    "sentence2": "NATO-Generalsekret\u00e4r Willy Claes ist zur\u00fcckgetreten.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that Willy Claes said he is considering resigning, but it does not state that he actually resigned. The act of considering a resignation does not entail that the resignation occurred. Therefore, the hypothesis is not semantically entailed by the premise.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 states that Willy Claes said he is considering resigning, but it does not state that he actually resigned. The act of considering a resignation does not entail that the resignation occurred. Therefore, the hypothesis is not semantically entailed by the premise.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Alvaro Uribe ist der Pr\u00e4sident Spaniens, ein interessanter Charakter, dessen Vater \u00fcbrigens von Rebellenmilizen erschossen wurde.",
+    "sentence2": "Felipe Gonz\u00e1lez ist der Pr\u00e4sident Spaniens.",
+    "model_raw_output": "{\n  \"reasoning\": \"The first sentence states that Alvaro Uribe is the president of Spain, which is factually incorrect. The second sentence states that Felipe Gonz\u00e1lez is the president of Spain, which is also factually incorrect, but the hypothesis asserts a different person. The meaning of Sentence 1 does not imply that Felipe Gonz\u00e1lez is the president of Spain, as they are two different individuals. Therefore, there is no semantic entailment.\",\n  \"output\": 0\n}",
+    "reasoning": "The first sentence states that Alvaro Uribe is the president of Spain, which is factually incorrect. The second sentence states that Felipe Gonz\u00e1lez is the president of Spain, which is also factually incorrect, but the hypothesis asserts a different person. The meaning of Sentence 1 does not imply that Felipe Gonz\u00e1lez is the president of Spain, as they are two different individuals. Therefore, there is no semantic entailment.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "\"Es wird nur einen Hurrikan Andrew geben\", sagte er mit Bezug auf den Tropensturm der Kategorie 5, der im Jahre 1992 in S\u00fcdflorida einschlug, 26,5 Milliarden Dollar Schaden verursachte und in den Vereinigten Staaten und den Bahamas 26 Menschen t\u00f6tete.",
+    "sentence2": "Tropenst\u00fcrme verursachen schwere Sch\u00e4den.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 describes a specific tropical storm (Hurricane Andrew) that caused severe damage, but it does not make a general claim that all tropical storms cause severe damage. The premise only provides one example, which is insufficient to entail the universal statement in Sentence 2. Therefore, there is no semantic entailment.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 describes a specific tropical storm (Hurricane Andrew) that caused severe damage, but it does not make a general claim that all tropical storms cause severe damage. The premise only provides one example, which is insufficient to entail the universal statement in Sentence 2. Therefore, there is no semantic entailment.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  }
+]

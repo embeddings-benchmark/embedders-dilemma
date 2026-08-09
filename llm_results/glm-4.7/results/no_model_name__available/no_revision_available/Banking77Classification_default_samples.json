@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "How do I locate my card?",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking how to find their card because they cannot locate it. This falls under the category of a card being lost or missing, which corresponds to the 'lost_or_stolen_card' intent.\",\n  \"output\": \"lost_or_stolen_card\"\n}",
+        "parsed_output": "lost_or_stolen_card",
+        "ground_truth": "card_arrival",
+        "is_correct": false
+    },
+    {
+        "input_text": "I still have not received my new card, I ordered over a week ago.",
+        "model_raw_output": "{\n  \"reasoning\": \"The user states that they ordered a new card over a week ago and still have not received it. This indicates an inquiry regarding the status or delivery of the card, which maps directly to the 'card_arrival' category.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "I ordered a card but it has not arrived. Help please!",
+        "model_raw_output": "{\n  \"reasoning\": \"The user states that they ordered a card and it has not arrived yet. This indicates an issue or inquiry regarding the delivery status of the card, which directly corresponds to the 'card_arrival' category.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "Is there a way to know when my card will arrive?",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is inquiring about the expected arrival time or delivery status of their card. Looking through the categories, 'card_arrival' directly relates to queries regarding when the card will be delivered or its arrival status.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "My card has not arrived yet.",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is reporting that their physical card has not arrived yet. This query concerns the delivery status of the card, which aligns with the 'card_arrival' category.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    }
+]

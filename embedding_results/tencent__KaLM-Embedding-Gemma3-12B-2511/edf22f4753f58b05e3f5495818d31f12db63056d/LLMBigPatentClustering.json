@@ -1,0 +1,26 @@
+{
+  "dataset_revision": "fbb01d02cb8308089d99223cbcc35c584a67ba77",
+  "task_name": "LLMBigPatentClustering",
+  "mteb_version": "2.11.6",
+  "scores": {
+    "test": [
+      {
+        "v_measure": 0.38062,
+        "v_measure_std": 0.035105,
+        "v_measures": [
+          0.351877,
+          0.359935,
+          0.430047
+        ],
+        "main_score": 0.38062,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 15.394638776779175,
+  "kg_co2_emissions": null,
+  "date": 1774364755.284128
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "a little girl walks on a boardwalk with blue domes in the background .",
+    "sentence2": "a man going over a jump on his bike with a river in the background",
+    "model_raw_output": "{\"reasoning\": \"The two sentences describe completely different subjects (a girl walking on a boardwalk versus a man jumping on a bike) and settings, sharing only the word 'background' in their structure.\", \"output\": 0.2}",
+    "reasoning": "The two sentences describe completely different subjects (a girl walking on a boardwalk versus a man jumping on a bike) and settings, sharing only the word 'background' in their structure.",
+    "predicted_sim": 0.2,
+    "gold_score": 0.0,
+    "abs_diff": 0.2
+  },
+  {
+    "sentence1": "terminal 1is connected to terminal 4",
+    "sentence2": "terminals 1 and 4 are connected",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the exact same information regarding the connectivity between the two specific terminals. The difference is purely syntactic.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey the exact same information regarding the connectivity between the two specific terminals. The difference is purely syntactic.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "ask yourself what you look for in a friend too .",
+    "sentence2": "i went out & found new friends .",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences are related by the theme of friendship, but they discuss different aspects: one is a reflective question about desired traits in a friend, while the other is a descriptive statement about the past action of finding new friends. They do not share a core propositional meaning.\",\n  \"output\": 1.2\n}",
+    "reasoning": "The two sentences are related by the theme of friendship, but they discuss different aspects: one is a reflective question about desired traits in a friend, while the other is a descriptive statement about the past action of finding new friends. They do not share a core propositional meaning.",
+    "predicted_sim": 1.2,
+    "gold_score": 1.6,
+    "abs_diff": 0.40000000000000013
+  },
+  {
+    "sentence1": "positive battery terminal is not separated by a gap from terminal 4",
+    "sentence2": "terminal 4 and the positive terminal are not separated by the gap",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the exact same technical observation: the absence of a gap between terminal 4 and the positive battery terminal. The information is identical; only the syntactic structure is slightly rearranged.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey the exact same technical observation: the absence of a gap between terminal 4 and the positive battery terminal. The information is identical; only the syntactic structure is slightly rearranged.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "police stop maldives presidential election",
+    "sentence2": "keita wins mali presidential election",
+    "model_raw_output": "{\"reasoning\": \"Both sentences discuss presidential elections, but they refer to completely different countries (Maldives vs. Mali) and the subject matter of the elections is unrelated (one is stopped, the other is won by a specific candidate).\", \"output\": 0.5}",
+    "reasoning": "Both sentences discuss presidential elections, but they refer to completely different countries (Maldives vs. Mali) and the subject matter of the elections is unrelated (one is stopped, the other is won by a specific candidate).",
+    "predicted_sim": 0.5,
+    "gold_score": 1.2,
+    "abs_diff": 0.7
+  }
+]

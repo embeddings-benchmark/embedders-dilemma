@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "in the us , it will depend on the school .",
+    "sentence2": "it really depends on the school and the program .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences express the core idea that something depends on the school. Sentence 1 adds the context 'in the us' while Sentence 2 adds 'and the program' as additional factors. Both use 'depend(s) on the school' phrasing. The core semantic meaning is nearly identical - they're both explaining that outcomes vary based on the school. The slight differences in additional context (geographic location vs. program factors) don't significantly change the fundamental meaning.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences express the core idea that something depends on the school. Sentence 1 adds the context 'in the us' while Sentence 2 adds 'and the program' as additional factors. Both use 'depend(s) on the school' phrasing. The core semantic meaning is nearly identical - they're both explaining that outcomes vary based on the school. The slight differences in additional context (geographic location vs. program factors) don't significantly change the fundamental meaning.",
+    "predicted_sim": 4.2,
+    "gold_score": 3.0,
+    "abs_diff": 1.2000000000000002
+  },
+  {
+    "sentence1": "there 's also what the string is made of .",
+    "sentence2": "there is also a youtube-version of the film .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share a similar grammatical structure with 'there is/there's also' introducing something additional. However, the semantic content is completely unrelated: Sentence 1 discusses the composition or material of a string (likely in a technical, scientific, or abstract context), while Sentence 2 discusses a film version available on YouTube. The only overlap is the introductory phrase pattern, but the topics, subjects, and meanings have no connection.\",\n  \"output\": 0.5\n}",
+    "reasoning": "Both sentences share a similar grammatical structure with 'there is/there's also' introducing something additional. However, the semantic content is completely unrelated: Sentence 1 discusses the composition or material of a string (likely in a technical, scientific, or abstract context), while Sentence 2 discusses a film version available on YouTube. The only overlap is the introductory phrase pattern, but the topics, subjects, and meanings have no connection.",
+    "predicted_sim": 0.5,
+    "gold_score": 0.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "you also imply you may not be paid if they cannot place you with a client .",
+    "sentence2": "you can do it , but you might not be a professor .",
+    "model_raw_output": "{\"reasoning\": \"These two sentences discuss completely unrelated topics. Sentence 1 concerns payment being conditional on being placed with a client, likely in an employment or contracting context. Sentence 2 concerns whether one might perform a role (doing something) versus holding an official title (being a professor). While both contain modal uncertainty (may/might not), the domains they address are entirely different - one is about financial compensation and job placement, the other is about capability versus professional status/title. There is no semantic overlap between the concepts discussed in each sentence.\", \"output\": 0.0}",
+    "reasoning": "These two sentences discuss completely unrelated topics. Sentence 1 concerns payment being conditional on being placed with a client, likely in an employment or contracting context. Sentence 2 concerns whether one might perform a role (doing something) versus holding an official title (being a professor). While both contain modal uncertainty (may/might not), the domains they address are entirely different - one is about financial compensation and job placement, the other is about capability versus professional status/title. There is no semantic overlap between the concepts discussed in each sentence.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "you do not need to worry .",
+    "sentence2": "you don 't have to worry .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences express the same meaning - that there is no necessity to worry. 'Do not need to' and 'don't have to' are synonymous phrases indicating lack of necessity. The only difference is the contracted form in sentence 2 ('don't' vs 'do not'), but this is purely a stylistic variation with no semantic difference. The subject 'you' and the action 'worry' are identical in both sentences.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences express the same meaning - that there is no necessity to worry. 'Do not need to' and 'don't have to' are synonymous phrases indicating lack of necessity. The only difference is the contracted form in sentence 2 ('don't' vs 'do not'), but this is purely a stylistic variation with no semantic difference. The subject 'you' and the action 'worry' are identical in both sentences.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "you should do it .",
+    "sentence2": "you should do what it says .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences express the same core directive: the listener should perform some action. They share identical subject ('you'), modal verb ('should'), and verb ('do'). The key difference is that Sentence 2 adds clarification about what 'it' refers to ('what it says'), while Sentence 1 is more general. However, the fundamental semantic meaning of giving advice/instruction to do something is preserved in both sentences. The added detail in Sentence 2 doesn't change the core meaning\u2014it merely specifies what 'it' refers to.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences express the same core directive: the listener should perform some action. They share identical subject ('you'), modal verb ('should'), and verb ('do'). The key difference is that Sentence 2 adds clarification about what 'it' refers to ('what it says'), while Sentence 1 is more general. However, the fundamental semantic meaning of giving advice/instruction to do something is preserved in both sentences. The added detail in Sentence 2 doesn't change the core meaning\u2014it merely specifies what 'it' refers to.",
+    "predicted_sim": 4.2,
+    "gold_score": 3.0,
+    "abs_diff": 1.2000000000000002
+  }
+]

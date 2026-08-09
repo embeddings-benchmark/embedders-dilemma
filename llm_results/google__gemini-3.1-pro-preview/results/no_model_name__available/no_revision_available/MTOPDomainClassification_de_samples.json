@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Schicke an den Motorrad-Chat eine Videonachricht",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance is asking to send a video message to a specific chat group ('Motorrad-Chat'). This clearly falls under the messaging domain.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "Rufe Loren an",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'Rufe Loren an' translates to 'Call Loren' in English. The user is asking the system to initiate a phone call, which clearly maps to the 'calling' domain.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Stelle meinen Status als vielleicht ein f\u00fcr das zweite Event",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to set their status to 'maybe' (vielleicht) for an event (Event). This corresponds to managing or responding to calendar events.\",\n  \"output\": \"event\"\n}",
+        "parsed_output": "event",
+        "ground_truth": "event",
+        "is_correct": true
+    },
+    {
+        "input_text": "Rufe Josiah \u00fcber WhatsApp an",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance translates to 'Call Josiah via WhatsApp', which clearly indicates the user wants to initiate a phone or voice call. Therefore, the intent belongs to the calling domain.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Starte einen Timer f\u00fcr das Kalbsfleisch",
+        "model_raw_output": "{\n  \"reasoning\": \"The user explicitly asks to start a timer ('Starte einen Timer') for cooking ('f\u00fcr das Kalbsfleisch').\",\n  \"output\": \"timer\"\n}",
+        "parsed_output": "timer",
+        "ground_truth": "timer",
+        "is_correct": true
+    }
+]

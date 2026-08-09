@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "i need you to mark next monday",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'i need you to mark next monday' indicates the user wants to add or designate something on their calendar for next Monday. The verb 'mark' in this context means to set or schedule an event or reminder. Among the available intents, calendar_set is the best fit because it involves creating or adding an entry to the calendar. It is not a query (calendar_query), removal (calendar_remove), or a request for the date itself (datetime_query).\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "let's play my most played song list",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting to play audio content, specifically a collection of songs ('my most played song list'). This is a request to initiate playback of music from a personal playlist. Among the available intents, 'play_music' is the best fit, as it covers requests to play songs or music collections. Other play-related intents like play_podcasts, play_radio, play_audiobook, or play_game do not apply here, and music_query would be for asking information rather than initiating playback.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "disable alarm for three p. m.",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'disable alarm for three p. m.' expresses the user's desire to turn off or delete an existing alarm that is set for 3:00 PM. Among the available intents, alarm_remove is the best match because it covers the action of removing, deleting, or disabling an alarm.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "cancel alarm",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'cancel alarm' indicates an intention to remove or delete an existing alarm. Among the available intents, 'alarm_remove' is the most appropriate match, as 'cancel' is synonymous with removing an alarm. This is distinct from 'alarm_query' (asking about alarms) or 'alarm_set' (creating a new alarm).\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "remind me about my schedule for the afternoon",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to be informed about their existing plans or events ('my schedule') for a specific time period ('the afternoon'). This is a request to retrieve information from their calendar, which corresponds to querying the calendar rather than setting, removing, or interacting with alarms, lists, or datetime directly.\",\n  \"output\": \"calendar_query\"\n}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

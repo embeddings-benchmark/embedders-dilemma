@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "The 16 NATO members and the 14 countries which used to form the rival Warsaw Pact agreed that there would be significantly less equipment permitted in the area of application in Europe than there was under the original treaty.",
+    "sentence2": "The NATO has 16 members.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise explicitly refers to 'The 16 NATO members', which directly states that NATO consists of 16 members in the context provided. This information logically guarantees the truth of the hypothesis that 'NATO has 16 members'. Therefore, the hypothesis is semantically entailed by the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise explicitly refers to 'The 16 NATO members', which directly states that NATO consists of 16 members in the context provided. This information logically guarantees the truth of the hypothesis that 'NATO has 16 members'. Therefore, the hypothesis is semantically entailed by the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "The President of the Italian Republic, Giorgio Napolitano, has asked Romano Prodi today to stay on as Prime Minister, but Prodi will need to pass a confidence vote as soon as possible.",
+    "sentence2": "Romano Prodi is the Italian Prime Minister.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that the President asked Romano Prodi to 'stay on as Prime Minister.' The phrase 'stay on' explicitly indicates that Prodi already holds the position. Therefore, the hypothesis that he is the Italian Prime Minister is directly supported by and logically follows from the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise states that the President asked Romano Prodi to 'stay on as Prime Minister.' The phrase 'stay on' explicitly indicates that Prodi already holds the position. Therefore, the hypothesis that he is the Italian Prime Minister is directly supported by and logically follows from the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "The NATO Secretary General, Willy Claes, said today that he was considering resigning, after a Belgian parliamentary commission decided this morning to recommend that the country's highest court indict him in a widening arms corruption scandal.",
+    "sentence2": "NATO Secretary General Willy Claes resigned.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that Willy Claes was 'considering resigning,' which indicates an ongoing deliberation rather than a completed action. The hypothesis claims that he definitively 'resigned.' Since merely considering an action does not guarantee that it will actually be carried out, the premise does not semantically entail the hypothesis.\",\n  \"output\": 0\n}",
+    "reasoning": "The premise states that Willy Claes was 'considering resigning,' which indicates an ongoing deliberation rather than a completed action. The hypothesis claims that he definitively 'resigned.' Since merely considering an action does not guarantee that it will actually be carried out, the premise does not semantically entail the hypothesis.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Alvaro Uribe is the president of Spain, an interesting character, who, by the way, had his own father shot by rebel militia.",
+    "sentence2": "Felipe Gonz\u00e1lez is the President of Spain.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise explicitly states that Alvaro Uribe is the president of Spain, while the hypothesis claims that Felipe Gonz\u00e1lez is the president of Spain. Since the two sentences identify different individuals for the same unique position, they contradict each other. Therefore, the meaning of the hypothesis does not follow from the premise, and it is not semantically entailed.\",\n  \"output\": 0\n}",
+    "reasoning": "The premise explicitly states that Alvaro Uribe is the president of Spain, while the hypothesis claims that Felipe Gonz\u00e1lez is the president of Spain. Since the two sentences identify different individuals for the same unique position, they contradict each other. Therefore, the meaning of the hypothesis does not follow from the premise, and it is not semantically entailed.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "\"There will be only one Hurricane Andrew,\" he said, referring to the Category 5 tropical storm that slammed into south Florida in 1992, causing $26.5 billion in damage and killing 26 people in the United States and Bahamas.",
+    "sentence2": "Tropical storms cause severe damage.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise explicitly identifies Hurricane Andrew as a 'Category 5 tropical storm' that caused '$26.5 billion in damage' and fatalities. This specific, high-impact instance directly demonstrates and supports the general factual claim in the hypothesis that tropical storms cause severe damage. In natural language inference, a concrete example that clearly illustrates a general property is sufficient to establish semantic entailment.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise explicitly identifies Hurricane Andrew as a 'Category 5 tropical storm' that caused '$26.5 billion in damage' and fatalities. This specific, high-impact instance directly demonstrates and supports the general factual claim in the hypothesis that tropical storms cause severe damage. In natural language inference, a concrete example that clearly illustrates a general property is sufficient to establish semantic entailment.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  }
+]

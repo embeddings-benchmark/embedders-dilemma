@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "in the us , it will depend on the school .",
+    "sentence2": "it really depends on the school and the program .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the core idea that a certain outcome or answer is contingent upon the school. However, they introduce different qualifying details: Sentence 1 specifies a geographic scope ('in the us'), while Sentence 2 adds an additional factor ('and the program') and uses a slight emphasis ('really depends'). Because the central dependency is identical but the contextual qualifiers differ, the sentences are mostly equivalent but not completely interchangeable.\",\n  \"output\": 3.8\n}",
+    "reasoning": "Both sentences share the core idea that a certain outcome or answer is contingent upon the school. However, they introduce different qualifying details: Sentence 1 specifies a geographic scope ('in the us'), while Sentence 2 adds an additional factor ('and the program') and uses a slight emphasis ('really depends'). Because the central dependency is identical but the contextual qualifiers differ, the sentences are mostly equivalent but not completely interchangeable.",
+    "predicted_sim": 3.8,
+    "gold_score": 3.0,
+    "abs_diff": 0.7999999999999998
+  },
+  {
+    "sentence1": "there 's also what the string is made of .",
+    "sentence2": "there is also a youtube-version of the film .",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 discusses the material composition of a string, while Sentence 2 refers to the online availability of a movie on YouTube. The core topics, contexts, and semantic content are entirely different. They only share generic function words ('there is also'), which do not contribute to meaningful similarity. Therefore, the sentences are completely unrelated.\",\n  \"output\": 0.0\n}",
+    "reasoning": "Sentence 1 discusses the material composition of a string, while Sentence 2 refers to the online availability of a movie on YouTube. The core topics, contexts, and semantic content are entirely different. They only share generic function words ('there is also'), which do not contribute to meaningful similarity. Therefore, the sentences are completely unrelated.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "you also imply you may not be paid if they cannot place you with a client .",
+    "sentence2": "you can do it , but you might not be a professor .",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 discusses a conditional payment scenario tied to professional client placement, likely in a staffing, freelance, or consulting context. Sentence 2 addresses career qualifications or academic trajectory, specifically regarding the possibility of not becoming a professor. The two sentences share no common topics, entities, goals, or contextual themes, making them completely unrelated in meaning.\",\n  \"output\": 0.0\n}",
+    "reasoning": "Sentence 1 discusses a conditional payment scenario tied to professional client placement, likely in a staffing, freelance, or consulting context. Sentence 2 addresses career qualifications or academic trajectory, specifically regarding the possibility of not becoming a professor. The two sentences share no common topics, entities, goals, or contextual themes, making them completely unrelated in meaning.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "you do not need to worry .",
+    "sentence2": "you don 't have to worry .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the exact same message: there is no necessity or obligation for the listener to feel anxious or concerned. The differences are purely stylistic and syntactic (the contraction 'don't' versus 'do not', and the interchangeable modal phrases 'need to' versus 'have to'), none of which alter the underlying meaning. In standard semantic similarity evaluations, this level of paraphrasing is considered functionally identical.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey the exact same message: there is no necessity or obligation for the listener to feel anxious or concerned. The differences are purely stylistic and syntactic (the contraction 'don't' versus 'do not', and the interchangeable modal phrases 'need to' versus 'have to'), none of which alter the underlying meaning. In standard semantic similarity evaluations, this level of paraphrasing is considered functionally identical.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "you should do it .",
+    "sentence2": "you should do what it says .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey advice or a recommendation to perform an action, sharing a similar syntactic structure and intent. However, Sentence 1 uses the highly ambiguous pronoun 'it,' which could refer to any general task, favor, or activity. Sentence 2 is more specific, directing the listener to follow instructions or a directive ('what it says'). While they are topically related and could overlap in certain contexts, the difference in specificity and implied meaning prevents them from being highly equivalent.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences convey advice or a recommendation to perform an action, sharing a similar syntactic structure and intent. However, Sentence 1 uses the highly ambiguous pronoun 'it,' which could refer to any general task, favor, or activity. Sentence 2 is more specific, directing the listener to follow instructions or a directive ('what it says'). While they are topically related and could overlap in certain contexts, the difference in specificity and implied meaning prevents them from being highly equivalent.",
+    "predicted_sim": 2.5,
+    "gold_score": 3.0,
+    "abs_diff": 0.5
+  }
+]

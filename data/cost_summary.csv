@@ -1,0 +1,37 @@
+model,type,avg_score,total_cost,short_name
+intfloat__multilingual-e5-small,Embedding,0.6311664094444444,0.00073949088,mE5-S
+intfloat__multilingual-e5-base,Embedding,0.6436939788888889,0.0016723314,mE5-B
+intfloat__multilingual-e5-large-instruct,Embedding,0.6967886477777777,0.0049846563,mE5-L-Inst
+BAAI__bge-m3,Embedding,0.665265541111111,0.004989276,BGE-M3
+Snowflake__snowflake-arctic-embed-l-v2.0,Embedding,0.6534716416666667,0.004989276,Arctic-L-v2
+intfloat__multilingual-e5-large,Embedding,0.6589401983333334,0.0049938957,mE5-L
+google__embeddinggemma-300m,Embedding,0.7223049266666666,0.00809404452,EmbGemma-300M
+jinaai__jina-embeddings-v5-text-nano,Embedding,0.7387659511111111,0.00972766126,Jina-v5-Nano
+codefuse-ai__F2LLM-v2-0.6B,Embedding,0.699252656111111,0.016650535321,F2LLM-0.6B
+Qwen__Qwen3-Embedding-0.6B,Embedding,0.724597305,0.017974542791,Qwen3-E-0.6B
+Alibaba-NLP__gte-Qwen2-1.5B-instruct,Embedding,0.708062285,0.023640381654,GTE-Qwen2-1.5B
+codefuse-ai__F2LLM-v2-1.7B,Embedding,0.7165936155555556,0.0296760295,F2LLM-1.7B
+jinaai__jina-embeddings-v5-text-small,Embedding,0.7437455927777779,0.034451587478,Jina-v5-S
+Qwen__Qwen3-Embedding-4B,Embedding,0.7590126433333333,0.06852880043,Qwen3-E-4B
+codefuse-ai__F2LLM-v2-4B,Embedding,0.718982035,0.078636912632,F2LLM-4B
+Alibaba-NLP__gte-Qwen2-7B-instruct,Embedding,0.7308004466666667,0.089155923704,GTE-Qwen2-7B
+bflhc__Octen-Embedding-8B,Embedding,0.7720965144444445,0.1077285526279999,Octen-8B
+Qwen__Qwen3-Embedding-8B,Embedding,0.7704953888888888,0.1079157398909999,Qwen3-E-8B
+nvidia__llama-embed-nemotron-8b,Embedding,0.7528759822222223,0.114671146218,Nemotron-8B
+codefuse-ai__F2LLM-v2-8B,Embedding,0.721850478888889,0.121658024321,F2LLM-8B
+Salesforce__SFR-Embedding-2_R,Embedding,0.7388236111111111,0.135645489174,SFR-2
+GritLM__GritLM-7B,Embedding,0.5117539577777778,0.137923665422,GritLM-7B
+Linq-AI-Research__Linq-Embed-Mistral,Embedding,0.7284342072222222,0.13818355446,Linq-Mistral
+intfloat__e5-mistral-7b-instruct,Embedding,0.5224566716666666,0.138968751128,E5-Mistral-7B
+tencent__KaLM-Embedding-Gemma3-12B-2511,Embedding,0.7475873166666667,0.157678129072,KaLM-12B
+codefuse-ai__F2LLM-v2-14B,Embedding,0.7334041233333333,0.215333835595,F2LLM-14B
+deepseek__deepseek-v4-flash,LLM,0.6851668733333334,3.16458233946,DeepSeek-V4-Flash
+google__gemini-3.1-flash-lite-preview,LLM,0.6449334727777778,6.8524635499999995,Gemini 3.1 Flash Lite
+minimax-m2.7,LLM,0.6824593505555556,24.51839757,MiniMax-M2.7
+qwen3.6-35b-a3b,LLM,0.732674691111111,34.05665226,Qwen3.6-35B-A3B
+google__gemini-3-flash-preview,LLM,0.7519832227777778,55.866446100000005,Gemini 3 Flash
+deepseek-r1,LLM,0.6433830144444445,57.3805754,DeepSeek-R1
+glm-4.7,LLM,0.6765600861111111,63.31390879999999,GLM-4.7
+qwen3.6-27b,LLM,0.7386368894444444,103.43493401,Qwen3.6-27B
+kimi-k2.6,LLM,0.71709885,110.70170434799999,Kimi-K2.6
+google__gemini-3.1-pro-preview,LLM,0.775671865,154.14416880000002,Gemini 3.1 Pro

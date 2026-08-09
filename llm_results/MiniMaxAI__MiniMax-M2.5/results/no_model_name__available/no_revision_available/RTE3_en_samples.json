@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "The 16 NATO members and the 14 countries which used to form the rival Warsaw Pact agreed that there would be significantly less equipment permitted in the area of application in Europe than there was under the original treaty.",
+    "sentence2": "The NATO has 16 members.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence\u202f1 explicitly refers to 'the 16 NATO members', which indicates that there are exactly 16 members of NATO. From this statement it follows that NATO has 16 members, as asserted in Sentence\u202f2. Therefore the hypothesis is semantically entailed by the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence\u202f1 explicitly refers to 'the 16 NATO members', which indicates that there are exactly 16 members of NATO. From this statement it follows that NATO has 16 members, as asserted in Sentence\u202f2. Therefore the hypothesis is semantically entailed by the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "The President of the Italian Republic, Giorgio Napolitano, has asked Romano Prodi today to stay on as Prime Minister, but Prodi will need to pass a confidence vote as soon as possible.",
+    "sentence2": "Romano Prodi is the Italian Prime Minister.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence\u202f1 says that the President asked Romano Prodi to 'stay on as Prime Minister'. The phrase 'stay on' implies that Prodi is currently serving as Prime Minister; he is being asked to continue in that role. Therefore, if Sentence\u202f1 is true, it necessarily follows that Romano Prodi is the Italian Prime Minister at that time. There is no plausible situation in which the President could ask Prodi to stay on as Prime Minister while Prodi is not in fact the Prime Minister. Consequently, Sentence\u202f2 is semantically entailed by Sentence\u202f1.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence\u202f1 says that the President asked Romano Prodi to 'stay on as Prime Minister'. The phrase 'stay on' implies that Prodi is currently serving as Prime Minister; he is being asked to continue in that role. Therefore, if Sentence\u202f1 is true, it necessarily follows that Romano Prodi is the Italian Prime Minister at that time. There is no plausible situation in which the President could ask Prodi to stay on as Prime Minister while Prodi is not in fact the Prime Minister. Consequently, Sentence\u202f2 is semantically entailed by Sentence\u202f1.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "The NATO Secretary General, Willy Claes, said today that he was considering resigning, after a Belgian parliamentary commission decided this morning to recommend that the country's highest court indict him in a widening arms corruption scandal.",
+    "sentence2": "NATO Secretary General Willy Claes resigned.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that NATO Secretary General Willy Claes said he was 'considering resigning' - this only indicates he was thinking about resigning, not that he actually resigned. 'Considering' is a mental state that may or may not lead to action. Someone can consider resigning but then decide against it, or consider it at one point but not follow through. The hypothesis claims he 'resigned' (a definite past action), which is not guaranteed by the premise. The premise only establishes that resignation was being considered, not that it actually occurred.\",\n  \"output\": 0\n}",
+    "reasoning": "The premise states that NATO Secretary General Willy Claes said he was 'considering resigning' - this only indicates he was thinking about resigning, not that he actually resigned. 'Considering' is a mental state that may or may not lead to action. Someone can consider resigning but then decide against it, or consider it at one point but not follow through. The hypothesis claims he 'resigned' (a definite past action), which is not guaranteed by the premise. The premise only establishes that resignation was being considered, not that it actually occurred.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Alvaro Uribe is the president of Spain, an interesting character, who, by the way, had his own father shot by rebel militia.",
+    "sentence2": "Felipe Gonz\u00e1lez is the President of Spain.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence\u202f1 asserts that \u00c1lvaro\u202fUribe is the president of Spain and provides additional details about him. It does not mention Felipe\u202fGonz\u00e1lez at all, nor does it imply that Felipe\u202fGonz\u00e1lez holds that position. In order for the hypothesis to be semantically entailed, it would have to be true in every possible situation where the premise is true. Since the premise does not give any information that would guarantee Felipe\u202fGonz\u00e1lez is president (and in fact the premise claims a different person holds the presidency), the hypothesis does not follow from the premise.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence\u202f1 asserts that \u00c1lvaro\u202fUribe is the president of Spain and provides additional details about him. It does not mention Felipe\u202fGonz\u00e1lez at all, nor does it imply that Felipe\u202fGonz\u00e1lez holds that position. In order for the hypothesis to be semantically entailed, it would have to be true in every possible situation where the premise is true. Since the premise does not give any information that would guarantee Felipe\u202fGonz\u00e1lez is president (and in fact the premise claims a different person holds the presidency), the hypothesis does not follow from the premise.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "\"There will be only one Hurricane Andrew,\" he said, referring to the Category 5 tropical storm that slammed into south Florida in 1992, causing $26.5 billion in damage and killing 26 people in the United States and Bahamas.",
+    "sentence2": "Tropical storms cause severe damage.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise describes a specific tropical storm (Hurricane Andrew) that caused $26.5 billion in damage and killed 26 people. The hypothesis makes a general claim that 'Tropical storms cause severe damage.' For semantic entailment to hold, the premise must guarantee the truth of the hypothesis. However, the premise only provides one example of a tropical storm causing severe damage. From a single instance, we cannot conclude that all tropical storms (or tropical storms in general) cause severe damage. This would require a universal generalization, which is not supported by just one data point. The premise could be true while the hypothesis is false (if Hurricane Andrew was an exceptional case and most tropical storms don't cause severe damage). Therefore, there is no semantic entailment.\",\n  \"output\": 0\n}",
+    "reasoning": "The premise describes a specific tropical storm (Hurricane Andrew) that caused $26.5 billion in damage and killed 26 people. The hypothesis makes a general claim that 'Tropical storms cause severe damage.' For semantic entailment to hold, the premise must guarantee the truth of the hypothesis. However, the premise only provides one example of a tropical storm causing severe damage. From a single instance, we cannot conclude that all tropical storms (or tropical storms in general) cause severe damage. This would require a universal generalization, which is not supported by just one data point. The premise could be true while the hypothesis is false (if Hurricane Andrew was an exceptional case and most tropical storms don't cause severe damage). Therefore, there is no semantic entailment.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "dataset_revision": "fbb01d02cb8308089d99223cbcc35c584a67ba77",
+  "task_name": "BigPatentClustering",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "v_measures": [
+          0.419985,
+          0.376936,
+          0.374653
+        ],
+        "v_measure": 0.390525,
+        "v_measure_std": 0.020852,
+        "usage_stats": {
+          "input_tokens": 2670998,
+          "output_tokens": 789,
+          "total_tokens": 2718974,
+          "cost": 0.0
+        },
+        "main_score": 0.390525,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 328.5291521549225,
+  "kg_co2_emissions": null,
+  "date": 1773905392.898118
+}

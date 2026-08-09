@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "How massive DDoS attacks are undermining the Internet ",
+    "sentence2": "Friday's #DDoSAttack & gt ; #IoT said to be medium . How can we reduce vulnerability of these devices ? ",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 discusses the broad impact of massive DDoS attacks on the Internet. Sentence 2 references a specific medium-sized DDoS attack linked to IoT devices and asks about reducing their vulnerabilities. While both involve DDoS attacks, Sentence 1 emphasizes the scale and systemic harm, whereas Sentence 2 focuses on a specific incident and IoT-related solutions. The core messages (general impact vs. specific mitigation for IoT) differ in scope and intent.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 discusses the broad impact of massive DDoS attacks on the Internet. Sentence 2 references a specific medium-sized DDoS attack linked to IoT devices and asks about reducing their vulnerabilities. While both involve DDoS attacks, Sentence 1 emphasizes the scale and systemic harm, whereas Sentence 2 focuses on a specific incident and IoT-related solutions. The core messages (general impact vs. specific mitigation for IoT) differ in scope and intent.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Welcome to the #APTop25 , @TroyTrojansFB ! Troy ranked for 1st time in school history . ",
+    "sentence2": "AP POLL ALERT Top 25 Shakeup rise ; #Michigan , #Clemson , #Washington fall ; #USC returns . ",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 announces that Troy (TroyTrojansFB) has been ranked in the AP Top 25 for the first time in school history. Sentence 2 discusses a broader 'shakeup' in the AP Top 25 rankings, mentioning specific teams like Michigan, Clemson, Washington falling, and USC returning. The two sentences focus on entirely different subjects (Troy vs. other teams) and events (first-time ranking vs. rankings changes for established teams). There is no overlap in the specific information conveyed, and they do not rephrase the same message.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 announces that Troy (TroyTrojansFB) has been ranked in the AP Top 25 for the first time in school history. Sentence 2 discusses a broader 'shakeup' in the AP Top 25 rankings, mentioning specific teams like Michigan, Clemson, Washington falling, and USC returning. The two sentences focus on entirely different subjects (Troy vs. other teams) and events (first-time ranking vs. rankings changes for established teams). There is no overlap in the specific information conveyed, and they do not rephrase the same message.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Samsung to ask all carrier and retail partners to stop Galaxy Note7 sales , exchanges following more reports of fires ",
+    "sentence2": "Samsung Will Ask All Global Partners to Stop Sales and Exchanges of Galaxy Note7 While Further Investigation Takes Place",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences state that Samsung is requesting its partners to halt sales and exchanges of the Galaxy Note7. The first specifies 'carrier and retail partners' due to 'reports of fires,' while the second refers to 'global partners' and mentions 'further investigation.' The core action (stopping sales/exchanges) and context (safety concerns linked to fires, prompting investigation) align. The differences in specificity ('carrier and retail' vs. 'global') and explicit/implicit reasons (fires vs. investigation) do not negate the shared primary message.\",\n  \"output\": 1\n}",
+    "reasoning": "Both sentences state that Samsung is requesting its partners to halt sales and exchanges of the Galaxy Note7. The first specifies 'carrier and retail partners' due to 'reports of fires,' while the second refers to 'global partners' and mentions 'further investigation.' The core action (stopping sales/exchanges) and context (safety concerns linked to fires, prompting investigation) align. The differences in specificity ('carrier and retail' vs. 'global') and explicit/implicit reasons (fires vs. investigation) do not negate the shared primary message.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Melania Trump rejects womens claims that her husband groped them ",
+    "sentence2": "Politics|\\'They\\'re Lies\\': Melania Trump Rejects Women\\'s Claims That Husband Groped ",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences state that Melania Trump rejects claims made by women about her husband groping them. The second sentence adds contextual elements like 'Politics|' and a direct quote ('They're Lies'), but the core message remains identical. Grammatical variations (e.g., 'womens' vs. 'Women's', 'her husband' vs. 'Husband') do not alter the fundamental meaning. The additional details in Sentence 2 enhance specificity but do not change the paraphrased intent.\",\n  \"output\": 1\n}",
+    "reasoning": "Both sentences state that Melania Trump rejects claims made by women about her husband groping them. The second sentence adds contextual elements like 'Politics|' and a direct quote ('They're Lies'), but the core message remains identical. Grammatical variations (e.g., 'womens' vs. 'Women's', 'her husband' vs. 'Husband') do not alter the fundamental meaning. The additional details in Sentence 2 enhance specificity but do not change the paraphrased intent.",
+    "predicted_label": 1,
+    "gold_label": 0,
+    "is_correct": false
+  },
+  {
+    "sentence1": "Pokmon Go players took 26% more steps than before using the app , a new study finds ",
+    "sentence2": "The fitness app dream result Pokemon Go could add 2.83 million years to users ' lives ",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences discuss the positive health impacts of Pok\u00e9mon Go but focus on different outcomes. Sentence 1 directly references a 26% increase in steps taken by users, based on a study. Sentence 2 hypothesizes that the app could extend users' lifespans by 2.83 million years, which is a projected long-term effect rather than a direct measurement of activity. While related, the specific metrics and immediacy of the results differ, indicating distinct aspects of the app's impact.\",\n  \"output\": 0\n}",
+    "reasoning": "Both sentences discuss the positive health impacts of Pok\u00e9mon Go but focus on different outcomes. Sentence 1 directly references a 26% increase in steps taken by users, based on a study. Sentence 2 hypothesizes that the app could extend users' lifespans by 2.83 million years, which is a projected long-term effect rather than a direct measurement of activity. While related, the specific metrics and immediacy of the results differ, indicating distinct aspects of the app's impact.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  }
+]

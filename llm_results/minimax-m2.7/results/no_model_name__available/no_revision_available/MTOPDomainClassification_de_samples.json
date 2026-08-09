@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Schicke an den Motorrad-Chat eine Videonachricht",
+        "model_raw_output": "{\n  \"reasoning\": \"The user wants to send a video message to a specific chat called 'Motorrad-Chat' (motorcycle chat). This is a messaging action, specifically sending a video message to a chat conversation.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "Rufe Loren an",
+        "model_raw_output": "{\n  \"reasoning\": \"The German phrase 'Rufe Loren an' translates to 'Call Loren' in English. This is a direct instruction to initiate a phone call to a contact named 'Loren'. The intent is clearly about making a phone call, which falls under the 'calling' domain.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Stelle meinen Status als vielleicht ein f\u00fcr das zweite Event",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance is about setting/updating a status message ('Stelle meinen Status ... ein'), specifically for an event context. This is a messaging-related action, as status updates are typically a feature in messaging applications like WhatsApp or similar platforms. The mention of 'zweites Event' (second event) indicates the user wants to set a status related to a specific event, which falls under the messaging domain.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "event",
+        "is_correct": false
+    },
+    {
+        "input_text": "Rufe Josiah \u00fcber WhatsApp an",
+        "model_raw_output": "{\n  \"reasoning\": \"The user wants to make a call through WhatsApp. While this is technically a call, the specific mention of 'WhatsApp' indicates the user wants to use a messaging platform for this action. WhatsApp is primarily classified as a messaging application, and its calling feature is an extension of that messaging platform. Therefore, the intent domain is 'messaging'.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "calling",
+        "is_correct": false
+    },
+    {
+        "input_text": "Starte einen Timer f\u00fcr das Kalbsfleisch",
+        "model_raw_output": "{\n  \"reasoning\": \"The user explicitly asks to 'start a timer' (Starte einen Timer). While 'Kalbsfleisch' (veal) specifies what the timer is for, the core intent is clearly to set a countdown timer, which falls under the timer domain.\",\n  \"output\": \"timer\"\n}",
+        "parsed_output": "timer",
+        "ground_truth": "timer",
+        "is_correct": true
+    }
+]

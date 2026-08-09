@@ -1,0 +1,31 @@
+{
+    "task": "StackExchangeClusteringP2P",
+    "model_raw_output_preview": "{\"assignments\":[0,14,16,7,11,27,11,1,23,1,3,27,10,6,8,7,12,26,7,0,1,12,8,21,11,8,7,9,3,0,14,16,3,9,3,0,6,9,23,0,23,13,4,8,14,6,14,0,9,13,19,2,26,5,16,20,5,12,0,23,27,24,14,24,7,1,1,2,6,19,20,19,7,9,3,22,16,7,12,24,18,25,17,1,6,11,3,26,17,3,14,9,3,11,5,14,11,28,1,14,21,9,9,11,1,7,12,9,10,3,9,1,3,8,3,11,18,5,27,13,8,18,7,3,16,0,12,0,11,7,3,5,3,12,8,7,15,14,13,15,19,8,24,24,24,24,0,8,3,2,19,12,2,2,15,0,12,9,14,18,16,19,18,23,3,7,14,0,11,3,3,27,22,24,28,15,3,26,4,9,1,0,3,6,11,10,5,7,7,6,9,2,17,19,5,3,1,25,3,3]}",
+    "samples": [
+        {
+            "input_text": "How to Implement Trap Damage Unity Currently, I have a 2D platformer game, and I want to implement a function that can make the player die and go back to the start or a checkpoint when he interacts with a weapon or trap.\nWhat I have in my scene is a sprite with a Rigidbody on it and a trap sprite with a BoxCollider2D on it which is set to trigger.\nHow can I make my player go back to the start when he hits the trap?",
+            "predicted_cluster": 0,
+            "gold_cluster": "unity"
+        },
+        {
+            "input_text": "Unity3d vector and matrix operations I have the following three vectors:\n\n\nposA: (1,2,3)\nnormal:   (0,1,0)\noffset:   (2,3,1)\n\n\nI want to get the vector representing the position which is offset in the direction of the normal from posA.\n\nI know how to do this by cheating (not using matrix operations):\n\nVector3 result = new Vector3(posA.x + normal.x*offset.x\n                             posA.y + normal.y*offset.y,\n                             posA.z + normal.z*offset.z);\n\n\nI know how to do this mathematically\nNote: [] indicates a column vector, {} indicates a row vector\n\nresult = [1,2,3] + {2,3,1}*{[0,0,0],[0,1,0],[0,0,0]}\n\n\nWhat I don't know is which is better to use and if it's the latter how do I do this in unity? I only know of 4x4 matrices in unity. I don't like the first option because you are instantiating a new vector instead of just modifying the original. Suggestions?\n\nNote: by asking which is better, I am asking for a quantifiable reason, not just a preference.",
+            "predicted_cluster": 14,
+            "gold_cluster": "unity"
+        },
+        {
+            "input_text": "Managing animations for object state transitions I'm looking for an optimized way to handle simple state transitions on my game objects. By \"simple\" I mean not more than 1-2 actions per object, and most algorithms are linear.\n\nFor example, I have an UI element that implements a switch (like a light switch) and it has two states - \"up\" (lights turned on) and \"down\" (lights turned off). Let's say I want to make it so that I can switch the switch from one state to another, and update its presentation in a smooth way using linear interpolation (move the foreground sprite up or down).\n\nThe question is if I should always check if the object should update its state (every frame), or should I add/remove this object from the update loop on demand, or is there any other (better) way of handling this situation?\n\nCurrently I have it implemented the following way: my object has a boolean variable called animated and in my onframe loop I have the following code:\n\nif (this.animated)\n    /* calculate new positions for the sprite */ \nelse\n    /* do nothing */`\n\n\nAnd it would appear to me that this kind of code is not very well optimized. How to handle this kind of things better?",
+            "predicted_cluster": 16,
+            "gold_cluster": "animation"
+        },
+        {
+            "input_text": "Can I publish an indie game on XBL made with directx So I know that XNA can be used to publish games on Xbox Live Indie Games and I signed up for the $100/year subscription thing.\n\nI haven't downloaded XNA yet but I was wondering if I can publish a game made entirely in DirectX onto it or do I have to go through XNA?",
+            "predicted_cluster": 7,
+            "gold_cluster": "directx"
+        },
+        {
+            "input_text": "How to select an image on the J2ME Canvas I am working on J2ME. I have got a canvas, with a layout of a Checkers board. At the position of pieces, I have placed images. The point at which I got stuck is, how to select/highlite a piece's image for a move. I can't figure out the appropriate commandListener and how to handle this keyPressedEvent.\nI understood the logic of this game from:\nDraughts AI\n\nAny suggestions?",
+            "predicted_cluster": 11,
+            "gold_cluster": "java"
+        }
+    ]
+}

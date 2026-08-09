@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "j'ai besoin de toi pour marquer lundi prochain",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's statement 'j'ai besoin de toi pour marquer lundi prochain' translates to 'I need you to mark next Monday.' The action 'marquer' (to mark) implies setting a reminder or event on a specific date. The context involves scheduling an event (next Monday), which aligns with the 'calendar_set' intent in the MASSIVE list, as it involves creating or setting a calendar event.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "jouons ma chanson la plus \u00e9couter",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's utterance 'jouons ma chanson la plus \u00e9couter' translates to 'let's play my most listened song' in English. The action requested is to play music, specifically the user's most-listened song. This directly corresponds to the intent 'play_music', which involves initiating music playback.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "d\u00e9sactiver l'alarme du trois heure du soir",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's utterance translates to 'deactivate the alarm at three in the afternoon.' The key action is 'd\u00e9sactiver' (deactivate/remove), and the subject is 'alarme' (alarm). This directly corresponds to the intent 'alarm_remove,' which involves disabling or deleting an existing alarm. The mention of a specific time ('trois heure du soir') provides context but does not change the core intent.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "annuler l'alarme",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's utterance 'annuler l'alarme' translates to 'cancel the alarm' in English. The intent involves removing an existing alarm, which directly corresponds to the 'alarm_remove' category in the provided list.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "rappelle-moi mon emploi du temps pour l'apr\u00e8s-midi",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to be reminded of their schedule for the afternoon, which involves checking their calendar. The key phrases are 'rappelle-moi' (remind me) and 'emploi du temps' (schedule), indicating a need to query calendar information. This aligns with the 'calendar_query' intent.\",\n  \"output\": \"calendar_query\"\n}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

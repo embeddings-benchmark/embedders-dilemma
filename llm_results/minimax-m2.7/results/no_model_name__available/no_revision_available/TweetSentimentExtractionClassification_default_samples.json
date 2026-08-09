@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Last session of the day  http://twitpic.com/67ezh",
+        "model_raw_output": "{\"reasoning\": \"The tweet 'Last session of the day' is a neutral, factual statement about someone's schedule or activity. It doesn't express positive emotions like excitement or happiness, nor does it express negative emotions like frustration or sadness. It's simply an observation about timing. The attached image (via Twitpic link) isn't accessible to analyze, so classification is based solely on the text.\", \"output\": \"neutral\"}",
+        "parsed_output": "neutral",
+        "ground_truth": "neutral",
+        "is_correct": true
+    },
+    {
+        "input_text": "I THINK EVERYONE HATES ME ON HERE   lol",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet expresses feelings of being disliked or hated by others ('EVERYONE HATES ME'), which is inherently a negative sentiment. While the 'lol' at the end suggests the person may be using humor or self-deprecation, it doesn't negate the underlying negative feeling being expressed. The capitalization of 'THINK' and 'EVERYONE' also conveys intensity and frustration. The self-deprecating joke still centers on a negative self-perception.\",\n  \"output\": \"negative\"\n}",
+        "parsed_output": "negative",
+        "ground_truth": "negative",
+        "is_correct": true
+    },
+    {
+        "input_text": " .. and you`re on twitter! Did the tavern bore you that much?",
+        "model_raw_output": "{\n  \"reasoning\": \"This is a playful, teasing message directed at someone who seems to have left 'the tavern' (likely a social space, game, or stream) to be on Twitter instead. The tone is light-hearted and conversational rather than angry or upset. While 'bore' has a slight negative connotation, the overall context suggests friendly teasing rather than genuine criticism. There's no strong positive emotion (no praise or excitement) and no strong negative emotion (no complaint or frustration). It's a neutral, casual remark.\",\n  \"output\": \"neutral\"\n}",
+        "parsed_output": "neutral",
+        "ground_truth": "neutral",
+        "is_correct": true
+    },
+    {
+        "input_text": " guess that depends on if you want to be on the jury",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet is a neutral statement that simply poses a conditional question about whether someone wants to serve on a jury. There is no strong emotional language, no praise or criticism, and no expressions of happiness, sadness, anger, or frustration. The phrase 'guess that depends' indicates uncertainty or a conditional stance but does not convey positive or negative sentiment.\",\n  \"output\": \"neutral\"\n}",
+        "parsed_output": "neutral",
+        "ground_truth": "neutral",
+        "is_correct": true
+    },
+    {
+        "input_text": "resorted to eating Mickey Ds ALONE.",
+        "model_raw_output": "{\n  \"reasoning\": \"The phrase 'resorted to' conveys reluctance or a sense of having no better option, which carries a negative connotation. Combined with the emphasis on being 'ALONE,' the tweet expresses feelings of solitude or dissatisfaction. Overall, the sentiment is negative.\",\n  \"output\": \"negative\"\n}",
+        "parsed_output": "negative",
+        "ground_truth": "neutral",
+        "is_correct": false
+    }
+]

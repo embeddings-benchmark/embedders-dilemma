@@ -1,0 +1,37 @@
+{
+  "dataset_revision": "b53fc23a1dfcb4659b288319dce4f5f3e750c73c",
+  "task_name": "LLMHumanEvalRetrieval",
+  "mteb_version": "2.3.0",
+  "scores": {
+    "test": [
+      {
+        "recall@1": 0.99,
+        "recall@2": 0.99,
+        "recall@3": 0.99,
+        "recall@5": 0.99,
+        "mrecall@1": 0.99,
+        "mrecall@2": 0.99,
+        "mrecall@3": 0.99,
+        "mrecall@5": 0.99,
+        "capped_recall@1": 0.99,
+        "main_score": 0.99,
+        "usage_stats": {
+          "input_tokens": 1138551,
+          "cached_tokens": 0,
+          "output_tokens": 39116,
+          "thinking_tokens": 37118,
+          "total_tokens": 1177667,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 84.06010103225708,
+  "kg_co2_emissions": null
+}

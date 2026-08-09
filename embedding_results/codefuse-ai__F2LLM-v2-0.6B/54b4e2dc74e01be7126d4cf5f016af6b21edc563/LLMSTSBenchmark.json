@@ -1,0 +1,27 @@
+{
+  "dataset_revision": "86bbaf4470f501ee381411836b3a22f112bfe42a",
+  "task_name": "LLMSTSBenchmark",
+  "mteb_version": "2.11.6",
+  "scores": {
+    "test": [
+      {
+        "pearson": 0.872513,
+        "spearman": 0.876194,
+        "cosine_pearson": 0.872513,
+        "cosine_spearman": 0.876194,
+        "manhattan_pearson": 0.871081,
+        "manhattan_spearman": 0.875728,
+        "euclidean_pearson": 0.871687,
+        "euclidean_spearman": 0.876092,
+        "main_score": 0.876194,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 4.8804931640625,
+  "kg_co2_emissions": null,
+  "date": 1774406726.404824
+}

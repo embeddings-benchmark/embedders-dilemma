@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "In una mossa largamente vista come sorprendente, la Banca d'Inghilterra alz\u00f2 i tassi d'interesse inglesi dal 5% al 5,25%, il massimo in cinque anni.",
+    "sentence2": "I tassi d'interesse inglesi salirono dal 5% al 5,25%.",
+    "model_raw_output": "{\"reasoning\": \"Sentence 1 states that the Bank of England 'alz\u00f2' (raised) English interest rates from 5% to 5.25%. Sentence 2 states that English interest rates 'salirono' (rose) from 5% to 5.25%. Since Sentence 1 explicitly states that the Bank raised the rates to 5.25%, it logically follows that the rates did rise to that level. The additional information in Sentence 1 (that it was surprising, that it was the highest in five years) does not contradict Sentence 2 but rather provides context for the rate increase. The semantic relationship is direct: if the Bank raised the rates to 5.25%, then the rates rose to 5.25%. Therefore, Sentence 2 is semantically entailed by Sentence 1.\", \"output\": 1}",
+    "reasoning": "Sentence 1 states that the Bank of England 'alz\u00f2' (raised) English interest rates from 5% to 5.25%. Sentence 2 states that English interest rates 'salirono' (rose) from 5% to 5.25%. Since Sentence 1 explicitly states that the Bank raised the rates to 5.25%, it logically follows that the rates did rise to that level. The additional information in Sentence 1 (that it was surprising, that it was the highest in five years) does not contradict Sentence 2 but rather provides context for the rate increase. The semantic relationship is direct: if the Bank raised the rates to 5.25%, then the rates rose to 5.25%. Therefore, Sentence 2 is semantically entailed by Sentence 1.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Ieri \u00e8 emerso che il Ministro della Difesa ha respinto una richiesta dall'Argentina di autorizzare un rifornimento limitato di parti di ricambio prodotte dal Regno Unito per la marina argentina, cominciato durante la Guerra del Golfo.",
+    "sentence2": "Il Ministro della Difesa del Regno Unito ha respinto una richiesta di rifornimenti dell'Argentina.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that the (UK) Defence Minister rejected a request from Argentina to authorise a limited supply of spare parts produced by the United Kingdom for the Argentine navy, a request that began during the Gulf War. The hypothesis simply asserts that the United Kingdom\u2019s Defence Minister rejected a request for supplies from Argentina, which is a less specific but true statement that follows from the premise. Therefore the hypothesis is semantically entailed.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise states that the (UK) Defence Minister rejected a request from Argentina to authorise a limited supply of spare parts produced by the United Kingdom for the Argentine navy, a request that began during the Gulf War. The hypothesis simply asserts that the United Kingdom\u2019s Defence Minister rejected a request for supplies from Argentina, which is a less specific but true statement that follows from the premise. Therefore the hypothesis is semantically entailed.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "In novembre, l'unit\u00e0 organizz\u00f2 un'esposizione di falsi al V&A per mettere in luce la crescente diffusione e sofisticazione del crimine d'arte.",
+    "sentence2": "Il crimine d'arte \u00e8 in aumento.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise explicitly states that the exhibition was organized to 'highlight the growing diffusion and sophistication of art crime' ('crescente diffusione ... del crimine d'arte'). This directly asserts that art crime is increasing, which matches the hypothesis 'Il crimine d'arte \u00e8 in aumento.' Therefore the hypothesis follows semantically from the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise explicitly states that the exhibition was organized to 'highlight the growing diffusion and sophistication of art crime' ('crescente diffusione ... del crimine d'arte'). This directly asserts that art crime is increasing, which matches the hypothesis 'Il crimine d'arte \u00e8 in aumento.' Therefore the hypothesis follows semantically from the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Belknap fu accusato da un voto unanime della Camera dei Rappresentanti di aver presumibilmente ricevuto denaro in cambio di assegnazioni di posti di lavoro.",
+    "sentence2": "Belknap fu accusato di aver ricevuto denaro in cambio di assegnazioni di posti di lavoro.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that Belknap was accused by a unanimous vote of the House of Representatives of presumably having received money in exchange for job assignments. Sentence 2 states that Belknap was accused of having received money in exchange for job assignments. The core accusation in Sentence 1 entails the accusation in Sentence 2, as the additional details (unanimous vote, presumably) do not contradict and are consistent with the accusation. Therefore, if Sentence 1 is true, Sentence 2 must also be true.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that Belknap was accused by a unanimous vote of the House of Representatives of presumably having received money in exchange for job assignments. Sentence 2 states that Belknap was accused of having received money in exchange for job assignments. The core accusation in Sentence 1 entails the accusation in Sentence 2, as the additional details (unanimous vote, presumably) do not contradict and are consistent with the accusation. Therefore, if Sentence 1 is true, Sentence 2 must also be true.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "I robot sono stati usati nei lavori di assemblaggio finale delle automobili e per pittura a spruzzo e i fornitori sperano di essere capaci di sviluppare questi mercati adesso che la tecnologia \u00e8 stata provata.",
+    "sentence2": "I robot sono usati in lavori di assemblaggio.",
+    "model_raw_output": "{\n  \"reasoning\": \"La premessa afferma che i robot sono stati impiegati nei lavori di assemblaggio finale delle automobili (e anche per la pittura a spruzzo). Questo implica che i robot sono utilizzati in attivit\u00e0 di assemblaggio. L'ipotesi 'I robot sono usati in lavori di assemblaggio' \u00e8 una formulazione pi\u00f9 generale dello stesso fatto, per cui il significato dell'ipotesi segue dalla premessa.\",\n  \"output\": 1\n}",
+    "reasoning": "La premessa afferma che i robot sono stati impiegati nei lavori di assemblaggio finale delle automobili (e anche per la pittura a spruzzo). Questo implica che i robot sono utilizzati in attivit\u00e0 di assemblaggio. L'ipotesi 'I robot sono usati in lavori di assemblaggio' \u00e8 una formulazione pi\u00f9 generale dello stesso fatto, per cui il significato dell'ipotesi segue dalla premessa.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  }
+]

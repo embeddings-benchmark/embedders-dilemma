@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "wir brauchen rosa",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'wir brauchen rosa' (we need pink) is highly vague and lacks specific context, domain indicators, or actionable commands. It does not clearly relate to any specialized function like alarm, music, weather, IoT, or lists. Without additional context, it falls under the general category for unclear or open-ended requests.\",\n  \"output\": \"general\"\n}",
+        "parsed_output": "general",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "wie ist die einstellung f\u00fcr die helligkeit an meinem bildschirm",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking a direct question about the current brightness setting on their screen. This is a factual inquiry seeking specific information about a device configuration, which aligns best with the question-answering (qa) scenario rather than triggering a specific functional action like setting an alarm or playing media.\",\n  \"output\": \"qa\"\n}",
+        "parsed_output": "qa",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "wie sp\u00e4t ist es in schweden",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the current time in a specific location (Sweden). This is a direct request for time-related information, which aligns perfectly with the 'datetime' scenario.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "l\u00f6sche meinen wecker f\u00fcr sieben uhr",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's utterance explicitly mentions 'wecker' (alarm) and uses the verb 'l\u00f6sche' (delete), indicating a direct request to remove a scheduled alarm. This clearly aligns with the 'alarm' scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "welche wecker habe ich gestellt",
+        "model_raw_output": "{\n  \"reasoning\": \"The user asks in German 'welche wecker habe ich gestellt' (which alarms have I set). This is a direct inquiry about the status/configuration of their alarm clocks, which clearly matches the alarm scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

@@ -1,0 +1,125 @@
+{
+  "dataset_revision": "7a79fd41b024091522d04e84d8d9dc93d223cf8c",
+  "task_name": "STS22.v2",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "cosine_spearman": 0.692397,
+        "cosine_pearson": 0.723957,
+        "usage_stats": {
+          "input_tokens": 257873,
+          "cached_tokens": 13964,
+          "output_tokens": 59637,
+          "thinking_tokens": 35810,
+          "total_tokens": 317510,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.692397,
+        "hf_subset": "en",
+        "languages": [
+          "eng-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.689504,
+        "cosine_pearson": 0.704652,
+        "usage_stats": {
+          "input_tokens": 620141,
+          "cached_tokens": 36614,
+          "output_tokens": 178867,
+          "thinking_tokens": 119438,
+          "total_tokens": 799008,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.689504,
+        "hf_subset": "de",
+        "languages": [
+          "deu-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.687808,
+        "cosine_pearson": 0.708021,
+        "usage_stats": {
+          "input_tokens": 228099,
+          "cached_tokens": 14299,
+          "output_tokens": 80229,
+          "thinking_tokens": 54048,
+          "total_tokens": 308328,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.687808,
+        "hf_subset": "es",
+        "languages": [
+          "spa-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.847329,
+        "cosine_pearson": 0.850581,
+        "usage_stats": {
+          "input_tokens": 150529,
+          "cached_tokens": 5726,
+          "output_tokens": 34815,
+          "thinking_tokens": 21934,
+          "total_tokens": 185344,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.847329,
+        "hf_subset": "fr",
+        "languages": [
+          "fra-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.673776,
+        "cosine_pearson": 0.681148,
+        "usage_stats": {
+          "input_tokens": 282925,
+          "cached_tokens": 18607,
+          "output_tokens": 94136,
+          "thinking_tokens": 62346,
+          "total_tokens": 377061,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.673776,
+        "hf_subset": "ru",
+        "languages": [
+          "rus-Cyrl"
+        ]
+      },
+      {
+        "cosine_spearman": 0.685957,
+        "cosine_pearson": 0.711636,
+        "usage_stats": {
+          "input_tokens": 500851,
+          "cached_tokens": 23495,
+          "output_tokens": 174915,
+          "thinking_tokens": 116136,
+          "total_tokens": 675766,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.685957,
+        "hf_subset": "zh",
+        "languages": [
+          "cmn-Hans"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 1195.9540050029755,
+  "kg_co2_emissions": null
+}

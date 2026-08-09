@@ -1,0 +1,86 @@
+[
+  {
+    "query_id": "0",
+    "query_text": "S\u00f8nnen vil gerne lave #pebern\u00f8dder. De par gange jeg har pr\u00f8vet det, blev de kun OK. Er der nogen, der kan anbefale en opskrift? #twitterhjerne",
+    "model_raw_output": "Document ID: 0\nTITLE: Jeg plejer at lave dem her:\n\nhttps://dk-kogebogen.dk/opskrifter/25399/anns-pebernoedder\n\nMen jeg nedskalerer opskriften, det er for stor en portion.\n\nJeg synes de skal laves ret sm\u00e5 for at blive gode.\nMen lette at lave\n\nDocument ID: 86\nTITLE: Ja ja. https://valdemarsro.dk/pebernoedder/ Jeg ville nok overveje brun farin (puddersukker) og en smule psyko-sirup. Og hvad er der for\u00f8vrigt galt med honning? S\u00e5 bliver det ikke HELT efter Karen Wolffs opskrift, men hvad s\u00e5?\n\nFinal Answer: [0, 86]",
+    "parsed_ids": [
+      "1",
+      "2"
+    ],
+    "gold_ids": [
+      "1",
+      "2"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "3",
+    "query_text": "Hilfe\nJeg skal lave en dessert p\u00e5 s\u00f8ndag, som er laktosefri. Som i HELT fri for m\u00e6lkeprotein. \nOg det er ikke nok med laktosefri produkter, da der kan forekomme forarbejdet m\u00e6lkeprotein i produkterne. \n\n#twitterhjerne",
+    "model_raw_output": "[211]\n[220]\n[229]\n[236]\n\nFinal Answer: [211, 220, 229, 236]",
+    "parsed_ids": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "gold_ids": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "8",
+    "query_text": "Hej #ultratwitteragf og resten af Aarhus. Hvor omkring Musikhuset skal man spise duru ... jeg mener rullekebab en fredag nat?\n#twitterhjerne",
+    "model_raw_output": "ID: 1 | TITLE: None\nID: 10 | TITLE: None\nID: 253 | TITLE: None\n\nFinal Answer: [1, 10, 253]",
+    "parsed_ids": [
+      "10",
+      "11",
+      "9"
+    ],
+    "gold_ids": [
+      "9",
+      "10",
+      "11"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "12",
+    "query_text": "Min datter vil gerne til #Hawaii til n\u00e6ste \u00e5r, men kan ikke et rejsebureau der kan tilbyde hende en pakkerejse. \nHvis hun kan komme til at arbejde i en m\u00e5neds tid eller to, vil hun ogs\u00e5 gerne det.\nNogen der har gode r\u00e5d eller erfaringer? #twitterhjerne",
+    "model_raw_output": "The following documents are most relevant to the query:\nID: 26 | TITLE: Myplanet har vi haft gode erfaringer med\nID: 34 | TITLE: Jeg har boet der i et par \u00e5r. Det er nemmest at planl\u00e6gge turen selv. Jobs er til at finde, men man skal kende nogen. Der er meget dyrt at bo og spise. Men hostels findes.\nID: 43 | TITLE: ysk rejsebureau eller Nyhavn.\nID: 51 | TITLE: Dr\u00f8mmerejser her p\u00e5 Frb\n\nFinal Answer: [26, 34, 43, 51]",
+    "parsed_ids": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "gold_ids": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "17",
+    "query_text": "Hvis man vil l\u00e6se den bedste, objektive historielitteratur om Israel, Pal\u00e6stina og Libanon, hvilke b\u00f8ger skal man s\u00e5 have fat i? #twitterhjerne",
+    "model_raw_output": "ID: 68 | TITLE: None\nID: 77 | TITLE: None\nID: 87 | TITLE: None\nID: 95 | TITLE: None\n\nFinal Answer: [68, 77, 87, 95]",
+    "parsed_ids": [
+      "18",
+      "19",
+      "20",
+      "21"
+    ],
+    "gold_ids": [
+      "18",
+      "19",
+      "20",
+      "21"
+    ],
+    "is_correct": true
+  }
+]

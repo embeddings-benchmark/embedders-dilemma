@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "allergy-bullying ? apparently this is a real problem .",
+    "sentence2": "allergy bullying : when food is a weapon",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences center on the exact same topic: 'allergy bullying.' Sentence 1 acknowledges it as a recognized real-world problem, while Sentence 2 provides a descriptive subtitle focusing on how food is used as a weapon in this context. They are highly semantically related and likely function as headlines or captions for the same or closely related articles. The difference lies only in their specific framing (general acknowledgment vs. illustrative mechanism) rather than fundamental meaning, which justifies a high similarity score.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences center on the exact same topic: 'allergy bullying.' Sentence 1 acknowledges it as a recognized real-world problem, while Sentence 2 provides a descriptive subtitle focusing on how food is used as a weapon in this context. They are highly semantically related and likely function as headlines or captions for the same or closely related articles. The difference lies only in their specific framing (general acknowledgment vs. illustrative mechanism) rather than fundamental meaning, which justifies a high similarity score.",
+    "predicted_sim": 4.2,
+    "gold_score": 3.0,
+    "abs_diff": 1.2000000000000002
+  },
+  {
+    "sentence1": "they know that the video doesn 't show a gas chamber .",
+    "sentence2": "the bottom line is that the video clip doesn 't show a gas chamber .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the exact same core proposition: that the video does not show a gas chamber. The difference lies only in the introductory framing ('they know that' versus 'the bottom line is that'), which slightly alters the rhetorical emphasis from shared knowledge to a concluding summary. Since the factual meaning is identical and the variation is purely stylistic/framing-based, the semantic similarity is very high, though not completely identical in phrasing or perspective.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences share the exact same core proposition: that the video does not show a gas chamber. The difference lies only in the introductory framing ('they know that' versus 'the bottom line is that'), which slightly alters the rhetorical emphasis from shared knowledge to a concluding summary. Since the factual meaning is identical and the variation is purely stylistic/framing-based, the semantic similarity is very high, though not completely identical in phrasing or perspective.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.6,
+    "abs_diff": 0.09999999999999964
+  },
+  {
+    "sentence1": "some believe the ' right ' is most important .",
+    "sentence2": "some believe not slaughtering the unborn is most important .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share an identical syntactic structure and convey that a specific priority is held by 'some'. Sentence 1 references the broad political/ideological term 'the right', while Sentence 2 specifies a concrete moral stance ('not slaughtering the unborn'), which is a core issue strongly associated with the political right in modern discourse. While they are thematically linked and the second sentence can function as a specific instantiation of the beliefs associated with the first, they are not semantically equivalent due to the difference in scope (general ideological label vs. specific policy/moral position). This results in a moderate level of semantic similarity.\",\n  \"output\": 3.0\n}",
+    "reasoning": "Both sentences share an identical syntactic structure and convey that a specific priority is held by 'some'. Sentence 1 references the broad political/ideological term 'the right', while Sentence 2 specifies a concrete moral stance ('not slaughtering the unborn'), which is a core issue strongly associated with the political right in modern discourse. While they are thematically linked and the second sentence can function as a specific instantiation of the beliefs associated with the first, they are not semantically equivalent due to the difference in scope (general ideological label vs. specific policy/moral position). This results in a moderate level of semantic similarity.",
+    "predicted_sim": 3.0,
+    "gold_score": 1.2,
+    "abs_diff": 1.8
+  },
+  {
+    "sentence1": "brief clashes with police in belfast",
+    "sentence2": "mourners clash with police in tunisia",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share a core action ('clashes with police'), indicating a superficial topical overlap. However, they describe entirely different events with distinct participants (unspecified groups vs. 'mourners') and completely different locations ('belfast' vs. 'tunisia'). The lack of shared specific details, context, and entities means they are only loosely related semantically, describing separate news incidents that happen to share a general event type.\",\n  \"output\": 1.5\n}",
+    "reasoning": "Both sentences share a core action ('clashes with police'), indicating a superficial topical overlap. However, they describe entirely different events with distinct participants (unspecified groups vs. 'mourners') and completely different locations ('belfast' vs. 'tunisia'). The lack of shared specific details, context, and entities means they are only loosely related semantically, describing separate news incidents that happen to share a general event type.",
+    "predicted_sim": 1.5,
+    "gold_score": 1.2,
+    "abs_diff": 0.30000000000000004
+  },
+  {
+    "sentence1": "a train is running on the tracks .",
+    "sentence2": "a train is running down the track in a rural area .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the exact same core event: a train moving along a track. Sentence 2 simply adds a specific contextual detail ('in a rural area') that is absent in Sentence 1. This additional information does not contradict or fundamentally alter the main meaning, only providing extra scene description. Since the subject, action, and setting (track) are identical, the sentences are highly semantically similar, though the extra detail prevents a perfect 5.0.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences describe the exact same core event: a train moving along a track. Sentence 2 simply adds a specific contextual detail ('in a rural area') that is absent in Sentence 1. This additional information does not contradict or fundamentally alter the main meaning, only providing extra scene description. Since the subject, action, and setting (track) are identical, the sentences are highly semantically similar, though the extra detail prevents a perfect 5.0.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.0,
+    "abs_diff": 0.5
+  }
+]

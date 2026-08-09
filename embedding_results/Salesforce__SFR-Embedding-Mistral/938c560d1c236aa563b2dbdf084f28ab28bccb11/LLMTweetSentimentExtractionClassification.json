@@ -1,0 +1,140 @@
+{
+  "dataset_revision": "5e847f1f41ec9089cfdb7ea7b2852a23bd5ea7c8",
+  "task_name": "LLMTweetSentimentExtractionClassification",
+  "mteb_version": "2.11.6",
+  "scores": {
+    "test": [
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.596,
+            "f1": 0.59241,
+            "f1_weighted": 0.578573,
+            "precision": 0.599962,
+            "precision_weighted": 0.602603,
+            "recall": 0.623734,
+            "recall_weighted": 0.596,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.618,
+            "f1": 0.621269,
+            "f1_weighted": 0.611956,
+            "precision": 0.637153,
+            "precision_weighted": 0.634476,
+            "recall": 0.636675,
+            "recall_weighted": 0.618,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.604,
+            "f1": 0.608559,
+            "f1_weighted": 0.594498,
+            "precision": 0.609993,
+            "precision_weighted": 0.604024,
+            "recall": 0.62496,
+            "recall_weighted": 0.604,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.596,
+            "f1": 0.601883,
+            "f1_weighted": 0.596871,
+            "precision": 0.606718,
+            "precision_weighted": 0.600005,
+            "recall": 0.599325,
+            "recall_weighted": 0.596,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.6,
+            "f1": 0.604895,
+            "f1_weighted": 0.596405,
+            "precision": 0.600383,
+            "precision_weighted": 0.596448,
+            "recall": 0.612868,
+            "recall_weighted": 0.6,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.596,
+            "f1": 0.597611,
+            "f1_weighted": 0.587241,
+            "precision": 0.598001,
+            "precision_weighted": 0.597256,
+            "recall": 0.61643,
+            "recall_weighted": 0.596,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.544,
+            "f1": 0.552247,
+            "f1_weighted": 0.542934,
+            "precision": 0.550719,
+            "precision_weighted": 0.54391,
+            "recall": 0.555702,
+            "recall_weighted": 0.544,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.568,
+            "f1": 0.570861,
+            "f1_weighted": 0.55816,
+            "precision": 0.566887,
+            "precision_weighted": 0.563179,
+            "recall": 0.589441,
+            "recall_weighted": 0.568,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.562,
+            "f1": 0.565865,
+            "f1_weighted": 0.555369,
+            "precision": 0.566604,
+            "precision_weighted": 0.561187,
+            "recall": 0.578841,
+            "recall_weighted": 0.562,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.634,
+            "f1": 0.636765,
+            "f1_weighted": 0.62681,
+            "precision": 0.633463,
+            "precision_weighted": 0.630524,
+            "recall": 0.650249,
+            "recall_weighted": 0.634,
+            "ap": null,
+            "ap_weighted": null
+          }
+        ],
+        "accuracy": 0.5918,
+        "f1": 0.595237,
+        "f1_weighted": 0.584882,
+        "precision": 0.596988,
+        "precision_weighted": 0.593361,
+        "recall": 0.608823,
+        "recall_weighted": 0.5918,
+        "ap": NaN,
+        "ap_weighted": NaN,
+        "main_score": 0.5918,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 143.7483241558075,
+  "kg_co2_emissions": null,
+  "date": 1774409283.981382
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "open again , open anew",
+    "sentence2": "open again or anew .",
+    "model_raw_output": "Looking at these two sentences:\n\n**Sentence 1:** \"open again, open anew\"\n**Sentence 2:** \"open again or anew\"\n\nBoth sentences express the same imperative meaning: something should be opened either \"again\" or \"anew\" (meaning in a new way/from the beginning). The key semantic components are identical - both contain \"open,\" \"again,\" and \"anew.\"\n\nThe only difference is structural:\n- Sentence 1 uses a comma to link two parallel imperatives\n- Sentence 2 uses \"or\" to present two alternatives in a single clause\n\nBoth convey the exact same meaning with the same core vocabulary.\n\n**Output:**\n```json\n{\n  \"reasoning\": \"Both sentences express the identical imperative meaning about opening something 'again' or 'anew'. They share the same core words ('open', 'again', 'anew') and convey the same message. The only difference is stylistic - one uses a comma between parallel phrases while the other uses 'or' to connect alternatives. The semantic content is essentially the same.\",\n  \"output\": 4.5\n}",
+    "reasoning": "",
+    "predicted_sim": 4.5,
+    "gold_score": 5.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "only a month ago , mubarak dismissed demands for constitutional reform as \" futile . \"",
+    "sentence2": "only a month before , , the demands of constitutional reform in the five \" .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences discuss the same core topic: demands for constitutional reform and a time reference of about a month ago/before. However, Sentence 2 appears to be incomplete or corrupted (ends with 'in the five' which is grammatically unclear), lacks a clear verb/predicate, and cannot be fully interpreted. The shared elements (Mubarak, constitutional reform, temporal reference 'a month') indicate moderate semantic relatedness, but the incomplete nature of Sentence 2 prevents a high similarity score.\",\n  \"output\": 3.0\n}",
+    "reasoning": "Both sentences discuss the same core topic: demands for constitutional reform and a time reference of about a month ago/before. However, Sentence 2 appears to be incomplete or corrupted (ends with 'in the five' which is grammatically unclear), lacks a clear verb/predicate, and cannot be fully interpreted. The shared elements (Mubarak, constitutional reform, temporal reference 'a month') indicate moderate semantic relatedness, but the incomplete nature of Sentence 2 prevents a high similarity score.",
+    "predicted_sim": 3.0,
+    "gold_score": 2.5,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "that provision could open the door wide to arbitrariness .",
+    "sentence2": "this regulation opens the door to arbitrariness .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core idea: a legal measure (a 'provision' or a 'regulation') leads to arbitrariness. The differences are minor \u2013 'that provision could open the door wide' vs 'this regulation opens the door' \u2013 which affect certainty and degree but not the essential meaning. Hence they are nearly identical in semantic content.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences convey the same core idea: a legal measure (a 'provision' or a 'regulation') leads to arbitrariness. The differences are minor \u2013 'that provision could open the door wide' vs 'this regulation opens the door' \u2013 which affect certainty and degree but not the essential meaning. Hence they are nearly identical in semantic content.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.25,
+    "abs_diff": 0.25
+  },
+  {
+    "sentence1": "what we are witnessing today is a shift from a muslim identity to an islamist identity .",
+    "sentence2": "we are witnessing today to change a muslim identity for an islamic identity .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences express a similar observation about witnessing a change related to Muslim/Islamic identity in contemporary times. They share the same basic structure of 'we are witnessing today' plus a process of change. However, there are important semantic differences: 1) 'Islamist' vs 'Islamic' have distinct meanings - 'Islamic' refers to the religion generally while 'Islamist' specifically refers to political Islamic movements. 2) Sentence 1 describes a 'shift' with clear directionality (FROM Muslim TO Islamist), while Sentence 2 uses 'change' with 'FOR' (implying replacement with). 3) Sentence 2 has slightly awkward grammar ('to change' as an infinitive purpose clause doesn't fit naturally). The core meaning is partially similar but the specific vocabulary (particularly islamist/islamic) changes the substantive meaning.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences express a similar observation about witnessing a change related to Muslim/Islamic identity in contemporary times. They share the same basic structure of 'we are witnessing today' plus a process of change. However, there are important semantic differences: 1) 'Islamist' vs 'Islamic' have distinct meanings - 'Islamic' refers to the religion generally while 'Islamist' specifically refers to political Islamic movements. 2) Sentence 1 describes a 'shift' with clear directionality (FROM Muslim TO Islamist), while Sentence 2 uses 'change' with 'FOR' (implying replacement with). 3) Sentence 2 has slightly awkward grammar ('to change' as an infinitive purpose clause doesn't fit naturally). The core meaning is partially similar but the specific vocabulary (particularly islamist/islamic) changes the substantive meaning.",
+    "predicted_sim": 2.5,
+    "gold_score": 5.0,
+    "abs_diff": 2.5
+  },
+  {
+    "sentence1": "a person is frying meat in a pan .",
+    "sentence2": "a person is holding a skunk .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the generic structure 'a person is [verb] ...' but their actual content is completely different. Sentence 1 describes cooking meat in a pan, while sentence 2 describes holding a skunk. There is no overlapping meaning, context, or related action, making the sentences unrelated. Therefore, the semantic similarity is effectively zero.\",\n  \"output\": 0.0\n}",
+    "reasoning": "Both sentences share the generic structure 'a person is [verb] ...' but their actual content is completely different. Sentence 1 describes cooking meat in a pan, while sentence 2 describes holding a skunk. There is no overlapping meaning, context, or related action, making the sentences unrelated. Therefore, the semantic similarity is effectively zero.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.75,
+    "abs_diff": 0.75
+  }
+]

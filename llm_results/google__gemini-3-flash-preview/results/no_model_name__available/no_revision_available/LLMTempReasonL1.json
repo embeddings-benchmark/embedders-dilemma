@@ -1,0 +1,35 @@
+{
+  "dataset_revision": "1c61e95df3d70835785db4d70f17d3a16a7bd4ce",
+  "task_name": "LLMTempReasonL1",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "recall@1": 0.78,
+        "recall@2": 0.82,
+        "recall@3": 0.82,
+        "recall@5": 0.82,
+        "mrecall@1": 0.78,
+        "mrecall@2": 0.82,
+        "mrecall@3": 0.82,
+        "mrecall@5": 0.82,
+        "capped_recall@1": 0.78,
+        "main_score": 0.78,
+        "usage_stats": {
+          "input_tokens": 34049480,
+          "output_tokens": 13952,
+          "total_tokens": 37028730,
+          "cached_tokens": 31273560,
+          "cost": 0.0
+        },
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 3527.4418725967407,
+  "kg_co2_emissions": null,
+  "date": 1774226225.06635
+}

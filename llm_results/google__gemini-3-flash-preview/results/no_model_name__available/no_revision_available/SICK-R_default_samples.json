@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "The male, who is dark skinned, is standing on one hand in front of a yellow building",
+    "sentence2": "A black man is break dancing on the pavement",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a dark-skinned male performing an athletic move (standing on one hand) which is a specific characteristic of breakdancing. While Sentence 1 focuses on the visual description of the pose and the background (yellow building), Sentence 2 categorizes the activity as breakdancing and specifies the surface (pavement). They describe the same core event with high semantic overlap.\",\n  \"output\": 4.0\n}",
+    "reasoning": "Both sentences describe a dark-skinned male performing an athletic move (standing on one hand) which is a specific characteristic of breakdancing. While Sentence 1 focuses on the visual description of the pose and the background (yellow building), Sentence 2 categorizes the activity as breakdancing and specifies the surface (pavement). They describe the same core event with high semantic overlap.",
+    "predicted_sim": 4.0,
+    "gold_score": 2.7,
+    "abs_diff": 1.2999999999999998
+  },
+  {
+    "sentence1": "A girl in blue is sliding down a green slide",
+    "sentence2": "A boy in blue are sliding down a green slide",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the exact same action (sliding down a green slide) and the same color of clothing (blue). The only semantic difference is the gender of the subject (girl vs. boy). Sentence 2 has a minor grammatical error ('are' instead of 'is'), but the meaning remains very similar to Sentence 1.\",\n  \"output\": 4.0\n}",
+    "reasoning": "Both sentences describe the exact same action (sliding down a green slide) and the same color of clothing (blue). The only semantic difference is the gender of the subject (girl vs. boy). Sentence 2 has a minor grammatical error ('are' instead of 'is'), but the meaning remains very similar to Sentence 1.",
+    "predicted_sim": 4.0,
+    "gold_score": 3.4,
+    "abs_diff": 0.6000000000000001
+  },
+  {
+    "sentence1": "The cheerleaders are parading and wearing uniforms which are black, pink and white",
+    "sentence2": "The cheerleaders are parading and wearing black, pink and white uniforms",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the exact same information: a group of cheerleaders is parading and wearing uniforms of specific colors (black, pink, and white). The only difference is the grammatical structure used to modify the noun 'uniforms' (a relative clause versus a list of adjectives preceding the noun), which has no impact on the semantic meaning.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey the exact same information: a group of cheerleaders is parading and wearing uniforms of specific colors (black, pink, and white). The only difference is the grammatical structure used to modify the noun 'uniforms' (a relative clause versus a list of adjectives preceding the noun), which has no impact on the semantic meaning.",
+    "predicted_sim": 5.0,
+    "gold_score": 4.8,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "A man is emptying a container made of plastic",
+    "sentence2": "A man is filling a container made of plastic",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences feature the same subject (a man) and the same object (a plastic container). The structure is identical, providing a high degree of topical and contextual overlap. However, the core actions\u2014emptying and filling\u2014are antonyms, meaning the sentences describe opposite processes, which prevents a higher similarity score.\",\n  \"output\": 3.0\n}",
+    "reasoning": "Both sentences feature the same subject (a man) and the same object (a plastic container). The structure is identical, providing a high degree of topical and contextual overlap. However, the core actions\u2014emptying and filling\u2014are antonyms, meaning the sentences describe opposite processes, which prevents a higher similarity score.",
+    "predicted_sim": 3.0,
+    "gold_score": 3.4,
+    "abs_diff": 0.3999999999999999
+  },
+  {
+    "sentence1": "A few people are dancing",
+    "sentence2": "A group of people are dancing",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the exact same activity (dancing) performed by a collection of people. The only difference is the quantifier: 'a few' suggests a small number, while 'a group' is a more general collective noun. While 'a group' could potentially be larger than 'a few', in most contexts they refer to the same scene.\",\n  \"output\": 4.6\n}",
+    "reasoning": "Both sentences describe the exact same activity (dancing) performed by a collection of people. The only difference is the quantifier: 'a few' suggests a small number, while 'a group' is a more general collective noun. While 'a group' could potentially be larger than 'a few', in most contexts they refer to the same scene.",
+    "predicted_sim": 4.6,
+    "gold_score": 4.5,
+    "abs_diff": 0.09999999999999964
+  }
+]

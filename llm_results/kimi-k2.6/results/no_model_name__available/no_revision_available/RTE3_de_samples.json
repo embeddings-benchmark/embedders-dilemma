@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Der Vorstand des Distrikts f\u00fcr Wasserverwaltung von South Florida muss m\u00f6glicherweise schon im n\u00e4chsten Monat \u00fcber den Kauf der Gemeinde entscheiden, die 8 1/2-Square-Mile Area genannt wird, gleich \u00f6stlich des Everglades-Nationalparks.",
+    "sentence2": "Der Everglades-Nationalpark befindet sich in Florida.",
+    "model_raw_output": "{\n  \"reasoning\": \"Die Pr\u00e4misse erw\u00e4hnt den 'Distrikt f\u00fcr Wasserverwaltung von South Florida' und verortet das Kaufobjekt 'gleich \u00f6stlich des Everglades-Nationalparks'. Da South Florida ein Teil des Bundesstaates Florida ist und der gesamte Sachverhalt (Entscheidung eines Florida-Bezirks \u00fcber Land \u00f6stlich des Parks) im regionalen Zusammenhang von South Florida stattfindet, folgt daraus semantisch, dass sich der Everglades-Nationalpark in Florida befindet. Ohne diese r\u00e4umliche Zugeh\u00f6rigkeit w\u00fcrde die Bezugnahme auf einen Florida-Distrikt in diesem geografischen Kontext keinen Sinn ergeben.\",\n  \"output\": 1\n}",
+    "reasoning": "Die Pr\u00e4misse erw\u00e4hnt den 'Distrikt f\u00fcr Wasserverwaltung von South Florida' und verortet das Kaufobjekt 'gleich \u00f6stlich des Everglades-Nationalparks'. Da South Florida ein Teil des Bundesstaates Florida ist und der gesamte Sachverhalt (Entscheidung eines Florida-Bezirks \u00fcber Land \u00f6stlich des Parks) im regionalen Zusammenhang von South Florida stattfindet, folgt daraus semantisch, dass sich der Everglades-Nationalpark in Florida befindet. Ohne diese r\u00e4umliche Zugeh\u00f6rigkeit w\u00fcrde die Bezugnahme auf einen Florida-Distrikt in diesem geografischen Kontext keinen Sinn ergeben.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Der Pr\u00e4sident der Italienischen Republik, Giorgio Napolitano, hat Romano Prodi heute darum gebeten, als Ministerpr\u00e4sident zu bleiben, doch Prodi muss sich sobald wie m\u00f6glich einem Misstrauensvotum unterziehen.",
+    "sentence2": "Romano Prodi ist der italienische Ministerpr\u00e4sident.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that the President of Italy asked Romano Prodi to remain (\\\"als Ministerpr\u00e4sident zu bleiben\\\") as Prime Minister. The verb \\\"bleiben\\\" (to remain/stay) presupposes that Prodi currently holds the office of Ministerpr\u00e4sident. Therefore, Sentence 1 entails that Romano Prodi is the Italian Prime Minister, which is exactly what Sentence 2 states.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that the President of Italy asked Romano Prodi to remain (\"als Ministerpr\u00e4sident zu bleiben\") as Prime Minister. The verb \"bleiben\" (to remain/stay) presupposes that Prodi currently holds the office of Ministerpr\u00e4sident. Therefore, Sentence 1 entails that Romano Prodi is the Italian Prime Minister, which is exactly what Sentence 2 states.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "NATO-Generalsekret\u00e4r Willy Claes sagte heute, dass er einen R\u00fccktritt erw\u00e4ge, nachdem eine belgische Parlamentskommission an diesem Morgen beschlossen hat, zu empfehlen, dass er vom h\u00f6chsten Gericht des Landes in einem wachsenden Waffenkorruptionsskandal angeklagt wird.",
+    "sentence2": "NATO-Generalsekret\u00e4r Willy Claes ist zur\u00fcckgetreten.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that Willy Claes said he is considering resignation ('erw\u00e4ge einen R\u00fccktritt'). Sentence 2 asserts that he has actually resigned ('ist zur\u00fcckgetreten'). Merely considering or contemplating resignation does not semantically entail that the resignation has occurred; he may still decide not to resign. Therefore, the hypothesis is not entailed by the premise.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 states that Willy Claes said he is considering resignation ('erw\u00e4ge einen R\u00fccktritt'). Sentence 2 asserts that he has actually resigned ('ist zur\u00fcckgetreten'). Merely considering or contemplating resignation does not semantically entail that the resignation has occurred; he may still decide not to resign. Therefore, the hypothesis is not entailed by the premise.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Alvaro Uribe ist der Pr\u00e4sident Spaniens, ein interessanter Charakter, dessen Vater \u00fcbrigens von Rebellenmilizen erschossen wurde.",
+    "sentence2": "Felipe Gonz\u00e1lez ist der Pr\u00e4sident Spaniens.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that Alvaro Uribe is the President of Spain. Sentence 2 states that Felipe Gonz\u00e1lez is the President of Spain. Under the standard assumption that the office is held by one person at a time (or at least that 'the President' identifies a unique individual in this context), these two claims are mutually exclusive. Since Sentence 1 identifies a different person as holding the office, it contradicts Sentence 2 rather than supporting it. Therefore, the meaning of Sentence 2 does not follow from Sentence 1.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 states that Alvaro Uribe is the President of Spain. Sentence 2 states that Felipe Gonz\u00e1lez is the President of Spain. Under the standard assumption that the office is held by one person at a time (or at least that 'the President' identifies a unique individual in this context), these two claims are mutually exclusive. Since Sentence 1 identifies a different person as holding the office, it contradicts Sentence 2 rather than supporting it. Therefore, the meaning of Sentence 2 does not follow from Sentence 1.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "\"Es wird nur einen Hurrikan Andrew geben\", sagte er mit Bezug auf den Tropensturm der Kategorie 5, der im Jahre 1992 in S\u00fcdflorida einschlug, 26,5 Milliarden Dollar Schaden verursachte und in den Vereinigten Staaten und den Bahamas 26 Menschen t\u00f6tete.",
+    "sentence2": "Tropenst\u00fcrme verursachen schwere Sch\u00e4den.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 describes a single specific tropical storm\u2014Hurricane Andrew, a Category 5 storm\u2014that caused catastrophic damage ($26.5 billion) and fatalities. However, stating that one particular tropical storm was destructive does not logically guarantee that tropical storms in general cause severe damage. The premise is about an individual, noteworthy event, whereas the hypothesis makes a broad generalization about the entire class of tropical storms. Without information indicating that such damage is typical of tropical storms generally, the hypothesis does not strictly follow from the premise.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 describes a single specific tropical storm\u2014Hurricane Andrew, a Category 5 storm\u2014that caused catastrophic damage ($26.5 billion) and fatalities. However, stating that one particular tropical storm was destructive does not logically guarantee that tropical storms in general cause severe damage. The premise is about an individual, noteworthy event, whereas the hypothesis makes a broad generalization about the entire class of tropical storms. Without information indicating that such damage is typical of tropical storms generally, the hypothesis does not strictly follow from the premise.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  }
+]

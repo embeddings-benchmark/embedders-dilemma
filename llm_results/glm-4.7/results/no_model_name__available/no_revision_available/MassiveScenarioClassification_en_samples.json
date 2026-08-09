@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "pink is all we need",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'pink is all we need' resembles a song title or lyric. In voice assistant contexts, stating a specific song title or lyric without a preceding command typically implies a request to play that music. Therefore, the scenario falls under the music category.\",\n  \"output\": \"music\"\n}",
+        "parsed_output": "music",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "i want the status on my screen brightness",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the status of a specific device setting (screen brightness). In voice assistant taxonomies, queries and commands related to device control, hardware settings, and smart home management are typically categorized under the 'iot' (Internet of Things) scenario.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "what's the time in australia",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is inquiring about the current time in a specific geographical location (Australia). This is a standard request for time information or time zone data.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "cancel my seven am alarm",
+        "model_raw_output": "{\n  \"reasoning\": \"The user explicitly mentions canceling an 'alarm', which directly corresponds to the 'alarm' scenario. The intent is to manage or remove a scheduled alert set for a specific time.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "what alarms i have set",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking specifically about the status of their existing alarms. This query falls under the category of managing or checking alarms.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

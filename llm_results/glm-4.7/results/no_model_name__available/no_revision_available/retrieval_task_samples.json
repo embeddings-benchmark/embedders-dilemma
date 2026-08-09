@@ -1,0 +1,67 @@
+[
+  {
+    "query_id": "00003",
+    "query_text": "How to manage household finances (income & expenses) [duplicate]",
+    "model_raw_output": "The query is \"How to manage household finances (income & expenses)\".\n\nHere are the documents that can help answer the query, along with their IDs and generated titles based on their content:\n\nID: 120 | TITLE: A budgeting and family financial planning guide\nID: 38 | TITLE: Three categories of savings and budgeting rules\nID: 352 | TITLE: Guide to tracking expenses and setting financial goals\nID: 3 | TITLE: Managing couple's finances with a weekly allowance\nID: 142 | TITLE: Saving strategy for new income levels\n\nFinal Answer: [120, 38, 352, 3, 142]",
+    "parsed_ids": [
+      "000000120",
+      "000000038",
+      "000000352",
+      "000000003",
+      "000000142"
+    ],
+    "gold_ids": [
+      "000000003"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "00012",
+    "query_text": "Moving a personal business to a LLC accounting in California",
+    "model_raw_output": "The document most relevant to the query is:\n\nID: 193 | CONTENT: The LLC (not you) is probably in debt to the California FTB. Any LLC registered in California must pay at least $800 a year, until it is officially dissolved (i.e.: notice of cancellation/dissolution properly filed with the California Secretary of State). The FTB may come after members (including you) personally, if it can prove that the failure to pay was due to your negligence. Talk to a CA-licensed EA/CPA about how to resolve this. Otherwise, at least from what you've described, there were no other taxable events. LLC is a disregarded entity, so the IRS doesn't care about it much anyway (unless someone was stupid enough to elect it to be taxed as a corporation, that is). Keep in mind that when in doubt - you are always better off with a professional (a CPA/EA licensed in your State) advice.\n\nFinal Answer: [193]",
+    "parsed_ids": [
+      "000000193"
+    ],
+    "gold_ids": [
+      "000000012"
+    ],
+    "is_correct": false
+  },
+  {
+    "query_id": "00013",
+    "query_text": "What is the preferred way to finance home improvements when preparing to sell your house?",
+    "model_raw_output": "**Title:** Financing home improvements before selling\n**ID:** 314\n\nFinal Answer: [314]",
+    "parsed_ids": [
+      "000000314"
+    ],
+    "gold_ids": [
+      "000000013"
+    ],
+    "is_correct": false
+  },
+  {
+    "query_id": "00015",
+    "query_text": "Selling an app, sharing income, how does it work tax-wise?",
+    "model_raw_output": "ID: 104 | TITLE: You need to clarify with Bob what your agreement is\nID: 15 | TITLE: There are a few different ways to organize this\n\nFinal Answer: [104, 15]",
+    "parsed_ids": [
+      "000000104",
+      "000000015"
+    ],
+    "gold_ids": [
+      "000000015"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "00016",
+    "query_text": "Which is the better strategy for buying stocks monthly?",
+    "model_raw_output": "Document Title: Past results are not a predictor of future results\nDocument ID: 146\n\nFinal Answer: [146]",
+    "parsed_ids": [
+      "000000146"
+    ],
+    "gold_ids": [
+      "000000016"
+    ],
+    "is_correct": false
+  }
+]

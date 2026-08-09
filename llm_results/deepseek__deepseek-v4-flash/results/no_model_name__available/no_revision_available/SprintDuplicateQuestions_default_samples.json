@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "What is cache on my Apple iPad Pro and how can I clear my browser cache on it ?",
+    "sentence2": "Clear browser cache - Apple iPad Pro",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences ask about clearing browser cache on an Apple iPad Pro. Sentence 1 explicitly asks 'What is cache... and how can I clear my browser cache on it?', while Sentence 2 is a direct request to 'Clear browser cache - Apple iPad Pro'. The core request is identical: clearing the browser cache on an iPad Pro, with Sentence 1 also asking for a definition of cache, but the primary action and device are the same.\",\n  \"output\": 1\n}",
+    "reasoning": "Both sentences ask about clearing browser cache on an Apple iPad Pro. Sentence 1 explicitly asks 'What is cache... and how can I clear my browser cache on it?', while Sentence 2 is a direct request to 'Clear browser cache - Apple iPad Pro'. The core request is identical: clearing the browser cache on an iPad Pro, with Sentence 1 also asking for a definition of cache, but the primary action and device are the same.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Troubleshooting guide for charging related issues on the HTC Bolt",
+    "sentence2": "Transfer files with your computer - Apple iPad mini 4",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 discusses troubleshooting charging issues for an HTC Bolt smartphone, while Sentence 2 is about transferring files with a computer for an Apple iPad mini 4. These topics (charging issues vs. file transfer) and devices (HTC Bolt vs. iPad mini 4) are entirely unrelated, so they are not asking for the same information.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 discusses troubleshooting charging issues for an HTC Bolt smartphone, while Sentence 2 is about transferring files with a computer for an Apple iPad mini 4. These topics (charging issues vs. file transfer) and devices (HTC Bolt vs. iPad mini 4) are entirely unrelated, so they are not asking for the same information.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Guide on conserving the Samsung Galaxy Note 4 battery life",
+    "sentence2": "Can I use my Apple Pencil to control my Apple iPad Pro ?",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 asks for guidance on preserving battery life for a Samsung Galaxy Note 4, while Sentence 2 inquires about using an Apple Pencil with an iPad Pro. The topics are entirely different: one is about battery conservation on an Android device, the other about stylus compatibility on an Apple device. There is no overlap in subject matter or intent.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 asks for guidance on preserving battery life for a Samsung Galaxy Note 4, while Sentence 2 inquires about using an Apple Pencil with an iPad Pro. The topics are entirely different: one is about battery conservation on an Android device, the other about stylus compatibility on an Apple device. There is no overlap in subject matter or intent.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Does my LG G4 have any special features ?",
+    "sentence2": "Does my LG G4 have any special features ?",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences are identical in wording, structure, and punctuation. They ask the exact same question about the same device (LG G4) and the same topic (special features). Therefore, they are asking for the same information.\",\n  \"output\": 1\n}",
+    "reasoning": "Both sentences are identical in wording, structure, and punctuation. They ask the exact same question about the same device (LG G4) and the same topic (special features). Therefore, they are asking for the same information.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "How can I pair bluetooth devices to my Samsung Galaxy S III with 4G LTE Prepaid ?",
+    "sentence2": "How do I change the phone ringtone and notification sound on my Apple iPhone 4s ?",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 asks about pairing Bluetooth devices on a Samsung Galaxy S III, while Sentence 2 asks about changing ringtone and notification sounds on an Apple iPhone 4s. These are entirely different topics and devices, so they are not asking for the same information.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 asks about pairing Bluetooth devices on a Samsung Galaxy S III, while Sentence 2 asks about changing ringtone and notification sounds on an Apple iPhone 4s. These are entirely different topics and devices, so they are not asking for the same information.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Une personne fait partie d'une \u00e9quipe de baseball.",
+    "sentence2": "A person is playing basketball on a team.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person associated with a sports team, creating some semantic overlap in the general domain (team sports) and core entities (person, team). However, they differ in the specific sport (baseball vs. basketball) and the nature of the relationship (being a member/part of a team vs. actively playing). These differences in the central activity and sport reduce the similarity significantly, though they are not completely unrelated.\",\n  \"output\": 1.8\n}",
+    "reasoning": "Both sentences describe a person associated with a sports team, creating some semantic overlap in the general domain (team sports) and core entities (person, team). However, they differ in the specific sport (baseball vs. basketball) and the nature of the relationship (being a member/part of a team vs. actively playing). These differences in the central activity and sport reduce the similarity significantly, though they are not completely unrelated.",
+    "predicted_sim": 1.8,
+    "gold_score": 2.4,
+    "abs_diff": 0.5999999999999999
+  },
+  {
+    "sentence1": "Nos v\u00e9hicules actuels seront dans les mus\u00e9es lorsque chacun aura son propre avion.",
+    "sentence2": "The car needs to some work",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 presents a futuristic prediction about current vehicles becoming obsolete museum pieces once personal aircraft are commonplace. Sentence 2 is a simple statement about a specific car requiring repairs or maintenance. While both belong to the broad semantic domain of automobiles, they express entirely unrelated propositions: one concerns mass technological replacement, the other a singular instance of disrepair. There is no overlap in intent, context, or meaning.\",\n  \"output\": 0.0\n}",
+    "reasoning": "Sentence 1 presents a futuristic prediction about current vehicles becoming obsolete museum pieces once personal aircraft are commonplace. Sentence 2 is a simple statement about a specific car requiring repairs or maintenance. While both belong to the broad semantic domain of automobiles, they express entirely unrelated propositions: one concerns mass technological replacement, the other a singular instance of disrepair. There is no overlap in intent, context, or meaning.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.2,
+    "abs_diff": 0.2
+  },
+  {
+    "sentence1": "Une superviseure instruit les travailleurs masculins.",
+    "sentence2": "A woman is working as a nurse.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a woman in a professional or working context, which provides a very weak topical connection. However, the specific roles (supervisor vs. nurse), actions (instructing male workers vs. working as a nurse), and settings are entirely different. They do not describe the same situation, nor are the propositions meaningfully similar beyond the broad shared concepts of 'woman' and 'employment'.\",\n  \"output\": 0.5\n}",
+    "reasoning": "Both sentences describe a woman in a professional or working context, which provides a very weak topical connection. However, the specific roles (supervisor vs. nurse), actions (instructing male workers vs. working as a nurse), and settings are entirely different. They do not describe the same situation, nor are the propositions meaningfully similar beyond the broad shared concepts of 'woman' and 'employment'.",
+    "predicted_sim": 0.5,
+    "gold_score": 1.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "Un v\u00e9lo est \u00e0 c\u00f4t\u00e9 d'un couple de femmes.",
+    "sentence2": "A child next to a bike.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the object 'bike' and a spatial relationship indicating proximity ('\u00e0 c\u00f4t\u00e9 de' / 'next to'). However, the entities involved in this relationship are completely different: Sentence 1 describes a bike next to a couple of women, while Sentence 2 describes a child next to a bike. The grammatical roles are reversed, and the subjects (women vs. child) have no semantic overlap. Consequently, the sentences evoke related but substantially different scenes.\",\n  \"output\": 1.3\n}",
+    "reasoning": "Both sentences share the object 'bike' and a spatial relationship indicating proximity ('\u00e0 c\u00f4t\u00e9 de' / 'next to'). However, the entities involved in this relationship are completely different: Sentence 1 describes a bike next to a couple of women, while Sentence 2 describes a child next to a bike. The grammatical roles are reversed, and the subjects (women vs. child) have no semantic overlap. Consequently, the sentences evoke related but substantially different scenes.",
+    "predicted_sim": 1.3,
+    "gold_score": 2.0,
+    "abs_diff": 0.7
+  },
+  {
+    "sentence1": "Le groupe mange tout en profitant d'une vue \u00e0 couper le souffle.",
+    "sentence2": "A group of people take a look at an unusual tree.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences involve a group of people and some form of visual observation, but the core actions and objects differ significantly. Sentence 1 describes a group eating while enjoying a breathtaking view, whereas Sentence 2 describes a group looking at an unusual tree. The shared subject ('group') and the broad theme of observing something notable provide minimal overlap, but the specific meanings are largely unrelated.\",\n  \"output\": 0.8\n}",
+    "reasoning": "Both sentences involve a group of people and some form of visual observation, but the core actions and objects differ significantly. Sentence 1 describes a group eating while enjoying a breathtaking view, whereas Sentence 2 describes a group looking at an unusual tree. The shared subject ('group') and the broad theme of observing something notable provide minimal overlap, but the specific meanings are largely unrelated.",
+    "predicted_sim": 0.8,
+    "gold_score": 2.2,
+    "abs_diff": 1.4000000000000001
+  }
+]

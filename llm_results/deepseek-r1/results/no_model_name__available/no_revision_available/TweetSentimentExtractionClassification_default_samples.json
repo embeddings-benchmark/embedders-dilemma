@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Last session of the day  http://twitpic.com/67ezh",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet states 'Last session of the day' with a link to an image (unable to assess content). The phrase itself is neutral, lacking explicit positive/negative language. Without context or access to the linked image, no clear sentiment is conveyed.\",\n  \"output\": \"neutral\"\n}",
+        "parsed_output": "neutral",
+        "ground_truth": "neutral",
+        "is_correct": true
+    },
+    {
+        "input_text": "I THINK EVERYONE HATES ME ON HERE   lol",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet contains a negative statement ('I THINK EVERYONE HATES ME ON HERE') expressing feelings of social rejection or insecurity. However, the addition of 'lol' introduces humor or self-deprecation, softening the tone and suggesting the speaker may not fully endorse the negative sentiment. Despite this, the core message remains focused on perceived negativity, making the overall sentiment lean toward negative, though with contextual nuance.\",\n  \"output\": \"negative\"\n}",
+        "parsed_output": "negative",
+        "ground_truth": "negative",
+        "is_correct": true
+    },
+    {
+        "input_text": " .. and you`re on twitter! Did the tavern bore you that much?",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet uses a sarcastic tone to imply that the tavern was so boring the person switched to Twitter. The word 'bore' and the rhetorical question emphasize dissatisfaction, pointing to a negative sentiment towards the tavern experience.\",\n  \"output\": \"negative\"\n}",
+        "parsed_output": "negative",
+        "ground_truth": "neutral",
+        "is_correct": false
+    },
+    {
+        "input_text": " guess that depends on if you want to be on the jury",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet 'guess that depends on if you want to be on the jury' is contextually ambiguous and lacks explicit positive or negative language. The sentiment hinges on an unstated condition (desire to be on a jury), which introduces subjectivity but does not inherently convey a clear emotion. Without additional context, the statement remains neutral.\",\n  \"output\": \"neutral\"\n}",
+        "parsed_output": "neutral",
+        "ground_truth": "neutral",
+        "is_correct": true
+    },
+    {
+        "input_text": "resorted to eating Mickey Ds ALONE.",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet uses 'resorted to eating Mickey Ds ALONE.' The term 'resorted' implies reluctance or lack of preferable options, suggesting dissatisfaction. The emphasis on 'ALONE' (in caps) underscores isolation, which, combined with 'resorted,' leans toward a negative sentiment. While eating alone can be neutral, the phrasing here conveys disappointment or loneliness.\",\n  \"output\": \"negative\"\n}",
+        "parsed_output": "negative",
+        "ground_truth": "neutral",
+        "is_correct": false
+    }
+]

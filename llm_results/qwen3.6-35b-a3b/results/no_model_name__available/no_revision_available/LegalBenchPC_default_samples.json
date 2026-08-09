@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "5. Children 5.1 We do not knowingly collect or solicit personal information from anyone under 14 years old or knowingly allow such persons to register. If You are under the age of 13 years, please do not attempt to access the Games or send any information about Yourself to Us including, without limitation, Your name, address, telephone number, or email address. No person under the age of 14 may provide any personal information to Us or the Games. In the event that We learn that We have collected personal information from anyone under the age of 13, We will delete that information as soon as practicable. If You believe that We might have any information from or about a child under the age of 14, please contact Us in writing.",
+    "sentence2": "The policy describes collection of the user's postal address by a party to the contract.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 is a minor protection clause that prohibits the collection of personal information (mentioning 'address' only as an example of data children should not submit) from users under 13/14. Sentence 2 describes a general policy provision stating that the user's postal address is actively collected by a contracting party. The two snippets address fundamentally different legal concepts (age-based data restrictions vs. standard contractual data collection) and do not align in meaning or intent.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 is a minor protection clause that prohibits the collection of personal information (mentioning 'address' only as an example of data children should not submit) from users under 13/14. Sentence 2 describes a general policy provision stating that the user's postal address is actively collected by a contracting party. The two snippets address fundamentally different legal concepts (age-based data restrictions vs. standard contractual data collection) and do not align in meaning or intent.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  },
+  {
+    "sentence1": "If we are aware that a child under 13 has provided us with personal identifiable Information, we will delete such information from our files.",
+    "sentence2": "will the personal info i share with this app to sign up be shared with other companies, etc?",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences concern personal information and privacy, but they address completely different legal topics. Sentence 1 outlines a company policy regarding the deletion of data collected from users under the age of 13, while Sentence 2 is a user inquiry asking whether their personal information will be shared with third parties. They do not match in subject matter, intent, or legal focus, making them irrelevant as a pair.\",\n  \"output\": 0\n}",
+    "reasoning": "Both sentences concern personal information and privacy, but they address completely different legal topics. Sentence 1 outlines a company policy regarding the deletion of data collected from users under the age of 13, while Sentence 2 is a user inquiry asking whether their personal information will be shared with third parties. They do not match in subject matter, intent, or legal focus, making them irrelevant as a pair.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  },
+  {
+    "sentence1": "King Profile When you play our games, we will give you a unique identifier which we will associate with a King account known as a \"King Profile\". That King Profile will be specific to the King games played on an individual platform or device and will remain anonymous unless you choose to add your personal information to that King Profile. Others players in a game may be able to see your progress in the game and other information such as your game achievements, but no personally identifying information will be visible to other players. You can choose to add your personal information to your King Profile so that you can log in on multiple devices and synchronise your progress in our games across multiple devices on multiple platforms, and also so that you can play with your friends.",
+    "sentence2": "The policy describes collection of the user's unspecified identifiers by a party to the contract.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 explicitly describes the game company's process of assigning and collecting a unique identifier to create a user profile. Sentence 2 serves as an accurate high-level legal summary of this exact process, characterizing it as the collection of identifiers by a party to the contract. Since the second snippet correctly and directly describes the legal concept and factual scenario presented in the first, they form a relevant matching pair.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 explicitly describes the game company's process of assigning and collecting a unique identifier to create a user profile. Sentence 2 serves as an accurate high-level legal summary of this exact process, characterizing it as the collection of identifiers by a party to the contract. Since the second snippet correctly and directly describes the legal concept and factual scenario presented in the first, they form a relevant matching pair.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "We maintain technical, physical, and administrative security measures to protect the security of your personal information against loss, misuse, unauthorized access, disclosure, or alteration.",
+    "sentence2": "who will be able to see my information and/or the messages that i send?",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 is a general declarative statement about the implementation of technical, physical, and administrative security measures to protect data. Sentence 2 is a specific user question inquiring about data visibility and sharing (who can view their information/messages). While both fall under the broad topic of data privacy, they address different aspects (security controls vs. access/sharing policies) and do not directly correspond, answer, or match each other in intent or content.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 is a general declarative statement about the implementation of technical, physical, and administrative security measures to protect data. Sentence 2 is a specific user question inquiring about data visibility and sharing (who can view their information/messages). While both fall under the broad topic of data privacy, they address different aspects (security controls vs. access/sharing policies) and do not directly correspond, answer, or match each other in intent or content.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  },
+  {
+    "sentence1": "We and service providers acting on our behalf may use Log Files and tracking technologies to collect and analyze certain types of technical information, including Cookies, Flash Cookies, and Web Beacons.",
+    "sentence2": "does it read my contacts?",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 discusses the use of tracking technologies (cookies, flash cookies, web beacons) to collect technical information, which is standard privacy policy language. Sentence 2 is a user inquiry asking if an application accesses the user's contact list. The two snippets address entirely different types of data collection and privacy concerns, making them irrelevant to each other.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 discusses the use of tracking technologies (cookies, flash cookies, web beacons) to collect technical information, which is standard privacy policy language. Sentence 2 is a user inquiry asking if an application accesses the user's contact list. The two snippets address entirely different types of data collection and privacy concerns, making them irrelevant to each other.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  }
+]

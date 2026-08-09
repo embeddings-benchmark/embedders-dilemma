@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Two men are dancing together.",
+    "sentence2": "A woman opens a closet.",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences describe entirely different subjects ('two men' vs. 'a woman'), completely different actions ('dancing together' vs. 'opens a closet'), and share no contextual, thematic, or lexical overlap. They convey unrelated events and concepts.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The two sentences describe entirely different subjects ('two men' vs. 'a woman'), completely different actions ('dancing together' vs. 'opens a closet'), and share no contextual, thematic, or lexical overlap. They convey unrelated events and concepts.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "It depends on what you want to do next, and where you want to do it.",
+    "sentence2": "It depends on what you want to achieve.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share a similar pragmatic function and structural framework, indicating that a decision or outcome is contingent upon the individual's intentions. However, they differ in specific semantic focus: Sentence 1 emphasizes immediate actions and spatial context ('what you want to do next, and where'), while Sentence 2 focuses on broader goals or results ('what you want to achieve'). The shift from action/location to achievement, along with the added spatial dimension in the first sentence, means they are not equivalent but do share a core contextual theme, placing them in the partial similarity range.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences share a similar pragmatic function and structural framework, indicating that a decision or outcome is contingent upon the individual's intentions. However, they differ in specific semantic focus: Sentence 1 emphasizes immediate actions and spatial context ('what you want to do next, and where'), while Sentence 2 focuses on broader goals or results ('what you want to achieve'). The shift from action/location to achievement, along with the added spatial dimension in the first sentence, means they are not equivalent but do share a core contextual theme, placing them in the partial similarity range.",
+    "predicted_sim": 2.5,
+    "gold_score": 3.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "You may have to experiment and find what you like.",
+    "sentence2": "You have to find out what works for you.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the core advice that an individual needs to explore or test options to discover what is personally suitable. Sentence 1 explicitly mentions 'experiment' and focuses on personal preference ('what you like') with a softer, more tentative modality ('may have to'). Sentence 2 focuses on practical suitability ('what works for you') and uses a stronger sense of necessity ('have to'). While there are minor differences in emphasis, certainty, and the exact nature of the desired outcome (preference vs. functionality), the underlying intent and core message are highly aligned, making them mostly semantically equivalent.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences convey the core advice that an individual needs to explore or test options to discover what is personally suitable. Sentence 1 explicitly mentions 'experiment' and focuses on personal preference ('what you like') with a softer, more tentative modality ('may have to'). Sentence 2 focuses on practical suitability ('what works for you') and uses a stronger sense of necessity ('have to'). While there are minor differences in emphasis, certainty, and the exact nature of the desired outcome (preference vs. functionality), the underlying intent and core message are highly aligned, making them mostly semantically equivalent.",
+    "predicted_sim": 4.2,
+    "gold_score": 5.0,
+    "abs_diff": 0.7999999999999998
+  },
+  {
+    "sentence1": "Some 95 million Americans -- half of all households -- invest in mutual funds.",
+    "sentence2": "About half of all U.S. households have money in mutual funds.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences express the exact same core proposition: approximately 50% of U.S. households participate in mutual funds. Sentence 1 provides an additional specific figure ('95 million Americans') that contextualizes the household proportion, while Sentence 2 omits it. The phrases 'invest in' and 'have money in' are functionally synonymous in this financial context. The minor difference in level of detail does not alter the fundamental meaning or intent, making the sentences nearly interchangeable.\",\n  \"output\": 4.8\n}",
+    "reasoning": "Both sentences express the exact same core proposition: approximately 50% of U.S. households participate in mutual funds. Sentence 1 provides an additional specific figure ('95 million Americans') that contextualizes the household proportion, while Sentence 2 omits it. The phrases 'invest in' and 'have money in' are functionally synonymous in this financial context. The minor difference in level of detail does not alter the fundamental meaning or intent, making the sentences nearly interchangeable.",
+    "predicted_sim": 4.8,
+    "gold_score": 4.2,
+    "abs_diff": 0.5999999999999996
+  },
+  {
+    "sentence1": "Someone is slicing a onion.",
+    "sentence2": "Someone is carrying a fish.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share an identical grammatical structure and a generic subject ('Someone'), but they describe entirely different actions ('slicing' vs. 'carrying') and completely different objects ('onion' vs. 'fish'). There is no shared context, topic, or event, resulting in minimal semantic overlap beyond superficial syntactic similarity.\",\n  \"output\": 0.5\n}",
+    "reasoning": "Both sentences share an identical grammatical structure and a generic subject ('Someone'), but they describe entirely different actions ('slicing' vs. 'carrying') and completely different objects ('onion' vs. 'fish'). There is no shared context, topic, or event, resulting in minimal semantic overlap beyond superficial syntactic similarity.",
+    "predicted_sim": 0.5,
+    "gold_score": 0.75,
+    "abs_diff": 0.25
+  }
+]

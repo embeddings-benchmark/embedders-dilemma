@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "A person is on a baseball team.",
+    "sentence2": "Eine Person spielt in einem Team Basketball.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person participating in a team sport. However, the specific sport is different: the first sentence mentions baseball, while the second sentence mentions basketball. Because they share the same structure and context but differ in the specific entity, they are moderately similar.\",\n  \"output\": 2.4\n}",
+    "reasoning": "Both sentences describe a person participating in a team sport. However, the specific sport is different: the first sentence mentions baseball, while the second sentence mentions basketball. Because they share the same structure and context but differ in the specific entity, they are moderately similar.",
+    "predicted_sim": 2.4,
+    "gold_score": 2.4,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "Our current vehicles will be in museums when everyone has their own aircraft.",
+    "sentence2": "Das Auto muss etwas in Stand gesetzt werden",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences are broadly related to motor vehicles, but they differ significantly in their semantic focus and context. Sentence 1 is a futuristic prediction in English about the total obsolescence of cars in favor of aircraft, while Sentence 2 is a practical statement in German about a specific car needing some repairs. There is very little overlap beyond the general subject of transportation.\",\n  \"output\": 0.8\n}",
+    "reasoning": "Both sentences are broadly related to motor vehicles, but they differ significantly in their semantic focus and context. Sentence 1 is a futuristic prediction in English about the total obsolescence of cars in favor of aircraft, while Sentence 2 is a practical statement in German about a specific car needing some repairs. There is very little overlap beyond the general subject of transportation.",
+    "predicted_sim": 0.8,
+    "gold_score": 0.2,
+    "abs_diff": 0.6000000000000001
+  },
+  {
+    "sentence1": "A woman supervisor is instructing the male workers.",
+    "sentence2": "Eine Frau arbeitet als Krankenpflegerin.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a woman in a professional or work-related context. However, the specific roles (supervisor vs. nurse) and the actions described (instructing workers vs. working in a hospital/clinic setting) are distinct and not semantically equivalent.\",\n  \"output\": 1.2\n}",
+    "reasoning": "Both sentences describe a woman in a professional or work-related context. However, the specific roles (supervisor vs. nurse) and the actions described (instructing workers vs. working in a hospital/clinic setting) are distinct and not semantically equivalent.",
+    "predicted_sim": 1.2,
+    "gold_score": 1.0,
+    "abs_diff": 0.19999999999999996
+  },
+  {
+    "sentence1": "A bike is next to a couple women.",
+    "sentence2": "Ein Kind neben einem Fahrrad.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a scene involving a bicycle and a person or people in close proximity ('next to'). However, the specific people mentioned are different (women in sentence 1 versus a child in sentence 2), and the grammatical focus is slightly different, although the overall theme is similar.\",\n  \"output\": 1.8\n}",
+    "reasoning": "Both sentences describe a scene involving a bicycle and a person or people in close proximity ('next to'). However, the specific people mentioned are different (women in sentence 1 versus a child in sentence 2), and the grammatical focus is slightly different, although the overall theme is similar.",
+    "predicted_sim": 1.8,
+    "gold_score": 2.0,
+    "abs_diff": 0.19999999999999996
+  },
+  {
+    "sentence1": "The group is eating while taking in a breathtaking view.",
+    "sentence2": "Eine Gruppe sieht einen ungew\u00f6hnlichen Baum an.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a group of people looking at something outdoors. However, they differ significantly in the specifics: Sentence 1 mentions eating and a general breathtaking view, while Sentence 2 focuses on an unusual tree with no mention of eating.\",\n  \"output\": 1.4\n}",
+    "reasoning": "Both sentences describe a group of people looking at something outdoors. However, they differ significantly in the specifics: Sentence 1 mentions eating and a general breathtaking view, while Sentence 2 focuses on an unusual tree with no mention of eating.",
+    "predicted_sim": 1.4,
+    "gold_score": 2.2,
+    "abs_diff": 0.8000000000000003
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Two men are dancing together.",
+    "sentence2": "A woman opens a closet.",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences describe completely unrelated scenarios. Sentence 1 involves two men performing the action of dancing together, while Sentence 2 involves a woman performing the action of opening a closet. They share no common subjects, actions, objects, or context beyond both being simple declarative statements about human activity. Therefore, they have essentially no semantic similarity.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The two sentences describe completely unrelated scenarios. Sentence 1 involves two men performing the action of dancing together, while Sentence 2 involves a woman performing the action of opening a closet. They share no common subjects, actions, objects, or context beyond both being simple declarative statements about human activity. Therefore, they have essentially no semantic similarity.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "It depends on what you want to do next, and where you want to do it.",
+    "sentence2": "It depends on what you want to achieve.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey that an outcome is contingent on the subject's personal intentions, sharing nearly identical syntactic structures ('It depends on what you want to...'). However, Sentence 1 specifies dependence on an immediate action ('do next') and location ('where'), while Sentence 2 generalizes this to broader goals or results ('achieve'). The core conditional meaning is similar, but the specific dimensions and emphasis differ: S1 focuses on next steps and place, whereas S2 focuses on end goals without reference to timing or location. Therefore, they are related but not closely aligned in meaning.\",\n  \"output\": 3.2\n}",
+    "reasoning": "Both sentences convey that an outcome is contingent on the subject's personal intentions, sharing nearly identical syntactic structures ('It depends on what you want to...'). However, Sentence 1 specifies dependence on an immediate action ('do next') and location ('where'), while Sentence 2 generalizes this to broader goals or results ('achieve'). The core conditional meaning is similar, but the specific dimensions and emphasis differ: S1 focuses on next steps and place, whereas S2 focuses on end goals without reference to timing or location. Therefore, they are related but not closely aligned in meaning.",
+    "predicted_sim": 3.2,
+    "gold_score": 3.0,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "You may have to experiment and find what you like.",
+    "sentence2": "You have to find out what works for you.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core advice: discovering a personal, individual solution requires some form of active exploration. They share identical subject matter (personal discovery), near-identical pragmatic intent (advisory), and overlapping lexical choices ('find'). However, they diverge in three notable ways: (1) modality\u2014'may have to' (suggestion/possibility) vs. 'have to' (stronger necessity); (2) method\u2014'experiment' emphasizes active trial-and-error, while 'find out' is more general; and (3) focus\u2014'what you like' centers on preference/enjoyment, whereas 'what works for you' centers on efficacy/suitability. These differences prevent the sentences from being strict paraphrases, but the overall semantic overlap is substantial.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences convey the same core advice: discovering a personal, individual solution requires some form of active exploration. They share identical subject matter (personal discovery), near-identical pragmatic intent (advisory), and overlapping lexical choices ('find'). However, they diverge in three notable ways: (1) modality\u2014'may have to' (suggestion/possibility) vs. 'have to' (stronger necessity); (2) method\u2014'experiment' emphasizes active trial-and-error, while 'find out' is more general; and (3) focus\u2014'what you like' centers on preference/enjoyment, whereas 'what works for you' centers on efficacy/suitability. These differences prevent the sentences from being strict paraphrases, but the overall semantic overlap is substantial.",
+    "predicted_sim": 4.2,
+    "gold_score": 5.0,
+    "abs_diff": 0.7999999999999998
+  },
+  {
+    "sentence1": "Some 95 million Americans -- half of all households -- invest in mutual funds.",
+    "sentence2": "About half of all U.S. households have money in mutual funds.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core proposition: approximately half of all American households have financial stakes in mutual funds. Sentence 1 provides a specific figure (95 million Americans) and explicitly equates it to half of all households, while Sentence 2 uses the more general approximation 'about half of all U.S. households.' The predicates 'invest in' and 'have money in' are functionally synonymous in this financial context. The differences are minor: one supplies a specific population count versus a pure fraction, and one uses 'Americans' (clarified as households) versus 'U.S. households' directly. These are negligible semantic variations that do not change the underlying meaning.\",\n  \"output\": 4.7\n}",
+    "reasoning": "Both sentences convey the same core proposition: approximately half of all American households have financial stakes in mutual funds. Sentence 1 provides a specific figure (95 million Americans) and explicitly equates it to half of all households, while Sentence 2 uses the more general approximation 'about half of all U.S. households.' The predicates 'invest in' and 'have money in' are functionally synonymous in this financial context. The differences are minor: one supplies a specific population count versus a pure fraction, and one uses 'Americans' (clarified as households) versus 'U.S. households' directly. These are negligible semantic variations that do not change the underlying meaning.",
+    "predicted_sim": 4.7,
+    "gold_score": 4.2,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "Someone is slicing a onion.",
+    "sentence2": "Someone is carrying a fish.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the same grammatical structure ('Someone is [verb]ing a [noun]') and both describe a person performing a transitive action on a physical object. However, the verbs ('slicing' vs. 'carrying') and objects ('onion' vs. 'fish') are semantically unrelated, describing entirely different actions and entities with no contextual overlap.\",\n  \"output\": 0.2\n}",
+    "reasoning": "Both sentences share the same grammatical structure ('Someone is [verb]ing a [noun]') and both describe a person performing a transitive action on a physical object. However, the verbs ('slicing' vs. 'carrying') and objects ('onion' vs. 'fish') are semantically unrelated, describing entirely different actions and entities with no contextual overlap.",
+    "predicted_sim": 0.2,
+    "gold_score": 0.75,
+    "abs_diff": 0.55
+  }
+]

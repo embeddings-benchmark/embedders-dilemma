@@ -1,0 +1,102 @@
+{
+  "dataset_revision": "7a79fd41b024091522d04e84d8d9dc93d223cf8c",
+  "task_name": "STS22.v2",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "cosine_spearman": 0.717278,
+        "cosine_pearson": 0.7367,
+        "usage_stats": {
+          "input_tokens": 265713,
+          "output_tokens": 23628,
+          "total_tokens": 416017,
+          "cost": 0.0
+        },
+        "main_score": 0.717278,
+        "hf_subset": "en",
+        "languages": [
+          "eng-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.702204,
+        "cosine_pearson": 0.723941,
+        "usage_stats": {
+          "input_tokens": 565359,
+          "output_tokens": 60552,
+          "total_tokens": 964737,
+          "cost": 0.0
+        },
+        "main_score": 0.702204,
+        "hf_subset": "de",
+        "languages": [
+          "deu-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.749051,
+        "cosine_pearson": 0.741629,
+        "usage_stats": {
+          "input_tokens": 208224,
+          "output_tokens": 25545,
+          "total_tokens": 370943,
+          "cost": 0.0
+        },
+        "main_score": 0.749051,
+        "hf_subset": "es",
+        "languages": [
+          "spa-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.85893,
+        "cosine_pearson": 0.868319,
+        "usage_stats": {
+          "input_tokens": 139546,
+          "output_tokens": 12667,
+          "total_tokens": 222437,
+          "cost": 0.0
+        },
+        "main_score": 0.85893,
+        "hf_subset": "fr",
+        "languages": [
+          "fra-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.709804,
+        "cosine_pearson": 0.732545,
+        "usage_stats": {
+          "input_tokens": 247504,
+          "output_tokens": 32052,
+          "total_tokens": 453804,
+          "cost": 0.0
+        },
+        "main_score": 0.709804,
+        "hf_subset": "ru",
+        "languages": [
+          "rus-Cyrl"
+        ]
+      },
+      {
+        "cosine_spearman": 0.737967,
+        "cosine_pearson": 0.760349,
+        "usage_stats": {
+          "input_tokens": 599451,
+          "output_tokens": 65569,
+          "total_tokens": 1034880,
+          "cost": 0.0
+        },
+        "main_score": 0.737967,
+        "hf_subset": "zh",
+        "languages": [
+          "cmn-Hans"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 5430.673985242844,
+  "kg_co2_emissions": null,
+  "date": 1773904672.200938
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "The male, who is dark skinned, is standing on one hand in front of a yellow building",
+    "sentence2": "A black man is break dancing on the pavement",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the same core subject (a dark-skinned/black male) engaged in a very similar physical activity (standing on one hand is a common move in break dancing). However, they differ in specific details: Sentence 1 focuses on the exact physical pose and the background (a yellow building), while Sentence 2 generalizes the action to 'break dancing' and mentions the ground surface (the pavement). Due to this strong topical overlap but differing descriptive focus, they are highly related but not identical in meaning.\",\n  \"output\": 3.8\n}",
+    "reasoning": "Both sentences describe the same core subject (a dark-skinned/black male) engaged in a very similar physical activity (standing on one hand is a common move in break dancing). However, they differ in specific details: Sentence 1 focuses on the exact physical pose and the background (a yellow building), while Sentence 2 generalizes the action to 'break dancing' and mentions the ground surface (the pavement). Due to this strong topical overlap but differing descriptive focus, they are highly related but not identical in meaning.",
+    "predicted_sim": 3.8,
+    "gold_score": 2.7,
+    "abs_diff": 1.0999999999999996
+  },
+  {
+    "sentence1": "A girl in blue is sliding down a green slide",
+    "sentence2": "A boy in blue are sliding down a green slide",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences describe nearly the same event (someone in blue sliding down a green slide), but the subjects are different (a girl vs. a boy). Because of this crucial difference in the main entity, they are highly related but not identical in meaning.\",\n  \"output\": 4.0\n}",
+    "reasoning": "The two sentences describe nearly the same event (someone in blue sliding down a green slide), but the subjects are different (a girl vs. a boy). Because of this crucial difference in the main entity, they are highly related but not identical in meaning.",
+    "predicted_sim": 4.0,
+    "gold_score": 3.4,
+    "abs_diff": 0.6000000000000001
+  },
+  {
+    "sentence1": "The cheerleaders are parading and wearing uniforms which are black, pink and white",
+    "sentence2": "The cheerleaders are parading and wearing black, pink and white uniforms",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the exact same meaning and details. They describe cheerleaders parading in uniforms that are black, pink, and white. The only difference is a minor syntactic variation in how the colors of the uniforms are phrased ('uniforms which are black, pink and white' versus 'black, pink and white uniforms').\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey the exact same meaning and details. They describe cheerleaders parading in uniforms that are black, pink, and white. The only difference is a minor syntactic variation in how the colors of the uniforms are phrased ('uniforms which are black, pink and white' versus 'black, pink and white uniforms').",
+    "predicted_sim": 5.0,
+    "gold_score": 4.8,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "A man is emptying a container made of plastic",
+    "sentence2": "A man is filling a container made of plastic",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a man interacting with a plastic container, sharing the exact same subject and object. However, the actions being performed are exact opposites ('emptying' vs 'filling'). Because they share the same context and entities but have contradictory actions, they are moderately related.\",\n  \"output\": 3.2\n}",
+    "reasoning": "Both sentences describe a man interacting with a plastic container, sharing the exact same subject and object. However, the actions being performed are exact opposites ('emptying' vs 'filling'). Because they share the same context and entities but have contradictory actions, they are moderately related.",
+    "predicted_sim": 3.2,
+    "gold_score": 3.4,
+    "abs_diff": 0.19999999999999973
+  },
+  {
+    "sentence1": "A few people are dancing",
+    "sentence2": "A group of people are dancing",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the same action (dancing) being performed by multiple people. The only difference is the quantification ('a few' vs. 'a group'), which have very similar meanings in this context. The overall semantic meaning is nearly identical.\",\n  \"output\": 4.7\n}",
+    "reasoning": "Both sentences describe the same action (dancing) being performed by multiple people. The only difference is the quantification ('a few' vs. 'a group'), which have very similar meanings in this context. The overall semantic meaning is nearly identical.",
+    "predicted_sim": 4.7,
+    "gold_score": 4.5,
+    "abs_diff": 0.20000000000000018
+  }
+]

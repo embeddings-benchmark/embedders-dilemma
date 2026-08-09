@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "The male, who is dark skinned, is standing on one hand in front of a yellow building",
+    "sentence2": "A black man is break dancing on the pavement",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a dark-skinned Black man performing a one-handed pose that is characteristic of breakdancing. The subject and core action are highly aligned, with the first sentence focusing on a specific posture ('standing on one hand') and the second labeling the broader activity ('break dancing'). The background details differ slightly ('in front of a yellow building' vs. 'on the pavement'), but these are compatible descriptions of an outdoor urban setting and do not contradict each other. Overall, the sentences convey nearly identical meaning with only minor differences in descriptive focus and specificity, warranting a high similarity score.\",\n  \"output\": 4.0\n}",
+    "reasoning": "Both sentences describe a dark-skinned Black man performing a one-handed pose that is characteristic of breakdancing. The subject and core action are highly aligned, with the first sentence focusing on a specific posture ('standing on one hand') and the second labeling the broader activity ('break dancing'). The background details differ slightly ('in front of a yellow building' vs. 'on the pavement'), but these are compatible descriptions of an outdoor urban setting and do not contradict each other. Overall, the sentences convey nearly identical meaning with only minor differences in descriptive focus and specificity, warranting a high similarity score.",
+    "predicted_sim": 4.0,
+    "gold_score": 2.7,
+    "abs_diff": 1.2999999999999998
+  },
+  {
+    "sentence1": "A girl in blue is sliding down a green slide",
+    "sentence2": "A boy in blue are sliding down a green slide",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences describe the exact same action, clothing, and setting. The only difference is the gender of the subject ('girl' vs 'boy'). This minor detail changes a specific attribute but does not alter the core event or overall meaning, resulting in a very high degree of semantic similarity.\",\n  \"output\": 4.0\n}",
+    "reasoning": "The two sentences describe the exact same action, clothing, and setting. The only difference is the gender of the subject ('girl' vs 'boy'). This minor detail changes a specific attribute but does not alter the core event or overall meaning, resulting in a very high degree of semantic similarity.",
+    "predicted_sim": 4.0,
+    "gold_score": 3.4,
+    "abs_diff": 0.6000000000000001
+  },
+  {
+    "sentence1": "The cheerleaders are parading and wearing uniforms which are black, pink and white",
+    "sentence2": "The cheerleaders are parading and wearing black, pink and white uniforms",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences convey exactly the same meaning. The only difference is syntactic: Sentence 1 uses a relative clause ('uniforms which are black, pink and white'), while Sentence 2 places the colors directly as modifiers before the noun ('black, pink and white uniforms'). This structural variation is purely grammatical and does not change the subject, action, or descriptive details. Therefore, the sentences are semantically identical.\",\n  \"output\": 5.0\n}",
+    "reasoning": "The two sentences convey exactly the same meaning. The only difference is syntactic: Sentence 1 uses a relative clause ('uniforms which are black, pink and white'), while Sentence 2 places the colors directly as modifiers before the noun ('black, pink and white uniforms'). This structural variation is purely grammatical and does not change the subject, action, or descriptive details. Therefore, the sentences are semantically identical.",
+    "predicted_sim": 5.0,
+    "gold_score": 4.8,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "A man is emptying a container made of plastic",
+    "sentence2": "A man is filling a container made of plastic",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the exact same subject ('A man') and object ('a container made of plastic'), and describe the same general scenario of handling a container. However, the verbs 'emptying' and 'filling' are direct antonyms, indicating opposite directions of action. This strong lexical and structural overlap ensures high relatedness, but the opposing semantic polarity prevents them from being equivalent. Therefore, the similarity is moderate-to-high.\",\n  \"output\": 3.5\n}",
+    "reasoning": "Both sentences share the exact same subject ('A man') and object ('a container made of plastic'), and describe the same general scenario of handling a container. However, the verbs 'emptying' and 'filling' are direct antonyms, indicating opposite directions of action. This strong lexical and structural overlap ensures high relatedness, but the opposing semantic polarity prevents them from being equivalent. Therefore, the similarity is moderate-to-high.",
+    "predicted_sim": 3.5,
+    "gold_score": 3.4,
+    "abs_diff": 0.10000000000000009
+  },
+  {
+    "sentence1": "A few people are dancing",
+    "sentence2": "A group of people are dancing",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the exact same core event: people dancing. The only difference is the quantifier used for the subject ('a few' vs. 'a group'). While 'a few' typically implies a small, specific number and 'a group' is slightly more general, in practical usage they are often interchangeable and convey a very similar image of a small gathering engaged in the same activity. The fundamental meaning, context, and imagery are nearly identical, differing only in a minor detail regarding the precise number of participants.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences describe the exact same core event: people dancing. The only difference is the quantifier used for the subject ('a few' vs. 'a group'). While 'a few' typically implies a small, specific number and 'a group' is slightly more general, in practical usage they are often interchangeable and convey a very similar image of a small gathering engaged in the same activity. The fundamental meaning, context, and imagery are nearly identical, differing only in a minor detail regarding the precise number of participants.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.5,
+    "abs_diff": 0.0
+  }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "j'ai besoin de toi pour marquer lundi prochain",
+        "model_raw_output": "{\n  \"reasoning\": \"The user says 'j'ai besoin de toi pour marquer lundi prochain' (I need you to mark next Monday). While the utterance is somewhat vague, the reference to a specific future date ('lundi prochain' / next Monday) strongly suggests the user wants to schedule, block, or add something to their calendar. Among the available intents, calendar_set is the most appropriate fit for creating or adding a calendar entry tied to a specific date. It does not match alarm_set (no alarm-specific vocabulary), datetime_query (not asking for the date), or lists_createoradd (lists are typically todo/shopping items without explicit calendrical dates).\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "jouons ma chanson la plus \u00e9couter",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting to play ('jouons') their most listened to song ('ma chanson la plus \u00e9couter'). This is a direct command to start audio playback of music, which maps to the play_music intent.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "d\u00e9sactiver l'alarme du trois heure du soir",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to disable or turn off an existing alarm at a specific time (3 PM / three o'clock in the evening). This corresponds to removing or canceling an alarm, which fits the 'alarm_remove' intent.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "annuler l'alarme",
+        "model_raw_output": "{\n  \"reasoning\": \"The French utterance 'annuler l'alarme' translates to 'cancel the alarm' in English. The user explicitly wants to cancel or remove an existing alarm, which directly corresponds to the alarm_remove intent.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "rappelle-moi mon emploi du temps pour l'apr\u00e8s-midi",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'rappelle-moi mon emploi du temps pour l'apr\u00e8s-midi' translates to 'remind me my schedule for the afternoon.' The user is requesting information about their existing schedule or events, which corresponds to querying calendar information. Among the available intents, 'calendar_query' is the best fit as it involves retrieving or asking about scheduled events, appointments, or timetable details.\",\n  \"output\": \"calendar_query\"\n}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

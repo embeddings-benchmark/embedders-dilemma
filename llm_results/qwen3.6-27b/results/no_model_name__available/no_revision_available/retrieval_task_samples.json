@@ -1,0 +1,63 @@
+[
+  {
+    "query_id": "00003",
+    "query_text": "How to manage household finances (income & expenses) [duplicate]",
+    "model_raw_output": "Final Answer: [120, 38]",
+    "parsed_ids": [
+      "000000120",
+      "000000038"
+    ],
+    "gold_ids": [
+      "000000003"
+    ],
+    "is_correct": false
+  },
+  {
+    "query_id": "00012",
+    "query_text": "Moving a personal business to a LLC accounting in California",
+    "model_raw_output": "Based on the provided documents, the most relevant document for your query regarding moving a personal business to an LLC and accounting/tax implications in California is:\n\n**ID: 193** (Covers LLC registration in California, the $800 annual franchise tax to the California FTB, IRS disregarded entity rules, and advises consulting a CA-licensed EA/CPA for accounting/tax resolution.)\n\nFinal Answer: [193]",
+    "parsed_ids": [
+      "000000193"
+    ],
+    "gold_ids": [
+      "000000012"
+    ],
+    "is_correct": false
+  },
+  {
+    "query_id": "00013",
+    "query_text": "What is the preferred way to finance home improvements when preparing to sell your house?",
+    "model_raw_output": "Final Answer: [168]",
+    "parsed_ids": [
+      "000000168"
+    ],
+    "gold_ids": [
+      "000000013"
+    ],
+    "is_correct": false
+  },
+  {
+    "query_id": "00015",
+    "query_text": "Selling an app, sharing income, how does it work tax-wise?",
+    "model_raw_output": "Based on the provided documents, the most relevant document to answer the query about sharing income from selling an app/software and its tax implications is:\n\n**ID: 104** (Covers partnership vs. contractor agreements for software industry ventures, 50/50 profit allocation, 1099 reporting, Schedule C filing, and self-employment tax obligations.)\n\nFinal Answer: [104]",
+    "parsed_ids": [
+      "000000104"
+    ],
+    "gold_ids": [
+      "000000015"
+    ],
+    "is_correct": false
+  },
+  {
+    "query_id": "00016",
+    "query_text": "Which is the better strategy for buying stocks monthly?",
+    "model_raw_output": "Final Answer: [146]",
+    "parsed_ids": [
+      "000000146"
+    ],
+    "gold_ids": [
+      "000000016"
+    ],
+    "is_correct": false
+  }
+]

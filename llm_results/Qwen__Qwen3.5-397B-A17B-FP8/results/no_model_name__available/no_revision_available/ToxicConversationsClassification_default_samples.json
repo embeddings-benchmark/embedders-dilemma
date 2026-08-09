@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "The Knights of Columbus must be doing something right for NCR to be this obsessed with them!",
+        "model_raw_output": "{\n  \"reasoning\": \"The comment expresses a subjective opinion about the relationship between two organizations (the Knights of Columbus and NCR). While it implies that NCR is overly focused or biased against the Knights of Columbus, it does not contain hate speech, harassment, threats, profanity, or abusive language. It is a statement of perspective typical of media or organizational criticism.\",\n  \"output\": \"not toxic\"\n}",
+        "parsed_output": "not toxic",
+        "ground_truth": "not toxic",
+        "is_correct": true
+    },
+    {
+        "input_text": "Note that WolfEagle is the only person who disagrees.",
+        "model_raw_output": "{\n  \"reasoning\": \"The comment is a neutral, factual observation regarding a difference of opinion within a discussion. It does not contain insults, hate speech, threats, profanity, or personal attacks against the user mentioned. Simply noting that someone holds a minority view is not inherently harmful or abusive.\",\n  \"output\": \"not toxic\"\n}",
+        "parsed_output": "not toxic",
+        "ground_truth": "not toxic",
+        "is_correct": true
+    },
+    {
+        "input_text": "Agreed...you cannot reason with me regarding this issue any more than I seem to be able to reason with you. That is what frustrates you so much. I will continue to share facts and Truth with you even if it is not popular. If you choose not to believe the Truth or facts, that is your perogative. Whether you believe it or not, I am trying to help you. I would rather you not have to face the eventual consequences of your beliefs and actions.",
+        "model_raw_output": "{\n  \"reasoning\": \"The comment expresses a firm disagreement and acknowledges a stalemate in communication. While the tone may be perceived as condescending or self-righteous due to phrases like 'share facts and Truth' and 'I am trying to help you,' it does not contain hate speech, profanity, direct threats of violence, or personal insults. The speaker acknowledges the other person's autonomy ('that is your perogative') and frames their intent as benevolent rather than malicious. Therefore, it falls under civil discourse or stubborn disagreement rather than toxicity.\",\n  \"output\": \"not toxic\"\n}",
+        "parsed_output": "not toxic",
+        "ground_truth": "not toxic",
+        "is_correct": true
+    },
+    {
+        "input_text": "Who wrote this for you, Fikile? There is a decided lack of basic grammar and spelling errors, so this can't possibly be your work. The Guptas must have finally hired someone who can write decently. The ideas and thought process are still crackpot, but at least it's readable now. Thank you.",
+        "model_raw_output": "{\n  \"reasoning\": \"The comment is classified as toxic because it relies on personal attacks and condescension rather than constructive criticism. It insults the recipient's intelligence and competence by suggesting they are incapable of writing the text themselves ('Who wrote this for you', 'can't possibly be your work'). Additionally, it uses derogatory language to dismiss their ideas ('crackpot') and employs a sarcastic, hostile tone intended to belittle the individual.\",\n  \"output\": \"toxic\"\n}",
+        "parsed_output": "toxic",
+        "ground_truth": "not toxic",
+        "is_correct": false
+    },
+    {
+        "input_text": "What law other than the Johnson Amendment \"requires\" churches to remain out of politics? Note that this law is rarely enforced anyway, so there is plenty of political activity in churches. I'm wondering where you get the idea that churches stay out of politics entirely - Hillary Clinton spoke at church services, including the Sunday before the election http://philadelphia.cbslocal.com/2016/11/06/hillary-clinton-speaks-at-philly-church/\n\nIf you look at history, tax exemptions for churches started pretty early - Virginia exempted churches from paying property taxes in 1777, followed by New York in 1799 and the city of Washington in 1802. The Seventh Congress also passed a property tax exemption in 1802. Churches were made officialiy exempt from income tax in 1894 when a federal income tax was first proposed http://www.taxhistory.org/thp/readings.nsf/ArtWeb/CFFB1CE42BEFA8B285257BE400723DF8?OpenDocument",
+        "model_raw_output": "{\n  \"reasoning\": \"The comment engages in a factual discussion about law, history, and political activity within churches. It cites specific examples, historical dates, and sources to support its points. While it challenges a previous assertion ('I'm wondering where you get the idea...'), it does so without using insults, hate speech, harassment, profanity, or aggressive language. The tone is informative and debate-oriented rather than abusive.\",\n  \"output\": \"not toxic\"\n}",
+        "parsed_output": "not toxic",
+        "ground_truth": "not toxic",
+        "is_correct": true
+    }
+]

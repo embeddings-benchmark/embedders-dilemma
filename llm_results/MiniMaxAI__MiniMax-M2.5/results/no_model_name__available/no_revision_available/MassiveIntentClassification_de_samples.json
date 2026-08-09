@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "sie m\u00fcssen den n\u00e4chsten montag vormerken",
+        "model_raw_output": "{\"reasoning\": \"The user utterance 'sie m\u00fcssen den n\u00e4chsten montag vormerken' translates to 'you need to note down the next Monday'. The word 'vormerken' means to note down or mark something in a calendar, which clearly indicates the user wants to add an event to their calendar. This matches the 'calendar_set' intent, which is used for setting/adding calendar events.\", \"output\": \"calendar_set\"}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "spiele meine am meisten gespielten song liste",
+        "model_raw_output": "{\"reasoning\": \"The user is speaking German and requests to play their most played song list. 'Spiele' means 'play', 'meine am meisten gespielten song liste' translates to 'play my most played song list'. This is a direct request to play music, specifically a playlist of the user's most frequently played songs. The appropriate intent is 'play_music'.\", \"output\": \"play_music\"}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "schalte den wecker um f\u00fcnfzehn uhr ab",
+        "model_raw_output": "{\n  \"reasoning\": \"The phrase 'schalte den wecker um f\u00fcnfzehn uhr ab' is a German command meaning 'turn off the alarm at three o'clock (15:00)'. The key elements are: 'schalte ... ab' (turn off) + 'den wecker' (the alarm clock) + time specification. This is clearly a request to deactivate/remove an existing alarm, not to set a new one or query about alarms. The word 'ab' (off) combined with the imperative 'schalte' indicates removal or turning off.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "l\u00f6sche wecker",
+        "model_raw_output": "{\"reasoning\": \"The user utterance 'l\u00f6sche wecker' is in German and translates to 'delete alarm' in English. The user is clearly requesting to remove or delete an existing alarm. This matches the 'alarm_remove' intent from the MASSIVE intent list, which is specifically for removing/deleting alarms.\", \"output\": \"alarm_remove\"}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "erinnere mich an mein termin am nachmittag",
+        "model_raw_output": "{\n  \"reasoning\": \"The user wants to be reminded about their afternoon appointment. Since the request is about an existing calendar event ('termin'), the most appropriate intent is to query the calendar for that event. The phrase 'erinnere mich an' (remind me about) indicates a request for information about the appointment, which aligns with the 'calendar_query' intent.\",\n  \"output\": \"calendar_query\"\n}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

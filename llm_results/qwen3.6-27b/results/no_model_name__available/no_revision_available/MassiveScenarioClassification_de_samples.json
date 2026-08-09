@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "wir brauchen rosa",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'wir brauchen rosa' (we need pink) expresses a procurement need for a specific item or supply. In voice assistant and conversational AI contexts, stating a need for something is a standard pattern for adding items to a shopping, grocery, or task list. Therefore, it best aligns with the 'lists' scenario.\",\n  \"output\": \"lists\"\n}",
+        "parsed_output": "lists",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "wie ist die einstellung f\u00fcr die helligkeit an meinem bildschirm",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking about the current brightness setting of their screen, which involves querying the state or configuration of a hardware device. Among the provided scenario options, 'iot' is the most appropriate category as it typically encompasses device control, settings adjustments, and status queries for connected or smart devices.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "wie sp\u00e4t ist es in schweden",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the current time in a specific location ('wie sp\u00e4t ist es in schweden' translates to 'what time is it in Sweden'). This is a direct query about time and timezone information, which aligns perfectly with the 'datetime' scenario.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "l\u00f6sche meinen wecker f\u00fcr sieben uhr",
+        "model_raw_output": "{\n  \"reasoning\": \"The user explicitly asks to delete ('l\u00f6sche') an alarm ('wecker') scheduled for 7 o'clock. This intent directly involves managing alarm settings, which aligns perfectly with the 'alarm' scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "welche wecker habe ich gestellt",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's utterance 'welche wecker habe ich gestellt' translates to 'which alarms have I set'. This explicitly queries the status of configured alarms, which directly aligns with the 'alarm' scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

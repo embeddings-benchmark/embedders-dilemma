@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Show me dates for music festivals in 2018",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for dates of music festivals, which pertains to finding information about scheduled happenings or occurrences. Although it mentions music, the core intent is to retrieve event listings/schedules, not to play music or control media. Therefore, it fits best under the 'event' domain.\",\n  \"output\": \"event\"\n}",
+        "parsed_output": "event",
+        "ground_truth": "event",
+        "is_correct": true
+    },
+    {
+        "input_text": "Remind me at 8pm to  watch Orange Is The New Black",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to be notified at a specific future time (8pm) to perform a task (watch a show). This corresponds to creating a reminder, distinguishing it from an alarm (typically a wake-up alert), timer (countdown), or calendar event (scheduled activity block).\",\n  \"output\": \"reminder\"\n}",
+        "parsed_output": "reminder",
+        "ground_truth": "reminder",
+        "is_correct": true
+    },
+    {
+        "input_text": "What does the forecast look like for the week",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance asks about a 'forecast' for the 'week', which is a direct inquiry about predicted meteorological conditions. This clearly maps to the weather domain.\",\n  \"output\": \"weather\"\n}",
+        "parsed_output": "weather",
+        "ground_truth": "weather",
+        "is_correct": true
+    },
+    {
+        "input_text": "Any breaking news today?",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance asks about 'breaking news today', which is a direct request for news updates and information.\",\n  \"output\": \"news\"\n}",
+        "parsed_output": "news",
+        "ground_truth": "news",
+        "is_correct": true
+    },
+    {
+        "input_text": "send Izzy via Facebook that talk to you later",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'send Izzy via Facebook that talk to you later' is a request to transmit a text-based communication to a specific contact (Izzy) through a messaging platform (Facebook). It involves composing and sending a message, which aligns with the messaging domain. It does not involve voice calls, calendar events, reminders, or any of the other available domains.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    }
+]

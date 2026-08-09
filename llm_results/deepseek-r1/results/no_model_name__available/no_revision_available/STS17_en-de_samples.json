@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "A person is on a baseball team.",
+    "sentence2": "Eine Person spielt in einem Team Basketball.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person being part of a sports team, but the specific sport differs (baseball vs. basketball). The verbs 'is on' and 'spielt in' (plays in) are functionally equivalent in this context. The core similarity lies in the concept of team participation, but the difference in sports reduces the semantic overlap.\",\n  \"output\": 3.0\n}",
+    "reasoning": "Both sentences describe a person being part of a sports team, but the specific sport differs (baseball vs. basketball). The verbs 'is on' and 'spielt in' (plays in) are functionally equivalent in this context. The core similarity lies in the concept of team participation, but the difference in sports reduces the semantic overlap.",
+    "predicted_sim": 3.0,
+    "gold_score": 2.4,
+    "abs_diff": 0.6000000000000001
+  },
+  {
+    "sentence1": "Our current vehicles will be in museums when everyone has their own aircraft.",
+    "sentence2": "Das Auto muss etwas in Stand gesetzt werden",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 discusses a futuristic scenario where current vehicles become obsolete and end up in museums due to widespread personal aircraft ownership. Sentence 2 states that a car needs repairs. The topics (future transportation vs. immediate mechanical maintenance) and contexts (speculative vs. practical) are entirely unrelated. There is no semantic overlap.\",\n  \"output\": 0.0\n}",
+    "reasoning": "Sentence 1 discusses a futuristic scenario where current vehicles become obsolete and end up in museums due to widespread personal aircraft ownership. Sentence 2 states that a car needs repairs. The topics (future transportation vs. immediate mechanical maintenance) and contexts (speculative vs. practical) are entirely unrelated. There is no semantic overlap.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.2,
+    "abs_diff": 0.2
+  },
+  {
+    "sentence1": "A woman supervisor is instructing the male workers.",
+    "sentence2": "Eine Frau arbeitet als Krankenpflegerin.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a woman in a professional role, but the roles and contexts differ significantly. Sentence 1 involves a supervisor instructing male workers, implying leadership in a non-medical setting. Sentence 2 refers to a woman working as a nurse, a healthcare role focused on patient care. The overlap is limited to the general concept of a woman working, but the specifics (job type, actions, setting) are unrelated.\",\n  \"output\": 1.0\n}",
+    "reasoning": "Both sentences describe a woman in a professional role, but the roles and contexts differ significantly. Sentence 1 involves a supervisor instructing male workers, implying leadership in a non-medical setting. Sentence 2 refers to a woman working as a nurse, a healthcare role focused on patient care. The overlap is limited to the general concept of a woman working, but the specifics (job type, actions, setting) are unrelated.",
+    "predicted_sim": 1.0,
+    "gold_score": 1.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "A bike is next to a couple women.",
+    "sentence2": "Ein Kind neben einem Fahrrad.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences mention a bicycle (Fahrrad) and a spatial relationship ('next to' / 'neben'). However, Sentence 1 refers to 'a couple of women,' while Sentence 2 refers to 'a child' (Kind). The core similarity lies in the bicycle's presence and proximity to humans, but the differing subjects (women vs. child) and number (plural vs. singular) reduce semantic equivalence.\",\n  \"output\": 1.5\n}",
+    "reasoning": "Both sentences mention a bicycle (Fahrrad) and a spatial relationship ('next to' / 'neben'). However, Sentence 1 refers to 'a couple of women,' while Sentence 2 refers to 'a child' (Kind). The core similarity lies in the bicycle's presence and proximity to humans, but the differing subjects (women vs. child) and number (plural vs. singular) reduce semantic equivalence.",
+    "predicted_sim": 1.5,
+    "gold_score": 2.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "The group is eating while taking in a breathtaking view.",
+    "sentence2": "Eine Gruppe sieht einen ungew\u00f6hnlichen Baum an.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences mention a group engaging with their surroundings, but the actions and focal points differ significantly. Sentence 1 describes a group eating while enjoying a scenic view, whereas Sentence 2 describes a group observing an unusual tree. There is no overlap in the activities (eating vs. looking) or the objects of focus (general view vs. specific tree), though both involve a group interacting with their environment. The semantic connection is minimal but not entirely absent.\",\n  \"output\": 1.0\n}",
+    "reasoning": "Both sentences mention a group engaging with their surroundings, but the actions and focal points differ significantly. Sentence 1 describes a group eating while enjoying a scenic view, whereas Sentence 2 describes a group observing an unusual tree. There is no overlap in the activities (eating vs. looking) or the objects of focus (general view vs. specific tree), though both involve a group interacting with their environment. The semantic connection is minimal but not entirely absent.",
+    "predicted_sim": 1.0,
+    "gold_score": 2.2,
+    "abs_diff": 1.2000000000000002
+  }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "The Knights of Columbus must be doing something right for NCR to be this obsessed with them!",
+        "model_raw_output": "{\n  \"reasoning\": \"The comment expresses a mild, somewhat defensive or sarcastic opinion about media coverage, suggesting that frequent attention from NCR implies the Knights of Columbus are successful. It does not contain insults, threats, hate speech, harassment, or aggressive language directed at any individual or group. The tone remains within the bounds of normal, non-hostile online discourse.\",\n  \"output\": \"not toxic\"\n}",
+        "parsed_output": "not toxic",
+        "ground_truth": "not toxic",
+        "is_correct": true
+    },
+    {
+        "input_text": "Note that WolfEagle is the only person who disagrees.",
+        "model_raw_output": "{\n  \"reasoning\": \"The comment is a neutral, factual observation about the distribution of opinions in a discussion. It contains no insults, threats, harassment, hate speech, or malicious intent. Simply pointing out that one person disagrees with the majority does not cross into toxic behavior.\",\n  \"output\": \"not toxic\"\n}",
+        "parsed_output": "not toxic",
+        "ground_truth": "not toxic",
+        "is_correct": true
+    },
+    {
+        "input_text": "Agreed...you cannot reason with me regarding this issue any more than I seem to be able to reason with you. That is what frustrates you so much. I will continue to share facts and Truth with you even if it is not popular. If you choose not to believe the Truth or facts, that is your perogative. Whether you believe it or not, I am trying to help you. I would rather you not have to face the eventual consequences of your beliefs and actions.",
+        "model_raw_output": "{\n  \"reasoning\": \"The comment expresses a firm, somewhat confrontational stance and acknowledges mutual frustration, but it lacks insults, threats, hate speech, personal attacks, or abusive language. While it may come across as condescending or stubborn, it stays within the bounds of assertive disagreement and self-assertion rather than harassment or harm. Therefore, it does not meet the standard criteria for toxicity.\",\n  \"output\": \"not toxic\"\n}",
+        "parsed_output": "not toxic",
+        "ground_truth": "not toxic",
+        "is_correct": true
+    },
+    {
+        "input_text": "Who wrote this for you, Fikile? There is a decided lack of basic grammar and spelling errors, so this can't possibly be your work. The Guptas must have finally hired someone who can write decently. The ideas and thought process are still crackpot, but at least it's readable now. Thank you.",
+        "model_raw_output": "{\n  \"reasoning\": \"The comment employs a condescending and mocking tone, questioning the author's competence by implying they couldn't have written it themselves due to alleged past grammatical incompetence. It uses derogatory language ('crackpot') to dismiss their ideas and closes with a sarcastic 'Thank you.' This combination of personal mockery, intellectual belittlement, and hostile intent meets standard criteria for toxic online commentary.\",\n  \"output\": \"toxic\"\n}",
+        "parsed_output": "toxic",
+        "ground_truth": "not toxic",
+        "is_correct": false
+    },
+    {
+        "input_text": "What law other than the Johnson Amendment \"requires\" churches to remain out of politics? Note that this law is rarely enforced anyway, so there is plenty of political activity in churches. I'm wondering where you get the idea that churches stay out of politics entirely - Hillary Clinton spoke at church services, including the Sunday before the election http://philadelphia.cbslocal.com/2016/11/06/hillary-clinton-speaks-at-philly-church/\n\nIf you look at history, tax exemptions for churches started pretty early - Virginia exempted churches from paying property taxes in 1777, followed by New York in 1799 and the city of Washington in 1802. The Seventh Congress also passed a property tax exemption in 1802. Churches were made officialiy exempt from income tax in 1894 when a federal income tax was first proposed http://www.taxhistory.org/thp/readings.nsf/ArtWeb/CFFB1CE42BEFA8B285257BE400723DF8?OpenDocument",
+        "model_raw_output": "{\n  \"reasoning\": \"The comment discusses the legal and historical context of church tax exemptions and political involvement using a factual, analytical tone. It cites sources, poses a clarifying question, and references specific historical and contemporary examples. The language is respectful, contains no personal attacks, slurs, threats, or harassing rhetoric, and does not target any individual or group with abuse. Therefore, it does not meet the standard criteria for toxicity.\",\n  \"output\": \"not toxic\"\n}",
+        "parsed_output": "not toxic",
+        "ground_truth": "not toxic",
+        "is_correct": true
+    }
+]

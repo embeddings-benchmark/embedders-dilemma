@@ -1,0 +1,36 @@
+{
+  "dataset_revision": "d1c6be04a5f84b606b758024ed9d3b3fb7e4029a",
+  "task_name": "SprintDuplicateQuestions",
+  "mteb_version": "2.3.0",
+  "scores": {
+    "test": [
+      {
+        "similarity_ap": 0.822,
+        "similarity_accuracy": 0.822,
+        "similarity_f1": 0.783455,
+        "max_ap": 0.822,
+        "max_accuracy": 0.822,
+        "max_f1": 0.783455,
+        "max_precision": 1.0,
+        "max_recall": 0.644,
+        "usage_stats": {
+          "input_tokens": 39339,
+          "cached_tokens": 0,
+          "output_tokens": 317367,
+          "thinking_tokens": 288228,
+          "total_tokens": 356706,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.822,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 775.7754189968109,
+  "kg_co2_emissions": null
+}

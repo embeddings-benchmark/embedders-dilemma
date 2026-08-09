@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "pink is all we need",
+        "model_raw_output": "{\n  \"reasoning\": \"The phrase 'pink is all we need' is a general statement or opinion that doesn't clearly map to any specific functional category like alarm, calendar, music, or weather. It's a casual/philosophical remark that could be about color preferences, a play on words, or general sentiment. Since it doesn't indicate a specific task or intent for any of the defined domains (like setting an alarm, playing music, checking weather, etc.), it falls under 'general' as a default category for non-specific utterances.\",\n  \"output\": \"general\"\n}",
+        "parsed_output": "general",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "i want the status on my screen brightness",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking about the current status of their screen brightness, which is a device setting. This involves querying a device parameter or IoT-related setting (screen brightness is a controllable device feature on phones, computers, tablets, etc.). While it could be a simple qa question, the request to 'get status' of a device setting points more toward iot/device control scenario.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "what's the time in australia",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking about the current time in Australia. This is a datetime-related query as it asks for time information in a specific location. Australia has multiple time zones (AEST, ACST, AWST, etc.), so I should note this in my response while providing helpful time information.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "cancel my seven am alarm",
+        "model_raw_output": "{\"reasoning\": \"The user wants to cancel an alarm that is set for 7 AM. This is a direct request to manage an alarm, which falls under the 'alarm' scenario.\", \"output\": \"alarm\"}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "what alarms i have set",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking about what alarms they have set. This is a query about their alarm/reminder settings, which falls under the 'alarm' scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

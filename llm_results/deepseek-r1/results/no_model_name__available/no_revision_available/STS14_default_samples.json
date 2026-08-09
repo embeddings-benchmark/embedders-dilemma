@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "allergy-bullying ? apparently this is a real problem .",
+    "sentence2": "allergy bullying : when food is a weapon",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences discuss the concept of 'allergy bullying' as a legitimate issue. Sentence 1 introduces it as a surprising real problem, while Sentence 2 defines it explicitly as using food as a weapon. The core topic and intent (highlighting allergy-related bullying) align closely, but Sentence 2 adds a specific contextual detail (food as a weapon) not explicitly stated in Sentence 1. This makes the meanings highly similar but not fully identical.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences discuss the concept of 'allergy bullying' as a legitimate issue. Sentence 1 introduces it as a surprising real problem, while Sentence 2 defines it explicitly as using food as a weapon. The core topic and intent (highlighting allergy-related bullying) align closely, but Sentence 2 adds a specific contextual detail (food as a weapon) not explicitly stated in Sentence 1. This makes the meanings highly similar but not fully identical.",
+    "predicted_sim": 4.5,
+    "gold_score": 3.0,
+    "abs_diff": 1.5
+  },
+  {
+    "sentence1": "they know that the video doesn 't show a gas chamber .",
+    "sentence2": "the bottom line is that the video clip doesn 't show a gas chamber .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core information that the video (or video clip) does not show a gas chamber. The differences lie in the introductory phrases ('they know that' vs. 'the bottom line is'), which frame the statement differently but do not alter the factual assertion. The terms 'video' and 'video clip' are contextually equivalent here. The semantic similarity is very high, with minor deductions for phrasing nuances.\",\n  \"output\": 4.8\n}",
+    "reasoning": "Both sentences convey the same core information that the video (or video clip) does not show a gas chamber. The differences lie in the introductory phrases ('they know that' vs. 'the bottom line is'), which frame the statement differently but do not alter the factual assertion. The terms 'video' and 'video clip' are contextually equivalent here. The semantic similarity is very high, with minor deductions for phrasing nuances.",
+    "predicted_sim": 4.8,
+    "gold_score": 4.6,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "some believe the ' right ' is most important .",
+    "sentence2": "some believe not slaughtering the unborn is most important .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences discuss beliefs held by 'some' about what is most important. Sentence 1 refers to the abstract concept of 'right,' which could imply a moral or legal right, potentially including the right to life. Sentence 2 explicitly opposes 'slaughtering the unborn,' aligning with anti-abortion rhetoric. If 'right' in Sentence 1 is interpreted as the right to life (a common context for such phrasing), the sentences share a thematic focus on protecting unborn life. However, the vagueness of 'right' in Sentence 1 introduces ambiguity, as it could refer to other rights. The structural similarity (belief prioritization) and probable contextual overlap justify a high but not perfect score.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences discuss beliefs held by 'some' about what is most important. Sentence 1 refers to the abstract concept of 'right,' which could imply a moral or legal right, potentially including the right to life. Sentence 2 explicitly opposes 'slaughtering the unborn,' aligning with anti-abortion rhetoric. If 'right' in Sentence 1 is interpreted as the right to life (a common context for such phrasing), the sentences share a thematic focus on protecting unborn life. However, the vagueness of 'right' in Sentence 1 introduces ambiguity, as it could refer to other rights. The structural similarity (belief prioritization) and probable contextual overlap justify a high but not perfect score.",
+    "predicted_sim": 4.2,
+    "gold_score": 1.2,
+    "abs_diff": 3.0
+  },
+  {
+    "sentence1": "brief clashes with police in belfast",
+    "sentence2": "mourners clash with police in tunisia",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe clashes with police, indicating a similar type of event. However, they differ in key details: the participants ('brief clashes' vs. 'mourners'), location ('Belfast' vs. 'Tunisia'), and context (general unrest vs. a mourner-related incident). The core action is shared, but the specifics reduce semantic equivalence.\",\n  \"output\": 2.0\n}",
+    "reasoning": "Both sentences describe clashes with police, indicating a similar type of event. However, they differ in key details: the participants ('brief clashes' vs. 'mourners'), location ('Belfast' vs. 'Tunisia'), and context (general unrest vs. a mourner-related incident). The core action is shared, but the specifics reduce semantic equivalence.",
+    "predicted_sim": 2.0,
+    "gold_score": 1.2,
+    "abs_diff": 0.8
+  },
+  {
+    "sentence1": "a train is running on the tracks .",
+    "sentence2": "a train is running down the track in a rural area .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a train moving along a railway. The first uses 'tracks' (plural) and the second uses 'track' (singular), but this is a minor distinction as they refer to the same infrastructure. The second sentence adds the detail 'in a rural area', which provides additional context but does not contradict the core meaning of the first sentence. The core action and subject (train moving on railway) are identical, but the second sentence includes extra locational information.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences describe a train moving along a railway. The first uses 'tracks' (plural) and the second uses 'track' (singular), but this is a minor distinction as they refer to the same infrastructure. The second sentence adds the detail 'in a rural area', which provides additional context but does not contradict the core meaning of the first sentence. The core action and subject (train moving on railway) are identical, but the second sentence includes extra locational information.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.0,
+    "abs_diff": 0.5
+  }
+]

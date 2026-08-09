@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "How massive DDoS attacks are undermining the Internet ",
+    "sentence2": "Friday's #DDoSAttack & gt ; #IoT said to be medium . How can we reduce vulnerability of these devices ? ",
+    "model_raw_output": "{\n  \"reasoning\": \"While both sentences relate to DDoS attacks, they convey different messages. Sentence 1 is a broad, declarative statement about how massive DDoS attacks are harming the Internet as a whole. Sentence 2 refers to a specific attack on a Friday involving IoT devices, characterizes it as 'medium,' and asks a question about reducing device vulnerability. They differ in scope (general vs. specific), focus (the Internet vs. IoT devices), intent (informing vs. questioning), and characterization of the attacks ('massive' vs. 'medium').\",\n  \"output\": 0\n}",
+    "reasoning": "While both sentences relate to DDoS attacks, they convey different messages. Sentence 1 is a broad, declarative statement about how massive DDoS attacks are harming the Internet as a whole. Sentence 2 refers to a specific attack on a Friday involving IoT devices, characterizes it as 'medium,' and asks a question about reducing device vulnerability. They differ in scope (general vs. specific), focus (the Internet vs. IoT devices), intent (informing vs. questioning), and characterization of the attacks ('massive' vs. 'medium').",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Welcome to the #APTop25 , @TroyTrojansFB ! Troy ranked for 1st time in school history . ",
+    "sentence2": "AP POLL ALERT Top 25 Shakeup rise ; #Michigan , #Clemson , #Washington fall ; #USC returns . ",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 specifically announces that Troy University's football team (@TroyTrojansFB) has been ranked in the AP Top 25 for the first time in school history. Sentence 2 provides a general overview of AP Poll movement, noting that Michigan, Clemson, and Washington fell, USC returned, and there was a 'Top 25 Shakeup.' The two sentences discuss different subjects, teams, and specific events within the broader context of AP rankings. Therefore, they do not convey the same message.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 specifically announces that Troy University's football team (@TroyTrojansFB) has been ranked in the AP Top 25 for the first time in school history. Sentence 2 provides a general overview of AP Poll movement, noting that Michigan, Clemson, and Washington fell, USC returned, and there was a 'Top 25 Shakeup.' The two sentences discuss different subjects, teams, and specific events within the broader context of AP rankings. Therefore, they do not convey the same message.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Samsung to ask all carrier and retail partners to stop Galaxy Note7 sales , exchanges following more reports of fires ",
+    "sentence2": "Samsung Will Ask All Global Partners to Stop Sales and Exchanges of Galaxy Note7 While Further Investigation Takes Place",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core news: Samsung is directing its partners to halt all sales and exchanges of the Galaxy Note7. While Sentence 1 specifies 'carrier and retail partners' and cites 'more reports of fires,' and Sentence 2 uses 'all global partners' and mentions an ongoing 'further investigation,' these differences refer to the same underlying event and do not change the fundamental message. The subject, primary action, and object are semantically equivalent.\",\n  \"output\": 1\n}",
+    "reasoning": "Both sentences convey the same core news: Samsung is directing its partners to halt all sales and exchanges of the Galaxy Note7. While Sentence 1 specifies 'carrier and retail partners' and cites 'more reports of fires,' and Sentence 2 uses 'all global partners' and mentions an ongoing 'further investigation,' these differences refer to the same underlying event and do not change the fundamental message. The subject, primary action, and object are semantically equivalent.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Melania Trump rejects womens claims that her husband groped them ",
+    "sentence2": "Politics|\\'They\\'re Lies\\': Melania Trump Rejects Women\\'s Claims That Husband Groped ",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the identical core message: Melania Trump is denying or rejecting allegations from women who claimed her husband groped them. Sentence 2 includes additional contextual details like the 'Politics|' category tag and the direct quote 'They're Lies', but these do not change the underlying meaning. Both share the same subject (Melania Trump), action (rejects), object (women's claims), and topic (husband groped women).\",\n  \"output\": 1\n}",
+    "reasoning": "Both sentences convey the identical core message: Melania Trump is denying or rejecting allegations from women who claimed her husband groped them. Sentence 2 includes additional contextual details like the 'Politics|' category tag and the direct quote 'They're Lies', but these do not change the underlying meaning. Both share the same subject (Melania Trump), action (rejects), object (women's claims), and topic (husband groped women).",
+    "predicted_label": 1,
+    "gold_label": 0,
+    "is_correct": false
+  },
+  {
+    "sentence1": "Pokmon Go players took 26% more steps than before using the app , a new study finds ",
+    "sentence2": "The fitness app dream result Pokemon Go could add 2.83 million years to users ' lives ",
+    "model_raw_output": "{\n  \"reasoning\": \"While both sentences discuss positive health-related outcomes of Pok\u00e9mon Go, they convey different specific messages. Sentence 1 cites a study finding that players took 26% more steps than before using the app, focusing on a measured increase in physical activity. Sentence 2 makes a broader, aggregated claim about adding 2.83 million years to users' lives, which is a different metric and framing ('fitness app dream result'). Because they present different statistics, different scopes of analysis, and different claims, they are not paraphrases of each other.\",\n  \"output\": 0\n}",
+    "reasoning": "While both sentences discuss positive health-related outcomes of Pok\u00e9mon Go, they convey different specific messages. Sentence 1 cites a study finding that players took 26% more steps than before using the app, focusing on a measured increase in physical activity. Sentence 2 makes a broader, aggregated claim about adding 2.83 million years to users' lives, which is a different metric and framing ('fitness app dream result'). Because they present different statistics, different scopes of analysis, and different claims, they are not paraphrases of each other.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  }
+]

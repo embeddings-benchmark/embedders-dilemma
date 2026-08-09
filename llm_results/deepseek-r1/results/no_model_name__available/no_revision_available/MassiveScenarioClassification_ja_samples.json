@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "\u30d4\u30f3\u30af\u304c\u3044\u3044",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's utterance '\u30d4\u30f3\u30af\u304c\u3044\u3044' (I like pink/Pink is good) suggests a preference for a color choice. This context is most commonly associated with IoT scenarios where users might set colors for smart lights or devices. Other scenarios like music, calendar, or weather don't involve color selection in a typical interaction.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "iot",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u50d5\u306e\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u660e\u308b\u3055\u3092\u8868\u793a\u3057\u305f\u307e\u3048",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting to display the current screen brightness, which involves interacting with a device setting. This falls under controlling or querying device parameters, a common use case in IoT (Internet of Things) scenarios where device settings are managed.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2\u306e\u6642\u9593\u306f",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the current time in Australia, which is a request for datetime information. This falls under the 'datetime' scenario as it involves time zones and current time queries.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u5348\u524d\u4e03\u6642\u306e\u30a2\u30e9\u30fc\u30e0\u3092\u30ad\u30e3\u30f3\u30bb\u30eb",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's utterance '\u5348\u524d\u4e03\u6642\u306e\u30a2\u30e9\u30fc\u30e0\u3092\u30ad\u30e3\u30f3\u30bb\u30eb' translates to 'Cancel the 7 AM alarm.' The action involves modifying or removing an existing alarm, which directly pertains to the 'alarm' scenario. The keyword '\u30a2\u30e9\u30fc\u30e0' (alarm) and the verb '\u30ad\u30e3\u30f3\u30bb\u30eb' (cancel) confirm this context.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u3069\u3093\u306a\u30a2\u30e9\u30fc\u30e0\u3092\u8a2d\u5b9a\u3057\u305f\u304b",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking about the details of an alarm they have set, specifically inquiring 'what kind of alarm' they set. This directly relates to the 'alarm' scenario, which involves managing or checking existing alarms.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

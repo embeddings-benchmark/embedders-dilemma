@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "pink is all we need",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance mentions 'Pink', referring to the well-known singer, and expresses a preference for her work, which indicates a request for her songs or discography. This clearly falls under the music scenario.\",\n  \"output\": \"music\"\n}",
+        "parsed_output": "music",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "i want the status on my screen brightness",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is querying a system-level device hardware setting (screen brightness). In mobile voice assistant taxonomies that use this exact category list, system controls like volume and display brightness are conventionally grouped under the 'audio' scenario, which handles device hardware settings and controls, as opposed to 'music' (media streaming) or 'iot' (smart home devices).\",\n  \"output\": \"audio\"\n}",
+        "parsed_output": "audio",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "what's the time in australia",
+        "model_raw_output": "{\n    \"reasoning\": \"The user is explicitly asking for the current time in a specific location (Australia).\",\n    \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "cancel my seven am alarm",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance explicitly mentions canceling a specific alarm set for 7 AM, which directly relates to managing alarms. This matches the 'alarm' scenario from the provided list.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "what alarms i have set",
+        "model_raw_output": "{\n    \"reasoning\": \"The user is asking for a list of currently configured alarms. The phrase 'what alarms i have set' clearly indicates an intent to retrieve information about alarms.\",\n    \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

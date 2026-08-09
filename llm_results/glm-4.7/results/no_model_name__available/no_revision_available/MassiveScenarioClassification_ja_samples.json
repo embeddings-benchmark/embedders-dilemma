@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "\u30d4\u30f3\u30af\u304c\u3044\u3044",
+        "model_raw_output": "{\n  \"reasoning\": \"The user expresses a preference for the color 'pink'. In the context of voice assistants and the provided categories, stating a color is most commonly associated with controlling smart home devices, such as changing the color of smart lights or IoT-enabled devices.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "iot",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u50d5\u306e\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u660e\u308b\u3055\u3092\u8868\u793a\u3057\u305f\u307e\u3048",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting to see the current level of their screen brightness. This action involves querying the status of a device setting or hardware property. In the context of voice assistant intent classification, controlling or checking the status of connected devices and their properties (such as lights, thermostats, and displays) falls under the 'iot' (Internet of Things) category.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2\u306e\u6642\u9593\u306f",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the current time in a specific location (Australia), which is a request for date and time information.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u5348\u524d\u4e03\u6642\u306e\u30a2\u30e9\u30fc\u30e0\u3092\u30ad\u30e3\u30f3\u30bb\u30eb",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance '\u5348\u524d\u4e03\u6642\u306e\u30a2\u30e9\u30fc\u30e0\u3092\u30ad\u30e3\u30f3\u30bb\u30eb' translates to 'Cancel the alarm for 7:00 AM.' It explicitly mentions the keyword 'alarm' (\u30a2\u30e9\u30fc\u30e0) and the specific time within the context of a cancellation action. This directly corresponds to the 'alarm' scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u3069\u3093\u306a\u30a2\u30e9\u30fc\u30e0\u3092\u8a2d\u5b9a\u3057\u305f\u304b",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance explicitly mentions 'alarm' (\u30a2\u30e9\u30fc\u30e0) and asks for details about a setting that was made previously ('What kind of alarm did you set?'). This falls under the management and checking of alarms.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

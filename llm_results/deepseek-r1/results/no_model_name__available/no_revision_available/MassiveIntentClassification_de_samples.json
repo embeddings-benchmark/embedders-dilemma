@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "sie m\u00fcssen den n\u00e4chsten montag vormerken",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's utterance 'sie m\u00fcssen den n\u00e4chsten montag vormerken' translates to 'you have to note next Monday' in English. This indicates a request to schedule or set a reminder for a specific date. The appropriate intent from the list is 'calendar_set', which involves setting a calendar event or reminder.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "spiele meine am meisten gespielten song liste",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting to play their 'most played song list', which involves initiating playback of a music playlist. The action 'play' combined with 'song list' directly relates to the 'play_music' intent, as it involves starting music playback rather than querying information or managing a list.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "schalte den wecker um f\u00fcnfzehn uhr ab",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's utterance 'schalte den wecker um f\u00fcnfzehn uhr ab' translates to 'turn off the alarm at 3 PM' in English. The action involves removing or deactivating an existing alarm set for a specific time. Among the intents, 'alarm_remove' directly corresponds to this action, whereas 'alarm_set' would involve creating a new alarm and 'alarm_query' would involve checking its status.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "l\u00f6sche wecker",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'l\u00f6sche wecker' translates to 'delete alarm' in English. The action involves removing an existing alarm, which directly corresponds to the 'alarm_remove' intent.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "erinnere mich an mein termin am nachmittag",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to be reminded of an appointment in the afternoon, which involves setting a reminder for a calendar event. The appropriate intent from the list is 'calendar_set' as it pertains to creating or updating calendar entries.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    }
+]

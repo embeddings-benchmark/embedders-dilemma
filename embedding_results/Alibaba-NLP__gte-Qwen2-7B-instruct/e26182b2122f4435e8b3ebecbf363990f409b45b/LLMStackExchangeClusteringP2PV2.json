@@ -1,0 +1,28 @@
+{
+  "dataset_revision": "5de039af34921939fb4a1c8b2e4f9f0a6ed6cd50",
+  "task_name": "LLMStackExchangeClusteringP2PV2",
+  "mteb_version": "2.11.6",
+  "scores": {
+    "test": [
+      {
+        "v_measure": 0.606754,
+        "v_measure_std": 0.013154,
+        "v_measures": [
+          0.62558,
+          0.600272,
+          0.617823,
+          0.589045,
+          0.601049
+        ],
+        "main_score": 0.606754,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 36.86530041694641,
+  "kg_co2_emissions": null,
+  "date": 1774372928.010544
+}

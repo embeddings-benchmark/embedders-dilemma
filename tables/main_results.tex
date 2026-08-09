@@ -1,0 +1,40 @@
+% Main results: per-category scores and cost (auto-generated)
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llcccccccr}
+\toprule
+& \textbf{Model} & \textbf{Params} & \textbf{Cls (8)} & \textbf{Clust (9)} & \textbf{STS (10)} & \textbf{PairCls (4)} & \textbf{Retr (6)} & \textbf{Overall (37)} & \textbf{Cost} \\
+\midrule
+\multirow{10}{*}{\rotatebox{90}{\small LLM}}
+& Gemini 3.1 Pro & -- & 85.2 & 66.6 & 88.5 & 83.2 & \textbf{64.5} & \textbf{77.6} & \$154 \\
+& Gemini 3 Flash & -- & 84.1 & 65.7 & 87.6 & 86.3 & 52.3 & 75.2 & \$56 \\
+& Qwen3.6-27B & -- & 84.8 & 53.6 & 84.9 & 83.6 & 62.4 & 73.9 & \$103 \\
+& Qwen3.6-35B-A3B & -- & 83.8 & 55.3 & 84.0 & 82.9 & 60.4 & 73.3 & \$34 \\
+& Kimi-K2.6 & -- & 84.5 & 55.4 & 83.9 & 78.0 & 56.7 & 71.7 & \$111 \\
+& DeepSeek-V4-Flash & -- & 81.9 & 43.7 & 82.2 & 81.6 & 53.3 & 68.5 & \$3 \\
+& MiniMax-M2.7 & -- & 80.9 & 48.6 & 81.0 & 82.8 & 48.0 & 68.2 & \$25 \\
+& GLM-4.7 & -- & 84.2 & 36.5 & 83.5 & 79.7 & 54.4 & 67.7 & \$63 \\
+& Gemini 3.1 Flash Lite & -- & 82.9 & 21.7 & 85.1 & 83.7 & 49.0 & 64.5 & \$7 \\
+& DeepSeek-R1 & -- & 82.5 & 31.3 & 83.7 & 79.5 & 44.7 & 64.3 & \$57 \\
+\midrule
+\multirow{10}{*}{\rotatebox{90}{\small Embedding}}
+& Octen-8B & 7.6B & 90.1 & 65.1 & 88.7 & 86.1 & 56.0 & 77.2 & \$0.11 \\
+& Qwen3-E-8B & 7.6B & 90.1 & 65.9 & 88.5 & 86.5 & 54.2 & 77.0 & \$0.11 \\
+& Qwen3-E-4B & 4.0B & 89.3 & 64.6 & \textbf{88.8} & 86.5 & 50.3 & 75.9 & \$0.07 \\
+& Nemotron-8B & 7.5B & 84.8 & 64.1 & 86.2 & 86.7 & 54.7 & 75.3 & \$0.11 \\
+& KaLM-12B & 11.8B & 88.8 & 63.4 & 84.6 & \textbf{87.1} & 49.9 & 74.8 & \$0.16 \\
+& Jina-v5-S & 596M & 90.4 & 61.5 & 86.9 & 85.1 & 48.0 & 74.4 & \$0.03 \\
+& SFR-2 & 7.1B & \textbf{90.8} & \textbf{66.7} & 77.9 & 85.3 & 48.8 & 73.9 & \$0.14 \\
+& Jina-v5-Nano & 212M & 89.6 & 60.4 & 87.0 & 85.0 & 47.4 & 73.9 & \$0.01 \\
+& F2LLM-14B & 14.0B & 77.7 & 66.5 & 84.1 & 86.3 & 52.1 & 73.3 & \$0.22 \\
+& GTE-Qwen2-7B & 7.1B & 86.7 & 65.2 & 81.6 & 86.0 & 45.8 & 73.1 & \$0.09 \\
+\bottomrule
+\end{tabular}}
+\caption{\textbf{Model overview and per-category results.}
+All ten LLMs and the ten highest-scoring embedding models. Scores are category means on a 0--100 scale; Overall is their mean.
+Cost is one \mteblm{} pass using API rates for LLMs and H100 throughput at \$2.49/hr for embeddings (\S\ref{sec:cost}). Bold = best shown; full results are in Appendix~\ref{app:models}.}
+\label{tab:main_results}
+\end{table*}

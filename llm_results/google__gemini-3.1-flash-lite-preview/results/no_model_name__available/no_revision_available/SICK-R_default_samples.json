@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "The male, who is dark skinned, is standing on one hand in front of a yellow building",
+    "sentence2": "A black man is break dancing on the pavement",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a dark-skinned male performing a physical feat, but they describe the action differently (standing on one hand vs break dancing) and omit information present in the other (yellow building vs pavement). They are semantically related but lack complete overlap.\",\n  \"output\": 3.2\n}",
+    "reasoning": "Both sentences describe a dark-skinned male performing a physical feat, but they describe the action differently (standing on one hand vs break dancing) and omit information present in the other (yellow building vs pavement). They are semantically related but lack complete overlap.",
+    "predicted_sim": 3.2,
+    "gold_score": 2.7,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "A girl in blue is sliding down a green slide",
+    "sentence2": "A boy in blue are sliding down a green slide",
+    "model_raw_output": "{\n  \"reasoning\": \"The sentences are structurally identical and describe the same action and setting. The only difference is the subject (girl vs. boy), which changes the semantic meaning slightly, but the overall context remains highly similar.\",\n  \"output\": 4.2\n}",
+    "reasoning": "The sentences are structurally identical and describe the same action and setting. The only difference is the subject (girl vs. boy), which changes the semantic meaning slightly, but the overall context remains highly similar.",
+    "predicted_sim": 4.2,
+    "gold_score": 3.4,
+    "abs_diff": 0.8000000000000003
+  },
+  {
+    "sentence1": "The cheerleaders are parading and wearing uniforms which are black, pink and white",
+    "sentence2": "The cheerleaders are parading and wearing black, pink and white uniforms",
+    "model_raw_output": "{\"reasoning\": \"Both sentences convey the exact same information about the cheerleaders parading and the color scheme of their uniforms, with only a minor syntactic difference in how the description of the uniforms is phrased.\", \"output\": 4.9}",
+    "reasoning": "Both sentences convey the exact same information about the cheerleaders parading and the color scheme of their uniforms, with only a minor syntactic difference in how the description of the uniforms is phrased.",
+    "predicted_sim": 4.9,
+    "gold_score": 4.8,
+    "abs_diff": 0.10000000000000053
+  },
+  {
+    "sentence1": "A man is emptying a container made of plastic",
+    "sentence2": "A man is filling a container made of plastic",
+    "model_raw_output": "{\"reasoning\": \"Both sentences describe a man interacting with a plastic container, but the core actions (emptying vs. filling) are antonyms, representing opposite processes.\", \"output\": 2.5}",
+    "reasoning": "Both sentences describe a man interacting with a plastic container, but the core actions (emptying vs. filling) are antonyms, representing opposite processes.",
+    "predicted_sim": 2.5,
+    "gold_score": 3.4,
+    "abs_diff": 0.8999999999999999
+  },
+  {
+    "sentence1": "A few people are dancing",
+    "sentence2": "A group of people are dancing",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the same action performed by a small number of people. 'A few' and 'a group' are semantically similar in this context, although 'a group' is slightly more generic regarding size.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences describe the same action performed by a small number of people. 'A few' and 'a group' are semantically similar in this context, although 'a group' is slightly more generic regarding size.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.5,
+    "abs_diff": 0.0
+  }
+]

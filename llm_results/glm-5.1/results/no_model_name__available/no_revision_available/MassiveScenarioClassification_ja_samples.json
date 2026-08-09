@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "\u30d4\u30f3\u30af\u304c\u3044\u3044",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance '\u30d4\u30f3\u30af\u304c\u3044\u3044' (I prefer pink / Pink is good) is a general expression of preference without any domain-specific context. It does not contain indicators tied to a specific task such as setting an alarm, controlling a smart device (IoT), querying the weather, ordering food, or managing a calendar. In isolation, it is best categorized as a general preference statement.\",\n  \"output\": \"general\"\n}",
+        "parsed_output": "general",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "\u50d5\u306e\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u660e\u308b\u3055\u3092\u8868\u793a\u3057\u305f\u307e\u3048",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting to display or show the current screen brightness ('\u50d5\u306e\u30b9\u30af\u30ea\u30fc\u30f3\u306e\u660e\u308b\u3055\u3092\u8868\u793a\u3057\u305f\u307e\u3048' translates to 'Show my screen brightness'). This is a command to check or control a device display setting, which falls under smart device or IoT (Internet of Things) control.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2\u306e\u6642\u9593\u306f",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance '\u30aa\u30fc\u30b9\u30c8\u30e9\u30ea\u30a2\u306e\u6642\u9593\u306f' is asking for the current time in Australia. This is a query specifically related to date and time information for a particular location, which falls under the datetime scenario.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u5348\u524d\u4e03\u6642\u306e\u30a2\u30e9\u30fc\u30e0\u3092\u30ad\u30e3\u30f3\u30bb\u30eb",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance contains '\u30a2\u30e9\u30fc\u30e0' (alarm) and '\u30ad\u30e3\u30f3\u30bb\u30eb' (cancel), indicating the user wants to cancel an alarm set for 7 AM. This directly relates to managing or modifying an alarm.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u3069\u3093\u306a\u30a2\u30e9\u30fc\u30e0\u3092\u8a2d\u5b9a\u3057\u305f\u304b",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance '\u3069\u3093\u306a\u30a2\u30e9\u30fc\u30e0\u3092\u8a2d\u5b9a\u3057\u305f\u304b' contains the word '\u30a2\u30e9\u30fc\u30e0' (alarm) and is asking about what alarms have been set or configured. This directly relates to managing, checking, or inquiring about alarm settings, which falls under the 'alarm' scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

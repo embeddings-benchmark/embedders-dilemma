@@ -1,0 +1,51 @@
+{
+  "dataset_revision": "34eeb6105ca217433c04b207ea66810a2ff42625",
+  "task_name": "ToxicConversationsClassification",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.882,
+            "f1": 0.643371,
+            "f1_weighted": 0.888418,
+            "precision": 0.630137,
+            "precision_weighted": 0.895922,
+            "recall": 0.661957,
+            "recall_weighted": 0.882,
+            "ap": 0.17349,
+            "ap_weighted": 0.17349
+          }
+        ],
+        "accuracy": 0.882,
+        "f1": 0.643371,
+        "f1_weighted": 0.888418,
+        "precision": 0.630137,
+        "precision_weighted": 0.895922,
+        "recall": 0.661957,
+        "recall_weighted": 0.882,
+        "ap": 0.17349,
+        "ap_weighted": 0.17349,
+        "main_score": 0.882,
+        "input_tokens": 54997,
+        "output_tokens": 707295,
+        "total_tokens": 762292,
+        "cost": 0.0,
+        "usage_stats": {
+          "input_tokens": 54997,
+          "output_tokens": 707295,
+          "total_tokens": 762292,
+          "cost": 0.0
+        },
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 15629.727900266647,
+  "kg_co2_emissions": null,
+  "date": 1774813625.541621
+}

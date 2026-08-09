@@ -1,0 +1,37 @@
+{
+  "dataset_revision": "300cb175d1b608cfc3fdb94fd06b3ceb937f9b6a",
+  "task_name": "LLMLegalBenchCorporateLobbying",
+  "mteb_version": "2.3.0",
+  "scores": {
+    "test": [
+      {
+        "recall@1": 0.902941,
+        "recall@2": 0.955882,
+        "recall@3": 0.958824,
+        "recall@5": 0.964706,
+        "mrecall@1": 0.902941,
+        "mrecall@2": 0.955882,
+        "mrecall@3": 0.958824,
+        "mrecall@5": 0.964706,
+        "capped_recall@1": 0.902941,
+        "main_score": 0.902941,
+        "usage_stats": {
+          "input_tokens": 24415286,
+          "cached_tokens": 0,
+          "output_tokens": 537203,
+          "thinking_tokens": 551044,
+          "total_tokens": 24952489,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 972.6135189533234,
+  "kg_co2_emissions": null
+}

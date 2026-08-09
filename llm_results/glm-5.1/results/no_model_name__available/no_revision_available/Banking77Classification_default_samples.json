@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "How do I locate my card?",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking how to locate or track their physical bank card, which relates to the delivery status and whether the card has arrived. This maps to the 'card_arrival' category, which covers queries about card delivery status, tracking a shipped card, and cards that have not yet been received.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "I still have not received my new card, I ordered over a week ago.",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is inquiring about a physical card they ordered over a week ago that has not yet been received. This maps directly to concerns regarding the delivery and receipt of a card that was already ordered.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "I ordered a card but it has not arrived. Help please!",
+        "model_raw_output": "{\n  \"reasoning\": \"The user states they ordered a card but it has not arrived yet. This directly corresponds to the 'card_arrival' category, which handles inquiries about the delivery and receipt of ordered cards.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "Is there a way to know when my card will arrive?",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking about knowing the arrival time of their card, which directly relates to getting an estimate for when the card will be delivered. Among the available categories, 'card_delivery_estimate' is the most precise match for this intent.\",\n  \"output\": \"card_delivery_estimate\"\n}",
+        "parsed_output": "card_delivery_estimate",
+        "ground_truth": "card_arrival",
+        "is_correct": false
+    },
+    {
+        "input_text": "My card has not arrived yet.",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is stating that their ordered card has not arrived yet, which directly corresponds to inquiries about card delivery status.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    }
+]

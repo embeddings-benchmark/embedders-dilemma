@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "allergy-bullying ? apparently this is a real problem .",
+    "sentence2": "allergy bullying : when food is a weapon",
+    "model_raw_output": "{\"reasoning\": \"Both sentences address the same niche topic of using allergies as a means of harassment or bullying. They share the same core subject matter and negative sentiment, although the second sentence provides a more specific descriptor for the action.\", \"output\": 4.5}",
+    "reasoning": "Both sentences address the same niche topic of using allergies as a means of harassment or bullying. They share the same core subject matter and negative sentiment, although the second sentence provides a more specific descriptor for the action.",
+    "predicted_sim": 4.5,
+    "gold_score": 3.0,
+    "abs_diff": 1.5
+  },
+  {
+    "sentence1": "they know that the video doesn 't show a gas chamber .",
+    "sentence2": "the bottom line is that the video clip doesn 't show a gas chamber .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core fact that the video does not depict a gas chamber, with the second sentence simply adding introductory emphasis ('the bottom line is that').\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences convey the same core fact that the video does not depict a gas chamber, with the second sentence simply adding introductory emphasis ('the bottom line is that').",
+    "predicted_sim": 4.5,
+    "gold_score": 4.6,
+    "abs_diff": 0.09999999999999964
+  },
+  {
+    "sentence1": "some believe the ' right ' is most important .",
+    "sentence2": "some believe not slaughtering the unborn is most important .",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences are related in context, as 'the right' in the first sentence is a common shorthand or euphemism for the anti-abortion or 'pro-life' stance, which is explicitly described in the second sentence. While the first sentence is more abstract and could technically refer to other rights, the framing strongly implies a shared subject matter regarding the abortion debate.\",\n  \"output\": 3.8\n}",
+    "reasoning": "The two sentences are related in context, as 'the right' in the first sentence is a common shorthand or euphemism for the anti-abortion or 'pro-life' stance, which is explicitly described in the second sentence. While the first sentence is more abstract and could technically refer to other rights, the framing strongly implies a shared subject matter regarding the abortion debate.",
+    "predicted_sim": 3.8,
+    "gold_score": 1.2,
+    "abs_diff": 2.5999999999999996
+  },
+  {
+    "sentence1": "brief clashes with police in belfast",
+    "sentence2": "mourners clash with police in tunisia",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a physical confrontation (clashes) between groups of people and police. However, the groups involved (unspecified vs. mourners) and the geographical locations (Belfast vs. Tunisia) are entirely different, making the context distinct.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences describe a physical confrontation (clashes) between groups of people and police. However, the groups involved (unspecified vs. mourners) and the geographical locations (Belfast vs. Tunisia) are entirely different, making the context distinct.",
+    "predicted_sim": 2.5,
+    "gold_score": 1.2,
+    "abs_diff": 1.3
+  },
+  {
+    "sentence1": "a train is running on the tracks .",
+    "sentence2": "a train is running down the track in a rural area .",
+    "model_raw_output": "{\"reasoning\": \"Both sentences describe a train in motion on tracks. The second sentence adds specific contextual information (a rural area) that is not present in the first, but the core action and subject remain the same.\", \"output\": 4.2}",
+    "reasoning": "Both sentences describe a train in motion on tracks. The second sentence adds specific contextual information (a rural area) that is not present in the first, but the core action and subject remain the same.",
+    "predicted_sim": 4.2,
+    "gold_score": 4.0,
+    "abs_diff": 0.20000000000000018
+  }
+]

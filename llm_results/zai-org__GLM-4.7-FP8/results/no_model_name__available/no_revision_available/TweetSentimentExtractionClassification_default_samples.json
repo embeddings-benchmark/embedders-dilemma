@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Last session of the day  http://twitpic.com/67ezh",
+        "model_raw_output": "```json\n{\n  \"reasoning\": \"The tweet simply states a factual observation about being in the final session of the day. It lacks emotional adjectives, exclamation marks, or subjective opinions that would indicate a positive or negative sentiment.\",\n  \"output\": \"neutral\"\n}\n```",
+        "parsed_output": "neutral",
+        "ground_truth": "neutral",
+        "is_correct": true
+    },
+    {
+        "input_text": "I THINK EVERYONE HATES ME ON HERE   lol",
+        "model_raw_output": "```json\n{\n  \"reasoning\": \"The tweet contains the phrase 'EVERYONE HATES ME,' which is lexically negative. However, the inclusion of 'lol' at the end signals that the statement is intended as a joke, self-deprecation, or sarcasm rather than a genuine expression of distress or sadness. Because the intent is humorous rather than serious, the sentiment is classified as neutral.\",\n  \"output\": \"neutral\"\n}\n```",
+        "parsed_output": "neutral",
+        "ground_truth": "negative",
+        "is_correct": false
+    },
+    {
+        "input_text": " .. and you`re on twitter! Did the tavern bore you that much?",
+        "model_raw_output": "```json\n{\n  \"reasoning\": \"The tweet is a casual, slightly sarcastic or teasing comment directed at someone for using Twitter instead of being present at a social gathering (the tavern). While there is a mild implication that the person is bored or the company is dull, it lacks strong emotional indicators of hatred, anger, or deep dislike. It reads more like friendly banter or a casual observation than a strongly negative sentiment.\",\n  \"output\": \"neutral\"\n}\n```",
+        "parsed_output": "neutral",
+        "ground_truth": "neutral",
+        "is_correct": true
+    },
+    {
+        "input_text": " guess that depends on if you want to be on the jury",
+        "model_raw_output": "```json\n{\n  \"reasoning\": \"The tweet presents a conditional statement regarding the desire to serve on a jury. It does not contain emotionally charged language or express a clear positive or negative opinion, making it a neutral observation.\",\n  \"output\": \"neutral\"\n}\n```",
+        "parsed_output": "neutral",
+        "ground_truth": "neutral",
+        "is_correct": true
+    },
+    {
+        "input_text": "resorted to eating Mickey Ds ALONE.",
+        "model_raw_output": "```json\n{\n  \"reasoning\": \"The phrase 'resorted to' implies that the action was a last resort or a lack of better options, connoting disappointment or desperation. Additionally, the capitalization of 'ALONE' emphasizes the isolation or loneliness of the situation, adding to the negative self-deprecating tone.\",\n  \"output\": \"negative\"\n}\n```",
+        "parsed_output": "negative",
+        "ground_truth": "neutral",
+        "is_correct": false
+    }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "query_id": "Q25",
+    "query_text": "What is a novel coronavirus?",
+    "model_raw_output": "ID: 92  \n**Definition**: \u201cA novel coronavirus is a new coronavirus that has not been previously identified. The virus causing coronavirus disease 2019 (COVID\u201119), is not the same as the coronaviruses that commonly circulate among humans and cause mild illness, like the common cold.\u201d  \n\nFinal Answer: [92]",
+    "parsed_ids": [
+      "D27"
+    ],
+    "gold_ids": [
+      "D27"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "Q150",
+    "query_text": "How can people help stop stigma related to COVID-19?",
+    "model_raw_output": "Based on the query about how people can help stop stigma related to COVID-19, the most relevant document is:\n\n**ID: 169**\n**TITLE:** People can fight stigma by providing social support in situations where you notice this is occurring. Stigma affects the emotional or mental health of stigmatized groups and the communities they live in. Stopping stigma is important to making communities and community members resilient. See resources on mental health and coping during COVID-19. Everyone can help stop stigma related to COVID-19 by knowing the facts and sharing them with others in your community.\n\nThis document directly addresses how individuals can help stop stigma by knowing the facts and sharing them, and by providing social support.\n\nFinal Answer: [169]",
+    "parsed_ids": [
+      "D97"
+    ],
+    "gold_ids": [
+      "D97"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "Q107",
+    "query_text": "Why do some state\u2019s COVID-19 case numbers sometimes differ from what is posted on CDC\u2019s website?",
+    "model_raw_output": "Based on the query about why state COVID-19 case numbers sometimes differ from CDC's website, the most relevant document is:\n\n**ID: 7**\n**TITLE:** Delays in reporting can cause the number of COVID-19 cases reported on previous days to increase. (Sometimes this effect is described as \"backfill.\") State, local, and territorial health departments report the number of cases that have been confirmed and share these data with CDC. Since it takes time to conduct laboratory testing, cases from a previous day may be added to the daily counts a few days late.\n\nThis document directly explains that reporting delays and the \"backfill\" effect cause discrepancies between state-reported numbers and CDC's posted numbers, as cases take time to be confirmed and reported.\n\nFinal Answer: [7]",
+    "parsed_ids": [
+      "D104"
+    ],
+    "gold_ids": [
+      "D120"
+    ],
+    "is_correct": false
+  },
+  {
+    "query_id": "Q58",
+    "query_text": "Why do the number of cases for previous days increase?",
+    "model_raw_output": "**Most Relevant Document:**\n\n**ID: 7**\n\n**Title:** (Content excerpt): \"Delays in reporting can cause the number of COVID-19 cases reported on previous days to increase. (Sometimes this effect is described as 'backfill.') State, local, and territorial health departments report the number of cases that have been confirmed and share these data with CDC. Since it takes time to conduct laboratory testing, cases from a previous day may be added to the daily counts a few days late.\"\n\nThis document directly answers why the number of cases for previous days increases - it explains the \"backfill\" effect caused by delays in reporting and laboratory testing.\n\n**Final Answer:** [7]",
+    "parsed_ids": [
+      "D104",
+      "D115"
+    ],
+    "gold_ids": [
+      "D104"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "Q72",
+    "query_text": "What is the source of the virus?",
+    "model_raw_output": "Based on the query \"What is the source of the virus?\", the most relevant document is:\n\n**Title:** The first human cases of COVID-19 were identified in Wuhan City, China in December 2019...\n**ID:** 10\n\nThis document directly discusses the source of the virus, explaining that SARS-CoV-2 jumped the species barrier and initially infected humans, likely through an intermediate host, though this host has not yet been identified.\n\nFinal Answer: [10]",
+    "parsed_ids": [
+      "D107"
+    ],
+    "gold_ids": [
+      "D83"
+    ],
+    "is_correct": false
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "A person is on a baseball team.",
+    "sentence2": "Eine Person spielt in einem Team Basketball.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person participating in a team sport, sharing the same general semantic frame (human, team, ball sport). However, they refer to different specific sports (baseball versus basketball) and use slightly different relationships ('is on a team' versus 'plays in a team'). While the overall topic and structure are closely related, the distinction in the specific activity is significant enough to prevent a high similarity score. The language difference (English vs. German) is irrelevant to semantic meaning.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences describe a person participating in a team sport, sharing the same general semantic frame (human, team, ball sport). However, they refer to different specific sports (baseball versus basketball) and use slightly different relationships ('is on a team' versus 'plays in a team'). While the overall topic and structure are closely related, the distinction in the specific activity is significant enough to prevent a high similarity score. The language difference (English vs. German) is irrelevant to semantic meaning.",
+    "predicted_sim": 2.5,
+    "gold_score": 2.4,
+    "abs_diff": 0.10000000000000009
+  },
+  {
+    "sentence1": "Our current vehicles will be in museums when everyone has their own aircraft.",
+    "sentence2": "Das Auto muss etwas in Stand gesetzt werden",
+    "model_raw_output": "{\n  \"reasoning\": \"The sentences are in different languages (English vs German) and express entirely unrelated propositions. Sentence 1 is a hypothetical statement about future transportation, claiming current vehicles will become museum artifacts once personal aircraft are ubiquitous. Sentence 2 is a practical statement about a specific car needing repair ('Das Auto muss etwas in Stand gesetzt werden'). There is no semantic overlap in topic, intent, or meaning beyond the loose, superficial connection that both mention automobiles.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The sentences are in different languages (English vs German) and express entirely unrelated propositions. Sentence 1 is a hypothetical statement about future transportation, claiming current vehicles will become museum artifacts once personal aircraft are ubiquitous. Sentence 2 is a practical statement about a specific car needing repair ('Das Auto muss etwas in Stand gesetzt werden'). There is no semantic overlap in topic, intent, or meaning beyond the loose, superficial connection that both mention automobiles.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.2,
+    "abs_diff": 0.2
+  },
+  {
+    "sentence1": "A woman supervisor is instructing the male workers.",
+    "sentence2": "Eine Frau arbeitet als Krankenpflegerin.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a woman in a professional or occupational context, which provides minimal topical overlap. However, the specific roles, actions, and settings differ entirely: Sentence 1 describes a female supervisor instructing male workers in a general workplace leadership scenario, while Sentence 2 describes a woman working as a nurse (in a healthcare context) with no mention of authority, instruction, or other workers. They share only the broad elements of 'woman' and 'employment,' but the propositional meanings are largely unrelated.\",\n  \"output\": 0.5\n}",
+    "reasoning": "Both sentences describe a woman in a professional or occupational context, which provides minimal topical overlap. However, the specific roles, actions, and settings differ entirely: Sentence 1 describes a female supervisor instructing male workers in a general workplace leadership scenario, while Sentence 2 describes a woman working as a nurse (in a healthcare context) with no mention of authority, instruction, or other workers. They share only the broad elements of 'woman' and 'employment,' but the propositional meanings are largely unrelated.",
+    "predicted_sim": 0.5,
+    "gold_score": 1.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "A bike is next to a couple women.",
+    "sentence2": "Ein Kind neben einem Fahrrad.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a spatial relationship involving a bicycle (bike/Fahrrad) and use a similar prepositional meaning ('next to' / 'neben'). However, the subjects are completely different: Sentence 1 involves a couple of women, while Sentence 2 involves a child. Additionally, Sentence 1 is a complete clause with a verb, whereas Sentence 2 is a noun phrase fragment without a verb. The shared elements (bicycle, proximity) create some semantic overlap, but the core entities and propositional content differ significantly.\",\n  \"output\": 1.5\n}",
+    "reasoning": "Both sentences describe a spatial relationship involving a bicycle (bike/Fahrrad) and use a similar prepositional meaning ('next to' / 'neben'). However, the subjects are completely different: Sentence 1 involves a couple of women, while Sentence 2 involves a child. Additionally, Sentence 1 is a complete clause with a verb, whereas Sentence 2 is a noun phrase fragment without a verb. The shared elements (bicycle, proximity) create some semantic overlap, but the core entities and propositional content differ significantly.",
+    "predicted_sim": 1.5,
+    "gold_score": 2.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "The group is eating while taking in a breathtaking view.",
+    "sentence2": "Eine Gruppe sieht einen ungew\u00f6hnlichen Baum an.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a group of people engaged in visual observation, which provides a minimal semantic overlap. However, Sentence 1 focuses on eating while enjoying a broad, breathtaking view (likely a landscape or scenery), whereas Sentence 2 describes a group looking at a specific unusual tree. The actions differ significantly (eating vs. looking), and the objects of attention are conceptually distinct (a panoramic view vs. a single tree). The shared subject ('group') and general theme of observation prevent the score from being zero, but the core meanings are largely divergent.\",\n  \"output\": 1.2\n}",
+    "reasoning": "Both sentences describe a group of people engaged in visual observation, which provides a minimal semantic overlap. However, Sentence 1 focuses on eating while enjoying a broad, breathtaking view (likely a landscape or scenery), whereas Sentence 2 describes a group looking at a specific unusual tree. The actions differ significantly (eating vs. looking), and the objects of attention are conceptually distinct (a panoramic view vs. a single tree). The shared subject ('group') and general theme of observation prevent the score from being zero, but the core meanings are largely divergent.",
+    "predicted_sim": 1.2,
+    "gold_score": 2.2,
+    "abs_diff": 1.0000000000000002
+  }
+]

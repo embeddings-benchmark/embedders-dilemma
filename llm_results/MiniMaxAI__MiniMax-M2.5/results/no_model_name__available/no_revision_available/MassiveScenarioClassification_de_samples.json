@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "wir brauchen rosa",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'wir brauchen rosa' (we need pink/roses) is a short, ambiguous German statement. It doesn't clearly relate to any of the specific defined scenarios like alarm, calendar, music, weather, transport, etc. It's a general statement about a need (pink color or roses) without a specific actionable intent that fits into the other categories. This appears to be a general conversational statement.\",\n  \"output\": \"general\"\n}",
+        "parsed_output": "general",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "wie ist die einstellung f\u00fcr die helligkeit an meinem bildschirm",
+        "model_raw_output": "{\n  \"reasoning\": \"Die Frage bezieht sich auf die Einstellung der Bildschirmhelligkeit. Dies ist eine typische Funktion von Smart-Home-Ger\u00e4ten (Smart-TVs, Smart-Displays, etc.) oder allgemeinen Ger\u00e4teeinstellungen. Da Helligkeitseinstellungen eine h\u00e4ufige Funktion von IoT-Ger\u00e4ten sind, wird dieses Szenario als 'iot' klassifiziert.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "wie sp\u00e4t ist es in schweden",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking 'wie sp\u00e4t ist es in schweden' (what time is it in Sweden), which is a request for the current time in a specific location. This is a datetime-related query.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "l\u00f6sche meinen wecker f\u00fcr sieben uhr",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to delete an alarm set for 7 o'clock. The German phrase 'l\u00f6sche meinen wecker f\u00fcr sieben uhr' directly relates to removing/canceling an alarm, which falls under the alarm scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "welche wecker habe ich gestellt",
+        "model_raw_output": "{\"reasoning\": \"The user is asking about their set alarms in German ('welche wecker habe ich gestellt' = 'which alarm did I set'), which is clearly an inquiry about alarm settings.\", \"output\": \"alarm\"}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

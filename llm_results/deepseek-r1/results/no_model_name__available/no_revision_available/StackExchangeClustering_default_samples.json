@@ -1,0 +1,31 @@
+{
+    "task": "StackExchangeClustering",
+    "model_raw_output_preview": "{\"assignments\":[0,1,2,3,1,4,5,6,7,8,9,10,1,11,12,13,4,2,14,15,16,14,17,4,4,18,19,5,13,18,5,5,13,5,5,13,19,7,18,13,11,5,18,7,5,19,11,1,5,13,19,11,5,14,14,12,13,14,14,13,11,14,13,5,5,5,11,19,5,16,5,16,5,17,5,18,14,5,18,19,5,11,19,5,14,19,11,5,11,14,5,18,14,5,5,5,19,5,5,13,5,19,14,5,5,5,5,14,5,18,5,19,5,5,19,11,19,5,5,19,19,5,5,5,5,5,5,5,14,5,5,14,5,5,14,5,5,5,5,14,5,19,19,19,19,19,19,19,19,5,5,5,5,19,14,5,19,5,5,5,5,19,5,19,19,5,19,5,5,5,14,5,5,14]}",
+    "samples": [
+        {
+            "input_text": "Smooth trajectory on a smooth manifold",
+            "predicted_cluster": 0,
+            "gold_cluster": "physics.stackexchange.com.txt"
+        },
+        {
+            "input_text": "Experiment to find structure of water",
+            "predicted_cluster": 1,
+            "gold_cluster": "physics.stackexchange.com.txt"
+        },
+        {
+            "input_text": "What kind of diagram is best to represent the flow of a registration process?",
+            "predicted_cluster": 2,
+            "gold_cluster": "ux.stackexchange.com.txt"
+        },
+        {
+            "input_text": "Census County Commuter Flow Data?",
+            "predicted_cluster": 3,
+            "gold_cluster": "opendata.stackexchange.com.txt"
+        },
+        {
+            "input_text": "Is sustainable living basically the opposite of industrialisation",
+            "predicted_cluster": 1,
+            "gold_cluster": "sustainability.stackexchange.com.txt"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+[project]
+name = "embedders-dilemma"
+version = "1.0.0"
+description = "MTEB(LLM): cost-aware comparison of LLM and embedding pipelines across 37 tasks (COLM 2026)"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "aiofiles>=24.1.0",
+    "datasets>=4.4.1",
+    "google-auth>=2.38.0",
+    "mteb==2.6.5",
+    "openai>=2.8.1",
+    "pydantic>=2.12.5",
+    "pydantic-settings>=2.12.0",
+    "rlms>=0.1.1",
+    "tqdm>=4.67.1",
+]
+
+[dependency-groups]
+# Reproduce the paper's tables and figures from the shipped result files.
+analysis = [
+    "pandas>=2.2",
+    "matplotlib>=3.9",
+    "numpy>=1.26",
+    "scipy>=1.13",
+    "pillow>=10.0",
+]
+# GPU throughput benchmarks and tokenizer-based token counting.
+benchmark = [
+    "torch>=2.4",
+    "sentence-transformers>=3.0",
+    "transformers>=4.44",
+    "tiktoken>=0.7",
+    "huggingface-hub>=0.24",
+]
+lint = [
+    "ruff>=0.14.7",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py313"
+
+[tool.ruff.lint]
+# Correctness-focused: pyflakes/pycodestyle errors, bugbear, pyupgrade.
+# E402 allowed: scripts insert repo paths into sys.path before local imports.
+# E701 allowed: single-line guard clauses (`if x: continue`) are used throughout.
+select = ["E4", "E7", "E9", "F", "B", "UP"]
+ignore = ["E402", "E701", "E731", "E741", "B023", "B905"]

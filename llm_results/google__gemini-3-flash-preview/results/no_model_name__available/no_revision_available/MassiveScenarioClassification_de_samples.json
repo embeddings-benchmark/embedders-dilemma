@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "wir brauchen rosa",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'wir brauchen rosa' translates to 'we need pink'. This expression of needing or requiring an item is most commonly associated with adding items to a shopping list or task list.\",\n  \"output\": \"lists\"\n}",
+        "parsed_output": "lists",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "wie ist die einstellung f\u00fcr die helligkeit an meinem bildschirm",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for information about a device-specific hardware setting (screen brightness). In this classification schema, queries and commands related to hardware states and device controls are typically categorized under 'iot'.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "wie sp\u00e4t ist es in schweden",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the current time in a specific location (Sweden), which falls under information regarding time and date.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "l\u00f6sche meinen wecker f\u00fcr sieben uhr",
+        "model_raw_output": "{\n  \"reasoning\": \"Der Nutzer m\u00f6chte einen Wecker f\u00fcr eine bestimmte Uhrzeit l\u00f6schen, was eindeutig in die Kategorie der Weckerverwaltung (alarm) f\u00e4llt.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "welche wecker habe ich gestellt",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking about the status or list of alarms they have previously set, which directly falls under the 'alarm' category.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

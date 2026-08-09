@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "le rose est tout ce dont nous avons besoin",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance translates to 'pink is all we need,' which expresses a clear preference or desire for items in the color pink. In the context of smart assistant interactions, statements that highlight a specific attribute or color preference typically indicate a request for product suggestions or recommendations. Among the provided scenarios, 'recommendation' best captures this intent.\",\n  \"output\": \"recommendation\"\n}",
+        "parsed_output": "recommendation",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "je veux le statut sur la luminosit\u00e9 de mon \u00e9cran",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the current status of a hardware setting (screen brightness). This type of query, which involves interacting with or retrieving information about the state of a connected device or appliance, fits best within the Internet of Things (IoT) category.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "quelle heure est-il en australie",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the current time in a specific location (Australia). This is a direct query about time zones and the current time, which aligns with the datetime scenario.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "annuler mon alarme de sept heures du matin",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's utterance 'annuler mon alarme de sept heures du matin' translates to 'cancel my 7 AM alarm'. This is a direct request to manage an alarm, specifically cancelling it, which corresponds to the 'alarm' scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "quelles alarmes j'ai r\u00e9gl\u00e9es",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking in French 'quelles alarmes j'ai r\u00e9gl\u00e9es' which translates to 'what alarms have I set?'. This is a direct query about existing alarms, which clearly matches the 'alarm' scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

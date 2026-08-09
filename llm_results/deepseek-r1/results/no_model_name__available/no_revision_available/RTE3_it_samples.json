@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "In una mossa largamente vista come sorprendente, la Banca d'Inghilterra alz\u00f2 i tassi d'interesse inglesi dal 5% al 5,25%, il massimo in cinque anni.",
+    "sentence2": "I tassi d'interesse inglesi salirono dal 5% al 5,25%.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that the Bank of England raised UK interest rates from 5% to 5.25%. Sentence 2 asserts that UK interest rates rose from 5% to 5.25%. The core factual claim in Sentence 2 (the numerical increase) is explicitly stated in Sentence 1, even though Sentence 1 adds contextual details (e.g., the move was seen as surprising, the rate is a 5-year high). Since the hypothesis (Sentence 2) directly mirrors the factual content of the premise (Sentence 1), the entailment holds.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that the Bank of England raised UK interest rates from 5% to 5.25%. Sentence 2 asserts that UK interest rates rose from 5% to 5.25%. The core factual claim in Sentence 2 (the numerical increase) is explicitly stated in Sentence 1, even though Sentence 1 adds contextual details (e.g., the move was seen as surprising, the rate is a 5-year high). Since the hypothesis (Sentence 2) directly mirrors the factual content of the premise (Sentence 1), the entailment holds.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Ieri \u00e8 emerso che il Ministro della Difesa ha respinto una richiesta dall'Argentina di autorizzare un rifornimento limitato di parti di ricambio prodotte dal Regno Unito per la marina argentina, cominciato durante la Guerra del Golfo.",
+    "sentence2": "Il Ministro della Difesa del Regno Unito ha respinto una richiesta di rifornimenti dell'Argentina.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that the Minister of Defense rejected a request from Argentina for UK-produced spare parts. While the minister's nationality is not explicitly stated, the context (UK-produced parts, Argentine navy request) strongly implies the UK Minister of Defense is the rejecting authority. Sentence 2 explicitly identifies the UK Minister of Defense as the one rejecting the request for supplies. The core factual elements (rejection, Argentina's request, UK Minister's role) align, even if Sentence 2 omits specifics like 'spare parts' or 'Gulf War.'\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that the Minister of Defense rejected a request from Argentina for UK-produced spare parts. While the minister's nationality is not explicitly stated, the context (UK-produced parts, Argentine navy request) strongly implies the UK Minister of Defense is the rejecting authority. Sentence 2 explicitly identifies the UK Minister of Defense as the one rejecting the request for supplies. The core factual elements (rejection, Argentina's request, UK Minister's role) align, even if Sentence 2 omits specifics like 'spare parts' or 'Gulf War.'",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "In novembre, l'unit\u00e0 organizz\u00f2 un'esposizione di falsi al V&A per mettere in luce la crescente diffusione e sofisticazione del crimine d'arte.",
+    "sentence2": "Il crimine d'arte \u00e8 in aumento.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that an exhibition was organized to highlight the 'growing spread and sophistication' of art crime. The term 'crescente' (growing) directly indicates an increase in both the geographical reach and complexity of art crime. While 'sofisticazione' (sophistication) refers to method advancement, 'crescente diffusione' (growing spread) implies an expansion in occurrence, which aligns with the hypothesis in Sentence 2 ('art crime is increasing'). The premise logically supports the conclusion that art crime is on the rise, even if not explicitly stating numerical growth.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that an exhibition was organized to highlight the 'growing spread and sophistication' of art crime. The term 'crescente' (growing) directly indicates an increase in both the geographical reach and complexity of art crime. While 'sofisticazione' (sophistication) refers to method advancement, 'crescente diffusione' (growing spread) implies an expansion in occurrence, which aligns with the hypothesis in Sentence 2 ('art crime is increasing'). The premise logically supports the conclusion that art crime is on the rise, even if not explicitly stating numerical growth.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Belknap fu accusato da un voto unanime della Camera dei Rappresentanti di aver presumibilmente ricevuto denaro in cambio di assegnazioni di posti di lavoro.",
+    "sentence2": "Belknap fu accusato di aver ricevuto denaro in cambio di assegnazioni di posti di lavoro.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that Belknap was accused by a unanimous House vote of 'allegedly receiving money in exchange for job assignments.' Sentence 2 simplifies this to 'Belknap was accused of receiving money in exchange for job assignments,' omitting the details about the unanimous vote and the word 'allegedly.' The core accusation (receiving money for job assignments) is identical in both sentences. The additional contextual details in Sentence 1 (e.g., the unanimous vote) do not contradict or negate the core claim in Sentence 2. Thus, the hypothesis (Sentence 2) is semantically entailed by the premise (Sentence 1).\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that Belknap was accused by a unanimous House vote of 'allegedly receiving money in exchange for job assignments.' Sentence 2 simplifies this to 'Belknap was accused of receiving money in exchange for job assignments,' omitting the details about the unanimous vote and the word 'allegedly.' The core accusation (receiving money for job assignments) is identical in both sentences. The additional contextual details in Sentence 1 (e.g., the unanimous vote) do not contradict or negate the core claim in Sentence 2. Thus, the hypothesis (Sentence 2) is semantically entailed by the premise (Sentence 1).",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "I robot sono stati usati nei lavori di assemblaggio finale delle automobili e per pittura a spruzzo e i fornitori sperano di essere capaci di sviluppare questi mercati adesso che la tecnologia \u00e8 stata provata.",
+    "sentence2": "I robot sono usati in lavori di assemblaggio.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that robots are used in 'lavori di assemblaggio finale delle automobili' (final assembly work of cars), which is a specific type of assembly job. Sentence 2 generalizes this to 'lavori di assemblaggio' (assembly jobs). Since the premise explicitly mentions robots being used in a specific assembly task (final car assembly), it logically supports the broader claim in the hypothesis that robots are used in assembly jobs. A specific instance (hyponym) of assembly work entails the general category (hypernym) of assembly work.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that robots are used in 'lavori di assemblaggio finale delle automobili' (final assembly work of cars), which is a specific type of assembly job. Sentence 2 generalizes this to 'lavori di assemblaggio' (assembly jobs). Since the premise explicitly mentions robots being used in a specific assembly task (final car assembly), it logically supports the broader claim in the hypothesis that robots are used in assembly jobs. A specific instance (hyponym) of assembly work entails the general category (hypernym) of assembly work.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  }
+]

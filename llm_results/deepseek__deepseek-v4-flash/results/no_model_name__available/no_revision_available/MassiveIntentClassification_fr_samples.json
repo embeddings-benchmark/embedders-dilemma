@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "j'ai besoin de toi pour marquer lundi prochain",
+        "model_raw_output": "{\n  \"reasoning\": \"The user says 'j'ai besoin de toi pour marquer lundi prochain' which translates to 'I need you to mark next Monday'. This implies setting an event or reminder for a specific date. Among the intents, 'calendar_set' is the most appropriate because it involves adding an event to the calendar.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "jouons ma chanson la plus \u00e9couter",
+        "model_raw_output": "{\n  \"reasoning\": \"L'utilisateur dit 'jouons ma chanson la plus \u00e9couter', ce qui signifie 'let's play my most listened song'. Cela correspond \u00e0 l'intention de jouer de la musique.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "d\u00e9sactiver l'alarme du trois heure du soir",
+        "model_raw_output": "{\n  \"reasoning\": \"The user asks to 'disable' (d\u00e9sactiver) an alarm set at 'trois heure du soir' (three in the afternoon). This matches the intent of removing a specific alarm.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "annuler l'alarme",
+        "model_raw_output": "{\n  \"reasoning\": \"The user says 'annuler l'alarme' which means 'cancel the alarm' in English. This corresponds to the intent alarm_remove.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "rappelle-moi mon emploi du temps pour l'apr\u00e8s-midi",
+        "model_raw_output": "{\n  \"reasoning\": \"The user asks to be reminded of their schedule for the afternoon, which is a request to query their calendar. The intent 'calendar_query' matches this action.\",\n  \"output\": \"calendar_query\"\n}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

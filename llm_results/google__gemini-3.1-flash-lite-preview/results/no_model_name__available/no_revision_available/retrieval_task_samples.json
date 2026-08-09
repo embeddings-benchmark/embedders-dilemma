@@ -1,0 +1,68 @@
+[
+  {
+    "query_id": "00003",
+    "query_text": "How to manage household finances (income & expenses) [duplicate]",
+    "model_raw_output": "The most relevant documents for managing household finances (tracking income and expenses, budgeting, and planning) are:\n\n- ID: 3 | TITLE: None\n- ID: 38 | TITLE: None\n- ID: 120 | TITLE: None\n- ID: 381 | TITLE: None\n\nFinal Answer: [3, 38, 120, 381]",
+    "parsed_ids": [
+      "000000003",
+      "000000038",
+      "000000120",
+      "000000381"
+    ],
+    "gold_ids": [
+      "000000003"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "00012",
+    "query_text": "Moving a personal business to a LLC accounting in California",
+    "model_raw_output": "The documents that best address the accounting and regulatory aspects of moving a personal business to an LLC in California, including information on LLC taxes and professional requirements, are:\n\nID: 15 | TITLE: None (Legal/Partnership/LLC advice)\nID: 193 | TITLE: None (California LLC FTB tax requirements)\nID: 231 | TITLE: None (IRS small business/LLC tax guidance)\n\nFinal Answer: [15, 193, 231]",
+    "parsed_ids": [
+      "000000015",
+      "000000193",
+      "000000231"
+    ],
+    "gold_ids": [
+      "000000012"
+    ],
+    "is_correct": false
+  },
+  {
+    "query_id": "00013",
+    "query_text": "What is the preferred way to finance home improvements when preparing to sell your house?",
+    "model_raw_output": "The most relevant document for your query is ID 314, which explicitly discusses the return on investment for home improvements and recommends prioritizing changes that improve the home's enjoyment over those intended specifically to increase the sales price.\n\nFinal Answer: [314]",
+    "parsed_ids": [
+      "000000314"
+    ],
+    "gold_ids": [
+      "000000013"
+    ],
+    "is_correct": false
+  },
+  {
+    "query_id": "00015",
+    "query_text": "Selling an app, sharing income, how does it work tax-wise?",
+    "model_raw_output": "The provided documents discuss various aspects of setting up business partnerships, tax considerations for small businesses, and reporting income. Document 15 addresses organizing a business venture (partnership vs. sole proprietorship) and tax implications, while Document 104 covers working as partners in the software industry, reporting profits on Schedule C/1040, and the necessity of partnership agreements and 1099s. These are the most relevant for answering the query regarding sharing income from a business venture (app) and the tax consequences.\n\nID: 15 | TITLE: None\nID: 104 | TITLE: None\n\nFinal Answer: [15, 104]",
+    "parsed_ids": [
+      "000000015",
+      "000000104"
+    ],
+    "gold_ids": [
+      "000000015"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "00016",
+    "query_text": "Which is the better strategy for buying stocks monthly?",
+    "model_raw_output": "The most relevant document to answer the query \"Which is the better strategy for buying stocks monthly?\" is **ID 146: [No Title Provided]**, as it directly recommends dollar-cost averaging (buying a constant number of dollars worth of stock at a regular frequency) as the simplest and most effective long-term strategy.\n\nFinal Answer: [146]",
+    "parsed_ids": [
+      "000000146"
+    ],
+    "gold_ids": [
+      "000000016"
+    ],
+    "is_correct": false
+  }
+]

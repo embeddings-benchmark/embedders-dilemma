@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "in the us , it will depend on the school .",
+    "sentence2": "it really depends on the school and the program .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey that dependency on the school is a key factor. Sentence 1 specifies the context as 'in the US,' while Sentence 2 adds 'the program' as an additional factor. The core idea of variability based on the school is shared, but Sentence 2 introduces a secondary element ('program') not mentioned in Sentence 1, and Sentence 1 specifies a geographic scope absent in Sentence 2. This results in strong alignment on the primary concept but minor differences in specificity and scope.\",\n  \"output\": 4.0\n}",
+    "reasoning": "Both sentences convey that dependency on the school is a key factor. Sentence 1 specifies the context as 'in the US,' while Sentence 2 adds 'the program' as an additional factor. The core idea of variability based on the school is shared, but Sentence 2 introduces a secondary element ('program') not mentioned in Sentence 1, and Sentence 1 specifies a geographic scope absent in Sentence 2. This results in strong alignment on the primary concept but minor differences in specificity and scope.",
+    "predicted_sim": 4.0,
+    "gold_score": 3.0,
+    "abs_diff": 1.0
+  },
+  {
+    "sentence1": "there 's also what the string is made of .",
+    "sentence2": "there is also a youtube-version of the film .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences start with 'there is also' but diverge completely in subject matter. The first discusses the material composition of a string, while the second refers to a YouTube version of a film. There is no overlap in meaning beyond the introductory phrase.\",\n  \"output\": 0.0\n}",
+    "reasoning": "Both sentences start with 'there is also' but diverge completely in subject matter. The first discusses the material composition of a string, while the second refers to a YouTube version of a film. There is no overlap in meaning beyond the introductory phrase.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "you also imply you may not be paid if they cannot place you with a client .",
+    "sentence2": "you can do it , but you might not be a professor .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences discuss conditional outcomes but in entirely different contexts. The first relates to employment payment contingent on client placement, while the second addresses role attainment (e.g., becoming a professor). There is no overlap in subject matter or specific meaning, but they share a structural similarity in expressing uncertainty. The lack of shared semantic content beyond conditional phrasing justifies a low score.\",\n  \"output\": 0.5\n}",
+    "reasoning": "Both sentences discuss conditional outcomes but in entirely different contexts. The first relates to employment payment contingent on client placement, while the second addresses role attainment (e.g., becoming a professor). There is no overlap in subject matter or specific meaning, but they share a structural similarity in expressing uncertainty. The lack of shared semantic content beyond conditional phrasing justifies a low score.",
+    "predicted_sim": 0.5,
+    "gold_score": 0.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "you do not need to worry .",
+    "sentence2": "you don 't have to worry .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same message that worrying is unnecessary. 'Do not need to' and 'don't have to' are functionally equivalent in this context, differing only in phrasing (contraction vs. full form). The core meaning and intent are identical.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey the same message that worrying is unnecessary. 'Do not need to' and 'don't have to' are functionally equivalent in this context, differing only in phrasing (contraction vs. full form). The core meaning and intent are identical.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "you should do it .",
+    "sentence2": "you should do what it says .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences encourage taking action, but differ in specificity. Sentence 1 is a general recommendation ('do it'), while Sentence 2 emphasizes compliance with instructions ('do what it says'). They share a core theme of action but diverge in the implied source or specificity of the directive.\",\n  \"output\": 3.0\n}",
+    "reasoning": "Both sentences encourage taking action, but differ in specificity. Sentence 1 is a general recommendation ('do it'), while Sentence 2 emphasizes compliance with instructions ('do what it says'). They share a core theme of action but diverge in the implied source or specificity of the directive.",
+    "predicted_sim": 3.0,
+    "gold_score": 3.0,
+    "abs_diff": 0.0
+  }
+]

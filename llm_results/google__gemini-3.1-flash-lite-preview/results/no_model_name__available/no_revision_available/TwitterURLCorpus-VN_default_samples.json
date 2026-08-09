@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "How massive DDoS attacks are undermining the Internet ",
+    "sentence2": "Friday's #DDoSAttack & gt ; #IoT said to be medium . How can we reduce vulnerability of these devices ? ",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 is a general headline about the threat of DDoS attacks to the internet. Sentence 2 is a specific commentary on a recent attack involving IoT devices and poses a question about reducing their vulnerabilities. They discuss the same topic but convey different messages.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 is a general headline about the threat of DDoS attacks to the internet. Sentence 2 is a specific commentary on a recent attack involving IoT devices and poses a question about reducing their vulnerabilities. They discuss the same topic but convey different messages.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Welcome to the #APTop25 , @TroyTrojansFB ! Troy ranked for 1st time in school history . ",
+    "sentence2": "AP POLL ALERT Top 25 Shakeup rise ; #Michigan , #Clemson , #Washington fall ; #USC returns . ",
+    "model_raw_output": "{\n  \"reasoning\": \"The first tweet is about Troy University entering the AP Top 25 rankings for the first time in their history, while the second tweet is a general update about various teams rising and falling in the AP Poll rankings. They share no common information or specific focus.\",\n  \"output\": 0\n}",
+    "reasoning": "The first tweet is about Troy University entering the AP Top 25 rankings for the first time in their history, while the second tweet is a general update about various teams rising and falling in the AP Poll rankings. They share no common information or specific focus.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Samsung to ask all carrier and retail partners to stop Galaxy Note7 sales , exchanges following more reports of fires ",
+    "sentence2": "Samsung Will Ask All Global Partners to Stop Sales and Exchanges of Galaxy Note7 While Further Investigation Takes Place",
+    "model_raw_output": "{\"reasoning\": \"Both sentences convey the same core message that Samsung is asking all partners to halt sales and exchanges of the Galaxy Note7 due to safety concerns regarding fires and the need for further investigation.\", \"output\": 1}",
+    "reasoning": "Both sentences convey the same core message that Samsung is asking all partners to halt sales and exchanges of the Galaxy Note7 due to safety concerns regarding fires and the need for further investigation.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Melania Trump rejects womens claims that her husband groped them ",
+    "sentence2": "Politics|\\'They\\'re Lies\\': Melania Trump Rejects Women\\'s Claims That Husband Groped ",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core message: Melania Trump is denying the allegations of groping made by women against her husband, describing the claims as lies.\",\n  \"output\": 1\n}",
+    "reasoning": "Both sentences convey the same core message: Melania Trump is denying the allegations of groping made by women against her husband, describing the claims as lies.",
+    "predicted_label": 1,
+    "gold_label": 0,
+    "is_correct": false
+  },
+  {
+    "sentence1": "Pokmon Go players took 26% more steps than before using the app , a new study finds ",
+    "sentence2": "The fitness app dream result Pokemon Go could add 2.83 million years to users ' lives ",
+    "model_raw_output": "{\"reasoning\": \"While both sentences mention Pokemon Go, the first sentence discusses a specific study regarding the increase in daily steps taken by players, whereas the second sentence discusses a theoretical projection regarding the potential increase in life expectancy for users. They discuss different metrics and findings.\", \"output\": 0}",
+    "reasoning": "While both sentences mention Pokemon Go, the first sentence discusses a specific study regarding the increase in daily steps taken by players, whereas the second sentence discusses a theoretical projection regarding the potential increase in life expectancy for users. They discuss different metrics and findings.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  }
+]

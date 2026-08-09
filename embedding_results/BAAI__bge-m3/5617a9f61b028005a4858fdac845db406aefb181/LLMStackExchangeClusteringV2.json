@@ -1,0 +1,28 @@
+{
+  "dataset_revision": "2cbee8fd7c715e92a99639d46ee940e4bf64e5d2",
+  "task_name": "LLMStackExchangeClusteringV2",
+  "mteb_version": "2.11.6",
+  "scores": {
+    "test": [
+      {
+        "v_measure": 0.562642,
+        "v_measure_std": 0.024435,
+        "v_measures": [
+          0.526751,
+          0.574782,
+          0.585822,
+          0.585425,
+          0.540428
+        ],
+        "main_score": 0.562642,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 0.6724469661712646,
+  "kg_co2_emissions": null,
+  "date": 1774495286.418115
+}

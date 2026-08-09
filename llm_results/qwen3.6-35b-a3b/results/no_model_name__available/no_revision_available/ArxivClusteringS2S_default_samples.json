@@ -1,0 +1,31 @@
+{
+    "task": "ArxivClusteringS2S",
+    "model_raw_output_preview": "{\"assignments\":[2,6,4,2,5,2,4,0,1,10,8,6,1,1,6,0,6,2,9,6,2,1,6,1,3,2,0,4,0,1,5,4,6,7,2,9,9,6,8,1,1,10,0,1,2,4,0,2,2,1,4,6,3,4,8,2,10,4,1,10,0,5,2,2,1,6,0,9,6,0,7,1,2,4,6,2,7,8,2,3,7,4,8,1,1,8,2,6,9,0,1,1,2,4,0,4,0,7,5,5,8,6,9,9,10,5,4,0,6,1,7,4,3,1,2,2,1,7,1,8,0,0,2,0,1,2,0,8,5,0,7,1,1,5,2,6,0,7,0,2,10,0,2,2,0,6,1,6,4,6,3,0,6,2,8,3,3,4,1,3,1,8,2,9,0,6,9,5,2,7,1,1,4,9,2,1,0,0,1,10,1,9,0,2,0,2,6,6,1,3,2,6,6,6,2,0,0,9,8,2]}",
+    "samples": [
+        {
+            "input_text": "Pattern formation in a two-dimensional two-species diffusion model with\n  anisotropic nonlinear diffusivities: a lattice approach",
+            "predicted_cluster": 2,
+            "gold_cluster": "stat"
+        },
+        {
+            "input_text": "Lax operator algebras and gradings on semi-simple Lie algebras",
+            "predicted_cluster": 6,
+            "gold_cluster": "math"
+        },
+        {
+            "input_text": "CityFlow: A Multi-Agent Reinforcement Learning Environment for Large\n  Scale City Traffic Scenario",
+            "predicted_cluster": 4,
+            "gold_cluster": "cs"
+        },
+        {
+            "input_text": "Magnetic properties of Gd_{1-x}Pr_xBa_2Cu_3O_{7-y} single crystals",
+            "predicted_cluster": 2,
+            "gold_cluster": "cond-mat"
+        },
+        {
+            "input_text": "Class-specific image denoising using importance sampling",
+            "predicted_cluster": 5,
+            "gold_cluster": "cs"
+        }
+    ]
+}

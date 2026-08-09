@@ -1,0 +1,109 @@
+{
+  "dataset_revision": "fe4f4e1b9fdafeae22df69e66bdc3b634be30e9d",
+  "task_name": "STS17",
+  "mteb_version": "2.3.0",
+  "scores": {
+    "test": [
+      {
+        "cosine_spearman": 0.903721,
+        "cosine_pearson": 0.906428,
+        "usage_stats": {
+          "input_tokens": 22961,
+          "cached_tokens": 0,
+          "output_tokens": 298621,
+          "thinking_tokens": 271989,
+          "total_tokens": 321582,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.903721,
+        "hf_subset": "en-en",
+        "languages": [
+          "eng-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.893297,
+        "cosine_pearson": 0.898529,
+        "usage_stats": {
+          "input_tokens": 23350,
+          "cached_tokens": 0,
+          "output_tokens": 327536,
+          "thinking_tokens": 293485,
+          "total_tokens": 350886,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.893297,
+        "hf_subset": "en-de",
+        "languages": [
+          "eng-Latn",
+          "deu-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.869822,
+        "cosine_pearson": 0.880711,
+        "usage_stats": {
+          "input_tokens": 24581,
+          "cached_tokens": 0,
+          "output_tokens": 309971,
+          "thinking_tokens": 277484,
+          "total_tokens": 334552,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.869822,
+        "hf_subset": "es-es",
+        "languages": [
+          "spa-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.891885,
+        "cosine_pearson": 0.899104,
+        "usage_stats": {
+          "input_tokens": 23840,
+          "cached_tokens": 0,
+          "output_tokens": 324420,
+          "thinking_tokens": 292016,
+          "total_tokens": 348260,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.891885,
+        "hf_subset": "fr-en",
+        "languages": [
+          "fra-Latn",
+          "eng-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.911046,
+        "cosine_pearson": 0.907297,
+        "usage_stats": {
+          "input_tokens": 23974,
+          "cached_tokens": 0,
+          "output_tokens": 327635,
+          "thinking_tokens": 294219,
+          "total_tokens": 351609,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.911046,
+        "hf_subset": "it-en",
+        "languages": [
+          "ita-Latn",
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 3779.49999833107,
+  "kg_co2_emissions": null
+}

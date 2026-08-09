@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "A person is on a baseball team.",
+    "sentence2": "A person is playing basketball on a team.",
+    "model_raw_output": "{\"reasoning\": \"Both sentences describe a person being a member of a sports team, but they refer to completely different sports (baseball vs. basketball). The core structure is identical, but the semantic content regarding the specific activity is contradictory.\", \"output\": 2.5}",
+    "reasoning": "Both sentences describe a person being a member of a sports team, but they refer to completely different sports (baseball vs. basketball). The core structure is identical, but the semantic content regarding the specific activity is contradictory.",
+    "predicted_sim": 2.5,
+    "gold_score": 2.4,
+    "abs_diff": 0.10000000000000009
+  },
+  {
+    "sentence1": "Our current vehicles will be in museums when everyone has their own aircraft.",
+    "sentence2": "The car needs to some work",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences are completely unrelated. The first discusses a futuristic scenario regarding the transition from ground vehicles to aircraft, while the second discusses the maintenance needs of a car.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The two sentences are completely unrelated. The first discusses a futuristic scenario regarding the transition from ground vehicles to aircraft, while the second discusses the maintenance needs of a car.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.2,
+    "abs_diff": 0.2
+  },
+  {
+    "sentence1": "A woman supervisor is instructing the male workers.",
+    "sentence2": "A woman is working as a nurse.",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences share the common subject of a woman, but they describe entirely different professional activities and social interactions (supervising workers vs. working as a nurse).\",\n  \"output\": 1.2\n}",
+    "reasoning": "The two sentences share the common subject of a woman, but they describe entirely different professional activities and social interactions (supervising workers vs. working as a nurse).",
+    "predicted_sim": 1.2,
+    "gold_score": 1.0,
+    "abs_diff": 0.19999999999999996
+  },
+  {
+    "sentence1": "A bike is next to a couple women.",
+    "sentence2": "A child next to a bike.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a bike's proximity to people, but the subject of the proximity differs (a couple women vs. a child). The core situational elements are present in both, but the entities involved are distinct.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences describe a bike's proximity to people, but the subject of the proximity differs (a couple women vs. a child). The core situational elements are present in both, but the entities involved are distinct.",
+    "predicted_sim": 2.5,
+    "gold_score": 2.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "The group is eating while taking in a breathtaking view.",
+    "sentence2": "A group of people take a look at an unusual tree.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences mention a group of people, but they diverge significantly in their actions. One describes eating and enjoying a scenic view, while the other describes observing a specific object (a tree). There is very little overlap in the core semantic content.\",\n  \"output\": 1.5\n}",
+    "reasoning": "Both sentences mention a group of people, but they diverge significantly in their actions. One describes eating and enjoying a scenic view, while the other describes observing a specific object (a tree). There is very little overlap in the core semantic content.",
+    "predicted_sim": 1.5,
+    "gold_score": 2.2,
+    "abs_diff": 0.7000000000000002
+  }
+]

@@ -1,0 +1,40 @@
+% Appendix: embedding throughput on H100 (auto-generated)
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lcrrr}
+\toprule
+\textbf{Model} & \textbf{Params} & \textbf{Tok/s} & \textbf{\$/MTok} & \textbf{Score} \\
+\midrule
+mE5-S & 118M & 4,314,796 & 0.0002 & 63.1 \\
+mE5-B & 278M & 1,910,005 & 0.0004 & 64.4 \\
+mE5-L-Inst & 560M & 640,842 & 0.0011 & 69.7 \\
+BGE-M3 & 568M & 640,425 & 0.0011 & 66.5 \\
+Arctic-L-v2 & 568M & 640,405 & 0.0011 & 65.3 \\
+mE5-L & 560M & 640,126 & 0.0011 & 65.9 \\
+EmbGemma-300M & 308M & 374,988 & 0.0018 & 72.2 \\
+Jina-v5-Nano & 212M & 327,790 & 0.0021 & 73.9 \\
+F2LLM-0.6B & 596M & 189,653 & 0.0036 & 69.9 \\
+Qwen3-E-0.6B & 596M & 175,692 & 0.0039 & 72.5 \\
+GTE-Qwen2-1.5B & 1.5B & 133,567 & 0.0052 & 70.8 \\
+F2LLM-1.7B & 1.7B & 106,406 & 0.0065 & 71.7 \\
+Jina-v5-S & 596M & 91,658 & 0.0075 & 74.4 \\
+Qwen3-E-4B & 4.0B & 46,080 & 0.0150 & 75.9 \\
+F2LLM-4B & 4.0B & 40,157 & 0.0172 & 71.9 \\
+GTE-Qwen2-7B & 7.1B & 35,419 & 0.0195 & 73.1 \\
+Octen-8B & 7.6B & 29,313 & 0.0236 & 77.2 \\
+Qwen3-E-8B & 7.6B & 29,262 & 0.0236 & 77.0 \\
+SFR-2 & 7.1B & 28,196 & 0.0245 & 73.9 \\
+Nemotron-8B & 7.5B & 27,808 & 0.0249 & 75.3 \\
+GritLM-7B & 7.2B & 27,730 & 0.0249 & 51.2 \\
+Linq-Mistral & 7.1B & 27,677 & 0.0250 & 72.8 \\
+E5-Mistral-7B & 7.1B & 27,522 & 0.0251 & 52.2 \\
+F2LLM-8B & 7.6B & 25,957 & 0.0266 & 72.2 \\
+KaLM-12B & 11.8B & 19,244 & 0.0359 & 74.8 \\
+F2LLM-14B & 14.0B & 14,665 & 0.0472 & 73.3 \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Embedding throughput} on a single NVIDIA H100 80GB (median tokens/s over the
+benchmark), per-MTok cost at \$2.49/hr spot, and mean (macro) \mteblm{} score.}
+\label{tab:embedding_throughput}
+\end{table}

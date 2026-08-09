@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "i need you to mark next monday",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to 'mark next Monday', which implies creating or adding an entry to a calendar for that date. Although the request is underspecified (no event title is provided), the action of marking a date corresponds to adding or setting something in a calendar. Among the available intents, calendar_set is the best fit for creating a calendar entry, while calendar_query would be for retrieving information and calendar_remove would be for deleting entries.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "let's play my most played song list",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to play a specific music playlist ('my most played song list'). This directly corresponds to the intent of playing music, which matches the 'play_music' intent from the provided list. It is not about querying music information, adjusting settings, or playing other audio content like podcasts, audiobooks, or radio.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "disable alarm for three p. m.",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'disable alarm for three p. m.' indicates an action to remove or deactivate an existing alarm set for 3:00 PM. Among the available intents, 'alarm_remove' is the appropriate category for removing, disabling, or deleting an alarm.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "cancel alarm",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'cancel alarm' indicates the desire to remove or delete an existing alarm. Among the available intent options, 'alarm_remove' is the most appropriate match, as opposed to 'alarm_query' (asking about alarms) or 'alarm_set' (creating a new alarm).\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "remind me about my schedule for the afternoon",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to be informed about their existing schedule/appointments for a specific time period (the afternoon). This is a request to retrieve and view calendar contents, not to create, modify, or remove an event. Therefore, it aligns with querying the calendar.\",\n  \"output\": \"calendar_query\"\n}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

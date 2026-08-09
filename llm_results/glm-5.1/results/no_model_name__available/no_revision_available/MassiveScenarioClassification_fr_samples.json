@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "le rose est tout ce dont nous avons besoin",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'le rose est tout ce dont nous avons besoin' (translating roughly to 'pink is all we need' or 'the rose/ros\u00e9 is all we need') is a general declarative statement. It does not contain a clear command, question, or intent related to any specific functional domain such as setting an alarm, checking the weather, playing music, managing a list, or controlling IoT devices. Without additional context suggesting a request for action or information, this falls under casual conversation or a general observation.\",\n  \"output\": \"general\"\n}",
+        "parsed_output": "general",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "je veux le statut sur la luminosit\u00e9 de mon \u00e9cran",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the current status of their screen's brightness ('je veux le statut sur la luminosit\u00e9 de mon \u00e9cran'). This involves querying a device setting or property, which falls under device control and smart device status checks. Among the provided scenarios, 'iot' is the best fit because it covers Internet of Things and smart device interactions, including checking the status of controllable device parameters like screen brightness.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "quelle heure est-il en australie",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'quelle heure est-il en australie' translates to 'what time is it in Australia'. It is a direct query asking for the current time in a specific geographic location/timezone. Among the available scenarios, 'datetime' is the most precise fit as it specifically handles time, date, and timezone-related questions.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "annuler mon alarme de sept heures du matin",
+        "model_raw_output": "{\n  \"reasoning\": \"L'utilisateur demande explicitement d'annuler une alarme programm\u00e9e pour sept heures du matin ('annuler mon alarme de sept heures du matin'). Cela correspond \u00e0 une action de gestion des alarmes.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "quelles alarmes j'ai r\u00e9gl\u00e9es",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'quelles alarmes j'ai r\u00e9gl\u00e9es' translates to 'what alarms have I set' in English. The user is explicitly asking about configured or existing alarms, which directly maps to the alarm scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Un perro est\u00e1 con un juguete.",
+    "sentence2": "Un perro tiene un juguete.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a dog and a toy. 'Est\u00e1 con' (is with) implies proximity or association, while 'tiene' (has) indicates possession. While not identical, the context suggests the dog is likely interacting with or holding the toy, making the meanings highly similar.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences describe a dog and a toy. 'Est\u00e1 con' (is with) implies proximity or association, while 'tiene' (has) indicates possession. While not identical, the context suggests the dog is likely interacting with or holding the toy, making the meanings highly similar.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.8,
+    "abs_diff": 0.2999999999999998
+  },
+  {
+    "sentence1": "Los ni\u00f1os acarician un conejito.",
+    "sentence2": "Los ni\u00f1os acarician un perro.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe children petting an animal. The structure and action ('acarician') are identical. The difference lies in the animal: 'conejito' (bunny) vs. 'perro' (dog). While both are domesticated animals, they are distinct species. The semantic similarity is high but not perfect due to the differing animals.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences describe children petting an animal. The structure and action ('acarician') are identical. The difference lies in the animal: 'conejito' (bunny) vs. 'perro' (dog). While both are domesticated animals, they are distinct species. The semantic similarity is high but not perfect due to the differing animals.",
+    "predicted_sim": 4.5,
+    "gold_score": 2.2,
+    "abs_diff": 2.3
+  },
+  {
+    "sentence1": "La gente cocina en la parrilla.",
+    "sentence2": "Los peatones miran con asombro mientras dos personas cocinan pechuga en una parrilla.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences involve cooking on a grill ('parrilla'), which is the core shared element. Sentence 1 states that 'people cook on the grill,' while Sentence 2 adds specific details: two people cooking chicken breast ('pechuga') and pedestrians watching in amazement. The additional context in Sentence 2 (specificity of food, number of people, and bystanders) differentiates it from the general statement in Sentence 1, but the primary action (cooking on a grill) remains consistent. The overlap in core meaning is strong, but the differences in specificity and secondary details prevent a perfect score.\",\n  \"output\": 4.0\n}",
+    "reasoning": "Both sentences involve cooking on a grill ('parrilla'), which is the core shared element. Sentence 1 states that 'people cook on the grill,' while Sentence 2 adds specific details: two people cooking chicken breast ('pechuga') and pedestrians watching in amazement. The additional context in Sentence 2 (specificity of food, number of people, and bystanders) differentiates it from the general statement in Sentence 1, but the primary action (cooking on a grill) remains consistent. The overlap in core meaning is strong, but the differences in specificity and secondary details prevent a perfect score.",
+    "predicted_sim": 4.0,
+    "gold_score": 0.8,
+    "abs_diff": 3.2
+  },
+  {
+    "sentence1": "El hombre construye un peque\u00f1o castillo de arena",
+    "sentence2": "Una muchacha est\u00e1 construyendo un castillo de arena.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe someone building a sandcastle. The core action ('construye' vs. 'est\u00e1 construyendo') is semantically equivalent, differing only in grammatical aspect (simple present vs. present continuous). The subjects differ in gender and age ('hombre' vs. 'muchacha'), and the first sentence specifies the sandcastle is 'peque\u00f1o' (small), while the second omits size. The shared elements (action, object) outweigh differences in subject and minor descriptive details.\",\n  \"output\": 3.8\n}",
+    "reasoning": "Both sentences describe someone building a sandcastle. The core action ('construye' vs. 'est\u00e1 construyendo') is semantically equivalent, differing only in grammatical aspect (simple present vs. present continuous). The subjects differ in gender and age ('hombre' vs. 'muchacha'), and the first sentence specifies the sandcastle is 'peque\u00f1o' (small), while the second omits size. The shared elements (action, object) outweigh differences in subject and minor descriptive details.",
+    "predicted_sim": 3.8,
+    "gold_score": 2.2,
+    "abs_diff": 1.5999999999999996
+  },
+  {
+    "sentence1": "Un hombre est\u00e1 corriendo detr\u00e1s de un trineo tirado por cuatro perros.",
+    "sentence2": "Un hombre siendo tirado en un trineo por perros.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences involve a man, a sled, and dogs. However, in Sentence 1, the man is running behind the sled pulled by four dogs, while in Sentence 2, the man is being pulled on the sled by dogs. The key difference is the man's role: in the first, he is separate from the sled's motion; in the second, he is the passenger. The number of dogs (four vs. unspecified) is a minor detail. The core action and spatial relationship differ significantly, but the shared elements (sled, dogs, man) create partial overlap.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences involve a man, a sled, and dogs. However, in Sentence 1, the man is running behind the sled pulled by four dogs, while in Sentence 2, the man is being pulled on the sled by dogs. The key difference is the man's role: in the first, he is separate from the sled's motion; in the second, he is the passenger. The number of dogs (four vs. unspecified) is a minor detail. The core action and spatial relationship differ significantly, but the shared elements (sled, dogs, man) create partial overlap.",
+    "predicted_sim": 2.5,
+    "gold_score": 3.6,
+    "abs_diff": 1.1
+  }
+]

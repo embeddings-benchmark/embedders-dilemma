@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "A person is on a baseball team.",
+    "sentence2": "Eine Person spielt in einem Team Basketball.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person participating in a team sport. Sentence 2 is in German and translates to 'A person plays basketball in a team.' While the grammatical structure, subject, and general context are identical, the specific sport differs (baseball vs. basketball). This key entity difference changes the core meaning, making the sentences partially related but not equivalent. According to standard semantic textual similarity guidelines, this level of overlap with a critical detail mismatch typically corresponds to a mid-range score.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences describe a person participating in a team sport. Sentence 2 is in German and translates to 'A person plays basketball in a team.' While the grammatical structure, subject, and general context are identical, the specific sport differs (baseball vs. basketball). This key entity difference changes the core meaning, making the sentences partially related but not equivalent. According to standard semantic textual similarity guidelines, this level of overlap with a critical detail mismatch typically corresponds to a mid-range score.",
+    "predicted_sim": 2.5,
+    "gold_score": 2.4,
+    "abs_diff": 0.10000000000000009
+  },
+  {
+    "sentence1": "Our current vehicles will be in museums when everyone has their own aircraft.",
+    "sentence2": "Das Auto muss etwas in Stand gesetzt werden",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 presents a futuristic prediction about transportation evolution, suggesting current vehicles will become obsolete museum pieces once personal aircraft are commonplace. Sentence 2 is in German and translates to 'The car needs some maintenance/repairs,' addressing an immediate, practical need for a specific automobile. While both mention cars/vehicles, their core meanings, contexts, temporal frames, and intents are entirely different. They share only a superficial lexical overlap without any meaningful semantic relationship.\",\n  \"output\": 0.0\n}",
+    "reasoning": "Sentence 1 presents a futuristic prediction about transportation evolution, suggesting current vehicles will become obsolete museum pieces once personal aircraft are commonplace. Sentence 2 is in German and translates to 'The car needs some maintenance/repairs,' addressing an immediate, practical need for a specific automobile. While both mention cars/vehicles, their core meanings, contexts, temporal frames, and intents are entirely different. They share only a superficial lexical overlap without any meaningful semantic relationship.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.2,
+    "abs_diff": 0.2
+  },
+  {
+    "sentence1": "A woman supervisor is instructing the male workers.",
+    "sentence2": "Eine Frau arbeitet als Krankenpflegerin.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 describes a female supervisor giving instructions to male workers, while Sentence 2 (in German) states that a woman works as a nurse. Although both sentences involve a woman in a professional setting, the specific occupations, actions, and contexts are completely different. They share only a very broad thematic overlap, resulting in a very low semantic similarity score.\",\n  \"output\": 0.5\n}",
+    "reasoning": "Sentence 1 describes a female supervisor giving instructions to male workers, while Sentence 2 (in German) states that a woman works as a nurse. Although both sentences involve a woman in a professional setting, the specific occupations, actions, and contexts are completely different. They share only a very broad thematic overlap, resulting in a very low semantic similarity score.",
+    "predicted_sim": 0.5,
+    "gold_score": 1.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "A bike is next to a couple women.",
+    "sentence2": "Ein Kind neben einem Fahrrad.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 2 translates from German to English as 'A child next to a bicycle.' Both sentences describe a spatial relationship involving a bicycle and a person/group. However, the core subject differs significantly: Sentence 1 features 'a couple women,' while Sentence 2 features 'a child.' Because they share a key object (the bike) and the prepositional relationship but describe fundamentally different main entities, the semantic overlap is minimal.\",\n  \"output\": 1.5\n}",
+    "reasoning": "Sentence 2 translates from German to English as 'A child next to a bicycle.' Both sentences describe a spatial relationship involving a bicycle and a person/group. However, the core subject differs significantly: Sentence 1 features 'a couple women,' while Sentence 2 features 'a child.' Because they share a key object (the bike) and the prepositional relationship but describe fundamentally different main entities, the semantic overlap is minimal.",
+    "predicted_sim": 1.5,
+    "gold_score": 2.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "The group is eating while taking in a breathtaking view.",
+    "sentence2": "Eine Gruppe sieht einen ungew\u00f6hnlichen Baum an.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 2 translates to 'A group is looking at an unusual tree.' Both sentences share only the generic subject 'group,' but the actions, objects, and contexts are entirely different. Sentence 1 describes people dining while enjoying a broad scenic view, whereas Sentence 2 describes people observing a specific tree. There is no meaningful overlap in the core event or semantic content, warranting a very low similarity score.\",\n  \"output\": 0.5\n}",
+    "reasoning": "Sentence 2 translates to 'A group is looking at an unusual tree.' Both sentences share only the generic subject 'group,' but the actions, objects, and contexts are entirely different. Sentence 1 describes people dining while enjoying a broad scenic view, whereas Sentence 2 describes people observing a specific tree. There is no meaningful overlap in the core event or semantic content, warranting a very low similarity score.",
+    "predicted_sim": 0.5,
+    "gold_score": 2.2,
+    "abs_diff": 1.7000000000000002
+  }
+]

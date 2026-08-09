@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Schicke an den Motorrad-Chat eine Videonachricht",
+        "model_raw_output": "{\n  \"reasoning\": \"The user wants to send a video message ('Videonachricht') to a specific chat group ('Motorrad-Chat'). This is an action related to communication via messages, which falls under the messaging domain.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "Rufe Loren an",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'Rufe Loren an' is German for 'Call Loren'. The separable verb 'anrufen' explicitly means to make a phone call to someone, which directly maps to the calling domain.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Stelle meinen Status als vielleicht ein f\u00fcr das zweite Event",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to set their status (as 'maybe') for a specific occurrence referred to as 'the second event'. This relates to managing attendance, RSVP, or availability within a calendar or event management context.\",\n  \"output\": \"event\"\n}",
+        "parsed_output": "event",
+        "ground_truth": "event",
+        "is_correct": true
+    },
+    {
+        "input_text": "Rufe Josiah \u00fcber WhatsApp an",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'Rufe Josiah \u00fcber WhatsApp an' means 'Call Josiah via WhatsApp.' Although WhatsApp is mentioned, the verb 'anrufen' explicitly indicates the user wants to initiate a call (voice or video), which maps to the calling domain rather than messaging.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Starte einen Timer f\u00fcr das Kalbsfleisch",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance explicitly asks to start a 'Timer' (Starte einen Timer). Although the context is cooking veal, the core user intent is to initiate a countdown timer, which distinguishes it from alarm, reminder, event, or recipes domains.\",\n  \"output\": \"timer\"\n}",
+        "parsed_output": "timer",
+        "ground_truth": "timer",
+        "is_correct": true
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "\u6b21\u306e\u6708\u66dc\u306b\u5370\u3092\u3064\u3051\u308b",
+        "model_raw_output": "{\"reasoning\": \"The user is asking to mark or set an event on their calendar for next Monday.\", \"output\": \"calendar_set\"}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u79c1\u304c\u6700\u3082\u518d\u751f\u3057\u305f\u66f2\u30ea\u30b9\u30c8\u3092\u518d\u751f\u3057\u3066\u304f\u3060\u3055\u3044",
+        "model_raw_output": "{\"reasoning\": \"The user is requesting to play their most played songs, which falls under music playback.\", \"output\": \"play_music\"}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u5348\u5f8c\u4e09\u6642\u306e\u30a2\u30e9\u30fc\u30e0\u3092\u7121\u52b9\u306b\u3059\u308b",
+        "model_raw_output": "{\"reasoning\": \"The user is asking to disable or delete an existing alarm set for 3:00 PM.\", \"output\": \"alarm_remove\"}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u30a2\u30e9\u30fc\u30e0\u3092\u30ad\u30e3\u30f3\u30bb\u30eb",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to cancel an alarm, which corresponds to the alarm_remove intent.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u5348\u5f8c\u306e\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u3092\u30ea\u30de\u30a4\u30f3\u30c9\u3057\u3066",
+        "model_raw_output": "{\"reasoning\": \"The user is asking for a reminder of their schedule for the afternoon, which corresponds to querying existing calendar information.\", \"output\": \"calendar_query\"}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

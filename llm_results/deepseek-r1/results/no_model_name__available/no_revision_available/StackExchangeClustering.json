@@ -1,0 +1,37 @@
+{
+  "dataset_revision": "2cbee8fd7c715e92a99639d46ee940e4bf64e5d2",
+  "task_name": "StackExchangeClustering",
+  "mteb_version": "2.3.0",
+  "scores": {
+    "test": [
+      {
+        "v_measures": [
+          0.322399,
+          0.263212,
+          0.513032,
+          0.527184,
+          0.47878
+        ],
+        "v_measure": 0.420921,
+        "v_measure_std": 0.107427,
+        "usage_stats": {
+          "input_tokens": 18871,
+          "cached_tokens": 0,
+          "output_tokens": 35533,
+          "thinking_tokens": 28620,
+          "total_tokens": 54404,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.420921,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 759.5858080387115,
+  "kg_co2_emissions": null
+}

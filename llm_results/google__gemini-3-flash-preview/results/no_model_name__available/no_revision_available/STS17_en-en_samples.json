@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "A person is on a baseball team.",
+    "sentence2": "A person is playing basketball on a team.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person being part of a sports team, sharing a similar sentence structure and general context. However, they specify two different sports (baseball vs. basketball), which fundamentally changes the specific meaning of the activity being performed.\",\n  \"output\": 1.8\n}",
+    "reasoning": "Both sentences describe a person being part of a sports team, sharing a similar sentence structure and general context. However, they specify two different sports (baseball vs. basketball), which fundamentally changes the specific meaning of the activity being performed.",
+    "predicted_sim": 1.8,
+    "gold_score": 2.4,
+    "abs_diff": 0.5999999999999999
+  },
+  {
+    "sentence1": "Our current vehicles will be in museums when everyone has their own aircraft.",
+    "sentence2": "The car needs to some work",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences mention vehicles, but their contexts are entirely different. Sentence 1 is a futuristic statement about the obsolescence of current cars, while Sentence 2 is a mundane observation about a specific vehicle needing maintenance. There is no shared semantic meaning beyond a broad thematic link to transportation.\",\n  \"output\": 0.8\n}",
+    "reasoning": "Both sentences mention vehicles, but their contexts are entirely different. Sentence 1 is a futuristic statement about the obsolescence of current cars, while Sentence 2 is a mundane observation about a specific vehicle needing maintenance. There is no shared semantic meaning beyond a broad thematic link to transportation.",
+    "predicted_sim": 0.8,
+    "gold_score": 0.2,
+    "abs_diff": 0.6000000000000001
+  },
+  {
+    "sentence1": "A woman supervisor is instructing the male workers.",
+    "sentence2": "A woman is working as a nurse.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a woman in a work-related context. However, the specific roles (supervisor vs. nurse) and activities (instructing male workers vs. performing nursing duties) are distinct, leading to low semantic similarity despite the shared subject and general theme of employment.\",\n  \"output\": 1.2\n}",
+    "reasoning": "Both sentences describe a woman in a work-related context. However, the specific roles (supervisor vs. nurse) and activities (instructing male workers vs. performing nursing duties) are distinct, leading to low semantic similarity despite the shared subject and general theme of employment.",
+    "predicted_sim": 1.2,
+    "gold_score": 1.0,
+    "abs_diff": 0.19999999999999996
+  },
+  {
+    "sentence1": "A bike is next to a couple women.",
+    "sentence2": "A child next to a bike.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a spatial relationship between a bicycle and human beings. However, the subjects in the two sentences are different: one involves a couple of women, while the other involves a child. They share the same thematic structure and central object (the bike) but differ in the specific people described.\",\n  \"output\": 2.2\n}",
+    "reasoning": "Both sentences describe a spatial relationship between a bicycle and human beings. However, the subjects in the two sentences are different: one involves a couple of women, while the other involves a child. They share the same thematic structure and central object (the bike) but differ in the specific people described.",
+    "predicted_sim": 2.2,
+    "gold_score": 2.0,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "The group is eating while taking in a breathtaking view.",
+    "sentence2": "A group of people take a look at an unusual tree.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a group of people engaged in a visual activity outdoors. However, the primary actions (eating versus simply looking) and the specific subjects of their attention ( a breathtaking view versus an unusual tree) are different, leading to low semantic similarity.\",\n  \"output\": 1.4\n}",
+    "reasoning": "Both sentences describe a group of people engaged in a visual activity outdoors. However, the primary actions (eating versus simply looking) and the specific subjects of their attention ( a breathtaking view versus an unusual tree) are different, leading to low semantic similarity.",
+    "predicted_sim": 1.4,
+    "gold_score": 2.2,
+    "abs_diff": 0.8000000000000003
+  }
+]

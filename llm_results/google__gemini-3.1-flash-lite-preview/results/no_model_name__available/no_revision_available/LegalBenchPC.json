@@ -1,0 +1,33 @@
+{
+  "dataset_revision": "a0217dc60ec5a45077e213a9538e845533523ed0",
+  "task_name": "LegalBenchPC",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "similarity_ap": 0.702065,
+        "similarity_accuracy": 0.724,
+        "similarity_f1": 0.675177,
+        "max_ap": 0.702065,
+        "max_accuracy": 0.724,
+        "max_f1": 0.675177,
+        "max_precision": 0.523077,
+        "max_recall": 0.952,
+        "usage_stats": {
+          "input_tokens": 128397,
+          "output_tokens": 28757,
+          "total_tokens": 157154,
+          "cost": 0.0
+        },
+        "main_score": 0.724,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 282.6461384296417,
+  "kg_co2_emissions": null,
+  "date": 1773861596.825515
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Les 16 membres de l'OTAN et les 14 pays qui formaient le Pacte de Varsovie rival ont convenu qu'il y aurait beaucoup moins d'\u00e9quipements autoris\u00e9s dans la zone d'application en Europe que dans le trait\u00e9 initial.",
+    "sentence2": "L'OTAN compte 16 membres.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise explicitly states 'Les 16 membres de l'OTAN' (The 16 members of NATO), which directly implies the statement in the hypothesis that NATO has 16 members.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise explicitly states 'Les 16 membres de l'OTAN' (The 16 members of NATO), which directly implies the statement in the hypothesis that NATO has 16 members.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Le pr\u00e9sident de la R\u00e9publique italienne, Giorgio Napolitano, a demand\u00e9 aujourd'hui \u00e0 Romano Prodi de rester au poste de Premier ministre, mais Prodi devra passer un vote de confiance le plus rapidement possible.",
+    "sentence2": "Romano Prodi est le Premier ministre italien.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that the Italian President asked Romano Prodi to 'rester' (remain) in the post of Prime Minister. For someone to remain in a position, they must currently hold that position. Therefore, it logically follows that Romano Prodi is the Italian Prime Minister.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise states that the Italian President asked Romano Prodi to 'rester' (remain) in the post of Prime Minister. For someone to remain in a position, they must currently hold that position. Therefore, it logically follows that Romano Prodi is the Italian Prime Minister.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Le secr\u00e9taire g\u00e9n\u00e9ral de l'OTAN, Willy Claes, a d\u00e9clar\u00e9 aujourd'hui qu'il envisageait de d\u00e9missionner, apr\u00e8s qu'une commission parlementaire belge a d\u00e9cid\u00e9 ce matin de recommander \u00e0 la plus haute juridiction du pays de l'inculper dans le cadre d'un scandale de corruption dans le domaine de l'armement qui s'\u00e9largit.",
+    "sentence2": "Le secr\u00e9taire g\u00e9n\u00e9ral de l'OTAN Willy Claes a d\u00e9missionn\u00e9.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that Willy Claes 'envisageait de d\u00e9missionner' (was considering resigning), whereas Sentence 2 states that he 'a d\u00e9missionn\u00e9' (has resigned/quit). Considering an action is not the same as having completed it; therefore, the premise does not confirm that the resignation actually happened.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 states that Willy Claes 'envisageait de d\u00e9missionner' (was considering resigning), whereas Sentence 2 states that he 'a d\u00e9missionn\u00e9' (has resigned/quit). Considering an action is not the same as having completed it; therefore, the premise does not confirm that the resignation actually happened.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Alvaro Uribe est le pr\u00e9sident de l'Espagne, un personnage int\u00e9ressant, qui, soit dit en passant, a vu son propre p\u00e8re abattu par une milice rebelle.",
+    "sentence2": "Felipe Gonz\u00e1lez est le pr\u00e9sident de l'Espagne.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that Alvaro Uribe is the president of Spain. The hypothesis states that Felipe Gonz\u00e1lez is the president of Spain. Since Alvaro Uribe and Felipe Gonz\u00e1lez are different people, the hypothesis contradicts the premise rather than following from it.\",\n  \"output\": 0\n}",
+    "reasoning": "The premise states that Alvaro Uribe is the president of Spain. The hypothesis states that Felipe Gonz\u00e1lez is the president of Spain. Since Alvaro Uribe and Felipe Gonz\u00e1lez are different people, the hypothesis contradicts the premise rather than following from it.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "\"Il n'y aura qu'un seul ouragan Andrew\", a-t-il d\u00e9clar\u00e9, faisant r\u00e9f\u00e9rence \u00e0 la temp\u00eate tropicale de cat\u00e9gorie 5 qui a frapp\u00e9 le sud de la Floride en 1992, causant 26,5 milliards de dollars de d\u00e9g\u00e2ts et tuant 26 personnes aux \u00c9tats-Unis et aux Bahamas.",
+    "sentence2": "Les temp\u00eates tropicales causent de graves dommages.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise describes a specific instance where a single tropical storm (Hurricane Andrew) caused significant damage. The hypothesis makes a general claim that tropical storms (plural, generic) cause serious damage. The existence of one specific instance does not logically entail that the statement is true for the class of objects as a whole. Thus, the meaning of the hypothesis does not necessarily follow from the premise.\",\n  \"output\": 0\n}",
+    "reasoning": "The premise describes a specific instance where a single tropical storm (Hurricane Andrew) caused significant damage. The hypothesis makes a general claim that tropical storms (plural, generic) cause serious damage. The existence of one specific instance does not logically entail that the statement is true for the class of objects as a whole. Thus, the meaning of the hypothesis does not necessarily follow from the premise.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  }
+]

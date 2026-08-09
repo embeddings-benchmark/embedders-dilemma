@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "R\u00e9pondez par SMS \u00e0 la discussion sur la f\u00eate du futur mari\u00e9",
+        "model_raw_output": "{\n  \"reasoning\": \"The task involves responding via SMS to a discussion about a future groom's party. The primary action is sending a message (SMS), which falls under 'messaging'. While the context relates to an event, the core intent is communication via text.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "Je voudrais que tu, je voudrais envoyer un message vid\u00e9o \u00e0 Len sur Messagerie",
+        "model_raw_output": "{\n  \"reasoning\": \"The user wants to send a video message ('envoyer un message vid\u00e9o') to Len via Messenger ('Messagerie'). The primary action is sending a message, which falls under the 'messaging' domain.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "J\u2019aimerais faire un appel vid\u00e9o avec Kennedy Gardner et Alejandro Potts sur WhatsApp",
+        "model_raw_output": "{\n  \"reasoning\": \"The user wants to make a video call with specific individuals (Kennedy Gardner and Alejandro Potts) via WhatsApp. The primary action is initiating a call (video call), which directly relates to communication through voice/video channels rather than messaging, scheduling, or other categories. The use of WhatsApp specifies the platform but does not change the core intent of placing a call.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "appelle avec Sustainability",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's utterance 'appelle avec Sustainability' translates to 'call with Sustainability' in English. The primary action here is initiating a call ('appelle'), and 'Sustainability' likely refers to a contact name, organization, or context for the call. The core intent revolves around making a phone call, which falls under the 'calling' domain.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Veuillez mettre l'appel en plein \u00e9cran",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's request 'Veuillez mettre l'appel en plein \u00e9cran' translates to 'Please put the call in full screen.' This involves modifying the display of an ongoing call, which directly relates to the 'calling' domain. The action centers around adjusting call settings rather than messaging, reminders, or other categories.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Une personne fait partie d'une \u00e9quipe de baseball.",
+    "sentence2": "A person is playing basketball on a team.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person involved in a team sport, but the specific sports differ (baseball vs. basketball). While the team context and participation are shared, the difference in sport reduces semantic equivalence. The first sentence does not explicitly mention 'playing,' leaving room for non-active roles (e.g., coaching), whereas the second emphasizes active participation. The sports' distinctiveness lowers the similarity score despite structural parallels.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences describe a person involved in a team sport, but the specific sports differ (baseball vs. basketball). While the team context and participation are shared, the difference in sport reduces semantic equivalence. The first sentence does not explicitly mention 'playing,' leaving room for non-active roles (e.g., coaching), whereas the second emphasizes active participation. The sports' distinctiveness lowers the similarity score despite structural parallels.",
+    "predicted_sim": 2.5,
+    "gold_score": 2.4,
+    "abs_diff": 0.10000000000000009
+  },
+  {
+    "sentence1": "Nos v\u00e9hicules actuels seront dans les mus\u00e9es lorsque chacun aura son propre avion.",
+    "sentence2": "The car needs to some work",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 discusses a hypothetical future where current vehicles become obsolete and end up in museums due to widespread personal plane ownership, while Sentence 2 refers to a car requiring maintenance or repairs in the present. The only overlap is the broad topic of vehicles, but their contexts (future speculation vs. immediate practical need) and specific meanings are entirely unrelated. The semantic connection is extremely weak.\",\n  \"output\": 0.3\n}",
+    "reasoning": "Sentence 1 discusses a hypothetical future where current vehicles become obsolete and end up in museums due to widespread personal plane ownership, while Sentence 2 refers to a car requiring maintenance or repairs in the present. The only overlap is the broad topic of vehicles, but their contexts (future speculation vs. immediate practical need) and specific meanings are entirely unrelated. The semantic connection is extremely weak.",
+    "predicted_sim": 0.3,
+    "gold_score": 0.2,
+    "abs_diff": 0.09999999999999998
+  },
+  {
+    "sentence1": "Une superviseure instruit les travailleurs masculins.",
+    "sentence2": "A woman is working as a nurse.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences involve women in professional roles, but the roles and contexts differ significantly. Sentence 1 describes a female supervisor instructing male workers, emphasizing leadership and gender dynamics. Sentence 2 focuses on a woman working as a nurse, which involves healthcare rather than supervision. The overlap is limited to the presence of a woman in a job setting, but the specific roles, actions, and fields are distinct.\",\n  \"output\": 0.5\n}",
+    "reasoning": "Both sentences involve women in professional roles, but the roles and contexts differ significantly. Sentence 1 describes a female supervisor instructing male workers, emphasizing leadership and gender dynamics. Sentence 2 focuses on a woman working as a nurse, which involves healthcare rather than supervision. The overlap is limited to the presence of a woman in a job setting, but the specific roles, actions, and fields are distinct.",
+    "predicted_sim": 0.5,
+    "gold_score": 1.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "Un v\u00e9lo est \u00e0 c\u00f4t\u00e9 d'un couple de femmes.",
+    "sentence2": "A child next to a bike.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences mention a bike and a spatial relationship ('next to'). However, Sentence 1 refers to a bicycle next to two women, while Sentence 2 describes a child next to a bike. The shared element is the bike and the spatial preposition, but the subjects (women vs. child) and number (couple vs. singular) differ significantly. This results in partial overlap but distinct primary focuses.\",\n  \"output\": 1.5\n}",
+    "reasoning": "Both sentences mention a bike and a spatial relationship ('next to'). However, Sentence 1 refers to a bicycle next to two women, while Sentence 2 describes a child next to a bike. The shared element is the bike and the spatial preposition, but the subjects (women vs. child) and number (couple vs. singular) differ significantly. This results in partial overlap but distinct primary focuses.",
+    "predicted_sim": 1.5,
+    "gold_score": 2.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "Le groupe mange tout en profitant d'une vue \u00e0 couper le souffle.",
+    "sentence2": "A group of people take a look at an unusual tree.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences mention a group of people, but the actions and contexts are different. Sentence 1 describes eating with a focus on a breathtaking view, while Sentence 2 involves observing an unusual tree. The shared element is the group and a visual experience, but the specific activities and subjects (view vs. tree) diverge significantly.\",\n  \"output\": 0.5\n}",
+    "reasoning": "Both sentences mention a group of people, but the actions and contexts are different. Sentence 1 describes eating with a focus on a breathtaking view, while Sentence 2 involves observing an unusual tree. The shared element is the group and a visual experience, but the specific activities and subjects (view vs. tree) diverge significantly.",
+    "predicted_sim": 0.5,
+    "gold_score": 2.2,
+    "abs_diff": 1.7000000000000002
+  }
+]

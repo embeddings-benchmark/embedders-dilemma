@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "j'ai besoin de toi pour marquer lundi prochain",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking the assistant to 'mark next Monday' ('marquer lundi prochain'), which implies scheduling or creating an event in the calendar.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "jouons ma chanson la plus \u00e9couter",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to play their most listened to song ('jouons ma chanson la plus \u00e9couter'). This falls under the intent of playing music.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "d\u00e9sactiver l'alarme du trois heure du soir",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance in French translates to 'turn off the alarm for 3 pm'. The verb 'd\u00e9sactiver' (deactivate/turn off) combined with 'l'alarme' (alarm) indicates a request to remove or disable an alarm.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "annuler l'alarme",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'annuler l'alarme' translates to 'cancel the alarm' in English, which matches the intent to remove or cancel an existing alarm.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "rappelle-moi mon emploi du temps pour l'apr\u00e8s-midi",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to be reminded of their schedule for the afternoon, which corresponds to querying calendar events.\",\n  \"output\": \"calendar_query\"\n}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

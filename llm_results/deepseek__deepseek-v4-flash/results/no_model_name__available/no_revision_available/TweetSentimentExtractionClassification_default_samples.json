@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Last session of the day  http://twitpic.com/67ezh",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet is a factual statement about the last session of the day, with no emotional tone or opinion.\",\n  \"output\": \"neutral\"\n}",
+        "parsed_output": "neutral",
+        "ground_truth": "neutral",
+        "is_correct": true
+    },
+    {
+        "input_text": "I THINK EVERYONE HATES ME ON HERE   lol",
+        "model_raw_output": "{\n  \"reasoning\": \"The core statement 'I THINK EVERYONE HATES ME ON HERE' clearly expresses a negative sentiment of feeling disliked or rejected. The addition of 'lol' may suggest a lighthearted or sarcastic tone, but it does not negate the underlying negative emotion. Therefore, the overall sentiment is negative.\",\n  \"output\": \"negative\"\n}",
+        "parsed_output": "negative",
+        "ground_truth": "negative",
+        "is_correct": true
+    },
+    {
+        "input_text": " .. and you`re on twitter! Did the tavern bore you that much?",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet uses a rhetorical question suggesting that the recipient found the tavern boring enough to resort to Twitter. The phrasing 'Did the tavern bore you that much?' conveys a negative sentiment by implying boredom, while the opening 'and you're on twitter!' adds a tone of mild surprise or sarcasm. Overall, the sentiment leans negative.\",\n  \"output\": \"negative\"\n}",
+        "parsed_output": "negative",
+        "ground_truth": "neutral",
+        "is_correct": false
+    },
+    {
+        "input_text": " guess that depends on if you want to be on the jury",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet expresses a non-committal, conditional opinion ('depends on if you want') without strong emotional language. It is neutral in tone, neither praising nor criticizing the subject.\",\n  \"output\": \"neutral\"\n}",
+        "parsed_output": "neutral",
+        "ground_truth": "neutral",
+        "is_correct": true
+    },
+    {
+        "input_text": "resorted to eating Mickey Ds ALONE.",
+        "model_raw_output": "{\n  \"reasoning\": \"The phrase 'resorted to' implies a sense of desperation or settling for something less desirable, and 'ALONE' emphasizes isolation, which together convey a negative emotional tone.\",\n  \"output\": \"negative\"\n}",
+        "parsed_output": "negative",
+        "ground_truth": "neutral",
+        "is_correct": false
+    }
+]

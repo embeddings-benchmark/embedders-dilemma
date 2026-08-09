@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Last session of the day  http://twitpic.com/67ezh",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet simply states a factual observation about the schedule ('Last session of the day') without expressing any positive or negative emotions, opinions, or evaluations. There are no sentiment-bearing words, so it falls into the neutral category.\",\n  \"output\": \"neutral\"\n}",
+        "parsed_output": "neutral",
+        "ground_truth": "neutral",
+        "is_correct": true
+    },
+    {
+        "input_text": "I THINK EVERYONE HATES ME ON HERE   lol",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet expresses feelings of rejection and being disliked ('EVERYONE HATES ME'), which clearly conveys a negative emotional state. Although it ends with 'lol' to soften the statement or add self-deprecating humor, the underlying sentiment remains negative.\",\n  \"output\": \"negative\"\n}",
+        "parsed_output": "negative",
+        "ground_truth": "negative",
+        "is_correct": true
+    },
+    {
+        "input_text": " .. and you`re on twitter! Did the tavern bore you that much?",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet is a playful, teasing question rather than an expression of strong emotion. Although it uses the word 'bore,' it is employed rhetorically to joke about someone switching platforms, without conveying genuine positive or negative sentiment. The tone is casual and conversational, which aligns with a neutral classification in standard sentiment analysis.\",\n  \"output\": \"neutral\"\n}",
+        "parsed_output": "neutral",
+        "ground_truth": "neutral",
+        "is_correct": true
+    },
+    {
+        "input_text": " guess that depends on if you want to be on the jury",
+        "model_raw_output": "{\n  \"reasoning\": \"The tweet presents a conditional statement about jury duty without expressing any clear emotional attitude or evaluation. It lacks explicit positive or negative sentiment markers and maintains a conversational, objective tone, simply indicating that an outcome or decision depends on personal preference. Therefore, it is classified as neutral.\",\n  \"output\": \"neutral\"\n}",
+        "parsed_output": "neutral",
+        "ground_truth": "neutral",
+        "is_correct": true
+    },
+    {
+        "input_text": "resorted to eating Mickey Ds ALONE.",
+        "model_raw_output": "{\n  \"reasoning\": \"The phrase 'resorted to' implies settling for a less desirable or backup option, carrying a tone of resignation or disappointment. The capitalized 'ALONE' emphasizes loneliness or a lack of companionship, adding emotional weight to what might otherwise be a neutral statement. Together, these cues indicate a mildly negative sentiment.\",\n  \"output\": \"negative\"\n}",
+        "parsed_output": "negative",
+        "ground_truth": "neutral",
+        "is_correct": false
+    }
+]

@@ -1,0 +1,24 @@
+% Ablation: reduced thinking (reasoning_effort=low) (auto-generated)
+\begin{table}[t]
+\centering
+\small
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Task} & \textbf{Gemini 3 Flash} & \textbf{Gemini 3 Flash (low)} & \textbf{$\Delta$} & \textbf{Think $\downarrow$} & \textbf{Best Emb.} \\
+\midrule
+\multicolumn{6}{l}{\emph{Retrieval}} \\
+AILAStatutes & 5.7 & \textbf{12.0} & +6.3 & -- & 23.2 \\
+FQuADRetrieval & 88.0 & \textbf{92.0} & +4.0 & 54\% & 72.0 \\
+HC3FinanceRetrieval & 60.0 & \textbf{66.0} & +6.0 & 87\% & 67.0 \\
+LegalBenchConsumerContractsQA & 79.0 & \textbf{83.0} & +4.0 & 85\% & 70.0 \\
+PublicHealthQA & 49.0 & \textbf{66.0} & +17.0 & 94\% & 85.0 \\
+TwitterHjerneRetrieval & 32.4 & \textbf{33.4} & +1.1 & -- & 31.5 \\
+\bottomrule
+\end{tabular}
+}
+\caption{\textbf{Reduced-thinking ablation} (Gemini 3 Flash with \texttt{reasoning\_effort=low} vs.\ default)
+on the \mteblm{} retrieval tasks. Think~$\downarrow$ = reduction in thinking tokens vs.\ default.
+Reducing thinking by 54--94\% improves all six retrieval scores in this ablation.}
+\label{tab:ablation_nocot}
+\end{table}

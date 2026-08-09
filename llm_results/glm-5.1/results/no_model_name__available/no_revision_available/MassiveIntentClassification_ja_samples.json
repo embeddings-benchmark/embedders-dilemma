@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "\u6b21\u306e\u6708\u66dc\u306b\u5370\u3092\u3064\u3051\u308b",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance '\u6b21\u306e\u6708\u66dc\u306b\u5370\u3092\u3064\u3051\u308b' translates to 'Mark next Monday' or 'Put a mark on next Monday.' The user is referring to a specific date (next Monday) and expressing an action to add a mark or note to that date. Among the available intents, this best fits calendar_set, as it involves scheduling, marking, or adding an entry to a specific date on the calendar. The date reference ('next Monday') strongly signals calendar-related functionality rather than a generic list or query.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u79c1\u304c\u6700\u3082\u518d\u751f\u3057\u305f\u66f2\u30ea\u30b9\u30c8\u3092\u518d\u751f\u3057\u3066\u304f\u3060\u3055\u3044",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting playback of a collection of songs ('\u66f2\u30ea\u30b9\u30c8' = song list), specifically their most-played tracks. This is a direct command to start playing music/audio content, which aligns with the 'play_music' intent rather than querying information about music or managing lists.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u5348\u5f8c\u4e09\u6642\u306e\u30a2\u30e9\u30fc\u30e0\u3092\u7121\u52b9\u306b\u3059\u308b",
+        "model_raw_output": "{\n  \"reasoning\": \"The user says '\u5348\u5f8c\u4e09\u6642\u306e\u30a2\u30e9\u30fc\u30e0\u3092\u7121\u52b9\u306b\u3059\u308b' which means 'Disable the alarm for 3 PM' or 'Turn off the 3 PM alarm'. This indicates the user wants to cancel, remove, or deactivate an existing alarm that was previously set for 3:00 PM. Among the available intents, 'alarm_remove' is the best match as it covers canceling or removing an existing alarm.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u30a2\u30e9\u30fc\u30e0\u3092\u30ad\u30e3\u30f3\u30bb\u30eb",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance '\u30a2\u30e9\u30fc\u30e0\u3092\u30ad\u30e3\u30f3\u30bb\u30eb' means 'Cancel the alarm' in Japanese. The intent is to remove or delete an existing alarm, which maps directly to the alarm_remove intent.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u5348\u5f8c\u306e\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u3092\u30ea\u30de\u30a4\u30f3\u30c9\u3057\u3066",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to be reminded of their afternoon schedule ('\u5348\u5f8c\u306e\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u3092\u30ea\u30de\u30a4\u30f3\u30c9\u3057\u3066'). This is a request to retrieve and be informed about scheduled events, which corresponds to querying calendar information. Among the available intents, calendar_query is the best fit as it covers asking about events and schedules, even though there is no specific 'reminder' intent.\",\n  \"output\": \"calendar_query\"\n}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

@@ -1,0 +1,54 @@
+{
+  "dataset_revision": "c7cd15a51954e6862a5d29508c8d8db61cb8f1e8",
+  "task_name": "ImdbClassification",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.976,
+            "f1": 0.651313,
+            "f1_weighted": 0.976973,
+            "precision": 0.651983,
+            "precision_weighted": 0.977967,
+            "recall": 0.650656,
+            "recall_weighted": 0.976,
+            "ap": 0.966764,
+            "ap_weighted": 0.966764
+          }
+        ],
+        "accuracy": 0.976,
+        "f1": 0.651313,
+        "f1_weighted": 0.976973,
+        "precision": 0.651983,
+        "precision_weighted": 0.977967,
+        "recall": 0.650656,
+        "recall_weighted": 0.976,
+        "ap": 0.966764,
+        "ap_weighted": 0.966764,
+        "main_score": 0.976,
+        "input_tokens": 155320,
+        "cached_tokens": 0,
+        "output_tokens": 250388,
+        "thinking_tokens": 193039,
+        "total_tokens": 405708,
+        "cost": 0.0,
+        "usage_stats": {
+          "input_tokens": 155320,
+          "cached_tokens": 0,
+          "output_tokens": 250388,
+          "thinking_tokens": 193039,
+          "total_tokens": 405708,
+          "cost": 0.0
+        },
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 1089.7261109352112,
+  "kg_co2_emissions": null
+}

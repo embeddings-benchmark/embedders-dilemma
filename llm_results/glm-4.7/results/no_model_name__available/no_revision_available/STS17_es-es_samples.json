@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Un perro est\u00e1 con un juguete.",
+    "sentence2": "Un perro tiene un juguete.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a relationship between a dog ('un perro') and a toy ('un juguete'). The slight difference lies in the phrasing: 'est\u00e1 con' (is with) implies proximity or accompaniment, whereas 'tiene' (has) implies possession or immediate holding. While not strictly identical\u2014since one could be merely standing next to a toy\u2014the practical meaning in a narrative context is almost indistinguishable, resulting in very high semantic similarity.\",\n  \"output\": 4.7\n}",
+    "reasoning": "Both sentences describe a relationship between a dog ('un perro') and a toy ('un juguete'). The slight difference lies in the phrasing: 'est\u00e1 con' (is with) implies proximity or accompaniment, whereas 'tiene' (has) implies possession or immediate holding. While not strictly identical\u2014since one could be merely standing next to a toy\u2014the practical meaning in a narrative context is almost indistinguishable, resulting in very high semantic similarity.",
+    "predicted_sim": 4.7,
+    "gold_score": 4.8,
+    "abs_diff": 0.09999999999999964
+  },
+  {
+    "sentence1": "Los ni\u00f1os acarician un conejito.",
+    "sentence2": "Los ni\u00f1os acarician un perro.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the exact same subject ('Los ni\u00f1os') and verb ('acarician'). However, the object of the action differs between 'un conejito' (a little rabbit) and 'un perro' (a dog). While the context is very similar (children petting a small animal), the specific meanings are distinct because the animals are different.\",\n  \"output\": 3.0\n}",
+    "reasoning": "Both sentences share the exact same subject ('Los ni\u00f1os') and verb ('acarician'). However, the object of the action differs between 'un conejito' (a little rabbit) and 'un perro' (a dog). While the context is very similar (children petting a small animal), the specific meanings are distinct because the animals are different.",
+    "predicted_sim": 3.0,
+    "gold_score": 2.2,
+    "abs_diff": 0.7999999999999998
+  },
+  {
+    "sentence1": "La gente cocina en la parrilla.",
+    "sentence2": "Los peatones miran con asombro mientras dos personas cocinan pechuga en una parrilla.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the core action of cooking on a grill. Sentence 1 ('La gente cocina en la parrilla') is a general statement about this activity. Sentence 2 ('Los peatones miran con asombro mientras dos personas cocinan pechuga en una parrilla') shares this core meaning but adds significant specific details: it specifies the food (pechuga/breast), the number of cooks (two), and includes a separate narrative element about pedestrians watching in amazement. While they describe the same central event, the abundance of extra information in Sentence 2 lowers the overall similarity.\",\n  \"output\": 3.2\n}",
+    "reasoning": "Both sentences describe the core action of cooking on a grill. Sentence 1 ('La gente cocina en la parrilla') is a general statement about this activity. Sentence 2 ('Los peatones miran con asombro mientras dos personas cocinan pechuga en una parrilla') shares this core meaning but adds significant specific details: it specifies the food (pechuga/breast), the number of cooks (two), and includes a separate narrative element about pedestrians watching in amazement. While they describe the same central event, the abundance of extra information in Sentence 2 lowers the overall similarity.",
+    "predicted_sim": 3.2,
+    "gold_score": 0.8,
+    "abs_diff": 2.4000000000000004
+  },
+  {
+    "sentence1": "El hombre construye un peque\u00f1o castillo de arena",
+    "sentence2": "Una muchacha est\u00e1 construyendo un castillo de arena.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 translates to 'The man builds a small sandcastle' and Sentence 2 translates to 'A girl is building a sandcastle.' Both sentences describe the exact same action (building a sandcastle) and context. However, there are two key differences: the subject is different ('El hombre' vs 'Una muchacha') and Sentence 1 specifies the size ('peque\u00f1o') while Sentence 2 does not. Because the subjects are fundamentally different (a man vs. a girl), the sentences are not paraphrases, but they are semantically related as they describe nearly identical scenes.\",\n  \"output\": 3.1\n}",
+    "reasoning": "Sentence 1 translates to 'The man builds a small sandcastle' and Sentence 2 translates to 'A girl is building a sandcastle.' Both sentences describe the exact same action (building a sandcastle) and context. However, there are two key differences: the subject is different ('El hombre' vs 'Una muchacha') and Sentence 1 specifies the size ('peque\u00f1o') while Sentence 2 does not. Because the subjects are fundamentally different (a man vs. a girl), the sentences are not paraphrases, but they are semantically related as they describe nearly identical scenes.",
+    "predicted_sim": 3.1,
+    "gold_score": 2.2,
+    "abs_diff": 0.8999999999999999
+  },
+  {
+    "sentence1": "Un hombre est\u00e1 corriendo detr\u00e1s de un trineo tirado por cuatro perros.",
+    "sentence2": "Un hombre siendo tirado en un trineo por perros.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 describes a man running behind a sled that is being pulled by four dogs, implying the man is on foot alongside the vehicle. Sentence 2 describes a man being pulled while riding in the sled by dogs. While the entities (man, sled, dogs) and the general context are the same, the specific actions and the man's position relative to the sled are different and contradictory (running behind vs. riding inside).\",\n  \"output\": 2.5\n}",
+    "reasoning": "Sentence 1 describes a man running behind a sled that is being pulled by four dogs, implying the man is on foot alongside the vehicle. Sentence 2 describes a man being pulled while riding in the sled by dogs. While the entities (man, sled, dogs) and the general context are the same, the specific actions and the man's position relative to the sled are different and contradictory (running behind vs. riding inside).",
+    "predicted_sim": 2.5,
+    "gold_score": 3.6,
+    "abs_diff": 1.1
+  }
+]

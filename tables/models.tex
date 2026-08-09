@@ -1,0 +1,27 @@
+% Model overview (main paper, LLMs beside embeddings, auto-generated)
+\begin{table}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lrrr|lrrr}
+\toprule
+\multicolumn{4}{c}{\textbf{LLMs}} & \multicolumn{4}{c}{\textbf{Embedding models (top 10)}} \\
+\cmidrule(lr){1-4} \cmidrule(lr){5-8}
+\textbf{Model} & \textbf{Params} & \textbf{Score} & \textbf{Cost} & \textbf{Model} & \textbf{Params} & \textbf{Score} & \textbf{Cost} \\
+\midrule
+Gemini 3.1 Pro & -- & 77.6 & \$154.14 & Octen-8B & 7.6B & 77.2 & \$0.108 \\
+Gemini 3 Flash & -- & 75.2 & \$55.87 & Qwen3-E-8B & 7.6B & 77.0 & \$0.108 \\
+Qwen3.6-27B & -- & 73.9 & \$103.43 & Qwen3-E-4B & 4.0B & 75.9 & \$0.069 \\
+Qwen3.6-35B-A3B & -- & 73.3 & \$34.06 & Nemotron-8B & 7.5B & 75.3 & \$0.115 \\
+Kimi-K2.6 & -- & 71.7 & \$110.70 & KaLM-12B & 11.8B & 74.8 & \$0.158 \\
+DeepSeek-V4-Flash & -- & 68.5 & \$3.16 & Jina-v5-S & 596M & 74.4 & \$0.034 \\
+MiniMax-M2.7 & -- & 68.2 & \$24.52 & SFR-2 & 7.1B & 73.9 & \$0.136 \\
+GLM-4.7 & -- & 67.7 & \$63.31 & Jina-v5-Nano & 212M & 73.9 & \$0.010 \\
+Gemini 3.1 Flash Lite & -- & 64.5 & \$6.85 & F2LLM-14B & 14.0B & 73.3 & \$0.215 \\
+DeepSeek-R1 & -- & 64.3 & \$57.38 & GTE-Qwen2-7B & 7.1B & 73.1 & \$0.089 \\
+\bottomrule
+\end{tabular}}
+\caption{\textbf{Model overview.} Mean score and total \mteblm{} cost for all LLMs and the ten highest-scoring embedding models. LLM costs use API token usage; embedding costs use H100 throughput at \$2.49/hr.}
+\label{tab:models}
+\end{table}

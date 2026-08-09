@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "What is cache on my Apple iPad Pro and how can I clear my browser cache on it ?",
+    "sentence2": "Clear browser cache - Apple iPad Pro",
+    "model_raw_output": "{\n  \"reasoning\": \"Both questions share the same core intent: obtaining instructions on how to clear the browser cache on an Apple iPad Pro. While Sentence 1 additionally asks for a definition of 'cache,' the primary actionable request is identical, and a single support article or tutorial would fully address both queries. In practical Q&A or search contexts, they are functionally duplicates.\",\n  \"output\": 1\n}",
+    "reasoning": "Both questions share the same core intent: obtaining instructions on how to clear the browser cache on an Apple iPad Pro. While Sentence 1 additionally asks for a definition of 'cache,' the primary actionable request is identical, and a single support article or tutorial would fully address both queries. In practical Q&A or search contexts, they are functionally duplicates.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Troubleshooting guide for charging related issues on the HTC Bolt",
+    "sentence2": "Transfer files with your computer - Apple iPad mini 4",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences address completely different devices (HTC Bolt vs Apple iPad mini 4) and unrelated tasks (troubleshooting charging issues vs transferring files). Therefore, they are not asking for the same information.\",\n  \"output\": 0\n}",
+    "reasoning": "The two sentences address completely different devices (HTC Bolt vs Apple iPad mini 4) and unrelated tasks (troubleshooting charging issues vs transferring files). Therefore, they are not asking for the same information.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Guide on conserving the Samsung Galaxy Note 4 battery life",
+    "sentence2": "Can I use my Apple Pencil to control my Apple iPad Pro ?",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences are about completely different topics and product ecosystems. Sentence 1 requests a guide on saving battery life for a Samsung Galaxy Note 4, while Sentence 2 asks about the compatibility of an Apple Pencil with an Apple iPad Pro. They do not seek the same information.\",\n  \"output\": 0\n}",
+    "reasoning": "The two sentences are about completely different topics and product ecosystems. Sentence 1 requests a guide on saving battery life for a Samsung Galaxy Note 4, while Sentence 2 asks about the compatibility of an Apple Pencil with an Apple iPad Pro. They do not seek the same information.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Does my LG G4 have any special features ?",
+    "sentence2": "Does my LG G4 have any special features ?",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences are identical in both wording and intent, asking exactly the same question about the special features of an LG G4 smartphone.\",\n  \"output\": 1\n}",
+    "reasoning": "The two sentences are identical in both wording and intent, asking exactly the same question about the special features of an LG G4 smartphone.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "How can I pair bluetooth devices to my Samsung Galaxy S III with 4G LTE Prepaid ?",
+    "sentence2": "How do I change the phone ringtone and notification sound on my Apple iPhone 4s ?",
+    "model_raw_output": "{\n  \"reasoning\": \"The first question asks about pairing Bluetooth devices on a Samsung Galaxy S III, while the second question asks about changing ringtones and notification sounds on an Apple iPhone 4s. They involve completely different devices and address unrelated functionalities, so they are not duplicates.\",\n  \"output\": 0\n}",
+    "reasoning": "The first question asks about pairing Bluetooth devices on a Samsung Galaxy S III, while the second question asks about changing ringtones and notification sounds on an Apple iPhone 4s. They involve completely different devices and address unrelated functionalities, so they are not duplicates.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  }
+]

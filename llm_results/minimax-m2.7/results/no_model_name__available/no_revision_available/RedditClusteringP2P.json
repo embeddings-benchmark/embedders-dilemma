@@ -1,0 +1,37 @@
+{
+  "dataset_revision": "298518f04f9f2a5849282dd20e43672172428790",
+  "task_name": "RedditClusteringP2P",
+  "mteb_version": "2.3.0",
+  "scores": {
+    "test": [
+      {
+        "v_measures": [
+          0.670847,
+          0.778994,
+          0.876509,
+          0.132371,
+          0.91058
+        ],
+        "v_measure": 0.67386,
+        "v_measure_std": 0.283329,
+        "usage_stats": {
+          "input_tokens": 183019,
+          "cached_tokens": 0,
+          "output_tokens": 106309,
+          "thinking_tokens": 79612,
+          "total_tokens": 289328,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.67386,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 1915.2961959838867,
+  "kg_co2_emissions": null
+}

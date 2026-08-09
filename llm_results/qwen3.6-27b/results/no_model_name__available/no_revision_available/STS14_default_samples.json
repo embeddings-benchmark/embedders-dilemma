@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "allergy-bullying ? apparently this is a real problem .",
+    "sentence2": "allergy bullying : when food is a weapon",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences focus on the exact same phenomenon: 'allergy bullying'. Sentence 1 acknowledges its existence and frames it as a 'real problem,' while Sentence 2 provides a descriptive definition/metaphor ('when food is a weapon'). They share identical core topics and closely related intents, but differ slightly in rhetorical focus (acknowledgment of impact vs. explanation of mechanism). This high topical overlap with minor differences in phrasing and emphasis places them in the upper-middle similarity range.\",\n  \"output\": 3.8\n}",
+    "reasoning": "Both sentences focus on the exact same phenomenon: 'allergy bullying'. Sentence 1 acknowledges its existence and frames it as a 'real problem,' while Sentence 2 provides a descriptive definition/metaphor ('when food is a weapon'). They share identical core topics and closely related intents, but differ slightly in rhetorical focus (acknowledgment of impact vs. explanation of mechanism). This high topical overlap with minor differences in phrasing and emphasis places them in the upper-middle similarity range.",
+    "predicted_sim": 3.8,
+    "gold_score": 3.0,
+    "abs_diff": 0.7999999999999998
+  },
+  {
+    "sentence1": "they know that the video doesn 't show a gas chamber .",
+    "sentence2": "the bottom line is that the video clip doesn 't show a gas chamber .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the exact same core factual claim: that the video/clip does not depict a gas chamber. The primary difference is in the framing and pragmatic focus. Sentence 1 emphasizes the awareness or belief of a specific group ('they know that'), while Sentence 2 emphasizes the fundamental conclusion or takeaway ('the bottom line is that'). This slight shift from reporting knowledge to stating a definitive fact is an unimportant detail in the context of semantic similarity, as the central proposition about the video's content remains identical. Therefore, they are highly similar but not perfectly identical in meaning.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences share the exact same core factual claim: that the video/clip does not depict a gas chamber. The primary difference is in the framing and pragmatic focus. Sentence 1 emphasizes the awareness or belief of a specific group ('they know that'), while Sentence 2 emphasizes the fundamental conclusion or takeaway ('the bottom line is that'). This slight shift from reporting knowledge to stating a definitive fact is an unimportant detail in the context of semantic similarity, as the central proposition about the video's content remains identical. Therefore, they are highly similar but not perfectly identical in meaning.",
+    "predicted_sim": 4.2,
+    "gold_score": 4.6,
+    "abs_diff": 0.39999999999999947
+  },
+  {
+    "sentence1": "some believe the ' right ' is most important .",
+    "sentence2": "some believe not slaughtering the unborn is most important .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the same syntactic structure and thematic focus on what a group considers 'most important.' However, Sentence 1 uses the ambiguous, quoted term 'the right,' which could refer to a political ideology, a moral principle, or a specific legal entitlement, while Sentence 2 explicitly addresses a concrete anti-abortion stance. Because the core subjects differ significantly in specificity and direct meaning, the sentences are not interchangeable or equivalent in meaning, but they remain related in topic and framing. This warrants a low-to-moderate similarity score.\",\n  \"output\": 2.0\n}",
+    "reasoning": "Both sentences share the same syntactic structure and thematic focus on what a group considers 'most important.' However, Sentence 1 uses the ambiguous, quoted term 'the right,' which could refer to a political ideology, a moral principle, or a specific legal entitlement, while Sentence 2 explicitly addresses a concrete anti-abortion stance. Because the core subjects differ significantly in specificity and direct meaning, the sentences are not interchangeable or equivalent in meaning, but they remain related in topic and framing. This warrants a low-to-moderate similarity score.",
+    "predicted_sim": 2.0,
+    "gold_score": 1.2,
+    "abs_diff": 0.8
+  },
+  {
+    "sentence1": "brief clashes with police in belfast",
+    "sentence2": "mourners clash with police in tunisia",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the same general type of event (civilian clashes with police) and follow a similar news-headline structure. However, they differ significantly in key factual details: the location (Belfast vs. Tunisia), the specific participants (unspecified in the first vs. mourners in the second), and the implied context. While thematically and structurally related, they describe entirely separate incidents, which aligns with a low-to-moderate similarity score on the STS scale.\",\n  \"output\": 2.0\n}",
+    "reasoning": "Both sentences describe the same general type of event (civilian clashes with police) and follow a similar news-headline structure. However, they differ significantly in key factual details: the location (Belfast vs. Tunisia), the specific participants (unspecified in the first vs. mourners in the second), and the implied context. While thematically and structurally related, they describe entirely separate incidents, which aligns with a low-to-moderate similarity score on the STS scale.",
+    "predicted_sim": 2.0,
+    "gold_score": 1.2,
+    "abs_diff": 0.8
+  },
+  {
+    "sentence1": "a train is running on the tracks .",
+    "sentence2": "a train is running down the track in a rural area .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the exact same core event: a train traveling along railway tracks. Sentence 2 introduces an additional, non-contradictory detail ('in a rural area') that specifies the location, making it more specific than Sentence 1. Because the fundamental meaning is preserved but one sentence contains extra contextual information, they are highly similar but not perfectly identical, warranting a score in the upper 4 range.\",\n  \"output\": 4.3\n}",
+    "reasoning": "Both sentences describe the exact same core event: a train traveling along railway tracks. Sentence 2 introduces an additional, non-contradictory detail ('in a rural area') that specifies the location, making it more specific than Sentence 1. Because the fundamental meaning is preserved but one sentence contains extra contextual information, they are highly similar but not perfectly identical, warranting a score in the upper 4 range.",
+    "predicted_sim": 4.3,
+    "gold_score": 4.0,
+    "abs_diff": 0.2999999999999998
+  }
+]

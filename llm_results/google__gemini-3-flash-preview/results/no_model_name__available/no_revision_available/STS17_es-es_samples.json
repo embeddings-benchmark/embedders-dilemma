@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Un perro est\u00e1 con un juguete.",
+    "sentence2": "Un perro tiene un juguete.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a dog in relation to a toy. 'Estar con' (to be with) and 'tener' (to have) are semantically very close in this context, as a dog being with a toy almost always implies it has the toy or is interacting with it. The only minor difference is the specific verb used to denote the relationship.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences describe a dog in relation to a toy. 'Estar con' (to be with) and 'tener' (to have) are semantically very close in this context, as a dog being with a toy almost always implies it has the toy or is interacting with it. The only minor difference is the specific verb used to denote the relationship.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.8,
+    "abs_diff": 0.2999999999999998
+  },
+  {
+    "sentence1": "Los ni\u00f1os acarician un conejito.",
+    "sentence2": "Los ni\u00f1os acarician un perro.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the same subject ('Los ni\u00f1os') and the same action ('acarician'). The only difference is the direct object of the action, which involves two different types of common animals (a bunny vs. a dog). Because the overall structure and core activity are identical, but the specific animal changes, they are semantically similar but not identical.\",\n  \"output\": 3.2\n}",
+    "reasoning": "Both sentences share the same subject ('Los ni\u00f1os') and the same action ('acarician'). The only difference is the direct object of the action, which involves two different types of common animals (a bunny vs. a dog). Because the overall structure and core activity are identical, but the specific animal changes, they are semantically similar but not identical.",
+    "predicted_sim": 3.2,
+    "gold_score": 2.2,
+    "abs_diff": 1.0
+  },
+  {
+    "sentence1": "La gente cocina en la parrilla.",
+    "sentence2": "Los peatones miran con asombro mientras dos personas cocinan pechuga en una parrilla.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the core activity of people cooking on a grill. Sentence 1 is a very general statement, whereas Sentence 2 provides much more specific detail, including the number of people, the specific food being cooked (brisket), and the fact that pedestrians are watching them. Because Sentence 1 is a broad generalization of the specific scene in Sentence 2, they are semantically related but not equivalent in detail.\",\n  \"output\": 3.2\n}",
+    "reasoning": "Both sentences describe the core activity of people cooking on a grill. Sentence 1 is a very general statement, whereas Sentence 2 provides much more specific detail, including the number of people, the specific food being cooked (brisket), and the fact that pedestrians are watching them. Because Sentence 1 is a broad generalization of the specific scene in Sentence 2, they are semantically related but not equivalent in detail.",
+    "predicted_sim": 3.2,
+    "gold_score": 0.8,
+    "abs_diff": 2.4000000000000004
+  },
+  {
+    "sentence1": "El hombre construye un peque\u00f1o castillo de arena",
+    "sentence2": "Una muchacha est\u00e1 construyendo un castillo de arena.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the same activity of building a sandcastle. The main differences are the subjects (a man versus a girl) and a minor descriptor for the castle ('peque\u00f1o' or small) in the first sentence.\",\n  \"output\": 2.8\n}",
+    "reasoning": "Both sentences describe the same activity of building a sandcastle. The main differences are the subjects (a man versus a girl) and a minor descriptor for the castle ('peque\u00f1o' or small) in the first sentence.",
+    "predicted_sim": 2.8,
+    "gold_score": 2.2,
+    "abs_diff": 0.5999999999999996
+  },
+  {
+    "sentence1": "Un hombre est\u00e1 corriendo detr\u00e1s de un trineo tirado por cuatro perros.",
+    "sentence2": "Un hombre siendo tirado en un trineo por perros.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a scene involving a man, a sled, and dogs. However, there is a key difference in the man's action: in the first sentence, he is running behind the sled, whereas in the second, he is being pulled in the sled. This results in a moderate level of similarity as the core components are the same, but the specific situation is different.\",\n  \"output\": 2.8\n}",
+    "reasoning": "Both sentences describe a scene involving a man, a sled, and dogs. However, there is a key difference in the man's action: in the first sentence, he is running behind the sled, whereas in the second, he is being pulled in the sled. This results in a moderate level of similarity as the core components are the same, but the specific situation is different.",
+    "predicted_sim": 2.8,
+    "gold_score": 3.6,
+    "abs_diff": 0.8000000000000003
+  }
+]

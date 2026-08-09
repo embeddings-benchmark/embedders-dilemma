@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Der Vorstand des Distrikts f\u00fcr Wasserverwaltung von South Florida muss m\u00f6glicherweise schon im n\u00e4chsten Monat \u00fcber den Kauf der Gemeinde entscheiden, die 8 1/2-Square-Mile Area genannt wird, gleich \u00f6stlich des Everglades-Nationalparks.",
+    "sentence2": "Der Everglades-Nationalpark befindet sich in Florida.",
+    "model_raw_output": "{\n  \"reasoning\": \"Die Pr\u00e4misse erw\u00e4hnt den 'Vorstand des Distrikts f\u00fcr Wasserverwaltung von South Florida' und eine Fl\u00e4che \u00f6stlich des 'Everglades-Nationalparks'. Obwohl der Name der Bezirksverwaltung 'South Florida' enth\u00e4lt, legt der Text explizit nicht fest, dass der Everglades-Nationalpark im Bundesstaat Florida liegt. Eine strikte semantische Implikatur (Entailment) erfordert, dass die Hypothese ausschlie\u00dflich aus den Informationen der Pr\u00e4misse abgeleitet werden kann, ohne externes Weltwissen. Da der Text die geografische Grenzziehung des Parks nicht explizit definiert, folgt der Standort 'Florida' nicht zwingend logisch aus dem Satz.\",\n  \"output\": 0\n}",
+    "reasoning": "Die Pr\u00e4misse erw\u00e4hnt den 'Vorstand des Distrikts f\u00fcr Wasserverwaltung von South Florida' und eine Fl\u00e4che \u00f6stlich des 'Everglades-Nationalparks'. Obwohl der Name der Bezirksverwaltung 'South Florida' enth\u00e4lt, legt der Text explizit nicht fest, dass der Everglades-Nationalpark im Bundesstaat Florida liegt. Eine strikte semantische Implikatur (Entailment) erfordert, dass die Hypothese ausschlie\u00dflich aus den Informationen der Pr\u00e4misse abgeleitet werden kann, ohne externes Weltwissen. Da der Text die geografische Grenzziehung des Parks nicht explizit definiert, folgt der Standort 'Florida' nicht zwingend logisch aus dem Satz.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  },
+  {
+    "sentence1": "Der Pr\u00e4sident der Italienischen Republik, Giorgio Napolitano, hat Romano Prodi heute darum gebeten, als Ministerpr\u00e4sident zu bleiben, doch Prodi muss sich sobald wie m\u00f6glich einem Misstrauensvotum unterziehen.",
+    "sentence2": "Romano Prodi ist der italienische Ministerpr\u00e4sident.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that President Giorgio Napolitano asked Romano Prodi to 'remain' (bleiben) as Prime Minister (Ministerpr\u00e4sident). The phrasing implies that Prodi currently holds the position of Prime Minister. Therefore, the statement in the hypothesis that 'Romano Prodi is the Italian Prime Minister' is a necessary logical consequence of the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise states that President Giorgio Napolitano asked Romano Prodi to 'remain' (bleiben) as Prime Minister (Ministerpr\u00e4sident). The phrasing implies that Prodi currently holds the position of Prime Minister. Therefore, the statement in the hypothesis that 'Romano Prodi is the Italian Prime Minister' is a necessary logical consequence of the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "NATO-Generalsekret\u00e4r Willy Claes sagte heute, dass er einen R\u00fccktritt erw\u00e4ge, nachdem eine belgische Parlamentskommission an diesem Morgen beschlossen hat, zu empfehlen, dass er vom h\u00f6chsten Gericht des Landes in einem wachsenden Waffenkorruptionsskandal angeklagt wird.",
+    "sentence2": "NATO-Generalsekret\u00e4r Willy Claes ist zur\u00fcckgetreten.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that Willy Claes is 'considering resigning' (R\u00fccktritt erw\u00e4ge), while the hypothesis asserts that he 'has resigned' (ist zur\u00fcckgetreten). The act of considering a resignation does not guarantee or confirm that the resignation has actually taken place. Therefore, the hypothesis is not entailed by the premise.\",\n  \"output\": 0\n}",
+    "reasoning": "The premise states that Willy Claes is 'considering resigning' (R\u00fccktritt erw\u00e4ge), while the hypothesis asserts that he 'has resigned' (ist zur\u00fcckgetreten). The act of considering a resignation does not guarantee or confirm that the resignation has actually taken place. Therefore, the hypothesis is not entailed by the premise.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Alvaro Uribe ist der Pr\u00e4sident Spaniens, ein interessanter Charakter, dessen Vater \u00fcbrigens von Rebellenmilizen erschossen wurde.",
+    "sentence2": "Felipe Gonz\u00e1lez ist der Pr\u00e4sident Spaniens.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that Alvaro Uribe is the President of Spain. Sentence 2 states that Felipe Gonz\u00e1lez is the President of Spain. Since the two sentences identify different individuals as holding the same position, the information in Sentence 1 does not support or imply the information in Sentence 2. In fact, they contradict in terms of the identity of the officeholder.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 states that Alvaro Uribe is the President of Spain. Sentence 2 states that Felipe Gonz\u00e1lez is the President of Spain. Since the two sentences identify different individuals as holding the same position, the information in Sentence 1 does not support or imply the information in Sentence 2. In fact, they contradict in terms of the identity of the officeholder.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "\"Es wird nur einen Hurrikan Andrew geben\", sagte er mit Bezug auf den Tropensturm der Kategorie 5, der im Jahre 1992 in S\u00fcdflorida einschlug, 26,5 Milliarden Dollar Schaden verursachte und in den Vereinigten Staaten und den Bahamas 26 Menschen t\u00f6tete.",
+    "sentence2": "Tropenst\u00fcrme verursachen schwere Sch\u00e4den.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise describes a specific instance: Hurricane Andrew, which is a tropical storm that caused huge damage. The hypothesis states a general rule: 'Tropical storms cause severe damage.' While the premise provides evidence that *at least one* tropical storm caused severe damage, it does not logically entail that *all* tropical storms or the phenomenon in general behaves this way. A specific example cannot prove a universal statement. Therefore, the hypothesis is not strictly entailed by the premise.\",\n  \"output\": 0\n}",
+    "reasoning": "The premise describes a specific instance: Hurricane Andrew, which is a tropical storm that caused huge damage. The hypothesis states a general rule: 'Tropical storms cause severe damage.' While the premise provides evidence that *at least one* tropical storm caused severe damage, it does not logically entail that *all* tropical storms or the phenomenon in general behaves this way. A specific example cannot prove a universal statement. Therefore, the hypothesis is not strictly entailed by the premise.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  }
+]

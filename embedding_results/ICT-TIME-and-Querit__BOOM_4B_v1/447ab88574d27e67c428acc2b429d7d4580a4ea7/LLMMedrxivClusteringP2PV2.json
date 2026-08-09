@@ -1,0 +1,28 @@
+{
+  "dataset_revision": "63c8e6cfbcab3f986291141799fe646c60bb441c",
+  "task_name": "LLMMedrxivClusteringP2PV2",
+  "mteb_version": "2.11.6",
+  "scores": {
+    "test": [
+      {
+        "v_measure": 0.593709,
+        "v_measure_std": 0.048413,
+        "v_measures": [
+          0.611352,
+          0.666665,
+          0.55,
+          0.609477,
+          0.531051
+        ],
+        "main_score": 0.593709,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 37.36611461639404,
+  "kg_co2_emissions": null,
+  "date": 1774407890.371176
+}

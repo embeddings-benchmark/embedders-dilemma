@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "In una mossa largamente vista come sorprendente, la Banca d'Inghilterra alz\u00f2 i tassi d'interesse inglesi dal 5% al 5,25%, il massimo in cinque anni.",
+    "sentence2": "I tassi d'interesse inglesi salirono dal 5% al 5,25%.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that the Bank of England raised English interest rates from 5% to 5.25%. Sentence 2 states that English interest rates rose from 5% to 5.25%. The action of 'raising' implies that the rates 'rose', and the specific numerical values are identical. Therefore, the hypothesis is semantically entailed by the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that the Bank of England raised English interest rates from 5% to 5.25%. Sentence 2 states that English interest rates rose from 5% to 5.25%. The action of 'raising' implies that the rates 'rose', and the specific numerical values are identical. Therefore, the hypothesis is semantically entailed by the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Ieri \u00e8 emerso che il Ministro della Difesa ha respinto una richiesta dall'Argentina di autorizzare un rifornimento limitato di parti di ricambio prodotte dal Regno Unito per la marina argentina, cominciato durante la Guerra del Golfo.",
+    "sentence2": "Il Ministro della Difesa del Regno Unito ha respinto una richiesta di rifornimenti dell'Argentina.",
+    "model_raw_output": "{\n  \"reasoning\": \"La premisa afferma che il Ministro della Difesa ha respinto una richiesta dall'Argentina per autorizzare un rifornimento di parti di ricambio prodotte dal Regno Unito. Poich\u00e9 le parti sono prodotte dal Regno Unito e l'autorizzazione spetta al paese esportatore, il Ministro della Difesa menzionato \u00e8 implicitamente quello del Regno Unito. L'ipotesi specifica 'Ministro della Difesa del Regno Unito' e generalizza 'parti di ricambio' come 'rifornimenti', senza alterare il significato fondamentale. Pertanto, l'ipotesi \u00e8 una conseguenza logica della premessa.\",\n  \"output\": 1\n}",
+    "reasoning": "La premisa afferma che il Ministro della Difesa ha respinto una richiesta dall'Argentina per autorizzare un rifornimento di parti di ricambio prodotte dal Regno Unito. Poich\u00e9 le parti sono prodotte dal Regno Unito e l'autorizzazione spetta al paese esportatore, il Ministro della Difesa menzionato \u00e8 implicitamente quello del Regno Unito. L'ipotesi specifica 'Ministro della Difesa del Regno Unito' e generalizza 'parti di ricambio' come 'rifornimenti', senza alterare il significato fondamentale. Pertanto, l'ipotesi \u00e8 una conseguenza logica della premessa.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "In novembre, l'unit\u00e0 organizz\u00f2 un'esposizione di falsi al V&A per mettere in luce la crescente diffusione e sofisticazione del crimine d'arte.",
+    "sentence2": "Il crimine d'arte \u00e8 in aumento.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that the unit organized the exhibition to highlight the 'crescente diffusione' (growing spread) of art crime. The hypothesis claims that 'Il crimine d'arte \u00e8 in aumento' (Art crime is on the increase). Since a 'growing spread' directly implies that the crime rate is increasing, the hypothesis is semantically entailed by the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise states that the unit organized the exhibition to highlight the 'crescente diffusione' (growing spread) of art crime. The hypothesis claims that 'Il crimine d'arte \u00e8 in aumento' (Art crime is on the increase). Since a 'growing spread' directly implies that the crime rate is increasing, the hypothesis is semantically entailed by the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Belknap fu accusato da un voto unanime della Camera dei Rappresentanti di aver presumibilmente ricevuto denaro in cambio di assegnazioni di posti di lavoro.",
+    "sentence2": "Belknap fu accusato di aver ricevuto denaro in cambio di assegnazioni di posti di lavoro.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that Belknap was accused by a unanimous vote of the House of Representatives of a specific crime (receiving money in exchange for job assignments). Sentence 2 states that Belknap was accused of that same crime. Since the premise asserts the accusation took place, the hypothesis, which is a less specific version of the same event, must be true.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that Belknap was accused by a unanimous vote of the House of Representatives of a specific crime (receiving money in exchange for job assignments). Sentence 2 states that Belknap was accused of that same crime. Since the premise asserts the accusation took place, the hypothesis, which is a less specific version of the same event, must be true.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "I robot sono stati usati nei lavori di assemblaggio finale delle automobili e per pittura a spruzzo e i fornitori sperano di essere capaci di sviluppare questi mercati adesso che la tecnologia \u00e8 stata provata.",
+    "sentence2": "I robot sono usati in lavori di assemblaggio.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise explicitly states that robots have been used in 'final automobile assembly work' (lavori di assemblaggio finale delle automobili). Since final automobile assembly is a specific type of assembly work, the more general statement in the hypothesis that 'robots are used in assembly work' is semantically entailed by the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise explicitly states that robots have been used in 'final automobile assembly work' (lavori di assemblaggio finale delle automobili). Since final automobile assembly is a specific type of assembly work, the more general statement in the hypothesis that 'robots are used in assembly work' is semantically entailed by the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  }
+]

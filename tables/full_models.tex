@@ -1,0 +1,54 @@
+% Appendix: full model listing with citations (auto-generated)
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lcrrl}
+\toprule
+\textbf{Model} & \textbf{Params} & \textbf{Score} & \textbf{Cost} & \textbf{Reference} \\
+\midrule
+\multicolumn{5}{l}{\emph{LLM Models}} \\
+Gemini 3.1 Pro & -- & \textbf{77.6} & \$154.14 & -- \\
+Gemini 3 Flash & -- & 75.2 & \$55.87 & -- \\
+Qwen3.6-27B & -- & 73.9 & \$103.43 & -- \\
+Qwen3.6-35B-A3B & -- & 73.3 & \$34.06 & -- \\
+Kimi-K2.6 & -- & 71.7 & \$110.70 & -- \\
+DeepSeek-V4-Flash & -- & 68.5 & \$3.16 & -- \\
+MiniMax-M2.7 & -- & 68.2 & \$24.52 & -- \\
+GLM-4.7 & -- & 67.7 & \$63.31 & -- \\
+Gemini 3.1 Flash Lite & -- & 64.5 & \$6.85 & -- \\
+DeepSeek-R1 & -- & 64.3 & \$57.38 & -- \\
+\midrule
+\multicolumn{5}{l}{\emph{Embedding Models (ranked by score)}} \\
+Octen-8B & 7.6B & 77.2 & \$0.108 & -- \\
+Qwen3-E-8B & 7.6B & 77.0 & \$0.108 & \citealt{qwen2025qwen3embedding} \\
+Qwen3-E-4B & 4.0B & 75.9 & \$0.069 & \citealt{qwen2025qwen3embedding} \\
+Nemotron-8B & 7.5B & 75.3 & \$0.115 & \citealt{lee2024nvembedimprovedtechniques} \\
+KaLM-12B & 11.8B & 74.8 & \$0.158 & \citealt{hu2025kalmv2} \\
+Jina-v5-S & 596M & 74.4 & \$0.034 & \citealt{sturua2024jinaembeddings3} \\
+SFR-2 & 7.1B & 73.9 & \$0.136 & \citealt{meng2024sfremb2} \\
+Jina-v5-Nano & 212M & 73.9 & \$0.010 & \citealt{sturua2024jinaembeddings3} \\
+F2LLM-14B & 14.0B & 73.3 & \$0.215 & \citealt{zhang2026f2llmv2} \\
+GTE-Qwen2-7B & 7.1B & 73.1 & \$0.089 & \citealt{li2023generaltextembeddingsmultistage} \\
+Linq-Mistral & 7.1B & 72.8 & \$0.138 & \citealt{choi2024linq} \\
+Qwen3-E-0.6B & 596M & 72.5 & \$0.018 & \citealt{qwen2025qwen3embedding} \\
+EmbGemma-300M & 308M & 72.2 & \$0.008 & \citealt{lee2025geminiembedding} \\
+F2LLM-8B & 7.6B & 72.2 & \$0.122 & \citealt{zhang2026f2llmv2} \\
+F2LLM-4B & 4.0B & 71.9 & \$0.079 & \citealt{zhang2026f2llmv2} \\
+F2LLM-1.7B & 1.7B & 71.7 & \$0.030 & \citealt{zhang2026f2llmv2} \\
+GTE-Qwen2-1.5B & 1.5B & 70.8 & \$0.024 & \citealt{li2023generaltextembeddingsmultistage} \\
+F2LLM-0.6B & 596M & 69.9 & \$0.017 & \citealt{zhang2026f2llmv2} \\
+mE5-L-Inst & 560M & 69.7 & \$0.005 & \citealt{wang2024improvingtextembeddingslarge} \\
+BGE-M3 & 568M & 66.5 & \$0.005 & \citealt{chen2025m3embeddingmultilingualitymultifunctionalitymultigranularity} \\
+mE5-L & 560M & 65.9 & \$0.005 & \citealt{wang2024textembeddingsweaklysupervisedcontrastive} \\
+Arctic-L-v2 & 568M & 65.3 & \$0.005 & \citealt{yu2024arctic} \\
+mE5-B & 278M & 64.4 & \$0.002 & \citealt{wang2024textembeddingsweaklysupervisedcontrastive} \\
+mE5-S & 118M & 63.1 & \$0.001 & \citealt{wang2024textembeddingsweaklysupervisedcontrastive} \\
+E5-Mistral-7B & 7.1B & 52.2 & \$0.139 & \citealt{wang2024improvingtextembeddingslarge} \\
+GritLM-7B & 7.2B & 51.2 & \$0.138 & \citealt{muennighoff2025generativerepresentationalinstructiontuning} \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Complete model listing} with mean (macro) scores across 37 \mteblm{}
+tasks, total benchmark costs, and references. LLM costs reflect actual API usage; embedding costs
+from H100 throughput benchmarking (\$2.49/hr).}
+\label{tab:full_models}
+\end{table}

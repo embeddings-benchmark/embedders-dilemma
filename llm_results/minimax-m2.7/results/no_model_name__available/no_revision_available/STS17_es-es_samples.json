@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Un perro est\u00e1 con un juguete.",
+    "sentence2": "Un perro tiene un juguete.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences mention a dog and a toy, indicating a relationship between the two entities. 'Un perro est\u00e1 con un juguete' describes the dog being in the presence of the toy (proximity or accompaniment), while 'Un perro tiene un juguete' explicitly states that the dog possesses the toy. The core meaning is very similar, differing only in the nuance of possession versus mere co\u2011occurrence. This subtle difference makes them nearly identical in semantic content, warranting a high similarity score just below the maximum.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences mention a dog and a toy, indicating a relationship between the two entities. 'Un perro est\u00e1 con un juguete' describes the dog being in the presence of the toy (proximity or accompaniment), while 'Un perro tiene un juguete' explicitly states that the dog possesses the toy. The core meaning is very similar, differing only in the nuance of possession versus mere co\u2011occurrence. This subtle difference makes them nearly identical in semantic content, warranting a high similarity score just below the maximum.",
+    "predicted_sim": 4.2,
+    "gold_score": 4.8,
+    "abs_diff": 0.5999999999999996
+  },
+  {
+    "sentence1": "Los ni\u00f1os acarician un conejito.",
+    "sentence2": "Los ni\u00f1os acarician un perro.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the same subject (Los ni\u00f1os), the same verb (acarician), and the same determiner (un). The only lexical difference is the animal being described: 'conejito' (a small rabbit) versus 'perro' (a dog). Since the overall action and context are identical and the difference is merely a specific animal term, the sentences are highly semantically similar but not identical. This warrants a score close to 5 but not a full 5.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences share the same subject (Los ni\u00f1os), the same verb (acarician), and the same determiner (un). The only lexical difference is the animal being described: 'conejito' (a small rabbit) versus 'perro' (a dog). Since the overall action and context are identical and the difference is merely a specific animal term, the sentences are highly semantically similar but not identical. This warrants a score close to 5 but not a full 5.",
+    "predicted_sim": 4.2,
+    "gold_score": 2.2,
+    "abs_diff": 2.0
+  },
+  {
+    "sentence1": "La gente cocina en la parrilla.",
+    "sentence2": "Los peatones miran con asombro mientras dos personas cocinan pechuga en una parrilla.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the core semantic concept of cooking on a grill ('parrilla'). However, they differ significantly in specificity and additional context. Sentence 1 is general (people cooking on a grill), while Sentence 2 provides specific details: two people cooking chicken breast ('pechuga'), and adds the observational element of pedestrians watching with amazement ('miran con asombro'). The core activity (cooking on a grill) is preserved, but the specificity of agents, object, and narrative context diverge.\",\n  \"output\": 3.5\n}",
+    "reasoning": "Both sentences share the core semantic concept of cooking on a grill ('parrilla'). However, they differ significantly in specificity and additional context. Sentence 1 is general (people cooking on a grill), while Sentence 2 provides specific details: two people cooking chicken breast ('pechuga'), and adds the observational element of pedestrians watching with amazement ('miran con asombro'). The core activity (cooking on a grill) is preserved, but the specificity of agents, object, and narrative context diverge.",
+    "predicted_sim": 3.5,
+    "gold_score": 0.8,
+    "abs_diff": 2.7
+  },
+  {
+    "sentence1": "El hombre construye un peque\u00f1o castillo de arena",
+    "sentence2": "Una muchacha est\u00e1 construyendo un castillo de arena.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the same core action: building a sandcastle. The semantic content is nearly identical - both use present tense describing construction of a sandcastle. The main differences are: (1) the subject gender - 'hombre' (man) vs 'muchacha' (girl), and (2) sentence 1 includes the adjective 'peque\u00f1o' (small) while sentence 2 does not specify size. These are minor variations in detail rather than meaning. The fundamental action and context are the same.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences describe the same core action: building a sandcastle. The semantic content is nearly identical - both use present tense describing construction of a sandcastle. The main differences are: (1) the subject gender - 'hombre' (man) vs 'muchacha' (girl), and (2) sentence 1 includes the adjective 'peque\u00f1o' (small) while sentence 2 does not specify size. These are minor variations in detail rather than meaning. The fundamental action and context are the same.",
+    "predicted_sim": 4.2,
+    "gold_score": 2.2,
+    "abs_diff": 2.0
+  },
+  {
+    "sentence1": "Un hombre est\u00e1 corriendo detr\u00e1s de un trineo tirado por cuatro perros.",
+    "sentence2": "Un hombre siendo tirado en un trineo por perros.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences involve a man, a sled, and dogs pulling. However, they describe fundamentally different situations. Sentence 1 says the man is 'running behind' a sled (el hombre est\u00e1 corriendo detr\u00e1s del trineo), meaning he is not on the sled but chasing it or running alongside. Sentence 2 says the man is 'being pulled on a sled' (siendo tirado en un trineo), meaning he is riding on the sled. The key semantic difference is whether the man is on the sled or running behind it, which changes the core meaning of the action.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences involve a man, a sled, and dogs pulling. However, they describe fundamentally different situations. Sentence 1 says the man is 'running behind' a sled (el hombre est\u00e1 corriendo detr\u00e1s del trineo), meaning he is not on the sled but chasing it or running alongside. Sentence 2 says the man is 'being pulled on a sled' (siendo tirado en un trineo), meaning he is riding on the sled. The key semantic difference is whether the man is on the sled or running behind it, which changes the core meaning of the action.",
+    "predicted_sim": 2.5,
+    "gold_score": 3.6,
+    "abs_diff": 1.1
+  }
+]

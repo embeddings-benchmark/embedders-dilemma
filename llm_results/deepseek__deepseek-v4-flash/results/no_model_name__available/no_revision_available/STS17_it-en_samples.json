@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Una persona fa parte di una squadra di baseball.",
+    "sentence2": "A person is playing basketball on a team.",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences describe different sports (baseball vs. basketball). While both involve a person being part of a team, the core activity differs significantly. The Italian sentence explicitly says 'baseball', and the English sentence says 'basketball'. They share only the general concept of team membership, but the specific sport is different. Therefore, the semantic similarity is low.\",\n  \"output\": 1.0\n}",
+    "reasoning": "The two sentences describe different sports (baseball vs. basketball). While both involve a person being part of a team, the core activity differs significantly. The Italian sentence explicitly says 'baseball', and the English sentence says 'basketball'. They share only the general concept of team membership, but the specific sport is different. Therefore, the semantic similarity is low.",
+    "predicted_sim": 1.0,
+    "gold_score": 2.4,
+    "abs_diff": 1.4
+  },
+  {
+    "sentence1": "I nostri veicoli attuali saranno nei musei quando ognuno avr\u00e0 il proprio aereo.",
+    "sentence2": "The car needs to some work",
+    "model_raw_output": "{\n  \"reasoning\": \"The first sentence discusses a future scenario where current vehicles become museum pieces when everyone owns an airplane, focusing on technological progress and transportation evolution. The second sentence is about a car requiring repairs, which is a mundane, immediate issue. There is no conceptual overlap, shared entities, or thematic connection between the two sentences. Therefore, the semantic similarity is minimal.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The first sentence discusses a future scenario where current vehicles become museum pieces when everyone owns an airplane, focusing on technological progress and transportation evolution. The second sentence is about a car requiring repairs, which is a mundane, immediate issue. There is no conceptual overlap, shared entities, or thematic connection between the two sentences. Therefore, the semantic similarity is minimal.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.2,
+    "abs_diff": 0.2
+  },
+  {
+    "sentence1": "Una donna supervisore sta istruendo i lavoratori di sesso maschile.",
+    "sentence2": "A woman is working as a nurse.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 describes a female supervisor instructing male workers, implying a management or training role. Sentence 2 describes a woman working as a nurse, which is a healthcare profession. The two sentences share the common element of a woman working, but the roles (supervisor vs. nurse), context (workplace training vs. healthcare), and gender of other workers (male workers specified vs. unspecified) are different. There is no direct similarity in meaning beyond the presence of a female worker, making them mostly unrelated.\",\n  \"output\": 0.8\n}",
+    "reasoning": "Sentence 1 describes a female supervisor instructing male workers, implying a management or training role. Sentence 2 describes a woman working as a nurse, which is a healthcare profession. The two sentences share the common element of a woman working, but the roles (supervisor vs. nurse), context (workplace training vs. healthcare), and gender of other workers (male workers specified vs. unspecified) are different. There is no direct similarity in meaning beyond the presence of a female worker, making them mostly unrelated.",
+    "predicted_sim": 0.8,
+    "gold_score": 1.0,
+    "abs_diff": 0.19999999999999996
+  },
+  {
+    "sentence1": "Una bici \u00e8 accanto a una coppia di donne.",
+    "sentence2": "A child next to a bike.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a spatial relationship involving a bike, but the subjects are different: Sentence 1 involves a couple of women next to a bike, while Sentence 2 involves a child next to a bike. The core concept of 'something next to a bike' is shared, but the specific entities (women vs. child) and number (two vs. one) are distinct. Therefore, the semantic similarity is moderate, but not high.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences describe a spatial relationship involving a bike, but the subjects are different: Sentence 1 involves a couple of women next to a bike, while Sentence 2 involves a child next to a bike. The core concept of 'something next to a bike' is shared, but the specific entities (women vs. child) and number (two vs. one) are distinct. Therefore, the semantic similarity is moderate, but not high.",
+    "predicted_sim": 2.5,
+    "gold_score": 2.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "Il gruppo sta mangiando ammirando una vista mozzafiato.",
+    "sentence2": "A group of people take a look at an unusual tree.",
+    "model_raw_output": "{\n  \"reasoning\": \"The first sentence describes a group eating while admiring a breathtaking view, whereas the second sentence describes a group looking at an unusual tree. Both involve a group of people and an act of looking, but the specific actions (eating vs. simply looking) and the objects (breathtaking view vs. unusual tree) differ significantly. There is no mention of eating in the second sentence, and the purpose and context are distinct. Thus, the semantic overlap is minimal.\",\n  \"output\": 1.2\n}",
+    "reasoning": "The first sentence describes a group eating while admiring a breathtaking view, whereas the second sentence describes a group looking at an unusual tree. Both involve a group of people and an act of looking, but the specific actions (eating vs. simply looking) and the objects (breathtaking view vs. unusual tree) differ significantly. There is no mention of eating in the second sentence, and the purpose and context are distinct. Thus, the semantic overlap is minimal.",
+    "predicted_sim": 1.2,
+    "gold_score": 2.2,
+    "abs_diff": 1.0000000000000002
+  }
+]

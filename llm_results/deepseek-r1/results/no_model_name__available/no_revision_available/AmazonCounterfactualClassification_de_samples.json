@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Ich m&ouml;chte abschlie&szlig;end noch darauf hinweisen (auch wenn es viele bel&auml;cheln), Speichermedien nur &uuml;ber die &#34;Hardware sicher entfernen&#34;-Funktion vom System zu trennen.",
+        "model_raw_output": "{\n  \"reasoning\": \"The review advises using the 'safely remove hardware' function to disconnect storage media, even if others mock the practice. It is a factual recommendation, not a hypothetical scenario. The statement does not discuss an alternative outcome (e.g., 'data loss would have occurred if I had not done this'), but rather asserts a best practice. Thus, it lacks the conditional or hypothetical framing required for a counterfactual.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Die G13 h\u00e4tte 5 Sterne verdient, wenn es von Logitech selbst einen brauchbaren Treiber f\u00fcr Linux geben w\u00fcrde.",
+        "model_raw_output": "{\n  \"reasoning\": \"The review uses the conditional structure 'h\u00e4tte...verdient, wenn...' (would have deserved...if...) to express that a 5-star rating would have been given *if* Logitech had provided a functional Linux driver. This explicitly contrasts an unrealized hypothetical scenario (good Linux driver existing) with the actual reality (driver not existing), which meets the definition of a counterfactual statement.\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "H\u00e4tte miemals gedacht so leicht aufr\u00fcsten zu k\u00f6nnen.Freu mich schon auf das DCR 250 das ich bestellt habe.",
+        "model_raw_output": "{\n  \"reasoning\": \"The review expresses surprise at how easy upgrading was (contrasting past expectations with reality) and anticipation for a future product. While the first part uses a past subjunctive ('H\u00e4tte...gedacht'), it reflects a realized outcome (they successfully upgraded) rather than an unfulfilled hypothetical scenario. The second part is a forward-looking statement about an ordered item. Neither part presents an alternative reality that didn't occur but could have under different conditions.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": false
+    },
+    {
+        "input_text": "Die Anzeige wird nicht beeintr\u00e4chtigt, wohl aber gesch\u00fctzt.",
+        "model_raw_output": "{\n  \"reasoning\": \"The statement 'Die Anzeige wird nicht beeintr\u00e4chtigt, wohl aber gesch\u00fctzt' (translated: 'The display is not impaired, but it is protected') describes two factual outcomes: the display remains unaffected and gains protection. It does not posit a hypothetical scenario or express what *could*, *would*, or *might* have happened under different conditions. Instead, it asserts a direct observation about the product's performance.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Das Produkt ist sicherlich gut und qualitativ hochwertig, aber hier fehlt jede Verh\u00e4ltnism\u00e4ssigkeit.",
+        "model_raw_output": "{\n  \"reasoning\": \"The review states that the product is good and high quality but criticizes the lack of proportionality, likely referring to price-value mismatch. However, it does not explicitly or implicitly present a hypothetical scenario (e.g., 'If it were cheaper...') or use conditional language to describe what could have happened under different circumstances. The critique is a direct observation about the current state, not a counterfactual 'what-if' statement.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": false
+    }
+]

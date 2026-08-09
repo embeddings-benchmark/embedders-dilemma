@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "R\u00e9pondez par SMS \u00e0 la discussion sur la f\u00eate du futur mari\u00e9",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance explicitly instructs to reply via SMS to a specific conversation thread. SMS communication and managing message threads are core functionalities of the messaging domain.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "Je voudrais que tu, je voudrais envoyer un message vid\u00e9o \u00e0 Len sur Messagerie",
+        "model_raw_output": "{\n  \"reasoning\": \"The user explicitly mentions wanting to send a video message ('envoyer un message vid\u00e9o') to a contact named Len using a messaging platform ('sur Messagerie'). This action directly aligns with the 'messaging' domain, which covers sending and receiving messages across various media types.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "J\u2019aimerais faire un appel vid\u00e9o avec Kennedy Gardner et Alejandro Potts sur WhatsApp",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance explicitly expresses the intent to initiate a video call ('faire un appel vid\u00e9o') with named contacts. Although WhatsApp is mentioned as the platform, the primary action is making a call rather than sending messages or looking up contact details, which directly maps to the 'calling' domain.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "appelle avec Sustainability",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance contains the French verb 'appelle' (call), which explicitly indicates a request to initiate a phone call. The phrase targets a contact or entity named 'Sustainability', directly aligning with the 'calling' domain from the provided list.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Veuillez mettre l'appel en plein \u00e9cran",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance explicitly mentions 'appel' (call) and requests to display it in full screen. This action directly relates to managing an active voice or video call, which clearly falls under the 'calling' domain.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "How do I locate my card?",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking how to find the location of their card, which typically refers to tracking the status or physical shipment of a new card that has been ordered but not yet received.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "I still have not received my new card, I ordered over a week ago.",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is inquiring about the status of a card they ordered because it hasn't arrived within their expected timeframe. This falls under the category of tracking or checking on a card's arrival.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "I ordered a card but it has not arrived. Help please!",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is inquiring about the status of a physical card they ordered that has not yet reached them. This matches the 'card_arrival' category, which handles queries regarding the non-arrival or tracking of ordered cards.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "Is there a way to know when my card will arrive?",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for a way to track or estimate the arrival time of their physical card, which matches the 'card_delivery_estimate' category.\",\n  \"output\": \"card_delivery_estimate\"\n}",
+        "parsed_output": "card_delivery_estimate",
+        "ground_truth": "card_arrival",
+        "is_correct": false
+    },
+    {
+        "input_text": "My card has not arrived yet.",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is inquiring about the status of a physical card that was expected but has not yet been delivered, which directly corresponds to the 'card_arrival' intent.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "pink is all we need",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'pink is all we need' is a vague, colloquial statement that does not express a clear intent tied to any specific functional domain (e.g., setting an alarm, playing music, checking the weather, or sending an email). It resembles conversational chitchat or a general assertion without actionable parameters, making it best suited for the catch-all 'general' scenario.\",\n  \"output\": \"general\"\n}",
+        "parsed_output": "general",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "i want the status on my screen brightness",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance asks about the status of screen brightness, which refers to querying a device setting or state. This falls under device control and status checking for connected displays or smart devices, which is categorized under the IoT (Internet of Things) scenario.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "what's the time in australia",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the current time in a specific location (Australia). Queries about current time, date, or timezone information fall under the datetime scenario.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "cancel my seven am alarm",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'cancel my seven am alarm' explicitly mentions canceling an alarm set for 7:00 AM. The intent is clearly related to alarm management, which directly maps to the 'alarm' scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "what alarms i have set",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to retrieve or query information about existing alarms they have configured. This directly pertains to alarm management functionality.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "\u6b21\u306e\u6708\u66dc\u306b\u5370\u3092\u3064\u3051\u308b",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is speaking Japanese and says '\u6b21\u306e\u6708\u66dc\u306b\u5370\u3092\u3064\u3051\u308b' which means 'Mark/label next Monday.' This indicates the user wants to mark or set something on next Monday's calendar. This is a calendar-related action, and the most fitting intent is 'calendar_set' as the user intends to add or set a mark/event on next Monday.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u79c1\u304c\u6700\u3082\u518d\u751f\u3057\u305f\u66f2\u30ea\u30b9\u30c8\u3092\u518d\u751f\u3057\u3066\u304f\u3060\u3055\u3044",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to play their most played song list. This is a request to play music content based on the user's listening history/preferences. The intent 'play_music' is appropriate here as the primary action is to play music. The 'most played songs' relates to the user's music likeness/preferences, but the explicit action requested is playback.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u5348\u5f8c\u4e09\u6642\u306e\u30a2\u30e9\u30fc\u30e0\u3092\u7121\u52b9\u306b\u3059\u308b",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is speaking in Japanese and says '\u5348\u5f8c\u4e09\u6642\u306e\u30a2\u30e9\u30fc\u30e0\u3092\u7121\u52b9\u306b\u3059\u308b' which means 'Disable the alarm for 3 PM.' This is a request to remove or cancel an existing alarm, which matches the 'alarm_remove' intent.\",\n  \"output\": {\n    \"intent\": \"alarm_remove\",\n    \"entities\": {\n      \"time\": \"\u5348\u5f8c\u4e09\u6642 (15:00)\"\n    }\n  }\n}",
+        "parsed_output": "PARSE_FAILURE",
+        "ground_truth": "alarm_remove",
+        "is_correct": false
+    },
+    {
+        "input_text": "\u30a2\u30e9\u30fc\u30e0\u3092\u30ad\u30e3\u30f3\u30bb\u30eb",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance is in Japanese: '\u30a2\u30e9\u30fc\u30e0\u3092\u30ad\u30e3\u30f3\u30bb\u30eb' translates to 'cancel the alarm'. This is a direct request to cancel or remove an existing alarm. Among the available intents, 'alarm_remove' is the most appropriate match as it covers the action of canceling or removing an alarm.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u5348\u5f8c\u306e\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u3092\u30ea\u30de\u30a4\u30f3\u30c9\u3057\u3066",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to be reminded of their afternoon schedule. '\u5348\u5f8c\u306e\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u3092\u30ea\u30de\u30a4\u30f3\u30c9\u3057\u3066' means 'Remind me of my afternoon schedule.' This involves checking the user's calendar for the afternoon time period, which corresponds to the 'calendar_query' intent.\",\n  \"output\": \"calendar_query\"\n}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

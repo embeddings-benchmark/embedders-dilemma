@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "The 16 NATO members and the 14 countries which used to form the rival Warsaw Pact agreed that there would be significantly less equipment permitted in the area of application in Europe than there was under the original treaty.",
+    "sentence2": "The NATO has 16 members.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 explicitly states 'The 16 NATO members', which directly implies that NATO has 16 members. Therefore, the hypothesis is semantically entailed by the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 explicitly states 'The 16 NATO members', which directly implies that NATO has 16 members. Therefore, the hypothesis is semantically entailed by the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "The President of the Italian Republic, Giorgio Napolitano, has asked Romano Prodi today to stay on as Prime Minister, but Prodi will need to pass a confidence vote as soon as possible.",
+    "sentence2": "Romano Prodi is the Italian Prime Minister.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states that President Napolitano asked Romano Prodi to 'stay on as Prime Minister,' which directly implies that Prodi is currently the Prime Minister. Therefore, the hypothesis 'Romano Prodi is the Italian Prime Minister' is semantically entailed by the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 states that President Napolitano asked Romano Prodi to 'stay on as Prime Minister,' which directly implies that Prodi is currently the Prime Minister. Therefore, the hypothesis 'Romano Prodi is the Italian Prime Minister' is semantically entailed by the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "The NATO Secretary General, Willy Claes, said today that he was considering resigning, after a Belgian parliamentary commission decided this morning to recommend that the country's highest court indict him in a widening arms corruption scandal.",
+    "sentence2": "NATO Secretary General Willy Claes resigned.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that Willy Claes was 'considering resigning', which indicates a contemplation of resignation but does not assert that he actually resigned. The hypothesis claims that he 'resigned', which is a stronger assertion not supported by the premise. Therefore, the hypothesis is not semantically entailed by the premise.\",\n  \"output\": 0\n}",
+    "reasoning": "The premise states that Willy Claes was 'considering resigning', which indicates a contemplation of resignation but does not assert that he actually resigned. The hypothesis claims that he 'resigned', which is a stronger assertion not supported by the premise. Therefore, the hypothesis is not semantically entailed by the premise.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Alvaro Uribe is the president of Spain, an interesting character, who, by the way, had his own father shot by rebel militia.",
+    "sentence2": "Felipe Gonz\u00e1lez is the President of Spain.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 asserts that Alvaro Uribe is the president of Spain. Sentence 2 asserts that Felipe Gonz\u00e1lez is the President of Spain. These are contradictory because there can only be one president at a time. The premise does not imply that Felipe Gonz\u00e1lez is president; in fact, it implies a different person holds the office. Therefore, the hypothesis is not semantically entailed.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 asserts that Alvaro Uribe is the president of Spain. Sentence 2 asserts that Felipe Gonz\u00e1lez is the President of Spain. These are contradictory because there can only be one president at a time. The premise does not imply that Felipe Gonz\u00e1lez is president; in fact, it implies a different person holds the office. Therefore, the hypothesis is not semantically entailed.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "\"There will be only one Hurricane Andrew,\" he said, referring to the Category 5 tropical storm that slammed into south Florida in 1992, causing $26.5 billion in damage and killing 26 people in the United States and Bahamas.",
+    "sentence2": "Tropical storms cause severe damage.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that Hurricane Andrew was a Category 5 tropical storm that caused billions of dollars in damage and killed 26 people, which implies that the specific storm (and by generalization, tropical storms in a broad sense) cause severe damage. Since 'tropical storms' in Sentence 2 is a general category and the premise about a specific tropical storm supports the idea that such storms can cause severe damage, the hypothesis is semantically entailed.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise states that Hurricane Andrew was a Category 5 tropical storm that caused billions of dollars in damage and killed 26 people, which implies that the specific storm (and by generalization, tropical storms in a broad sense) cause severe damage. Since 'tropical storms' in Sentence 2 is a general category and the premise about a specific tropical storm supports the idea that such storms can cause severe damage, the hypothesis is semantically entailed.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  }
+]

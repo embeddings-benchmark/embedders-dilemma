@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Les 16 membres de l'OTAN et les 14 pays qui formaient le Pacte de Varsovie rival ont convenu qu'il y aurait beaucoup moins d'\u00e9quipements autoris\u00e9s dans la zone d'application en Europe que dans le trait\u00e9 initial.",
+    "sentence2": "L'OTAN compte 16 membres.",
+    "model_raw_output": "{\n  \"reasoning\": \"La pr\u00e9misse mentionne explicitement \u00ab Les 16 membres de l'OTAN \u00bb, ce qui signifie que l'OTAN compte 16 membres. L'hypoth\u00e8se est donc directement confirm\u00e9e par la pr\u00e9misse.\",\n  \"output\": 1\n}",
+    "reasoning": "La pr\u00e9misse mentionne explicitement \u00ab Les 16 membres de l'OTAN \u00bb, ce qui signifie que l'OTAN compte 16 membres. L'hypoth\u00e8se est donc directement confirm\u00e9e par la pr\u00e9misse.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Le pr\u00e9sident de la R\u00e9publique italienne, Giorgio Napolitano, a demand\u00e9 aujourd'hui \u00e0 Romano Prodi de rester au poste de Premier ministre, mais Prodi devra passer un vote de confiance le plus rapidement possible.",
+    "sentence2": "Romano Prodi est le Premier ministre italien.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise explicitly states that the President of Italy asked Romano Prodi to 'rester au poste de Premier ministre' (remain in the post of Prime Minister). This directly implies that Romano Prodi is currently the Italian Prime Minister, which is exactly what the hypothesis states.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise explicitly states that the President of Italy asked Romano Prodi to 'rester au poste de Premier ministre' (remain in the post of Prime Minister). This directly implies that Romano Prodi is currently the Italian Prime Minister, which is exactly what the hypothesis states.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Le secr\u00e9taire g\u00e9n\u00e9ral de l'OTAN, Willy Claes, a d\u00e9clar\u00e9 aujourd'hui qu'il envisageait de d\u00e9missionner, apr\u00e8s qu'une commission parlementaire belge a d\u00e9cid\u00e9 ce matin de recommander \u00e0 la plus haute juridiction du pays de l'inculper dans le cadre d'un scandale de corruption dans le domaine de l'armement qui s'\u00e9largit.",
+    "sentence2": "Le secr\u00e9taire g\u00e9n\u00e9ral de l'OTAN Willy Claes a d\u00e9missionn\u00e9.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that Willy Claes was *considering* resigning ('envisageait de d\u00e9missionner'), whereas the hypothesis asserts that he has actually resigned ('a d\u00e9missionn\u00e9'). Thus, the hypothesis is not entailed by the premise.\",\n  \"output\": 0\n}",
+    "reasoning": "The premise states that Willy Claes was *considering* resigning ('envisageait de d\u00e9missionner'), whereas the hypothesis asserts that he has actually resigned ('a d\u00e9missionn\u00e9'). Thus, the hypothesis is not entailed by the premise.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Alvaro Uribe est le pr\u00e9sident de l'Espagne, un personnage int\u00e9ressant, qui, soit dit en passant, a vu son propre p\u00e8re abattu par une milice rebelle.",
+    "sentence2": "Felipe Gonz\u00e1lez est le pr\u00e9sident de l'Espagne.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise explicitly states that Alvaro Uribe is the president of Spain, while the hypothesis states that Felipe Gonz\u00e1lez is the president. This is a contradiction, so there is no entailment.\",\n  \"output\": 0\n}",
+    "reasoning": "The premise explicitly states that Alvaro Uribe is the president of Spain, while the hypothesis states that Felipe Gonz\u00e1lez is the president. This is a contradiction, so there is no entailment.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "\"Il n'y aura qu'un seul ouragan Andrew\", a-t-il d\u00e9clar\u00e9, faisant r\u00e9f\u00e9rence \u00e0 la temp\u00eate tropicale de cat\u00e9gorie 5 qui a frapp\u00e9 le sud de la Floride en 1992, causant 26,5 milliards de dollars de d\u00e9g\u00e2ts et tuant 26 personnes aux \u00c9tats-Unis et aux Bahamas.",
+    "sentence2": "Les temp\u00eates tropicales causent de graves dommages.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise describes a specific tropical storm, Hurricane Andrew, which caused $26.5 billion in damage. This directly supports the hypothesis that tropical storms can cause severe damage.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise describes a specific tropical storm, Hurricane Andrew, which caused $26.5 billion in damage. This directly supports the hypothesis that tropical storms can cause severe damage.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  }
+]

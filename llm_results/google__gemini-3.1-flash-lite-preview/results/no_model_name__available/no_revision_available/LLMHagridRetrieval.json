@@ -1,0 +1,34 @@
+{
+  "dataset_revision": "6383cc91b1b3f16c528eafdf704d89e7e64f3e75",
+  "task_name": "LLMHagridRetrieval",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "recall@1": 0.977823,
+        "recall@2": 0.989919,
+        "recall@3": 0.989919,
+        "recall@5": 0.989919,
+        "mrecall@1": 0.977823,
+        "mrecall@2": 0.989919,
+        "mrecall@3": 0.989919,
+        "mrecall@5": 0.989919,
+        "capped_recall@1": 0.977823,
+        "main_score": 0.977823,
+        "usage_stats": {
+          "input_tokens": 17973044,
+          "output_tokens": 34983,
+          "total_tokens": 18008027,
+          "cost": 0.0
+        },
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 368.78701519966125,
+  "kg_co2_emissions": null,
+  "date": 1774077465.384699
+}

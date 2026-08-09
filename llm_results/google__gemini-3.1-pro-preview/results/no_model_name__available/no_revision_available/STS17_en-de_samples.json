@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "A person is on a baseball team.",
+    "sentence2": "Eine Person spielt in einem Team Basketball.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person being part of a sports team. However, they differ in the specific sport mentioned; the first sentence mentions a baseball team, while the second sentence mentions a basketball team (in German).\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences describe a person being part of a sports team. However, they differ in the specific sport mentioned; the first sentence mentions a baseball team, while the second sentence mentions a basketball team (in German).",
+    "predicted_sim": 2.5,
+    "gold_score": 2.4,
+    "abs_diff": 0.10000000000000009
+  },
+  {
+    "sentence1": "Our current vehicles will be in museums when everyone has their own aircraft.",
+    "sentence2": "Das Auto muss etwas in Stand gesetzt werden",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences are in different languages and discuss entirely different topics. The first sentence is a futuristic statement about cars becoming obsolete as personal aircraft become common. The second sentence is in German and translates to 'The car needs to be repaired a bit.' Besides a weak thematic link involving cars/vehicles, they share no semantic similarity.\",\n  \"output\": 0.1\n}",
+    "reasoning": "The two sentences are in different languages and discuss entirely different topics. The first sentence is a futuristic statement about cars becoming obsolete as personal aircraft become common. The second sentence is in German and translates to 'The car needs to be repaired a bit.' Besides a weak thematic link involving cars/vehicles, they share no semantic similarity.",
+    "predicted_sim": 0.1,
+    "gold_score": 0.2,
+    "abs_diff": 0.1
+  },
+  {
+    "sentence1": "A woman supervisor is instructing the male workers.",
+    "sentence2": "Eine Frau arbeitet als Krankenpflegerin.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 is about a female supervisor giving instructions to male workers. Sentence 2 is in German and translates to 'A woman works as a nurse.' While both sentences feature a woman in a workplace setting, the occupations, actions, and contexts are entirely different.\",\n  \"output\": 0.5\n}",
+    "reasoning": "Sentence 1 is about a female supervisor giving instructions to male workers. Sentence 2 is in German and translates to 'A woman works as a nurse.' While both sentences feature a woman in a workplace setting, the occupations, actions, and contexts are entirely different.",
+    "predicted_sim": 0.5,
+    "gold_score": 1.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "A bike is next to a couple women.",
+    "sentence2": "Ein Kind neben einem Fahrrad.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person or people next to a bike. However, Sentence 1 features 'a couple women', whereas Sentence 2 (in German) features a child ('Ein Kind'). They share the object (bike) and spatial relationship (next to), but the subjects are completely different.\",\n  \"output\": 1.5\n}",
+    "reasoning": "Both sentences describe a person or people next to a bike. However, Sentence 1 features 'a couple women', whereas Sentence 2 (in German) features a child ('Ein Kind'). They share the object (bike) and spatial relationship (next to), but the subjects are completely different.",
+    "predicted_sim": 1.5,
+    "gold_score": 2.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "The group is eating while taking in a breathtaking view.",
+    "sentence2": "Eine Gruppe sieht einen ungew\u00f6hnlichen Baum an.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 describes a group eating while looking at a beautiful view. Sentence 2 is in German and translates to 'A group is looking at an unusual tree.' The only shared elements are the subject ('a group') and the general action of looking at something in nature. However, the specific actions (eating vs. not eating) and the objects being observed (a breathtaking view vs. an unusual tree) are entirely different.\",\n  \"output\": 1.2\n}",
+    "reasoning": "Sentence 1 describes a group eating while looking at a beautiful view. Sentence 2 is in German and translates to 'A group is looking at an unusual tree.' The only shared elements are the subject ('a group') and the general action of looking at something in nature. However, the specific actions (eating vs. not eating) and the objects being observed (a breathtaking view vs. an unusual tree) are entirely different.",
+    "predicted_sim": 1.2,
+    "gold_score": 2.2,
+    "abs_diff": 1.0000000000000002
+  }
+]

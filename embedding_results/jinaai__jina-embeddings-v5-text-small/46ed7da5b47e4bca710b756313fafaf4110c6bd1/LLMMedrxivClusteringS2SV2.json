@@ -1,0 +1,28 @@
+{
+  "dataset_revision": "c565eea82f4a8728b8fe5181388b407d305f2647",
+  "task_name": "LLMMedrxivClusteringS2SV2",
+  "mteb_version": "2.11.6",
+  "scores": {
+    "test": [
+      {
+        "v_measure": 0.526429,
+        "v_measure_std": 0.032253,
+        "v_measures": [
+          0.575125,
+          0.54629,
+          0.520036,
+          0.510554,
+          0.480141
+        ],
+        "main_score": 0.526429,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 18.86974835395813,
+  "kg_co2_emissions": null,
+  "date": 1774404553.606601
+}

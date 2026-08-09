@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "open again , open anew",
+    "sentence2": "open again or anew .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core idea of opening something either again or in a new manner. The first sentence uses a comma to separate 'open again' and 'open anew,' while the second uses 'or' to present them as alternatives. The minor structural difference (punctuation vs. conjunction) does not alter the fundamental meaning but slightly affects clarity. The semantic content is nearly identical, warranting a very high similarity score.\",\n  \"output\": 4.9\n}",
+    "reasoning": "Both sentences convey the same core idea of opening something either again or in a new manner. The first sentence uses a comma to separate 'open again' and 'open anew,' while the second uses 'or' to present them as alternatives. The minor structural difference (punctuation vs. conjunction) does not alter the fundamental meaning but slightly affects clarity. The semantic content is nearly identical, warranting a very high similarity score.",
+    "predicted_sim": 4.9,
+    "gold_score": 5.0,
+    "abs_diff": 0.09999999999999964
+  },
+  {
+    "sentence1": "only a month ago , mubarak dismissed demands for constitutional reform as \" futile . \"",
+    "sentence2": "only a month before , , the demands of constitutional reform in the five \" .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences mention constitutional reform demands and a timeframe of a month. However, Sentence 1 specifies that Mubarak dismissed these demands as 'futile,' while Sentence 2 is grammatically fragmented and unclear (e.g., 'in the five' lacks context). The core subject (Mubarak) and action (dismissal) are missing in Sentence 2, reducing semantic overlap. The shared elements are limited to the timeframe and general topic.\",\n  \"output\": 1.8\n}",
+    "reasoning": "Both sentences mention constitutional reform demands and a timeframe of a month. However, Sentence 1 specifies that Mubarak dismissed these demands as 'futile,' while Sentence 2 is grammatically fragmented and unclear (e.g., 'in the five' lacks context). The core subject (Mubarak) and action (dismissal) are missing in Sentence 2, reducing semantic overlap. The shared elements are limited to the timeframe and general topic.",
+    "predicted_sim": 1.8,
+    "gold_score": 2.5,
+    "abs_diff": 0.7
+  },
+  {
+    "sentence1": "that provision could open the door wide to arbitrariness .",
+    "sentence2": "this regulation opens the door to arbitrariness .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences discuss a regulation or provision enabling arbitrariness. The core structure and metaphor ('open the door to arbitrariness') are identical. Differences include: 'provision' vs. 'regulation' (related but distinct terms), 'could' (hypothetical) vs. present tense 'opens' (definite), and 'wide' (emphasizing extent) in Sentence 1. These nuances slightly reduce equivalence but retain nearly identical semantic intent.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences discuss a regulation or provision enabling arbitrariness. The core structure and metaphor ('open the door to arbitrariness') are identical. Differences include: 'provision' vs. 'regulation' (related but distinct terms), 'could' (hypothetical) vs. present tense 'opens' (definite), and 'wide' (emphasizing extent) in Sentence 1. These nuances slightly reduce equivalence but retain nearly identical semantic intent.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.25,
+    "abs_diff": 0.25
+  },
+  {
+    "sentence1": "what we are witnessing today is a shift from a muslim identity to an islamist identity .",
+    "sentence2": "we are witnessing today to change a muslim identity for an islamic identity .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences discuss a shift in identity related to Muslim and another term, but they differ in the target identity ('islamist' vs. 'islamic') and phrasing. 'Islamist' refers to political Islam, while 'islamic' relates to the religion itself. The structural similarity (e.g., 'witnessing today' and 'shift/change') is strong, but the key term discrepancy reduces semantic equivalence.\",\n  \"output\": 3.0\n}",
+    "reasoning": "Both sentences discuss a shift in identity related to Muslim and another term, but they differ in the target identity ('islamist' vs. 'islamic') and phrasing. 'Islamist' refers to political Islam, while 'islamic' relates to the religion itself. The structural similarity (e.g., 'witnessing today' and 'shift/change') is strong, but the key term discrepancy reduces semantic equivalence.",
+    "predicted_sim": 3.0,
+    "gold_score": 5.0,
+    "abs_diff": 2.0
+  },
+  {
+    "sentence1": "a person is frying meat in a pan .",
+    "sentence2": "a person is holding a skunk .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences involve a person performing an action, but the actions and objects are entirely unrelated. Frying meat in a pan is a cooking activity, while holding a skunk involves interacting with an animal. There is no semantic overlap in the actions (frying vs. holding) or the objects (meat/pan vs. skunk). The shared element is the presence of a person, but this alone does not establish meaningful similarity.\",\n  \"output\": 0.0\n}",
+    "reasoning": "Both sentences involve a person performing an action, but the actions and objects are entirely unrelated. Frying meat in a pan is a cooking activity, while holding a skunk involves interacting with an animal. There is no semantic overlap in the actions (frying vs. holding) or the objects (meat/pan vs. skunk). The shared element is the presence of a person, but this alone does not establish meaningful similarity.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.75,
+    "abs_diff": 0.75
+  }
+]

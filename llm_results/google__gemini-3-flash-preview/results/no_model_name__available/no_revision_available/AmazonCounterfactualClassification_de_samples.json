@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Ich m&ouml;chte abschlie&szlig;end noch darauf hinweisen (auch wenn es viele bel&auml;cheln), Speichermedien nur &uuml;ber die &#34;Hardware sicher entfernen&#34;-Funktion vom System zu trennen.",
+        "model_raw_output": "{\n  \"reasoning\": \"The statement is a recommendation or a piece of advice regarding the correct procedure for disconnecting hardware. It does not describe a hypothetical situation or an alternative outcome to a past event, which is required for a counterfactual classification.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Die G13 h\u00e4tte 5 Sterne verdient, wenn es von Logitech selbst einen brauchbaren Treiber f\u00fcr Linux geben w\u00fcrde.",
+        "model_raw_output": "{\n  \"reasoning\": \"The sentence uses a conditional structure ('h\u00e4tte... wenn...') to express a hypothetical situation that did not occur (the existence of a Linux driver) and its potential outcome (receiving 5 stars). Since it describes what would have happened under different conditions, it is a counterfactual statement.\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "H\u00e4tte miemals gedacht so leicht aufr\u00fcsten zu k\u00f6nnen.Freu mich schon auf das DCR 250 das ich bestellt habe.",
+        "model_raw_output": "{\n  \"reasoning\": \"The sentence 'H\u00e4tte niemals gedacht so leicht aufr\u00fcsten zu k\u00f6nnen' uses the German Konjunktiv II ('h\u00e4tte gedacht'), which is the subjunctive mood often used for counterfactuals. It expresses a prior expectation that was contradicted by actual events, implying a hypothetical scenario where the upgrade was difficult, which did not happen.\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Die Anzeige wird nicht beeintr\u00e4chtigt, wohl aber gesch\u00fctzt.",
+        "model_raw_output": "{\n  \"reasoning\": \"The statement describes the current factual state and performance of the product, asserting that the display is protected and not negatively affected. It does not contain any hypothetical scenarios or conditions about what might have happened under different circumstances.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Das Produkt ist sicherlich gut und qualitativ hochwertig, aber hier fehlt jede Verh\u00e4ltnism\u00e4ssigkeit.",
+        "model_raw_output": "{\n  \"reasoning\": \"The statement expresses a direct opinion about the product's current state (it is good) and its current flaw (lack of proportionality). It does not contain any conditional or hypothetical scenarios where things might have been different, so it is not a counterfactual.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": false
+    }
+]

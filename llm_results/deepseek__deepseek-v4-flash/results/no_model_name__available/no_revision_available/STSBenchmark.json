@@ -1,0 +1,30 @@
+{
+  "dataset_revision": "86bbaf4470f501ee381411836b3a22f112bfe42a",
+  "task_name": "STSBenchmark",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "cosine_spearman": 0.879278,
+        "cosine_pearson": 0.874127,
+        "usage_stats": {
+          "input_tokens": 46685,
+          "cached_tokens": 2682,
+          "output_tokens": 126369,
+          "thinking_tokens": 76844,
+          "total_tokens": 173054,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.879278,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 239.97338223457336,
+  "kg_co2_emissions": null
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "A person is on a baseball team.",
+    "sentence2": "A person is playing basketball on a team.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe an individual associated with a specific sports team. The sentence structures are similar, and both fall under the general category of team sports. However, the specific sports mentioned are different (baseball versus basketball), and the specific actions differ slightly (being 'on' a team versus 'playing' on a team). Because the core subject matter (the specific sport) changes the meaning significantly, the sentences are not very similar, though not completely unrelated.\",\n  \"output\": 1.25\n}",
+    "reasoning": "Both sentences describe an individual associated with a specific sports team. The sentence structures are similar, and both fall under the general category of team sports. However, the specific sports mentioned are different (baseball versus basketball), and the specific actions differ slightly (being 'on' a team versus 'playing' on a team). Because the core subject matter (the specific sport) changes the meaning significantly, the sentences are not very similar, though not completely unrelated.",
+    "predicted_sim": 1.25,
+    "gold_score": 2.4,
+    "abs_diff": 1.15
+  },
+  {
+    "sentence1": "Our current vehicles will be in museums when everyone has their own aircraft.",
+    "sentence2": "The car needs to some work",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 discusses a futuristic scenario where current vehicles become obsolete artifacts in museums due to the ubiquity of personal aircraft. Sentence 2 states that a specific car currently requires maintenance or repair. Aside from the broad domain of automobiles, the two sentences share almost no semantic overlap in terms of intent, timeframe, or specific meaning.\",\n  \"output\": 0.2\n}",
+    "reasoning": "Sentence 1 discusses a futuristic scenario where current vehicles become obsolete artifacts in museums due to the ubiquity of personal aircraft. Sentence 2 states that a specific car currently requires maintenance or repair. Aside from the broad domain of automobiles, the two sentences share almost no semantic overlap in terms of intent, timeframe, or specific meaning.",
+    "predicted_sim": 0.2,
+    "gold_score": 0.2,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "A woman supervisor is instructing the male workers.",
+    "sentence2": "A woman is working as a nurse.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a woman in a workplace setting, which provides a very slight thematic overlap. However, the roles (supervisor vs. nurse) and the specific actions (instructing male workers vs. nursing) are completely different and unrelated. Therefore, the semantic similarity is extremely low.\",\n  \"output\": 0.3\n}",
+    "reasoning": "Both sentences describe a woman in a workplace setting, which provides a very slight thematic overlap. However, the roles (supervisor vs. nurse) and the specific actions (instructing male workers vs. nursing) are completely different and unrelated. Therefore, the semantic similarity is extremely low.",
+    "predicted_sim": 0.3,
+    "gold_score": 1.0,
+    "abs_diff": 0.7
+  },
+  {
+    "sentence1": "A bike is next to a couple women.",
+    "sentence2": "A child next to a bike.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a spatial arrangement involving 'a bike' and the preposition 'next to'. However, the entities accompanying the bike are completely different: Sentence 1 specifies 'a couple women', while Sentence 2 specifies 'a child'. Since the subjects are distinct and mutually exclusive categories of people, the sentences convey different meanings despite sharing a similar structure and one noun.\",\n  \"output\": 1.2\n}",
+    "reasoning": "Both sentences describe a spatial arrangement involving 'a bike' and the preposition 'next to'. However, the entities accompanying the bike are completely different: Sentence 1 specifies 'a couple women', while Sentence 2 specifies 'a child'. Since the subjects are distinct and mutually exclusive categories of people, the sentences convey different meanings despite sharing a similar structure and one noun.",
+    "predicted_sim": 1.2,
+    "gold_score": 2.0,
+    "abs_diff": 0.8
+  },
+  {
+    "sentence1": "The group is eating while taking in a breathtaking view.",
+    "sentence2": "A group of people take a look at an unusual tree.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a group of people engaged in the act of looking at something. However, Sentence 1 explicitly states that the group is 'eating' and enjoying a 'breathtaking view,' which involves a combination of activities and a general scenery. Sentence 2 focuses only on the group looking at a specific object, an 'unusual tree.' The significant difference in the actions performed (eating vs. purely looking) and the object of focus (view vs. specific tree) results in low semantic similarity.\",\n  \"output\": 1.2\n}",
+    "reasoning": "Both sentences describe a group of people engaged in the act of looking at something. However, Sentence 1 explicitly states that the group is 'eating' and enjoying a 'breathtaking view,' which involves a combination of activities and a general scenery. Sentence 2 focuses only on the group looking at a specific object, an 'unusual tree.' The significant difference in the actions performed (eating vs. purely looking) and the object of focus (view vs. specific tree) results in low semantic similarity.",
+    "predicted_sim": 1.2,
+    "gold_score": 2.2,
+    "abs_diff": 1.0000000000000002
+  }
+]

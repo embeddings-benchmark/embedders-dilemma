@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "open again , open anew",
+    "sentence2": "open again or anew .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the exact same core meaning: to open something one more time or in a fresh manner. The words 'again' and 'anew' function as synonyms in this context. The differences are purely syntactic and stylistic: Sentence 1 repeats the verb 'open' separated by a comma for rhythmic emphasis, while Sentence 2 uses the conjunction 'or' and omits the second verb for conciseness. These structural variations do not alter the underlying semantic content, making the sentences functionally equivalent.\",\n  \"output\": 4.9\n}",
+    "reasoning": "Both sentences convey the exact same core meaning: to open something one more time or in a fresh manner. The words 'again' and 'anew' function as synonyms in this context. The differences are purely syntactic and stylistic: Sentence 1 repeats the verb 'open' separated by a comma for rhythmic emphasis, while Sentence 2 uses the conjunction 'or' and omits the second verb for conciseness. These structural variations do not alter the underlying semantic content, making the sentences functionally equivalent.",
+    "predicted_sim": 4.9,
+    "gold_score": 5.0,
+    "abs_diff": 0.09999999999999964
+  },
+  {
+    "sentence1": "only a month ago , mubarak dismissed demands for constitutional reform as \" futile . \"",
+    "sentence2": "only a month before , , the demands of constitutional reform in the five \" .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the same temporal marker ('only a month ago/before') and the exact core topic ('demands for constitutional reform'). However, Sentence 1 is a complete, coherent statement that conveys a specific proposition: Mubarak actively dismissed these demands and labeled them 'futile.' Sentence 2 is severely truncated, contains double punctuation, lacks a subject and main verb, and ends abruptly with 'in the five '. While both clearly reference the same real-world context or news event, Sentence 2 fails to communicate the essential action, agent, and judgment present in Sentence 1. They share significant topical and temporal details but are not semantically equivalent, placing them in the lower-mid range of the similarity scale.\",\n  \"output\": 2.0\n}",
+    "reasoning": "Both sentences share the same temporal marker ('only a month ago/before') and the exact core topic ('demands for constitutional reform'). However, Sentence 1 is a complete, coherent statement that conveys a specific proposition: Mubarak actively dismissed these demands and labeled them 'futile.' Sentence 2 is severely truncated, contains double punctuation, lacks a subject and main verb, and ends abruptly with 'in the five '. While both clearly reference the same real-world context or news event, Sentence 2 fails to communicate the essential action, agent, and judgment present in Sentence 1. They share significant topical and temporal details but are not semantically equivalent, placing them in the lower-mid range of the similarity scale.",
+    "predicted_sim": 2.0,
+    "gold_score": 2.5,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "that provision could open the door wide to arbitrariness .",
+    "sentence2": "this regulation opens the door to arbitrariness .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core warning that a specific rule or clause enables arbitrary decision-making. The differences are minor: 'provision' vs. 'regulation' are functionally synonymous in this context, and 'could open the door wide' (indicating potential and high degree) contrasts slightly with 'opens the door' (indicating a more direct or current fact). These nuances in modality and intensity slightly differentiate the certainty, but the fundamental meaning and intent remain highly aligned.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences convey the same core warning that a specific rule or clause enables arbitrary decision-making. The differences are minor: 'provision' vs. 'regulation' are functionally synonymous in this context, and 'could open the door wide' (indicating potential and high degree) contrasts slightly with 'opens the door' (indicating a more direct or current fact). These nuances in modality and intensity slightly differentiate the certainty, but the fundamental meaning and intent remain highly aligned.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.25,
+    "abs_diff": 0.25
+  },
+  {
+    "sentence1": "what we are witnessing today is a shift from a muslim identity to an islamist identity .",
+    "sentence2": "we are witnessing today to change a muslim identity for an islamic identity .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a contemporary transformation from a general 'Muslim identity' to a more specific form, sharing nearly identical structure, vocabulary, and core intent. The primary difference is the substitution of 'islamist' in Sentence 1 with 'islamic' in Sentence 2. While closely related, 'Islamist' specifically denotes political Islam or an ideological movement, whereas 'Islamic' is a broader term referring to the religion or its cultural aspects. This substantive distinction in the target concept prevents a perfect score, but the overall message, context, and framing remain highly aligned, warranting a high similarity rating.\",\n  \"output\": 4.0\n}",
+    "reasoning": "Both sentences describe a contemporary transformation from a general 'Muslim identity' to a more specific form, sharing nearly identical structure, vocabulary, and core intent. The primary difference is the substitution of 'islamist' in Sentence 1 with 'islamic' in Sentence 2. While closely related, 'Islamist' specifically denotes political Islam or an ideological movement, whereas 'Islamic' is a broader term referring to the religion or its cultural aspects. This substantive distinction in the target concept prevents a perfect score, but the overall message, context, and framing remain highly aligned, warranting a high similarity rating.",
+    "predicted_sim": 4.0,
+    "gold_score": 5.0,
+    "abs_diff": 1.0
+  },
+  {
+    "sentence1": "a person is frying meat in a pan .",
+    "sentence2": "a person is holding a skunk .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share a generic subject ('a person') and a parallel grammatical structure, but the actions ('frying' vs. 'holding'), objects ('meat' vs. 'skunk'), and contexts ('in a pan' vs. none) are entirely different. They describe two completely unrelated real-world scenarios (cooking food versus handling a wild animal), leaving virtually no overlap in meaning or intent.\",\n  \"output\": 0.0\n}",
+    "reasoning": "Both sentences share a generic subject ('a person') and a parallel grammatical structure, but the actions ('frying' vs. 'holding'), objects ('meat' vs. 'skunk'), and contexts ('in a pan' vs. none) are entirely different. They describe two completely unrelated real-world scenarios (cooking food versus handling a wild animal), leaving virtually no overlap in meaning or intent.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.75,
+    "abs_diff": 0.75
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "dataset_revision": "2c82d499a4aab26ba0d98a4d37a8c838871d1bb1",
+  "task_name": "Banking77Classification",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.758778,
+            "f1": 0.742662,
+            "f1_weighted": 0.75247,
+            "precision": 0.776307,
+            "precision_weighted": 0.786606,
+            "recall": 0.748899,
+            "recall_weighted": 0.758778,
+            "ap": null,
+            "ap_weighted": null
+          }
+        ],
+        "accuracy": 0.758778,
+        "f1": 0.742662,
+        "f1_weighted": 0.75247,
+        "precision": 0.776307,
+        "precision_weighted": 0.786606,
+        "recall": 0.748899,
+        "recall_weighted": 0.758778,
+        "ap": NaN,
+        "ap_weighted": NaN,
+        "main_score": 0.758778,
+        "input_tokens": 1440651,
+        "output_tokens": 795323,
+        "total_tokens": 2235974,
+        "cost": 0.0,
+        "usage_stats": {
+          "input_tokens": 1440651,
+          "output_tokens": 795323,
+          "total_tokens": 2235974,
+          "cost": 0.0
+        },
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 1093.840651512146,
+  "kg_co2_emissions": null,
+  "date": 1774553911.162233
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "allergy-bullying ? apparently this is a real problem .",
+    "sentence2": "allergy bullying : when food is a weapon",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences discuss the exact same topic: 'allergy bullying'. Sentence 1 acknowledges the existence and severity of the issue as a 'real problem'. Sentence 2 defines the specific nature of the act ('when food is a weapon'). While Sentence 1 is an observation or realization and Sentence 2 is a definition, they refer to the same core concept and essentially confirm the gravity of the situation described in one another.\",\n  \"output\": 4.3\n}",
+    "reasoning": "Both sentences discuss the exact same topic: 'allergy bullying'. Sentence 1 acknowledges the existence and severity of the issue as a 'real problem'. Sentence 2 defines the specific nature of the act ('when food is a weapon'). While Sentence 1 is an observation or realization and Sentence 2 is a definition, they refer to the same core concept and essentially confirm the gravity of the situation described in one another.",
+    "predicted_sim": 4.3,
+    "gold_score": 3.0,
+    "abs_diff": 1.2999999999999998
+  },
+  {
+    "sentence1": "they know that the video doesn 't show a gas chamber .",
+    "sentence2": "the bottom line is that the video clip doesn 't show a gas chamber .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the exact same core proposition: that the video footage does not contain a gas chamber. The difference lies in the framing: Sentence 1 attributes this knowledge to a specific group ('they know'), while Sentence 2 presents it as a conclusion or summary ('the bottom line is'). Because the essential meaning regarding the video is preserved despite the slight variation in subject and context, the similarity is very high.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences share the exact same core proposition: that the video footage does not contain a gas chamber. The difference lies in the framing: Sentence 1 attributes this knowledge to a specific group ('they know'), while Sentence 2 presents it as a conclusion or summary ('the bottom line is'). Because the essential meaning regarding the video is preserved despite the slight variation in subject and context, the similarity is very high.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.6,
+    "abs_diff": 0.09999999999999964
+  },
+  {
+    "sentence1": "some believe the ' right ' is most important .",
+    "sentence2": "some believe not slaughtering the unborn is most important .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the same structural framework: 'some believe [X] is most important.' However, the semantic content of [X] differs significantly. Sentence 1 refers broadly to a political ideology ('the Right') or perhaps an abstract concept of correctness. Sentence 2 refers to a specific, highly charged moral stance regarding abortion ('not slaughtering the unborn'). While the two are politically associated (as the Right generally opposes abortion), prioritizing the entire political spectrum is not synonymous with prioritizing a single specific policy issue within that spectrum. They convey different meanings despite structural and domain similarity.\",\n  \"output\": 1.6\n}",
+    "reasoning": "Both sentences share the same structural framework: 'some believe [X] is most important.' However, the semantic content of [X] differs significantly. Sentence 1 refers broadly to a political ideology ('the Right') or perhaps an abstract concept of correctness. Sentence 2 refers to a specific, highly charged moral stance regarding abortion ('not slaughtering the unborn'). While the two are politically associated (as the Right generally opposes abortion), prioritizing the entire political spectrum is not synonymous with prioritizing a single specific policy issue within that spectrum. They convey different meanings despite structural and domain similarity.",
+    "predicted_sim": 1.6,
+    "gold_score": 1.2,
+    "abs_diff": 0.40000000000000013
+  },
+  {
+    "sentence1": "brief clashes with police in belfast",
+    "sentence2": "mourners clash with police in tunisia",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe violent confrontations involving 'clashes with police', sharing the same core action and thematic category of civil unrest. However, they differ significantly in the location ('belfast' vs. 'tunisia') and the participants involved (implied general protesters vs. 'mourners'). Since they describe distinct events in different places with different people, they are not paraphrases, but they are topically related.\",\n  \"output\": 1.8\n}",
+    "reasoning": "Both sentences describe violent confrontations involving 'clashes with police', sharing the same core action and thematic category of civil unrest. However, they differ significantly in the location ('belfast' vs. 'tunisia') and the participants involved (implied general protesters vs. 'mourners'). Since they describe distinct events in different places with different people, they are not paraphrases, but they are topically related.",
+    "predicted_sim": 1.8,
+    "gold_score": 1.2,
+    "abs_diff": 0.6000000000000001
+  },
+  {
+    "sentence1": "a train is running on the tracks .",
+    "sentence2": "a train is running down the track in a rural area .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the same subject and action: a train moving along railway tracks. Sentence 2 adds specific descriptive detail regarding the setting ('in a rural area') which is not present in Sentence 1. While the core event is the same, the meanings are not identical because Sentence 1 implies nothing about the surrounding environment.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences describe the same subject and action: a train moving along railway tracks. Sentence 2 adds specific descriptive detail regarding the setting ('in a rural area') which is not present in Sentence 1. While the core event is the same, the meanings are not identical because Sentence 1 implies nothing about the surrounding environment.",
+    "predicted_sim": 4.2,
+    "gold_score": 4.0,
+    "abs_diff": 0.20000000000000018
+  }
+]

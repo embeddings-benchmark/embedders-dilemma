@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Ich m&ouml;chte abschlie&szlig;end noch darauf hinweisen (auch wenn es viele bel&auml;cheln), Speichermedien nur &uuml;ber die &#34;Hardware sicher entfernen&#34;-Funktion vom System zu trennen.",
+        "model_raw_output": "{\n  \"reasoning\": \"The statement is a recommendation or piece of advice about safely removing storage media. It does not describe a hypothetical scenario or express what could have happened under different conditions; therefore, it is not counterfactual.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Die G13 h\u00e4tte 5 Sterne verdient, wenn es von Logitech selbst einen brauchbaren Treiber f\u00fcr Linux geben w\u00fcrde.",
+        "model_raw_output": "{\n  \"reasoning\": \"The sentence expresses a hypothetical condition ('if ... would give') that did not happen, indicating that under different circumstances (i.e., if Logitech provided a good Linux driver), the product would have deserved 5 stars. This is a classic counterfactual structure: it talks about an alternative outcome that could have occurred but did not.\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "H\u00e4tte miemals gedacht so leicht aufr\u00fcsten zu k\u00f6nnen.Freu mich schon auf das DCR 250 das ich bestellt habe.",
+        "model_raw_output": "{\n  \"reasoning\": \"The review expresses surprise at the ease of upgrading and anticipation for a future order. It describes what actually happened (upgrading was easy) and does not present a hypothetical alternative scenario or condition contrary to fact. Therefore, it is not counterfactual.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": false
+    },
+    {
+        "input_text": "Die Anzeige wird nicht beeintr\u00e4chtigt, wohl aber gesch\u00fctzt.",
+        "model_raw_output": "{\n  \"reasoning\": \"The user review states 'Die Anzeige wird nicht beeintr\u00e4chtigt, wohl aber gesch\u00fctzt.' (The display is not impaired, but rather protected). This statement describes a factual condition (the display is not impaired) and its outcome (it is protected). It does not mention any hypothetical or alternative scenario that could, would, or might have happened under different conditions. Therefore, it is not a counterfactual statement.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Das Produkt ist sicherlich gut und qualitativ hochwertig, aber hier fehlt jede Verh\u00e4ltnism\u00e4ssigkeit.",
+        "model_raw_output": "{\n  \"reasoning\": \"The review expresses an opinion about the product's quality and a criticism about lack of proportionality, but does not describe a hypothetical scenario of what could have happened under different conditions. There is no use of conditional or subjunctive language indicating a counterfactual situation. Therefore, it is not counterfactual.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": false
+    }
+]

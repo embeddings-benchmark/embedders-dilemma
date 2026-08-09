@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "sie m\u00fcssen den n\u00e4chsten montag vormerken",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's utterance 'sie m\u00fcssen den n\u00e4chsten montag vormerken' translates to 'please mark/save next Monday'. The verb 'vormerken' (to mark down/note) combined with a specific day ('n\u00e4chsten montag') indicates a command to add or schedule an event. Among the provided intents, 'calendar_set' directly corresponds to creating or adding a calendar entry.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "spiele meine am meisten gespielten song liste",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's utterance 'spiele meine am meisten gespielten song liste' translates to 'play my most played song list'. This is a direct command to play a specific music playlist, which directly matches the 'play_music' intent from the provided list.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "schalte den wecker um f\u00fcnfzehn uhr ab",
+        "model_raw_output": "{\n  \"reasoning\": \"The German utterance 'schalte den wecker um f\u00fcnfzehn uhr ab' translates to 'turn off the alarm at 3 PM'. The user is explicitly requesting to deactivate or delete an existing alarm, which directly maps to the 'alarm_remove' intent from the provided list.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "l\u00f6sche wecker",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's utterance 'l\u00f6sche wecker' is German for 'delete alarm'. This clearly expresses the intention to remove an existing alarm, which directly maps to the 'alarm_remove' intent in the provided list.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "erinnere mich an mein termin am nachmittag",
+        "model_raw_output": "{\n  \"reasoning\": \"The German utterance 'erinnere mich an mein termin am nachmittag' translates to 'remind me of my appointment in the afternoon'. This indicates the user wants to check or retrieve information about an existing scheduled event rather than create a new one or set a generic alarm. In the MASSIVE dataset, requests to view, check, or ask about existing calendar appointments are mapped to the 'calendar_query' intent.\",\n  \"output\": \"calendar_query\"\n}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

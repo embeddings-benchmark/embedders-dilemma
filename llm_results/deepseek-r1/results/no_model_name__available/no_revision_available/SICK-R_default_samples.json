@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "The male, who is dark skinned, is standing on one hand in front of a yellow building",
+    "sentence2": "A black man is break dancing on the pavement",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a dark-skinned male engaged in a physical activity. The first sentence specifies a handstand in front of a yellow building, while the second mentions break dancing on pavement. Break dancing may include handstand-like moves, and 'pavement' could align with the 'front of a yellow building' setting. However, the activities (static handstand vs. dynamic dance) and location specificity differ, leading to partial but incomplete overlap.\",\n  \"output\": 3.2\n}",
+    "reasoning": "Both sentences describe a dark-skinned male engaged in a physical activity. The first sentence specifies a handstand in front of a yellow building, while the second mentions break dancing on pavement. Break dancing may include handstand-like moves, and 'pavement' could align with the 'front of a yellow building' setting. However, the activities (static handstand vs. dynamic dance) and location specificity differ, leading to partial but incomplete overlap.",
+    "predicted_sim": 3.2,
+    "gold_score": 2.7,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "A girl in blue is sliding down a green slide",
+    "sentence2": "A boy in blue are sliding down a green slide",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe someone in blue clothing sliding down a green slide. The primary difference is the subject's gender (girl vs. boy) and a grammatical error in Sentence 2 ('are' instead of 'is'). The core action, setting, and color details are identical. Gender is a meaningful distinction but does not alter the fundamental activity or context. The grammatical error slightly reduces clarity but does not obscure the meaning. Thus, the sentences are highly related but not identical.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences describe someone in blue clothing sliding down a green slide. The primary difference is the subject's gender (girl vs. boy) and a grammatical error in Sentence 2 ('are' instead of 'is'). The core action, setting, and color details are identical. Gender is a meaningful distinction but does not alter the fundamental activity or context. The grammatical error slightly reduces clarity but does not obscure the meaning. Thus, the sentences are highly related but not identical.",
+    "predicted_sim": 4.5,
+    "gold_score": 3.4,
+    "abs_diff": 1.1
+  },
+  {
+    "sentence1": "The cheerleaders are parading and wearing uniforms which are black, pink and white",
+    "sentence2": "The cheerleaders are parading and wearing black, pink and white uniforms",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe cheerleaders parading while wearing uniforms in the same colors: black, pink, and white. The only difference is the grammatical structure (relative clause vs. adjective placement), but the semantic content is identical.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences describe cheerleaders parading while wearing uniforms in the same colors: black, pink, and white. The only difference is the grammatical structure (relative clause vs. adjective placement), but the semantic content is identical.",
+    "predicted_sim": 5.0,
+    "gold_score": 4.8,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "A man is emptying a container made of plastic",
+    "sentence2": "A man is filling a container made of plastic",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences involve a man interacting with a plastic container, but the actions (emptying vs. filling) are direct opposites. While the context and elements (subject, object, material) are identical, the actions are semantically inverted, resulting in a high but not perfect relatedness score.\",\n  \"output\": 3.5\n}",
+    "reasoning": "Both sentences involve a man interacting with a plastic container, but the actions (emptying vs. filling) are direct opposites. While the context and elements (subject, object, material) are identical, the actions are semantically inverted, resulting in a high but not perfect relatedness score.",
+    "predicted_sim": 3.5,
+    "gold_score": 3.4,
+    "abs_diff": 0.10000000000000009
+  },
+  {
+    "sentence1": "A few people are dancing",
+    "sentence2": "A group of people are dancing",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe people dancing. The primary difference is the quantifier: 'a few' versus 'a group.' While 'a few' suggests a small number (e.g., 3-4), 'a group' could imply a slightly larger or more cohesive gathering. However, the core action (dancing) and subject (people) are identical, and the difference in quantity is minor enough that the overall meaning remains very similar. Thus, the sentences are highly related but not entirely identical.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences describe people dancing. The primary difference is the quantifier: 'a few' versus 'a group.' While 'a few' suggests a small number (e.g., 3-4), 'a group' could imply a slightly larger or more cohesive gathering. However, the core action (dancing) and subject (people) are identical, and the difference in quantity is minor enough that the overall meaning remains very similar. Thus, the sentences are highly related but not entirely identical.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.5,
+    "abs_diff": 0.0
+  }
+]

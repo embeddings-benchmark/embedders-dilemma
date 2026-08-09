@@ -1,0 +1,28 @@
+{
+  "dataset_revision": "0187d654bb254527a7050c608ced9967dc04db91",
+  "task_name": "LLMTwentyNewsgroupsClusteringV2",
+  "mteb_version": "2.11.6",
+  "scores": {
+    "test": [
+      {
+        "v_measure": 0.596873,
+        "v_measure_std": 0.017584,
+        "v_measures": [
+          0.605271,
+          0.575724,
+          0.625346,
+          0.58216,
+          0.595864
+        ],
+        "main_score": 0.596873,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 7.7226080894470215,
+  "kg_co2_emissions": null,
+  "date": 1774405457.372567
+}

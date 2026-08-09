@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "A person is on a baseball team.",
+    "sentence2": "A person is playing basketball on a team.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person involved in a team sport, but the specific sports mentioned (baseball versus basketball) are completely different, resulting in fundamentally distinct meanings.\",\n  \"output\": 1.5\n}",
+    "reasoning": "Both sentences describe a person involved in a team sport, but the specific sports mentioned (baseball versus basketball) are completely different, resulting in fundamentally distinct meanings.",
+    "predicted_sim": 1.5,
+    "gold_score": 2.4,
+    "abs_diff": 0.8999999999999999
+  },
+  {
+    "sentence1": "Our current vehicles will be in museums when everyone has their own aircraft.",
+    "sentence2": "The car needs to some work",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences mention vehicles or cars, but they address entirely different concepts. Sentence 1 describes a futuristic scenario where current vehicles are obsolete due to personal aircraft, while Sentence 2 is a mundane statement about a specific car needing repairs. They share no meaningful semantic similarity.\",\n  \"output\": 0.2\n}",
+    "reasoning": "Both sentences mention vehicles or cars, but they address entirely different concepts. Sentence 1 describes a futuristic scenario where current vehicles are obsolete due to personal aircraft, while Sentence 2 is a mundane statement about a specific car needing repairs. They share no meaningful semantic similarity.",
+    "predicted_sim": 0.2,
+    "gold_score": 0.2,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "A woman supervisor is instructing the male workers.",
+    "sentence2": "A woman is working as a nurse.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the subject of a woman in a workplace setting, but they describe entirely different professions and actions (a supervisor instructing workers vs. a nurse).\",\n  \"output\": 0.8\n}",
+    "reasoning": "Both sentences share the subject of a woman in a workplace setting, but they describe entirely different professions and actions (a supervisor instructing workers vs. a nurse).",
+    "predicted_sim": 0.8,
+    "gold_score": 1.0,
+    "abs_diff": 0.19999999999999996
+  },
+  {
+    "sentence1": "A bike is next to a couple women.",
+    "sentence2": "A child next to a bike.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the same spatial relationship and core object, describing someone or something being 'next to a bike'. However, the subjects in the scenes are completely different ('a couple women' versus 'a child'). They share a common detail but describe distinct scenarios.\",\n  \"output\": 1.8\n}",
+    "reasoning": "Both sentences share the same spatial relationship and core object, describing someone or something being 'next to a bike'. However, the subjects in the scenes are completely different ('a couple women' versus 'a child'). They share a common detail but describe distinct scenarios.",
+    "predicted_sim": 1.8,
+    "gold_score": 2.0,
+    "abs_diff": 0.19999999999999996
+  },
+  {
+    "sentence1": "The group is eating while taking in a breathtaking view.",
+    "sentence2": "A group of people take a look at an unusual tree.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a group of people looking at something outdoors (a breathtaking view vs. an unusual tree). However, the specific actions (eating vs. just looking) and the objects of their attention are completely different.\",\n  \"output\": 1.2\n}",
+    "reasoning": "Both sentences describe a group of people looking at something outdoors (a breathtaking view vs. an unusual tree). However, the specific actions (eating vs. just looking) and the objects of their attention are completely different.",
+    "predicted_sim": 1.2,
+    "gold_score": 2.2,
+    "abs_diff": 1.0000000000000002
+  }
+]

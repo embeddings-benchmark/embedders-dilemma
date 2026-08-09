@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "How massive DDoS attacks are undermining the Internet ",
+    "sentence2": "Friday's #DDoSAttack & gt ; #IoT said to be medium . How can we reduce vulnerability of these devices ? ",
+    "model_raw_output": "{\n  \"reasoning\": \"The first sentence is a general statement about how DDoS attacks affect the internet as a whole, whereas the second sentence refers to a specific attack event on a Friday, mentions IoT devices, and asks a question about mitigation. They share a general topic but do not convey the same specific message.\",\n  \"output\": 0\n}",
+    "reasoning": "The first sentence is a general statement about how DDoS attacks affect the internet as a whole, whereas the second sentence refers to a specific attack event on a Friday, mentions IoT devices, and asks a question about mitigation. They share a general topic but do not convey the same specific message.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Welcome to the #APTop25 , @TroyTrojansFB ! Troy ranked for 1st time in school history . ",
+    "sentence2": "AP POLL ALERT Top 25 Shakeup rise ; #Michigan , #Clemson , #Washington fall ; #USC returns . ",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 focuses specifically on Troy University entering the AP Top 25 poll for the first time in history. Sentence 2 provides a general update on the poll, mentioning movement for Michigan, Clemson, Washington, and USC, but does not mention Troy. While they are about the same poll update, they convey different pieces of information.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 focuses specifically on Troy University entering the AP Top 25 poll for the first time in history. Sentence 2 provides a general update on the poll, mentioning movement for Michigan, Clemson, Washington, and USC, but does not mention Troy. While they are about the same poll update, they convey different pieces of information.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Samsung to ask all carrier and retail partners to stop Galaxy Note7 sales , exchanges following more reports of fires ",
+    "sentence2": "Samsung Will Ask All Global Partners to Stop Sales and Exchanges of Galaxy Note7 While Further Investigation Takes Place",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core news event: Samsung is requesting that all sales and exchanges of the Galaxy Note 7 be halted. While Sentence 1 mentions 'reports of fires' as the trigger and Sentence 2 mentions 'further investigation', they describe the exact same corporate action and its scope.\",\n  \"output\": 1\n}",
+    "reasoning": "Both sentences convey the same core news event: Samsung is requesting that all sales and exchanges of the Galaxy Note 7 be halted. While Sentence 1 mentions 'reports of fires' as the trigger and Sentence 2 mentions 'further investigation', they describe the exact same corporate action and its scope.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Melania Trump rejects womens claims that her husband groped them ",
+    "sentence2": "Politics|\\'They\\'re Lies\\': Melania Trump Rejects Women\\'s Claims That Husband Groped ",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core news event: Melania Trump's public rejection and denial of the allegations made by several women who claimed her husband had groped them. While Sentence 2 includes a category tag and a direct quote, the fundamental message remains identical.\",\n  \"output\": 1\n}",
+    "reasoning": "Both sentences convey the same core news event: Melania Trump's public rejection and denial of the allegations made by several women who claimed her husband had groped them. While Sentence 2 includes a category tag and a direct quote, the fundamental message remains identical.",
+    "predicted_label": 1,
+    "gold_label": 0,
+    "is_correct": false
+  },
+  {
+    "sentence1": "Pokmon Go players took 26% more steps than before using the app , a new study finds ",
+    "sentence2": "The fitness app dream result Pokemon Go could add 2.83 million years to users ' lives ",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 focuses on the specific data point of increased physical activity (a 26% increase in steps), whereas Sentence 2 focuses on the projected long-term health outcome (adding 2.83 million years to lives). While both tweets describe findings from the same study regarding Pokemon Go, they highlight different metrics and implications, so they do not convey the same message.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 focuses on the specific data point of increased physical activity (a 26% increase in steps), whereas Sentence 2 focuses on the projected long-term health outcome (adding 2.83 million years to lives). While both tweets describe findings from the same study regarding Pokemon Go, they highlight different metrics and implications, so they do not convey the same message.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  }
+]

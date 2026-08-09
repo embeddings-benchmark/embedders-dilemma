@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "How do I locate my card?",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking how to locate their card, which implies they want to track the physical card's delivery or whereabouts. This aligns with the 'card_arrival' intent for inquiries about the card's arrival status.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "I still have not received my new card, I ordered over a week ago.",
+        "model_raw_output": "{\n  \"reasoning\": \"The user says they have not received their new card after ordering over a week ago, which directly matches the category 'card_arrival'.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "I ordered a card but it has not arrived. Help please!",
+        "model_raw_output": "{\n  \"reasoning\": \"The user states they ordered a card but it hasn't arrived, which fits the intent card_arrival.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "Is there a way to know when my card will arrive?",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking if there is a way to know the arrival time of their card, which directly matches the 'card_arrival' category.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "My card has not arrived yet.",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's statement 'My card has not arrived yet' directly matches the intent 'card_arrival', which deals with issues related to the non-arrival of a card. Other similar intents like 'card_delivery_estimate' are about asking for an estimated delivery time, not reporting non-arrival.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    }
+]

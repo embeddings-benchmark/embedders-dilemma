@@ -1,0 +1,33 @@
+{
+  "dataset_revision": "741fbe5cf43a594d8c37073d66baf8ab879281ce",
+  "task_name": "TwitterURLCorpus-VN",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "similarity_ap": 0.766087,
+        "similarity_accuracy": 0.808,
+        "similarity_f1": 0.794926,
+        "max_ap": 0.766087,
+        "max_accuracy": 0.808,
+        "max_f1": 0.794926,
+        "max_precision": 0.843049,
+        "max_recall": 0.752,
+        "usage_stats": {
+          "input_tokens": 104723,
+          "output_tokens": 28970,
+          "total_tokens": 133693,
+          "cost": 0.0
+        },
+        "main_score": 0.766087,
+        "hf_subset": "default",
+        "languages": [
+          "vie-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 272.26542377471924,
+  "kg_co2_emissions": null,
+  "date": 1773861313.348075
+}

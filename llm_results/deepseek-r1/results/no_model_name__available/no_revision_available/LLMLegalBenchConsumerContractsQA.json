@@ -1,0 +1,37 @@
+{
+  "dataset_revision": "642870c78f65ed31a2ab0f8ab113f2957ff2df27",
+  "task_name": "LLMLegalBenchConsumerContractsQA",
+  "mteb_version": "2.3.0",
+  "scores": {
+    "test": [
+      {
+        "recall@1": 0.62,
+        "recall@2": 0.65,
+        "recall@3": 0.68,
+        "recall@5": 0.71,
+        "mrecall@1": 0.62,
+        "mrecall@2": 0.65,
+        "mrecall@3": 0.68,
+        "mrecall@5": 0.71,
+        "capped_recall@1": 0.62,
+        "main_score": 0.62,
+        "usage_stats": {
+          "input_tokens": 8725656,
+          "cached_tokens": 0,
+          "output_tokens": 41859,
+          "thinking_tokens": 38858,
+          "total_tokens": 8767515,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 164.08229184150696,
+  "kg_co2_emissions": null
+}

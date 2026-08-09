@@ -1,0 +1,28 @@
+{
+  "dataset_revision": "3ce50711e47553e7c9f47b53819ccd64cd0f5b9b",
+  "task_name": "LLMArxivClusteringP2P",
+  "mteb_version": "2.11.6",
+  "scores": {
+    "test": [
+      {
+        "v_measure": 0.42516,
+        "v_measure_std": 0.0623,
+        "v_measures": [
+          0.358161,
+          0.430168,
+          0.358923,
+          0.52307,
+          0.455477
+        ],
+        "main_score": 0.42516,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 5.586340427398682,
+  "kg_co2_emissions": null,
+  "date": 1774451219.018605
+}

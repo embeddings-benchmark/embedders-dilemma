@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "What is cache on my Apple iPad Pro and how can I clear my browser cache on it ?",
+    "sentence2": "Clear browser cache - Apple iPad Pro",
+    "model_raw_output": "{\"reasoning\": \"Both sentences are asking about the same core topic: clearing browser cache on an Apple iPad Pro. While Sentence 1 includes an additional question about what cache is, the primary focus and intent of both questions is to learn how to clear browser cache on an iPad Pro. The extra definition question in Sentence 1 doesn't change the fact that the main request is identical.\", \"output\": 1}",
+    "reasoning": "Both sentences are asking about the same core topic: clearing browser cache on an Apple iPad Pro. While Sentence 1 includes an additional question about what cache is, the primary focus and intent of both questions is to learn how to clear browser cache on an iPad Pro. The extra definition question in Sentence 1 doesn't change the fact that the main request is identical.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Troubleshooting guide for charging related issues on the HTC Bolt",
+    "sentence2": "Transfer files with your computer - Apple iPad mini 4",
+    "model_raw_output": "{\"reasoning\": \"These two sentences are about completely different topics. Sentence 1 is about troubleshooting charging issues on an HTC Bolt, while Sentence 2 is about transferring files between a computer and an iPad mini 4. They differ in both subject matter (charging vs. file transfer) and device (HTC Bolt vs. Apple iPad mini 4).\", \"output\": 0}",
+    "reasoning": "These two sentences are about completely different topics. Sentence 1 is about troubleshooting charging issues on an HTC Bolt, while Sentence 2 is about transferring files between a computer and an iPad mini 4. They differ in both subject matter (charging vs. file transfer) and device (HTC Bolt vs. Apple iPad mini 4).",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Guide on conserving the Samsung Galaxy Note 4 battery life",
+    "sentence2": "Can I use my Apple Pencil to control my Apple iPad Pro ?",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 asks about conserving battery life for a Samsung Galaxy Note 4, while Sentence 2 asks about using an Apple Pencil to control an iPad Pro. These questions are completely unrelated - they concern different device brands (Samsung vs. Apple), different topics (battery conservation vs. stylus functionality), and different product categories. There is no overlap in the information being sought.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 asks about conserving battery life for a Samsung Galaxy Note 4, while Sentence 2 asks about using an Apple Pencil to control an iPad Pro. These questions are completely unrelated - they concern different device brands (Samsung vs. Apple), different topics (battery conservation vs. stylus functionality), and different product categories. There is no overlap in the information being sought.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Does my LG G4 have any special features ?",
+    "sentence2": "Does my LG G4 have any special features ?",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences are identical, asking the same question about special features of the LG G4.\",\n  \"output\": 1\n}",
+    "reasoning": "Both sentences are identical, asking the same question about special features of the LG G4.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "How can I pair bluetooth devices to my Samsung Galaxy S III with 4G LTE Prepaid ?",
+    "sentence2": "How do I change the phone ringtone and notification sound on my Apple iPhone 4s ?",
+    "model_raw_output": "{\n  \"reasoning\": \"The first question asks how to pair Bluetooth devices on a specific Android phone (Samsung Galaxy S\u202fIII with 4G LTE Prepaid), while the second question asks how to change the ringtone and notification sound on a different platform (Apple iPhone\u202f4s). They concern different hardware platforms and completely different settings/features, so they are not duplicates.\",\n  \"output\": 0\n}",
+    "reasoning": "The first question asks how to pair Bluetooth devices on a specific Android phone (Samsung Galaxy S\u202fIII with 4G LTE Prepaid), while the second question asks how to change the ringtone and notification sound on a different platform (Apple iPhone\u202f4s). They concern different hardware platforms and completely different settings/features, so they are not duplicates.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  }
+]

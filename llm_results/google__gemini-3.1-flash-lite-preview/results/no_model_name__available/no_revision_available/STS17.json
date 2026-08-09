@@ -1,0 +1,90 @@
+{
+  "dataset_revision": "fe4f4e1b9fdafeae22df69e66bdc3b634be30e9d",
+  "task_name": "STS17",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "cosine_spearman": 0.914001,
+        "cosine_pearson": 0.916392,
+        "usage_stats": {
+          "input_tokens": 55873,
+          "output_tokens": 14141,
+          "total_tokens": 70014,
+          "cost": 0.0
+        },
+        "main_score": 0.914001,
+        "hf_subset": "en-en",
+        "languages": [
+          "eng-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.894724,
+        "cosine_pearson": 0.90491,
+        "usage_stats": {
+          "input_tokens": 56075,
+          "output_tokens": 14994,
+          "total_tokens": 71069,
+          "cost": 0.0
+        },
+        "main_score": 0.894724,
+        "hf_subset": "en-de",
+        "languages": [
+          "eng-Latn",
+          "deu-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.884584,
+        "cosine_pearson": 0.887081,
+        "usage_stats": {
+          "input_tokens": 56713,
+          "output_tokens": 14832,
+          "total_tokens": 71545,
+          "cost": 0.0
+        },
+        "main_score": 0.884584,
+        "hf_subset": "es-es",
+        "languages": [
+          "spa-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.925819,
+        "cosine_pearson": 0.928536,
+        "usage_stats": {
+          "input_tokens": 56504,
+          "output_tokens": 14783,
+          "total_tokens": 71287,
+          "cost": 0.0
+        },
+        "main_score": 0.925819,
+        "hf_subset": "fr-en",
+        "languages": [
+          "fra-Latn",
+          "eng-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.925801,
+        "cosine_pearson": 0.924798,
+        "usage_stats": {
+          "input_tokens": 56347,
+          "output_tokens": 14743,
+          "total_tokens": 71090,
+          "cost": 0.0
+        },
+        "main_score": 0.925801,
+        "hf_subset": "it-en",
+        "languages": [
+          "ita-Latn",
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 780.1424911022186,
+  "kg_co2_emissions": null,
+  "date": 1773859088.30277
+}

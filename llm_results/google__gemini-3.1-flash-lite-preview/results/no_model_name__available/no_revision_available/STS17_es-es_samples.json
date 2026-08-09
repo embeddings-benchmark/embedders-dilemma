@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Un perro est\u00e1 con un juguete.",
+    "sentence2": "Un perro tiene un juguete.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core information: a dog is in possession of or with a toy. While 'estar con' implies presence and 'tener' implies possession, in this context, they describe the same state of the dog.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences convey the same core information: a dog is in possession of or with a toy. While 'estar con' implies presence and 'tener' implies possession, in this context, they describe the same state of the dog.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.8,
+    "abs_diff": 0.2999999999999998
+  },
+  {
+    "sentence1": "Los ni\u00f1os acarician un conejito.",
+    "sentence2": "Los ni\u00f1os acarician un perro.",
+    "model_raw_output": "{\"reasoning\": \"Both sentences share the same subject and action, but the object of the action (a rabbit versus a dog) is different, resulting in a high but not identical meaning.\", \"output\": 3.5}",
+    "reasoning": "Both sentences share the same subject and action, but the object of the action (a rabbit versus a dog) is different, resulting in a high but not identical meaning.",
+    "predicted_sim": 3.5,
+    "gold_score": 2.2,
+    "abs_diff": 1.2999999999999998
+  },
+  {
+    "sentence1": "La gente cocina en la parrilla.",
+    "sentence2": "Los peatones miran con asombro mientras dos personas cocinan pechuga en una parrilla.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences mention people cooking on a grill. However, the second sentence adds significant detail about the specific food being cooked and the presence of bystanders (pedestrians), making it more specific while still sharing the core action.\",\n  \"output\": 3.5\n}",
+    "reasoning": "Both sentences mention people cooking on a grill. However, the second sentence adds significant detail about the specific food being cooked and the presence of bystanders (pedestrians), making it more specific while still sharing the core action.",
+    "predicted_sim": 3.5,
+    "gold_score": 0.8,
+    "abs_diff": 2.7
+  },
+  {
+    "sentence1": "El hombre construye un peque\u00f1o castillo de arena",
+    "sentence2": "Una muchacha est\u00e1 construyendo un castillo de arena.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the act of building a sandcastle, but they differ in the gender of the subject (man vs. girl) and the scale of the object (small vs. unspecified). The core action is identical.\",\n  \"output\": 3.5\n}",
+    "reasoning": "Both sentences describe the act of building a sandcastle, but they differ in the gender of the subject (man vs. girl) and the scale of the object (small vs. unspecified). The core action is identical.",
+    "predicted_sim": 3.5,
+    "gold_score": 2.2,
+    "abs_diff": 1.2999999999999998
+  },
+  {
+    "sentence1": "Un hombre est\u00e1 corriendo detr\u00e1s de un trineo tirado por cuatro perros.",
+    "sentence2": "Un hombre siendo tirado en un trineo por perros.",
+    "model_raw_output": "{\"reasoning\": \"While both sentences involve a man, dogs, and a sled, the actions are contradictory. In the first sentence, the man is running behind the sled, whereas in the second, the man is being pulled by the sled. They describe different interactions with the same set of objects.\", \"output\": 2.5}",
+    "reasoning": "While both sentences involve a man, dogs, and a sled, the actions are contradictory. In the first sentence, the man is running behind the sled, whereas in the second, the man is being pulled by the sled. They describe different interactions with the same set of objects.",
+    "predicted_sim": 2.5,
+    "gold_score": 3.6,
+    "abs_diff": 1.1
+  }
+]

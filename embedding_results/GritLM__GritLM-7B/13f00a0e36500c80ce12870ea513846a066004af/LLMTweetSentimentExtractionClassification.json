@@ -1,0 +1,140 @@
+{
+  "dataset_revision": "5e847f1f41ec9089cfdb7ea7b2852a23bd5ea7c8",
+  "task_name": "LLMTweetSentimentExtractionClassification",
+  "mteb_version": "2.11.6",
+  "scores": {
+    "test": [
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.428,
+            "f1": 0.427185,
+            "f1_weighted": 0.417583,
+            "precision": 0.430043,
+            "precision_weighted": 0.427629,
+            "recall": 0.446087,
+            "recall_weighted": 0.428,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.474,
+            "f1": 0.47847,
+            "f1_weighted": 0.469161,
+            "precision": 0.525784,
+            "precision_weighted": 0.529211,
+            "recall": 0.497495,
+            "recall_weighted": 0.474,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.458,
+            "f1": 0.457831,
+            "f1_weighted": 0.452855,
+            "precision": 0.457504,
+            "precision_weighted": 0.458738,
+            "recall": 0.468381,
+            "recall_weighted": 0.458,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.468,
+            "f1": 0.46598,
+            "f1_weighted": 0.46677,
+            "precision": 0.477472,
+            "precision_weighted": 0.472814,
+            "recall": 0.461483,
+            "recall_weighted": 0.468,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.412,
+            "f1": 0.413796,
+            "f1_weighted": 0.413141,
+            "precision": 0.416058,
+            "precision_weighted": 0.415172,
+            "recall": 0.412489,
+            "recall_weighted": 0.412,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.468,
+            "f1": 0.463727,
+            "f1_weighted": 0.460094,
+            "precision": 0.4861,
+            "precision_weighted": 0.487593,
+            "recall": 0.480211,
+            "recall_weighted": 0.468,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.426,
+            "f1": 0.430566,
+            "f1_weighted": 0.422017,
+            "precision": 0.435235,
+            "precision_weighted": 0.433546,
+            "recall": 0.440182,
+            "recall_weighted": 0.426,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.434,
+            "f1": 0.433584,
+            "f1_weighted": 0.419019,
+            "precision": 0.439843,
+            "precision_weighted": 0.435509,
+            "recall": 0.458929,
+            "recall_weighted": 0.434,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.432,
+            "f1": 0.426579,
+            "f1_weighted": 0.424965,
+            "precision": 0.436876,
+            "precision_weighted": 0.435491,
+            "recall": 0.435473,
+            "recall_weighted": 0.432,
+            "ap": null,
+            "ap_weighted": null
+          },
+          {
+            "accuracy": 0.496,
+            "f1": 0.487112,
+            "f1_weighted": 0.474614,
+            "precision": 0.505397,
+            "precision_weighted": 0.510892,
+            "recall": 0.521094,
+            "recall_weighted": 0.496,
+            "ap": null,
+            "ap_weighted": null
+          }
+        ],
+        "accuracy": 0.4496,
+        "f1": 0.448483,
+        "f1_weighted": 0.442022,
+        "precision": 0.461031,
+        "precision_weighted": 0.46066,
+        "recall": 0.462182,
+        "recall_weighted": 0.4496,
+        "ap": NaN,
+        "ap_weighted": NaN,
+        "main_score": 0.4496,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 91.45993876457214,
+  "kg_co2_emissions": null,
+  "date": 1774373552.320687
+}

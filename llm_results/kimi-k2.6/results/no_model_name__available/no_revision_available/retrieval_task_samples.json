@@ -1,0 +1,85 @@
+[
+  {
+    "query_id": "0",
+    "query_text": "S\u00f8nnen vil gerne lave #pebern\u00f8dder. De par gange jeg har pr\u00f8vet det, blev de kun OK. Er der nogen, der kan anbefale en opskrift? #twitterhjerne",
+    "model_raw_output": "ID: 0 | CONTENT: Jeg plejer at lave dem her:\n\nhttps://dk-kogebogen.dk/opskrifter/25399/anns-pebernoedder\n\nMen jeg nedskalerer opskriften, det er for stor en portion.\n\nJeg synes de skal laves ret sm\u00e5 for at blive gode.\nMen lette at lave | END ID: 0\n\nID: 86 | CONTENT: Ja ja. https://valdemarsro.dk/pebernoedder/ Jeg ville nok overveje brun farin (puddersukker) og en smule psyko-sirup. Og hvad er der for\u00f8vrigt galt med honning? S\u00e5 bliver det ikke HELT efter Karen Wolffs opskrift, men hvad s\u00e5? | END ID: 86\n\nFinal Answer: [0, 86]",
+    "parsed_ids": [
+      "1",
+      "2"
+    ],
+    "gold_ids": [
+      "1",
+      "2"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "3",
+    "query_text": "Hilfe\nJeg skal lave en dessert p\u00e5 s\u00f8ndag, som er laktosefri. Som i HELT fri for m\u00e6lkeprotein. \nOg det er ikke nok med laktosefri produkter, da der kan forekomme forarbejdet m\u00e6lkeprotein i produkterne. \n\n#twitterhjerne",
+    "model_raw_output": "I need to find documents relevant to a dairy-free/lactose-free dessert that is completely free of milk protein (not just lactose-free products).\n\nLet me analyze the query:\n- Need a dessert for Sunday\n- Must be completely dairy-free / milk protein-free (not just lactose-free)\n- This requires vegan or naturally dairy-free dessert options\n\nLooking through the documents for relevant content:\n\n1. **ID: 211** - \"Du kan bruge havrem\u00e6lk og madolie til at stort set alt bagv\u00e6rk. Og frugt er altid godt. Ellers er her en masse gode opskrifter:\" - This mentions oat milk and oil for baking, and fruit - relevant for dairy-free baking. However, this is for \"bagv\u00e6rk\" (baked goods/pastry), not specifically dessert.\n\n2. **ID: 229** - \"En frugtsalat med marinade af citron/appelsinsaft og honning. Eller bare et frugtfad, lige nu er der meget at v\u00e6lge imellem.\" - This is a fruit salad with citrus and honey, completely dairy-free and naturally free of milk protein. This is a dessert option.\n\n3. **ID: 220** - \"Vegansk chokoladekage med f.eks. en sorbet og noget b\u00e6r.\" - This is explicitly a **vegan chocolate cake with sorbet and berries**. Being vegan means it's completely free of all animal products including milk protein. This is exactly what the query needs - a dessert that is completely milk protein-free.\n\n4. **ID: 236** - \"Naturli har en masse l\u00e6kre veganske is, de findes i netto og f\u00f8tex ihverfald. Ellers s\u00e5 er der en masse gode veganske opskrifter p\u00e5 kager og t\u00e6rter, hvor man bare bruger plantebaserede produkter\" - This mentions vegan ice cream and vegan recipes for cakes and tarts using plant-based products. Very relevant.\n\nThe most relevant documents are **220** and **236**, as they directly address completely milk protein-free (vegan) desserts. Document **229** is also good as it's naturally dairy-free. Document **211** is more about general baking.\n\nThe most directly relevant is **220** (vegansk chokoladekage - vegan chocolate cake) as it's specifically a dessert and explicitly vegan (completely milk protein-free). **236** is also very relevant with multiple vegan dessert options.\n\nFinal Answer: [220, 236, 229, 211]",
+    "parsed_ids": [
+      "5",
+      "7",
+      "6",
+      "4"
+    ],
+    "gold_ids": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "8",
+    "query_text": "Hej #ultratwitteragf og resten af Aarhus. Hvor omkring Musikhuset skal man spise duru ... jeg mener rullekebab en fredag nat?\n#twitterhjerne",
+    "model_raw_output": "I need to find documents related to eating near Musikhuset in Aarhus, specifically about shawarma/durum/rullekebab on a Friday night.\n\nLet me analyze the query:\n- Location: Near Musikhuset in Aarhus\n- Food type: durum/rullekebab/shawarma\n- Time: Friday night\n\nRelevant documents:\n\n**ID: 1** - Mentions \"Musikhuset\" and \"Shawarma King\" near Lille Torv, open until 2-3 AM. This matches the location and food type perfectly.\n\n**ID: 10** - Mentions \"Shawarma Bar eller Hos Bilal\" 100 meters from each other, with a warning about chili. This is about shawarma places but doesn't specify Aarhus or Musikhuset.\n\n**ID: 9** - Mentions \"Den Rustikke\" in \"bargaden\" (the bar street), mentions weekend. This is about Aarhus nightlife area but not specifically shawarma.\n\n**ID: 253** - Mentions shawarma places in what seems to be Aarhus (comparing to Copenhagen quality), mentions Shawarma Bar, Shawarmamesteren, Royal shawarma. However, this says \"Spiser ikke durum eller rullekebab\" as a disclaimer.\n\nThe most relevant document is **ID: 1** which directly answers the query with a specific recommendation near Musikhuset (Shawarma King on Lille Torv, open late). \n\nID: 10 is also relevant as it mentions shawarma places, though without the specific Aarhus/Musikhuset location.\n\nID: 253 mentions shawarma places and seems to be about Aarhus (given the \"ultratwitteragf\" context which is Aarhus GF related), but explicitly says they don't eat durum or rullekebab.\n\nBetween these, ID: 1 is the most directly relevant as it specifically mentions the Musikhuset area and a late-night shawarma option.\n\nFinal Answer: [1, 10, 253]",
+    "parsed_ids": [
+      "10",
+      "11",
+      "9"
+    ],
+    "gold_ids": [
+      "9",
+      "10",
+      "11"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "12",
+    "query_text": "Min datter vil gerne til #Hawaii til n\u00e6ste \u00e5r, men kan ikke et rejsebureau der kan tilbyde hende en pakkerejse. \nHvis hun kan komme til at arbejde i en m\u00e5neds tid eller to, vil hun ogs\u00e5 gerne det.\nNogen der har gode r\u00e5d eller erfaringer? #twitterhjerne",
+    "model_raw_output": "I need to find documents relevant to someone looking for travel agencies that offer package deals to Hawaii, and also potentially work opportunities there for 1-2 months.\n\nLet me analyze the documents:\n\n- **Document 34**: About living/working somewhere, mentions jobs are available but you need to know someone, expensive to live and eat, hostels exist. This is about working abroad, though not specifically Hawaii.\n- **Document 43**: \"ysk rejsebureau eller Nyhavn\" - mentions travel bureau (rejsebureau). This is relevant to finding a travel agency.\n- **Document 51**: \"Dr\u00f8mmerejser her p\u00e5 Frb\" - mentions dream travels, possibly a travel agency on Frederiksberg.\n\nThe query is specifically about:\n1. Finding a travel agency for Hawaii package deals\n2. Working in Hawaii for 1-2 months\n\nDocument 34 is the most relevant for the working aspect - it discusses finding jobs abroad, knowing people, hostels, expenses. While not Hawaii-specific, it's about working abroad for a period.\n\nDocument 43 mentions \"rejsebureau\" (travel agency) but is very brief and seems to be about a different context (Nyhavn is in Copenhagen).\n\nDocument 51 mentions \"Dr\u00f8mmerejser\" (dream travels) which could be a travel agency, but again very brief.\n\nGiven the query asks about both travel agencies AND working opportunities, Document 34 is the most comprehensive match for the working abroad aspect, which is the more unique part of the query. The travel agency part is simpler and could be solved with general research.\n\nHowever, looking more carefully at Document 34: \"Jeg har boet der i et par \u00e5r. Det er nemmest at planl\u00e6gge turen selv. Jobs er til at finde, men man skal kende nogen. Der er meget dyrt at bo og spise. Men hostels findes.\" - This is about living/working somewhere, planning trips yourself, finding jobs, needing connections, hostels available. This matches the working abroad aspect well.\n\nDocument 43 mentions \"rejsebureau\" which directly addresses the travel agency need, though it's very brief.\n\nGiven I need to choose the most relevant documents, I'll go with:\n- **34** for the working abroad experience and advice\n- **43** for the travel agency mention\n- **51** as it mentions a travel company \"Dr\u00f8mmerejser\"\n\nActually, re-reading: the query emphasizes she can't find a travel agency for a package deal AND wants to work. Document 34 is the only one with substantial content about working abroad. Document 43 is too vague. Document 51 is also vague.\n\nThe most relevant single document is **34** for the working abroad advice (jobs, knowing people, hostels, expenses). For travel agencies, none of the documents specifically help with Hawaii package deals.\n\nI'll include 34 and 51 (as \"Dr\u00f8mmerejser\" could potentially help with exotic destinations like Hawaii) and 43 (mentions travel bureau).\n\nAfter careful reconsideration, the closest matches are:\n\n**TITLE: ID 34** - About living/working abroad, finding jobs, hostels\n**TITLE: ID 43** - Mentions travel agency (\"rejsebureau\")\n**TITLE: ID 51** - Mentions \"Dr\u00f8mmerejser\" (Dream Travels)\n\nFinal Answer: [34, 43, 51]",
+    "parsed_ids": [
+      "14",
+      "15",
+      "16"
+    ],
+    "gold_ids": [
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "17",
+    "query_text": "Hvis man vil l\u00e6se den bedste, objektive historielitteratur om Israel, Pal\u00e6stina og Libanon, hvilke b\u00f8ger skal man s\u00e5 have fat i? #twitterhjerne",
+    "model_raw_output": "I need to find documents about the best objective historical literature about Israel, Palestine, and Lebanon.\n\nLooking through the documents, I found:\n\n**ID: 68 | CONTENT:** Den grundigste bog, jeg har l\u00e6st, er The Arab-Israel Reader, som er blevet l\u00f8bende opdateret i 40-50 \u00e5r.\n\n**ID: 77 | CONTENT:** Den bedste jeg har l\u00e6st er 'Enemies and neighbors' af Ian Black, der var mellem\u00f8stkorrespondent for Guardian i 30 \u00e5r. Velskrevet og gennemarbejdet.\n\n**ID: 87 | CONTENT:** Jeg har haft stor gl\u00e6de af Routledges h\u00e5ndb\u00f8ger p\u00e5 andre emner. De kan godt v\u00e6re til den t\u00f8rre side, men fulde af god viden:\n\n**ID: 95 | CONTENT:** James Barr: A Line in the sand evt suppleret med Eugene Rogan: The Fall of the Ottomans som giver noget forhistorie der ikke er direkte relateret til regionen (alene).\n\nThese four documents directly answer the query about books on Israel, Palestine, and Lebanon history. The most directly relevant are 68, 77, and 95, which give specific book recommendations. Document 87 mentions Routledge handbooks as a general source but doesn't specify Middle East history.\n\nFinal Answer: [68, 77, 87, 95]",
+    "parsed_ids": [
+      "18",
+      "19",
+      "20",
+      "21"
+    ],
+    "gold_ids": [
+      "18",
+      "19",
+      "20",
+      "21"
+    ],
+    "is_correct": true
+  }
+]

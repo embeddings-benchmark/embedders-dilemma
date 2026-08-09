@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "a little girl walks on a boardwalk with blue domes in the background .",
+    "sentence2": "a man going over a jump on his bike with a river in the background",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences describe entirely different subjects, actions, and settings. Sentence 1 depicts a little girl walking on a boardwalk with blue domes in the background, while Sentence 2 shows a man performing a biking stunt over a jump near a river. There is no meaningful overlap in semantic content, entities, or context, making them completely unrelated.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The two sentences describe entirely different subjects, actions, and settings. Sentence 1 depicts a little girl walking on a boardwalk with blue domes in the background, while Sentence 2 shows a man performing a biking stunt over a jump near a river. There is no meaningful overlap in semantic content, entities, or context, making them completely unrelated.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "terminal 1is connected to terminal 4",
+    "sentence2": "terminals 1 and 4 are connected",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences express the exact same core fact: a connection exists between terminal 1 and terminal 4. The differences are purely syntactic (word order, pluralization of 'terminals', and a minor typographical error '1is' in the first sentence). These variations do not alter the underlying meaning, making the two statements semantically identical.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences express the exact same core fact: a connection exists between terminal 1 and terminal 4. The differences are purely syntactic (word order, pluralization of 'terminals', and a minor typographical error '1is' in the first sentence). These variations do not alter the underlying meaning, making the two statements semantically identical.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "ask yourself what you look for in a friend too .",
+    "sentence2": "i went out & found new friends .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences revolve around the general topic of friendship, but they express fundamentally different ideas and intents. Sentence 1 is advice-focused, encouraging introspection about the qualities one seeks in a friend. Sentence 2 is action-focused, describing the process of going out and successfully making new friends. Because they share only a topical keyword while differing in meaning, context, and purpose, their semantic similarity is low.\",\n  \"output\": 1.5\n}",
+    "reasoning": "Both sentences revolve around the general topic of friendship, but they express fundamentally different ideas and intents. Sentence 1 is advice-focused, encouraging introspection about the qualities one seeks in a friend. Sentence 2 is action-focused, describing the process of going out and successfully making new friends. Because they share only a topical keyword while differing in meaning, context, and purpose, their semantic similarity is low.",
+    "predicted_sim": 1.5,
+    "gold_score": 1.6,
+    "abs_diff": 0.10000000000000009
+  },
+  {
+    "sentence1": "positive battery terminal is not separated by a gap from terminal 4",
+    "sentence2": "terminal 4 and the positive terminal are not separated by the gap",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the exact same physical relationship: there is no gap between the positive terminal and terminal 4. The only differences are minor syntactic variations (reversed subject/object order and slight phrasing differences like 'a gap' vs 'the gap' and 'battery' omission), none of which alter the core meaning. They are direct paraphrases with identical semantic content.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences describe the exact same physical relationship: there is no gap between the positive terminal and terminal 4. The only differences are minor syntactic variations (reversed subject/object order and slight phrasing differences like 'a gap' vs 'the gap' and 'battery' omission), none of which alter the core meaning. They are direct paraphrases with identical semantic content.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "police stop maldives presidential election",
+    "sentence2": "keita wins mali presidential election",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the broad topical phrase 'presidential election,' but they describe completely different events, locations, and outcomes (Maldives vs. Mali, police intervention vs. a candidate's victory). This limited lexical overlap does not translate to meaningful semantic equivalence, resulting in a very low similarity score.\",\n  \"output\": 0.6\n}",
+    "reasoning": "Both sentences share the broad topical phrase 'presidential election,' but they describe completely different events, locations, and outcomes (Maldives vs. Mali, police intervention vs. a candidate's victory). This limited lexical overlap does not translate to meaningful semantic equivalence, resulting in a very low similarity score.",
+    "predicted_sim": 0.6,
+    "gold_score": 1.2,
+    "abs_diff": 0.6
+  }
+]

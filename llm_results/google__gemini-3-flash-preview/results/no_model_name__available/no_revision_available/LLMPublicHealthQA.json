@@ -1,0 +1,37 @@
+{
+  "dataset_revision": "b05938525381b7aebc079f88fc3ed8f572a80bb9",
+  "task_name": "LLMPublicHealthQA",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "recall@1": 0.49,
+        "recall@2": 0.65,
+        "recall@3": 0.73,
+        "recall@5": 0.91,
+        "mrecall@1": 0.49,
+        "mrecall@2": 0.65,
+        "mrecall@3": 0.73,
+        "mrecall@5": 0.91,
+        "capped_recall@1": 0.49,
+        "main_score": 0.49,
+        "usage_stats": {
+          "input_tokens": 3234731,
+          "cached_tokens": 2565147,
+          "output_tokens": 19126,
+          "thinking_tokens": 689389,
+          "total_tokens": 3943246,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 515.4991817474365,
+  "kg_co2_emissions": null
+}

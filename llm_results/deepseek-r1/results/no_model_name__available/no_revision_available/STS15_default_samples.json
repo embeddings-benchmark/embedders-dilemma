@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "a little girl walks on a boardwalk with blue domes in the background .",
+    "sentence2": "a man going over a jump on his bike with a river in the background",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe outdoor scenes with background elements (blue domes vs. river), but the subjects and actions differ significantly: a girl walking versus a man biking over a jump. The core elements (subject, action, background details) are unrelated beyond the general outdoor setting.\",\n  \"output\": 1.0\n}",
+    "reasoning": "Both sentences describe outdoor scenes with background elements (blue domes vs. river), but the subjects and actions differ significantly: a girl walking versus a man biking over a jump. The core elements (subject, action, background details) are unrelated beyond the general outdoor setting.",
+    "predicted_sim": 1.0,
+    "gold_score": 0.0,
+    "abs_diff": 1.0
+  },
+  {
+    "sentence1": "terminal 1is connected to terminal 4",
+    "sentence2": "terminals 1 and 4 are connected",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same information that terminal 1 and terminal 4 share a connection. The first sentence uses a directional structure ('is connected to'), while the second employs a mutual phrasing ('are connected'), but the core meaning is identical. Grammatical differences (pluralization, syntax) do not alter the semantic equivalence.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey the same information that terminal 1 and terminal 4 share a connection. The first sentence uses a directional structure ('is connected to'), while the second employs a mutual phrasing ('are connected'), but the core meaning is identical. Grammatical differences (pluralization, syntax) do not alter the semantic equivalence.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "ask yourself what you look for in a friend too .",
+    "sentence2": "i went out & found new friends .",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 focuses on introspection about qualities sought in a friend, while Sentence 2 describes actively seeking and finding new friends. Both mention friends but address different aspects (self-reflection vs. action). The overlap is minimal beyond the shared theme of friendship.\",\n  \"output\": 1.0\n}",
+    "reasoning": "Sentence 1 focuses on introspection about qualities sought in a friend, while Sentence 2 describes actively seeking and finding new friends. Both mention friends but address different aspects (self-reflection vs. action). The overlap is minimal beyond the shared theme of friendship.",
+    "predicted_sim": 1.0,
+    "gold_score": 1.6,
+    "abs_diff": 0.6000000000000001
+  },
+  {
+    "sentence1": "positive battery terminal is not separated by a gap from terminal 4",
+    "sentence2": "terminal 4 and the positive terminal are not separated by the gap",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same meaning that terminal 4 and the positive battery terminal lack separation by a gap. The minor differences in phrasing (e.g., 'a gap' vs. 'the gap' and word order) do not alter the core message. The articles 'a' and 'the' may imply generality vs. specificity, but the absence of additional context makes this distinction negligible for semantic similarity.\",\n  \"output\": 4.9\n}",
+    "reasoning": "Both sentences convey the same meaning that terminal 4 and the positive battery terminal lack separation by a gap. The minor differences in phrasing (e.g., 'a gap' vs. 'the gap' and word order) do not alter the core message. The articles 'a' and 'the' may imply generality vs. specificity, but the absence of additional context makes this distinction negligible for semantic similarity.",
+    "predicted_sim": 4.9,
+    "gold_score": 5.0,
+    "abs_diff": 0.09999999999999964
+  },
+  {
+    "sentence1": "police stop maldives presidential election",
+    "sentence2": "keita wins mali presidential election",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences discuss presidential elections, which is a common theme. However, they involve different countries (Maldives vs. Mali) and describe opposing outcomes: one election being stopped by police (no result) and the other concluding with a winner (Keita). The entities, actions, and contexts are distinct, limiting semantic overlap.\",\n  \"output\": 1.0\n}",
+    "reasoning": "Both sentences discuss presidential elections, which is a common theme. However, they involve different countries (Maldives vs. Mali) and describe opposing outcomes: one election being stopped by police (no result) and the other concluding with a winner (Keita). The entities, actions, and contexts are distinct, limiting semantic overlap.",
+    "predicted_sim": 1.0,
+    "gold_score": 1.2,
+    "abs_diff": 0.19999999999999996
+  }
+]

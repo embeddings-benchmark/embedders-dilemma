@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Show me dates for music festivals in 2018",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for dates and schedules for music festivals, which is a request to find information about upcoming or past events. Although 'music' is mentioned, it specifies the category of the event rather than requesting audio playback, song search, or artist information. Therefore, the core intent aligns with the 'event' domain.\",\n  \"output\": \"event\"\n}",
+        "parsed_output": "event",
+        "ground_truth": "event",
+        "is_correct": true
+    },
+    {
+        "input_text": "Remind me at 8pm to  watch Orange Is The New Black",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance explicitly uses the phrase 'Remind me' followed by a specific clock time ('at 8pm') and a task ('to watch Orange Is The New Black'). This directly indicates the intent to set a time-based notification for a future action, which perfectly matches the 'reminder' domain from the provided list.\",\n  \"output\": \"reminder\"\n}",
+        "parsed_output": "reminder",
+        "ground_truth": "reminder",
+        "is_correct": true
+    },
+    {
+        "input_text": "What does the forecast look like for the week",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance asks about a 'forecast' for the 'week', which is a direct request for meteorological conditions and long-term weather predictions. This clearly aligns with the 'weather' domain.\",\n  \"output\": \"weather\"\n}",
+        "parsed_output": "weather",
+        "ground_truth": "weather",
+        "is_correct": true
+    },
+    {
+        "input_text": "Any breaking news today?",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance explicitly asks for 'breaking news,' which directly indicates a request for current news updates. This clearly aligns with the 'news' domain among the provided options.\",\n  \"output\": \"news\"\n}",
+        "parsed_output": "news",
+        "ground_truth": "news",
+        "is_correct": true
+    },
+    {
+        "input_text": "send Izzy via Facebook that talk to you later",
+        "model_raw_output": "{\n  \"reasoning\": \"The user explicitly requests to send a message ('talk to you later') to a specific contact ('Izzy') using a social/messaging platform ('Facebook'). This action directly aligns with the 'messaging' domain, which covers sending texts, chats, and social media messages.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    }
+]

@@ -1,0 +1,114 @@
+{
+  "dataset_revision": "7a79fd41b024091522d04e84d8d9dc93d223cf8c",
+  "task_name": "STS22.v2",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "cosine_spearman": 0.722997,
+        "cosine_pearson": 0.737435,
+        "usage_stats": {
+          "input_tokens": 253561,
+          "output_tokens": 104628,
+          "total_tokens": 358189,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.722997,
+        "hf_subset": "en",
+        "languages": [
+          "eng-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.691657,
+        "cosine_pearson": 0.704231,
+        "usage_stats": {
+          "input_tokens": 609307,
+          "output_tokens": 275979,
+          "total_tokens": 885286,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.691657,
+        "hf_subset": "de",
+        "languages": [
+          "deu-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.737503,
+        "cosine_pearson": 0.74612,
+        "usage_stats": {
+          "input_tokens": 192794,
+          "output_tokens": 115363,
+          "total_tokens": 308157,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.737503,
+        "hf_subset": "es",
+        "languages": [
+          "spa-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.833656,
+        "cosine_pearson": 0.837855,
+        "usage_stats": {
+          "input_tokens": 126992,
+          "output_tokens": 54915,
+          "total_tokens": 181907,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.833656,
+        "hf_subset": "fr",
+        "languages": [
+          "fra-Latn"
+        ]
+      },
+      {
+        "cosine_spearman": 0.694959,
+        "cosine_pearson": 0.696869,
+        "usage_stats": {
+          "input_tokens": 305103,
+          "output_tokens": 143838,
+          "total_tokens": 448941,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.694959,
+        "hf_subset": "ru",
+        "languages": [
+          "rus-Cyrl"
+        ]
+      },
+      {
+        "cosine_spearman": 0.706891,
+        "cosine_pearson": 0.742504,
+        "usage_stats": {
+          "input_tokens": 484247,
+          "output_tokens": 288825,
+          "total_tokens": 773072,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.706891,
+        "hf_subset": "zh",
+        "languages": [
+          "cmn-Hans"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 4446.818714380264,
+  "kg_co2_emissions": null,
+  "date": 1774529887.636419
+}

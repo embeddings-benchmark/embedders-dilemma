@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "a little girl walks on a boardwalk with blue domes in the background .",
+    "sentence2": "a man going over a jump on his bike with a river in the background",
+    "model_raw_output": "{\n  \"reasoning\": \"The sentences share a similar syntactic structure (a person performing an action in a setting with a background element), but the subjects ('little girl' vs. 'man'), actions ('walks' vs. 'going over a jump'), and specific background features ('blue domes' vs. 'river') are entirely different. There is no overlap in entities or events, making the semantic meaning very distant. The only commonality is the generic outdoor context, which is too broad to warrant a higher score.\",\n  \"output\": 0.3\n}",
+    "reasoning": "The sentences share a similar syntactic structure (a person performing an action in a setting with a background element), but the subjects ('little girl' vs. 'man'), actions ('walks' vs. 'going over a jump'), and specific background features ('blue domes' vs. 'river') are entirely different. There is no overlap in entities or events, making the semantic meaning very distant. The only commonality is the generic outdoor context, which is too broad to warrant a higher score.",
+    "predicted_sim": 0.3,
+    "gold_score": 0.0,
+    "abs_diff": 0.3
+  },
+  {
+    "sentence1": "terminal 1is connected to terminal 4",
+    "sentence2": "terminals 1 and 4 are connected",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences express the same fact: that terminal 1 and terminal 4 are connected. The first sentence uses a possessive structure 'terminal 1 is connected to terminal 4', while the second uses a plural subject 'terminals 1 and 4 are connected'. The minor typo (missing space in '1is') does not affect the semantics. The meaning is identical.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences express the same fact: that terminal 1 and terminal 4 are connected. The first sentence uses a possessive structure 'terminal 1 is connected to terminal 4', while the second uses a plural subject 'terminals 1 and 4 are connected'. The minor typo (missing space in '1is') does not affect the semantics. The meaning is identical.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "ask yourself what you look for in a friend too .",
+    "sentence2": "i went out & found new friends .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences mention 'friends', but their meanings are distinct. Sentence 1 advises introspection on what one values in a friend, while Sentence 2 describes a personal action of finding new friends. The topical overlap is present, but the actions and intents differ greatly, resulting in low semantic similarity.\",\n  \"output\": 1.2\n}",
+    "reasoning": "Both sentences mention 'friends', but their meanings are distinct. Sentence 1 advises introspection on what one values in a friend, while Sentence 2 describes a personal action of finding new friends. The topical overlap is present, but the actions and intents differ greatly, resulting in low semantic similarity.",
+    "predicted_sim": 1.2,
+    "gold_score": 1.6,
+    "abs_diff": 0.40000000000000013
+  },
+  {
+    "sentence1": "positive battery terminal is not separated by a gap from terminal 4",
+    "sentence2": "terminal 4 and the positive terminal are not separated by the gap",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences express the same core fact: the positive battery terminal and terminal 4 are not separated by a gap. The only minor difference is the use of 'a gap' versus 'the gap', which does not change the meaning. The word order is reversed but the semantic relation is identical.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences express the same core fact: the positive battery terminal and terminal 4 are not separated by a gap. The only minor difference is the use of 'a gap' versus 'the gap', which does not change the meaning. The word order is reversed but the semantic relation is identical.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "police stop maldives presidential election",
+    "sentence2": "keita wins mali presidential election",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences involve a presidential election, but they are about different countries (Maldives vs. Mali). One sentence describes a police stopping the election, while the other describes a candidate winning. The shared topic is 'presidential election,' but the actions and countries are different, resulting in partial similarity. The sentences have some thematic overlap but clearly distinct meanings.\",\n  \"output\": 1.5\n}",
+    "reasoning": "Both sentences involve a presidential election, but they are about different countries (Maldives vs. Mali). One sentence describes a police stopping the election, while the other describes a candidate winning. The shared topic is 'presidential election,' but the actions and countries are different, resulting in partial similarity. The sentences have some thematic overlap but clearly distinct meanings.",
+    "predicted_sim": 1.5,
+    "gold_score": 1.2,
+    "abs_diff": 0.30000000000000004
+  }
+]

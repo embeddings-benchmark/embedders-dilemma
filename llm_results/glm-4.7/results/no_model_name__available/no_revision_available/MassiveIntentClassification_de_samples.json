@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "sie m\u00fcssen den n\u00e4chsten montag vormerken",
+        "model_raw_output": "{\n  \"reasoning\": \"The German utterance 'sie m\u00fcssen den n\u00e4chsten montag vormerken' translates to 'you must note/mark the next Monday'. This is a request to create a calendar entry or reminder for the upcoming Monday. Among the available intents in the MASSIVE list, 'calendar_set' best captures this intention as it's about setting a calendar entry for a specific date.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "spiele meine am meisten gespielten song liste",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'spiele meine am meisten gespielten song liste' translates to 'play my most played song list'. The keyword 'spiele' (play) indicates an action to start playing media. Since the object is a list of songs, the intent belongs to the music domain. Specifically, 'play_music' is the correct intent as opposed to 'music_query' because the user is requesting the system to start playback, not just ask questions about the music.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "schalte den wecker um f\u00fcnfzehn uhr ab",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'schalte den wecker um f\u00fcnfzehn uhr ab' in German translates to 'turn off the alarm at 15 o'clock'. This indicates a request to cancel or remove an alarm at a specific time, which corresponds to the 'alarm_remove' intent.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "l\u00f6sche wecker",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'l\u00f6sche wecker' is German and translates to 'delete alarm'. This action corresponds to the intent of removing an existing alarm, which maps directly to 'alarm_remove'.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "erinnere mich an mein termin am nachmittag",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'erinnere mich an mein termin am nachmittag' means 'remind me of my appointment in the afternoon'. This references a specific appointment ('termin'), which maps directly to the calendar domain. The intent implies creating a reminder or scheduling a notification for this specific event. Among the available intents, 'calendar_set' is designed for adding or setting up calendar events and appointments.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    }
+]

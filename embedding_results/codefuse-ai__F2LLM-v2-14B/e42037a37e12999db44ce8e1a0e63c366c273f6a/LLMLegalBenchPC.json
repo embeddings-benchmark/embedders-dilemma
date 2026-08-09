@@ -1,0 +1,49 @@
+{
+  "dataset_revision": "a0217dc60ec5a45077e213a9538e845533523ed0",
+  "task_name": "LLMLegalBenchPC",
+  "mteb_version": "2.11.6",
+  "scores": {
+    "test": [
+      {
+        "similarity_accuracy": 0.72,
+        "similarity_f1": 0.744898,
+        "similarity_precision": 0.647929,
+        "similarity_recall": 0.876,
+        "similarity_ap": 0.758578,
+        "cosine_accuracy": 0.72,
+        "cosine_f1": 0.744898,
+        "cosine_precision": 0.647929,
+        "cosine_recall": 0.876,
+        "cosine_ap": 0.758578,
+        "manhattan_accuracy": 0.73,
+        "manhattan_f1": 0.741497,
+        "manhattan_precision": 0.64497,
+        "manhattan_recall": 0.872,
+        "manhattan_ap": 0.755477,
+        "euclidean_accuracy": 0.724,
+        "euclidean_f1": 0.744027,
+        "euclidean_precision": 0.64881,
+        "euclidean_recall": 0.872,
+        "euclidean_ap": 0.757755,
+        "dot_accuracy": 0.722,
+        "dot_f1": 0.744898,
+        "dot_precision": 0.647929,
+        "dot_recall": 0.876,
+        "dot_ap": 0.75856,
+        "max_accuracy": 0.73,
+        "max_f1": 0.744898,
+        "max_precision": 0.64881,
+        "max_recall": 0.876,
+        "max_ap": 0.758578,
+        "main_score": 0.73,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 8.816740274429321,
+  "kg_co2_emissions": null,
+  "date": 1774402302.120334
+}

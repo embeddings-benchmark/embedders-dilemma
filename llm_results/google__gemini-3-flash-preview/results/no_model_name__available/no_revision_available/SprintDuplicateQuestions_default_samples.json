@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "What is cache on my Apple iPad Pro and how can I clear my browser cache on it ?",
+    "sentence2": "Clear browser cache - Apple iPad Pro",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 asks for both a definition of what cache is and instructions on how to clear it on an iPad Pro. Sentence 2 is a more concise query focusing specifically on the instructions for clearing the browser cache on the same device. Since both questions seek the same primary information regarding the process of clearing the cache, they are considered duplicates.\",\n  \"output\": 1\n}",
+    "reasoning": "Sentence 1 asks for both a definition of what cache is and instructions on how to clear it on an iPad Pro. Sentence 2 is a more concise query focusing specifically on the instructions for clearing the browser cache on the same device. Since both questions seek the same primary information regarding the process of clearing the cache, they are considered duplicates.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Troubleshooting guide for charging related issues on the HTC Bolt",
+    "sentence2": "Transfer files with your computer - Apple iPad mini 4",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences refer to completely different topics and devices. Sentence 1 is a troubleshooting guide for charging issues on an HTC Bolt, while Sentence 2 is about file transfer procedures for an Apple iPad mini 4. There is no topical overlap.\",\n  \"output\": 0\n}",
+    "reasoning": "The two sentences refer to completely different topics and devices. Sentence 1 is a troubleshooting guide for charging issues on an HTC Bolt, while Sentence 2 is about file transfer procedures for an Apple iPad mini 4. There is no topical overlap.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Guide on conserving the Samsung Galaxy Note 4 battery life",
+    "sentence2": "Can I use my Apple Pencil to control my Apple iPad Pro ?",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 is a guide about battery conservation for a Samsung smartphone, whereas Sentence 2 is a question about the compatibility and control functionality between an Apple Pencil and an iPad Pro. They cover different topics, brands, and devices.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 is a guide about battery conservation for a Samsung smartphone, whereas Sentence 2 is a question about the compatibility and control functionality between an Apple Pencil and an iPad Pro. They cover different topics, brands, and devices.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Does my LG G4 have any special features ?",
+    "sentence2": "Does my LG G4 have any special features ?",
+    "model_raw_output": "{\n  \"reasoning\": \"The two questions are identical in every way, including punctuation and wording. Therefore, they are duplicates.\",\n  \"output\": 1\n}",
+    "reasoning": "The two questions are identical in every way, including punctuation and wording. Therefore, they are duplicates.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "How can I pair bluetooth devices to my Samsung Galaxy S III with 4G LTE Prepaid ?",
+    "sentence2": "How do I change the phone ringtone and notification sound on my Apple iPhone 4s ?",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences ask about completely different tasks on different mobile devices. Sentence 1 is about pairing Bluetooth on a Samsung Galaxy S III, while Sentence 2 is about changing sound settings on an Apple iPhone 4s. They share no common intent or subject matter.\",\n  \"output\": 0\n}",
+    "reasoning": "The two sentences ask about completely different tasks on different mobile devices. Sentence 1 is about pairing Bluetooth on a Samsung Galaxy S III, while Sentence 2 is about changing sound settings on an Apple iPhone 4s. They share no common intent or subject matter.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  }
+]

@@ -1,0 +1,31 @@
+{
+    "task": "StackExchangeClustering",
+    "model_raw_output_preview": "{\"assignments\":[13,15,14,14,15,5,2,19,10,13,13,0,15,2,9,1,5,14,11,3,4,18,0,5,5,8,12,0,1,8,0,14,1,7,13,4,1,14,6,1,9,0,7,8,10,12,2,15,18,9,5,2,15,2,11,3,14,2,4,1,4,19,1,12,13,2,13,2,13,11,19,9,19,14,14,8,12,19,6,8,16,4,12,9,10,17,6,2,4,9,15,10,19,14,4,8,1,7,19,17,16,1,12,17,2,0,4,11,5,7,9,0,16,15,6,8,13,6,1,1,6,5,12,8,8,12,2,5,16,13,16,0,6,1,0,13,16,0,3,7,14,14,12,4,12,11,13,14,0,14,2,9,6,0,10,14,2,1,2,7,14,16,13,12,15,2,0,3,4,12,19,7,14,0,16,1,19,14,13,11,7,12,16,0,9,12,12,8,14,1,12,13,6,15,14,7,19,16,14,17,2,1]}",
+    "samples": [
+        {
+            "input_text": "Smooth trajectory on a smooth manifold",
+            "predicted_cluster": 13,
+            "gold_cluster": "physics.stackexchange.com.txt"
+        },
+        {
+            "input_text": "Experiment to find structure of water",
+            "predicted_cluster": 15,
+            "gold_cluster": "physics.stackexchange.com.txt"
+        },
+        {
+            "input_text": "What kind of diagram is best to represent the flow of a registration process?",
+            "predicted_cluster": 14,
+            "gold_cluster": "ux.stackexchange.com.txt"
+        },
+        {
+            "input_text": "Census County Commuter Flow Data?",
+            "predicted_cluster": 14,
+            "gold_cluster": "opendata.stackexchange.com.txt"
+        },
+        {
+            "input_text": "Is sustainable living basically the opposite of industrialisation",
+            "predicted_cluster": 15,
+            "gold_cluster": "sustainability.stackexchange.com.txt"
+        }
+    ]
+}

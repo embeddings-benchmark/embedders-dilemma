@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Un perro est\u00e1 con un juguete.",
+    "sentence2": "Un perro tiene un juguete.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the same subject ('un perro') and object ('un juguete'), differing only in the verb: 'est\u00e1 con' (is with) vs. 'tiene' (has). The meanings are closely related\u2014having a toy often implies being with it, and being with a toy often implies some form of possession or association. However, there is a subtle distinction: 'est\u00e1 con' emphasizes proximity or accompaniment, while 'tiene' emphasizes ownership or control. In most contexts, the sentences convey a very similar situation, so the semantic similarity is high but not perfect.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences share the same subject ('un perro') and object ('un juguete'), differing only in the verb: 'est\u00e1 con' (is with) vs. 'tiene' (has). The meanings are closely related\u2014having a toy often implies being with it, and being with a toy often implies some form of possession or association. However, there is a subtle distinction: 'est\u00e1 con' emphasizes proximity or accompaniment, while 'tiene' emphasizes ownership or control. In most contexts, the sentences convey a very similar situation, so the semantic similarity is high but not perfect.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.8,
+    "abs_diff": 0.2999999999999998
+  },
+  {
+    "sentence1": "Los ni\u00f1os acarician un conejito.",
+    "sentence2": "Los ni\u00f1os acarician un perro.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the same subject ('Los ni\u00f1os'), verb ('acarician'), and structure. The only difference is the object: 'un conejito' (a rabbit) vs. 'un perro' (a dog). While they describe similar actions with different animals, the meanings are not identical due to the distinct pets. The similarity is high but not perfect, so a rating of 4.0 reflects a close but not exact match.\",\n  \"output\": 4.0\n}",
+    "reasoning": "Both sentences share the same subject ('Los ni\u00f1os'), verb ('acarician'), and structure. The only difference is the object: 'un conejito' (a rabbit) vs. 'un perro' (a dog). While they describe similar actions with different animals, the meanings are not identical due to the distinct pets. The similarity is high but not perfect, so a rating of 4.0 reflects a close but not exact match.",
+    "predicted_sim": 4.0,
+    "gold_score": 2.2,
+    "abs_diff": 1.7999999999999998
+  },
+  {
+    "sentence1": "La gente cocina en la parrilla.",
+    "sentence2": "Los peatones miran con asombro mientras dos personas cocinan pechuga en una parrilla.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 states 'People cook on the grill' as a general statement. Sentence 2 describes a specific scene: 'Pedestrians look in amazement while two people cook chicken breast on a grill.' Both share the core concept of cooking on a grill, but Sentence 2 adds specific details (pedestrians, amazement, two people, chicken breast) that are absent in Sentence 1. The meaning is related but not identical, as Sentence 2 conveys a more elaborate situation. Thus, a moderate similarity is appropriate.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Sentence 1 states 'People cook on the grill' as a general statement. Sentence 2 describes a specific scene: 'Pedestrians look in amazement while two people cook chicken breast on a grill.' Both share the core concept of cooking on a grill, but Sentence 2 adds specific details (pedestrians, amazement, two people, chicken breast) that are absent in Sentence 1. The meaning is related but not identical, as Sentence 2 conveys a more elaborate situation. Thus, a moderate similarity is appropriate.",
+    "predicted_sim": 2.5,
+    "gold_score": 0.8,
+    "abs_diff": 1.7
+  },
+  {
+    "sentence1": "El hombre construye un peque\u00f1o castillo de arena",
+    "sentence2": "Una muchacha est\u00e1 construyendo un castillo de arena.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe building a sandcastle. Sentence 1 specifies 'a man' building 'a small sandcastle', while Sentence 2 says 'a girl' is building 'a sandcastle'. The core action and object are the same, but the subject and size specification differ. Thus the meaning is similar but not identical.\",\n  \"output\": 3.5\n}",
+    "reasoning": "Both sentences describe building a sandcastle. Sentence 1 specifies 'a man' building 'a small sandcastle', while Sentence 2 says 'a girl' is building 'a sandcastle'. The core action and object are the same, but the subject and size specification differ. Thus the meaning is similar but not identical.",
+    "predicted_sim": 3.5,
+    "gold_score": 2.2,
+    "abs_diff": 1.2999999999999998
+  },
+  {
+    "sentence1": "Un hombre est\u00e1 corriendo detr\u00e1s de un trineo tirado por cuatro perros.",
+    "sentence2": "Un hombre siendo tirado en un trineo por perros.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a man and a dog-pulled sled, but Sentence 1 specifies the man is running behind the sled pulled by four dogs, while Sentence 2 says the man is being pulled on the sled by dogs (no number given). The core scenario (man, dogs, sled) matches, but the man's action differs (running behind vs. being pulled). This results in moderate similarity.\",\n  \"output\": 3.5\n}",
+    "reasoning": "Both sentences describe a man and a dog-pulled sled, but Sentence 1 specifies the man is running behind the sled pulled by four dogs, while Sentence 2 says the man is being pulled on the sled by dogs (no number given). The core scenario (man, dogs, sled) matches, but the man's action differs (running behind vs. being pulled). This results in moderate similarity.",
+    "predicted_sim": 3.5,
+    "gold_score": 3.6,
+    "abs_diff": 0.10000000000000009
+  }
+]

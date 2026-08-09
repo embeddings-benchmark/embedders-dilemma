@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "sie m\u00fcssen den n\u00e4chsten montag vormerken",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'sie m\u00fcssen den n\u00e4chsten montag vormerken' translates to 'you have to note down next Monday'. This implies adding a reminder or event for next Monday, which falls under the 'calendar_set' intent.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "spiele meine am meisten gespielten song liste",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'spiele meine am meisten gespielten song liste' translates to 'play my most played song list'. This is a clear request to play music, specifically a playlist of frequently played songs, falling under the 'play_music' intent.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "schalte den wecker um f\u00fcnfzehn uhr ab",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to turn off (abschalten) the alarm (wecker) at a specific time (f\u00fcnfzehn uhr). This corresponds to removing or disabling an alarm, so the intent is 'alarm_remove'.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "l\u00f6sche wecker",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'l\u00f6sche wecker' translates to 'delete alarm' or 'remove alarm', which maps directly to the intent to remove an alarm.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "erinnere mich an mein termin am nachmittag",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to be reminded about an appointment ('Termin') in the afternoon. Creating a reminder for an appointment falls under setting a calendar event or reminder.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "query_id": "00003",
+    "query_text": "How to manage household finances (income & expenses) [duplicate]",
+    "model_raw_output": "ID: 3 | TITLE: A system for managing household money and avoiding fights over spending\n\nID: 38 | TITLE: The three categories of savings and advice on budgeting with a partner\n\nID: 120 | TITLE: A rough budget outline and advice on effective communication about money\n\nID: 142 | TITLE: How to figure out how much to save when moving from student to working life\n\nID: 352 | TITLE: Basic personal finance advice: emergency fund, pay off debt, then invest\n\nFinal Answer: [3, 38, 120, 142, 352]",
+    "parsed_ids": [
+      "000000003",
+      "000000038",
+      "000000120",
+      "000000142",
+      "000000352"
+    ],
+    "gold_ids": [
+      "000000003"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "00012",
+    "query_text": "Moving a personal business to a LLC accounting in California",
+    "model_raw_output": "ID: 12 | TITLE: Capital Contributions and Distributions for Small Business\nID: 141 | TITLE: LLC Loan and Liability Protection\nID: 193 | TITLE: California LLC Non-Dissolution and Tax Liability\nID: 231 | TITLE: LLC Tax Status and Reporting for Small Business\nID: 356 | TITLE: Capital Contribution Mechanics for Business\n\nFinal Answer: [12, 141, 193, 231, 356]",
+    "parsed_ids": [
+      "000000012",
+      "000000141",
+      "000000193",
+      "000000231",
+      "000000356"
+    ],
+    "gold_ids": [
+      "000000012"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "00013",
+    "query_text": "What is the preferred way to finance home improvements when preparing to sell your house?",
+    "model_raw_output": "ID: 314 | CONTENT: In the first years of a loan, most of what you're paying is interest, so my guess is that this is a bad idea. But there are lots of mortgage calculators offered for free on the web (your bank's website may have one) so I'd suggest that you spend some time running actual numbers before deciding. Reminder: Most renovations do NOT pay for themselves in increased sales price, not least because you'll lose the buyers who don't like what you've done but would have been happy to renovate it themselves to their own tastes. Unless there is something which will actively impair your ability to sell the house, you should usually renovate when you plan to stay there for a while and take your returns in enjoying the house more, NOT on the way out. (There's been some recent discussion of this over in Home Improvement, pointing out that the changes which return more than they cost are usually simple things like refreshing the paint, \"staging\" the house so it looks lived in but not cluttered, replacing damaged blinds, washing windows, putting out a few more flowers, and so on.)\n\nID: 340 | CONTENT: The exact answers depend on what you're going to do and what you started with and what your local market is like ... But a bit of websearching (and/or asking a good general contractor) will yield a table of typical improvement in sale price from various renovations. One thing you'll discover is that unless you are staring with something almost unsellable, few if any if thgem return more than you paid for them; getting back 85% is exceptionally good. A possible exception is energy-saving measures; basic air-seaking and attic insulation improvements pay back their cost relatively quickly, and solar can do so if you have a decent site for that -- and these are often subsidized in one way or another by government or utilities. For most things, thoiugh, the real answer is to ask yourself what would make the house better for you and your family, and what that would be worth to you. If you can get it done for less than that, go for it. It's a good idea to put together as complete a list vas possible before starting, since some will be considerably less expensive if done in the right order or at the same time. (Redo your roofing before installing rooftop solar panels, if possible; as one example.) Then prioritize thiose by what will improve your enjoyment of the house most. You'll probably get better specific advice over in the Home Improvement area of Stack Exchange.\n\nFinal Answer: [314, 340]",
+    "parsed_ids": [
+      "000000314",
+      "000000340"
+    ],
+    "gold_ids": [
+      "000000013"
+    ],
+    "is_correct": false
+  },
+  {
+    "query_id": "00015",
+    "query_text": "Selling an app, sharing income, how does it work tax-wise?",
+    "model_raw_output": "ID: 275 | TITLE: Business activities and tax declaration\n\nID: 291 | TITLE: Self-employed tax and expenses\n\nFinal Answer: [275, 291]",
+    "parsed_ids": [
+      "000000275",
+      "000000291"
+    ],
+    "gold_ids": [
+      "000000015"
+    ],
+    "is_correct": false
+  },
+  {
+    "query_id": "00016",
+    "query_text": "Which is the better strategy for buying stocks monthly?",
+    "model_raw_output": "ID: 146 | CONTENT: Past results are not a predictor of future results. There is no explicit upper bound on a market, and even if individual companies' values were remaining unchanged one would expect the market to drift upward in the long term. Plus, there's been some shift from managing companies for dividends to managing stocks for growth, which will tend to increase the upward push. Trying to time the market -- to guess when it's going to move in any particular direction -- is usually closer to gambling than investing. The simplest answer remains a combination of buy-and-hold and dollar-cost averaging. Buy at a constant number of dollars per month (or whatever frequency you prefer), and you will automatically buy more when the stock/fund is lower, less when it is higher. That takes advantage of downturns as buying opportunities without missing out on possible gains at the other end. Personally, I add a bit of contrarian buying to that -- I increased my buying another notch or two while the market was depressed, since I had money I wouldn't need any time soon (buy and hold) and I was reasonably confident that enough of the market would come back strongly enough that I wasn't at significant risk of losing the investment. That's one of the things which causes me to be categorized as an \"aggressive investor\" even though I'm operating with a very vanilla mix of mutual funds and not attempting to micromanage my money. My goal is to have the money work for me, not vice versa.\n\nFinal Answer: [146]",
+    "parsed_ids": [
+      "000000146"
+    ],
+    "gold_ids": [
+      "000000016"
+    ],
+    "is_correct": false
+  }
+]

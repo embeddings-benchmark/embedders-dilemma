@@ -1,0 +1,17 @@
+{
+  "input_tokens": 1492097,
+  "cached_tokens": 0,
+  "output_tokens": 703268,
+  "thinking_tokens": 622966,
+  "total_tokens": 2195365,
+  "cost": 0.0,
+  "n_queries": 100,
+  "n_llm_calls": 100,
+  "n_failed": 0,
+  "wall_time_s": 6362.79,
+  "model": "minimax-m2.7",
+  "top_k": 100,
+  "max_doc_chars": 800,
+  "first_stage": "bm25s",
+  "task": "BRIGHTEconomics"
+}

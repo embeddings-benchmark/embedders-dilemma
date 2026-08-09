@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "\u6b21\u306e\u6708\u66dc\u306b\u5370\u3092\u3064\u3051\u308b",
+        "model_raw_output": "{\n  \"reasoning\": \"The user wants to mark next Monday, which corresponds to setting a calendar event or reminder. The intent 'calendar_set' is appropriate.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u79c1\u304c\u6700\u3082\u518d\u751f\u3057\u305f\u66f2\u30ea\u30b9\u30c8\u3092\u518d\u751f\u3057\u3066\u304f\u3060\u3055\u3044",
+        "model_raw_output": "{\n  \"reasoning\": \"The user requests to play a list of their most played songs, which involves playing music based on their listening history. The MASSIVE intent 'play_music' covers playing specific songs, artists, or playlists, making it the most appropriate match.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u5348\u5f8c\u4e09\u6642\u306e\u30a2\u30e9\u30fc\u30e0\u3092\u7121\u52b9\u306b\u3059\u308b",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance '\u5348\u5f8c\u4e09\u6642\u306e\u30a2\u30e9\u30fc\u30e0\u3092\u7121\u52b9\u306b\u3059\u308b' translates to 'Disable the alarm at 3 PM.' The action '\u7121\u52b9\u306b\u3059\u308b' (disable) implies deactivating or removing an existing alarm, which matches the intent 'alarm_remove' defined as removing an alarm.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u30a2\u30e9\u30fc\u30e0\u3092\u30ad\u30e3\u30f3\u30bb\u30eb",
+        "model_raw_output": "{\n  \"reasoning\": \"\u30e6\u30fc\u30b6\u30fc\u306f\u300c\u30a2\u30e9\u30fc\u30e0\u3092\u30ad\u30e3\u30f3\u30bb\u30eb\u300d\u3068\u8a00\u3063\u3066\u3044\u307e\u3059\u3002\u3053\u308c\u306f\u65e2\u306b\u8a2d\u5b9a\u3055\u308c\u305f\u30a2\u30e9\u30fc\u30e0\u3092\u524a\u9664\u3059\u308b\u610f\u56f3\u3067\u3059\u3002\u5bfe\u5fdc\u3059\u308bMASSIVE\u30a4\u30f3\u30c6\u30f3\u30c8\u306f'alarm_remove'\u3067\u3059\u3002\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "\u5348\u5f8c\u306e\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb\u3092\u30ea\u30de\u30a4\u30f3\u30c9\u3057\u3066",
+        "model_raw_output": "{\n  \"reasoning\": \"The user wants to be reminded of their afternoon schedule, which implies querying existing calendar events. The phrase '\u30ea\u30de\u30a4\u30f3\u30c9\u3057\u3066' (remind me) combined with '\u5348\u5f8c\u306e\u30b9\u30b1\u30b8\u30e5\u30fc\u30eb' (afternoon schedule) aligns with the 'calendar_query' intent in the MASSIVE list, as it requests information about scheduled events rather than setting or removing them.\",\n  \"output\": \"calendar_query\"\n}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

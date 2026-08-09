@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "A person is on a baseball team.",
+    "sentence2": "Eine Person spielt in einem Team Basketball.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share nearly identical syntactic structure and describe a person participating in a team sport. The core difference lies in the specific sport mentioned ('baseball' vs. 'basketball') and minor phrasing variations ('is on' vs. 'plays in'). While they are highly similar in context, intent, and wording, the change in sport alters the specific factual meaning. Therefore, they are roughly equivalent in topic and structure but not semantically identical.\",\n  \"output\": 3.0\n}",
+    "reasoning": "Both sentences share nearly identical syntactic structure and describe a person participating in a team sport. The core difference lies in the specific sport mentioned ('baseball' vs. 'basketball') and minor phrasing variations ('is on' vs. 'plays in'). While they are highly similar in context, intent, and wording, the change in sport alters the specific factual meaning. Therefore, they are roughly equivalent in topic and structure but not semantically identical.",
+    "predicted_sim": 3.0,
+    "gold_score": 2.4,
+    "abs_diff": 0.6000000000000001
+  },
+  {
+    "sentence1": "Our current vehicles will be in museums when everyone has their own aircraft.",
+    "sentence2": "Das Auto muss etwas in Stand gesetzt werden",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences are completely unrelated in meaning and context. Sentence 1 makes a speculative prediction about future transportation trends, suggesting that personal aircraft will become commonplace and current ground vehicles will become obsolete museum artifacts. Sentence 2 is a German statement indicating that a specific car requires repair or maintenance. While both loosely reference vehicles, their topics, intents, and semantic content do not overlap in any meaningful way.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The two sentences are completely unrelated in meaning and context. Sentence 1 makes a speculative prediction about future transportation trends, suggesting that personal aircraft will become commonplace and current ground vehicles will become obsolete museum artifacts. Sentence 2 is a German statement indicating that a specific car requires repair or maintenance. While both loosely reference vehicles, their topics, intents, and semantic content do not overlap in any meaningful way.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.2,
+    "abs_diff": 0.2
+  },
+  {
+    "sentence1": "A woman supervisor is instructing the male workers.",
+    "sentence2": "Eine Frau arbeitet als Krankenpflegerin.",
+    "model_raw_output": "{\"reasoning\": \"Both sentences mention a woman, but they describe entirely different professional roles and contexts. Sentence 1 depicts a female supervisor instructing male workers, while Sentence 2 (in German) translates to 'A woman works as a nurse.' There is no meaningful overlap in actions, occupations, or scenarios beyond the shared generic subject, resulting in extremely low semantic similarity.\", \"output\": 0.5}",
+    "reasoning": "Both sentences mention a woman, but they describe entirely different professional roles and contexts. Sentence 1 depicts a female supervisor instructing male workers, while Sentence 2 (in German) translates to 'A woman works as a nurse.' There is no meaningful overlap in actions, occupations, or scenarios beyond the shared generic subject, resulting in extremely low semantic similarity.",
+    "predicted_sim": 0.5,
+    "gold_score": 1.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "A bike is next to a couple women.",
+    "sentence2": "Ein Kind neben einem Fahrrad.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a bicycle positioned next to a person, sharing the same spatial relationship and one key entity. However, they differ significantly in the person involved: Sentence 1 specifies 'a couple women' (adult females), while Sentence 2 is German for 'A child next to a bicycle', specifying a child. This difference in the main subject makes the meanings only partially overlapping rather than equivalent, warranting a moderate similarity score.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences describe a bicycle positioned next to a person, sharing the same spatial relationship and one key entity. However, they differ significantly in the person involved: Sentence 1 specifies 'a couple women' (adult females), while Sentence 2 is German for 'A child next to a bicycle', specifying a child. This difference in the main subject makes the meanings only partially overlapping rather than equivalent, warranting a moderate similarity score.",
+    "predicted_sim": 2.5,
+    "gold_score": 2.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "The group is eating while taking in a breathtaking view.",
+    "sentence2": "Eine Gruppe sieht einen ungew\u00f6hnlichen Baum an.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences mention a group and involve some form of visual observation, but their core actions and focal points differ significantly. Sentence 1 describes a group eating while enjoying a scenic, breathtaking landscape, while Sentence 2 (translated from German) describes a group specifically looking at an unusual tree. They share only a very loose thematic overlap (people outdoors/observing), making them only slightly related in meaning and warranting a low similarity score.\",\n  \"output\": 1.0\n}",
+    "reasoning": "Both sentences mention a group and involve some form of visual observation, but their core actions and focal points differ significantly. Sentence 1 describes a group eating while enjoying a scenic, breathtaking landscape, while Sentence 2 (translated from German) describes a group specifically looking at an unusual tree. They share only a very loose thematic overlap (people outdoors/observing), making them only slightly related in meaning and warranting a low similarity score.",
+    "predicted_sim": 1.0,
+    "gold_score": 2.2,
+    "abs_diff": 1.2000000000000002
+  }
+]

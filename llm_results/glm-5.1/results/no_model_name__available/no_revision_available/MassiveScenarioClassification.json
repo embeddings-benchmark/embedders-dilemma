@@ -1,0 +1,183 @@
+{
+  "dataset_revision": "ba1521289b080d967f820b289dd285f22fb968a8",
+  "task_name": "MassiveScenarioClassification",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.76,
+            "f1": 0.769103,
+            "f1_weighted": 0.752725,
+            "precision": 0.781895,
+            "precision_weighted": 0.825679,
+            "recall": 0.813569,
+            "recall_weighted": 0.76,
+            "ap": null,
+            "ap_weighted": null
+          }
+        ],
+        "accuracy": 0.76,
+        "f1": 0.769103,
+        "f1_weighted": 0.752725,
+        "precision": 0.781895,
+        "precision_weighted": 0.825679,
+        "recall": 0.813569,
+        "recall_weighted": 0.76,
+        "ap": NaN,
+        "ap_weighted": NaN,
+        "main_score": 0.76,
+        "input_tokens": 268914,
+        "cached_tokens": 0,
+        "output_tokens": 2344086,
+        "thinking_tokens": 2075749,
+        "total_tokens": 2613000,
+        "cost": 0.0,
+        "usage_stats": {
+          "input_tokens": 268914,
+          "cached_tokens": 0,
+          "output_tokens": 2344086,
+          "thinking_tokens": 2075749,
+          "total_tokens": 2613000,
+          "cost": 0.0
+        },
+        "hf_subset": "en",
+        "languages": [
+          "eng-Latn"
+        ]
+      },
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.75,
+            "f1": 0.76231,
+            "f1_weighted": 0.741113,
+            "precision": 0.777079,
+            "precision_weighted": 0.82489,
+            "recall": 0.81301,
+            "recall_weighted": 0.75,
+            "ap": null,
+            "ap_weighted": null
+          }
+        ],
+        "accuracy": 0.75,
+        "f1": 0.76231,
+        "f1_weighted": 0.741113,
+        "precision": 0.777079,
+        "precision_weighted": 0.82489,
+        "recall": 0.81301,
+        "recall_weighted": 0.75,
+        "ap": NaN,
+        "ap_weighted": NaN,
+        "main_score": 0.75,
+        "input_tokens": 268914,
+        "cached_tokens": 0,
+        "output_tokens": 2344086,
+        "thinking_tokens": 2075749,
+        "total_tokens": 2613000,
+        "cost": 0.0,
+        "usage_stats": {
+          "input_tokens": 268914,
+          "cached_tokens": 0,
+          "output_tokens": 2344086,
+          "thinking_tokens": 2075749,
+          "total_tokens": 2613000,
+          "cost": 0.0
+        },
+        "hf_subset": "de",
+        "languages": [
+          "deu-Latn"
+        ]
+      },
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.75625,
+            "f1": 0.765273,
+            "f1_weighted": 0.747355,
+            "precision": 0.779533,
+            "precision_weighted": 0.828546,
+            "recall": 0.812997,
+            "recall_weighted": 0.75625,
+            "ap": null,
+            "ap_weighted": null
+          }
+        ],
+        "accuracy": 0.75625,
+        "f1": 0.765273,
+        "f1_weighted": 0.747355,
+        "precision": 0.779533,
+        "precision_weighted": 0.828546,
+        "recall": 0.812997,
+        "recall_weighted": 0.75625,
+        "ap": NaN,
+        "ap_weighted": NaN,
+        "main_score": 0.75625,
+        "input_tokens": 268914,
+        "cached_tokens": 0,
+        "output_tokens": 2344086,
+        "thinking_tokens": 2075749,
+        "total_tokens": 2613000,
+        "cost": 0.0,
+        "usage_stats": {
+          "input_tokens": 268914,
+          "cached_tokens": 0,
+          "output_tokens": 2344086,
+          "thinking_tokens": 2075749,
+          "total_tokens": 2613000,
+          "cost": 0.0
+        },
+        "hf_subset": "fr",
+        "languages": [
+          "fra-Latn"
+        ]
+      },
+      {
+        "scores_per_experiment": [
+          {
+            "accuracy": 0.75125,
+            "f1": 0.759704,
+            "f1_weighted": 0.742771,
+            "precision": 0.776589,
+            "precision_weighted": 0.828459,
+            "recall": 0.806009,
+            "recall_weighted": 0.75125,
+            "ap": null,
+            "ap_weighted": null
+          }
+        ],
+        "accuracy": 0.75125,
+        "f1": 0.759704,
+        "f1_weighted": 0.742771,
+        "precision": 0.776589,
+        "precision_weighted": 0.828459,
+        "recall": 0.806009,
+        "recall_weighted": 0.75125,
+        "ap": NaN,
+        "ap_weighted": NaN,
+        "main_score": 0.75125,
+        "input_tokens": 268914,
+        "cached_tokens": 0,
+        "output_tokens": 2344086,
+        "thinking_tokens": 2075749,
+        "total_tokens": 2613000,
+        "cost": 0.0,
+        "usage_stats": {
+          "input_tokens": 268914,
+          "cached_tokens": 0,
+          "output_tokens": 2344086,
+          "thinking_tokens": 2075749,
+          "total_tokens": 2613000,
+          "cost": 0.0
+        },
+        "hf_subset": "ja",
+        "languages": [
+          "jpn-Jpan"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 10091.926226139069,
+  "kg_co2_emissions": null
+}

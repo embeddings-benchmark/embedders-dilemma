@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "j'ai besoin de toi pour marquer lundi prochain",
+        "model_raw_output": "{\n  \"reasoning\": \"The user says 'j'ai besoin de toi pour marquer lundi prochain' which means 'I need you to mark/note next Monday.' The verb 'marquer' (to mark, to note) indicates a desire to add or set an entry for Monday next week. Given the context of scheduling or recording a date, the most fitting intent is calendar_set, as the user wants to mark a specific day (Monday) in their calendar.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "jouons ma chanson la plus \u00e9couter",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is speaking French and saying 'let's play my most listened song'. This is a clear request to play music - specifically the user's most frequently played track. The intent that best matches this action is 'play_music'.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "d\u00e9sactiver l'alarme du trois heure du soir",
+        "model_raw_output": "{\n  \"reasoning\": \"The user wants to deactivate/remove a specific alarm set for 3 PM. The phrase 'd\u00e9sactiver l'alarme' directly indicates the intent to remove an alarm, and the time 'trois heures du soir' specifies which alarm. This matches the 'alarm_remove' intent.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "annuler l'alarme",
+        "model_raw_output": "{\"reasoning\": \"The user said 'annuler l'alarme' which is French for 'cancel the alarm'. This is a clear request to remove/cancel an existing alarm, which matches the 'alarm_remove' intent.\", \"output\": {\"intent\": \"alarm_remove\"}}",
+        "parsed_output": "PARSE_FAILURE",
+        "ground_truth": "alarm_remove",
+        "is_correct": false
+    },
+    {
+        "input_text": "rappelle-moi mon emploi du temps pour l'apr\u00e8s-midi",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking in French to be reminded of their afternoon schedule. This is a request to view/retrieve their calendar information for the afternoon. The appropriate intent from the list is 'calendar_query' which covers querying the user's calendar or schedule.\",\n  \"output\": \"calendar_query\"\n}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

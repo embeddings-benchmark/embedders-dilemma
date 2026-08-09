@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Un perro est\u00e1 con un juguete.",
+    "sentence2": "Un perro tiene un juguete.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the same core subjects (a dog and a toy) and depict a nearly identical scenario. The key difference lies in the relational nuance: 'est\u00e1 con' (is with) suggests proximity or accompaniment, while 'tiene' (has) implies possession or holding. Despite this minor distinction, the overall situation and entities involved are highly overlapping, resulting in very high semantic similarity.\",\n  \"output\": 4.0\n}",
+    "reasoning": "Both sentences describe the same core subjects (a dog and a toy) and depict a nearly identical scenario. The key difference lies in the relational nuance: 'est\u00e1 con' (is with) suggests proximity or accompaniment, while 'tiene' (has) implies possession or holding. Despite this minor distinction, the overall situation and entities involved are highly overlapping, resulting in very high semantic similarity.",
+    "predicted_sim": 4.0,
+    "gold_score": 4.8,
+    "abs_diff": 0.7999999999999998
+  },
+  {
+    "sentence1": "Los ni\u00f1os acarician un conejito.",
+    "sentence2": "Los ni\u00f1os acarician un perro.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the exact same subject ('Los ni\u00f1os') and verb ('acarician'), depicting an identical action. The only difference is the direct object: 'un conejito' (a little rabbit) versus 'un perro' (a dog). Since both animals belong to the same general category (common domestic/pet animals) and the overall scenario remains functionally the same, the sentences are highly similar in meaning and structure. However, because the specific animal being petted is a factual difference, they are not semantically identical, which appropriately reduces the score from a perfect 5. This aligns with a high similarity rating on the STS scale.\",\n  \"output\": 4.0\n}",
+    "reasoning": "Both sentences share the exact same subject ('Los ni\u00f1os') and verb ('acarician'), depicting an identical action. The only difference is the direct object: 'un conejito' (a little rabbit) versus 'un perro' (a dog). Since both animals belong to the same general category (common domestic/pet animals) and the overall scenario remains functionally the same, the sentences are highly similar in meaning and structure. However, because the specific animal being petted is a factual difference, they are not semantically identical, which appropriately reduces the score from a perfect 5. This aligns with a high similarity rating on the STS scale.",
+    "predicted_sim": 4.0,
+    "gold_score": 2.2,
+    "abs_diff": 1.7999999999999998
+  },
+  {
+    "sentence1": "La gente cocina en la parrilla.",
+    "sentence2": "Los peatones miran con asombro mientras dos personas cocinan pechuga en una parrilla.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the same core event: people cooking on a grill. Sentence 1 is a brief, general statement, while Sentence 2 provides a more detailed scene (specifying that two people are cooking breast and adding the context of pedestrians watching in amazement). The fundamental action, objects, and setting are identical, resulting in high semantic overlap. However, the additional descriptive clause in Sentence 2 introduces information not present in Sentence 1, preventing a perfect match. This aligns with a high similarity score, reflecting substantial equivalence with minor differences in specificity and added context.\",\n  \"output\": 4.0\n}",
+    "reasoning": "Both sentences describe the same core event: people cooking on a grill. Sentence 1 is a brief, general statement, while Sentence 2 provides a more detailed scene (specifying that two people are cooking breast and adding the context of pedestrians watching in amazement). The fundamental action, objects, and setting are identical, resulting in high semantic overlap. However, the additional descriptive clause in Sentence 2 introduces information not present in Sentence 1, preventing a perfect match. This aligns with a high similarity score, reflecting substantial equivalence with minor differences in specificity and added context.",
+    "predicted_sim": 4.0,
+    "gold_score": 0.8,
+    "abs_diff": 3.2
+  },
+  {
+    "sentence1": "El hombre construye un peque\u00f1o castillo de arena",
+    "sentence2": "Una muchacha est\u00e1 construyendo un castillo de arena.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the same core event: building a sandcastle. The primary difference lies in the subject (man vs. girl) and a minor descriptive detail ('peque\u00f1o' vs. unspecified size). While the action and object are highly aligned, the different identity/gender of the actor prevents the meanings from being equivalent. This level of shared context with a key semantic difference typically corresponds to a 3.5 on the standard 0-5 semantic similarity scale.\",\n  \"output\": 3.5\n}",
+    "reasoning": "Both sentences describe the same core event: building a sandcastle. The primary difference lies in the subject (man vs. girl) and a minor descriptive detail ('peque\u00f1o' vs. unspecified size). While the action and object are highly aligned, the different identity/gender of the actor prevents the meanings from being equivalent. This level of shared context with a key semantic difference typically corresponds to a 3.5 on the standard 0-5 semantic similarity scale.",
+    "predicted_sim": 3.5,
+    "gold_score": 2.2,
+    "abs_diff": 1.2999999999999998
+  },
+  {
+    "sentence1": "Un hombre est\u00e1 corriendo detr\u00e1s de un trineo tirado por cuatro perros.",
+    "sentence2": "Un hombre siendo tirado en un trineo por perros.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the same entities (a man, a sled, and dogs) and revolve around the same general context of dog sledding. However, the core action and spatial relationship of the man are contradictory: in Sentence 1, the man is running *behind* the sled, while in Sentence 2, he is *inside/on* the sled being pulled by the dogs. This fundamental difference in the man's role significantly alters the meaning, placing the similarity at a low-to-moderate level where they share topic and components but not the essential event.\",\n  \"output\": 2.0\n}",
+    "reasoning": "Both sentences share the same entities (a man, a sled, and dogs) and revolve around the same general context of dog sledding. However, the core action and spatial relationship of the man are contradictory: in Sentence 1, the man is running *behind* the sled, while in Sentence 2, he is *inside/on* the sled being pulled by the dogs. This fundamental difference in the man's role significantly alters the meaning, placing the similarity at a low-to-moderate level where they share topic and components but not the essential event.",
+    "predicted_sim": 2.0,
+    "gold_score": 3.6,
+    "abs_diff": 1.6
+  }
+]

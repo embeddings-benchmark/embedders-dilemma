@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "In una mossa largamente vista come sorprendente, la Banca d'Inghilterra alz\u00f2 i tassi d'interesse inglesi dal 5% al 5,25%, il massimo in cinque anni.",
+    "sentence2": "I tassi d'interesse inglesi salirono dal 5% al 5,25%.",
+    "model_raw_output": "{\n  \"reasoning\": \"The first sentence states that the Bank of England raised interest rates from 5% to 5.25%, which directly matches the claim in the second sentence that English interest rates rose from 5% to 5.25%. The additional context about the move being surprising or a five-year high does not affect the core factual overlap. Therefore, the hypothesis is semantically entailed by the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "The first sentence states that the Bank of England raised interest rates from 5% to 5.25%, which directly matches the claim in the second sentence that English interest rates rose from 5% to 5.25%. The additional context about the move being surprising or a five-year high does not affect the core factual overlap. Therefore, the hypothesis is semantically entailed by the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Ieri \u00e8 emerso che il Ministro della Difesa ha respinto una richiesta dall'Argentina di autorizzare un rifornimento limitato di parti di ricambio prodotte dal Regno Unito per la marina argentina, cominciato durante la Guerra del Golfo.",
+    "sentence2": "Il Ministro della Difesa del Regno Unito ha respinto una richiesta di rifornimenti dell'Argentina.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that a Minister of Defense rejected a request from Argentina regarding spare parts produced by the UK, but it does not specify which country's minister. The hypothesis explicitly claims it was the UK Minister of Defense. Since the premise does not entail the nationality of the minister, the hypothesis adds information not guaranteed by the premise. Therefore, semantic entailment does not hold.\",\n  \"output\": 0\n}",
+    "reasoning": "The premise states that a Minister of Defense rejected a request from Argentina regarding spare parts produced by the UK, but it does not specify which country's minister. The hypothesis explicitly claims it was the UK Minister of Defense. Since the premise does not entail the nationality of the minister, the hypothesis adds information not guaranteed by the premise. Therefore, semantic entailment does not hold.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  },
+  {
+    "sentence1": "In novembre, l'unit\u00e0 organizz\u00f2 un'esposizione di falsi al V&A per mettere in luce la crescente diffusione e sofisticazione del crimine d'arte.",
+    "sentence2": "Il crimine d'arte \u00e8 in aumento.",
+    "model_raw_output": "{\n  \"reasoning\": \"La prima frase afferma che l'unit\u00e0 organizz\u00f2 un'esposizione di falsi per mettere in luce la crescente diffusione e sofisticazione del crimine d'arte. 'Crescente diffusione' implica che il crimine d'arte \u00e8 in aumento. Pertanto, il significato della seconda frase ('Il crimine d'arte \u00e8 in aumento') \u00e8 semanticamente implicato dalla prima.\",\n  \"output\": 1\n}",
+    "reasoning": "La prima frase afferma che l'unit\u00e0 organizz\u00f2 un'esposizione di falsi per mettere in luce la crescente diffusione e sofisticazione del crimine d'arte. 'Crescente diffusione' implica che il crimine d'arte \u00e8 in aumento. Pertanto, il significato della seconda frase ('Il crimine d'arte \u00e8 in aumento') \u00e8 semanticamente implicato dalla prima.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Belknap fu accusato da un voto unanime della Camera dei Rappresentanti di aver presumibilmente ricevuto denaro in cambio di assegnazioni di posti di lavoro.",
+    "sentence2": "Belknap fu accusato di aver ricevuto denaro in cambio di assegnazioni di posti di lavoro.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 includes the qualifier 'presumibilmente' (presumably) regarding the accusation of receiving money, indicating that the accusation is based on presumption. Sentence 2 omits this qualifier, asserting a direct accusation of receiving money. The presence of 'presumibilmente' in the premise weakens the claim compared to the hypothesis, so the hypothesis is not semantically entailed by the premise.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 includes the qualifier 'presumibilmente' (presumably) regarding the accusation of receiving money, indicating that the accusation is based on presumption. Sentence 2 omits this qualifier, asserting a direct accusation of receiving money. The presence of 'presumibilmente' in the premise weakens the claim compared to the hypothesis, so the hypothesis is not semantically entailed by the premise.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  },
+  {
+    "sentence1": "I robot sono stati usati nei lavori di assemblaggio finale delle automobili e per pittura a spruzzo e i fornitori sperano di essere capaci di sviluppare questi mercati adesso che la tecnologia \u00e8 stata provata.",
+    "sentence2": "I robot sono usati in lavori di assemblaggio.",
+    "model_raw_output": "{\n  \"reasoning\": \"The premise states that robots have been used in final assembly work of automobiles. The hypothesis states that robots are used in assembly work. Since 'final assembly of automobiles' is a specific type of assembly work, the hypothesis is a more general statement that is logically entailed by the premise. Therefore, the meaning of the hypothesis follows from the premise.\",\n  \"output\": 1\n}",
+    "reasoning": "The premise states that robots have been used in final assembly work of automobiles. The hypothesis states that robots are used in assembly work. Since 'final assembly of automobiles' is a specific type of assembly work, the hypothesis is a more general statement that is logically entailed by the premise. Therefore, the meaning of the hypothesis follows from the premise.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "How massive DDoS attacks are undermining the Internet ",
+    "sentence2": "Friday's #DDoSAttack & gt ; #IoT said to be medium . How can we reduce vulnerability of these devices ? ",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 discusses the general issue of massive DDoS attacks undermining the Internet, while Sentence 2 refers to a specific DDoS attack on Friday, mentions IoT devices as medium, and asks about reducing vulnerability. Although both relate to DDoS attacks, their focus and content differ significantly: one is a broad statement about impact, the other is a specific event with a call to action. They are not semantically equivalent paraphrases.\",\n  \"output\": 0\n}",
+    "reasoning": "Sentence 1 discusses the general issue of massive DDoS attacks undermining the Internet, while Sentence 2 refers to a specific DDoS attack on Friday, mentions IoT devices as medium, and asks about reducing vulnerability. Although both relate to DDoS attacks, their focus and content differ significantly: one is a broad statement about impact, the other is a specific event with a call to action. They are not semantically equivalent paraphrases.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Welcome to the #APTop25 , @TroyTrojansFB ! Troy ranked for 1st time in school history . ",
+    "sentence2": "AP POLL ALERT Top 25 Shakeup rise ; #Michigan , #Clemson , #Washington fall ; #USC returns . ",
+    "model_raw_output": "{\n  \"reasoning\": \"The two tweets discuss different topics. Sentence 1 is about Troy Trojans football being ranked in the AP Top 25 for the first time in school history. Sentence 2 is about a broader AP Top 25 shakeup involving teams like Michigan, Clemson, and Washington falling, and USC returning. They do not convey the same message or event.\",\n  \"output\": 0\n}",
+    "reasoning": "The two tweets discuss different topics. Sentence 1 is about Troy Trojans football being ranked in the AP Top 25 for the first time in school history. Sentence 2 is about a broader AP Top 25 shakeup involving teams like Michigan, Clemson, and Washington falling, and USC returning. They do not convey the same message or event.",
+    "predicted_label": 0,
+    "gold_label": 0,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Samsung to ask all carrier and retail partners to stop Galaxy Note7 sales , exchanges following more reports of fires ",
+    "sentence2": "Samsung Will Ask All Global Partners to Stop Sales and Exchanges of Galaxy Note7 While Further Investigation Takes Place",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey that Samsung is instructing all sales partners to stop selling and exchanging the Galaxy Note7 due to safety issues (fire reports). Sentence 1 specifies 'carrier and retail partners' and cites 'more reports of fires,' while Sentence 2 uses 'global partners' and mentions 'further investigation,' but the core message\u2014halting sales and exchanges\u2014is identical. Therefore, they are paraphrases.\",\n  \"output\": 1\n}",
+    "reasoning": "Both sentences convey that Samsung is instructing all sales partners to stop selling and exchanging the Galaxy Note7 due to safety issues (fire reports). Sentence 1 specifies 'carrier and retail partners' and cites 'more reports of fires,' while Sentence 2 uses 'global partners' and mentions 'further investigation,' but the core message\u2014halting sales and exchanges\u2014is identical. Therefore, they are paraphrases.",
+    "predicted_label": 1,
+    "gold_label": 1,
+    "is_correct": true
+  },
+  {
+    "sentence1": "Melania Trump rejects womens claims that her husband groped them ",
+    "sentence2": "Politics|\\'They\\'re Lies\\': Melania Trump Rejects Women\\'s Claims That Husband Groped ",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core meaning: Melania Trump denies women's allegations that her husband groped them. The differences are minor (e.g., 'womens' vs 'Women's', inclusion of 'Politics|' and quote 'They're Lies' in the second) and do not alter the essential message. Therefore, they are paraphrases.\",\n  \"output\": 1\n}",
+    "reasoning": "Both sentences convey the same core meaning: Melania Trump denies women's allegations that her husband groped them. The differences are minor (e.g., 'womens' vs 'Women's', inclusion of 'Politics|' and quote 'They're Lies' in the second) and do not alter the essential message. Therefore, they are paraphrases.",
+    "predicted_label": 1,
+    "gold_label": 0,
+    "is_correct": false
+  },
+  {
+    "sentence1": "Pokmon Go players took 26% more steps than before using the app , a new study finds ",
+    "sentence2": "The fitness app dream result Pokemon Go could add 2.83 million years to users ' lives ",
+    "model_raw_output": "{\n  \"reasoning\": \"The sentences discuss different health benefits of Pokemon Go (increased steps vs. added life years) and are not paraphrases.\",\n  \"output\": 0\n}",
+    "reasoning": "The sentences discuss different health benefits of Pokemon Go (increased steps vs. added life years) and are not paraphrases.",
+    "predicted_label": 0,
+    "gold_label": 1,
+    "is_correct": false
+  }
+]

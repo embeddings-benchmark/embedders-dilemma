@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "le rose est tout ce dont nous avons besoin",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'le rose est tout ce dont nous avons besoin' translates to 'the pink is all we need.' This is an abstract statement that does not clearly match any specific scenario like alarm, audio, calendar, etc. It could be a lyric or quote, but lacks context to definitively assign to music or other categories. Therefore, it is best classified under the catch-all 'general' scenario.\",\n  \"output\": \"general\"\n}",
+        "parsed_output": "general",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "je veux le statut sur la luminosit\u00e9 de mon \u00e9cran",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the status of their screen brightness, which involves controlling or querying a device setting. This falls under the 'iot' scenario (Internet of Things) as it pertains to smart device control, rather than general queries or other categories.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "quelle heure est-il en australie",
+        "model_raw_output": "{\n  \"reasoning\": \"The user asks for the current time in Australia, which is a direct request for date/time information about a specific location. This aligns with the 'datetime' scenario, as it involves querying time zone or current time.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "annuler mon alarme de sept heures du matin",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'annuler mon alarme de sept heures du matin' translates to 'cancel my alarm for 7 AM'. This directly involves managing an alarm, which falls under the 'alarm' scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "quelles alarmes j'ai r\u00e9gl\u00e9es",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking about which alarms they have set ('quelles alarmes j'ai r\u00e9gl\u00e9es' in French). This directly relates to the alarm scenario, as it involves querying existing alarms.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

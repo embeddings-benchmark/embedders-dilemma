@@ -1,0 +1,68 @@
+[
+  {
+    "query_id": "00003",
+    "query_text": "How to manage household finances (income & expenses) [duplicate]",
+    "model_raw_output": "ID: 3 | CONTENT: Obviously, there are many approaches. I\u2019ll describe what we do and why we think it is successful. ... Our solution is a weekly allowance ... all our money goes into one pot ... agree on an \u2018allowance\u2019 for non-common costs ... no critique allowed about what this is spent on ... \nID: 38 | CONTENT: The absolute best advice I ever received was this: You will need three categories of savings in your life: 1) Retirement Savings ... 2) Catestrophic savings ... 3) Urgent, relatively small, need savings. ... Put 10% of your income into each ... Divide up the remaining 70% into fixed ... and variable expenses. ... Most importantly, partner with someone who is your opposite ... rules: A) no one spends any money unless it is in the budget B) the budget only includes those things to which both agree C) the budget can, and will, be modified as the pay period unfolds.\nID: 120 | CONTENT: Communicate. ... draft a budget that you both agree to follow. ... Essentials (<50% of net income) Financial (>20%) Lifestyle (<30%) ... housing costs to 25% ... auto expenses below 10% ... Dining out can be a budget buster ...\nID: 352 | CONTENT: You need to track all of your expenses first, inventarize all of your assets and liabilities, and set financial goals. ... Then you create an emergency fund: keep between 4 to 6 months' worth of your monthly expenses ... You then pay off your loans, starting with the loan charging the highest interest. ... After you've created that emergency fund, and paid off all high interest loans, you can consider investing ...\n\nFinal Answer: [3, 38, 120, 352]",
+    "parsed_ids": [
+      "000000003",
+      "000000038",
+      "000000120",
+      "000000352"
+    ],
+    "gold_ids": [
+      "000000003"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "00012",
+    "query_text": "Moving a personal business to a LLC accounting in California",
+    "model_raw_output": "Document: (No explicit title; content about setting up accounting for a single-member LLC as a disregarded entity, including tax treatment, self-employment tax, and estimated payments.) ID: 231\n\nFinal Answer: [231]",
+    "parsed_ids": [
+      "000000231"
+    ],
+    "gold_ids": [
+      "000000012"
+    ],
+    "is_correct": false
+  },
+  {
+    "query_id": "00013",
+    "query_text": "What is the preferred way to finance home improvements when preparing to sell your house?",
+    "model_raw_output": "ID: 130 | CONTENT: I encourage you to think of this home purchase decision as a chance to buy into a community that you want your children to grow up in.  Try to find a place where you will be happy for the next 20 years, not just the next 2 or 7 years. In your situation, option 1 seems like a bad idea.  It will create an obstacle to having children, instead of establishing a place for them to grow up in. Option 2 is close to \"buying a house on a layaway plan\".  It offers the most financial flexibility.  It also could result in the best long-term outcome, because you will buy in an established area, and you will know exactly what quality house you will have.  But you and your fianc\u00e9 need to ask yourselves some hard questions:  Are you willing to put up with the mess and hassles of remodelling?  Are you good at designing such projects?  Can you afford to pay for the projects as they occur?  Or if you need to finance them, can you get a HELOC to cover them? Especially if you and your fianc\u00e9 do much of the work yourselves, break down the projects into small enough pieces that you can quickly finish off whatever you are working on at the time, and be happy living in the resulting space.  You do not want to be nagging your husband about an unfinished project \"forever\" -- or silently resenting that a project never got wrapped up.  I posted some suggestions for incrementally finishing a basement on the Home Improvement Stack Exchange. If you are up to the job of option 2, it is less risky than option 3.  Option 3 has several risks: You don't know what sort of people will live in the neighborhood 5 - 20 years from now.  Will the homes be owner-occupied?  Or rentals?  Will your neighbors care about raising children well?  Or will lots of kids grow up in broken homes?   Will the schools be good?  Disappointing?  Or dangerous?  Whereas in an established neighborhood, you can see what the neighborhood is currently like, and how it has been changing. Unless you custom-build (or remodel), you don't control the quality of the construction.  Some neighborhoods built by Pulte in the last 10 years were riddled with construction defects. You will be paying up-front for features you don't need yet.  You might never need some of them.  And some of them might interfere with what you realize later on might be better. In stable markets, new homes (especially ones with lots of \"upgrades\") often decline in value during the first few years.  This is because part of the value is in the \"newness\" and being \"up-to-date\" with the latest fads.  This part of the value wears off over time. Are the homes \"at the edge of town\" already within reasonable walking distance of parks, schools, church, grocery stores, et cetera?  Might the commute from the \"edge of town\" to work get worse over the next 5 - 20 years? | END ID: 130\n\nID: 314 | CONTENT: In the first years of a loan, most of what you're paying is interest, so my guess is that this is a bad idea. But there are lots of mortgage calculators offered for free on the web (your bank's website may have one) so I'd suggest that you spend some time running actual numbers before deciding. Reminder: Most renovations do NOT pay for themselves in increased sales price, not least because you'll lose the buyers who don't like what you've done but would have been happy to renovate it themselves to their own tastes. Unless there is something which will actively impair your ability to sell the house, you should usually renovate when you plan to stay there for a while and take your returns in enjoying the house more, NOT on the way out. (There's been some recent discussion of this over in Home Improvement, pointing out that the changes which return more than they cost are usually simple things like refreshing the paint, \"staging\" the house so it looks lived in but not cluttered, replacing damaged blinds, washing windows, putting out a few more flowers, and so on.) | END ID: 314\n\nFinal Answer: [130, 314]",
+    "parsed_ids": [
+      "000000130",
+      "000000314"
+    ],
+    "gold_ids": [
+      "000000013"
+    ],
+    "is_correct": false
+  },
+  {
+    "query_id": "00015",
+    "query_text": "Selling an app, sharing income, how does it work tax-wise?",
+    "model_raw_output": "Document ID: 104 | TITLE: You need to clarify with Bob what your agreement is. If you and Bob are working together on these jobs as partners, you should get a written partnership agreement done by a lawyer who works with software industry entity formation.\n\nDocument ID: 15 | TITLE: There are a few different ways to organize this, but mostly I think you need to talk to a lawyer.  The 50/50 split thing should be in writing along with a bunch of other issues.\n\nDocument ID: 231 | TITLE: As a new (very!) small business, the IRS has lots of advice and information for you.\n\nFinal Answer: [104, 15, 231]",
+    "parsed_ids": [
+      "000000104",
+      "000000015",
+      "000000231"
+    ],
+    "gold_ids": [
+      "000000015"
+    ],
+    "is_correct": true
+  },
+  {
+    "query_id": "00016",
+    "query_text": "Which is the better strategy for buying stocks monthly?",
+    "model_raw_output": "ID: 146 | TITLE: (No explicit title; the document discusses dollar-cost averaging and market timing as strategies for buying stocks.)\n\nFinal Answer: [146]",
+    "parsed_ids": [
+      "000000146"
+    ],
+    "gold_ids": [
+      "000000016"
+    ],
+    "is_correct": false
+  }
+]

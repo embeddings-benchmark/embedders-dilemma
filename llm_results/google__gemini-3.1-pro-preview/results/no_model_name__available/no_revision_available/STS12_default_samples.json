@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "open again , open anew",
+    "sentence2": "open again or anew .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the exact same meaning: to open something again or to open it anew. The only difference is the use of a comma in the first sentence and the conjunction 'or' in the second.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey the exact same meaning: to open something again or to open it anew. The only difference is the use of a comma in the first sentence and the conjunction 'or' in the second.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "only a month ago , mubarak dismissed demands for constitutional reform as \" futile . \"",
+    "sentence2": "only a month before , , the demands of constitutional reform in the five \" .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share phrases like \\\"only a month ago/before\\\" and \\\"demands for/of constitutional reform.\\\" However, Sentence 2 is incomplete, lacks a verb, and completely misses the subject (Mubarak) and the main action (dismissed as futile) present in Sentence 1. The similarity is mostly just topical overlap due to shared vocabulary.\",\n  \"output\": 1.6\n}",
+    "reasoning": "Both sentences share phrases like \"only a month ago/before\" and \"demands for/of constitutional reform.\" However, Sentence 2 is incomplete, lacks a verb, and completely misses the subject (Mubarak) and the main action (dismissed as futile) present in Sentence 1. The similarity is mostly just topical overlap due to shared vocabulary.",
+    "predicted_sim": 1.6,
+    "gold_score": 2.5,
+    "abs_diff": 0.8999999999999999
+  },
+  {
+    "sentence1": "that provision could open the door wide to arbitrariness .",
+    "sentence2": "this regulation opens the door to arbitrariness .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core idea that a specific legal rule allows for arbitrary actions. They differ slightly in their choice of nouns ('provision' vs. 'regulation'), the certainty of the action ('could open' vs. 'opens'), and the degree ('wide' vs. no modifier). Despite these minor nuances, the overall meaning is highly similar.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences convey the same core idea that a specific legal rule allows for arbitrary actions. They differ slightly in their choice of nouns ('provision' vs. 'regulation'), the certainty of the action ('could open' vs. 'opens'), and the degree ('wide' vs. no modifier). Despite these minor nuances, the overall meaning is highly similar.",
+    "predicted_sim": 4.2,
+    "gold_score": 4.25,
+    "abs_diff": 0.04999999999999982
+  },
+  {
+    "sentence1": "what we are witnessing today is a shift from a muslim identity to an islamist identity .",
+    "sentence2": "we are witnessing today to change a muslim identity for an islamic identity .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the exact same core message: currently, a transition is occurring where a 'Muslim identity' is being replaced by an 'Islamist' or 'Islamic' identity. The only differences are slight grammatical variations (e.g., 'shift from' vs. 'change... for') and the minor semantic distinction between 'Islamist' and 'Islamic'.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences convey the exact same core message: currently, a transition is occurring where a 'Muslim identity' is being replaced by an 'Islamist' or 'Islamic' identity. The only differences are slight grammatical variations (e.g., 'shift from' vs. 'change... for') and the minor semantic distinction between 'Islamist' and 'Islamic'.",
+    "predicted_sim": 4.5,
+    "gold_score": 5.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "a person is frying meat in a pan .",
+    "sentence2": "a person is holding a skunk .",
+    "model_raw_output": "{\n  \"reasoning\": \"The sentences share the subject 'a person' but describe entirely different actions (frying meat vs. holding a skunk) and involve different objects. They are completely unrelated in meaning.\",\n  \"output\": 0.2\n}",
+    "reasoning": "The sentences share the subject 'a person' but describe entirely different actions (frying meat vs. holding a skunk) and involve different objects. They are completely unrelated in meaning.",
+    "predicted_sim": 0.2,
+    "gold_score": 0.75,
+    "abs_diff": 0.55
+  }
+]

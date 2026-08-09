@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Ich m&ouml;chte abschlie&szlig;end noch darauf hinweisen (auch wenn es viele bel&auml;cheln), Speichermedien nur &uuml;ber die &#34;Hardware sicher entfernen&#34;-Funktion vom System zu trennen.",
+        "model_raw_output": "```json\n{\n  \"reasoning\": \"The text provides a recommendation or advice on how to properly eject storage media to prevent data loss ('Safely Remove Hardware'). It is a directive statement regarding a correct action, rather than a statement describing a hypothetical past event that did not occur or a scenario that deviates from actual history.\",\n  \"output\": \"not-counterfactual\"\n}\n```",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Die G13 h\u00e4tte 5 Sterne verdient, wenn es von Logitech selbst einen brauchbaren Treiber f\u00fcr Linux geben w\u00fcrde.",
+        "model_raw_output": "{\n  \"reasoning\": \"The sentence uses the German conditional subjunctive ('h\u00e4tte' and 'w\u00fcrde') to express a hypothetical scenario. It states that the product 'would have' deserved 5 stars under the condition that Logitech provided a usable Linux driver. Since this condition is not met in reality (implying the product did not actually get 5 stars), the statement describes a situation contrary to fact, fitting the definition of counterfactual.\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "H\u00e4tte miemals gedacht so leicht aufr\u00fcsten zu k\u00f6nnen.Freu mich schon auf das DCR 250 das ich bestellt habe.",
+        "model_raw_output": "```json\n{\n  \"reasoning\": \"The review contains two sentences. The first sentence, 'H\u00e4tte miemals gedacht so leicht aufr\u00fcsten zu k\u00f6nnen' (I would never have thought it would be so easy to upgrade), uses the subjunctive mood grammatically ('H\u00e4tte... gedacht'), but it is used idiomatically to express surprise about a factual event that actually occurred (the upgrade). It describes a past mental state rather than a hypothetical scenario where conditions were different. The second sentence expresses anticipation for an order that has already been placed. Since the text describes the user's actual experience and reaction to reality, rather than what 'could have happened' under different conditions, it is not counterfactual.\",\n  \"output\": \"not-counterfactual\"\n}\n```",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": false
+    },
+    {
+        "input_text": "Die Anzeige wird nicht beeintr\u00e4chtigt, wohl aber gesch\u00fctzt.",
+        "model_raw_output": "{\n  \"reasoning\": \"The sentence describes the actual state of the product's effect on the display. It asserts two facts: the display is not impaired and it is protected. It does not discuss hypothetical scenarios, alternate pasts, or conditions that did not occur, which are necessary for a counterfactual statement.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Das Produkt ist sicherlich gut und qualitativ hochwertig, aber hier fehlt jede Verh\u00e4ltnism\u00e4ssigkeit.",
+        "model_raw_output": "```json\n{\n  \"reasoning\": \"The review describes the actual attributes of the product ('good', 'high quality') and expresses a judgment about the current situation ('fehlt jede Verh\u00e4ltnism\u00e4ssigkeit' - lacking proportionality, likely regarding price vs. value). It does not discuss hypothetical scenarios, alternative conditions, or events that did not occur, so it is not counterfactual.\",\n  \"output\": \"not-counterfactual\"\n}\n```",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": false
+    }
+]

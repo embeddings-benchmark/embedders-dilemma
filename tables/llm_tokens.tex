@@ -1,0 +1,28 @@
+% Appendix: detailed LLM token usage and cost (auto-generated)
+\begin{table}[h]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lrrrrrrrr}
+\toprule
+& \multicolumn{4}{c}{\textbf{Tokens (M)}} & \multicolumn{4}{c}{\textbf{Cost (USD)}} \\
+\cmidrule(lr){2-5} \cmidrule(lr){6-9}
+\textbf{Model} & In$_{nc}$ & Cached & Out & Think & In$_{nc}$ & Cached & Out+Th & \textbf{Total} \\
+\midrule
+Gemini 3.1 Pro & 12.2 & 27.7 & 1.8 & 8.6 & \$24.39 & \$5.54 & \$124.21 & \textbf{\$154.14} \\
+Gemini 3 Flash & 12.4 & 27.5 & 1.8 & 14.3 & \$6.19 & \$1.38 & \$48.30 & \textbf{\$55.87} \\
+Qwen3.6-27B & 39.5 & 0.0 & 2.7 & 26.1 & \$11.46 & \$0.00 & \$91.97 & \textbf{\$103.43} \\
+Qwen3.6-35B-A3B & 39.5 & 0.0 & 2.5 & 26.0 & \$5.53 & \$0.00 & \$28.52 & \textbf{\$34.06} \\
+Kimi-K2.6 & 40.1 & 0.0 & 2.6 & 21.7 & \$27.43 & \$0.00 & \$83.27 & \textbf{\$110.70} \\
+DeepSeek-V4-Flash & 16.8 & 22.6 & 2.1 & 4.5 & \$1.65 & \$0.22 & \$1.29 & \textbf{\$3.16} \\
+MiniMax-M2.7 & 37.9 & 0.0 & 1.6 & 10.0 & \$10.58 & \$0.00 & \$13.93 & \textbf{\$24.52} \\
+GLM-4.7 & 38.8 & 0.0 & 2.4 & 24.9 & \$15.54 & \$0.00 & \$47.77 & \textbf{\$63.31} \\
+Gemini 3.1 Flash Lite & 16.5 & 26.9 & 1.4 & 0.0 & \$4.13 & \$0.67 & \$2.05 & \textbf{\$6.85} \\
+DeepSeek-R1 & 39.6 & 0.0 & 1.2 & 10.6 & \$27.73 & \$0.00 & \$29.65 & \textbf{\$57.38} \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Detailed LLM token usage and cost} across all \mteblm{} tasks.
+In$_{nc}$ = non-cached input (cached billed at 10\% of input rate); Think = reasoning tokens
+(billed at output rate); Out+Th combines standard output and thinking cost.}
+\label{tab:llm_tokens}
+\end{table}

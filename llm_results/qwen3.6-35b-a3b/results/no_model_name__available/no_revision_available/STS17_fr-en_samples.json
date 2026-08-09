@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Une personne fait partie d'une \u00e9quipe de baseball.",
+    "sentence2": "A person is playing basketball on a team.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the same core structure and general theme: a person being part of a sports team. However, they differ in a critical semantic detail: the specific sport involved (baseball in the first sentence, basketball in the second). While they are related by context, topic, and syntactic pattern, the mismatch in the key entity (the sport) significantly changes the specific meaning, warranting a moderate similarity score.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences share the same core structure and general theme: a person being part of a sports team. However, they differ in a critical semantic detail: the specific sport involved (baseball in the first sentence, basketball in the second). While they are related by context, topic, and syntactic pattern, the mismatch in the key entity (the sport) significantly changes the specific meaning, warranting a moderate similarity score.",
+    "predicted_sim": 2.5,
+    "gold_score": 2.4,
+    "abs_diff": 0.10000000000000009
+  },
+  {
+    "sentence1": "Nos v\u00e9hicules actuels seront dans les mus\u00e9es lorsque chacun aura son propre avion.",
+    "sentence2": "The car needs to some work",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences mention vehicles, but their core meanings, contexts, and intents are entirely different. Sentence 1 is a futuristic prediction about current ground vehicles becoming obsolete as personal airplanes become commonplace. Sentence 2 is a practical, present-tense statement indicating that a specific car requires maintenance or repair. The superficial lexical overlap on the vehicle topic does not translate to semantic similarity in meaning, context, or communicative intent, making them effectively unrelated for semantic matching purposes.\",\n  \"output\": 0.1\n}",
+    "reasoning": "Both sentences mention vehicles, but their core meanings, contexts, and intents are entirely different. Sentence 1 is a futuristic prediction about current ground vehicles becoming obsolete as personal airplanes become commonplace. Sentence 2 is a practical, present-tense statement indicating that a specific car requires maintenance or repair. The superficial lexical overlap on the vehicle topic does not translate to semantic similarity in meaning, context, or communicative intent, making them effectively unrelated for semantic matching purposes.",
+    "predicted_sim": 0.1,
+    "gold_score": 0.2,
+    "abs_diff": 0.1
+  },
+  {
+    "sentence1": "Une superviseure instruit les travailleurs masculins.",
+    "sentence2": "A woman is working as a nurse.",
+    "model_raw_output": "{\n  \"reasoning\": \"The first sentence (French) describes a female supervisor instructing male workers, while the second sentence (English) states that a woman is working as a nurse. Although both sentences mention a female subject, their occupations, actions, and overall contexts are entirely different. There is no meaningful semantic overlap in roles, activities, or intent, making them completely unrelated.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The first sentence (French) describes a female supervisor instructing male workers, while the second sentence (English) states that a woman is working as a nurse. Although both sentences mention a female subject, their occupations, actions, and overall contexts are entirely different. There is no meaningful semantic overlap in roles, activities, or intent, making them completely unrelated.",
+    "predicted_sim": 0.0,
+    "gold_score": 1.0,
+    "abs_diff": 1.0
+  },
+  {
+    "sentence1": "Un v\u00e9lo est \u00e0 c\u00f4t\u00e9 d'un couple de femmes.",
+    "sentence2": "A child next to a bike.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a bike situated next to people, sharing the same spatial relationship and general scene context. However, the companion of the bike differs significantly: Sentence 1 specifies a couple of women, while Sentence 2 specifies a child. This key difference in the main subjects makes the sentences semantically distinct despite their structural and contextual overlap. Therefore, they share some details but differ in important aspects.\",\n  \"output\": 2.0\n}",
+    "reasoning": "Both sentences describe a bike situated next to people, sharing the same spatial relationship and general scene context. However, the companion of the bike differs significantly: Sentence 1 specifies a couple of women, while Sentence 2 specifies a child. This key difference in the main subjects makes the sentences semantically distinct despite their structural and contextual overlap. Therefore, they share some details but differ in important aspects.",
+    "predicted_sim": 2.0,
+    "gold_score": 2.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "Le groupe mange tout en profitant d'une vue \u00e0 couper le souffle.",
+    "sentence2": "A group of people take a look at an unusual tree.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share a minor contextual overlap in that they involve a group of people in an outdoor setting. However, the core actions and objects are entirely different: Sentence 1 describes a group eating while enjoying a breathtaking view, while Sentence 2 describes them observing an unusual tree. There is no meaningful overlap in events, intentions, or specific details, making the semantic similarity very low.\",\n  \"output\": 1.0\n}",
+    "reasoning": "Both sentences share a minor contextual overlap in that they involve a group of people in an outdoor setting. However, the core actions and objects are entirely different: Sentence 1 describes a group eating while enjoying a breathtaking view, while Sentence 2 describes them observing an unusual tree. There is no meaningful overlap in events, intentions, or specific details, making the semantic similarity very low.",
+    "predicted_sim": 1.0,
+    "gold_score": 2.2,
+    "abs_diff": 1.2000000000000002
+  }
+]

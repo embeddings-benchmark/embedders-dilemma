@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "The male, who is dark skinned, is standing on one hand in front of a yellow building",
+    "sentence2": "A black man is break dancing on the pavement",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a dark-skinned/black male performing a physical activity. There is some potential overlap, as a one-handed stand could be part of breakdancing. However, the actions differ significantly in specificity and nature: Sentence 1 describes a static handstand in front of a yellow building, while Sentence 2 describes dynamic breakdancing on pavement. The settings are also distinct. Thus, they share topical and subject overlap but describe meaningfully different scenarios.\",\n  \"output\": 2.0\n}",
+    "reasoning": "Both sentences describe a dark-skinned/black male performing a physical activity. There is some potential overlap, as a one-handed stand could be part of breakdancing. However, the actions differ significantly in specificity and nature: Sentence 1 describes a static handstand in front of a yellow building, while Sentence 2 describes dynamic breakdancing on pavement. The settings are also distinct. Thus, they share topical and subject overlap but describe meaningfully different scenarios.",
+    "predicted_sim": 2.0,
+    "gold_score": 2.7,
+    "abs_diff": 0.7000000000000002
+  },
+  {
+    "sentence1": "A girl in blue is sliding down a green slide",
+    "sentence2": "A boy in blue are sliding down a green slide",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences describe nearly identical scenarios: a child wearing blue sliding down a green slide. The only substantive semantic difference is the gender of the subject ('girl' versus 'boy'). Sentence 2 also contains a subject-verb agreement error ('are' instead of 'is'), but this grammatical mistake does not alter the underlying meaning. Because the core action, object, and clothing color are the same while the referent differs, the sentences are very closely related but not semantically identical.\",\n  \"output\": 4.2\n}",
+    "reasoning": "The two sentences describe nearly identical scenarios: a child wearing blue sliding down a green slide. The only substantive semantic difference is the gender of the subject ('girl' versus 'boy'). Sentence 2 also contains a subject-verb agreement error ('are' instead of 'is'), but this grammatical mistake does not alter the underlying meaning. Because the core action, object, and clothing color are the same while the referent differs, the sentences are very closely related but not semantically identical.",
+    "predicted_sim": 4.2,
+    "gold_score": 3.4,
+    "abs_diff": 0.8000000000000003
+  },
+  {
+    "sentence1": "The cheerleaders are parading and wearing uniforms which are black, pink and white",
+    "sentence2": "The cheerleaders are parading and wearing black, pink and white uniforms",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences convey the exact same propositional meaning. Both state that cheerleaders are parading and that they are wearing uniforms colored black, pink, and white. The only difference is syntactic: Sentence 1 uses a relative clause ('uniforms which are black, pink and white'), while Sentence 2 uses adjectival premodification ('black, pink and white uniforms'). There is no change in semantic content, referents, or truth conditions between the two.\",\n  \"output\": 5.0\n}",
+    "reasoning": "The two sentences convey the exact same propositional meaning. Both state that cheerleaders are parading and that they are wearing uniforms colored black, pink, and white. The only difference is syntactic: Sentence 1 uses a relative clause ('uniforms which are black, pink and white'), while Sentence 2 uses adjectival premodification ('black, pink and white uniforms'). There is no change in semantic content, referents, or truth conditions between the two.",
+    "predicted_sim": 5.0,
+    "gold_score": 4.8,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "A man is emptying a container made of plastic",
+    "sentence2": "A man is filling a container made of plastic",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences share nearly identical structure, the same subject ('a man'), and the same object ('a container made of plastic'). They also belong to the same general semantic event frame involving manipulation of a plastic container. However, the verbs 'emptying' and 'filling' describe directly opposite actions, creating a semantic contradiction rather than similarity. Because the sentences are highly related in context and participants but opposite in core meaning, they fall near the middle of the scale.\",\n  \"output\": 2.5\n}",
+    "reasoning": "The two sentences share nearly identical structure, the same subject ('a man'), and the same object ('a container made of plastic'). They also belong to the same general semantic event frame involving manipulation of a plastic container. However, the verbs 'emptying' and 'filling' describe directly opposite actions, creating a semantic contradiction rather than similarity. Because the sentences are highly related in context and participants but opposite in core meaning, they fall near the middle of the scale.",
+    "predicted_sim": 2.5,
+    "gold_score": 3.4,
+    "abs_diff": 0.8999999999999999
+  },
+  {
+    "sentence1": "A few people are dancing",
+    "sentence2": "A group of people are dancing",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core event: multiple people are engaged in dancing. The only difference is the quantifier/collective noun ('a few' vs. 'a group'). 'A few' emphasizes a small number, whereas 'a group' is a more neutral collective term that does not specify size. Despite this subtle difference in nuance, the underlying meaning is nearly identical, and the sentences would likely describe the same scene. However, because 'few' carries a slight quantitative implicature that 'group' does not, they are not perfectly identical in meaning.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences convey the same core event: multiple people are engaged in dancing. The only difference is the quantifier/collective noun ('a few' vs. 'a group'). 'A few' emphasizes a small number, whereas 'a group' is a more neutral collective term that does not specify size. Despite this subtle difference in nuance, the underlying meaning is nearly identical, and the sentences would likely describe the same scene. However, because 'few' carries a slight quantitative implicature that 'group' does not, they are not perfectly identical in meaning.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.5,
+    "abs_diff": 0.0
+  }
+]

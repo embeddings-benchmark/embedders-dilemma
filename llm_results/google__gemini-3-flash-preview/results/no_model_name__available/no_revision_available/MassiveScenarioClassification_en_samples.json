@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "pink is all we need",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance refers to 'Pink', which is likely the name of a popular music artist, and the phrasing suggests a preference or context related to music consumption or discovery.\",\n  \"output\": \"music\"\n}",
+        "parsed_output": "music",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "i want the status on my screen brightness",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is inquiring about the current status of a device setting, specifically screen brightness. Monitoring or controlling device attributes and hardware settings typically falls under the 'iot' (Internet of Things) scenario in voice assistant classifications.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "what's the time in australia",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the current time in a specific location (Australia), which falls under the 'datetime' category.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "cancel my seven am alarm",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting to cancel a specific alarm time, which falls under the category of alarm management.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "what alarms i have set",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for information about their scheduled alarms, which directly relates to the management and querying of alarm clocks.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

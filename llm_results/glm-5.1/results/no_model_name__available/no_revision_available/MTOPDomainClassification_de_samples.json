@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Schicke an den Motorrad-Chat eine Videonachricht",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance requests sending a video message ('Videonachricht') to a specific chat ('Motorrad-Chat'). This involves transmitting multimedia content to a conversation, which is characteristic of the messaging domain rather than calling, event, or other domains.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "Rufe Loren an",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'Rufe Loren an' is in German and translates to 'Call Loren'. The verb 'anrufen' specifically refers to making a telephone call to someone, which directly corresponds to the 'calling' domain.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Stelle meinen Status als vielleicht ein f\u00fcr das zweite Event",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to set their attendance status as 'maybe' (vielleicht) for a specific event ('das zweite Event'). This involves managing event participation or RSVP status, which falls directly under event-related functionality.\",\n  \"output\": \"event\"\n}",
+        "parsed_output": "event",
+        "ground_truth": "event",
+        "is_correct": true
+    },
+    {
+        "input_text": "Rufe Josiah \u00fcber WhatsApp an",
+        "model_raw_output": "{\n  \"reasoning\": \"The German utterance 'Rufe Josiah \u00fcber WhatsApp an' translates to 'Call Josiah via WhatsApp.' The verb 'anrufen' explicitly denotes initiating a voice or video call. Even though WhatsApp is a messaging platform, the user's core intent is to place a call, not to send a text message.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Starte einen Timer f\u00fcr das Kalbsfleisch",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance explicitly requests to start a timer ('Starte einen Timer') specifically for veal ('Kalbsfleisch'), indicating a cooking or kitchen timer scenario. This directly maps to the timer domain.\",\n  \"output\": \"timer\"\n}",
+        "parsed_output": "timer",
+        "ground_truth": "timer",
+        "is_correct": true
+    }
+]

@@ -1,0 +1,19 @@
+% Category-level performance summary (best LLM vs best embedding) (auto-generated)
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Category} & \textbf{Gemini 3.1 Pro} & \textbf{Gemini 3 Flash} & \textbf{Best Emb.} & \textbf{Best Model} & \textbf{$\Delta$} \\
+\midrule
+Retrieval (6) & \textbf{64.5} & 52.3 & 56.0 & Octen-8B & +8.5 \\
+Clustering (9) & 66.6 & 65.7 & \textbf{66.7} & SFR-2 & $-$0.2 \\
+STS (10) & 88.5 & 87.6 & \textbf{88.8} & Qwen3-E-4B & $-$0.3 \\
+PairCls (4) & 83.2 & 86.3 & \textbf{87.1} & KaLM-12B & $-$3.9 \\
+Classification (8) & 85.2 & 84.1 & \textbf{90.8} & SFR-2 & $-$5.6 \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Category-level performance} (best LLM vs.\ best embedding per category).
+$\Delta$ = best LLM $-$ best embedding; bold = winner; task counts in parentheses.}
+\label{tab:category_scores}
+\end{table}

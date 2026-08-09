@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "How do I locate my card?",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking about the whereabouts or tracking of their physical card. In the context of online banking support, inquiries about locating a card typically refer to tracking its delivery status. This aligns with the 'card_arrival' category, which covers questions about when and where a card will arrive.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "I still have not received my new card, I ordered over a week ago.",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is stating that they have not received their physical card despite ordering it over a week ago. This query is specifically about the delivery status and arrival of a new card. Among the provided categories, 'card_arrival' is the most appropriate fit for inquiries regarding cards that have not yet been received by the customer.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "I ordered a card but it has not arrived. Help please!",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's query explicitly states that they ordered a card and it has not arrived yet. This indicates an issue or inquiry regarding the delivery status of a physical card. Among the provided categories, 'card_arrival' is the specific intent designed for situations where a user is waiting for their card to be delivered or reporting that it hasn't arrived.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "Is there a way to know when my card will arrive?",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking about the timeline for receiving their physical card ('when my card will arrive'). This directly corresponds to the intent of getting an estimate on delivery. The category 'card_delivery_estimate' is the most specific match for inquiries regarding delivery times, whereas 'card_arrival' is often used for confirming receipt or reporting non-arrival issues.\",\n  \"output\": \"card_delivery_estimate\"\n}",
+        "parsed_output": "card_delivery_estimate",
+        "ground_truth": "card_arrival",
+        "is_correct": false
+    },
+    {
+        "input_text": "My card has not arrived yet.",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is stating that their physical card has not been delivered. This query relates directly to the status of receiving the card. Among the available categories, 'card_arrival' is the specific intent designed for inquiries or issues regarding the delivery and receipt of a physical card.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    }
+]

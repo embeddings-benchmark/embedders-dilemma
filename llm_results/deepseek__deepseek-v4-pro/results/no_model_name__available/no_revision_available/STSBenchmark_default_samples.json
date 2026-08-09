@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Two men are dancing together.",
+    "sentence2": "A woman opens a closet.",
+    "model_raw_output": "{\n  \"reasoning\": \"The first sentence describes two men dancing, while the second describes a woman opening a closet. They involve different subjects, actions, and contexts, with no semantic overlap.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The first sentence describes two men dancing, while the second describes a woman opening a closet. They involve different subjects, actions, and contexts, with no semantic overlap.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "It depends on what you want to do next, and where you want to do it.",
+    "sentence2": "It depends on what you want to achieve.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences express that a decision or outcome depends on personal desires or plans. Sentence 1 specifies dependency on the immediate next action and its location, while Sentence 2 focuses on the broader goal or achievement. The core idea of conditional dependency is shared, but the specifics (action vs. goal, inclusion of location) differ, making them moderately similar.\",\n  \"output\": 3.0\n}",
+    "reasoning": "Both sentences express that a decision or outcome depends on personal desires or plans. Sentence 1 specifies dependency on the immediate next action and its location, while Sentence 2 focuses on the broader goal or achievement. The core idea of conditional dependency is shared, but the specifics (action vs. goal, inclusion of location) differ, making them moderately similar.",
+    "predicted_sim": 3.0,
+    "gold_score": 3.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "You may have to experiment and find what you like.",
+    "sentence2": "You have to find out what works for you.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the idea of discovering through personal trial what is suitable. Sentence 1 emphasizes experimentation to find personal preference ('what you like'), while Sentence 2 emphasizes finding out what is effective ('what works for you'). The modality differs slightly: 'may have to' implies possibility or suggestion, whereas 'have to' is more direct. Despite these nuances, the core meaning of self-discovery through trying things is highly similar.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences convey the idea of discovering through personal trial what is suitable. Sentence 1 emphasizes experimentation to find personal preference ('what you like'), while Sentence 2 emphasizes finding out what is effective ('what works for you'). The modality differs slightly: 'may have to' implies possibility or suggestion, whereas 'have to' is more direct. Despite these nuances, the core meaning of self-discovery through trying things is highly similar.",
+    "predicted_sim": 4.2,
+    "gold_score": 5.0,
+    "abs_diff": 0.7999999999999998
+  },
+  {
+    "sentence1": "Some 95 million Americans -- half of all households -- invest in mutual funds.",
+    "sentence2": "About half of all U.S. households have money in mutual funds.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey that approximately half of all U.S. households own mutual funds. The first specifies '95 million Americans' and equates it to half of all households, while the second states 'about half of all U.S. households have money in mutual funds.' The core statistical fact is identical, and the phrases 'invest in' and 'have money in' are synonymous in this context. The slight differences in wording do not change the meaning, resulting in complete semantic equivalence.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey that approximately half of all U.S. households own mutual funds. The first specifies '95 million Americans' and equates it to half of all households, while the second states 'about half of all U.S. households have money in mutual funds.' The core statistical fact is identical, and the phrases 'invest in' and 'have money in' are synonymous in this context. The slight differences in wording do not change the meaning, resulting in complete semantic equivalence.",
+    "predicted_sim": 5.0,
+    "gold_score": 4.2,
+    "abs_diff": 0.7999999999999998
+  },
+  {
+    "sentence1": "Someone is slicing a onion.",
+    "sentence2": "Someone is carrying a fish.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 describes cutting a vegetable, while Sentence 2 describes transporting an animal. The actions and objects are distinct, and the only commonality is the vague involvement of a person, resulting in very low semantic similarity.\",\n  \"output\": 0.2\n}",
+    "reasoning": "Sentence 1 describes cutting a vegetable, while Sentence 2 describes transporting an animal. The actions and objects are distinct, and the only commonality is the vague involvement of a person, resulting in very low semantic similarity.",
+    "predicted_sim": 0.2,
+    "gold_score": 0.75,
+    "abs_diff": 0.55
+  }
+]

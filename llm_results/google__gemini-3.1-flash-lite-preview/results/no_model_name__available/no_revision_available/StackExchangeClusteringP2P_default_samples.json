@@ -1,0 +1,31 @@
+{
+    "task": "StackExchangeClusteringP2P",
+    "model_raw_output_preview": "{\"assignments\":[0,1,2,3,4,4,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,197,198,199]}",
+    "samples": [
+        {
+            "input_text": "How to Implement Trap Damage Unity Currently, I have a 2D platformer game, and I want to implement a function that can make the player die and go back to the start or a checkpoint when he interacts with a weapon or trap.\nWhat I have in my scene is a sprite with a Rigidbody on it and a trap sprite with a BoxCollider2D on it which is set to trigger.\nHow can I make my player go back to the start when he hits the trap?",
+            "predicted_cluster": 0,
+            "gold_cluster": "unity"
+        },
+        {
+            "input_text": "Unity3d vector and matrix operations I have the following three vectors:\n\n\nposA: (1,2,3)\nnormal:   (0,1,0)\noffset:   (2,3,1)\n\n\nI want to get the vector representing the position which is offset in the direction of the normal from posA.\n\nI know how to do this by cheating (not using matrix operations):\n\nVector3 result = new Vector3(posA.x + normal.x*offset.x\n                             posA.y + normal.y*offset.y,\n                             posA.z + normal.z*offset.z);\n\n\nI know how to do this mathematically\nNote: [] indicates a column vector, {} indicates a row vector\n\nresult = [1,2,3] + {2,3,1}*{[0,0,0],[0,1,0],[0,0,0]}\n\n\nWhat I don't know is which is better to use and if it's the latter how do I do this in unity? I only know of 4x4 matrices in unity. I don't like the first option because you are instantiating a new vector instead of just modifying the original. Suggestions?\n\nNote: by asking which is better, I am asking for a quantifiable reason, not just a preference.",
+            "predicted_cluster": 1,
+            "gold_cluster": "unity"
+        },
+        {
+            "input_text": "Managing animations for object state transitions I'm looking for an optimized way to handle simple state transitions on my game objects. By \"simple\" I mean not more than 1-2 actions per object, and most algorithms are linear.\n\nFor example, I have an UI element that implements a switch (like a light switch) and it has two states - \"up\" (lights turned on) and \"down\" (lights turned off). Let's say I want to make it so that I can switch the switch from one state to another, and update its presentation in a smooth way using linear interpolation (move the foreground sprite up or down).\n\nThe question is if I should always check if the object should update its state (every frame), or should I add/remove this object from the update loop on demand, or is there any other (better) way of handling this situation?\n\nCurrently I have it implemented the following way: my object has a boolean variable called animated and in my onframe loop I have the following code:\n\nif (this.animated)\n    /* calculate new positions for the sprite */ \nelse\n    /* do nothing */`\n\n\nAnd it would appear to me that this kind of code is not very well optimized. How to handle this kind of things better?",
+            "predicted_cluster": 2,
+            "gold_cluster": "animation"
+        },
+        {
+            "input_text": "Can I publish an indie game on XBL made with directx So I know that XNA can be used to publish games on Xbox Live Indie Games and I signed up for the $100/year subscription thing.\n\nI haven't downloaded XNA yet but I was wondering if I can publish a game made entirely in DirectX onto it or do I have to go through XNA?",
+            "predicted_cluster": 3,
+            "gold_cluster": "directx"
+        },
+        {
+            "input_text": "How to select an image on the J2ME Canvas I am working on J2ME. I have got a canvas, with a layout of a Checkers board. At the position of pieces, I have placed images. The point at which I got stuck is, how to select/highlite a piece's image for a move. I can't figure out the appropriate commandListener and how to handle this keyPressedEvent.\nI understood the logic of this game from:\nDraughts AI\n\nAny suggestions?",
+            "predicted_cluster": 4,
+            "gold_cluster": "java"
+        }
+    ]
+}

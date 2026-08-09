@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "The male, who is dark skinned, is standing on one hand in front of a yellow building",
+    "sentence2": "A black man is break dancing on the pavement",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a dark-skinned/Black male performing a physical feat. Sentence 1 describes a specific static pose ('standing on one hand') and mentions a background ('yellow building'). Sentence 2 interprets the activity more broadly as 'break dancing' and identifies the surface ('pavement'). The actions are highly compatible (handstands are common in breakdancing), and the location details likely refer to the same general scene, but the descriptions are not identical.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences describe a dark-skinned/Black male performing a physical feat. Sentence 1 describes a specific static pose ('standing on one hand') and mentions a background ('yellow building'). Sentence 2 interprets the activity more broadly as 'break dancing' and identifies the surface ('pavement'). The actions are highly compatible (handstands are common in breakdancing), and the location details likely refer to the same general scene, but the descriptions are not identical.",
+    "predicted_sim": 4.2,
+    "gold_score": 2.7,
+    "abs_diff": 1.5
+  },
+  {
+    "sentence1": "A girl in blue is sliding down a green slide",
+    "sentence2": "A boy in blue are sliding down a green slide",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a nearly identical scene where a person wearing blue clothing is performing the action of sliding down a green slide. The only differences are the gender of the subject ('girl' vs 'boy') and a grammatical disagreement in the second sentence ('are' instead of 'is'). Since the core event and attributes are the same with only the specific subject identity differing, the semantic relatedness is high but not perfect.\",\n  \"output\": 4.0\n}",
+    "reasoning": "Both sentences describe a nearly identical scene where a person wearing blue clothing is performing the action of sliding down a green slide. The only differences are the gender of the subject ('girl' vs 'boy') and a grammatical disagreement in the second sentence ('are' instead of 'is'). Since the core event and attributes are the same with only the specific subject identity differing, the semantic relatedness is high but not perfect.",
+    "predicted_sim": 4.0,
+    "gold_score": 3.4,
+    "abs_diff": 0.6000000000000001
+  },
+  {
+    "sentence1": "The cheerleaders are parading and wearing uniforms which are black, pink and white",
+    "sentence2": "The cheerleaders are parading and wearing black, pink and white uniforms",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the exact same scenario with identical subjects ('The cheerleaders'), actions ('are parading and wearing uniforms'), and attributes of the object ('black, pink and white'). The only difference is syntactic: Sentence 1 uses a relative clause ('uniforms which are black, pink and white') while Sentence 2 uses pre-modifying adjectives ('black, pink and white uniforms'). The semantic meaning is preserved perfectly.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences describe the exact same scenario with identical subjects ('The cheerleaders'), actions ('are parading and wearing uniforms'), and attributes of the object ('black, pink and white'). The only difference is syntactic: Sentence 1 uses a relative clause ('uniforms which are black, pink and white') while Sentence 2 uses pre-modifying adjectives ('black, pink and white uniforms'). The semantic meaning is preserved perfectly.",
+    "predicted_sim": 5.0,
+    "gold_score": 4.8,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "A man is emptying a container made of plastic",
+    "sentence2": "A man is filling a container made of plastic",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences share the exact same subject ('A man') and object ('a container made of plastic'). However, the actions described are antonyms: 'emptying' is the direct opposite of 'filling'. While there is significant lexical overlap and the context is the same, the core meaning of the event is contradictory and not identical. Therefore, on a semantic similarity scale, they are related but very different in meaning.\",\n  \"output\": 1.7\n}",
+    "reasoning": "The two sentences share the exact same subject ('A man') and object ('a container made of plastic'). However, the actions described are antonyms: 'emptying' is the direct opposite of 'filling'. While there is significant lexical overlap and the context is the same, the core meaning of the event is contradictory and not identical. Therefore, on a semantic similarity scale, they are related but very different in meaning.",
+    "predicted_sim": 1.7,
+    "gold_score": 3.4,
+    "abs_diff": 1.7
+  },
+  {
+    "sentence1": "A few people are dancing",
+    "sentence2": "A group of people are dancing",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the identical activity of people dancing. The primary difference lies in the subject: 'A few people' versus 'A group of people'. In general usage, 'a group' is a hypernym that can include 'a few', and in the context of image captions or event descriptions, these phrases are often used interchangeably to describe a small crowd. Because 'group' is slightly more ambiguous regarding size (it could imply a larger crowd than 'a few'), the meaning is not absolutely identical, but they are very strong paraphrases.\",\n  \"output\": 4.6\n}",
+    "reasoning": "Both sentences describe the identical activity of people dancing. The primary difference lies in the subject: 'A few people' versus 'A group of people'. In general usage, 'a group' is a hypernym that can include 'a few', and in the context of image captions or event descriptions, these phrases are often used interchangeably to describe a small crowd. Because 'group' is slightly more ambiguous regarding size (it could imply a larger crowd than 'a few'), the meaning is not absolutely identical, but they are very strong paraphrases.",
+    "predicted_sim": 4.6,
+    "gold_score": 4.5,
+    "abs_diff": 0.09999999999999964
+  }
+]

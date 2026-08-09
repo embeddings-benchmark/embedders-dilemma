@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Ich m&ouml;chte abschlie&szlig;end noch darauf hinweisen (auch wenn es viele bel&auml;cheln), Speichermedien nur &uuml;ber die &#34;Hardware sicher entfernen&#34;-Funktion vom System zu trennen.",
+        "model_raw_output": "{\n  \"reasoning\": \"The statement is a direct recommendation or advice about how to disconnect storage media properly. The author is stating what should be done ('nur \u00fcber die Hardware sicher entfernen-Funktion vom System trennen') - this is a prescriptive statement, not a counterfactual one. Counterfactual statements express what has not happened but would/could/might have happened under different conditions (e.g., 'If I had used the safely remove function, my data would not have been corrupted'). The review does not contain such hypothetical conditional language about past events that did not occur.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Die G13 h\u00e4tte 5 Sterne verdient, wenn es von Logitech selbst einen brauchbaren Treiber f\u00fcr Linux geben w\u00fcrde.",
+        "model_raw_output": "{\n  \"reasoning\": \"The review contains a counterfactual conditional statement. The reviewer states that the G13 'would deserve 5 stars' (hypothetical positive outcome) 'if Logitech itself would provide a usable driver for Linux' (condition that does not currently exist). This expresses what is not the case but would need to happen under different conditions for a better rating. The 'if' clause explicitly describes a hypothetical scenario where Logitech provides a Linux driver, which is not happening now.\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "H\u00e4tte miemals gedacht so leicht aufr\u00fcsten zu k\u00f6nnen.Freu mich schon auf das DCR 250 das ich bestellt habe.",
+        "model_raw_output": "{\n  \"reasoning\": \"The review expresses the customer's past amazement at how easy something is and anticipation for a product they ordered (DCR 250). While it mentions what the customer 'never thought' possible, this is a statement about past beliefs and future anticipation rather than a hypothetical scenario about what would/could/might have happened under different conditions. Counterfactual statements typically describe conditions contrary to fact or imagine alternative outcomes, neither of which is present here. The review is simply a positive statement about the user's experience and upcoming purchase.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": false
+    },
+    {
+        "input_text": "Die Anzeige wird nicht beeintr\u00e4chtigt, wohl aber gesch\u00fctzt.",
+        "model_raw_output": "{\n  \"reasoning\": \"The statement 'Die Anzeige wird nicht beeintr\u00e4chtigt, wohl aber gesch\u00fctzt' (The display is not impaired, but rather protected) describes an actual state or outcome that the speaker believes to be true about a product. It makes no reference to hypothetical scenarios, alternative conditions, or events that did not happen but could have. Counterfactual statements typically contain conditional language (if, would have, could have) and describe what didn't occur. This statement is a straightforward factual assertion about the product's performance.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Das Produkt ist sicherlich gut und qualitativ hochwertig, aber hier fehlt jede Verh\u00e4ltnism\u00e4ssigkeit.",
+        "model_raw_output": "{\n  \"reasoning\": \"The review states that the product is good and high-quality, but that there is a lack of proportionality (likely referring to price-quality ratio). This is a direct observation/criticism about the current state of the product. It does not express any hypothetical scenario or counterfactual condition about what could, would, or might have happened under different circumstances. The statement is simply a comparative judgment about the product's value proposition, not a statement about an alternate reality or different conditions.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": false
+    }
+]

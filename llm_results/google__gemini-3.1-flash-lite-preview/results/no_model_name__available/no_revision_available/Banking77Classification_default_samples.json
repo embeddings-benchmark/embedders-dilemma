@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "How do I locate my card?",
+        "model_raw_output": "{\"reasoning\": \"The user is asking how to find or locate their card, which implies a situation where the card might be lost or stolen.\", \"output\": \"lost_or_stolen_card\"}",
+        "parsed_output": "lost_or_stolen_card",
+        "ground_truth": "card_arrival",
+        "is_correct": false
+    },
+    {
+        "input_text": "I still have not received my new card, I ordered over a week ago.",
+        "model_raw_output": "{\"reasoning\": \"The user is inquiring about the status of a card that has not yet arrived after being ordered, which aligns with the intent to track the delivery estimate.\", \"output\": \"card_delivery_estimate\"}",
+        "parsed_output": "card_delivery_estimate",
+        "ground_truth": "card_arrival",
+        "is_correct": false
+    },
+    {
+        "input_text": "I ordered a card but it has not arrived. Help please!",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is inquiring about the status of a physical card that was ordered but has not yet been received.\",\n  \"output\": \"card_arrival\"\n}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "Is there a way to know when my card will arrive?",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking about the arrival time of their card, which directly maps to the card_delivery_estimate category.\",\n  \"output\": \"card_delivery_estimate\"\n}",
+        "parsed_output": "card_delivery_estimate",
+        "ground_truth": "card_arrival",
+        "is_correct": false
+    },
+    {
+        "input_text": "My card has not arrived yet.",
+        "model_raw_output": "{\"reasoning\": \"The user is inquiring about the status of a card that has not yet been delivered to them, which directly relates to card delivery tracking.\", \"output\": \"card_arrival\"}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    }
+]

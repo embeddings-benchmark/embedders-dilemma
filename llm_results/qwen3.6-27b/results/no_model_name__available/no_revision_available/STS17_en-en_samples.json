@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "A person is on a baseball team.",
+    "sentence2": "A person is playing basketball on a team.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share a similar syntactic structure and general context involving a person participating in a team sport. However, they specify completely different sports (baseball versus basketball), which is a crucial semantic detail that makes the core propositions factually distinct. This level of overlap in theme but divergence in key information aligns with a score indicating shared details without equivalence.\",\n  \"output\": 2.0\n}",
+    "reasoning": "Both sentences share a similar syntactic structure and general context involving a person participating in a team sport. However, they specify completely different sports (baseball versus basketball), which is a crucial semantic detail that makes the core propositions factually distinct. This level of overlap in theme but divergence in key information aligns with a score indicating shared details without equivalence.",
+    "predicted_sim": 2.0,
+    "gold_score": 2.4,
+    "abs_diff": 0.3999999999999999
+  },
+  {
+    "sentence1": "Our current vehicles will be in museums when everyone has their own aircraft.",
+    "sentence2": "The car needs to some work",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences reference automobiles, but their core meanings, contexts, and intents are entirely different. Sentence 1 speculates about a distant future where personal aircraft make current vehicles obsolete, relegating them to museums. Sentence 2 addresses a present, practical matter about a specific car requiring mechanical repairs. There is no meaningful semantic overlap beyond the broad domain of ground transportation, making them completely unrelated in meaning.\",\n  \"output\": 0.0\n}",
+    "reasoning": "Both sentences reference automobiles, but their core meanings, contexts, and intents are entirely different. Sentence 1 speculates about a distant future where personal aircraft make current vehicles obsolete, relegating them to museums. Sentence 2 addresses a present, practical matter about a specific car requiring mechanical repairs. There is no meaningful semantic overlap beyond the broad domain of ground transportation, making them completely unrelated in meaning.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.2,
+    "abs_diff": 0.2
+  },
+  {
+    "sentence1": "A woman supervisor is instructing the male workers.",
+    "sentence2": "A woman is working as a nurse.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences feature a woman in a professional context, but their core meanings are substantially different. Sentence 1 describes a female supervisor giving instructions to male employees, emphasizing a managerial role and a specific interpersonal action. Sentence 2 describes a woman employed as a nurse, focusing on a medical profession without specifying any particular action or interaction. While they share a superficial similarity (a woman at work), the specific roles, actions, and contextual details are entirely unrelated, resulting in a very low semantic similarity score.\",\n  \"output\": 0.5\n}",
+    "reasoning": "Both sentences feature a woman in a professional context, but their core meanings are substantially different. Sentence 1 describes a female supervisor giving instructions to male employees, emphasizing a managerial role and a specific interpersonal action. Sentence 2 describes a woman employed as a nurse, focusing on a medical profession without specifying any particular action or interaction. While they share a superficial similarity (a woman at work), the specific roles, actions, and contextual details are entirely unrelated, resulting in a very low semantic similarity score.",
+    "predicted_sim": 0.5,
+    "gold_score": 1.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "A bike is next to a couple women.",
+    "sentence2": "A child next to a bike.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a spatial arrangement involving a bike positioned next to people, sharing the same scene structure and key object. However, the subjects differ significantly: Sentence 1 features 'a couple women' while Sentence 2 features 'a child.' This difference in the primary subjects changes the core meaning of who is present in the scene, making the sentences related in context and structure but not equivalent in specific content. Therefore, they receive a low similarity score.\",\n  \"output\": 2.0\n}",
+    "reasoning": "Both sentences describe a spatial arrangement involving a bike positioned next to people, sharing the same scene structure and key object. However, the subjects differ significantly: Sentence 1 features 'a couple women' while Sentence 2 features 'a child.' This difference in the primary subjects changes the core meaning of who is present in the scene, making the sentences related in context and structure but not equivalent in specific content. Therefore, they receive a low similarity score.",
+    "predicted_sim": 2.0,
+    "gold_score": 2.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "The group is eating while taking in a breathtaking view.",
+    "sentence2": "A group of people take a look at an unusual tree.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a group of people observing something in a natural or outdoor setting, which provides a weak thematic connection. However, they differ significantly in their core actions and focal points: Sentence 1 emphasizes eating and enjoying a general breathtaking view, while Sentence 2 focuses specifically on examining an unusual tree and makes no mention of dining or a broader scenic landscape. Because the main activities and objects of attention diverge substantially, the semantic similarity is low.\",\n  \"output\": 1.5\n}",
+    "reasoning": "Both sentences describe a group of people observing something in a natural or outdoor setting, which provides a weak thematic connection. However, they differ significantly in their core actions and focal points: Sentence 1 emphasizes eating and enjoying a general breathtaking view, while Sentence 2 focuses specifically on examining an unusual tree and makes no mention of dining or a broader scenic landscape. Because the main activities and objects of attention diverge substantially, the semantic similarity is low.",
+    "predicted_sim": 1.5,
+    "gold_score": 2.2,
+    "abs_diff": 0.7000000000000002
+  }
+]

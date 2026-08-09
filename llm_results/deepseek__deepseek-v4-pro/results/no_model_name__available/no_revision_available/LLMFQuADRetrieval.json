@@ -1,0 +1,37 @@
+{
+  "dataset_revision": "dc5443dbfad5cd88c9507d27db4cde4caaede178",
+  "task_name": "LLMFQuADRetrieval",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "recall@1": 0.93,
+        "recall@2": 0.94,
+        "recall@3": 0.94,
+        "recall@5": 0.94,
+        "mrecall@1": 0.93,
+        "mrecall@2": 0.94,
+        "mrecall@3": 0.94,
+        "mrecall@5": 0.94,
+        "capped_recall@1": 0.93,
+        "main_score": 0.93,
+        "usage_stats": {
+          "input_tokens": 7054391,
+          "cached_tokens": 3416840,
+          "output_tokens": 67665,
+          "thinking_tokens": 62798,
+          "total_tokens": 7122056,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "hf_subset": "default",
+        "languages": [
+          "fra-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 206.6597809791565,
+  "kg_co2_emissions": null
+}

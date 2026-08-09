@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "open again , open anew",
+    "sentence2": "open again or anew .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the identical concept of reopening something using the synonyms 'again' and 'anew'. Sentence 1 repeats the verb for each adverb, while Sentence 2 uses a conjunction to connect them, but the semantic meaning remains the same.\",\n  \"output\": 4.9\n}",
+    "reasoning": "Both sentences convey the identical concept of reopening something using the synonyms 'again' and 'anew'. Sentence 1 repeats the verb for each adverb, while Sentence 2 uses a conjunction to connect them, but the semantic meaning remains the same.",
+    "predicted_sim": 4.9,
+    "gold_score": 5.0,
+    "abs_diff": 0.09999999999999964
+  },
+  {
+    "sentence1": "only a month ago , mubarak dismissed demands for constitutional reform as \" futile . \"",
+    "sentence2": "only a month before , , the demands of constitutional reform in the five \" .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences refer to demands for constitutional reform from a month prior. Sentence 2 is clearly a fragmented or corrupted version of Sentence 1, missing the main subject (Mubarak) and the verb (dismissed), and concluding with a garbled phrase ('in the five') instead of 'as futile'. While the topic is the same, the lack of a predicate in the second sentence significantly reduces its semantic completeness.\",\n  \"output\": 2.8\n}",
+    "reasoning": "Both sentences refer to demands for constitutional reform from a month prior. Sentence 2 is clearly a fragmented or corrupted version of Sentence 1, missing the main subject (Mubarak) and the verb (dismissed), and concluding with a garbled phrase ('in the five') instead of 'as futile'. While the topic is the same, the lack of a predicate in the second sentence significantly reduces its semantic completeness.",
+    "predicted_sim": 2.8,
+    "gold_score": 2.5,
+    "abs_diff": 0.2999999999999998
+  },
+  {
+    "sentence1": "that provision could open the door wide to arbitrariness .",
+    "sentence2": "this regulation opens the door to arbitrariness .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core meaning: a specific legal rule (provision/regulation) leads to the possibility of arbitrary outcomes. Sentence 1 uses 'could' and the intensifier 'wide', making it slightly more hypothetical and emphatic than Sentence 2, but the semantic equivalence is very high.\",\n  \"output\": 4.4\n}",
+    "reasoning": "Both sentences convey the same core meaning: a specific legal rule (provision/regulation) leads to the possibility of arbitrary outcomes. Sentence 1 uses 'could' and the intensifier 'wide', making it slightly more hypothetical and emphatic than Sentence 2, but the semantic equivalence is very high.",
+    "predicted_sim": 4.4,
+    "gold_score": 4.25,
+    "abs_diff": 0.15000000000000036
+  },
+  {
+    "sentence1": "what we are witnessing today is a shift from a muslim identity to an islamist identity .",
+    "sentence2": "we are witnessing today to change a muslim identity for an islamic identity .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a contemporary transformation concerning Muslim identity. Sentence 1 specifically mentions a shift to an 'islamist' identity (implying political ideology), whereas Sentence 2 uses the word 'islamic' (implying religious identity). Additionally, Sentence 2 has slightly awkward grammar ('witnessing today to change' instead of 'a change from'), but the core meaning remains very similar.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences describe a contemporary transformation concerning Muslim identity. Sentence 1 specifically mentions a shift to an 'islamist' identity (implying political ideology), whereas Sentence 2 uses the word 'islamic' (implying religious identity). Additionally, Sentence 2 has slightly awkward grammar ('witnessing today to change' instead of 'a change from'), but the core meaning remains very similar.",
+    "predicted_sim": 4.2,
+    "gold_score": 5.0,
+    "abs_diff": 0.7999999999999998
+  },
+  {
+    "sentence1": "a person is frying meat in a pan .",
+    "sentence2": "a person is holding a skunk .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the same subject ('a person'), but the actions ('frying meat' versus 'holding a skunk') and the objects involved are completely unrelated, resulting in no meaningful semantic similarity.\",\n  \"output\": 0.0\n}",
+    "reasoning": "Both sentences share the same subject ('a person'), but the actions ('frying meat' versus 'holding a skunk') and the objects involved are completely unrelated, resulting in no meaningful semantic similarity.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.75,
+    "abs_diff": 0.75
+  }
+]

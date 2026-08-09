@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "open again , open anew",
+    "sentence2": "open again or anew .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences express the exact same core proposition: to open something either once more or in a fresh manner. Sentence 1 uses parataxis with a comma and repeats the verb ('open again, open anew'), while Sentence 2 uses the conjunction 'or' without repeating the verb ('open again or anew'). These differences are purely stylistic and syntactic; there is no discernible difference in semantic content or pragmatic intent. However, because the surface structures are not perfectly identical\u2014one presents two parallel imperatives and the other a single imperative with alternative adverbs\u2014it falls just short of a perfect 5.0.\",\n  \"output\": 4.9\n}",
+    "reasoning": "Both sentences express the exact same core proposition: to open something either once more or in a fresh manner. Sentence 1 uses parataxis with a comma and repeats the verb ('open again, open anew'), while Sentence 2 uses the conjunction 'or' without repeating the verb ('open again or anew'). These differences are purely stylistic and syntactic; there is no discernible difference in semantic content or pragmatic intent. However, because the surface structures are not perfectly identical\u2014one presents two parallel imperatives and the other a single imperative with alternative adverbs\u2014it falls just short of a perfect 5.0.",
+    "predicted_sim": 4.9,
+    "gold_score": 5.0,
+    "abs_diff": 0.09999999999999964
+  },
+  {
+    "sentence1": "only a month ago , mubarak dismissed demands for constitutional reform as \" futile . \"",
+    "sentence2": "only a month before , , the demands of constitutional reform in the five \" .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share a similar temporal reference ('only a month ago' vs. 'only a month before') and mention the same topic ('demands ... constitutional reform'). However, Sentence 2 is missing the subject ('Mubarak'), the main verb ('dismissed'), and the critical characterization ('as futile'). Additionally, Sentence 2 is grammatically incoherent and ends with apparent gibberish ('in the five'), which bears no relation to the meaning of Sentence 1. While they are topically related, the core proposition and most of the semantic content of Sentence 1 are absent or contradicted in Sentence 2.\",\n  \"output\": 1.0\n}",
+    "reasoning": "Both sentences share a similar temporal reference ('only a month ago' vs. 'only a month before') and mention the same topic ('demands ... constitutional reform'). However, Sentence 2 is missing the subject ('Mubarak'), the main verb ('dismissed'), and the critical characterization ('as futile'). Additionally, Sentence 2 is grammatically incoherent and ends with apparent gibberish ('in the five'), which bears no relation to the meaning of Sentence 1. While they are topically related, the core proposition and most of the semantic content of Sentence 1 are absent or contradicted in Sentence 2.",
+    "predicted_sim": 1.0,
+    "gold_score": 2.5,
+    "abs_diff": 1.5
+  },
+  {
+    "sentence1": "that provision could open the door wide to arbitrariness .",
+    "sentence2": "this regulation opens the door to arbitrariness .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences express the same core idea: a legal stipulation enables arbitrariness. The subject terms 'that provision' and 'this regulation' are near-synonyms in this context, and both use the metaphor 'open the door to arbitrariness.' The differences are minor: (1) Sentence 1 uses the modal 'could' suggesting possibility, while Sentence 2 uses the declarative 'opens' implying a more definite outcome; (2) Sentence 1 includes the intensifier 'wide,' emphasizing the degree to which arbitrariness is enabled; and (3) there is a slight deictic shift from 'that' to 'this.' These differences slightly alter nuance and modality but do not change the fundamental semantic content. The sentences are very close in meaning but not identical.\",\n  \"output\": 4.3\n}",
+    "reasoning": "Both sentences express the same core idea: a legal stipulation enables arbitrariness. The subject terms 'that provision' and 'this regulation' are near-synonyms in this context, and both use the metaphor 'open the door to arbitrariness.' The differences are minor: (1) Sentence 1 uses the modal 'could' suggesting possibility, while Sentence 2 uses the declarative 'opens' implying a more definite outcome; (2) Sentence 1 includes the intensifier 'wide,' emphasizing the degree to which arbitrariness is enabled; and (3) there is a slight deictic shift from 'that' to 'this.' These differences slightly alter nuance and modality but do not change the fundamental semantic content. The sentences are very close in meaning but not identical.",
+    "predicted_sim": 4.3,
+    "gold_score": 4.25,
+    "abs_diff": 0.04999999999999982
+  },
+  {
+    "sentence1": "what we are witnessing today is a shift from a muslim identity to an islamist identity .",
+    "sentence2": "we are witnessing today to change a muslim identity for an islamic identity .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences discuss observing a contemporary transformation involving Muslim identity. They share similar structure and key phrases ('witnessing today', 'muslim identity'). However, the destination of the shift differs significantly: Sentence 1 describes a move toward an 'Islamist' identity (a politicized, ideological framing), while Sentence 2 describes a move toward an 'Islamic' identity (a general religious/cultural framing). This distinction substantially alters the semantic meaning. Additionally, Sentence 2 contains awkward grammar ('witnessing today to change') that makes it less precise than Sentence 1. The sentences are clearly related and on the same topic, but convey importantly different concepts.\",\n  \"output\": 2.0\n}",
+    "reasoning": "Both sentences discuss observing a contemporary transformation involving Muslim identity. They share similar structure and key phrases ('witnessing today', 'muslim identity'). However, the destination of the shift differs significantly: Sentence 1 describes a move toward an 'Islamist' identity (a politicized, ideological framing), while Sentence 2 describes a move toward an 'Islamic' identity (a general religious/cultural framing). This distinction substantially alters the semantic meaning. Additionally, Sentence 2 contains awkward grammar ('witnessing today to change') that makes it less precise than Sentence 1. The sentences are clearly related and on the same topic, but convey importantly different concepts.",
+    "predicted_sim": 2.0,
+    "gold_score": 5.0,
+    "abs_diff": 3.0
+  },
+  {
+    "sentence1": "a person is frying meat in a pan .",
+    "sentence2": "a person is holding a skunk .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person performing an action, which provides a minimal structural and topical overlap. However, the actions (frying vs. holding), the objects (meat vs. skunk), and the overall contexts (cooking vs. interacting with an animal) are entirely different. There is no meaningful semantic relationship between the scenarios.\",\n  \"output\": 0.1\n}",
+    "reasoning": "Both sentences describe a person performing an action, which provides a minimal structural and topical overlap. However, the actions (frying vs. holding), the objects (meat vs. skunk), and the overall contexts (cooking vs. interacting with an animal) are entirely different. There is no meaningful semantic relationship between the scenarios.",
+    "predicted_sim": 0.1,
+    "gold_score": 0.75,
+    "abs_diff": 0.65
+  }
+]

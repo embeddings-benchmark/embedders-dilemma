@@ -1,0 +1,37 @@
+{
+  "dataset_revision": "28c899f0bb82d9001804d0f408d66932effc0c1c",
+  "task_name": "ArxivClusteringS2S",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "v_measures": [
+          0.653701,
+          0.627302,
+          0.354372,
+          0.370142,
+          0.27003
+        ],
+        "v_measure": 0.455109,
+        "v_measure_std": 0.155378,
+        "usage_stats": {
+          "input_tokens": 21999,
+          "cached_tokens": 2133,
+          "output_tokens": 37709,
+          "thinking_tokens": 35669,
+          "total_tokens": 59708,
+          "cost": 0.0,
+          "rlm_total_calls": 0,
+          "rlm_wall_time_s": 0.0
+        },
+        "main_score": 0.455109,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 447.49730801582336,
+  "kg_co2_emissions": null
+}

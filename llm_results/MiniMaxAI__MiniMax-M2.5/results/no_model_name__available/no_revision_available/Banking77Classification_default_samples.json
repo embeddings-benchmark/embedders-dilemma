@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "How do I locate my card?",
+        "model_raw_output": "{\"reasoning\": \"The user is asking 'How do I locate my card?' This query is about finding or locating a card that they can't find. The most fitting category is 'lost_or_stolen_card' as this category deals with situations where a card holder needs help finding or reporting a missing card. While 'card_delivery_estimate' could be relevant if they're waiting for delivery, the phrasing 'locate' suggests they've lost their card and need help finding or reporting it.\", \"output\": \"lost_or_stolen_card\"}",
+        "parsed_output": "lost_or_stolen_card",
+        "ground_truth": "card_arrival",
+        "is_correct": false
+    },
+    {
+        "input_text": "I still have not received my new card, I ordered over a week ago.",
+        "model_raw_output": "{\"reasoning\": \"The user is saying they ordered a new card over a week ago but haven't received it yet. They're asking about the delivery status of their card. Looking at the available categories, 'card_delivery_estimate' is the most relevant because it deals with questions about when a card will be delivered or why it hasn't arrived yet.\", \"output\": \"card_delivery_estimate\"}",
+        "parsed_output": "card_delivery_estimate",
+        "ground_truth": "card_arrival",
+        "is_correct": false
+    },
+    {
+        "input_text": "I ordered a card but it has not arrived. Help please!",
+        "model_raw_output": "{\"reasoning\":\"The user is asking about a card they ordered that hasn't arrived yet. This is specifically about the delivery status or when their card will arrive. Looking at the available categories, 'card_arrival' is the most appropriate match as it directly relates to questions about card delivery and when the card will arrive.\",\"output\":\"card_arrival\"}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    },
+    {
+        "input_text": "Is there a way to know when my card will arrive?",
+        "model_raw_output": "{\"reasoning\": \"The user is asking about when their card will arrive, specifically wanting to know how to find out the delivery timing. Looking at the available categories, 'card_delivery_estimate' directly relates to getting information about when a card will be delivered. This is the most appropriate match for the query about knowing the card's arrival time.\", \"output\": \"card_delivery_estimate\"}",
+        "parsed_output": "card_delivery_estimate",
+        "ground_truth": "card_arrival",
+        "is_correct": false
+    },
+    {
+        "input_text": "My card has not arrived yet.",
+        "model_raw_output": "{\"reasoning\":\"The user is stating that their card has not arrived yet. This is a query about the delivery or arrival of a physical card that was previously ordered. Looking at the available categories, 'card_arrival' is the most relevant as it directly relates to questions about when a physical card will arrive or has arrived.\",\"output\":\"card_arrival\"}",
+        "parsed_output": "card_arrival",
+        "ground_truth": "card_arrival",
+        "is_correct": true
+    }
+]

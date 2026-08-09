@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Two men are dancing together.",
+    "sentence2": "A woman opens a closet.",
+    "model_raw_output": "{\n  \"reasoning\": \"The sentences describe completely different subjects and actions. One is about two men dancing, while the other is about a woman opening a closet. There is no thematic, subject, or action overlap.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The sentences describe completely different subjects and actions. One is about two men dancing, while the other is about a woman opening a closet. There is no thematic, subject, or action overlap.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "It depends on what you want to do next, and where you want to do it.",
+    "sentence2": "It depends on what you want to achieve.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the idea that a decision or outcome is contingent upon the user's goals or intentions. Sentence 1 is more specific, mentioning both the next action ('what you want to do next') and the location or context ('where you want to do it'). Sentence 2 is more general, focusing solely on the user's overall goals ('what you want to achieve'). Because they share the core meaning but differ in specificity and the additional condition of location, they are moderately to highly similar.\",\n  \"output\": 3.5\n}",
+    "reasoning": "Both sentences convey the idea that a decision or outcome is contingent upon the user's goals or intentions. Sentence 1 is more specific, mentioning both the next action ('what you want to do next') and the location or context ('where you want to do it'). Sentence 2 is more general, focusing solely on the user's overall goals ('what you want to achieve'). Because they share the core meaning but differ in specificity and the additional condition of location, they are moderately to highly similar.",
+    "predicted_sim": 3.5,
+    "gold_score": 3.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "You may have to experiment and find what you like.",
+    "sentence2": "You have to find out what works for you.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core message: the need to discover personal preferences or effective methods through trial and error. There are minor differences in phrasing, such as 'may have to' versus 'have to' and 'what you like' versus 'what works', but the overall meaning is highly similar.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences convey the same core message: the need to discover personal preferences or effective methods through trial and error. There are minor differences in phrasing, such as 'may have to' versus 'have to' and 'what you like' versus 'what works', but the overall meaning is highly similar.",
+    "predicted_sim": 4.2,
+    "gold_score": 5.0,
+    "abs_diff": 0.7999999999999998
+  },
+  {
+    "sentence1": "Some 95 million Americans -- half of all households -- invest in mutual funds.",
+    "sentence2": "About half of all U.S. households have money in mutual funds.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same primary information: approximately half of all American households invest in mutual funds. The only difference is that Sentence 1 includes the specific number of individuals (95 million), while Sentence 2 omits this detail.\",\n  \"output\": 4.4\n}",
+    "reasoning": "Both sentences convey the same primary information: approximately half of all American households invest in mutual funds. The only difference is that Sentence 1 includes the specific number of individuals (95 million), while Sentence 2 omits this detail.",
+    "predicted_sim": 4.4,
+    "gold_score": 4.2,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "Someone is slicing a onion.",
+    "sentence2": "Someone is carrying a fish.",
+    "model_raw_output": "{\n  \"reasoning\": \"The sentences describe entirely different subjects and actions (slicing an onion vs. carrying a fish). There is no semantic overlap other than the subject 'Someone'.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The sentences describe entirely different subjects and actions (slicing an onion vs. carrying a fish). There is no semantic overlap other than the subject 'Someone'.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.75,
+    "abs_diff": 0.75
+  }
+]

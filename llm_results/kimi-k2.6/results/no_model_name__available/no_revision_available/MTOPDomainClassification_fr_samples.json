@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "R\u00e9pondez par SMS \u00e0 la discussion sur la f\u00eate du futur mari\u00e9",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance's core action is to reply by SMS ('R\u00e9pondez par SMS') to a discussion thread. While it mentions a party (bachelor party), that is merely the topic of the message rather than the task domain. Sending or replying to text messages falls under the messaging domain.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "Je voudrais que tu, je voudrais envoyer un message vid\u00e9o \u00e0 Len sur Messagerie",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance expresses a desire to send a video message ('envoyer un message vid\u00e9o') to a contact named Len via a messaging platform ('Messagerie'). The core action is message transmission, which maps directly to the messaging domain.\",\n  \"output\": \"messaging\"\n}",
+        "parsed_output": "messaging",
+        "ground_truth": "messaging",
+        "is_correct": true
+    },
+    {
+        "input_text": "J\u2019aimerais faire un appel vid\u00e9o avec Kennedy Gardner et Alejandro Potts sur WhatsApp",
+        "model_raw_output": "{\n  \"reasoning\": \"L'utilisateur exprime explicitement le souhait de 'faire un appel vid\u00e9o' avec des contacts sp\u00e9cifiques. M\u00eame si WhatsApp est mentionn\u00e9, l'action principale est l'initiation d'un appel (vid\u00e9o), ce qui correspond au domaine 'calling'.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "appelle avec Sustainability",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance contains the French word 'appelle', which is the imperative form of the verb 'appeler' meaning 'to call'. This directly indicates an intention to initiate a phone or video call, regardless of the object 'Sustainability' (likely a contact name or topic).\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    },
+    {
+        "input_text": "Veuillez mettre l'appel en plein \u00e9cran",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance uses the word 'appel' (call) and requests to put it in full screen, which is an action related to managing an active phone or video call.\",\n  \"output\": \"calling\"\n}",
+        "parsed_output": "calling",
+        "ground_truth": "calling",
+        "is_correct": true
+    }
+]

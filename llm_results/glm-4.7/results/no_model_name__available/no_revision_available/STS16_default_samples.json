@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "in the us , it will depend on the school .",
+    "sentence2": "it really depends on the school and the program .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the core meaning that a specific outcome or situation varies based on the school. Sentence 1 specifies the geographical context as 'in the us', whereas Sentence 2 omits the location but adds 'and the program' to the dependency list, along with the intensifier 'really'. While not identical due to these specific details, they convey very similar conditional logic.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences share the core meaning that a specific outcome or situation varies based on the school. Sentence 1 specifies the geographical context as 'in the us', whereas Sentence 2 omits the location but adds 'and the program' to the dependency list, along with the intensifier 'really'. While not identical due to these specific details, they convey very similar conditional logic.",
+    "predicted_sim": 4.2,
+    "gold_score": 3.0,
+    "abs_diff": 1.2000000000000002
+  },
+  {
+    "sentence1": "there 's also what the string is made of .",
+    "sentence2": "there is also a youtube-version of the film .",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 refers to the material composition or physical nature of a string. Sentence 2 refers to the existence of a specific digital version of a film on a platform. Apart from the introductory phrase 'there is/also', there is no semantic overlap between the subjects.\",\n  \"output\": 0.1\n}",
+    "reasoning": "Sentence 1 refers to the material composition or physical nature of a string. Sentence 2 refers to the existence of a specific digital version of a film on a platform. Apart from the introductory phrase 'there is/also', there is no semantic overlap between the subjects.",
+    "predicted_sim": 0.1,
+    "gold_score": 0.0,
+    "abs_diff": 0.1
+  },
+  {
+    "sentence1": "you also imply you may not be paid if they cannot place you with a client .",
+    "sentence2": "you can do it , but you might not be a professor .",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences discuss completely different topics. Sentence 1 concerns employment conditions, specifically the risk of not being paid if a client placement is not found. Sentence 2 discusses performing an action without necessarily holding a specific academic title (professor). While both sentences share a similar grammatical structure involving the subject 'you' and a modal verb indicating a possibility (may/might), there is no semantic overlap in the actual meaning or subject matter.\",\n  \"output\": 0.1\n}",
+    "reasoning": "The two sentences discuss completely different topics. Sentence 1 concerns employment conditions, specifically the risk of not being paid if a client placement is not found. Sentence 2 discusses performing an action without necessarily holding a specific academic title (professor). While both sentences share a similar grammatical structure involving the subject 'you' and a modal verb indicating a possibility (may/might), there is no semantic overlap in the actual meaning or subject matter.",
+    "predicted_sim": 0.1,
+    "gold_score": 0.0,
+    "abs_diff": 0.1
+  },
+  {
+    "sentence1": "you do not need to worry .",
+    "sentence2": "you don 't have to worry .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the exact same meaning: reassuring the listener that anxiety is unnecessary. The phrase 'do not need' is synonymous with 'don't have to', and the contraction in the second sentence does not alter the semantics.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey the exact same meaning: reassuring the listener that anxiety is unnecessary. The phrase 'do not need' is synonymous with 'don't have to', and the contraction in the second sentence does not alter the semantics.",
+    "predicted_sim": 5.0,
+    "gold_score": 5.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "you should do it .",
+    "sentence2": "you should do what it says .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences function as suggestions or commands to perform a specific action, sharing the core structure 'you should do'. Sentence 1 is vague regarding the object of the action ('it'), whereas Sentence 2 is more specific, implying that the action is compliance with instructions or text ('what it says'). While they share the same intent, the difference in specificity means they are not fully equivalent.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences function as suggestions or commands to perform a specific action, sharing the core structure 'you should do'. Sentence 1 is vague regarding the object of the action ('it'), whereas Sentence 2 is more specific, implying that the action is compliance with instructions or text ('what it says'). While they share the same intent, the difference in specificity means they are not fully equivalent.",
+    "predicted_sim": 2.5,
+    "gold_score": 3.0,
+    "abs_diff": 0.5
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Une personne fait partie d'une \u00e9quipe de baseball.",
+    "sentence2": "A person is playing basketball on a team.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person being part of a sports team. However, they refer to different sports (baseball vs. basketball) and have a slight difference in action ('fait partie' / 'is part of' vs. 'is playing'). The general context is similar, but the core specific details differ.\",\n  \"output\": 2.2\n}",
+    "reasoning": "Both sentences describe a person being part of a sports team. However, they refer to different sports (baseball vs. basketball) and have a slight difference in action ('fait partie' / 'is part of' vs. 'is playing'). The general context is similar, but the core specific details differ.",
+    "predicted_sim": 2.2,
+    "gold_score": 2.4,
+    "abs_diff": 0.19999999999999973
+  },
+  {
+    "sentence1": "Nos v\u00e9hicules actuels seront dans les mus\u00e9es lorsque chacun aura son propre avion.",
+    "sentence2": "The car needs to some work",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 is in French and translates to 'Our current vehicles will be in museums when everyone has their own plane.' Sentence 2 is in English and states that a specific car requires repairs. While both sentences mention vehicles or cars, their meanings, contexts, and topics are entirely unrelated.\",\n  \"output\": 0.2\n}",
+    "reasoning": "Sentence 1 is in French and translates to 'Our current vehicles will be in museums when everyone has their own plane.' Sentence 2 is in English and states that a specific car requires repairs. While both sentences mention vehicles or cars, their meanings, contexts, and topics are entirely unrelated.",
+    "predicted_sim": 0.2,
+    "gold_score": 0.2,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "Une superviseure instruit les travailleurs masculins.",
+    "sentence2": "A woman is working as a nurse.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 translates to 'A female supervisor is instructing male workers.' Sentence 2 describes a woman working as a nurse. While both sentences involve a woman in a working environment, the specific occupations, actions, and contexts are entirely different.\",\n  \"output\": 0.5\n}",
+    "reasoning": "Sentence 1 translates to 'A female supervisor is instructing male workers.' Sentence 2 describes a woman working as a nurse. While both sentences involve a woman in a working environment, the specific occupations, actions, and contexts are entirely different.",
+    "predicted_sim": 0.5,
+    "gold_score": 1.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "Un v\u00e9lo est \u00e0 c\u00f4t\u00e9 d'un couple de femmes.",
+    "sentence2": "A child next to a bike.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a bicycle next to a person or people. However, Sentence 1 mentions 'a couple of women' (un couple de femmes) whereas Sentence 2 mentions 'a child'. The shared objects and spatial relationship provide some similarity, but the subjects differ significantly.\",\n  \"output\": 2.2\n}",
+    "reasoning": "Both sentences describe a bicycle next to a person or people. However, Sentence 1 mentions 'a couple of women' (un couple de femmes) whereas Sentence 2 mentions 'a child'. The shared objects and spatial relationship provide some similarity, but the subjects differ significantly.",
+    "predicted_sim": 2.2,
+    "gold_score": 2.0,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "Le groupe mange tout en profitant d'une vue \u00e0 couper le souffle.",
+    "sentence2": "A group of people take a look at an unusual tree.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 translates to 'The group eats while enjoying a breathtaking view,' while Sentence 2 is about 'A group of people take a look at an unusual tree.' Both sentences involve a group of people observing something visually, but the specific actions (eating vs. taking a look) and the objects of their attention (a breathtaking view vs. an unusual tree) are distinctly different.\",\n  \"output\": 0.8\n}",
+    "reasoning": "Sentence 1 translates to 'The group eats while enjoying a breathtaking view,' while Sentence 2 is about 'A group of people take a look at an unusual tree.' Both sentences involve a group of people observing something visually, but the specific actions (eating vs. taking a look) and the objects of their attention (a breathtaking view vs. an unusual tree) are distinctly different.",
+    "predicted_sim": 0.8,
+    "gold_score": 2.2,
+    "abs_diff": 1.4000000000000001
+  }
+]

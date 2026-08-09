@@ -1,0 +1,19 @@
+% Cross-family thinking-token tax: default vs reasoning-off on retrieval (auto-generated)
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Model} & \textbf{Default} & \textbf{No-think} & \textbf{$\Delta$} & \textbf{Gen tokens} \\
+\midrule
+Qwen3.6-27B & 62.4 & 57.8 & $-$4.5 & $-$90\% \\
+Qwen3.6-35B-A3B & 60.4 & 54.4 & $-$6.0 & $-$90\% \\
+Kimi-K2.6 & 56.7 & \textbf{58.7} & +2.0 & $-$92\% \\
+DeepSeek-V4-Flash & 53.3 & \textbf{55.2} & +1.9 & $-$89\% \\
+Gemini 3 Flash & 52.3 & \textbf{60.7} & +8.4 & $-$96\% \\
+MiniMax-M2.7 & 48.0 & \textbf{48.7} & +0.7 & $-$54\% \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Cross-family reduced-reasoning ablation.} Mean retrieval score with reasoning enabled vs.\ disabled for 6 LLMs from 5 families. Gen tokens = reduction in output$+$thinking tokens.}
+\label{tab:ablation_thinking_families}
+\end{table}

@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "pink is all we need",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'pink is all we need' likely refers to a song or artist. 'Pink' could refer to the artist P!nk, and 'all we need' might be a misremembered lyric or a reference to a song title. The phrase suggests a music-related request, such as playing a song or exploring music by P!nk.\",\n  \"output\": \"music\"\n}",
+        "parsed_output": "music",
+        "ground_truth": "iot",
+        "is_correct": false
+    },
+    {
+        "input_text": "i want the status on my screen brightness",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting the status of their screen brightness, which pertains to adjusting or checking a device setting. This falls under controlling or querying the state of a connected device, which is typically part of IoT (Internet of Things) or device management scenarios.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "what's the time in australia",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking for the current time in a specific location (Australia), which directly relates to time and time zones. This falls under the 'datetime' scenario, which handles inquiries about time, dates, and time-related information.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "cancel my seven am alarm",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is requesting to cancel an existing alarm set for 7 AM. This directly relates to managing alarms, which falls under the 'alarm' scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "what alarms i have set",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking about the alarms they have set, which directly relates to managing or checking existing alarms. This falls under the 'alarm' scenario as it involves interaction with alarm settings and queries.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

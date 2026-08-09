@@ -1,0 +1,35 @@
+{
+  "dataset_revision": "d6628df131c3279007b88fe3e057e809dac056af",
+  "task_name": "LLMSpartQA",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "recall@1": 0.145,
+        "recall@2": 0.236667,
+        "recall@3": 0.29,
+        "recall@5": 0.39,
+        "mrecall@1": 0.375,
+        "mrecall@2": 0.19,
+        "mrecall@3": 0.17,
+        "mrecall@5": 0.28,
+        "capped_recall@1": 0.375,
+        "main_score": 0.145,
+        "usage_stats": {
+          "input_tokens": 9398781,
+          "output_tokens": 86862,
+          "total_tokens": 13510828,
+          "cached_tokens": 8418553,
+          "cost": 0.0
+        },
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 4527.51597571373,
+  "kg_co2_emissions": null,
+  "date": 1774232325.941324
+}

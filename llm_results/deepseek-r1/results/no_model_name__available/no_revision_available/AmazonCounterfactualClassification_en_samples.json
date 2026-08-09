@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Quintus prophesied that they would be martyrs one day but not that day.",
+        "model_raw_output": "{\n  \"reasoning\": \"The statement refers to a prophecy about future martyrdom ('one day') while specifying that it would not occur on the specific day in question. This is a factual prediction of future events, not a hypothetical scenario that contrasts with reality. Counterfactuals require a hypothetical 'what if' element that contradicts known facts, which is absent here.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Would be great to have on my tablet instead of carrying the book.",
+        "model_raw_output": "{\n  \"reasoning\": \"The customer expresses a desire for an alternative scenario ('having on my tablet') that is not currently their reality, which involves imagining a hypothetical situation where they avoid 'carrying the book.' This aligns with the definition of a counterfactual statement, as it reflects what could or would happen under different conditions (e.g., availability on a tablet).\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": false
+    },
+    {
+        "input_text": "I just wish it would come with a plastic pole instead of metal as I just know it will eventually rust!",
+        "model_raw_output": "{\n  \"reasoning\": \"The review expresses a hypothetical scenario where the product comes with a plastic pole instead of a metal one, which is not the current reality. The phrase 'I just wish it would come with...' explicitly introduces a counterfactual desire (plastic pole) to avoid an anticipated issue (rusting of metal). This contrasts the actual product (metal pole) with an imagined alternative (plastic pole), fulfilling the criteria of a counterfactual statement.\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "It only utilizes one side and the insert doesn't have a window for an ID.",
+        "model_raw_output": "{\n  \"reasoning\": \"The review states factual observations about the product's design (using only one side, lacking an ID window). It does not propose hypothetical scenarios (e.g., 'If it had...') or speculate about alternative outcomes under different conditions. Instead, it directly describes existing shortcomings.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "I also wished the colorful print material in the front would go all the way around to the back side of the dress too.",
+        "model_raw_output": "{\n  \"reasoning\": \"The statement expresses a desire for the product to have a different design feature (colorful print extending to the back) that does not currently exist. This aligns with the definition of a counterfactual statement, as it explicitly references an alternative scenario ('would go all the way around') under different conditions.\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": true
+    }
+]

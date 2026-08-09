@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "A person is on a baseball team.",
+    "sentence2": "Eine Person spielt in einem Team Basketball.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person participating in a team sport, but they specify different sports (baseball vs. basketball), leading to a moderate level of semantic divergence.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences describe a person participating in a team sport, but they specify different sports (baseball vs. basketball), leading to a moderate level of semantic divergence.",
+    "predicted_sim": 2.5,
+    "gold_score": 2.4,
+    "abs_diff": 0.10000000000000009
+  },
+  {
+    "sentence1": "Our current vehicles will be in museums when everyone has their own aircraft.",
+    "sentence2": "Das Auto muss etwas in Stand gesetzt werden",
+    "model_raw_output": "{\"reasoning\": \"The two sentences are completely unrelated. The first sentence discusses the future of transportation and the obsolescence of cars, while the second sentence (in German) discusses repairing a car.\", \"output\": 0.0}",
+    "reasoning": "The two sentences are completely unrelated. The first sentence discusses the future of transportation and the obsolescence of cars, while the second sentence (in German) discusses repairing a car.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.2,
+    "abs_diff": 0.2
+  },
+  {
+    "sentence1": "A woman supervisor is instructing the male workers.",
+    "sentence2": "Eine Frau arbeitet als Krankenpflegerin.",
+    "model_raw_output": "{\"reasoning\": \"The two sentences describe entirely different subjects and actions. The first sentence refers to a woman supervising male workers, while the second sentence, translated from German, means 'A woman works as a nurse'. There is no overlap in meaning.\", \"output\": 0.0}",
+    "reasoning": "The two sentences describe entirely different subjects and actions. The first sentence refers to a woman supervising male workers, while the second sentence, translated from German, means 'A woman works as a nurse'. There is no overlap in meaning.",
+    "predicted_sim": 0.0,
+    "gold_score": 1.0,
+    "abs_diff": 1.0
+  },
+  {
+    "sentence1": "A bike is next to a couple women.",
+    "sentence2": "Ein Kind neben einem Fahrrad.",
+    "model_raw_output": "{\n  \"reasoning\": \"The sentences refer to different subjects (a couple of women versus a child) and although both mention a bike and the proximity to someone, the core subjects and their attributes do not align.\",\n  \"output\": 1.5\n}",
+    "reasoning": "The sentences refer to different subjects (a couple of women versus a child) and although both mention a bike and the proximity to someone, the core subjects and their attributes do not align.",
+    "predicted_sim": 1.5,
+    "gold_score": 2.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "The group is eating while taking in a breathtaking view.",
+    "sentence2": "Eine Gruppe sieht einen ungew\u00f6hnlichen Baum an.",
+    "model_raw_output": "{\"reasoning\": \"The first sentence describes a group eating and viewing scenery, while the second sentence in German describes a group looking at an unusual tree. They share the subject 'a group' but the actions and the focus of their observation are completely different.\", \"output\": 1.2}",
+    "reasoning": "The first sentence describes a group eating and viewing scenery, while the second sentence in German describes a group looking at an unusual tree. They share the subject 'a group' but the actions and the focus of their observation are completely different.",
+    "predicted_sim": 1.2,
+    "gold_score": 2.2,
+    "abs_diff": 1.0000000000000002
+  }
+]

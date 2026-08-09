@@ -1,0 +1,19 @@
+% Appendix: cost sensitivity analysis (auto-generated)
+\begin{table}[h]
+\centering
+\small
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Hardware / Pricing Scenario} & \textbf{Emb.\ Cost} & \textbf{LLM Cost} & \textbf{Ratio} \\
+\midrule
+H100 spot \$2.49/hr (our setup) & \$0.108 & \$154.14 & 1,431$\times$ \\
+H100 on-demand \$3.99/hr & \$0.173 & \$154.14 & 893$\times$ \\
+A100 spot \$1.49/hr (est.\ 1.5$\times$ slower) & \$0.097 & \$154.14 & 1,594$\times$ \\
+L4 spot \$0.49/hr (est.\ 3$\times$ slower) & \$0.064 & \$154.14 & 2,424$\times$ \\
+Commercial API \$0.10/MTok & \$0.457 & \$154.14 & 338$\times$ \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Cost sensitivity analysis.} LLM-to-embedding cost ratio under alternative hardware
+and pricing scenarios. Costs compare Octen-8B with Gemini 3.1 Pro at fixed API pricing; ratios range from 338--2,424$\times$.}
+\label{tab:cost_sensitivity}
+\end{table}

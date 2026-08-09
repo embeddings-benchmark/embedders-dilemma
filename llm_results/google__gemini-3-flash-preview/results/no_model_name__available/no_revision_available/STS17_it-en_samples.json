@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Una persona fa parte di una squadra di baseball.",
+    "sentence2": "A person is playing basketball on a team.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person involved with a sports team. However, they specify different sports\u2014baseball in the first sentence and basketball in the second. While the structural context is nearly identical, the specific activity is different.\",\n  \"output\": 1.8\n}",
+    "reasoning": "Both sentences describe a person involved with a sports team. However, they specify different sports\u2014baseball in the first sentence and basketball in the second. While the structural context is nearly identical, the specific activity is different.",
+    "predicted_sim": 1.8,
+    "gold_score": 2.4,
+    "abs_diff": 0.5999999999999999
+  },
+  {
+    "sentence1": "I nostri veicoli attuali saranno nei musei quando ognuno avr\u00e0 il proprio aereo.",
+    "sentence2": "The car needs to some work",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences share a very broad theme related to vehicles, but their semantic content is largely unrelated. Sentence 1 is a futuristic statement about the obsolescence of current vehicles in favor of personal aircraft, while Sentence 2 is a mundane statement about the mechanical maintenance required for a specific car.\",\n  \"output\": 0.4\n}",
+    "reasoning": "The two sentences share a very broad theme related to vehicles, but their semantic content is largely unrelated. Sentence 1 is a futuristic statement about the obsolescence of current vehicles in favor of personal aircraft, while Sentence 2 is a mundane statement about the mechanical maintenance required for a specific car.",
+    "predicted_sim": 0.4,
+    "gold_score": 0.2,
+    "abs_diff": 0.2
+  },
+  {
+    "sentence1": "Una donna supervisore sta istruendo i lavoratori di sesso maschile.",
+    "sentence2": "A woman is working as a nurse.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a woman in a work-related context. However, the roles (supervisor vs. nurse) and the specific actions (instructing male workers vs. generally working as a nurse) are distinct, resulting in low semantic similarity.\",\n  \"output\": 1.2\n}",
+    "reasoning": "Both sentences describe a woman in a work-related context. However, the roles (supervisor vs. nurse) and the specific actions (instructing male workers vs. generally working as a nurse) are distinct, resulting in low semantic similarity.",
+    "predicted_sim": 1.2,
+    "gold_score": 1.0,
+    "abs_diff": 0.19999999999999996
+  },
+  {
+    "sentence1": "Una bici \u00e8 accanto a una coppia di donne.",
+    "sentence2": "A child next to a bike.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences involve a bicycle and a spatial relationship of being 'next to' it. However, the subjects in each sentence are different: one mentions a pair of women, while the other mentions a child. They share a common object and structure but differ in their primary subjects.\",\n  \"output\": 1.4\n}",
+    "reasoning": "Both sentences involve a bicycle and a spatial relationship of being 'next to' it. However, the subjects in each sentence are different: one mentions a pair of women, while the other mentions a child. They share a common object and structure but differ in their primary subjects.",
+    "predicted_sim": 1.4,
+    "gold_score": 2.0,
+    "abs_diff": 0.6000000000000001
+  },
+  {
+    "sentence1": "Il gruppo sta mangiando ammirando una vista mozzafiato.",
+    "sentence2": "A group of people take a look at an unusual tree.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a group of people observing something, but the specific activities and the focus of their attention are different. Sentence 1 involves eating while looking at a breathtaking view, while sentence 2 involves looking at an unusual tree. The similarity is limited to the subject (a group) and the general act of visual observation.\",\n  \"output\": 1.2\n}",
+    "reasoning": "Both sentences describe a group of people observing something, but the specific activities and the focus of their attention are different. Sentence 1 involves eating while looking at a breathtaking view, while sentence 2 involves looking at an unusual tree. The similarity is limited to the subject (a group) and the general act of visual observation.",
+    "predicted_sim": 1.2,
+    "gold_score": 2.2,
+    "abs_diff": 1.0000000000000002
+  }
+]

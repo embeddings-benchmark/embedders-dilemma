@@ -1,0 +1,71 @@
+% Per-task token budget (GPT-4o tokenizer, raw text) (auto-generated)
+\begin{table}[h]
+\centering
+\small
+\setlength{\tabcolsep}{5pt}
+\begin{tabular}{lrr}
+\toprule
+\multicolumn{3}{l}{\textit{Classification}} \\
+\addlinespace[2pt]
+\textbf{Task} & \textbf{Test} & \textbf{Train (kNN)\textsuperscript{*}} \\
+\midrule
+ImdbCls & 132k & 7,281k \\
+Banking77Cls & 38k & 134k \\
+AmazonCounterfactualCls & 22k & 258k \\
+MTOPDomainCls & 23k & 393k \\
+MassiveIntentCls & 37k & 433k \\
+MassiveScenarioCls & 30k & 433k \\
+ToxicConversationsCls & 33k & 3,239k \\
+TweetSentimentCls & 9k & 483k \\
+\addlinespace[4pt]
+\multicolumn{3}{l}{\textit{STS}} \\
+\addlinespace[2pt]
+STSBenchmark & \multicolumn{2}{r}{12k} \\
+SICK-R & \multicolumn{2}{r}{10k} \\
+STS12 & \multicolumn{2}{r}{14k} \\
+STS13 & \multicolumn{2}{r}{12k} \\
+STS14 & \multicolumn{2}{r}{12k} \\
+STS15 & \multicolumn{2}{r}{12k} \\
+STS16 & \multicolumn{2}{r}{14k} \\
+BIOSSES & \multicolumn{2}{r}{7k} \\
+STS17 & \multicolumn{2}{r}{21k} \\
+STS22v2 & \multicolumn{2}{r}{1,866k} \\
+\addlinespace[4pt]
+\multicolumn{3}{l}{\textit{Clustering}} \\
+\addlinespace[2pt]
+RedditClustP2P & \multicolumn{2}{r}{178k} \\
+TwentyNewsgroupsV2 & \multicolumn{2}{r}{8k} \\
+StackExchangeClustP2PV2 & \multicolumn{2}{r}{276k} \\
+StackExchangeClustV2 & \multicolumn{2}{r}{13k} \\
+ArxivClustP2P & \multicolumn{2}{r}{226k} \\
+ArxivClustS2S & \multicolumn{2}{r}{16k} \\
+BiorxivClustP2PV2 & \multicolumn{2}{r}{313k} \\
+MedrxivClustP2PV2 & \multicolumn{2}{r}{401k} \\
+MedrxivClustS2SV2 & \multicolumn{2}{r}{23k} \\
+\addlinespace[4pt]
+\multicolumn{3}{l}{\textit{PairClassification}} \\
+\addlinespace[2pt]
+SprintDuplicateQuestionsPC & \multicolumn{2}{r}{14k} \\
+TwitterURLCorpusPC & \multicolumn{2}{r}{18k} \\
+LegalBenchPC & \multicolumn{2}{r}{37k} \\
+RTE3PC & \multicolumn{2}{r}{114k} \\
+\midrule
+\textbf{Task} & \textbf{Queries} & \textbf{Corpus} \\
+\midrule
+\multicolumn{3}{l}{\textit{Retrieval}} \\
+\addlinespace[2pt]
+AILAStatutes & 33k & 37k \\
+FQuADRetrieval & 1k & 59k \\
+HC3FinanceRetrieval & 1k & 89k \\
+LegalBenchConsumerContractsQA & 2k & 83k \\
+PublicHealthQA & 1k & 28k \\
+TwitterHjerneRetrieval & 4k & 10k \\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Token budget per task} (GPT-4o tokenizer; raw text).
+Actual counts vary by ${\pm}$15--40\% across model vocabularies.
+\textsuperscript{*}Train split is the kNN reference corpus processed only by
+embedding models; LLMs process only the test split. Corpus-in-context formatting
+adds ${\sim}$20 tokens per document for LLM retrieval.}
+\label{tab:token_budget}
+\end{table}

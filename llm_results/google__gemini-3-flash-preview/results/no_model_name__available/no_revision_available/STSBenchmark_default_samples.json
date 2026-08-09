@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Two men are dancing together.",
+    "sentence2": "A woman opens a closet.",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences describe entirely different subjects (two men vs. a woman) performing completely unrelated actions (dancing vs. opening a closet). There is no shared semantic content between the two statements.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The two sentences describe entirely different subjects (two men vs. a woman) performing completely unrelated actions (dancing vs. opening a closet). There is no shared semantic content between the two statements.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "It depends on what you want to do next, and where you want to do it.",
+    "sentence2": "It depends on what you want to achieve.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences state that a subsequent step or decision is dependent on the individual's goals. Sentence 1 is more detailed, specifying the action ('what you want to do') and the location ('where you want to do it'). Sentence 2 uses the broader term 'achieve', which summarizes the intent of the action but omits the geographic/situational context of 'where'.\",\n  \"output\": 3.4\n}",
+    "reasoning": "Both sentences state that a subsequent step or decision is dependent on the individual's goals. Sentence 1 is more detailed, specifying the action ('what you want to do') and the location ('where you want to do it'). Sentence 2 uses the broader term 'achieve', which summarizes the intent of the action but omits the geographic/situational context of 'where'.",
+    "predicted_sim": 3.4,
+    "gold_score": 3.0,
+    "abs_diff": 0.3999999999999999
+  },
+  {
+    "sentence1": "You may have to experiment and find what you like.",
+    "sentence2": "You have to find out what works for you.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core message advising the listener to engage in a process of personal discovery to determine a suitable outcome. Sentence 1 uses 'experiment' and 'find what you like', focusing on preference, while Sentence 2 uses 'find out what works for you', focusing on efficacy. There is also a slight difference in the modal verbs ('may have to' vs 'have to'), but the overall semantic intent is very similar.\",\n  \"output\": 4.2\n}",
+    "reasoning": "Both sentences convey the same core message advising the listener to engage in a process of personal discovery to determine a suitable outcome. Sentence 1 uses 'experiment' and 'find what you like', focusing on preference, while Sentence 2 uses 'find out what works for you', focusing on efficacy. There is also a slight difference in the modal verbs ('may have to' vs 'have to'), but the overall semantic intent is very similar.",
+    "predicted_sim": 4.2,
+    "gold_score": 5.0,
+    "abs_diff": 0.7999999999999998
+  },
+  {
+    "sentence1": "Some 95 million Americans -- half of all households -- invest in mutual funds.",
+    "sentence2": "About half of all U.S. households have money in mutual funds.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same primary information: that approximately 50% of American households are invested in mutual funds. Sentence 1 provides an additional specific figure of 95 million people, while Sentence 2 uses slightly more general phrasing ('have money in' instead of 'invest'). The semantic overlap is extremely high.\",\n  \"output\": 4.8\n}",
+    "reasoning": "Both sentences convey the same primary information: that approximately 50% of American households are invested in mutual funds. Sentence 1 provides an additional specific figure of 95 million people, while Sentence 2 uses slightly more general phrasing ('have money in' instead of 'invest'). The semantic overlap is extremely high.",
+    "predicted_sim": 4.8,
+    "gold_score": 4.2,
+    "abs_diff": 0.5999999999999996
+  },
+  {
+    "sentence1": "Someone is slicing a onion.",
+    "sentence2": "Someone is carrying a fish.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share a similar grammatical structure and start with the same generic subject ('Someone'). However, the actions ('slicing' vs. 'carrying') and the objects ('onion' vs. 'fish') are completely different, resulting in very low semantic similarity.\",\n  \"output\": 0.8\n}",
+    "reasoning": "Both sentences share a similar grammatical structure and start with the same generic subject ('Someone'). However, the actions ('slicing' vs. 'carrying') and the objects ('onion' vs. 'fish') are completely different, resulting in very low semantic similarity.",
+    "predicted_sim": 0.8,
+    "gold_score": 0.75,
+    "abs_diff": 0.050000000000000044
+  }
+]

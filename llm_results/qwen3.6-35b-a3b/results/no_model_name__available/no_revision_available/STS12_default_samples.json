@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "open again , open anew",
+    "sentence2": "open again or anew .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences contain the exact same vocabulary ('open', 'again', 'anew') and express the same core concept of reopening or starting fresh. The only difference is syntactic: Sentence 1 uses repetition and a comma for rhetorical emphasis, while Sentence 2 uses the conjunction 'or' to present the concepts as alternatives. This minor structural variation does not significantly alter the fundamental meaning, making them virtually interchangeable in context, though the subtle nuance difference prevents a perfect 5.0.\",\n  \"output\": 4.8\n}",
+    "reasoning": "Both sentences contain the exact same vocabulary ('open', 'again', 'anew') and express the same core concept of reopening or starting fresh. The only difference is syntactic: Sentence 1 uses repetition and a comma for rhetorical emphasis, while Sentence 2 uses the conjunction 'or' to present the concepts as alternatives. This minor structural variation does not significantly alter the fundamental meaning, making them virtually interchangeable in context, though the subtle nuance difference prevents a perfect 5.0.",
+    "predicted_sim": 4.8,
+    "gold_score": 5.0,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "only a month ago , mubarak dismissed demands for constitutional reform as \" futile . \"",
+    "sentence2": "only a month before , , the demands of constitutional reform in the five \" .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share a specific timeframe ('only a month ago/before') and mention 'demands for constitutional reform,' indicating a clear topical overlap. However, Sentence 1 presents a complete, coherent statement about Mubarak dismissing these demands as 'futile.' In contrast, Sentence 2 is highly fragmented, lacks a main subject and verb, and ends with nonsensical/incomplete text ('in the five .'). Because the core assertion and meaning are lost in Sentence 2, the semantic similarity is low, though the shared phrases prevent it from being completely unrelated.\",\n  \"output\": 2.0\n}",
+    "reasoning": "Both sentences share a specific timeframe ('only a month ago/before') and mention 'demands for constitutional reform,' indicating a clear topical overlap. However, Sentence 1 presents a complete, coherent statement about Mubarak dismissing these demands as 'futile.' In contrast, Sentence 2 is highly fragmented, lacks a main subject and verb, and ends with nonsensical/incomplete text ('in the five .'). Because the core assertion and meaning are lost in Sentence 2, the semantic similarity is low, though the shared phrases prevent it from being completely unrelated.",
+    "predicted_sim": 2.0,
+    "gold_score": 2.5,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "that provision could open the door wide to arbitrariness .",
+    "sentence2": "this regulation opens the door to arbitrariness .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core proposition: a specific legal or regulatory rule enables arbitrary decision-making. The subjects ('that provision' vs. 'this regulation') are functionally equivalent in a legal context. The only differences are in modality and stylistic emphasis: 'could open wide' suggests possibility and intensifies the effect, while 'opens' states it as a definitive fact. This is a minor nuance regarding certainty and rhetoric that does not change the fundamental meaning, warranting a high similarity score.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences convey the same core proposition: a specific legal or regulatory rule enables arbitrary decision-making. The subjects ('that provision' vs. 'this regulation') are functionally equivalent in a legal context. The only differences are in modality and stylistic emphasis: 'could open wide' suggests possibility and intensifies the effect, while 'opens' states it as a definitive fact. This is a minor nuance regarding certainty and rhetoric that does not change the fundamental meaning, warranting a high similarity score.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.25,
+    "abs_diff": 0.25
+  },
+  {
+    "sentence1": "what we are witnessing today is a shift from a muslim identity to an islamist identity .",
+    "sentence2": "we are witnessing today to change a muslim identity for an islamic identity .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the exact same observed phenomenon: a contemporary transition from a Muslim identity to a closely related religious or ideological identity. They share nearly identical vocabulary, syntactic structure, and intent. The only notable difference is the substitution of 'islamist' versus 'islamic'. While these terms can carry distinct connotations in academic or political contexts (the former often implying political activism, the latter referring broadly to the religion), in this context they are used interchangeably to denote a shift toward a more defined faith-based identity. The minor terminological variation does not significantly alter the core message, making the sentences highly similar and functionally equivalent.\",\n  \"output\": 4.0\n}",
+    "reasoning": "Both sentences describe the exact same observed phenomenon: a contemporary transition from a Muslim identity to a closely related religious or ideological identity. They share nearly identical vocabulary, syntactic structure, and intent. The only notable difference is the substitution of 'islamist' versus 'islamic'. While these terms can carry distinct connotations in academic or political contexts (the former often implying political activism, the latter referring broadly to the religion), in this context they are used interchangeably to denote a shift toward a more defined faith-based identity. The minor terminological variation does not significantly alter the core message, making the sentences highly similar and functionally equivalent.",
+    "predicted_sim": 4.0,
+    "gold_score": 5.0,
+    "abs_diff": 1.0
+  },
+  {
+    "sentence1": "a person is frying meat in a pan .",
+    "sentence2": "a person is holding a skunk .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe an action performed by a person, but the core activities and objects are entirely unrelated. Sentence 1 describes a cooking activity (frying meat in a pan), while Sentence 2 describes handling an animal (holding a skunk). There is no meaningful overlap in context, intent, or real-world scenario between the two statements, making them semantically unrelated.\",\n  \"output\": 0.0\n}",
+    "reasoning": "Both sentences describe an action performed by a person, but the core activities and objects are entirely unrelated. Sentence 1 describes a cooking activity (frying meat in a pan), while Sentence 2 describes handling an animal (holding a skunk). There is no meaningful overlap in context, intent, or real-world scenario between the two statements, making them semantically unrelated.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.75,
+    "abs_diff": 0.75
+  }
+]

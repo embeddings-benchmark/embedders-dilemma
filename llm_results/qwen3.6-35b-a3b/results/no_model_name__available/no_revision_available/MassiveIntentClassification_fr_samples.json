@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "j'ai besoin de toi pour marquer lundi prochain",
+        "model_raw_output": "{\n  \"reasoning\": \"The user's utterance 'j'ai besoin de toi pour marquer lundi prochain' translates to needing to mark or schedule something for next Monday. This clearly indicates an action to add a new event, appointment, or reminder to a calendar, which directly corresponds to the calendar_set intent.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "jouons ma chanson la plus \u00e9couter",
+        "model_raw_output": "{\n  \"reasoning\": \"The user says 'jouons ma chanson la plus \u00e9couter' which translates to 'let's play my most listened to song'. This is a clear command to play music, specifically a playlist or song based on listening history. Therefore, the intent is `play_music`.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "d\u00e9sactiver l'alarme du trois heure du soir",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'd\u00e9sactiver l'alarme du trois heure du soir' is in French and translates to 'disable the 3 PM alarm'. The keyword 'd\u00e9sactiver' (disable/remove) clearly indicates the user wants to remove or turn off an existing alarm. Among the available intents, this directly corresponds to 'alarm_remove'.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "annuler l'alarme",
+        "model_raw_output": "{\n  \"reasoning\": \"The user input 'annuler l'alarme' is French for 'cancel the alarm'. This indicates the user wants to remove or cancel a set alarm. The corresponding intent from the list is alarm_remove.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "rappelle-moi mon emploi du temps pour l'apr\u00e8s-midi",
+        "model_raw_output": "{\n  \"reasoning\": \"The user wants to view their schedule for the afternoon ('emploi du temps'). This action corresponds to querying the calendar.\",\n  \"output\": \"calendar_query\"\n}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Una persona fa parte di una squadra di baseball.",
+    "sentence2": "A person is playing basketball on a team.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the same core scenario: a person participating on a sports team. They share identical subjects, contexts, and general meanings. However, they differ in a key detail regarding the specific sport (baseball vs. basketball). This important distinction makes them roughly equivalent but not interchangeable, justifying a moderate similarity score on the STS scale.\",\n  \"output\": 3.0\n}",
+    "reasoning": "Both sentences describe the same core scenario: a person participating on a sports team. They share identical subjects, contexts, and general meanings. However, they differ in a key detail regarding the specific sport (baseball vs. basketball). This important distinction makes them roughly equivalent but not interchangeable, justifying a moderate similarity score on the STS scale.",
+    "predicted_sim": 3.0,
+    "gold_score": 2.4,
+    "abs_diff": 0.6000000000000001
+  },
+  {
+    "sentence1": "I nostri veicoli attuali saranno nei musei quando ognuno avr\u00e0 il proprio aereo.",
+    "sentence2": "The car needs to some work",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences mention vehicles, but their core meanings, contexts, and intents are entirely different. Sentence 1 discusses the future obsolescence of current vehicles as personal airplanes become widespread, ultimately placing them in museums. Sentence 2 is a practical statement indicating that a specific car requires maintenance or repairs. They share only a minimal topical overlap (transportation/vehicles) but differ completely in semantic content and communicative purpose.\",\n  \"output\": 1.0\n}",
+    "reasoning": "Both sentences mention vehicles, but their core meanings, contexts, and intents are entirely different. Sentence 1 discusses the future obsolescence of current vehicles as personal airplanes become widespread, ultimately placing them in museums. Sentence 2 is a practical statement indicating that a specific car requires maintenance or repairs. They share only a minimal topical overlap (transportation/vehicles) but differ completely in semantic content and communicative purpose.",
+    "predicted_sim": 1.0,
+    "gold_score": 0.2,
+    "abs_diff": 0.8
+  },
+  {
+    "sentence1": "Una donna supervisore sta istruendo i lavoratori di sesso maschile.",
+    "sentence2": "A woman is working as a nurse.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 describes a female supervisor training male workers, while Sentence 2 states that a woman works as a nurse. Although both sentences feature a woman as the subject, their professional roles, contexts, and actions are completely different. The only semantic overlap is the shared subject noun, making the sentences effectively unrelated in meaning.\",\n  \"output\": 0.2\n}",
+    "reasoning": "Sentence 1 describes a female supervisor training male workers, while Sentence 2 states that a woman works as a nurse. Although both sentences feature a woman as the subject, their professional roles, contexts, and actions are completely different. The only semantic overlap is the shared subject noun, making the sentences effectively unrelated in meaning.",
+    "predicted_sim": 0.2,
+    "gold_score": 1.0,
+    "abs_diff": 0.8
+  },
+  {
+    "sentence1": "Una bici \u00e8 accanto a una coppia di donne.",
+    "sentence2": "A child next to a bike.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a scene involving a bike and a person or group positioned next to it. Sentence 1 (Italian) translates to 'A bike is next to a couple of women', while Sentence 2 says 'A child next to a bike'. They share the same core object (bike) and spatial relationship (next to), but differ in the accompanying subjects (women vs. child). This yields a moderate level of semantic overlap, as the general context and layout are similar, but the specific entities change the meaning.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences describe a scene involving a bike and a person or group positioned next to it. Sentence 1 (Italian) translates to 'A bike is next to a couple of women', while Sentence 2 says 'A child next to a bike'. They share the same core object (bike) and spatial relationship (next to), but differ in the accompanying subjects (women vs. child). This yields a moderate level of semantic overlap, as the general context and layout are similar, but the specific entities change the meaning.",
+    "predicted_sim": 2.5,
+    "gold_score": 2.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "Il gruppo sta mangiando ammirando una vista mozzafiato.",
+    "sentence2": "A group of people take a look at an unusual tree.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share the basic subject of a group of people, but their core actions and objects of focus are entirely different. Sentence 1 describes a group eating while admiring a breathtaking panoramic view, while Sentence 2 describes a group looking at an unusual tree. There is no meaningful overlap in context, activity, or thematic intent, making them semantically unrelated aside from the minor lexical overlap of 'group'.\",\n  \"output\": 0.2\n}",
+    "reasoning": "Both sentences share the basic subject of a group of people, but their core actions and objects of focus are entirely different. Sentence 1 describes a group eating while admiring a breathtaking panoramic view, while Sentence 2 describes a group looking at an unusual tree. There is no meaningful overlap in context, activity, or thematic intent, making them semantically unrelated aside from the minor lexical overlap of 'group'.",
+    "predicted_sim": 0.2,
+    "gold_score": 2.2,
+    "abs_diff": 2.0
+  }
+]

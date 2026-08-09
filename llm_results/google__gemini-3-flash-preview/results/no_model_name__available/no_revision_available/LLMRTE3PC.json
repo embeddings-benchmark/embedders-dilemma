@@ -1,0 +1,96 @@
+{
+  "dataset_revision": "5d745bd9e435cc190599f916f54c0ab197ddeb73",
+  "task_name": "RTE3",
+  "mteb_version": "2.6.5",
+  "scores": {
+    "test": [
+      {
+        "similarity_ap": 0.992071,
+        "similarity_accuracy": 0.966736,
+        "similarity_f1": 0.9801,
+        "max_ap": 0.992071,
+        "max_accuracy": 0.966736,
+        "max_f1": 0.9801,
+        "max_precision": 0.997468,
+        "max_recall": 0.963325,
+        "usage_stats": {
+          "input_tokens": 57923,
+          "output_tokens": 39554,
+          "total_tokens": 330748,
+          "cost": 0.0
+        },
+        "main_score": 0.992071,
+        "hf_subset": "de",
+        "languages": [
+          "deu-Latn"
+        ]
+      },
+      {
+        "similarity_ap": 0.995628,
+        "similarity_accuracy": 0.975104,
+        "similarity_f1": 0.985149,
+        "max_ap": 0.995628,
+        "max_accuracy": 0.975104,
+        "max_f1": 0.985149,
+        "max_precision": 1.0,
+        "max_recall": 0.970732,
+        "usage_stats": {
+          "input_tokens": 51268,
+          "output_tokens": 35785,
+          "total_tokens": 266187,
+          "cost": 0.0
+        },
+        "main_score": 0.995628,
+        "hf_subset": "en",
+        "languages": [
+          "eng-Latn"
+        ]
+      },
+      {
+        "similarity_ap": 0.995556,
+        "similarity_accuracy": 0.975104,
+        "similarity_f1": 0.985112,
+        "max_ap": 0.995556,
+        "max_accuracy": 0.975104,
+        "max_f1": 0.985112,
+        "max_precision": 1.0,
+        "max_recall": 0.97066,
+        "usage_stats": {
+          "input_tokens": 59147,
+          "output_tokens": 39127,
+          "total_tokens": 299939,
+          "cost": 0.0
+        },
+        "main_score": 0.995556,
+        "hf_subset": "fr",
+        "languages": [
+          "fra-Latn"
+        ]
+      },
+      {
+        "similarity_ap": 0.993322,
+        "similarity_accuracy": 0.962343,
+        "similarity_f1": 0.97733,
+        "max_ap": 0.993322,
+        "max_accuracy": 0.962343,
+        "max_f1": 0.97733,
+        "max_precision": 1.0,
+        "max_recall": 0.955665,
+        "usage_stats": {
+          "input_tokens": 57783,
+          "output_tokens": 38192,
+          "total_tokens": 299452,
+          "cost": 0.0
+        },
+        "main_score": 0.993322,
+        "hf_subset": "it",
+        "languages": [
+          "ita-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 3753.7593128681183,
+  "kg_co2_emissions": null,
+  "date": 1773915246.043154
+}

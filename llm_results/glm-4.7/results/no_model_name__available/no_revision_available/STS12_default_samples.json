@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "open again , open anew",
+    "sentence2": "open again or anew .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences utilize the exact same vocabulary: 'open', 'again', and 'anew'. Sentence 1 presents the phrases as a comma-separated sequence (likely implying stylistic repetition or a list of actions), whereas Sentence 2 presents them as a single verb phrase with alternative adjectives joined by 'or'. Since 'again' and 'anew' are synonyms in this context, the core meaning\u2014repeating the action of opening\u2014is effectively identical despite the slight grammatical structural difference.\",\n  \"output\": 4.8\n}",
+    "reasoning": "Both sentences utilize the exact same vocabulary: 'open', 'again', and 'anew'. Sentence 1 presents the phrases as a comma-separated sequence (likely implying stylistic repetition or a list of actions), whereas Sentence 2 presents them as a single verb phrase with alternative adjectives joined by 'or'. Since 'again' and 'anew' are synonyms in this context, the core meaning\u2014repeating the action of opening\u2014is effectively identical despite the slight grammatical structural difference.",
+    "predicted_sim": 4.8,
+    "gold_score": 5.0,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "only a month ago , mubarak dismissed demands for constitutional reform as \" futile . \"",
+    "sentence2": "only a month before , , the demands of constitutional reform in the five \" .",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 is a complete statement describing an action where Mubarak dismissed demands for constitutional reform as 'futile' a month ago. Sentence 2 is a grammatically incomplete fragment or corrupted text that shares a similar time reference ('only a month before') and the topic ('demands of constitutional reform'), but it lacks the subject (Mubarak), the verb (dismissed), the evaluation ('futile'), and ends with nonsensical characters ('in the five'). Because Sentence 2 fails to convey the core event or meaning described in Sentence 1, the similarity is low.\",\n  \"output\": 1.2\n}",
+    "reasoning": "Sentence 1 is a complete statement describing an action where Mubarak dismissed demands for constitutional reform as 'futile' a month ago. Sentence 2 is a grammatically incomplete fragment or corrupted text that shares a similar time reference ('only a month before') and the topic ('demands of constitutional reform'), but it lacks the subject (Mubarak), the verb (dismissed), the evaluation ('futile'), and ends with nonsensical characters ('in the five'). Because Sentence 2 fails to convey the core event or meaning described in Sentence 1, the similarity is low.",
+    "predicted_sim": 1.2,
+    "gold_score": 2.5,
+    "abs_diff": 1.3
+  },
+  {
+    "sentence1": "that provision could open the door wide to arbitrariness .",
+    "sentence2": "this regulation opens the door to arbitrariness .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey nearly identical meanings, using the same idiomatic phrase 'open the door' to indicate that a legal measure creates the potential for arbitrariness. The subjects ('that provision' vs 'this regulation') are synonymous in this context. The only slight difference is the modality: Sentence 1 uses 'could' (possibility) and 'wide' (degree), whereas Sentence 2 uses the definitive present tense 'opens', but the core semantic message is preserved.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences convey nearly identical meanings, using the same idiomatic phrase 'open the door' to indicate that a legal measure creates the potential for arbitrariness. The subjects ('that provision' vs 'this regulation') are synonymous in this context. The only slight difference is the modality: Sentence 1 uses 'could' (possibility) and 'wide' (degree), whereas Sentence 2 uses the definitive present tense 'opens', but the core semantic message is preserved.",
+    "predicted_sim": 4.5,
+    "gold_score": 4.25,
+    "abs_diff": 0.25
+  },
+  {
+    "sentence1": "what we are witnessing today is a shift from a muslim identity to an islamist identity .",
+    "sentence2": "we are witnessing today to change a muslim identity for an islamic identity .",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core proposition: the speakers are observing a transformation where a 'Muslim identity' is evolving or being replaced by an identity centered around Islam ('Islamist' in the first, 'Islamic' in the second). The phrase 'shift from... to...' in sentence 1 and 'change... for...' in sentence 2 express the same directional exchange. The primary deduction in score is due to the distinction between 'Islamist' (which specifically implies political Islam) versus 'Islamic' (a broader general term), as well as the slightly ungrammatical phrasing in the second sentence ('witnessing today to change'), which is less precise than the first.\",\n  \"output\": 4.1\n}",
+    "reasoning": "Both sentences convey the same core proposition: the speakers are observing a transformation where a 'Muslim identity' is evolving or being replaced by an identity centered around Islam ('Islamist' in the first, 'Islamic' in the second). The phrase 'shift from... to...' in sentence 1 and 'change... for...' in sentence 2 express the same directional exchange. The primary deduction in score is due to the distinction between 'Islamist' (which specifically implies political Islam) versus 'Islamic' (a broader general term), as well as the slightly ungrammatical phrasing in the second sentence ('witnessing today to change'), which is less precise than the first.",
+    "predicted_sim": 4.1,
+    "gold_score": 5.0,
+    "abs_diff": 0.9000000000000004
+  },
+  {
+    "sentence1": "a person is frying meat in a pan .",
+    "sentence2": "a person is holding a skunk .",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 describes a cooking activity involving food (meat) and a kitchen utensil (pan). Sentence 2 describes the physical act of grasping a wild animal (skunk). The only similarity is the generic subject 'a person,' but the actions, objects, and contexts are completely unrelated.\",\n  \"output\": 0.0\n}",
+    "reasoning": "Sentence 1 describes a cooking activity involving food (meat) and a kitchen utensil (pan). Sentence 2 describes the physical act of grasping a wild animal (skunk). The only similarity is the generic subject 'a person,' but the actions, objects, and contexts are completely unrelated.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.75,
+    "abs_diff": 0.75
+  }
+]

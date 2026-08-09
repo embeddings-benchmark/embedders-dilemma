@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "i need you to mark next monday",
+        "model_raw_output": "{\n  \"reasoning\": \"The user wants to schedule or mark an event for a specific time ('next monday'). This falls under the category of setting a calendar entry.\",\n  \"output\": \"calendar_set\"\n}",
+        "parsed_output": "calendar_set",
+        "ground_truth": "calendar_set",
+        "is_correct": true
+    },
+    {
+        "input_text": "let's play my most played song list",
+        "model_raw_output": "{\n  \"reasoning\": \"The user explicitly requests to play a specific collection of songs ('my most played song list'). This is a direct command to start audio playback of music, which maps directly to the 'play_music' intent.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "disable alarm for three p. m.",
+        "model_raw_output": "{\n\"reasoning\": \"The user wants to 'disable' an alarm. This action corresponds to removing or deleting a scheduled alarm.\",\n\"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "cancel alarm",
+        "model_raw_output": "The user wants to cancel an alarm.\n- **Intent Analysis:** The command is \"cancel alarm\". This is a direct request to remove an existing alarm.\n- **Intent List Matching:**\n  - `alarm_set`: Setting a new alarm.\n  - `alarm_query`: Checking alarm status.\n  - `alarm_remove`: Removing/canceling an alarm.\n- **Conclusion:** The correct intent is `alarm_remove`.\n\n```json\n{\n  \"reasoning\": \"The user command 'cancel alarm' explicitly requests the removal of an alarm. This aligns perfectly with the 'alarm_remove' intent in the provided list.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "PARSE_FAILURE",
+        "ground_truth": "alarm_remove",
+        "is_correct": false
+    },
+    {
+        "input_text": "remind me about my schedule for the afternoon",
+        "model_raw_output": "{\n  \"reasoning\": \"The user is asking to see their schedule, which directly relates to querying the calendar.\",\n  \"output\": \"calendar_query\"\n}",
+        "parsed_output": "calendar_query",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

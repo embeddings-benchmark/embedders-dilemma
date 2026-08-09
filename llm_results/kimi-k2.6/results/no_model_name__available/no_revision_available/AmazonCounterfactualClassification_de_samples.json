@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "Ich m&ouml;chte abschlie&szlig;end noch darauf hinweisen (auch wenn es viele bel&auml;cheln), Speichermedien nur &uuml;ber die &#34;Hardware sicher entfernen&#34;-Funktion vom System zu trennen.",
+        "model_raw_output": "{\n  \"reasoning\": \"The review is a piece of advice urging users to disconnect storage media using the system's 'Safely Remove Hardware' function. It is an imperative/recommendation statement describing what ought to be done. It does not posit a hypothetical scenario, nor does it describe an event that has not occurred but could, would, or might have happened under different conditions. Therefore, it is not a counterfactual statement.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Die G13 h\u00e4tte 5 Sterne verdient, wenn es von Logitech selbst einen brauchbaren Treiber f\u00fcr Linux geben w\u00fcrde.",
+        "model_raw_output": "{\n  \"reasoning\": \"The review uses the subjunctive/conditional construction 'h\u00e4tte ... verdient' (would have deserved) combined with the hypothetical condition 'wenn es ... einen brauchbaren Treiber f\u00fcr Linux geben w\u00fcrde' (if there were a usable driver for Linux). It explicitly describes a scenario that did not actually occur (awarding 5 stars) but would have occurred under different, counterfactual conditions (availability of a Linux driver).\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "H\u00e4tte miemals gedacht so leicht aufr\u00fcsten zu k\u00f6nnen.Freu mich schon auf das DCR 250 das ich bestellt habe.",
+        "model_raw_output": "{\n  \"reasoning\": \"The review contains the German phrase 'H\u00e4tte miemals [niemals] gedacht...' ('Would never have thought...'), which uses the subjunctive/Konjunktiv II mood ('h\u00e4tte gedacht'). This expresses a hypothetical past mental state: the reviewer indicates that before their experience, they would not have believed upgrading was so easy. It thereby describes something that did not happen (thinking it was easy) and posits what would have obtained under different prior conditions, fitting the definition of a counterfactual statement. The second sentence is a forward-looking factual statement, but the presence of the counterfactual first sentence determines the classification.\",\n  \"output\": \"counterfactual\"\n}",
+        "parsed_output": "counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Die Anzeige wird nicht beeintr\u00e4chtigt, wohl aber gesch\u00fctzt.",
+        "model_raw_output": "{\n  \"reasoning\": \"The statement 'Die Anzeige wird nicht beeintr\u00e4chtigt, wohl aber gesch\u00fctzt' describes the actual, current state of the display: it is not impaired and is protected. It does not express a hypothetical scenario, an alternative outcome, or what could, would, or might have happened under different conditions. It is a straightforward factual observation.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "not-counterfactual",
+        "is_correct": true
+    },
+    {
+        "input_text": "Das Produkt ist sicherlich gut und qualitativ hochwertig, aber hier fehlt jede Verh\u00e4ltnism\u00e4ssigkeit.",
+        "model_raw_output": "{\n  \"reasoning\": \"The review expresses a direct opinion about the product's actual qualities: the reviewer states it is good and high-quality but lacks proportionality. It does not invoke any hypothetical scenario, alternative outcome, or unrealized condition. There are no counterfactual markers such as 'if,' 'would have,' 'could have,' or 'had been.' It simply describes the reviewer's perception of the existing state of affairs.\",\n  \"output\": \"not-counterfactual\"\n}",
+        "parsed_output": "not-counterfactual",
+        "ground_truth": "counterfactual",
+        "is_correct": false
+    }
+]

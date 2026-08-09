@@ -1,0 +1,17 @@
+{
+  "input_tokens": 1679386,
+  "cached_tokens": 0,
+  "output_tokens": 691040,
+  "thinking_tokens": 389331,
+  "total_tokens": 2370426,
+  "cost": 0.0,
+  "n_queries": 100,
+  "n_llm_calls": 100,
+  "n_failed": 0,
+  "wall_time_s": 474.39,
+  "model": "qwen3.6-27b",
+  "top_k": 100,
+  "max_doc_chars": 800,
+  "first_stage": "BAAI/bge-large-en-v1.5",
+  "task": "BRIGHTStackoverflow"
+}

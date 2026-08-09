@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "i need you to mark next monday",
+        "model_raw_output": "```json\n{\n  \"reasoning\": \"The user wants to 'mark next Monday', which implies creating an event or setting a reminder for a specific date. This action falls under the category of calendar management, specifically adding an entry. Therefore, the correct intent is 'calendar_set'.\",\n  \"output\": \"calendar_set\"\n}\n```",
+        "parsed_output": "PARSE_FAILURE",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    },
+    {
+        "input_text": "let's play my most played song list",
+        "model_raw_output": "{\n  \"reasoning\": \"The user explicitly asks to 'play' a 'most played song list'. This request is a command to start playing music content, which directly corresponds to the `play_music` intent in the provided list.\",\n  \"output\": \"play_music\"\n}",
+        "parsed_output": "play_music",
+        "ground_truth": "play_music",
+        "is_correct": true
+    },
+    {
+        "input_text": "disable alarm for three p. m.",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'disable alarm for three p. m.' indicates a request to stop or cancel an existing alarm scheduled for a specific time. This action aligns with the 'alarm_remove' intent, which is used for canceling or deleting alarms.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "cancel alarm",
+        "model_raw_output": "{\n  \"reasoning\": \"The user utterance 'cancel alarm' contains the verb 'cancel', which maps to the action of removing or stopping something, and the noun 'alarm', which identifies the domain. Therefore, the intent is to remove an existing alarm.\",\n  \"output\": \"alarm_remove\"\n}",
+        "parsed_output": "alarm_remove",
+        "ground_truth": "alarm_remove",
+        "is_correct": true
+    },
+    {
+        "input_text": "remind me about my schedule for the afternoon",
+        "model_raw_output": "```json\n{\n  \"reasoning\": \"The user is requesting information about their 'schedule', which refers to a list of events or appointments. Asking to be reminded of this schedule for a specific time period ('afternoon') corresponds to retrieving data from a calendar application. Therefore, this maps to the 'calendar_query' intent.\",\n  \"output\": \"calendar_query\"\n}\n```",
+        "parsed_output": "PARSE_FAILURE",
+        "ground_truth": "calendar_set",
+        "is_correct": false
+    }
+]

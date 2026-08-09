@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "A person is on a baseball team.",
+    "sentence2": "A person is playing basketball on a team.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a person involved in a team sport, sharing the core elements of 'a person' and 'a team.' However, they differ in the specific sport (baseball vs. basketball) and the nature of involvement (being a member 'on' a team vs. actively 'playing'). While topically related, the change in sport and activity reduces semantic alignment significantly.\",\n  \"output\": 2.0\n}",
+    "reasoning": "Both sentences describe a person involved in a team sport, sharing the core elements of 'a person' and 'a team.' However, they differ in the specific sport (baseball vs. basketball) and the nature of involvement (being a member 'on' a team vs. actively 'playing'). While topically related, the change in sport and activity reduces semantic alignment significantly.",
+    "predicted_sim": 2.0,
+    "gold_score": 2.4,
+    "abs_diff": 0.3999999999999999
+  },
+  {
+    "sentence1": "Our current vehicles will be in museums when everyone has their own aircraft.",
+    "sentence2": "The car needs to some work",
+    "model_raw_output": "{\n  \"reasoning\": \"The sentences share only a minimal topical connection (ground vehicles/cars), but otherwise have virtually no semantic overlap. Sentence 1 is a futuristic statement about current vehicles becoming obsolete and ending up in museums once personal aircraft become ubiquitous. Sentence 2 is a present-tense statement about a specific car requiring repair or maintenance. They differ entirely in subject matter, tense, scope, and intended meaning.\",\n  \"output\": 0.4\n}",
+    "reasoning": "The sentences share only a minimal topical connection (ground vehicles/cars), but otherwise have virtually no semantic overlap. Sentence 1 is a futuristic statement about current vehicles becoming obsolete and ending up in museums once personal aircraft become ubiquitous. Sentence 2 is a present-tense statement about a specific car requiring repair or maintenance. They differ entirely in subject matter, tense, scope, and intended meaning.",
+    "predicted_sim": 0.4,
+    "gold_score": 0.2,
+    "abs_diff": 0.2
+  },
+  {
+    "sentence1": "A woman supervisor is instructing the male workers.",
+    "sentence2": "A woman is working as a nurse.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a woman in a professional context, so there is a minimal topical overlap regarding gender and employment. However, the specific roles (supervisor vs. nurse), actions (instructing male workers vs. working as a nurse), and implied domains (management/labor vs. healthcare) are entirely distinct. The meanings diverge significantly beyond the broad shared concept of a woman working.\",\n  \"output\": 0.5\n}",
+    "reasoning": "Both sentences describe a woman in a professional context, so there is a minimal topical overlap regarding gender and employment. However, the specific roles (supervisor vs. nurse), actions (instructing male workers vs. working as a nurse), and implied domains (management/labor vs. healthcare) are entirely distinct. The meanings diverge significantly beyond the broad shared concept of a woman working.",
+    "predicted_sim": 0.5,
+    "gold_score": 1.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "A bike is next to a couple women.",
+    "sentence2": "A child next to a bike.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a spatial relationship using 'next to' involving a bike and a person. However, Sentence 1 places a bike next to multiple women, while Sentence 2 places a child next to a bike. The core scene structure is partially similar (proximity between a bike and a human), but the subjects and implied contexts differ significantly, giving them low-to-moderate semantic overlap.\",\n  \"output\": 2.0\n}",
+    "reasoning": "Both sentences describe a spatial relationship using 'next to' involving a bike and a person. However, Sentence 1 places a bike next to multiple women, while Sentence 2 places a child next to a bike. The core scene structure is partially similar (proximity between a bike and a human), but the subjects and implied contexts differ significantly, giving them low-to-moderate semantic overlap.",
+    "predicted_sim": 2.0,
+    "gold_score": 2.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "The group is eating while taking in a breathtaking view.",
+    "sentence2": "A group of people take a look at an unusual tree.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe a group of people engaged in visual observation ('taking in a view' vs 'take a look'). However, they differ substantially in the primary activity (eating vs. looking), the object of attention (a panoramic scenic view vs. a specific unusual tree), and the overall scenario. The shared elements are the subject ('group') and the general sense of observation, but the core meanings and contexts are quite distinct.\",\n  \"output\": 1.2\n}",
+    "reasoning": "Both sentences describe a group of people engaged in visual observation ('taking in a view' vs 'take a look'). However, they differ substantially in the primary activity (eating vs. looking), the object of attention (a panoramic scenic view vs. a specific unusual tree), and the overall scenario. The shared elements are the subject ('group') and the general sense of observation, but the core meanings and contexts are quite distinct.",
+    "predicted_sim": 1.2,
+    "gold_score": 2.2,
+    "abs_diff": 1.0000000000000002
+  }
+]

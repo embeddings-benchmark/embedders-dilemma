@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Two men are dancing together.",
+    "sentence2": "A woman opens a closet.",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences describe entirely different subjects and actions. Sentence 1 focuses on two men engaged in dancing, while Sentence 2 describes a woman performing a domestic action (opening a closet). There is no overlap in actors, activities, setting, or underlying meaning, making them completely unrelated.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The two sentences describe entirely different subjects and actions. Sentence 1 focuses on two men engaged in dancing, while Sentence 2 describes a woman performing a domestic action (opening a closet). There is no overlap in actors, activities, setting, or underlying meaning, making them completely unrelated.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "It depends on what you want to do next, and where you want to do it.",
+    "sentence2": "It depends on what you want to achieve.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share a similar structure and thematic core, indicating that a decision or outcome is contingent on personal intent. However, Sentence 1 specifies immediate next steps and a physical/contextual location ('what you want to do next, and where'), while Sentence 2 focuses more broadly on end goals or desired outcomes ('what you want to achieve'). The inclusion of the location factor in the first sentence and the shift from immediate action to long-term objectives create a clear divergence in specificity and focus. They are related in context and intent but do not convey equivalent meaning.\",\n  \"output\": 2.8\n}",
+    "reasoning": "Both sentences share a similar structure and thematic core, indicating that a decision or outcome is contingent on personal intent. However, Sentence 1 specifies immediate next steps and a physical/contextual location ('what you want to do next, and where'), while Sentence 2 focuses more broadly on end goals or desired outcomes ('what you want to achieve'). The inclusion of the location factor in the first sentence and the shift from immediate action to long-term objectives create a clear divergence in specificity and focus. They are related in context and intent but do not convey equivalent meaning.",
+    "predicted_sim": 2.8,
+    "gold_score": 3.0,
+    "abs_diff": 0.20000000000000018
+  },
+  {
+    "sentence1": "You may have to experiment and find what you like.",
+    "sentence2": "You have to find out what works for you.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core advice: the need for personal trial or exploration to determine individual suitability or preference. While Sentence 1 emphasizes experimenting to find personal enjoyment ('what you like'), and Sentence 2 focuses on discovering practical effectiveness ('what works for you'), the underlying intent and pragmatic meaning are nearly identical. They act as close paraphrases in most real-world contexts, differing only slightly in nuance, which justifies a very high similarity score.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences convey the same core advice: the need for personal trial or exploration to determine individual suitability or preference. While Sentence 1 emphasizes experimenting to find personal enjoyment ('what you like'), and Sentence 2 focuses on discovering practical effectiveness ('what works for you'), the underlying intent and pragmatic meaning are nearly identical. They act as close paraphrases in most real-world contexts, differing only slightly in nuance, which justifies a very high similarity score.",
+    "predicted_sim": 4.5,
+    "gold_score": 5.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "Some 95 million Americans -- half of all households -- invest in mutual funds.",
+    "sentence2": "About half of all U.S. households have money in mutual funds.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the exact same core fact: approximately 50% of U.S. households are invested in mutual funds. Sentence 1 provides a specific figure ('95 million Americans') that functions as an appositive to 'half of all households,' while Sentence 2 uses slightly different phrasing ('have money in' vs. 'invest in'). These are minor numerical and stylistic variations that do not alter the fundamental meaning. The two statements are direct paraphrases of each other, indicating maximal semantic similarity.\",\n  \"output\": 5.0\n}",
+    "reasoning": "Both sentences convey the exact same core fact: approximately 50% of U.S. households are invested in mutual funds. Sentence 1 provides a specific figure ('95 million Americans') that functions as an appositive to 'half of all households,' while Sentence 2 uses slightly different phrasing ('have money in' vs. 'invest in'). These are minor numerical and stylistic variations that do not alter the fundamental meaning. The two statements are direct paraphrases of each other, indicating maximal semantic similarity.",
+    "predicted_sim": 5.0,
+    "gold_score": 4.2,
+    "abs_diff": 0.7999999999999998
+  },
+  {
+    "sentence1": "Someone is slicing a onion.",
+    "sentence2": "Someone is carrying a fish.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences share a nearly identical syntactic structure ('Someone is [verb]ing a [noun]') and a broad thematic connection involving food items. However, the specific actions ('slicing' vs. 'carrying') and objects ('onion' vs. 'fish') are entirely different, describing distinct events with no functional or contextual overlap. They are only minimally related at a high-level topic level (food handling), warranting a low similarity score.\",\n  \"output\": 1.5\n}",
+    "reasoning": "Both sentences share a nearly identical syntactic structure ('Someone is [verb]ing a [noun]') and a broad thematic connection involving food items. However, the specific actions ('slicing' vs. 'carrying') and objects ('onion' vs. 'fish') are entirely different, describing distinct events with no functional or contextual overlap. They are only minimally related at a high-level topic level (food handling), warranting a low similarity score.",
+    "predicted_sim": 1.5,
+    "gold_score": 0.75,
+    "abs_diff": 0.75
+  }
+]

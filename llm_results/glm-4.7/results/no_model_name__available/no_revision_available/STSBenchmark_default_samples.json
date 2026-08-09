@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Two men are dancing together.",
+    "sentence2": "A woman opens a closet.",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences describe completely different scenarios involving different subjects (two men vs. a woman) and completely different actions (dancing vs. opening a closet). There is no semantic overlap or relationship between the two statements.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The two sentences describe completely different scenarios involving different subjects (two men vs. a woman) and completely different actions (dancing vs. opening a closet). There is no semantic overlap or relationship between the two statements.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "It depends on what you want to do next, and where you want to do it.",
+    "sentence2": "It depends on what you want to achieve.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences express that a specific outcome is contingent upon the subject's desires or intentions. Sentence 1 breaks this down into two factors: the action ('what you want to do next') and the location ('where you want to do it'). Sentence 2 focuses on the goal or result ('what you want to achieve'), which is semantically similar to the action aspect of Sentence 1, but it omits the geographical or contextual nuance of 'where'. While they are closely related in topic and structure, the differences in specificity (action vs. achievement) and the omission of the location clause prevent them from being identical.\",\n  \"output\": 3.5\n}",
+    "reasoning": "Both sentences express that a specific outcome is contingent upon the subject's desires or intentions. Sentence 1 breaks this down into two factors: the action ('what you want to do next') and the location ('where you want to do it'). Sentence 2 focuses on the goal or result ('what you want to achieve'), which is semantically similar to the action aspect of Sentence 1, but it omits the geographical or contextual nuance of 'where'. While they are closely related in topic and structure, the differences in specificity (action vs. achievement) and the omission of the location clause prevent them from being identical.",
+    "predicted_sim": 3.5,
+    "gold_score": 3.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "You may have to experiment and find what you like.",
+    "sentence2": "You have to find out what works for you.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the core message that an individual needs to engage in a process of discovery to determine their personal preference or the best solution for them. Sentence 1 specifies the method as 'experimenting' and the goal as 'what you like', whereas Sentence 2 uses 'find out' and 'what works for you'. While there is a slight nuance in modality ('may have to' vs 'have to') and the specific target (preference vs functionality), the semantic overlap is extremely high and they would likely be used interchangeably in conversation.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences convey the core message that an individual needs to engage in a process of discovery to determine their personal preference or the best solution for them. Sentence 1 specifies the method as 'experimenting' and the goal as 'what you like', whereas Sentence 2 uses 'find out' and 'what works for you'. While there is a slight nuance in modality ('may have to' vs 'have to') and the specific target (preference vs functionality), the semantic overlap is extremely high and they would likely be used interchangeably in conversation.",
+    "predicted_sim": 4.5,
+    "gold_score": 5.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "Some 95 million Americans -- half of all households -- invest in mutual funds.",
+    "sentence2": "About half of all U.S. households have money in mutual funds.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core statistical fact regarding mutual fund ownership in the United States. Sentence 1 provides a specific number (95 million) equated to 'half of all households' and uses the phrase 'invest in'. Sentence 2 paraphrases this as 'About half' and 'have money in', which is semantically equivalent to 'invest'. The omission of the specific '95 million' figure in the second sentence and the slight rephrasing of the action are minor differences that do not alter the overall meaning.\",\n  \"output\": 4.8\n}",
+    "reasoning": "Both sentences convey the same core statistical fact regarding mutual fund ownership in the United States. Sentence 1 provides a specific number (95 million) equated to 'half of all households' and uses the phrase 'invest in'. Sentence 2 paraphrases this as 'About half' and 'have money in', which is semantically equivalent to 'invest'. The omission of the specific '95 million' figure in the second sentence and the slight rephrasing of the action are minor differences that do not alter the overall meaning.",
+    "predicted_sim": 4.8,
+    "gold_score": 4.2,
+    "abs_diff": 0.5999999999999996
+  },
+  {
+    "sentence1": "Someone is slicing a onion.",
+    "sentence2": "Someone is carrying a fish.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 describes a specific action of cutting a vegetable (onion). Sentence 2 describes a completely different action of transporting an animal (fish). While both sentences describe a person performing an action on a food item, the specific actions and objects are entirely different, resulting in no overlap in meaning.\",\n  \"output\": 0.0\n}",
+    "reasoning": "Sentence 1 describes a specific action of cutting a vegetable (onion). Sentence 2 describes a completely different action of transporting an animal (fish). While both sentences describe a person performing an action on a food item, the specific actions and objects are entirely different, resulting in no overlap in meaning.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.75,
+    "abs_diff": 0.75
+  }
+]

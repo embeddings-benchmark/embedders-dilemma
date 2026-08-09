@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "Two men are dancing together.",
+    "sentence2": "A woman opens a closet.",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences describe completely different actions involving different subjects and objects with no shared context.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The two sentences describe completely different actions involving different subjects and objects with no shared context.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "It depends on what you want to do next, and where you want to do it.",
+    "sentence2": "It depends on what you want to achieve.",
+    "model_raw_output": "{\"reasoning\": \"Both sentences express that the outcome or decision is contingent on personal goals. Sentence 1 adds a spatial/contextual component ('where you want to do it'), whereas sentence 2 is more focused on the achievement itself. They share the same introductory core but diverge slightly in specificity.\", \"output\": 3.8}",
+    "reasoning": "Both sentences express that the outcome or decision is contingent on personal goals. Sentence 1 adds a spatial/contextual component ('where you want to do it'), whereas sentence 2 is more focused on the achievement itself. They share the same introductory core but diverge slightly in specificity.",
+    "predicted_sim": 3.8,
+    "gold_score": 3.0,
+    "abs_diff": 0.7999999999999998
+  },
+  {
+    "sentence1": "You may have to experiment and find what you like.",
+    "sentence2": "You have to find out what works for you.",
+    "model_raw_output": "{\"reasoning\": \"Both sentences convey the same core advice: the need for personal exploration to determine one's preferences or effective methods. They differ slightly in phrasing (experiment vs. find out, what you like vs. what works for you), but the semantic meaning is nearly identical.\", \"output\": 4.5}",
+    "reasoning": "Both sentences convey the same core advice: the need for personal exploration to determine one's preferences or effective methods. They differ slightly in phrasing (experiment vs. find out, what you like vs. what works for you), but the semantic meaning is nearly identical.",
+    "predicted_sim": 4.5,
+    "gold_score": 5.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "Some 95 million Americans -- half of all households -- invest in mutual funds.",
+    "sentence2": "About half of all U.S. households have money in mutual funds.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same statistical fact: approximately 50 percent of American households own mutual funds. The first sentence adds an explicit count of 95 million people, but the core meaning and the primary claim about household participation are identical.\",\n  \"output\": 4.8\n}",
+    "reasoning": "Both sentences convey the same statistical fact: approximately 50 percent of American households own mutual funds. The first sentence adds an explicit count of 95 million people, but the core meaning and the primary claim about household participation are identical.",
+    "predicted_sim": 4.8,
+    "gold_score": 4.2,
+    "abs_diff": 0.5999999999999996
+  },
+  {
+    "sentence1": "Someone is slicing a onion.",
+    "sentence2": "Someone is carrying a fish.",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences share a similar syntactic structure, but the actions (slicing vs. carrying) and the objects (onion vs. fish) are entirely different and unrelated.\",\n  \"output\": 0.5\n}",
+    "reasoning": "The two sentences share a similar syntactic structure, but the actions (slicing vs. carrying) and the objects (onion vs. fish) are entirely different and unrelated.",
+    "predicted_sim": 0.5,
+    "gold_score": 0.75,
+    "abs_diff": 0.25
+  }
+]

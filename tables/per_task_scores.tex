@@ -1,0 +1,59 @@
+% Per-task scores for representative models (auto-generated)
+\begin{table*}[h]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{llcccccr}
+\toprule
+\textbf{Task} & \textbf{Cat.} & \textbf{Gemini 3.1 Pro} & \textbf{Gemini 3 Flash} & \textbf{Qwen3.6-27B} & \textbf{Octen-8B} & \textbf{Qwen3-E-8B} & \textbf{Best Emb.} \\
+\midrule
+\multicolumn{8}{l}{\emph{Classification (Accuracy)}} \\
+AmazonCounterfactualClassification & Cls & 84.8 & 81.2 & 90.1 & \textbf{93.0} & 92.9 & \textbf{93.0} \\
+Banking77Classification & Cls & 85.0 & 83.1 & 80.5 & 87.3 & 87.2 & \textbf{91.6} \\
+ImdbClassification & Cls & \textbf{98.0} & 97.6 & 97.4 & 97.7 & 97.8 & 97.8 \\
+MTOPDomainClassification & Cls & 95.5 & 96.4 & 96.9 & 98.2 & 98.1 & \textbf{99.2} \\
+MassiveIntentClassification & Cls & 84.9 & 85.4 & 84.6 & 85.7 & 85.8 & \textbf{88.9} \\
+MassiveScenarioClassification & Cls & 79.4 & 75.9 & 76.4 & 89.3 & 89.4 & \textbf{93.0} \\
+ToxicConversationsClassification & Cls & 89.6 & 90.0 & 89.2 & 91.9 & 92.0 & \textbf{94.4} \\
+TweetSentimentExtractionClassification & Cls & 64.2 & 63.0 & 63.2 & 77.9 & 77.8 & \textbf{78.9} \\
+\multicolumn{8}{l}{\emph{Clustering (V-measure)}} \\
+ArxivClusteringP2P & Clust & 60.1 & 60.3 & 54.5 & 61.9 & 62.5 & \textbf{64.1} \\
+ArxivClusteringS2S & Clust & \textbf{62.5} & 60.1 & 41.6 & 60.5 & 61.1 & 61.5 \\
+BiorxivClusteringP2PV2 & Clust & 62.5 & 60.8 & 49.9 & 61.6 & 65.3 & \textbf{77.3} \\
+MedrxivClusteringP2PV2 & Clust & 52.5 & 50.6 & 48.0 & 55.9 & 55.9 & \textbf{60.7} \\
+MedrxivClusteringS2SV2 & Clust & 54.0 & 50.3 & 42.7 & 53.3 & 55.2 & \textbf{57.5} \\
+RedditClusteringP2P & Clust & \textbf{93.9} & 90.5 & 60.1 & 78.7 & 79.8 & 80.8 \\
+StackExchangeClusteringP2PV2 & Clust & 42.9 & 49.0 & 46.1 & 59.7 & 59.5 & \textbf{60.7} \\
+StackExchangeClusteringV2 & Clust & \textbf{91.8} & 90.2 & 73.6 & 85.8 & 86.3 & 86.3 \\
+TwentyNewsgroupsClusteringV2 & Clust & 78.7 & \textbf{79.9} & 66.3 & 68.5 & 67.6 & 73.8 \\
+\multicolumn{8}{l}{\emph{STS (Spearman $\rho$)}} \\
+BIOSSES & STS & \textbf{89.6} & 88.7 & 85.0 & 84.4 & 82.0 & 88.8 \\
+SICKR & STS & 86.1 & 86.8 & 76.4 & 87.9 & 88.4 & \textbf{91.1} \\
+STS12 & STS & 82.6 & 79.5 & 77.1 & 87.3 & 87.3 & \textbf{87.4} \\
+STS13 & STS & 91.9 & 91.5 & 90.6 & 93.9 & 94.0 & \textbf{94.6} \\
+STS14 & STS & 90.5 & 89.3 & 88.0 & 90.9 & 91.0 & \textbf{91.4} \\
+STS15 & STS & 94.4 & 93.9 & 91.8 & 94.3 & 94.2 & \textbf{94.5} \\
+STS16 & STS & 89.0 & 88.5 & 87.1 & 92.5 & 92.5 & \textbf{92.9} \\
+STS17 & STS & \textbf{94.2} & 94.1 & 91.8 & 93.6 & 93.7 & 93.7 \\
+STS22v2 & STS & \textbf{73.6} & 71.7 & 72.0 & 69.5 & 68.9 & 69.5 \\
+STSBenchmark & STS & 92.6 & 91.7 & 89.6 & 93.2 & 93.4 & \textbf{94.9} \\
+\multicolumn{8}{l}{\emph{PairClassification (Avg. Precision)}} \\
+LegalBenchPC & PairCls & 72.2 & \textbf{77.4} & 71.6 & 70.0 & 70.4 & 73.6 \\
+RTE3PC & PairCls & 95.4 & \textbf{96.7} & 92.9 & 85.4 & 85.7 & 85.7 \\
+SprintDuplicateQuestionsPC & PairCls & 82.2 & 83.4 & 84.6 & 99.4 & 99.6 & \textbf{99.8} \\
+TwitterURLCorpusPC & PairCls & 82.8 & 87.6 & 85.2 & 89.4 & \textbf{90.2} & \textbf{90.2} \\
+\multicolumn{8}{l}{\emph{Retrieval (Recall@1)}} \\
+AILAStatutes & Retr & 14.5 & 5.7 & 14.2 & \textbf{23.2} & 21.8 & \textbf{23.2} \\
+FQuADRetrieval & Retr & 92.0 & 88.0 & \textbf{96.0} & 69.0 & 68.0 & 72.0 \\
+HC3FinanceRetrieval & Retr & \textbf{71.0} & 60.0 & 57.0 & 66.0 & 59.0 & 67.0 \\
+LegalBenchConsumerContractsQA & Retr & 86.0 & 79.0 & \textbf{88.0} & 67.0 & 70.0 & 70.0 \\
+PublicHealthQA & Retr & \textbf{90.0} & 49.0 & 86.0 & 81.0 & 78.0 & 85.0 \\
+TwitterHjerneRetrieval & Retr & \textbf{33.4} & 32.4 & 33.0 & 29.9 & 28.6 & 31.5 \\
+\bottomrule
+\end{tabular}
+}
+\caption{\textbf{Per-task scores} for representative models across all 37 \mteblm{} tasks.
+Bold = best in row (incl.\ best embedding). Metric per category in italics.}
+\label{tab:per_task_scores}
+\end{table*}

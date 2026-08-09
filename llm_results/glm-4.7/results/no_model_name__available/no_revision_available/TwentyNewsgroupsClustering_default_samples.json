@@ -1,0 +1,31 @@
+{
+    "task": "TwentyNewsgroupsClustering",
+    "model_raw_output_preview": "{\"assignments\":[16,0,2,8,6,4,10,19,13,12,18,1,7,18,0,16,13,1,10,1,6,0,14,10,18,19,16,5,0,6,6,14,4,17,16,15,16,18,10,1,2,15,2,7,16,17,3,16,19,6,14,10,1,19,0,6,1,2,6,18,15,16,3,12,13,12,13,14,4,0,10,1,2,1,10,8,7,1,10,3,3,4,6,15,16,16,18,6,7,3,13,13,12,14,4,0,6,15,14,3,16,16,14,1,14,7,5,6,18,16,7,2,9,8,9,18,18,9,12,12,15,16,2,4,6,7,1,0,13,16,12,7,13,1,6,16,6,16,13,16,17,5,12,12,6,4,16,3,0,15,15,14,14,9,10,7,16,0,12,12,9,8,8,8,4,15,15,9,1,1,12,8,8,8,4,0,1,6,6,4,14,1,0,6,0,9,3,3,3,0,19,7,18,18,18,19,19,18,0]}",
+    "samples": [
+        {
+            "input_text": "What is Zero dB????",
+            "predicted_cluster": 16,
+            "gold_cluster": 12
+        },
+        {
+            "input_text": "Yet more Rushdie [Re: ISLAMIC LAW]",
+            "predicted_cluster": 0,
+            "gold_cluster": 0
+        },
+        {
+            "input_text": "Some more about gun control...",
+            "predicted_cluster": 2,
+            "gold_cluster": 16
+        },
+        {
+            "input_text": "Dumbest automotive concepts of all tim",
+            "predicted_cluster": 8,
+            "gold_cluster": 7
+        },
+        {
+            "input_text": "Blues into playoffs, beat TB 6-5",
+            "predicted_cluster": 6,
+            "gold_cluster": 10
+        }
+    ]
+}

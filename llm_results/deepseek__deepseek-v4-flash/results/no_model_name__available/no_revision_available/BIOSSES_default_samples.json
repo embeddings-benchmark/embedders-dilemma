@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "It has recently been shown that Craf is essential for Kras G12D-induced NSCLC.",
+    "sentence2": " It has recently become evident that Craf is essential for the onset of Kras-driven non-small cell lung cancer.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences convey the same core finding: that Craf is essential for Kras-driven non-small cell lung cancer (NSCLC). The first sentence specifies the Kras mutation as G12D, while the second uses 'Kras-driven', which is nearly synonymous in this context. The phrasing differences ('shown' vs 'become evident' and 'induced' vs 'onset') are minor and do not alter the meaning. The sentences are semantically equivalent.\",\n  \"output\": 4.0\n}",
+    "reasoning": "Both sentences convey the same core finding: that Craf is essential for Kras-driven non-small cell lung cancer (NSCLC). The first sentence specifies the Kras mutation as G12D, while the second uses 'Kras-driven', which is nearly synonymous in this context. The phrasing differences ('shown' vs 'become evident' and 'induced' vs 'onset') are minor and do not alter the meaning. The sentences are semantically equivalent.",
+    "predicted_sim": 4.0,
+    "gold_score": 4.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "The Bcl-2 inhibitor ABT-737 induces regression of solid tumors  and its derivatives are in the early clinical phase as cancer therapeutics; however, it targets Bcl-2, Bcl-XL, and Bcl-w, but not Mcl-1, which induces resistance against apoptotic cell death triggered by ABT-737.",
+    "sentence2": "Recently, it has been reported that ABT-737 is not cytotoxic to all tumors cells, and that chemoresistance to ABT-737 is dependent on appreciable levels of Mcl-1 expression, the one Bcl-2 family member it does not effectively inhibit.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences discuss ABT-737 and its mechanism of resistance via Mcl-1. Sentence 1 provides more context (solid tumor regression, clinical phase for derivatives) while Sentence 2 focuses on chemoresistance and Mcl-1 expression. The core shared meaning is that lack of Mcl-1 targeting leads to resistance. They are highly similar but not fully equivalent due to differing emphases and additional details.\",\n  \"output\": 3.5\n}",
+    "reasoning": "Both sentences discuss ABT-737 and its mechanism of resistance via Mcl-1. Sentence 1 provides more context (solid tumor regression, clinical phase for derivatives) while Sentence 2 focuses on chemoresistance and Mcl-1 expression. The core shared meaning is that lack of Mcl-1 targeting leads to resistance. They are highly similar but not fully equivalent due to differing emphases and additional details.",
+    "predicted_sim": 3.5,
+    "gold_score": 3.0,
+    "abs_diff": 0.5
+  },
+  {
+    "sentence1": "Previous studies demonstrated that the decrease level of 5 hmC in tumors was due to the reduced expression of TET1/2/3 and IDH2 genes or tumor derived IDH1 and IDH2 mutations.",
+    "sentence2": "In addition, genetic and functional studies suggest that neomorphic IDH mutations contribute to myeloid transformation, at least in part, by inhibiting TET enzymatic function.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences discuss the role of IDH mutations in affecting TET function, but with different contexts and additional details. Sentence 1 focuses on the decrease of 5hmC in tumors due to reduced expression of TET genes or IDH mutations, while sentence 2 specifically addresses neomorphic IDH mutations inhibiting TET enzymatic function in myeloid transformation. They share a core mechanistic link (IDH mutations impairing TET), but differ in scope and specificity, leading to moderate semantic similarity.\",\n  \"output\": 2.5\n}",
+    "reasoning": "Both sentences discuss the role of IDH mutations in affecting TET function, but with different contexts and additional details. Sentence 1 focuses on the decrease of 5hmC in tumors due to reduced expression of TET genes or IDH mutations, while sentence 2 specifically addresses neomorphic IDH mutations inhibiting TET enzymatic function in myeloid transformation. They share a core mechanistic link (IDH mutations impairing TET), but differ in scope and specificity, leading to moderate semantic similarity.",
+    "predicted_sim": 2.5,
+    "gold_score": 2.2,
+    "abs_diff": 0.2999999999999998
+  },
+  {
+    "sentence1": "More recently, IDH mutations and resultant 2-hydroxyglutarate (2HG) production in leukemia cells were reported to induce global DNA hypermethylation through impaired TET2 catalytic function.",
+    "sentence2": "It has also been recently reported that mutations of the isocitrate dehydrogenase genes IDH1 and IDH2 can lead to the aberrant production of 2-hydroxyglutarate (2-HG), a metabolite that inhibits TET2 enzymatic activity, resulting in a hypermethylated promoter phenotype in acute myeloid leukemia (AML) tumors carrying IDH1/2 mutations.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences discuss IDH mutations leading to 2-hydroxyglutarate (2HG) production, which impairs TET2 function and causes DNA hypermethylation, specifically in leukemia. Sentence 1 mentions 'leukemia cells' and 'global DNA hypermethylation', while Sentence 2 specifies 'IDH1 and IDH2 mutations', '2-HG', 'inhibits TET2 enzymatic activity', and 'hypermethylated promoter phenotype in acute myeloid leukemia (AML)'. The core biomedical concept is identical, with Sentence 2 providing more detail (e.g., naming IDH1/2 and AML). The meaning is highly similar, with no contradictions, so the semantic similarity is very high, approaching equivalence.\",\n  \"output\": 3.8\n}",
+    "reasoning": "Both sentences discuss IDH mutations leading to 2-hydroxyglutarate (2HG) production, which impairs TET2 function and causes DNA hypermethylation, specifically in leukemia. Sentence 1 mentions 'leukemia cells' and 'global DNA hypermethylation', while Sentence 2 specifies 'IDH1 and IDH2 mutations', '2-HG', 'inhibits TET2 enzymatic activity', and 'hypermethylated promoter phenotype in acute myeloid leukemia (AML)'. The core biomedical concept is identical, with Sentence 2 providing more detail (e.g., naming IDH1/2 and AML). The meaning is highly similar, with no contradictions, so the semantic similarity is very high, approaching equivalence.",
+    "predicted_sim": 3.8,
+    "gold_score": 3.2,
+    "abs_diff": 0.5999999999999996
+  },
+  {
+    "sentence1": "Recent in vitro studies using shRNA-based approaches have suggested a role for TET2 in regulating myeloid differentiation and in regulating stem/progenitor cell proliferation.",
+    "sentence2": "Two recent studies used RNAi-mediated Tet2 knock-down in vitro to suggest that TET2 depletion led to impaired hematopoietic differentiation and to preferential myeloid commitment.",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe recent in vitro studies using RNA interference (shRNA in S1, RNAi knock-down in S2) to investigate TET2. They both conclude that TET2 plays a role in myeloid differentiation: S1 mentions regulating myeloid differentiation and stem/progenitor cell proliferation, while S2 states that TET2 depletion leads to impaired hematopoietic differentiation and preferential myeloid commitment. The core finding about TET2 and myeloid lineage is highly similar, though S1 also covers proliferation and S2 emphasizes impairment and commitment. The methods and general conclusions align closely, but minor differences in scope prevent them from being semantically equivalent.\",\n  \"output\": 3.5\n}",
+    "reasoning": "Both sentences describe recent in vitro studies using RNA interference (shRNA in S1, RNAi knock-down in S2) to investigate TET2. They both conclude that TET2 plays a role in myeloid differentiation: S1 mentions regulating myeloid differentiation and stem/progenitor cell proliferation, while S2 states that TET2 depletion leads to impaired hematopoietic differentiation and preferential myeloid commitment. The core finding about TET2 and myeloid lineage is highly similar, though S1 also covers proliferation and S2 emphasizes impairment and commitment. The methods and general conclusions align closely, but minor differences in scope prevent them from being semantically equivalent.",
+    "predicted_sim": 3.5,
+    "gold_score": 3.2,
+    "abs_diff": 0.2999999999999998
+  }
+]

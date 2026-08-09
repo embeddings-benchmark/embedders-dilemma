@@ -1,0 +1,37 @@
+[
+    {
+        "input_text": "wir brauchen rosa",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'wir brauchen rosa' translates to 'we need pink'. In the context of voice assistant scenarios, requesting a specific color like pink most commonly refers to changing the color setting of smart home devices, such as smart lights. This falls under the IoT (Internet of Things) scenario, which covers smart home controls and device states.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "iot",
+        "is_correct": true
+    },
+    {
+        "input_text": "wie ist die einstellung f\u00fcr die helligkeit an meinem bildschirm",
+        "model_raw_output": "{\n  \"reasoning\": \"The German utterance 'wie ist die einstellung f\u00fcr die helligkeit an meinem bildschirm' asks about the current brightness setting on the user's screen/device. This is a query regarding a hardware/device state and configuration. Among the available scenarios, 'iot' (Internet of Things) is the most appropriate category because it encompasses smart device controls, settings, and status queries. It does not fit 'qa' (which handles general knowledge/factual questions), 'general', or any other specific domain like 'weather', 'music', or 'transport'.\",\n  \"output\": \"iot\"\n}",
+        "parsed_output": "iot",
+        "ground_truth": "general",
+        "is_correct": false
+    },
+    {
+        "input_text": "wie sp\u00e4t ist es in schweden",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'wie sp\u00e4t ist es in schweden' translates to 'what time is it in Sweden', which is a request for the current time in a specific location. Among the available scenarios, 'datetime' is the most appropriate category for queries related to time, date, or timezone information.\",\n  \"output\": \"datetime\"\n}",
+        "parsed_output": "datetime",
+        "ground_truth": "datetime",
+        "is_correct": true
+    },
+    {
+        "input_text": "l\u00f6sche meinen wecker f\u00fcr sieben uhr",
+        "model_raw_output": "{\n  \"reasoning\": \"The utterance 'l\u00f6sche meinen wecker f\u00fcr sieben uhr' translates to 'delete my alarm for seven o'clock'. The user is explicitly requesting to delete/remove an alarm set for a specific time. This directly relates to the management of an alarm clock, which falls under the 'alarm' scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    },
+    {
+        "input_text": "welche wecker habe ich gestellt",
+        "model_raw_output": "{\n  \"reasoning\": \"The German utterance 'welche wecker habe ich gestellt' translates to 'which alarms have I set' in English. The user is inquiring about their currently configured or active alarms, which directly falls under the alarm scenario.\",\n  \"output\": \"alarm\"\n}",
+        "parsed_output": "alarm",
+        "ground_truth": "alarm",
+        "is_correct": true
+    }
+]

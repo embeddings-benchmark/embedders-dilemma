@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "anti-putin protesters form human chain in moscow",
+    "sentence2": "anti-putin protesters form human chain",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the exact same event involving anti-Putin protesters forming a human chain. The only difference is that Sentence 1 specifies the location 'in moscow' while Sentence 2 omits it. This omission slightly reduces specificity and means Sentence 2 could theoretically refer to a different location, but the core proposition, participants, and action are identical. The meanings are therefore extremely close but not perfectly identical due to the missing spatial modifier.\",\n  \"output\": 4.5\n}",
+    "reasoning": "Both sentences describe the exact same event involving anti-Putin protesters forming a human chain. The only difference is that Sentence 1 specifies the location 'in moscow' while Sentence 2 omits it. This omission slightly reduces specificity and means Sentence 2 could theoretically refer to a different location, but the core proposition, participants, and action are identical. The meanings are therefore extremely close but not perfectly identical due to the missing spatial modifier.",
+    "predicted_sim": 4.5,
+    "gold_score": 3.8,
+    "abs_diff": 0.7000000000000002
+  },
+  {
+    "sentence1": "wall street opens lower",
+    "sentence2": "wall street ends mixed",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences are financial news headlines concerning Wall Street market performance and share an almost identical syntactic structure (Subject + Verb + Adjective/Adverb). However, they refer to different phases of the trading day ('opens' vs. 'ends') and describe materially different outcomes ('lower' implying a uniform decline versus 'mixed' implying divergent or varied results across indices). The topical overlap is significant, but the specific semantic content\u2014particularly the temporal reference and directional outcome\u2014is distinct.\",\n  \"output\": 2.0\n}",
+    "reasoning": "Both sentences are financial news headlines concerning Wall Street market performance and share an almost identical syntactic structure (Subject + Verb + Adjective/Adverb). However, they refer to different phases of the trading day ('opens' vs. 'ends') and describe materially different outcomes ('lower' implying a uniform decline versus 'mixed' implying divergent or varied results across indices). The topical overlap is significant, but the specific semantic content\u2014particularly the temporal reference and directional outcome\u2014is distinct.",
+    "predicted_sim": 2.0,
+    "gold_score": 2.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "one dead in ohio school shooting",
+    "sentence2": "1 dead , 4 wounded in ohio school shooting",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences describe the same core event: a school shooting in Ohio resulting in one fatality. They share identical key elements (location, incident type, and death toll). However, Sentence 2 adds substantive information that four people were wounded, which Sentence 1 omits entirely. Because one sentence entails the other but is not semantically equivalent due to this extra detail, they are highly similar but not identical in meaning.\",\n  \"output\": 4.0\n}",
+    "reasoning": "Both sentences describe the same core event: a school shooting in Ohio resulting in one fatality. They share identical key elements (location, incident type, and death toll). However, Sentence 2 adds substantive information that four people were wounded, which Sentence 1 omits entirely. Because one sentence entails the other but is not semantically equivalent due to this extra detail, they are highly similar but not identical in meaning.",
+    "predicted_sim": 4.0,
+    "gold_score": 3.2,
+    "abs_diff": 0.7999999999999998
+  },
+  {
+    "sentence1": "some syria violence amounts to civil war-red cross",
+    "sentence2": "some syria violence qualifies as civil war -red cross",
+    "model_raw_output": "{\n  \"reasoning\": \"The sentences are essentially perfect paraphrases. The only differences are synonymous verb phrases ('amounts to' vs. 'qualifies as') and minor punctuation/spacing before the attribution ('civil war-red cross' vs. 'civil war -red cross'). Both convey the identical proposition that the Red Cross has assessed some violence in Syria as constituting civil war. There is no divergence in meaning, entities, or sentiment.\",\n  \"output\": 5.0\n}",
+    "reasoning": "The sentences are essentially perfect paraphrases. The only differences are synonymous verb phrases ('amounts to' vs. 'qualifies as') and minor punctuation/spacing before the attribution ('civil war-red cross' vs. 'civil war -red cross'). Both convey the identical proposition that the Red Cross has assessed some violence in Syria as constituting civil war. There is no divergence in meaning, entities, or sentiment.",
+    "predicted_sim": 5.0,
+    "gold_score": 4.4,
+    "abs_diff": 0.5999999999999996
+  },
+  {
+    "sentence1": "an entity is presented as having been seen or experienced by a ( typically generic and backgrounded ) cognizer on a certain number of occasions , causing the entity to have a certain degree of recognizability for the cognizer .",
+    "sentence2": "be familiar or acquainted with a person or an object ;",
+    "model_raw_output": "{\n  \"reasoning\": \"Both sentences revolve around the same core concept: knowing or recognizing something due to prior experience. Sentence 1 is a highly technical, linguistic framing that describes an entity as being 'presented' as previously encountered, resulting in 'recognizability' for a cognizer. Sentence 2 is a plain, concise dictionary-style definition about being 'familiar or acquainted' with a person or object. While they share the fundamental semantic components of prior exposure leading to recognition/familiarity, they differ substantially in register, syntactic perspective (entity-focused vs. experiencer-focused), specificity (generic cognizer, discourse presentation, degree of recognizability), and length. They are clearly related but not near-paraphrases.\",\n  \"output\": 3.4\n}",
+    "reasoning": "Both sentences revolve around the same core concept: knowing or recognizing something due to prior experience. Sentence 1 is a highly technical, linguistic framing that describes an entity as being 'presented' as previously encountered, resulting in 'recognizability' for a cognizer. Sentence 2 is a plain, concise dictionary-style definition about being 'familiar or acquainted' with a person or object. While they share the fundamental semantic components of prior exposure leading to recognition/familiarity, they differ substantially in register, syntactic perspective (entity-focused vs. experiencer-focused), specificity (generic cognizer, discourse presentation, degree of recognizability), and length. They are clearly related but not near-paraphrases.",
+    "predicted_sim": 3.4,
+    "gold_score": 2.6,
+    "abs_diff": 0.7999999999999998
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "sentence1": "A person is on a baseball team.",
+    "sentence2": "Eine Person spielt in einem Team Basketball.",
+    "model_raw_output": "{\n  \"reasoning\": \"The sentences share the core concept of a person being part of a sports team, but they differ in the specific sport (baseball vs. basketball) and verb usage ('is on' vs. 'plays'). These differences reduce the semantic overlap, making them moderately similar rather than highly comparable.\",\n  \"output\": 3.0\n}",
+    "reasoning": "The sentences share the core concept of a person being part of a sports team, but they differ in the specific sport (baseball vs. basketball) and verb usage ('is on' vs. 'plays'). These differences reduce the semantic overlap, making them moderately similar rather than highly comparable.",
+    "predicted_sim": 3.0,
+    "gold_score": 2.4,
+    "abs_diff": 0.6000000000000001
+  },
+  {
+    "sentence1": "Our current vehicles will be in museums when everyone has their own aircraft.",
+    "sentence2": "Das Auto muss etwas in Stand gesetzt werden",
+    "model_raw_output": "{\n  \"reasoning\": \"The sentences are in different languages (English vs. German) and discuss entirely unrelated topics. Sentence 1 envisions a future where personal aircraft replace current vehicles, while Sentence 2 is about a car needing repair. There is no overlap in meaning or context.\",\n  \"output\": 0.0\n}",
+    "reasoning": "The sentences are in different languages (English vs. German) and discuss entirely unrelated topics. Sentence 1 envisions a future where personal aircraft replace current vehicles, while Sentence 2 is about a car needing repair. There is no overlap in meaning or context.",
+    "predicted_sim": 0.0,
+    "gold_score": 0.2,
+    "abs_diff": 0.2
+  },
+  {
+    "sentence1": "A woman supervisor is instructing the male workers.",
+    "sentence2": "Eine Frau arbeitet als Krankenpflegerin.",
+    "model_raw_output": "{\n  \"reasoning\": \"Sentence 1 describes a woman supervisor instructing male workers, implying a management or training context. Sentence 2, in German, translates to 'A woman works as a nurse,' which refers to a healthcare profession. The only common element is 'a woman'; the actions and roles are entirely different. There is no overlap in meaning or context, resulting in very low semantic similarity.\",\n  \"output\": 0.1\n}",
+    "reasoning": "Sentence 1 describes a woman supervisor instructing male workers, implying a management or training context. Sentence 2, in German, translates to 'A woman works as a nurse,' which refers to a healthcare profession. The only common element is 'a woman'; the actions and roles are entirely different. There is no overlap in meaning or context, resulting in very low semantic similarity.",
+    "predicted_sim": 0.1,
+    "gold_score": 1.0,
+    "abs_diff": 0.9
+  },
+  {
+    "sentence1": "A bike is next to a couple women.",
+    "sentence2": "Ein Kind neben einem Fahrrad.",
+    "model_raw_output": "{\n  \"reasoning\": \"The first sentence describes a bike next to a couple of women\u00bea scene involving people and a bicycle. The second sentence describes a child next to a bike, which shares the element of a bike being next to someone but differs in the subject (women vs. child). The languages differ (English vs. German), but the core concept of 'bike next to person(s)' is similar, though not identical. The lack of exact match and different subjects reduce the similarity.\",\n  \"output\": 2.0\n}",
+    "reasoning": "The first sentence describes a bike next to a couple of women\u00bea scene involving people and a bicycle. The second sentence describes a child next to a bike, which shares the element of a bike being next to someone but differs in the subject (women vs. child). The languages differ (English vs. German), but the core concept of 'bike next to person(s)' is similar, though not identical. The lack of exact match and different subjects reduce the similarity.",
+    "predicted_sim": 2.0,
+    "gold_score": 2.0,
+    "abs_diff": 0.0
+  },
+  {
+    "sentence1": "The group is eating while taking in a breathtaking view.",
+    "sentence2": "Eine Gruppe sieht einen ungew\u00f6hnlichen Baum an.",
+    "model_raw_output": "{\n  \"reasoning\": \"The two sentences share the same subject (a group) but describe completely different actions: eating while enjoying a view versus looking at an unusual tree. There is no overlap in verbs or objects, and the contexts are distinct. The only common element is 'group', which alone yields very low semantic similarity.\",\n  \"output\": 1.5\n}",
+    "reasoning": "The two sentences share the same subject (a group) but describe completely different actions: eating while enjoying a view versus looking at an unusual tree. There is no overlap in verbs or objects, and the contexts are distinct. The only common element is 'group', which alone yields very low semantic similarity.",
+    "predicted_sim": 1.5,
+    "gold_score": 2.2,
+    "abs_diff": 0.7000000000000002
+  }
+]
