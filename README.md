@@ -6,8 +6,8 @@ with exact cost and throughput accounting.
 
 - **10 LLMs** (6 families) and **26 embedding models**, evaluated on **37 tasks** across five MTEB
   categories: Classification (8), Clustering (9), STS (10), PairClassification (4), Retrieval (6).
-- The two paradigms tie in aggregate; LLMs lead on reasoning-heavy retrieval, embeddings on
-  classification — at orders of magnitude lower cost.
+- The two paradigms tie on aggregate performance: LLMs lead on reasoning-heavy retrieval, embeddings on
+  classification; but embeddings are orders of magnitude cheaper.
 
 ![Cost vs. performance Pareto](visualizations/pareto_cost_performance.png)
 
