@@ -133,6 +133,16 @@ def cell(m, task_key):
     return formatted
 
 
+def cat_mean(m, keys):
+    """Category mean for one model: full precision, then rounded - the same
+    path Table~\\ref{tab:main_results} uses, so the two never disagree."""
+    vals = [pivot.loc[m, k] for k in keys
+            if k in pivot.columns and m in pivot.index and not pd.isna(pivot.loc[m, k])]
+    if not vals:
+        return "--"
+    return f"{sum(vals)/len(vals)*100:.1f}"
+
+
 def build_cat(cat, is_first):
     keys = tasks_by_cat[cat]
     disp = category_display[cat]
@@ -143,20 +153,24 @@ def build_cat(cat, is_first):
     out.append(r"\setlength{\tabcolsep}{4pt}")
     out.append(r"\renewcommand{\arraystretch}{0.95}")
     out.append(r"\resizebox{\textwidth}{!}{%")
-    out.append(r"\begin{tabular}{@{}l" + "r" * len(keys) + r"@{}}")
+    sep = r"@{\hspace{6pt}}!{\color{gray!35}\vrule width 0.3pt}@{\hspace{6pt}}"
+    out.append(r"\begin{tabular}{@{}l" + "r" * len(keys) + sep + r"r@{}}")
     out.append(r"\toprule")
     out.append(" & ".join([r"\textbf{Model}"] +
-                          [r"\textbf{" + task_info[k][0] + r"}" for k in keys]) + r" \\")
+                          [r"\textbf{" + task_info[k][0] + r"}" for k in keys] +
+                          [r"\textbf{Mean}"]) + r" \\")
     out.append(r"\midrule")
 
-    out.append(r"\multicolumn{" + str(len(keys) + 1) + r"}{l}{\emph{LLMs}} \\")
+    out.append(r"\multicolumn{" + str(len(keys) + 2) + r"}{l}{\emph{LLMs}} \\")
     for m in llms:
         out.append(" & ".join([r"\textbf{" + short(m) + r"}"] +
-                              [cell(m, k) for k in keys]) + r" \\")
+                              [cell(m, k) for k in keys] +
+                              [r"\textbf{" + cat_mean(m, keys) + r"}"]) + r" \\")
     out.append(r"\midrule")
-    out.append(r"\multicolumn{" + str(len(keys) + 1) + r"}{l}{\emph{Embedding models}} \\")
+    out.append(r"\multicolumn{" + str(len(keys) + 2) + r"}{l}{\emph{Embedding models}} \\")
     for m in embs:
-        out.append(" & ".join([short(m)] + [cell(m, k) for k in keys]) + r" \\")
+        out.append(" & ".join([short(m)] + [cell(m, k) for k in keys] +
+                              [r"\textbf{" + cat_mean(m, keys) + r"}"]) + r" \\")
 
     out.append(r"\bottomrule")
     out.append(r"\end{tabular}")
