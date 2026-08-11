@@ -162,18 +162,11 @@ def build_cat(cat, is_first):
     out.append(r"\end{tabular}")
     out.append(r"}")
 
-    if is_first:
-        cap = (r"\caption{\textbf{Full per-task scores: " + disp + r".} "
-               r"All " + str(n_models) + r" models on every " + disp.lower() +
-               r" task. Tables~\ref{tab:full_per_task_all_models}--"
-               r"\ref{tab:full_per_task_ret} cover the five categories; within each, "
-               r"models are ordered by overall \mteblm{} score and the best score per "
-               r"task is bold. `--' denotes a missing result.}")
-        lab = r"\label{tab:full_per_task_all_models}"
-    else:
-        cap = (r"\caption{\textbf{Full per-task scores: " + disp + r".} "
-               r"All " + str(n_models) + r" models; best score per task in bold.}")
-        lab = r"\label{tab:full_per_task_" + CAT_LABEL.get(cat, cat.lower()) + r"}"
+    # Caption stays minimal: the shared reading instructions (ordering, bolding,
+    # missing-value marker) live once in the appendix prose, not five times here.
+    cap = r"\caption{\textbf{Per-task scores: " + disp + r".}}"
+    lab = (r"\label{tab:full_per_task_all_models}" if is_first
+           else r"\label{tab:full_per_task_" + CAT_LABEL.get(cat, cat.lower()) + r"}")
     out.append(cap)
     out.append(lab)
     out.append(r"\end{table*}")
