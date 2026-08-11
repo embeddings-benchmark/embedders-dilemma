@@ -99,25 +99,29 @@ def short(m):
     return model_short.get(m, m.split("__")[-1][:12])
 
 # ── build LaTeX ────────────────────────────────────────────────────────────────
+# One upright table per task category: models are ROWS (36) and the category's
+# tasks are COLUMNS (4-10). Nothing is rotated, so every page stays US Letter
+# (COLM requirement) and both model and task names read horizontally.
 n_models = len(models_ordered)
 n_tasks  = len(tasks_ordered)
 
 llms = [m for m in models_ordered if model_type.get(m) == "LLM"]
 embs = [m for m in models_ordered if model_type.get(m) != "LLM"]
-half = (len(embs) + 1) // 2
 
-# Portrait-friendly: split the 36-model matrix into three tables that each fit
-# \textwidth upright, so no page or content rotation is needed (COLM requires
-# every page to stay US Letter).
-PARTS = [
-    (llms,           "llms",   "the ten LLMs"),
-    (embs[:half],    "embA",   f"embedding models 1--{half}"),
-    (embs[half:],    "embB",   f"embedding models {half+1}--{len(embs)}"),
-]
+cats_ordered = []
+tasks_by_cat = {}
+for k in tasks_ordered:
+    _, cat = task_info[k]
+    if cat not in tasks_by_cat:
+        tasks_by_cat[cat] = []
+        cats_ordered.append(cat)
+    tasks_by_cat[cat].append(k)
+
+CAT_LABEL = {"Classification": "cls", "STS": "sts", "Clustering": "clu",
+             "PairClassification": "pair", "Retrieval": "ret"}
 
 
 def cell(m, task_key):
-    """One score cell, bolded when it is the best across ALL 36 models."""
     if task_key not in pivot.columns or m not in pivot.index:
         return "--"
     val = pivot.loc[m, task_key]
@@ -129,57 +133,47 @@ def cell(m, task_key):
     return formatted
 
 
-def build_part(part_models, label_suffix, blurb, is_first):
+def build_cat(cat, is_first):
+    keys = tasks_by_cat[cat]
+    disp = category_display[cat]
     out = []
     out.append(r"\begin{table*}[htbp]")
     out.append(r"\centering")
-    out.append(r"\scriptsize")
-    out.append(r"\setlength{\tabcolsep}{3pt}")
+    out.append(r"\small")
+    out.append(r"\setlength{\tabcolsep}{4pt}")
     out.append(r"\renewcommand{\arraystretch}{0.95}")
     out.append(r"\resizebox{\textwidth}{!}{%")
-    out.append(r"\begin{tabular}{@{}ll" + "r" * len(part_models) + r"@{}}")
+    out.append(r"\begin{tabular}{@{}l" + "r" * len(keys) + r"@{}}")
     out.append(r"\toprule")
-
-    header = [r"\textbf{Task}", r"\textbf{Cat.}"]
-    for m in part_models:
-        s_ = short(m)
-        if model_type.get(m) == "LLM":
-            header.append(r"\rotatebox{90}{\scriptsize\textbf{" + s_ + r"}}")
-        else:
-            header.append(r"\rotatebox{90}{\scriptsize " + s_ + r"}")
-    out.append(" & ".join(header) + r" \\")
+    out.append(" & ".join([r"\textbf{Model}"] +
+                          [r"\textbf{" + task_info[k][0] + r"}" for k in keys]) + r" \\")
     out.append(r"\midrule")
 
-    prev_cat = None
-    for task_key in tasks_ordered:
-        display_name, cat = task_info[task_key]
-        cat_abbrev = cat[:3] if cat != "PairClassification" else "PairCls"
-        if cat != prev_cat:
-            if prev_cat is not None:
-                out.append(r"\midrule")
-            out.append(r"\multicolumn{" + str(len(part_models) + 2) +
-                       r"}{l}{\emph{" + category_display[cat] + r"}} \\")
-            prev_cat = cat
-        row = [display_name, cat_abbrev] + [cell(m, task_key) for m in part_models]
-        out.append(" & ".join(row) + r" \\")
+    out.append(r"\multicolumn{" + str(len(keys) + 1) + r"}{l}{\emph{LLMs}} \\")
+    for m in llms:
+        out.append(" & ".join([r"\textbf{" + short(m) + r"}"] +
+                              [cell(m, k) for k in keys]) + r" \\")
+    out.append(r"\midrule")
+    out.append(r"\multicolumn{" + str(len(keys) + 1) + r"}{l}{\emph{Embedding models}} \\")
+    for m in embs:
+        out.append(" & ".join([short(m)] + [cell(m, k) for k in keys]) + r" \\")
 
     out.append(r"\bottomrule")
     out.append(r"\end{tabular}")
     out.append(r"}")
 
     if is_first:
-        cap = (r"\caption{\textbf{Full per-task scores: " + blurb + r".} "
-               r"Scores for all " + str(n_models) + r" models are split across "
-               r"Tables~\ref{tab:full_per_task_all_models}--\ref{tab:full_per_task_embB} "
-               r"so each fits upright. Models are ordered by overall score. "
-               r"A bold score is the best across all " + str(n_models) +
-               r" models, not merely within this table; `--' denotes a missing result.}")
+        cap = (r"\caption{\textbf{Full per-task scores: " + disp + r".} "
+               r"All " + str(n_models) + r" models on every " + disp.lower() +
+               r" task. Tables~\ref{tab:full_per_task_all_models}--"
+               r"\ref{tab:full_per_task_ret} cover the five categories; within each, "
+               r"models are ordered by overall \mteblm{} score and the best score per "
+               r"task is bold. `--' denotes a missing result.}")
         lab = r"\label{tab:full_per_task_all_models}"
     else:
-        cap = (r"\caption{\textbf{Full per-task scores: " + blurb + r".} "
-               r"Continues Table~\ref{tab:full_per_task_all_models}; bold marks the best "
-               r"score across all " + str(n_models) + r" models.}")
-        lab = r"\label{tab:full_per_task_" + label_suffix + r"}"
+        cap = (r"\caption{\textbf{Full per-task scores: " + disp + r".} "
+               r"All " + str(n_models) + r" models; best score per task in bold.}")
+        lab = r"\label{tab:full_per_task_" + CAT_LABEL.get(cat, cat.lower()) + r"}"
     out.append(cap)
     out.append(lab)
     out.append(r"\end{table*}")
@@ -187,13 +181,13 @@ def build_part(part_models, label_suffix, blurb, is_first):
 
 
 lines = [
-    f"% Full per-task scores for all {n_models} models ({len(llms)} LLMs, {len(embs)} embeddings), {n_tasks} tasks",
+    f"% Full per-task scores: {n_models} models ({len(llms)} LLMs, {len(embs)} embeddings), {n_tasks} tasks",
     "% auto-generated by gen_full_scores_table.py",
-    r"% Portrait tables (no landscape/sideways): COLM requires every page to remain US Letter.",
+    r"% One upright table per category; nothing rotated, so pages stay US Letter (COLM).",
 ]
-for i, (part_models, suffix, blurb) in enumerate(PARTS):
-    lines += build_part(part_models, suffix, blurb, is_first=(i == 0))
-    if i < len(PARTS) - 1:
+for i, cat in enumerate(cats_ordered):
+    lines += build_cat(cat, is_first=(i == 0))
+    if i < len(cats_ordered) - 1:
         lines.append("")
 
 latex = "\n".join(lines)
