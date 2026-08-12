@@ -133,19 +133,29 @@ def cell(m, task_key):
     return formatted
 
 
-def cat_mean(m, keys):
-    """Category mean for one model: full precision, then rounded - the same
-    path Table~\\ref{tab:main_results} uses, so the two never disagree."""
+def _raw_mean(m, keys):
     vals = [pivot.loc[m, k] for k in keys
             if k in pivot.columns and m in pivot.index and not pd.isna(pivot.loc[m, k])]
-    if not vals:
+    return sum(vals) / len(vals) if vals else None
+
+
+def cat_mean(m, keys, best):
+    """Category mean: full precision then rounded - the same path
+    Table~\\ref{tab:main_results} uses, so the two never disagree.
+    Bold marks the single best mean in the category, matching how bold is
+    used everywhere else in these tables (best in column)."""
+    v = _raw_mean(m, keys)
+    if v is None:
         return "--"
-    return f"{sum(vals)/len(vals)*100:.1f}"
+    out = f"{v*100:.1f}"
+    return r"\textbf{" + out + r"}" if best is not None and abs(v - best) < 1e-9 else out
 
 
 def build_cat(cat, is_first):
     keys = tasks_by_cat[cat]
     disp = category_display[cat]
+    _means = [x for x in (_raw_mean(m, keys) for m in models_ordered) if x is not None]
+    best_mean = max(_means) if _means else None
     out = []
     out.append(r"\begin{table*}[htbp]")
     out.append(r"\centering")
@@ -163,14 +173,13 @@ def build_cat(cat, is_first):
 
     out.append(r"\multicolumn{" + str(len(keys) + 2) + r"}{l}{\emph{LLMs}} \\")
     for m in llms:
-        out.append(" & ".join([r"\textbf{" + short(m) + r"}"] +
-                              [cell(m, k) for k in keys] +
-                              [r"\textbf{" + cat_mean(m, keys) + r"}"]) + r" \\")
+        out.append(" & ".join([short(m)] + [cell(m, k) for k in keys] +
+                              [cat_mean(m, keys, best_mean)]) + r" \\")
     out.append(r"\midrule")
     out.append(r"\multicolumn{" + str(len(keys) + 2) + r"}{l}{\emph{Embedding models}} \\")
     for m in embs:
         out.append(" & ".join([short(m)] + [cell(m, k) for k in keys] +
-                              [r"\textbf{" + cat_mean(m, keys) + r"}"]) + r" \\")
+                              [cat_mean(m, keys, best_mean)]) + r" \\")
 
     out.append(r"\bottomrule")
     out.append(r"\end{tabular}")
