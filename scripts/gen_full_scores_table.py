@@ -162,7 +162,9 @@ def build_cat(cat, is_first):
     out.append(r"\small")
     out.append(r"\setlength{\tabcolsep}{4pt}")
     out.append(r"\renewcommand{\arraystretch}{0.95}")
-    out.append(r"\resizebox{\textwidth}{!}{%")
+    # Shrink-only: \resizebox{\textwidth} would MAGNIFY a narrow table (and its
+    # height with it), which overflows the page. Scale down only when needed.
+    out.append(r"\resizebox{\ifdim\width>\textwidth\textwidth\else\width\fi}{!}{%")
     sep = r"@{\hspace{6pt}}!{\color{gray!35}\vrule width 0.3pt}@{\hspace{6pt}}"
     out.append(r"\begin{tabular}{@{}l" + "r" * len(keys) + sep + r"r@{}}")
     out.append(r"\toprule")

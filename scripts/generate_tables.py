@@ -205,7 +205,7 @@ def t_category_scores(cs):
         )
     body = "\n".join(rows)
     return f"""% Category-level performance summary (best LLM vs best embedding) (auto-generated)
-\\begin{{table}}[h]
+\\begin{{table}}[ht]
 \\centering
 \\small
 \\begin{{tabular}}{{lccccc}}
@@ -290,7 +290,7 @@ def t_full_results_by_category(cs):
     body = "\n".join(rows)
     hdr = " & ".join(f"\\textbf{{{CAT_ABBR[c]} ({counts[c]})}}" for c in cats)
     return f"""% Full results: all complete models ranked by overall score (auto-generated)
-\\begin{{table*}}[h]
+\\begin{{table*}}[ht]
 \\centering
 \\small
 \\setlength{{\\tabcolsep}}{{3pt}}
@@ -336,7 +336,7 @@ def t_per_task_scores(df, cs):
     chead = " & ".join(f"\\textbf{{{registry.display_name(m)}}}" for m in cols)
     ncols = len(cols)
     return f"""% Per-task scores for representative models (auto-generated)
-\\begin{{table*}}[h]
+\\begin{{table*}}[ht]
 \\centering
 \\scriptsize
 \\setlength{{\\tabcolsep}}{{3pt}}
@@ -393,7 +393,7 @@ def t_significance(df, cs):
         cat_rows.append(fmt_row(c.replace("PairClassification", "Pair Classification"), ctasks, be))
     cat_body = "\n".join(cat_rows)
     return f"""% Statistical significance (paired bootstrap) (auto-generated)
-\\begin{{table}}[h]
+\\begin{{table}}[ht]
 \\centering
 \\small
 \\begin{{tabular}}{{lcccc}}
@@ -472,7 +472,7 @@ def t_full_models(cs, cost, params):
     llm_rows = "\n".join(row(m, r, False) for m, r in llm.iterrows())
     emb_rows = "\n".join(row(m, r, True) for m, r in emb.iterrows())
     return f"""% Appendix: full model listing with citations (auto-generated)
-\\begin{{table}}[h]
+\\begin{{table}}[ht]
 \\centering
 \\small
 \\begin{{tabular}}{{lcrrl}}
@@ -512,7 +512,7 @@ def t_llm_tokens(tok, cs):
         )
     body = "\n".join(rows)
     return f"""% Appendix: detailed LLM token usage and cost (auto-generated)
-\\begin{{table}}[h]
+\\begin{{table}}[ht]
 \\centering
 \\small
 \\setlength{{\\tabcolsep}}{{4pt}}
@@ -547,7 +547,7 @@ def t_embedding_throughput(thr, cs, params):
         )
     body = "\n".join(rows)
     return f"""% Appendix: embedding throughput on H100 (auto-generated)
-\\begin{{table}}[h]
+\\begin{{table}}[ht]
 \\centering
 \\small
 \\begin{{tabular}}{{lcrrr}}
@@ -589,7 +589,7 @@ def t_cost_sensitivity(cs, cost):
     body = "\n".join(rows)
     ratios = [llm_cost / (emb_cost * m) for _, m in scenarios] + [llm_cost / api_ec]
     return f"""% Appendix: cost sensitivity analysis (auto-generated)
-\\begin{{table}}[h]
+\\begin{{table}}[ht]
 \\centering
 \\small
 \\begin{{tabular}}{{lrrr}}
@@ -812,7 +812,7 @@ def t_datasets():
     body = "\n".join(lines)
     ntasks = len(tc)
     return f"""% Dataset overview (auto-generated from token_counts_per_task.csv + TASK_META)
-\\begin{{table}}[h]
+\\begin{{table}}[ht]
 \\centering
 \\small
 \\setlength{{\\tabcolsep}}{{3pt}}
@@ -863,7 +863,7 @@ def t_token_budget():
         lines.append(f"{r['task']} & {kk(r.query_tokens)} & {kk(r.corpus_tokens)} \\\\")
     body = "\n".join(lines)
     return f"""% Per-task token budget (GPT-4o tokenizer, raw text) (auto-generated)
-\\begin{{table}}[h]
+\\begin{{table}}[ht]
 \\centering
 \\small
 \\setlength{{\\tabcolsep}}{{5pt}}
