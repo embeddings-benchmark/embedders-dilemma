@@ -266,9 +266,11 @@ def t_retrieval_tasks(df, cs):
 \\bottomrule
 \\end{{tabular}}
 }}
-\\caption{{\\textbf{{Retrieval task breakdown.}} Per-task scores for the best LLM, second LLM,
-best embedding overall, and the best embedding on each task. $\\Delta$ = best LLM $-$ best embedding;
-bold = task winner.}}
+\\caption{{\\textbf{{Retrieval task breakdown.}} Per-task scores for Gemini~3.1~Pro (the best LLM overall),
+Gemini~3~Flash, Octen-8B (the best embedding overall), and the best embedding on each task.
+$\\Delta$ = Pro $-$ best embedding; bold marks the highest of the four score columns.
+Qwen3.6-27B outscores Pro on FQuAD (96.0) and consumer-contracts QA (88.0), so $\\Delta$ understates
+the best-LLM margin on those two tasks.}}
 \\label{{tab:retrieval_tasks}}
 \\end{{table}}
 """
