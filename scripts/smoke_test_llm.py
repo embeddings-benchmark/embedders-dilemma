@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Smoke-test the LLM endpoint defined by .env before running the full 37-task eval.
+"""Smoke-test the LLM endpoint defined by .env before running the full 38-task eval.
 
 Checks, in order:
   1. /v1/models       — endpoint is reachable, served model id matches MODEL
@@ -48,8 +48,8 @@ def check_models_endpoint(settings: Settings) -> None:
 
     if settings.model not in served:
         print(f"      WARNING: MODEL={settings.model!r} not in served list. The endpoint")
-        print("               may still accept it (some proxies are permissive), but it's")
-        print("               worth confirming.")
+        print(f"               may still accept it (some proxies are permissive), but it's")
+        print(f"               worth confirming.")
     else:
         print(f"      MODEL={settings.model!r} matches a served id  ✓")
 
@@ -62,7 +62,7 @@ def check_models_endpoint(settings: Settings) -> None:
 
 
 async def check_basic_completion(settings: Settings) -> None:
-    print("\n[2/3] basic chat completion (1-line prompt)")
+    print(f"\n[2/3] basic chat completion (1-line prompt)")
     client = AsyncOpenAI(api_key=settings.token or "dummy", base_url=settings.base_url)
     t0 = time.time()
     try:
@@ -85,11 +85,11 @@ async def check_basic_completion(settings: Settings) -> None:
     if usage:
         print(f"      tokens:  in={usage.prompt_tokens} out={usage.completion_tokens}")
     if not msg:
-        print("      WARNING: empty reply. Model may be misconfigured or refusing.")
+        print(f"      WARNING: empty reply. Model may be misconfigured or refusing.")
 
 
 async def check_json_schema(settings: Settings) -> None:
-    print("\n[3/3] structured-output (JSON, same path as classification/STS)")
+    print(f"\n[3/3] structured-output (JSON, same path as classification/STS)")
     client = AsyncOpenAI(api_key=settings.token or "dummy", base_url=settings.base_url)
 
     schema = {
@@ -128,14 +128,14 @@ async def check_json_schema(settings: Settings) -> None:
     print(f"      latency: {elapsed:.2f}s")
     print(f"      reply:   {msg!r}")
     if settings.use_strict_json:
-        print("      mode:    strict json_schema")
+        print(f"      mode:    strict json_schema")
     else:
-        print("      mode:    prompt-only (USE_STRICT_JSON=false)")
+        print(f"      mode:    prompt-only (USE_STRICT_JSON=false)")
 
 
 async def amain(skip_json: bool) -> None:
     settings = Settings()
-    print("=== smoke test ===")
+    print(f"=== smoke test ===")
     print(f"BASE_URL={settings.base_url}")
     print(f"MODEL={settings.model}")
     print(f"USE_STRICT_JSON={settings.use_strict_json}")

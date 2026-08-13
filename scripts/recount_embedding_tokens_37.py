@@ -144,8 +144,7 @@ def main():
         model_id = r["model_id"]
         cpm = r["cost_usd_per_mtok"]
         short = model_id.split("/")[-1][:35]
-        sys.stdout.write(f"  {short:37s} ... ")
-        sys.stdout.flush()
+        sys.stdout.write(f"  {short:37s} ... "); sys.stdout.flush()
         try:
             tok = AutoTokenizer.from_pretrained(model_id, trust_remote_code=True)
             n = count_tokens_batch(tok, texts)

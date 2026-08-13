@@ -63,12 +63,12 @@ MODELS = [
 def get_token_count(model, text: str) -> int:
     """Count tokens using the model's own tokenizer; fall back to char estimate."""
     try:
-        inner = model.model if hasattr(model, "model") else model
+        inner = getattr(model, "model") if hasattr(model, "model") else model
         if hasattr(inner, "tokenizer"):
-            tokenizer = inner.tokenizer
+            tokenizer = getattr(inner, "tokenizer")
         else:
-            mod = inner._first_module() if hasattr(inner, "_first_module") else None
-            tokenizer = mod.tokenizer if (mod and hasattr(mod, "tokenizer")) else None
+            mod = getattr(inner, "_first_module")() if hasattr(inner, "_first_module") else None
+            tokenizer = getattr(mod, "tokenizer") if (mod and hasattr(mod, "tokenizer")) else None
         if tokenizer is not None:
             return len(tokenizer.encode(text, add_special_tokens=True))
     except Exception:

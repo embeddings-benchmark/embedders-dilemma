@@ -7,6 +7,7 @@ Every plotting script does: from pub_style import *
 from pathlib import Path
 import matplotlib.pyplot as plt
 import matplotlib.patheffects as pe
+import numpy as np
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 

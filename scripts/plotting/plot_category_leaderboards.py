@@ -14,6 +14,7 @@ from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 import numpy as np
 from pathlib import Path
 from PIL import Image
+from matplotlib.colors import to_rgba
 
 plt.rcParams['font.family'] = 'sans-serif'
 plt.rcParams['font.sans-serif'] = ['DejaVu Sans', 'Arial', 'Helvetica']

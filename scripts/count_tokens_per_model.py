@@ -9,7 +9,7 @@ Usage:
     conda activate mteb
     python scripts/count_tokens_per_model.py
 """
-import sys
+import csv, json, sys
 from pathlib import Path
 from datasets import load_dataset
 from transformers import AutoTokenizer
@@ -71,12 +71,12 @@ def load_ds(path, config, rev, split="test"):
         if config:
             return load_dataset(path, config, split=split, revision=rev)
         return load_dataset(path, split=split, revision=rev)
-    except Exception:
+    except:
         try:
             if config:
                 return load_dataset(path, config, split=split)
             return load_dataset(path, split=split)
-        except Exception:
+        except:
             return None
 
 
@@ -184,9 +184,7 @@ def main():
         # Free memory
         if tok is not None:
             del tok
-        import gc
-
-        gc.collect()
+        import gc; gc.collect()
 
     # Stage 3: Summary
     print("\n" + "=" * 80)

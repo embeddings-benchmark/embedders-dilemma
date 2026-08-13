@@ -6,8 +6,10 @@ LLMs dominate retrieval, embeddings dominate classification.
 
 import sys
 from pathlib import Path
+import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.patheffects as pe
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(Path(__file__).parent))

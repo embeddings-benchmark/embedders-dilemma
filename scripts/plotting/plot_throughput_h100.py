@@ -73,7 +73,7 @@ def main():
     y = np.arange(len(rows))
     ax.barh(y, vals, color=colors, edgecolor="white", linewidth=1.4, zorder=3, height=0.74)
 
-    for yi, v in zip(y, vals):
+    for yi, v, c in zip(y, vals, colors):
         txt = f"{v/1e6:.1f}M" if v >= 1e6 else (f"{v/1e3:.0f}k" if v >= 1e3 else f"{v:.0f}")
         ax.text(v * 1.18, yi, txt + " tok/s", va="center", ha="left",
                 fontsize=13, fontweight="bold", color="#1F2937")

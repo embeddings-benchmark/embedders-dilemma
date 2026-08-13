@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Task-level performance — range bars (Full-Page Appendix Overhaul).
 
-For each of 37 tasks, shows the embedding score range [min, max] as a
+For each of 38 tasks, shows the embedding score range [min, max] as a
 horizontal bar with the best LLM score overlaid as a diamond marker.
 Tasks are grouped by category and formatted into a highly comfortable
 vertical layout that cleanly fills a single standard Appendix page.
@@ -17,7 +17,7 @@ from matplotlib.lines import Line2D
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(Path(__file__).parent))
-from pub_style import CAT_COLORS, CAT_ORDER
+from pub_style import save_fig, CAT_COLORS, CAT_ORDER
 import registry   # single source of truth
 
 C_LLM = "#DC2626"

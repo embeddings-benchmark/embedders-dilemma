@@ -211,7 +211,7 @@ def main():
             n = df[(df.model == m) & (df.model_type == "reranker")]["task"].nunique()
             print(f"  {m:75s} {n:2d}/6 retrieval tasks")
 
-    print("\nTask coverage by category:")
+    print(f"\nTask coverage by category:")
     print(df.groupby(["task_category", "model_type"])["task"].nunique().to_string())
 
     out = ROOT / "data" / "scores.csv"

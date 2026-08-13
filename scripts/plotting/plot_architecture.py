@@ -97,13 +97,13 @@ def build_mask(kind, nq, nd, read, dlabel="docs"):
 
 def attn(ax, kind, nq, nd, read, dlabel="docs"):
     a, split, ticks = build_mask(kind, nq, nd, read, dlabel)
+    n = a.shape[0]
     ax.imshow(a, cmap=ListedColormap([NONE_C, SELF, ACCENT]), vmin=0, vmax=2,
               interpolation="nearest")
     ax.axhline(split - 0.5, color=INK, lw=0.9)
     ax.axvline(split - 0.5, color=INK, lw=0.9)
     for sp in ax.spines.values():
-        sp.set_edgecolor(INK)
-        sp.set_linewidth(0.9)
+        sp.set_edgecolor(INK); sp.set_linewidth(0.9)
     ax.set_xticks([t for t, _ in ticks])
     ax.set_xticklabels([l for _, l in ticks], fontsize=FS_R, color=INK)
     ax.set_yticks([t for t, _ in ticks])
@@ -114,23 +114,23 @@ def attn(ax, kind, nq, nd, read, dlabel="docs"):
 
 COLS = [
     dict(t="Bi-encoder", s="embedding pipeline", arch=arch_bi,
-         attn=dict(kind="bi", nq=3, nd=18, read=0, dlabel="the $N$ documents"),
+         attn=dict(kind="bi", nq=3, nd=18, read=0, dlabel="$N$ docs"),
          note="never jointly",
          per="$N$ vector comparisons\nper query",),
     dict(t="Cross-encoder", s="pairwise reranker",
          arch=lambda ax: arch_joint(ax, "Query $+$ 1 doc", "Encoder", "score"),
-         attn=dict(kind="cross", nq=3, nd=18, read=2, dlabel="the $N$ documents"),
+         attn=dict(kind="cross", nq=3, nd=18, read=2, dlabel="$N$ docs"),
          note="one document at a time",
          per="$k$ pairwise passes\nper query",),
     dict(t="LLM listwise", s="reranker over top-$k$",
          arch=lambda ax: arch_joint(ax, "Query $+$ $k$ docs", "LLM", "ranking"),
-         attn=dict(kind="cross", nq=3, nd=18, read=8, dlabel="the $N$ documents"),
+         attn=dict(kind="cross", nq=3, nd=18, read=8, dlabel="$N$ docs"),
          note="$k$ documents at once",
          per="one pass over $k$ docs\nper query",),
     dict(t="LLM corpus-in-context", s="generative retrieval",
          arch=lambda ax: arch_joint(ax, "Query $+$ all $N$ docs", "LLM",
                                     "ranking"),
-         attn=dict(kind="cross", nq=3, nd=18, read=18, dlabel="the $N$ documents"),
+         attn=dict(kind="cross", nq=3, nd=18, read=18, dlabel="$N$ docs"),
          note="the whole corpus at once",
          per="one pass over $N$ docs\nper query",),
 ]
@@ -140,33 +140,33 @@ COLS = [
 def main():
     plt.rcParams.update({"font.family": "sans-serif",
                          "font.sans-serif": ["DejaVu Sans", "Arial"]})
-    FW, FH = 11.6, 7.5
+    # Shorter figure: the attention grids carry the message but were 2.25in
+    # tall each. Width is unchanged, so on-page font sizes are unaffected.
+    FW, FH = 11.6, 6.5
     fig = plt.figure(figsize=(FW, FH), facecolor="white")
 
     GUT, GAP = 0.020, 0.008
     W = (0.992 - GUT - 3 * GAP) / 4
     xs = [GUT + i * (W + GAP) for i in range(4)]
 
-    for x0, c in zip(xs, COLS):
+    for i, (x0, c) in enumerate(zip(xs, COLS)):
         cx = x0 + W / 2
         fig.text(cx, 0.990, c["t"], ha="center", va="top", fontsize=FS_T,
                  fontweight="bold", color=INK)
         fig.text(cx, 0.940, c["s"], ha="center", va="top", fontsize=FS_S,
                  color=GRAY)
 
-        ax = fig.add_axes([x0, 0.615, W, 0.280])
-        ax.set_axis_off()
-        ax.set_xlim(0, 1)
-        ax.set_ylim(0, 1)
+        ax = fig.add_axes([x0, 0.610, W, 0.280])
+        ax.set_axis_off(); ax.set_xlim(0, 1); ax.set_ylim(0, 1)
         c["arch"](ax)
 
-        sh = 0.300
-        axm = fig.add_axes([cx - sh * FH / FW / 2, 0.250, sh * FH / FW, sh])
+        sh = 0.265
+        axm = fig.add_axes([cx - sh * FH / FW / 2, 0.285, sh * FH / FW, sh])
         attn(axm, **c["attn"])
 
-        fig.text(cx, 0.192, c["note"], ha="center", va="center", fontsize=FS_S,
+        fig.text(cx, 0.225, c["note"], ha="center", va="center", fontsize=FS_S,
                  style="italic", color=INK)
-        fig.text(cx, 0.126, c["per"], ha="center", va="center", fontsize=FS_S,
+        fig.text(cx, 0.140, c["per"], ha="center", va="center", fontsize=FS_S,
                  color=INK, linespacing=1.45)
         # compact two-line key/value; the keys live once, in the gutter
 
@@ -177,7 +177,7 @@ def main():
                                (ACCENT, "query\u2013document"),
                                (NONE_C, "no attention"))]
     fig.legend(handles=handles, loc="lower center", ncol=3, frameon=False,
-               fontsize=FS_S, bbox_to_anchor=(0.5, 0.012), handlelength=1.15,
+               fontsize=FS_S, bbox_to_anchor=(0.5, 0.010), handlelength=1.15,
                handleheight=1.15, handletextpad=0.7, columnspacing=3.0,
                labelcolor=GRAY)
 

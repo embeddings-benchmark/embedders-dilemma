@@ -37,6 +37,7 @@ Usage:
 """
 
 import argparse
+import csv
 import json
 import shutil
 import sys
@@ -253,7 +254,7 @@ def run_sweep(concurrencies: list[int], force: bool = False):
     from llm_judge.main import _DummyEncoder
     from llm_judge.tasks.classification import LLMImdbClassification
     from llm_judge.llm_client import settings as llm_settings
-    import llm_judge.evaluators.llm_classification_evaluator as eval_mod
+    import llm_judge.evaluators.llm_classification_evauator as eval_mod
 
     RESULTS_DIR.mkdir(exist_ok=True)
 
@@ -265,7 +266,7 @@ def run_sweep(concurrencies: list[int], force: bool = False):
     print(f"\nModel:    {llm_settings.model}")
     print(f"Base URL: {llm_settings.base_url}")
     print(f"Output:   {model_dir}")
-    print("Task:     IMDB Classification")
+    print(f"Task:     IMDB Classification")
     print(f"Sweep:    {sorted(concurrencies)}\n")
 
     for conc in sorted(concurrencies):
@@ -583,7 +584,7 @@ def main():
     print(f"\nBest LLM peak: {llm_best_peak:.0f} samples/min")
 
     if not emb_df.empty:
-        print("\nEmbedding throughput (H100, MTEB end-to-end, n_experiments=1):")
+        print(f"\nEmbedding throughput (H100, MTEB end-to-end, n_experiments=1):")
         print(f"  {'Model':<25s} {'Time (s)':>10} {'Samp/min':>12} {'Speedup':>10} {'Acc':>8}")
         print(f"  {'-'*70}")
         for _, r in emb_df.iterrows():

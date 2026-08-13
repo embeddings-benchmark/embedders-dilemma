@@ -112,8 +112,7 @@ def main():
             continue
         bench = "BRIGHT" if d["task"].startswith("BRIGHT") else "BEIR"
         a = agg.setdefault((m, bench), [0.0, 0.0])
-        a[0] += d["input_tokens"]
-        a[1] += d["output_tokens"] + d["thinking_tokens"]
+        a[0] += d["input_tokens"]; a[1] += d["output_tokens"] + d["thinking_tokens"]
     for (m, bench), (ti, to) in sorted(agg.items()):
         p = registry.LLM_PRICING[m]
         cost = (ti * p["input"] + to * p["output"]) / 1e6

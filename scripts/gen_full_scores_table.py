@@ -210,7 +210,7 @@ for i, cat in enumerate(cats_ordered):
 
 latex = "\n".join(lines)
 
-out_path = "69c70f50c5d1a4ea5eb6dfec/tables/full_per_task_all_models.tex"
+out_path = "tables/full_per_task_all_models.tex"
 with open(out_path, "w") as f:
     f.write(latex + "\n")
 

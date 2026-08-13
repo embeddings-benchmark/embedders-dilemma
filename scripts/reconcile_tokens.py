@@ -33,7 +33,7 @@ for jf in sorted(llm_dir.rglob("*.json")):
     if canon not in canonical:
         continue
     d = json.loads(jf.read_text())
-    for _split, sd in d.get("scores", {}).items():
+    for split, sd in d.get("scores", {}).items():
         if not sd:
             continue
         entries = sd if isinstance(sd, list) else [sd]
@@ -115,10 +115,10 @@ for task in sorted(emb.index):
 print("-" * 117)
 print()
 print("TOTALS:")
-print(f"  Embedding raw text tokens:  {total_emb:>12,d}  ({total_emb/1e6:.1f}M)")
-print(f"  LLM input tokens (FlashL):  {total_llm:>12,d}  ({total_llm/1e6:.1f}M)")
-print(f"  Total overhead:             {total_llm - total_emb:>12,d}  ({(total_llm-total_emb)/1e6:.1f}M)")
-print(f"  Overhead multiplier:        {total_llm / total_emb:.1f}x")
+print("  Embedding raw text tokens:  {:>12,d}  ({:.1f}M)".format(total_emb, total_emb/1e6))
+print("  LLM input tokens (FlashL):  {:>12,d}  ({:.1f}M)".format(total_llm, total_llm/1e6))
+print("  Total overhead:             {:>12,d}  ({:.1f}M)".format(total_llm - total_emb, (total_llm-total_emb)/1e6))
+print("  Overhead multiplier:        {:.1f}x".format(total_llm / total_emb))
 print()
 
 # Expected overhead breakdown
@@ -127,11 +127,13 @@ n_sts = sum(1 for t in emb.index if emb.loc[t, "category"] == "STS")
 n_clust = sum(1 for t in emb.index if emb.loc[t, "category"] == "Clustering")
 n_pair = sum(1 for t in emb.index if emb.loc[t, "category"] == "PairClassification")
 n_ret = sum(1 for t in emb.index if emb.loc[t, "category"] == "Retrieval")
-print(f"Task counts: {n_cls} cls, {n_sts} sts, {n_clust} clust, {n_pair} pair, {n_ret} ret = {n_cls + n_sts + n_clust + n_pair + n_ret} total")
+print("Task counts: {} cls, {} sts, {} clust, {} pair, {} ret = {} total".format(
+    n_cls, n_sts, n_clust, n_pair, n_ret,
+    n_cls + n_sts + n_clust + n_pair + n_ret))
 
 if issues:
-    print(f"\nFlagged tasks ({len(issues)}):")
+    print("\nFlagged tasks ({}):".format(len(issues)))
     for t, f, oh in issues:
-        print(f"  {t}: {f} (OH/req={oh:.0f})")
+        print("  {}: {} (OH/req={:.0f})".format(t, f, oh))
 else:
     print("\nNo issues found - all overhead values look reasonable!")

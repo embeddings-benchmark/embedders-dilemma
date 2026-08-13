@@ -25,6 +25,7 @@ import sys
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import matplotlib.patheffects as pe
 import matplotlib.ticker as ticker
 from pathlib import Path
 
@@ -309,13 +310,16 @@ def plot_pareto(df, pareto, out_dir):
     if emb.empty or llm.empty:
         return
     best_emb = emb.loc[emb["avg_score"].idxmax()]
-    C_EMB = "#2563EB"
+    flash = llm[llm.model.str.contains("flash-preview") & ~llm.model.str.contains("lite")]
+    fr = flash.iloc[0] if not flash.empty else None
+
+    C_EMB, C_EMB_LT, C_LINE = "#2563EB", "#C2D6F2", "#1D4ED8"
     C_FRONT = "#475569"   # neutral frontier line: it spans both paradigms (embeddings + the one Pareto-optimal LLM)
     C_LLM, C_STAR = "#DC2626", "#F59E0B"
 
     plt.rcParams.update({"font.family": "sans-serif",
                          "font.sans-serif": ["DejaVu Sans", "Arial", "Helvetica"]})
-    fig, ax = plt.subplots(figsize=(16.5, 9.9), facecolor="white", dpi=150)
+    fig, ax = plt.subplots(figsize=(16.5, 8.0), facecolor="white", dpi=150)
     ax.set_facecolor("white")
 
     # ── Subtle zones + divider ───────────────────────────────────────────────
@@ -373,8 +377,8 @@ def plot_pareto(df, pareto, out_dir):
     ax.yaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: f"{x*100:.0f}"))
     ax.set_xlabel("Total benchmark cost (USD, log scale)", fontsize=21, labelpad=10, color="#374151")
     ax.set_ylabel("Mean MTEB(LLM) score", fontsize=21, labelpad=10, color="#374151")
-    ax.set_title("Cost vs. Performance:  LLMs vs. Embedding Models",
-                 fontsize=27, fontweight="bold", color="#111827", pad=16)
+    # No title: the LaTeX caption already titles the figure (same convention as
+    # plot_pareto_per_category.py), and it frees vertical space on page 1.
     ax.tick_params(labelsize=17, colors="#4B5563")
     ax.grid(True, which="major", color="#EBEEF3", lw=1.0, zorder=0)
     for sp in ("top", "right"):
@@ -440,7 +444,7 @@ def main():
     emb_costs = load_embedding_costs()
 
     print("Computing LLM costs ...")
-    # Canonical 37 tasks (driven by embedding results in scores.csv)
+    # Canonical 38 tasks (driven by embedding results in scores.csv)
     scores_raw = pd.read_csv(ROOT / "data" / "scores.csv")
     canonical_tasks = set(scores_raw[scores_raw.model_type == "embedding"]["task"].unique())
     print(f"  Filtering to {len(canonical_tasks)} canonical tasks")

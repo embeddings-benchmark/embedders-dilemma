@@ -33,9 +33,7 @@ def frontier(xs, ys):
     fx, fy, best = [], [], -np.inf
     for i in order:
         if ys[i] >= best - 1e-9:
-            fx.append(xs[i])
-            fy.append(ys[i])
-            best = max(best, ys[i])
+            fx.append(xs[i]); fy.append(ys[i]); best = max(best, ys[i])
     return np.array(fx), np.array(fy)
 
 
@@ -50,13 +48,14 @@ def main():
     emb = cs[cs.model_type == "embedding"]
     llm = cs[cs.model_type == "llm"]
 
-    fig, axes = plt.subplots(2, 3, figsize=(13, 7.7), facecolor="white")
+    # Shorter figure: six small panels tolerate a flatter aspect, and width is
+    # unchanged so on-page font sizes are unaffected.
+    fig, axes = plt.subplots(2, 3, figsize=(13, 6.2), facecolor="white")
     for ax, cat in zip(axes.flat, PANELS):
         ex, ey = emb["total_cost"].values, emb[cat].values * 100
         lx, ly = llm["total_cost"].values, llm[cat].values * 100
         # Pareto frontier over ALL models (embeddings + LLMs)
-        allx = np.concatenate([ex, lx])
-        ally = np.concatenate([ey, ly])
+        allx = np.concatenate([ex, lx]); ally = np.concatenate([ey, ly])
         fx, fy = frontier(allx, ally)
         ax.plot(fx, fy, color="#1E3A8A", lw=2.2, zorder=2, alpha=0.8)
         ax.scatter(ex, ey, s=48, color=C_EMB, edgecolor="white", lw=0.7, zorder=3, label="Embedding")
@@ -89,7 +88,7 @@ def main():
     fig.legend(handles=h, loc="lower center", ncol=3, fontsize=20, frameon=False,
                bbox_to_anchor=(0.5, -0.062))
     # No suptitle: the LaTeX caption already titles the figure (avoids redundancy).
-    fig.tight_layout(rect=[0, 0.04, 1, 1])
+    fig.tight_layout(rect=[0, 0.055, 1, 1])
     out = ROOT / "visualizations"
     for ext in ("png", "pdf"):
         fig.savefig(out / f"pareto_per_category.{ext}", dpi=180, bbox_inches="tight")
