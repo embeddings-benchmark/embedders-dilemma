@@ -12,7 +12,7 @@ from pathlib import Path
 from PIL import Image
 import io
 
-LOGOS_DIR = Path(r"C:\Users\ADNAN\LLM\LLMvsEmbeddings\human-eval-results\visualizations\logos")
+LOGOS_DIR = Path(__file__).resolve().parent.parent.parent / "visualizations" / "logos"
 
 # Map: current filename stem (lower) → canonical key we want to use in the plot
 RENAME_MAP = {

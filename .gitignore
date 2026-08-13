@@ -12,7 +12,7 @@ throughput_results
 ablation_results
 
 # Nested git repos (Overleaf paper, RLM engine)
-69c70f50c5d1a4ea5eb6dfec/
+paper/            # LaTeX source lives in a separate private project
 rlm/
 
 # Archived/legacy scripts

@@ -17,7 +17,7 @@ from matplotlib.colors import to_rgba
 plt.rcParams['font.family'] = 'sans-serif'
 plt.rcParams['font.sans-serif'] = ['DejaVu Sans', 'Segoe UI', 'Arial', 'Helvetica']
 
-ROOT = Path(r"C:\Users\ADNAN\LLM\LLMvsEmbeddings\human-eval-results")
+ROOT = Path(__file__).resolve().parent.parent.parent
 LOGOS_DIR = ROOT / "visualizations" / "logos"
 
 # ── Curated model list: best per company, no duplicates ──────────────────────
