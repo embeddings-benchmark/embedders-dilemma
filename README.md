@@ -1,6 +1,6 @@
 # The Embedder's Dilemma: LLMs Are Better, but at What Cost?
 
-Code, data, and results for the COLM 2026 paper. **MTEB(LLM)** compares two ways of solving
+Code, data, and results for the COLM 2026 paper [The Embedder's Dilemma: LLMs Are Better, but at What Cost?](https://arxiv.org/abs/2608.12875). **MTEB(LLM)** compares two ways of solving
 text-similarity tasks — an embedding pipeline vs. prompting an LLM directly — on identical data,
 with exact cost and throughput accounting.
 
