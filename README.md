@@ -1,5 +1,7 @@
 # The Embedder's Dilemma: LLMs Are Better, but at What Cost?
 
+[![arXiv](https://img.shields.io/badge/arXiv-2608.12875-b31b1b.svg)](https://arxiv.org/abs/2608.12875)
+
 Code, data, and results for the COLM 2026 paper [The Embedder's Dilemma: LLMs Are Better, but at What Cost?](https://arxiv.org/abs/2608.12875). **MTEB(LLM)** compares two ways of solving
 text-similarity tasks — an embedding pipeline vs. prompting an LLM directly — on identical data,
 with exact cost and throughput accounting.
@@ -100,9 +102,13 @@ on BRIGHT-7 and BEIR-5 — lives in `scripts/experiments/run_pipeline.py`
 
 ```bibtex
 @inproceedings{elassadi2026embedders,
-  title     = {The Embedder's Dilemma: {LLM}s Are Better, but at What Cost?},
-  author    = {El Assadi, Adnan and Muennighoff, Niklas and Lee, Jinhyuk},
-  booktitle = {Conference on Language Modeling (COLM)},
-  year      = {2026},
+  title         = {The Embedder's Dilemma: {LLM}s Are Better, but at What Cost?},
+  author        = {{El Assadi}, Adnan and Muennighoff, Niklas and Lee, Jinhyuk},
+  booktitle     = {Conference on Language Modeling (COLM)},
+  year          = {2026},
+  eprint        = {2608.12875},
+  archivePrefix = {arXiv},
+  primaryClass  = {cs.CL},
+  url           = {https://arxiv.org/abs/2608.12875},
 }
 ```
