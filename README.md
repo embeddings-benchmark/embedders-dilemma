@@ -104,7 +104,7 @@ on BRIGHT-7 and BEIR-5 — lives in `scripts/experiments/run_pipeline.py`
 @inproceedings{elassadi2026embedders,
   title         = {The Embedder's Dilemma: {LLM}s Are Better, but at What Cost?},
   author        = {{El Assadi}, Adnan and Muennighoff, Niklas and Lee, Jinhyuk},
-  booktitle     = {Conference on Language Modeling (COLM)},
+  booktitle     = {Third Conference on Language Modeling},
   year          = {2026},
   eprint        = {2608.12875},
   archivePrefix = {arXiv},
